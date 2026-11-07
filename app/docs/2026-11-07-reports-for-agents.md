@@ -1,5 +1,7 @@
 # 錯誤回報：收集與 AI agent 處理（本機實作，尚未部署）
 
+**靜態搜尋整合後提醒（2026-11-07）：** 以下為原Worker收件設計，程式與測試均保留。新的`pages-static/`公開包不再透過原gateway，也沒有D1、Turnstile設定；預設`reportsOpen:false`，不顯示匿名送出按鈕，只提供複製回報內容。若要開啟Pages收件，須另規劃D1 binding、驗證及CSP允許來源，並重新測試。請勿直接照本文最後的「Pages入口只轉送」部署；目前架構以`2026-11-07-static-topic-search.md`為準。本輪未部署或套用資料表。
+
 ## 資料流
 讀者在主題詳細頁填「問題類型＋說明」→ `POST /api/reports`（Worker `puma-policy-v1`，經 Turnstile 驗證、限流）→ D1 資料表 `reports` → 維護者／AI agent 以 `GET /api/admin/reports` 讀取 → 逐筆核對原文 → `PATCH` 標記狀態 → 人工決定是否改內容並發布。
 

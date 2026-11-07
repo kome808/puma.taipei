@@ -12,7 +12,7 @@
 
 ## 公開程式與封存工具分開
 
-- `worker/index.ts`不再import原OpenAI、AI Search、DB檢索或Turnstile流程。
+- `worker/index.ts`不再import原OpenAI或AI Search檢索流程；保留Claude獨立的匿名回報路由，只有啟用收件時才使用D1與Turnstile。
 - 舊`/api/generate`、`/api/search`的所有方法回410 `FEATURE_RETIRED`；設定及健康端點明確回報靜態模式，不依賴任何AI或資料庫。
 - 原Worker的`/`與`/index.html`導向`/topics/`；React入口也只保留導向，沒有產文表單。
 - `app/wrangler.jsonc`已移除AI Search binding及模型／Turnstile vars。原D1/R2資料與Secret沒有刪除；舊檢索、生成、匯入程式作歷史／內部工具保留，並非公開入口。
@@ -58,10 +58,10 @@ AI Search目前每月包含1,000次語意及1,000次全文查詢，並列出2026
 
 ## 整合驗證（2026-11-07，尚未部署）
 
-已整合Claude同日新增的分享預覽圖與逐題錯誤回報入口（`0a0f09f`），保留其原始資料及摘要。`npm run build`、`npm run build:static`成功；`npm test`共94項通過、0失敗。可機讀紀錄見[驗證結果](../content/policy-topics/revisions/2026-11-07-static-search/verification.json)。
+已整合Claude同日新增的分享預覽圖、逐題錯誤回報入口（`0a0f09f`），以及匿名收件、管理路由與測試（`ed276aa`），保留其原始資料及摘要。`npm run build`、`npm run build:static`成功；完整101項測試通過、0失敗。可機讀紀錄見[驗證結果](../content/policy-topics/revisions/2026-11-07-static-search/verification.json)。
 
-本機Pages預覽從`pages-static/`啟動，只載入平台的CF_PAGES資訊，沒有原Worker的DB、R2或模型binding。根目錄直接呈現主題館，預設顯示15類與86張卡片。都更起始房源、銀髮肌力、教師行政負擔、臨時托育、AI教練等五個問題均找到預期主題；查詢、開啟內容及回報表單的操作期間沒有新增網路請求。搜尋只回傳既有內容，不代表涵蓋所有問法。
+本機Pages預覽從`pages-static/`啟動，只載入平台的CF_PAGES資訊，沒有原Worker的DB、R2或模型binding。根目錄直接呈現主題館，預設顯示15類與86張卡片。都更起始房源、銀髮肌力、教師行政負擔、臨時托育、AI教練等五個問題均找到預期主題；查詢及開啟內容沒有新增網路請求。展開回報表單會額外讀一次`/api/config`，不傳送回報文字。搜尋只回傳既有內容，不代表涵蓋所有問法。
 
-短摘要實測與資料中的`share.text`逐字相同，來源網址解碼後相符；可複製，超過500字元會停用複製，還原可恢復原文。回報表單可展開，尚未設定收件信箱時沒有寄信連結，操作不傳送資料。原搜尋／生成API均回410，健康與設定端點顯示靜態模式。
+短摘要實測與資料中的`share.text`逐字相同，來源網址解碼後相符；可複製，超過500字元會停用複製，還原可恢復原文。回報表單可展開，預設`reportsOpen:false`且未設定收件信箱，不顯示寄信或匿名送出按鈕；保留複製方式。原搜尋／生成API均回410，健康與設定端點顯示靜態模式。若後續啟用匿名收件，須另設定D1、驗證金鑰、CSP並驗證；此次沒有建立資料表、設定新Secret或傳送回報。
 
 1440px桌面及390px手機版瀏覽器預覽已檢查，手機沒有橫向溢出；[桌面截圖](screenshots/2026-11-07/free-static-desktop.png)、[手機截圖](screenshots/2026-11-07/free-static-mobile.png)已更新。未在實體iPhone Safari或正式站驗證。這些結果僅證明本機版本；`publication.json`及遠端服務均未更動。

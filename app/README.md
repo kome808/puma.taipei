@@ -10,7 +10,7 @@
 - 以標題、主題關鍵字、官方與訪談內容做加權詞彙比對，支援部分常用同義詞及臺／台正規化；這是詞彙搜尋，不是LLM語意理解。
 - 搜尋排序回傳原本的主題物件，短摘要與引用逐字維持原樣。找不到時顯示空結果，不另寫答案。
 - 完整可複製內容含換行、標點及原始網址不超過500字元；保留編輯、還原與來源完整性守門。
-- 公開頁面不呼叫OpenAI、Cloudflare AI Search、Workers AI或Turnstile。問題不會送到AI服務；網址仍可保留查詢與主題，支援返回及深連結。
+- 搜尋不呼叫OpenAI、Cloudflare AI Search、Workers AI或Turnstile。問題不會送到AI服務；網址仍可保留查詢與主題，支援返回及深連結。
 - `/api/generate`、舊`/api/search`回410；`/api/config`回報`static-topic-search`及`generationEnabled:false`。不是只隱藏表單。
 
 主要檔案：`public/topics/`，搜尋模組為 `topic-search.mjs`。主題來源為 `content/policy-topics/expanded-topics.json`，透過 `scripts/export-public-topics.mjs` 匯出公開JSON；內部校讀註記不進入公開檔案。本輪沒有修改政策、訪談或摘要正文。
@@ -37,7 +37,9 @@ npm test
 - `static-dist/`：新Pages站台的產物，HTML／CSS／JS／JSON直接提供靜態內容，`_routes.json`僅讓`/api/*`進入輕量函式。根目錄與`/topics/`都能直接開啟主題館。
 - `npm run build`：保留原Worker發行所需的Vite產物及型別檢查，原首頁現在只導向主題館。
 - `npm run dev:worker`：僅供原Worker退役路由的本機驗證。
-- `worker/index.ts`：只提供靜態入口、410退役API與健康資訊；沒有OpenAI／AI Search／DB查詢依賴。
+- `worker/index.ts`：提供靜態入口、410退役API、健康資訊，以及Claude新增的獨立回報路由；搜尋與健康檢查沒有模型或DB查詢。
+
+已保留Claude的匿名錯誤回報實作。新Pages預設沒有D1及驗證設定，`reportsOpen:false`，表單只提供複製回報內容；展開表單會讀取一次`/api/config`，不會傳送說明文字。若後續要開啟收件，須另完成D1、Turnstile與CSP設定及驗證，不能把舊gateway的收件部署步驟直接套用新靜態Pages包。詳見[回報說明](docs/2026-11-07-reports-for-agents.md)。
 
 `scripts/dev.mjs`及原生成、檢索模組保留為歷史／內部工具和既有測試資料，已不是`npm run dev`或正式Worker的入口。請勿執行舊的真實模型smoke腳本作為這版驗收。
 

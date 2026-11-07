@@ -1,16 +1,16 @@
 {
   "checked_on": "2026-11-07",
   "status": "validated_locally_not_deployed",
-  "implementation_commit": "552dd8c5a0c264a8dcd2dfa763bf320ad353684c",
-  "base_with_claude_changes": "0a0f09f",
+  "implementation_commit": "5467fd1571204a337f878b232e1bbe36744ea084",
+  "base_with_claude_changes": "ed276aa9ca210ecd69213c35ed2cc06a2e6d37d9",
   "builds": [
     "npm run build",
     "npm run build:static"
   ],
   "tests": {
-    "pass": 94,
+    "pass": 101,
     "fail": 0,
-    "log_summary": "npm test: 94 tests passed"
+    "log_summary": "npm test: 101 tests passed after integrating anonymous reports"
   },
   "data_integrity": [
     {
@@ -61,7 +61,6 @@
         ]
       }
     ],
-    "network_requests_during_query_and_ui": 0,
     "t028_summary_matches_share_text": true,
     "t028_summary_utf16_characters": 401,
     "t028_all_source_urls_match_after_decode": true,
@@ -73,7 +72,10 @@
     "mobile_viewport_width": 390,
     "mobile_document_scroll_width": 390,
     "mobile_dialog_width": 352,
-    "physical_iphone_safari_tested": false
+    "physical_iphone_safari_tested": false,
+    "network_requests_during_query_and_topic_open": 0,
+    "report_config_requests_on_first_form_open": 1,
+    "report_submit_button_hidden_without_configuration": true
   },
   "api": {
     "/api/health": {
@@ -82,7 +84,8 @@
     },
     "/api/config": {
       "status": 200,
-      "generationEnabled": false
+      "generationEnabled": false,
+      "reportsOpen": false
     },
     "/api/search": {
       "status": 410,
@@ -96,6 +99,7 @@
   "limitations": [
     "Lexical and curated-synonym search; natural-language coverage is not exhaustive.",
     "No deployment performed; live site and old Worker are unchanged.",
-    "Old archive tools and remote resources remain; they are not invoked by this public entry point."
+    "Old archive tools and remote resources remain; they are not invoked by this public entry point.",
+    "Anonymous report routes are retained, but the default static Pages package has no D1 or Turnstile configuration and does not enable report submission."
   ]
 }

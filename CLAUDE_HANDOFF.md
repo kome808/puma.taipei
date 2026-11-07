@@ -1,5 +1,7 @@
 # Claude 接手入口：Puma政策筆記
 
+**整合提醒（2026-11-07）：** 已保留Claude的`ed276aa`匿名回報程式、管理工具與7項測試；搜尋仍在瀏覽器完成，原生成與檢索API回410。新靜態Pages預設無D1／Turnstile，`reportsOpen:false`，回報僅複製備援；啟用收件須另完成binding與CSP設定。兩種建置及完整101項測試已通過，仍未部署。
+
 **後續版本提醒（2026-11-07）：** 本分支已承接Claude的 `bc921b1` 修訂，並新增不使用OpenAI／Cloudflare AI Search的公開靜態主題搜尋。新Pages設定位於根目錄 `pages-static/`，操作見 `app/README.md` 與 `app/docs/2026-11-07-static-topic-search.md`；尚未部署。下文為初始匯入紀錄，`HANDOFF_MANIFEST.json`也只對應初始匯入，不應用來回退後續合法修訂。
 
 交接日期：2026-11-07（Asia/Taipei）。本倉庫匯入使用者 Mac 上的現行工作樹，包含尚未發布的修改，不是從公開網站還原的版本。請以本分支檔案為接手基準，不再從 Google Drive 的同名副本猜選版本。
