@@ -97,7 +97,7 @@ test('the site name is unified and no old brand text remains in public pages', (
     assert.ok(!text.includes('蒟蒻'), `${file} still has the mascot phrasing`);
   }
   assert.match(read('index.html'), /<title>Puma政策筆記/);
-  assert.match(read('public/topics/index.html'), /<title>政策主題館｜Puma政策筆記<\/title>/);
+  assert.match(read('public/topics/index.html'), /<title>Puma政策筆記<\/title>/);
   assert.match(read('public/topics/index.html'), /og:site_name" content="Puma政策筆記"/);
   assert.match(read('public/topics/index.html'), /非官方網站/);
 });
