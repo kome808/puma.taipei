@@ -1,118 +1,126 @@
-# 上線檢查清單：Puma政策筆記（新主題館＋錯誤回報）
+# 上線檢查清單：Puma政策筆記（靜態主題館）
 
-狀態：**尚未部署**。本檔供使用者本人，或在使用者電腦上已登入 wrangler 的 Codex 照做。雲端容器沒有 Cloudflare 憑證，無法代為執行。
+狀態：**尚未部署**。供使用者本人，或在使用者電腦上已登入 wrangler 的 Codex 照做。雲端容器沒有 Cloudflare 憑證，無法代為執行。
 
-## 先確認你要發布什麼
+> 本檔已依分支最新架構重寫（2026-11-07，整合 `663840d`）。先前草稿假設「Worker＋D1 匿名回報」，與現行架構不符，已作廢。架構以 [靜態搜尋紀錄](2026-11-07-static-topic-search.md) 為準。
 
-部署 Worker `puma-policy-v1` 會一次發布目前分支上**所有**尚未上線的內容，不只錯誤回報：
+## 現行架構與這次要發布的內容
 
-- 改名「Puma政策筆記」（頁首、頁尾、標題、描述、分享預覽圖）
-- 86 題短摘要改寫（複製全文含網址 ≤500 字元）
-- 15 類導覽＋86 張主題卡片、單題網址、搜尋結果緊接查詢框
-- 匿名錯誤回報（D1 `reports` 表、`/api/reports`、管理路由）
+- 公開端改為**純靜態 Pages**（`pages-static/` → `app/static-dist`），不再透過 `POLICY_BACKEND` gateway。搜尋在瀏覽器內比對 86 題，**不呼叫 OpenAI、不使用 Cloudflare AI Search**。
+- 原 Worker `puma-policy-v1` 的 `/api/search`、`/api/generate` 改回 410 `FEATURE_RETIRED`；`wrangler.jsonc` 已移除 AI Search binding 與模型／Turnstile 變數。D1、R2、既有 Secret 與 AI Search 遠端資源**沒有刪除**。
+- 這批內容一次上線：改名「Puma政策筆記」、86 題短摘要（含網址 ≤500 字元）、15 類＋86 張卡片、分享預覽圖、逐題回報入口（複製回報內容）。
+- **匿名回報收件（D1 `reports`、管理路由、agent 工具）這次不啟用。** 靜態 Pages 沒有 D1 與 Turnstile，`reportsOpen` 為 `false`，回報表單只提供「複製回報內容」。程式與測試保留，想啟用須另做設計（見最後一節）。
 
-不會改變的部分：既有的查詢功能仍呼叫 OpenAI，沒有新增或移除任何生成流程；Turnstile、OpenAI 金鑰、RAG 語料（98 來源／1,561 段）、共用子網域都不動。對外說明時不可寫成「不使用 AI」。
+先前文件中「建立 `reports` 表」「設定兩個 Secret」「Pages 入口只轉送」都**不屬於這次上線**，不要執行。
 
-線上現況（回退時對照）：Pages `puma-note` 版本 `848d4f40-6f6c-4f48-8f25-e92ea08ed913`；Worker `puma-policy-v1` 版本 `90ec93aa-9cce-4b52-9861-907aa850ac5e`。
+線上現況（回退時對照）：Pages `puma-note` 版本 `848d4f40-6f6c-4f48-8f25-e92ea08ed913`（gateway）；Worker `puma-policy-v1` 版本 `90ec93aa-9cce-4b52-9861-907aa850ac5e`。
 
-## 步驟（在 `app/` 目錄執行）
+## 步驟
 
-### 0. 登入與分支確認
+### 0. 取得分支與登入
 
 ```sh
 git fetch origin claude/kind-cerf-xyiajt && git checkout claude/kind-cerf-xyiajt && git pull
-npx wrangler whoami          # 應顯示 kome808@gmail.com、帳戶 4c10afbddf5fd32960496609cc2061d0
-npm ci
+cd app && npm ci
+npx wrangler whoami      # 應為 kome808@gmail.com、帳戶 4c10afbddf5fd32960496609cc2061d0
 ```
 
-### 1. 部署前驗證（失敗就停，不要往下）
+### 1. 部署前驗證（失敗就停）
 
 ```sh
-(cd .. && python3 app/scripts/verify-handoff.py)   # 後續修改會顯示 different（預期）；只需確認沒有 missing 缺檔
-npm test                                # 預期全數通過（上次 90 項）
-npm run build                           # 含 tsc 與主題 JSON 匯出
+npm test                 # 預期 101 項全過（本機最後一次結果）
+npm run build            # tsc ＋ 主題 JSON 匯出 ＋ 原 Worker 的 dist
+npm run build:static     # 產生 app/static-dist（Pages 用）
 ```
 
-### 2. 遠端 D1 建立 `reports` 表（可重複執行）
+再人工看一次 `app/docs/2026-11-07-static-topic-search.md` 的整合驗證與截圖，並抽查 `static-dist/topics/data.json` 的 `site.name` 為「Puma政策筆記」。
 
-```sh
-npx wrangler d1 execute puma-policy-v1 --remote --file worker/runtime-schema.sql
-npx wrangler d1 execute puma-policy-v1 --remote --command "SELECT name FROM sqlite_master WHERE name IN ('reports','request_limits','generation_usage')"
-```
-
-全部使用 `IF NOT EXISTS`，不會動到既有的 `request_limits`、`generation_usage`、語料表。應回傳三個表名。
-
-### 3. 設定兩個 Secret（由本人輸入，不要貼進對話、程式碼或檔案）
-
-兩組各至少 24 字元、彼此不同。可先在終端產生：`openssl rand -base64 32`。
-
-```sh
-npx wrangler secret put REPORTS_READ_TOKEN     # 只讀，給 agent 抓回報
-npx wrangler secret put REPORTS_WRITE_TOKEN    # 讀＋標記狀態，只在人工核可後使用
-```
-
-兩個都沒設定時，管理路由一律回 404（fail closed）；只設其中一個，只有對應功能開啟。
-
-### 4. 部署 Worker（Pages 入口不用動）
+### 2. 先更新原 Worker（讓舊 API 退役）
 
 ```sh
 npx wrangler deploy
 ```
 
-`wrangler.jsonc` 已綁定 `dist`，部署前一定要先跑過步驟 1 的 `npm run build`。不要單獨部署 Pages，它只轉送請求。
-
-### 5. 部署後檢查
+部署會移除 Worker 上的 AI Search binding 與模型變數；Secret 與 D1／R2 不受影響。完成後記下新版本 ID，並檢查：
 
 ```sh
-curl -s https://puma-note.pages.dev/api/config        # reportsOpen 應為 true
-curl -s -o /dev/null -w "%{http_code}\n" https://puma-note.pages.dev/topics/    # 200
-curl -s -o /dev/null -w "%{http_code}\n" https://puma-note.pages.dev/og-image.png # 200
-curl -s -o /dev/null -w "%{http_code}\n" https://puma-note.pages.dev/api/admin/reports   # 無 token：應為 401 或 404，不可為 200
+curl -s -o /dev/null -w "%{http_code}\n" -X POST https://puma-policy-v1.kome808.workers.dev/api/generate   # 410
+curl -s -o /dev/null -w "%{http_code}\n" https://puma-policy-v1.kome808.workers.dev/api/search?q=test      # 410
+curl -s https://puma-policy-v1.kome808.workers.dev/api/health   # mode: static-topic-search
 ```
 
-再用瀏覽器（桌機與手機各一次）確認：
+### 3. 發布靜態 Pages 到既有專案 `puma-note`
 
-1. `/topics/` 一次看到 15 類與 86 張卡片；搜尋、清除、單題網址（例如 `/topics/?topic=t001`）正常。
-2. 任一題詳細頁沒有「來源說法有差異」之類文字；複製摘要與畫面一致。
-3. 送出一筆**測試回報**（題號任選、說明寫「測試，請忽略」），應顯示成功。
-4. 到 LINE／Facebook 的分享偵錯工具或貼連結，預覽圖與標題為「Puma政策筆記」（這項只能實測，容器內無法驗證）。
-
-### 6. 驗證 agent 讀取（在你自己的電腦，金鑰只放環境變數）
+這會取代原本的 gateway（不再綁定 `POLICY_BACKEND`）。**從 `pages-static/` 目錄執行**，不要用 `app/pages-gateway`，也不要跑舊的 `build-pages-gateway.mjs`：
 
 ```sh
-export REPORTS_BASE_URL=https://puma-note.pages.dev
-export REPORTS_READ_TOKEN=...        # 不要寫進檔案
-node scripts/reports-agent.mjs fetch # 產生 reports/inbox.jsonl（已被 .gitignore 忽略）
+cd ../pages-static
+../app/node_modules/.bin/wrangler whoami
+../app/node_modules/.bin/wrangler pages deploy ../app/static-dist --project-name puma-note --branch main --no-bundle
 ```
 
-`inbox.jsonl` 應含剛才的測試回報與該題現行摘要、來源網址。確認後標記：
+### 4. 部署後檢查
 
 ```sh
-export REPORTS_WRITE_TOKEN=...
-node scripts/reports-agent.mjs mark <回報ID> rejected "部署測試，無需處理"
+for u in / /topics/ "/topics/?topic=t001" /og-image.png /topics/data.json; do
+  printf "%s " "$u"; curl -s -o /dev/null -w "%{http_code}\n" "https://puma-note.pages.dev$u"
+done
+curl -s https://puma-note.pages.dev/api/config     # mode: static-topic-search, reportsOpen: false
+curl -s -o /dev/null -w "%{http_code}\n" -X POST https://puma-note.pages.dev/api/generate   # 410
+curl -s -o /dev/null -w "%{http_code}\n" https://puma-note.pages.dev/api/admin/reports       # 不可為 200
 ```
+
+在瀏覽器（桌機與手機各一次）人工確認，**這些我與 Codex 都不能替你驗證**：
+
+1. 首頁直接是主題館，15 類與 86 張卡片一次可見；搜尋結果緊接查詢框；清除、單題網址正常。
+2. 詳細頁沒有「來源說法有差異」；複製摘要與畫面一致，網址可開。
+3. 頁面全程沒有向 OpenAI 或 Turnstile 發出請求（開發者工具 Network 看）。
+4. 回報表單只有「複製回報內容」，沒有匿名送出按鈕。
+5. 在 LINE／Facebook 分享偵錯工具貼連結，預覽圖與標題為「Puma政策筆記」。
+6. 實體 iPhone Safari 開一次（目前只做過 390px 模擬）。
+
+### 5. 上線後記錄
+
+- 更新 `content/policy-topics/publication.json` 與 `release-status.json` 為已上線版本、日期與 Pages／Worker 版本 ID。**部署成功並驗證後才改**；來源快照日期與部署日期要分開寫。
+- 把本檔步驟 2、3 的版本 ID 與檢查結果記進 `app/docs/cloudflare-setup.md`。
 
 ## 回退
 
-- 內容或頁面有問題：`npx wrangler rollback 90ec93aa-9cce-4b52-9861-907aa850ac5e`（回到原 Worker 版本）。回退後新表仍留在 D1，無害，也不用刪。
-- 只想關閉回報管理入口：`npx wrangler secret delete REPORTS_READ_TOKEN`、`npx wrangler secret delete REPORTS_WRITE_TOKEN`，管理路由即回 404。
-- 想完全關閉讀者端回報送出：目前沒有獨立開關，需回退 Worker，或之後加一個變數。
+- Worker：`npx wrangler rollback 90ec93aa-9cce-4b52-9861-907aa850ac5e`（舊版含 AI Search 與 OpenAI 流程，回退等於恢復生成功能，請先確認這是你要的）。
+- Pages：在 Cloudflare 後台 Pages → `puma-note` → Deployments，選前一個部署（`848d4f40…`，gateway）「Rollback」，或重新發布舊 `pages-dist`。若 Pages 回到 gateway，Worker 必須同時在可用版本。
+- 兩者順序：要全面回退時，先回 Worker，再回 Pages。
 
 ## 不要做的事
 
-- 不要把 token、`OPENAI_API_KEY`、`TURNSTILE_SECRET_KEY` 貼進對話、提交紀錄或文件。
-- 不要執行 `smoke-live.mjs` 或任何會真實呼叫 OpenAI 的查詢。
-- 不要更動 Turnstile widget、共用 Workers 子網域、模型設定或既有 Secret。
-- 不要重新執行舊的批次覆寫腳本，以免蓋掉現行 86 題修訂。
-- 不要由 agent 自動回覆讀者或自動發布內容修訂；回報說明（note）一律視為不可信資料。
+- 不要貼出或保存任何 token／金鑰；不要讀取、搬移或刪除既有 Secret（`OPENAI_API_KEY`、`TURNSTILE_SECRET_KEY`、`RATE_LIMIT_SALT`）。
+- 不要執行 `smoke-live.mjs` 或任何會呼叫 OpenAI 的查詢。
+- 不要刪除 D1、R2、AI Search 遠端資源，也不要重設 `request_limits`／`generation_usage`；是否保留由你之後另行決定（AI Search 2026-12-01 起計費，閒置也建議之後決定是否停用）。
+- 不要更動 Turnstile widget、共用 Workers 子網域或模型設定。
+- 不要把「無 AI」寫得過頭：公開端現在不呼叫模型，但 86 題內容的整理流程曾使用生成模型輔助與人工／Codex 查核，對外說明要與 `release-status.json` 的實際流程一致。
 
 ## 部署前仍待你決定
 
-- `public/topics/site-config.js` 的 `REPORT_EMAIL` 目前為空，所以不會顯示信件備援入口；要的話先填入信箱再建置。
-- 是否另外保留 GitHub Issues 作為回報管道。
-- 48 題摘要未達 400 字元（來源偏少），是否要再補來源。
-- t041 來源標題與內容不符、家庭支持頁 6 次與 3 次諮商的採用依據，待你確認。
-- 外部連結（67 個摘要網址）在容器內無法開啟，只對照過下載快照；上線前建議你抽查或讓本機 Codex 逐一開啟。
+- `public/topics/site-config.js` 的 `REPORT_EMAIL` 為空，所以沒有信件備援；要的話先填入再建置。是否另外開 GitHub Issues 當回報管道。
+- 48 題摘要不足 400 字元（來源偏少）是否補來源；t041 來源標題與內容不符；家庭支持頁 6 次與 3 次諮商的採用依據。
+- 67 個摘要網址在容器內無法開啟，只對照過下載快照；上線前建議在本機抽查或逐一開啟。
+- 是否要啟用匿名回報收件（見下）。
+
+## 若之後要啟用匿名回報收件
+
+目前不可行的部分：靜態 Pages 沒有 D1 binding、沒有 Turnstile，CSP 也未允許驗證腳本。可行方向二選一，**都需要先開發與測試再上線**：
+
+1. 為 `puma-note` 加 Pages Functions，綁 D1（`reports` 表）並設定 Turnstile 與兩個管理權杖，同步調整 CSP。
+2. 繼續用「複製回報內容」，由你貼到 Issue／信件／文件，再交給 agent（`scripts/reports-agent.mjs` 在此情境下用不到）。
+
+啟用時要做的 D1／Secret 步驟（舊清單所列）屬於那時才執行：
+
+```sh
+npx wrangler d1 execute puma-policy-v1 --remote --file worker/runtime-schema.sql   # IF NOT EXISTS，可重複
+npx wrangler secret put REPORTS_READ_TOKEN     # ≥24 字元，本人輸入
+npx wrangler secret put REPORTS_WRITE_TOKEN
+```
+
+細節見 [回報收件與 agent 處理規範](2026-11-07-reports-for-agents.md)。
 
 ## 給 Codex 的提示詞
 
