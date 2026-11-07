@@ -2,6 +2,7 @@ import { cp, mkdir, rm, writeFile } from "node:fs/promises";
 import { build } from "esbuild";
 import { dirname, resolve, relative } from "node:path";
 import { fileURLToPath } from "node:url";
+import { buildTopicPages } from './build-topic-pages.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const output = resolve(root, "static-dist");
@@ -12,6 +13,7 @@ await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 await cp(publicDir, output, { recursive: true });
 await cp(resolve(publicDir, "topics/index.html"), resolve(output, "index.html"));
+await buildTopicPages(output);
 await writeFile(resolve(output, "_headers"), `/*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin

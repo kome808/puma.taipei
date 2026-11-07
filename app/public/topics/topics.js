@@ -66,15 +66,11 @@ function renderCategories(matchesByGroup) {
 
 function topicCard(topic) {
   const card = element('a', 'topic-card');
-  card.href = `/topics/?topic=${topic.id}`; card.dataset.topic = topic.id;
+  card.href = `/topics/${topic.id}/`; card.dataset.topic = topic.id;
   card.style.setProperty('--category-color', CATEGORY_ART[topic.group_id].color);
   const title = element('h4', 'topic-title', topic.title);
   const open = element('span', 'topic-open'); open.append('看摘要與來源 ', element('b', '', '↗'));
   card.append(sourceBadges(topic), title, element('p', 'topic-intro', topic.intro), open);
-  card.addEventListener('click', (event) => {
-    if (event.metaKey || event.ctrlKey || event.shiftKey || event.button === 1) return;
-    event.preventDefault(); openTopic(topic.id);
-  });
   return card;
 }
 
@@ -216,7 +212,7 @@ function openTopic(id, updateAddress = true) {
 }
 function reportText() {
   const topic = state.topic; const note = $('#report-note').value.trim();
-  const lines = ['【Puma政策筆記 錯誤回報】', `題目：${topic.title}（${topic.id}）`, `頁面：${location.origin}/topics/?topic=${topic.id}`,
+  const lines = ['【Puma政策筆記 錯誤回報】', `題目：${topic.title}（${topic.id}）`, `頁面：${location.origin}/topics/${topic.id}/`,
     `問題類型：${$('#report-type').value}`, `說明：${note || '（未填）'}`, `資料版本：來源擷取 ${state.data.source_snapshot_date}／內容更新 ${state.data.content_updated || state.data.source_snapshot_date}`,
     `短摘要字元數（含網址）：${topic.share.text.length}／500`, '本題來源：', ...topic.sources.map((s) => `- ${s.title}\n  ${s.url}`)];
   return lines.join('\n');

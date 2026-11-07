@@ -139,3 +139,15 @@ dialog.summary-dialog{width:min(720px,calc(100% - 32px))}
 .summary-panel .share-tools{margin-top:14px}
 .summary-panel .source-date{margin-top:18px}
 @media(max-width:540px){dialog.summary-dialog{width:calc(100% - 18px)}}
+.hero-note{font-size:12px;color:var(--muted);line-height:1.85;margin:-10px 0 21px}
+.topic-page{max-width:780px;margin:40px auto 28px}
+.topic-paper{padding:30px;background:var(--white);border:1px solid var(--line);border-radius:18px}
+.topic-paper>.eyebrow{margin-bottom:12px}
+.topic-paper h1{font-family:"Songti TC","PMingLiU",serif;font-size:clamp(25px,3vw,33px);line-height:1.65;margin:15px 0 24px}
+.topic-actions{display:flex;align-items:stretch;gap:12px;margin-top:18px}
+.topic-actions .copy-button{flex:1;width:auto;margin-top:0}
+.copy-link-button{background:#fffaf1;color:#865b3d;border:1px solid #cba988;border-radius:9px;padding:12px 18px;font-size:13px}
+.copy-link-button:hover{background:#f3e5d2}
+.topic-footer{max-width:780px;padding-top:0;padding-bottom:28px;color:var(--muted);font-size:11px;line-height:1.9}
+.topic-footer p{margin-bottom:5px}
+@media(max-width:540px){.topic-page{margin-top:23px}.topic-paper{padding:20px 16px}.topic-paper h1{font-size:25px}.topic-actions{flex-direction:column}.topic-actions .copy-button{width:100%}.topic-footer{padding-top:0}}
