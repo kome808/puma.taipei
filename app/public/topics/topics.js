@@ -1,4 +1,5 @@
 import { CATEGORY_ART } from './categories.js';
+import { REPORT_EMAIL } from './site-config.js';
 
 const $ = (selector) => document.querySelector(selector);
 const state = { data: null, group: '', query: '', topic: null, copyTimer: null };
@@ -192,9 +193,27 @@ function openTopic(id, updateAddress = true) {
   for (const source of sources) {
     const li = element('li'); li.append(element('span', 'detail-source-type', source.type === 'official' ? '官方政策' : '訪談／活動'), sourceLink(source.url, `${source.title} ↗`)); list.append(li);
   }
+  resetReport();
   if (!dialog.open) dialog.showModal(); dialog.scrollTop = 0; fitPost();
   $('#close-topic').focus({ preventScroll: true });
   if (updateAddress) setAddress(id, true);
+}
+function reportText() {
+  const topic = state.topic; const note = $('#report-note').value.trim();
+  const lines = ['【Puma政策筆記 錯誤回報】', `題目：${topic.title}（${topic.id}）`, `頁面：${location.origin}/topics/?topic=${topic.id}`,
+    `問題類型：${$('#report-type').value}`, `說明：${note || '（未填）'}`, `資料版本：來源擷取 ${state.data.source_snapshot_date}／內容更新 ${state.data.content_updated || state.data.source_snapshot_date}`,
+    `短摘要字元數（含網址）：${$('#share-post').value.length}／500`, '本題來源：', ...topic.sources.map((s) => `- ${s.title}\n  ${s.url}`)];
+  return lines.join('\n');
+}
+function resetReport() {
+  $('#report-form').hidden = true; $('#open-report').setAttribute('aria-expanded', 'false'); $('#report-note').value = ''; $('#report-status').textContent = '';
+  $('#report-type').selectedIndex = 0;
+}
+function prepareMail() {
+  const mail = $('#report-mail');
+  if (!REPORT_EMAIL) { mail.hidden = true; return; }
+  mail.hidden = false;
+  mail.href = `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(`回報：${state.topic.title}（${state.topic.id}）`)}&body=${encodeURIComponent(reportText())}`;
 }
 function closeTopic() { dialog.close(); }
 
@@ -250,6 +269,13 @@ dialog.addEventListener('close', () => {
 });
 $('#share-post').addEventListener('input', updatePostState); $('#restore-post').addEventListener('click', () => { $('#share-post').value = state.topic.share.text; updatePostState(); });
 $('#copy-post').addEventListener('click', copyPost);
+$('#open-report').addEventListener('click', () => { const form = $('#report-form'); form.hidden = !form.hidden; $('#open-report').setAttribute('aria-expanded', String(!form.hidden)); prepareMail(); if (!form.hidden) $('#report-type').focus(); });
+for (const id of ['#report-type', '#report-note']) $(id).addEventListener('input', prepareMail);
+$('#report-copy').addEventListener('click', async () => {
+  const text = reportText();
+  try { await navigator.clipboard.writeText(text); $('#report-status').textContent = '回報內容已複製。'; }
+  catch { const box = $('#report-note'); $('#report-status').textContent = '瀏覽器沒有允許自動複製，請手動選取下方文字。'; box.value = text; box.focus(); box.select(); }
+});
 window.addEventListener('popstate', () => {
   if (!state.data) return; const params = new URLSearchParams(location.search);
   state.group = state.data.groups.some((g) => g.id === params.get('group')) ? params.get('group') : '';

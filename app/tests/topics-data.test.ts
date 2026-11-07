@@ -125,3 +125,18 @@ test('the exported public data mirrors the source data when it has been built', 
     assert.equal('editor_notes' in topic, false, `${topic.id} leaks editor notes`);
   }
 });
+
+test('share preview image and error-report entry exist', () => {
+  assert.ok(existsSync(new URL('../public/og-image.png', import.meta.url)));
+  const png = readFileSync(new URL('../public/og-image.png', import.meta.url));
+  assert.equal(png.readUInt32BE(16), 1200); assert.equal(png.readUInt32BE(20), 630); assert.ok(png.length < 1_000_000);
+  for (const file of ['index.html', 'public/topics/index.html']) {
+    const html = read(file);
+    assert.match(html, /og:image" content="https:\/\/puma-note\.pages\.dev\/og-image\.png/);
+    assert.match(html, /summary_large_image/);
+    assert.match(html, /og:image:alt/);
+  }
+  const page = read('public/topics/index.html') + read('public/topics/topics.js');
+  assert.ok(page.includes('open-report') && page.includes('report-copy'));
+  assert.ok(!/fetch\([^)]*report/i.test(read('public/topics/topics.js')), 'report form must not send data anywhere');
+});
