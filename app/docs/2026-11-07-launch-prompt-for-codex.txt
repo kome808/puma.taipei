@@ -1,3 +1,6 @@
+【舊版提示詞，暫勿執行】
+使用者後續改選D1全文搜尋＋AI Search混合搜尋及全站1,000次額度上限。請先讀 app/docs/2026-11-07-d1-hybrid-search.md，重新核對發布清單並取得使用者的部署指示；下方純靜態版本提示詞保留作歷史，不代表目前部署計畫。本輪未部署。
+
 你在我的電腦上，已登入 wrangler（kome808@gmail.com）。請 git fetch 並 checkout 分支 claude/kind-cerf-xyiajt、git pull，然後讀 app/docs/2026-11-07-launch-checklist.md 與 app/docs/2026-11-07-static-topic-search.md，依檢查清單步驟 0 到 4 上線靜態版 Puma政策筆記。
 
 規則：

@@ -98,5 +98,9 @@
     "Confirm Cloudflare account-wide used allowance and reset window, seed/reconcile current counter.",
     "Configure RATE_LIMIT_SALT and disable direct public AI Search access.",
     "Explicitly enable the approved Pages search profile and retire old Worker generation endpoints when release is authorized."
+  ],
+  "integrated_claude_document_commits": [
+    "a4475df",
+    "725d134"
   ]
 }

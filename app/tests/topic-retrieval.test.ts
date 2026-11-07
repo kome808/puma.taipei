@@ -222,4 +222,3 @@ test('basic D1 topic search returns the expected gold topics without mixing AI-c
     if (expectedId === 't060') assert.ok(!result.topicIds.includes('t028'), 'AI industry-coach query must not retrieve exercise topic');
   }
 });
-
