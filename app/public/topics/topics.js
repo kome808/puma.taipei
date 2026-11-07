@@ -1,21 +1,9 @@
 import { CATEGORY_ART } from './categories.js';
 
 const $ = (selector) => document.querySelector(selector);
-const PAGE_SIZE = 9;
-const state = { data: null, group: '', query: '', visible: PAGE_SIZE, topic: null, copyTimer: null };
+const state = { data: null, group: '', query: '', topic: null, copyTimer: null };
 const dialog = $('#topic-dialog');
-const results = $('#results-section');
-const browseResultsPosition = document.createComment('Browse results position');
-results.before(browseResultsPosition);
-
-function positionResults() {
-  if (state.query.trim()) {
-    const form = $('#search-form');
-    if (results.previousElementSibling !== form) form.after(results);
-  } else if (results.parentNode !== browseResultsPosition.parentNode) {
-    browseResultsPosition.after(results);
-  }
-}
+const stack = $('#browse-stack');
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -24,73 +12,122 @@ function element(tag, className, text) {
   return node;
 }
 
-function dateLabel(date) { return date.replaceAll('-', '.'); }
+function dateLabel(date) { return String(date).replaceAll('-', '.'); }
 function normalized(value) { return value.normalize('NFKC').replaceAll('臺', '台').toLowerCase(); }
+
+function topicText(topic) {
+  return normalized([topic.title, topic.question, topic.intro, topic.group_title, ...topic.keywords,
+    ...topic.official.map((p) => p.text), ...topic.interview.map((p) => p.text), topic.share.body].join(' '));
+}
 function queryMatches(topic) {
   const words = normalized(state.query).split(/\s+/).filter(Boolean);
-  const text = normalized([topic.title, topic.question, topic.intro, topic.group_title, ...topic.keywords,
-    ...topic.official.map(p => p.text), ...topic.interview.map(p => p.text)].join(' '));
-  return words.every(word => text.includes(word));
+  if (!words.length) return true;
+  const text = topic._text ?? (topic._text = topicText(topic));
+  return words.every((word) => text.includes(word));
+}
+function sourceKinds(topic) {
+  return { official: topic.official.length > 0, interview: topic.interview.length > 0 };
 }
 function setAddress(topicId = state.topic?.id, push = false) {
   const url = new URL(location.href);
-  for (const [key, value] of [['group', state.group], ['q', state.query], ['topic', topicId || '']]) {
+  for (const [key, value] of [['group', state.group], ['q', state.query.trim()], ['topic', topicId || '']]) {
     if (value) url.searchParams.set(key, value); else url.searchParams.delete(key);
   }
   if (push) history.pushState({ pumaTopicId: topicId }, '', url);
   else history.replaceState(null, '', url);
 }
 
-function renderCategories() {
+function badge(label, kind) {
+  const node = element('span', `badge badge-${kind}`);
+  node.append(element('i', 'badge-dot'), document.createTextNode(label));
+  return node;
+}
+function sourceBadges(topic) {
+  const wrap = element('span', 'badges');
+  const { official, interview } = sourceKinds(topic);
+  if (official) wrap.append(badge('官方政策', 'official'));
+  if (interview) wrap.append(badge('訪談補充', 'interview'));
+  if (topic.scope === 'public_issue') wrap.append(badge('公共議題觀點', 'issue'));
+  return wrap;
+}
+
+function renderCategories(matchesByGroup) {
   const host = $('#categories'); host.replaceChildren();
   for (const group of state.data.groups) {
     const art = CATEGORY_ART[group.id];
-    const count = state.data.topics.filter(t => t.group_id === group.id && queryMatches(t)).length;
-    const card = element('button', `category-card${state.group === group.id ? ' selected' : ''}${state.query && !count ? ' no-match' : ''}`);
+    const count = matchesByGroup.get(group.id)?.length ?? 0;
+    const card = element('button', `category-card${state.group === group.id ? ' selected' : ''}${!count ? ' no-match' : ''}`);
     card.type = 'button'; card.dataset.group = group.id;
     card.style.setProperty('--category-paper', art.paper); card.style.setProperty('--category-color', art.color);
     card.setAttribute('aria-pressed', String(state.group === group.id));
     card.setAttribute('aria-label', `${group.title}，${count}個主題`);
     const icon = element('span', 'category-icon'); icon.setAttribute('aria-hidden', 'true'); icon.innerHTML = art.icon;
-    card.append(icon, element('span', 'category-number', `${count} 題`), element('span', 'category-title', art.label),
-      element('span', 'category-note', art.note), element('span', 'category-selected-mark', '✓'));
+    card.append(icon, element('span', 'category-title', art.label), element('span', 'category-number', `${count} 題`));
     card.addEventListener('click', () => {
-      state.group = state.group === group.id ? '' : group.id; state.visible = PAGE_SIZE; render(); setAddress();
-      const heading = $('#results-heading'); heading.focus({ preventScroll: true });
-      $('#results-section').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      state.group = state.group === group.id ? '' : group.id;
+      render(); setAddress();
+      const target = state.group ? $(`#group-${state.group}`) : $('#topic-sections');
+      target?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
     });
     host.append(card);
   }
   host.setAttribute('aria-busy', 'false');
 }
 
+function topicCard(topic) {
+  const card = element('a', 'topic-card');
+  card.href = `/topics/?topic=${topic.id}`; card.dataset.topic = topic.id;
+  card.style.setProperty('--category-color', CATEGORY_ART[topic.group_id].color);
+  const title = element('h4', 'topic-title', topic.title);
+  const open = element('span', 'topic-open'); open.append('看說明與摘要 ', element('b', '', '↗'));
+  card.append(sourceBadges(topic), title, element('p', 'topic-intro', topic.intro), open);
+  card.addEventListener('click', (event) => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.button === 1) return;
+    event.preventDefault(); openTopic(topic.id);
+  });
+  return card;
+}
+
 function render() {
   if (!state.data) return;
-  positionResults();
-  renderCategories();
-  const matches = state.data.topics.filter(t => (!state.group || t.group_id === state.group) && queryMatches(t));
-  const art = CATEGORY_ART[state.group];
-  $('#results-heading').textContent = art ? art.label : '主題一覽';
-  $('#selection-label').textContent = art ? state.data.groups.find(g => g.id === state.group).title : '挑一題，把政策聊清楚';
-  $('#result-count').textContent = `${matches.length} 個主題${state.query ? ` · 搜尋「${state.query}」` : ''}`;
-  $('#all-topics').classList.toggle('active', !state.group && !state.query);
-  const list = $('#topic-list'); list.replaceChildren();
-  for (const topic of matches.slice(0, state.visible)) {
-    const card = element('button', 'topic-card'); card.type = 'button'; card.dataset.topic = topic.id;
-    card.style.setProperty('--category-color', CATEGORY_ART[topic.group_id].color);
-    const category = element('span', 'topic-category', CATEGORY_ART[topic.group_id].label);
-    if (topic.scope === 'public_issue') category.append(element('span', 'topic-scope', '公共議題觀點'));
-    const title = element('span', 'topic-title', topic.title); title.setAttribute('role', 'heading'); title.setAttribute('aria-level', '3');
-    const bottom = element('span', 'topic-bottom');
-    const sourceText = topic.official.length && topic.interview.length ? '官方政策＋訪談' : topic.official.length ? '官方政策' : '訪談／活動內容';
-    const action = element('strong', '', '看說明與摘要'); action.append(element('span', '', '↗'));
-    bottom.append(element('span', '', sourceText), action);
-    card.append(category, title, element('span', 'topic-intro', topic.intro), bottom);
-    card.addEventListener('click', () => openTopic(topic.id)); list.append(card);
+  const searching = Boolean(state.query.trim());
+  stack.classList.toggle('is-searching', searching);
+  const matchesByGroup = new Map();
+  for (const group of state.data.groups) {
+    matchesByGroup.set(group.id, state.data.topics.filter((t) => t.group_id === group.id && queryMatches(t)));
   }
-  $('#empty-state').hidden = matches.length !== 0;
-  $('#load-more').hidden = state.visible >= matches.length;
-  $('#load-more').firstChild.textContent = `再看 ${Math.min(PAGE_SIZE, matches.length - state.visible)} 個主題 `;
+  renderCategories(matchesByGroup);
+
+  const host = $('#topic-sections'); host.replaceChildren();
+  let shown = 0;
+  for (const group of state.data.groups) {
+    if (state.group && state.group !== group.id) continue;
+    const list = matchesByGroup.get(group.id);
+    if (!list.length) continue;
+    shown += list.length;
+    const art = CATEGORY_ART[group.id];
+    const section = element('section', 'topic-group'); section.id = `group-${group.id}`;
+    section.style.setProperty('--category-color', art.color); section.style.setProperty('--category-paper', art.paper);
+    section.setAttribute('aria-labelledby', `heading-${group.id}`);
+    const head = element('header', 'group-head');
+    const icon = element('span', 'group-icon'); icon.setAttribute('aria-hidden', 'true'); icon.innerHTML = art.icon;
+    const text = element('div', 'group-text');
+    const title = element('h3', '', group.title); title.id = `heading-${group.id}`;
+    text.append(title, element('p', '', art.note));
+    head.append(icon, text, element('span', 'group-count', `${list.length} 題`));
+    const grid = element('div', 'topic-grid');
+    for (const topic of list) grid.append(topicCard(topic));
+    section.append(head, grid); host.append(section);
+  }
+  const total = state.data.topics.length;
+  const groupName = state.group ? state.data.groups.find((g) => g.id === state.group)?.title : '';
+  const parts = [];
+  if (groupName) parts.push(`分類：${groupName}`);
+  if (searching) parts.push(`關鍵字：「${state.query.trim()}」`);
+  $('#result-count').textContent = parts.length ? `${shown} 個主題符合（${parts.join('、')}）` : `全部 ${total} 個主題，分成 ${state.data.groups.length} 類`;
+  $('#clear-filters').hidden = !parts.length;
+  $('#all-topics').classList.toggle('active', !state.group && !searching);
+  $('#empty-state').hidden = shown !== 0;
 }
 
 function sourceLink(url, title) {
@@ -103,7 +140,7 @@ function renderParagraphs(selector, paragraphs, empty, topic) {
     const block = element('div', 'content-paragraph'); block.append(element('p', '', paragraph.text));
     const links = element('div', 'paragraph-sources');
     for (const url of paragraph.source_urls) {
-      const source = topic.sources.find(s => s.url === url); links.append(sourceLink(url, `${source?.title || '原文'} ↗`));
+      const source = topic.sources.find((s) => s.url === url); links.append(sourceLink(url, `${source?.title || '原文'} ↗`));
     }
     block.append(links); host.append(block);
   }
@@ -114,28 +151,28 @@ function updatePostState() {
   const value = $('#share-post').value;
   const expected = state.topic.share.source_urls.map(decodeUrl);
   const found = (value.match(/https:\/\/[^\s]+/g) || []).map(decodeUrl);
-  const sourcesPresent = found.length === expected.length && expected.every(url => found.includes(url));
+  const sourcesPresent = found.length === expected.length && expected.every((url) => found.includes(url));
   const withinLimit = value.length <= 500;
-  $('#character-count').textContent = `${value.length} / 500 字元`;
+  $('#character-count').textContent = `${value.length} / 500 字元（含來源網址）`;
   $('#share-issue').textContent = !withinLimit ? '這段超過500字元，刪短一點再複製。' : !sourcesPresent ? '原文出處要一起帶走，請保留來源連結。' : '';
   $('#copy-post').disabled = !withinLimit || !sourcesPresent;
   $('#copy-status').textContent = '';
   if (dialog.open) fitPost();
 }
-
 function fitPost() {
   const field = $('#share-post'); field.style.height = 'auto';
-  field.style.height = `${Math.min(900, Math.max(280, field.scrollHeight + 2))}px`;
+  field.style.height = `${Math.min(900, Math.max(240, field.scrollHeight + 2))}px`;
 }
 
 function openTopic(id, updateAddress = true) {
-  const topic = state.data.topics.find(t => t.id === id); if (!topic) return;
+  const topic = state.data.topics.find((t) => t.id === id); if (!topic) return;
   state.topic = topic; clearTimeout(state.copyTimer);
   $('#detail-group').textContent = `${CATEGORY_ART[topic.group_id].label} / ${topic.group_title}`;
   $('#detail-title').textContent = topic.title; $('#detail-intro').textContent = topic.intro;
-  $('#detail-scope').hidden = topic.scope !== 'public_issue';
-  renderParagraphs('#official-content', topic.official, '這一題目前的整理依據來自訪談／活動內容。', topic);
-  renderParagraphs('#interview-content', topic.interview, '這一題目前的整理依據來自官方政策頁。', topic);
+  $('#detail-scope').hidden = true;
+  const badges = $('#detail-badges'); badges.replaceChildren(...sourceBadges(topic).childNodes);
+  renderParagraphs('#official-content', topic.official, '這一題目前沒有對應的官方政策內容，以下整理來自訪談／活動。', topic);
+  renderParagraphs('#interview-content', topic.interview, '這一題目前沒有對應的訪談補充，內容來自官方政策頁。', topic);
   renderParagraphs('#difference-content', topic.differences, '', topic);
   $('#difference-section').hidden = !topic.differences.length; $('#difference-section').open = false;
   $('#share-post').value = topic.share.text; updatePostState();
@@ -174,10 +211,12 @@ async function loadData() {
     if (!Array.isArray(data.topics) || !Array.isArray(data.groups) || !data.topics.length) throw new Error('Invalid topic data');
     state.data = data;
     const params = new URLSearchParams(location.search); const group = params.get('group');
-    state.group = data.groups.some(g => g.id === group) ? group : ''; state.query = (params.get('q') || '').slice(0, 150);
+    state.group = data.groups.some((g) => g.id === group) ? group : ''; state.query = (params.get('q') || '').slice(0, 150);
     $('#topic-query').value = state.query;
     $('#topic-count').textContent = data.topics.length; $('#all-count').textContent = data.topics.length; $('#group-count').textContent = data.groups.length;
-    document.querySelectorAll('.snapshot-date').forEach(node => { node.textContent = dateLabel(data.source_snapshot_date); });
+    $('#source-count').textContent = data.topics.filter((t) => t.official.length).length;
+    document.querySelectorAll('.snapshot-date').forEach((node) => { node.textContent = dateLabel(data.source_snapshot_date); });
+    document.querySelectorAll('.content-date').forEach((node) => { node.textContent = dateLabel(data.content_updated || data.source_snapshot_date); });
     render(); if (params.has('topic')) openTopic(params.get('topic'), false);
   } catch {
     $('#categories').replaceChildren(); $('#categories').setAttribute('aria-busy', 'false');
@@ -185,18 +224,15 @@ async function loadData() {
   } finally { clearTimeout(timeout); }
 }
 
-$('#search-form').addEventListener('submit', event => {
-  event.preventDefault();
-  $('#topic-query').blur(); $('#results-heading').focus({ preventScroll: true });
-  const destination = state.query.trim() ? $('#search-form') : results;
-  destination.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+function clearFilters() { state.query = ''; state.group = ''; $('#topic-query').value = ''; render(); setAddress(''); }
+$('#search-form').addEventListener('submit', (event) => {
+  event.preventDefault(); $('#topic-query').blur();
+  $('#filter-status').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
 });
-$('#topic-query').addEventListener('input', event => { state.query = event.target.value; state.group = ''; state.visible = PAGE_SIZE; render(); setAddress(); });
-function clearFilters() { state.query = ''; state.group = ''; state.visible = PAGE_SIZE; $('#topic-query').value = ''; render(); setAddress(); }
-$('#all-topics').addEventListener('click', clearFilters); $('#clear-search').addEventListener('click', clearFilters);
-$('#load-more').addEventListener('click', () => { state.visible += PAGE_SIZE; render(); });
+$('#topic-query').addEventListener('input', (event) => { state.query = event.target.value; render(); setAddress(''); });
+$('#all-topics').addEventListener('click', clearFilters); $('#clear-search').addEventListener('click', clearFilters); $('#clear-filters').addEventListener('click', clearFilters);
 $('#retry-load').addEventListener('click', loadData); $('#close-topic').addEventListener('click', closeTopic);
-dialog.addEventListener('click', event => { if (event.target === dialog) { const rect = dialog.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) closeTopic(); } });
+dialog.addEventListener('click', (event) => { if (event.target === dialog) { const rect = dialog.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) closeTopic(); } });
 dialog.addEventListener('close', () => {
   const previous = state.topic; state.topic = null;
   if (!previous) return;
@@ -206,8 +242,8 @@ $('#share-post').addEventListener('input', updatePostState); $('#restore-post').
 $('#copy-post').addEventListener('click', copyPost);
 window.addEventListener('popstate', () => {
   if (!state.data) return; const params = new URLSearchParams(location.search);
-  state.group = state.data.groups.some(g => g.id === params.get('group')) ? params.get('group') : '';
-  state.query = (params.get('q') || '').slice(0, 150); $('#topic-query').value = state.query; state.visible = PAGE_SIZE; render();
+  state.group = state.data.groups.some((g) => g.id === params.get('group')) ? params.get('group') : '';
+  state.query = (params.get('q') || '').slice(0, 150); $('#topic-query').value = state.query; render();
   if (params.has('topic')) openTopic(params.get('topic'), false);
   else if (dialog.open) { state.topic = null; dialog.close(); }
 });

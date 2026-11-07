@@ -154,7 +154,7 @@ def main():
         print(json.dumps(report, ensure_ascii=False, indent=2))
         raise SystemExit(1)
     topics.sort(key=lambda t: (int(t['group_id'][1:]), int(t['id'][1:])))
-    data = {'name': '沈伯洋政策分享蒟蒻', 'version': '2026-11-07-v1', 'source_snapshot_date': '2026-11-07', 'generated_at': datetime.now(ZoneInfo('Asia/Taipei')).isoformat(), 'stage': 'expanded_content', 'topic_count': len(topics), 'groups': catalog['groups'], 'notes': ['民間獨立整理，非官方發言。', '依2026-11-07下載快照整理，訪談稿尚未逐句對照影音。', '公開主題頁發布狀態見同資料夾publication.json；社群回應的RAG尚未切換至本資料。'], 'topics': topics}
+    data = {'name': 'Puma政策筆記', 'version': '2026-11-07-v2', 'source_snapshot_date': '2026-11-07', 'generated_at': datetime.now(ZoneInfo('Asia/Taipei')).isoformat(), 'stage': 'expanded_content', 'topic_count': len(topics), 'groups': catalog['groups'], 'notes': ['民間獨立整理，非官方發言。', '依2026-11-07下載快照整理，訪談稿尚未逐句對照影音。', '公開主題頁發布狀態見同資料夾publication.json；社群回應的RAG尚未切換至本資料。'], 'topics': topics}
     encoded = json.dumps(data, ensure_ascii=False, indent=2) + '\n'
     (CONTENT / 'expanded-topics.json').write_text(encoded)
     template = (APP / 'scripts/topic-content-preview.html').read_text()

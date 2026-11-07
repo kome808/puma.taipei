@@ -43,6 +43,6 @@ const server = createServer(async (req, res) => {
     res.end(Buffer.from(await response.arrayBuffer()));
   } catch { res.writeHead(500); res.end('Local server error'); }
 });
-server.listen(port, '127.0.0.1', () => console.log(`沈伯洋政策分享蒟蒻本機預覽：http://127.0.0.1:${port}（模型${key ? '已連接' : '未設定'}）`));
+server.listen(port, '127.0.0.1', () => console.log(`Puma政策筆記本機預覽：http://127.0.0.1:${port}（模型${key ? '已連接' : '未設定'}）`));
 process.on('SIGTERM', () => server.close(() => { close(); process.exit(0); }));
 process.on('SIGINT', () => server.close(() => { close(); process.exit(0); }));

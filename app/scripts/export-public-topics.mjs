@@ -95,6 +95,7 @@ const output = {
   name: source.name,
   version: source.version,
   source_snapshot_date: source.source_snapshot_date,
+  content_updated: source.content_revision?.date ?? source.source_snapshot_date,
   topic_count: topics.length,
   groups,
   topics,

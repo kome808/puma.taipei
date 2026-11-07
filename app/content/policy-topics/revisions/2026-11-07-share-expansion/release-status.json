@@ -9,7 +9,10 @@
     "search results immediately below search form",
     "source-summary interface copy and metadata",
     "source-summary task instructions",
-    "research Markdown character counts"
+    "research Markdown character counts",
+    "site renamed to Puma政策筆記 (pages, meta, data name)",
+    "86 short summaries rewritten against original sources (<=500 UTF-16 incl. URLs)",
+    "topic hall redesigned: 15 category cards + all 86 topic cards expanded by category"
   ],
   "local_checks": {
     "source_and_length_validation": "passed",
@@ -18,7 +21,19 @@
     "max_share_utf16": 334,
     "build": "passed",
     "existing_tests_passed": 65,
-    "mobile_search_layout": "390px verified"
+    "mobile_search_layout": "390px verified",
+    "summary_500_revision": {
+      "date": "2026-11-07",
+      "status": "verified_locally_not_deployed",
+      "topics": 86,
+      "max_utf16": 465,
+      "validation": "app/content/policy-topics/revisions/2026-11-07-summary-500/validation.json",
+      "check_table": "app/content/policy-topics/revisions/2026-11-07-summary-500/字元與來源檢查表.md",
+      "tests_passed": 79,
+      "build": "passed",
+      "live_links_opened": false,
+      "note": "External network unavailable in the authoring container; URLs were matched to the downloaded source snapshot, not opened."
+    }
   },
   "editorial_review_notes": [
     "t030: remove unsupported coach phrase or supply matching context before any later reuse.",
@@ -34,5 +49,6 @@
     "existing_tests_passed": 65,
     "summary_text_extended_in_this_revision": false,
     "research_markdown_length_report": "app/content/policy-topics/markdown/2026-11-07_研究整理/摘要與字數說明.md"
-  }
+  },
+  "deploy_target": "Worker puma-policy-v1 (Pages puma-note only proxies via Service Binding)"
 }

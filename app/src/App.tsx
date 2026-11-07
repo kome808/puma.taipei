@@ -156,24 +156,24 @@ function friendlyError(error: unknown): string {
       case 'NO_RESULTS':
       case 'NO_SOURCE':
       case 'NO_EVIDENCE':
-        return '這題蒟蒻還沒翻到足夠的資料。換個關鍵字，或把問題說細一點，再查一次吧。';
+        return '目前找不到足夠的相關資料。換個關鍵字，或把問題說細一點，再查一次。';
       case 'RATE_LIMITED':
       case 'RATE_LIMIT':
-        return '蒟蒻有點忙不過來，請稍後再查一次。';
+        return '目前查詢的人較多，請稍後再查一次。';
       case 'INVALID_QUERY':
-        return '先給蒟蒻一個主題，或貼上想查的問題吧。';
+        return '請先輸入一個主題，或貼上想查的問題。';
       case 'GENERATION_FAILED':
       case 'MODEL_ERROR':
-        return '蒟蒻這次沒整理好，請再查一次。';
+        return '這次沒有整理成功，請再查一次。';
       case 'NETWORK':
-        return '蒟蒻暫時連不上線，確認一下網路再試試。';
+        return '目前連不上服務，請確認網路後再試。';
       default:
-        return '蒟蒻這次卡住了，請稍後再查一次。';
+        return '這次查詢中斷了，請稍後再查一次。';
     }
   }
 
   if (error instanceof DOMException && error.name === 'AbortError') return '';
-  return '蒟蒻這次卡住了，請稍後再查一次。';
+  return '這次查詢中斷了，請稍後再查一次。';
 }
 
 function normaliseSources(result: GeneratedPost | SearchResult): PostSource[] {
@@ -434,7 +434,7 @@ function App() {
       invalidateActiveRequest();
       clearOutput();
       setQuery(value);
-      setError(value.length > MAX_QUERY_LENGTH ? `這段超過 ${MAX_QUERY_LENGTH.toLocaleString()} 字元了，幫蒟蒻挑一下重點吧。內容還沒送出。` : '');
+      setError(value.length > MAX_QUERY_LENGTH ? `這段超過 ${MAX_QUERY_LENGTH.toLocaleString()} 字元了，請先精簡重點。內容還沒送出。` : '');
       setNotice('');
     },
     [clearOutput, invalidateActiveRequest],
@@ -443,11 +443,11 @@ function App() {
   const generate = useCallback(async () => {
     const trimmed = query.trim();
     if (query.length > MAX_QUERY_LENGTH) {
-      setError(`這段超過 ${MAX_QUERY_LENGTH.toLocaleString()} 字元了，幫蒟蒻挑一下重點吧。內容還沒送出。`);
+      setError(`這段超過 ${MAX_QUERY_LENGTH.toLocaleString()} 字元了，請先精簡重點。內容還沒送出。`);
       return;
     }
     if (!trimmed) {
-      setError(mode === 'share' ? '先給蒟蒻一個主題吧，兩三個關鍵字也行。' : '把想查的問題或文字貼過來，蒟蒻才知道要找什麼。');
+      setError(mode === 'share' ? '請先輸入一個主題，兩三個關鍵字也可以。' : '把想查的問題或文字貼過來，才能找出相關資料。');
       return;
     }
 
@@ -522,7 +522,7 @@ function App() {
       setNotice('複製好了！摘要與來源已一起複製。');
     } catch {
       setCopyState('manual');
-      setNotice('瀏覽器沒讓蒟蒻代勞，文字已幫你選好。按 Ctrl／⌘＋C，就能連出處一起帶走。');
+      setNotice('瀏覽器沒有允許自動複製，文字已選取。請按 Ctrl／⌘＋C，連同出處一起複製。');
       const preview = previewRef.current;
       if (preview) {
         preview.focus();
@@ -548,7 +548,7 @@ function App() {
       ? '載入安全驗證中…'
       : verificationStage === 'challenge'
         ? '安全驗證中…'
-        : '蒟蒻翻資料中…';
+        : '整理資料中…';
   const progressMessage = interactionRequired
     ? '請完成查詢按鈕下方的安全驗證，完成後會繼續查詢。'
     : verificationIssue
@@ -565,10 +565,10 @@ function App() {
   return (
     <div className="app-shell">
       <header className="site-header">
-        <a className="brand" href="/" aria-label="沈伯洋政策分享蒟蒻首頁">
-          <span className="brand-mark" aria-hidden="true">蒟</span>
+        <a className="brand" href="/" aria-label="Puma政策筆記首頁">
+          <span className="brand-mark" aria-hidden="true">P</span>
           <span>
-            <strong>沈伯洋政策分享蒟蒻</strong>
+            <strong>Puma政策筆記</strong>
           </span>
         </a>
         <a className="topics-entry" href="/topics/">逛政策主題 <span aria-hidden="true">↗</span></a>
@@ -579,7 +579,7 @@ function App() {
           <div className="hero-copy">
             <h1 id="page-title">政策與訪談，<span>一起查個明白。</span></h1>
             <p className="hero-lede">
-              資料有點多，蒟蒻幫你翻。選個主題、輸入問題，依公開政策與訪談整理摘要，附上原始來源，方便查閱與核對。
+              選個主題、輸入問題，依公開政策與訪談整理資料摘要並附上原始來源，方便查閱與核對。
             </p>
             <p className="independent-note">
               民間整理，非官方網站。內容依據公開政策與訪談資料。
@@ -590,7 +590,7 @@ function App() {
           </div>
 
           <section className="workbench" aria-labelledby="workbench-title">
-            <h2 id="workbench-title">今天想讓蒟蒻翻哪題？</h2>
+            <h2 id="workbench-title">想查哪個主題？</h2>
             <div className="mode-tabs" role="tablist" aria-label="選擇整理方式">
               <button
                 className={mode === 'share' ? 'mode-tab is-active' : 'mode-tab'}
@@ -696,8 +696,8 @@ function App() {
         {generated && evidence.length === 0 && draftSources.length === 0 && (
           <section className="empty-state" aria-live="polite">
             <span className="empty-mark" aria-hidden="true">—</span>
-            <h2 ref={emptyHeadingRef}>這題，蒟蒻還沒翻到資料</h2>
-            <p>換個關鍵字，或把問題說細一點，再讓蒟蒻找找。</p>
+            <h2 ref={emptyHeadingRef}>目前找不到相關資料</h2>
+            <p>換個關鍵字，或把問題說細一點再查一次。</p>
           </section>
         )}
 
@@ -709,7 +709,7 @@ function App() {
 
       <footer className="site-footer">
         <div>
-          <strong>沈伯洋政策分享蒟蒻</strong>
+          <strong>Puma政策筆記</strong>
           <span>民間整理・非官方網站</span>
           <details className="privacy-note">
             <summary>輸入的文字，會怎麼使用？</summary>
@@ -717,7 +717,7 @@ function App() {
           </details>
         </div>
         <span className="footer-meta">
-          {config.stats.sources > 0 ? `蒟蒻已收好 ${config.stats.sources.toLocaleString('zh-TW')} 個資料來源` : '蒟蒻正在清點資料'}
+          {config.stats.sources > 0 ? `已收錄 ${config.stats.sources.toLocaleString('zh-TW')} 個資料來源` : '資料來源清點中'}
         </span>
       </footer>
     </div>

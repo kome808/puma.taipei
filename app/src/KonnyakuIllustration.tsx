@@ -8,7 +8,7 @@ export default function KonnyakuIllustration({ className }: KonnyakuIllustration
       className={className}
       viewBox="0 0 520 330"
       role="img"
-      aria-label="拿著分享紙條的蒟蒻角色，身旁有小房子、葉子和聊天泡泡"
+      aria-label="拿著筆記紙條的手繪角色，身旁有小房子、葉子和聊天泡泡"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

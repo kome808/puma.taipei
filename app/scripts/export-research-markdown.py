@@ -242,7 +242,7 @@ def main():
              f'| 既有短摘要正文（未匯入本包正文） | {min(summary_counts)} | {max(summary_counts)} | {mean(summary_counts)} |',
              f'| 既有短摘要連同來源 | {min(full_counts)} | {max(full_counts)} | {mean(full_counts)} |', '',
              '研究正文只計主題說明、官方、訪談及差異段落，段落之間以兩個換行計入。不含標題、索引、關鍵詞、來源連結、校讀備註及這份字數說明。', '',
-             '下表只列既有摘要欄位的長度，不把舊摘要重新包裝成研究正文。尚未為了接近500字元新增內容；如要補充，須依原始資料的實質細節處理。', '',
+             '下表只列既有摘要欄位的長度，不把舊摘要重新包裝成研究正文。2026-11-07起，短摘要已逐題對照原文改寫並補入具體做法與訪談細節，逐題原文摘錄與字元檢查見 revisions/2026-11-07-summary-500/字元與來源檢查表.md；來源不足的題目保留較短篇幅，不為湊字數補寫。', '',
              '## 逐題字數', '', '| 主題 | 研究正文 | 短摘要正文 | 短摘要含來源／上限500 |', '| --- | ---: | ---: | ---: |']
     for topic in topics:
         lines.append(f'| {local_link(topic["id"] + "｜" + topic["title"], topic_files[topic["id"]], length_page)} | {characters(research_body(topic))} | {characters(topic["share"]["body"])} | {characters(topic["share"]["text"])} |')

@@ -1,11 +1,11 @@
 {
   "type": "internal_research_markdown",
-  "generated_at": "2026-11-07T13:55:31+08:00",
+  "generated_at": "2026-11-07T15:14:24+08:00",
   "source_snapshot_date": "2026-11-07",
   "publication_status": "not_published",
   "input": {
     "path": "app/content/policy-topics/expanded-topics.json",
-    "sha256": "917336cbfe932dd3f3b7ef1ff409b07dd83e5fb8c9772cc40d038c333923d12c"
+    "sha256": "754e12447886fb304e552cf86170671dc51d1cc98d541b60d5034ae99d2f81cc"
   },
   "files": [
     {
@@ -1150,8 +1150,8 @@
     },
     {
       "path": "主題/g01_居住與城市更新/t006_社子島如何兼顧居住改善、聚落與生態？.md",
-      "sha256": "556fb6a24f2b2ba9e885526764088ea104ab9bb1faf757a6befcc54f4e8409f1",
-      "bytes": 2175
+      "sha256": "bfaedcb863f14c5e1b7d8ffb24b3fc1cd86b5fc82a8d1584d93424039ef40a50",
+      "bytes": 2958
     },
     {
       "path": "主題/g01_居住與城市更新/t065_第一批循環都更房源從哪裡來？.md",
@@ -1165,8 +1165,8 @@
     },
     {
       "path": "主題/g02_教育與校園/t008_校園毒品與毒駕風險如何預防、辨識和轉介？.md",
-      "sha256": "ce5c37ce1ea4ab827d2d8a3a669c39a66476fbf2169f47c875d3db0c7b1954b0",
-      "bytes": 2516
+      "sha256": "fee29a2aa17c034852d600861088b639eca954011f344d99d9049ad4baa5c1ed",
+      "bytes": 3423
     },
     {
       "path": "主題/g02_教育與校園/t009_孩子上下學的路口與通學巷如何更安全？.md",
@@ -1560,22 +1560,22 @@
     },
     {
       "path": "政策與訪談_完整整理.md",
-      "sha256": "3a281923c511f8e3d0c771e8f6c3bd928aab35d4fe8b2a0e1866cde09c20390c",
-      "bytes": 169972
+      "sha256": "a821a8c8b9de550be8c83cd01715534d60b480291a74772c2c4cf10efde8f62e",
+      "bytes": 171650
     },
     {
       "path": "來源索引.md",
-      "sha256": "c1fc70b2809a1d28863dc0d4afd63426045c57ddd32fa7255942a60067b4b33b",
-      "bytes": 107675
+      "sha256": "0e1ad9eb941e32a0778f3bb4d0b30305f1b4469972ac96de9ef23904ac15c7d1",
+      "bytes": 108381
     },
     {
       "path": "摘要與字數說明.md",
-      "sha256": "607f5f2e236ca991dff207a588bf809a67d33bdc225e9b7f85d137c285093d48",
-      "bytes": 31886
+      "sha256": "33d764c7b889fd3203c2b502c2c6c491c9d9422b0c983f0851d39081bfec8357",
+      "bytes": 32048
     },
     {
       "path": "版本與校讀說明.md",
-      "sha256": "121642ebab0db0df504428d1d1a1ec3ba81f80ec01e8298d94c864b6203cd8d8",
+      "sha256": "48345989a01aec42b3f7a8f6bef650f9c5dc9d3d5e35450211ee9d4ad02aac64",
       "bytes": 2303
     }
   ],
