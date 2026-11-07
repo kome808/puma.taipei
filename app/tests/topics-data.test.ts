@@ -34,7 +34,7 @@ test('every short summary, including source URLs and newlines, stays within 500 
     assert.doesNotMatch(share.body, /https?:\/\//, `${topic.id} embeds a URL in the body`);
     const urls = share.text.match(/https:\/\/[^\s]+/g)?.map(decode) ?? [];
     assert.deepEqual(urls, share.source_urls.map(decode), `${topic.id} URLs differ from share.source_urls`);
-    assert.ok(urls.length >= 1 && urls.length <= 2, `${topic.id} must cite one or two sources`);
+    assert.ok(urls.length >= 1 && urls.length <= 3, `${topic.id} must cite one to three sources`);
   }
 });
 

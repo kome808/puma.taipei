@@ -61,6 +61,15 @@ def load_rows():
             if row['id'] in rows:
                 raise SystemExit(f"duplicate proposal {row['id']}")
             rows[row['id']] = row
+    # revise-*.json: cross-interview syntheses that replace a topic's body/sources and may add sources
+    for path in sorted(REV.glob('revise-*.json')):
+        for row in json.loads(path.read_text()):
+            base = rows[row['id']]
+            adds = row.pop('supports_add', [])
+            base.update({k: v for k, v in row.items() if k != 'id'})
+            base['supports'] = base.get('supports', []) + adds
+            if base.get('below_target_reason') == '':
+                base.pop('below_target_reason')
     return rows
 
 
@@ -92,7 +101,7 @@ def main():
         all_sources = list(topic['sources']) + [v for u, v in src.items() if u not in {s['url'] for s in topic['sources']}]
         all_sources.sort(key=lambda s: s['type'] != 'official')
         urls = [all_sources[int(u[1:])]['url'] if re.fullmatch(r's\d+', u) else u for u in row['source_urls']]
-        if not 1 <= len(urls) <= 2 or len(set(urls)) != len(urls): errors.append(f'{tid}: needs 1-2 unique source URLs')
+        if not 1 <= len(urls) <= 3 or len(set(urls)) != len(urls): errors.append(f'{tid}: needs 1-3 unique source URLs')
         for u in urls:
             if u not in src: errors.append(f'{tid}: URL not among topic sources: {u}')
         types = [src[u]['type'] for u in urls if u in src]

@@ -7,17 +7,17 @@
     "public_issue": 5
   },
   "source_coverage": {
-    "both": 34,
-    "official_only": 20,
+    "both": 35,
+    "official_only": 19,
     "interview_only": 32
   },
-  "paragraphs": 132,
-  "evidence_excerpts_checked": 149,
+  "paragraphs": 147,
+  "evidence_excerpts_checked": 173,
   "source_documents": 223,
   "original_markdown_exact_copies": 218,
   "official_pdf_text_documents": 5,
-  "unique_cited_urls": 72,
-  "authored_local_links_checked": 983,
+  "unique_cited_urls": 74,
+  "authored_local_links_checked": 1030,
   "model_api_calls": 0,
   "social_share_fields_exported": false,
   "website_deployed": false,

@@ -61,7 +61,7 @@ const topics = source.topics.map((topic) => {
   if (actualLength !== share.utf16_length) fail(`${topic.id} share.utf16_length is ${share.utf16_length}, expected ${actualLength}`);
   maxShareLength = Math.max(maxShareLength, actualLength);
   assertSourceUrls(share.source_urls, sourceUrls, topic.id, 'share');
-  if (share.source_urls.length > 2 || new Set(share.source_urls).size !== share.source_urls.length) fail(`${topic.id} share must have one or two unique source URLs`);
+  if (share.source_urls.length > 3 || new Set(share.source_urls).size !== share.source_urls.length) fail(`${topic.id} share must have one to three unique source URLs`);
   const postUrls = (share.text.match(/https:\/\/[^\s]+/g) ?? []).map((url) => decodeURI(url));
   if (postUrls.length !== share.source_urls.length || !share.source_urls.every((url) => postUrls.includes(decodeURI(url)))) fail(`${topic.id} share text does not retain its original source URLs`);
 
