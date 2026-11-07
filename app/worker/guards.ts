@@ -33,7 +33,7 @@ export function checkOrigin(request: Request, env: Env) {
   if (origin && origin !== expected) throw new AppError('INVALID_ORIGIN', '請從本網站進行操作。', 403);
 }
 
-export async function verifyTurnstile(request: Request, env: Env, token: string) {
+export async function verifyTurnstile(request: Request, env: Env, token: string, expectedAction = 'generate') {
   if (env.ENVIRONMENT === 'development') return;
   if (!env.TURNSTILE_SECRET_KEY || !env.TURNSTILE_SITE_KEY) throw new AppError('SERVICE_NOT_READY', '文字整理服務尚在設定中，仍可先查閱來源。', 503);
   if (!token || token.length > 2048) throw new AppError('VERIFICATION_REQUIRED', '請完成網頁驗證後再試。', 403);
@@ -46,7 +46,7 @@ export async function verifyTurnstile(request: Request, env: Env, token: string)
     });
   } catch { throw new AppError('VERIFICATION_FAILED', '網頁驗證暫時無法完成，請稍後重試。', 503); }
   const data = await response.json() as { success?: boolean; hostname?: string; action?: string };
-  if (!data.success || data.hostname !== new URL(request.url).hostname || data.action !== 'generate') {
+  if (!data.success || data.hostname !== new URL(request.url).hostname || data.action !== expectedAction) {
     throw new AppError('VERIFICATION_FAILED', '網頁驗證已過期，請重新驗證後再試。', 403);
   }
 }
@@ -56,7 +56,7 @@ async function reserve(env: Env, key: string, max: number, expiresAt: number) {
   if (!row) throw new AppError('RATE_LIMITED', '今天或這段時間的使用次數較多，請稍後再試。', 429);
 }
 
-export async function reserveRequest(request: Request, env: Env, action: 'search' | 'generate') {
+export async function reserveRequest(request: Request, env: Env, action: 'search' | 'generate' | 'report') {
   const now = Date.now();
   const day = new Date(now).toISOString().slice(0, 10);
   const minute = Math.floor(now / 60_000);
@@ -65,8 +65,8 @@ export async function reserveRequest(request: Request, env: Env, action: 'search
   if (!salt) throw new AppError('SERVICE_NOT_READY', '服務尚在設定中，請稍後重試。', 503);
   const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(`${salt}:${day}:${ip}`));
   const client = [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, '0')).join('');
-  await reserve(env, `${action}:minute:${minute}:${client}`, action === 'generate' ? 6 : 20, now + 120_000);
-  await reserve(env, `${action}:day:${day}:${client}`, env.ENVIRONMENT === 'development' ? 500 : action === 'generate' ? 30 : 100, now + 172_800_000);
-  const globalMax = action === 'generate' ? Math.max(1, Math.min(10_000, Number(env.DAILY_GLOBAL_LIMIT) || 1000)) : 10_000;
+  await reserve(env, `${action}:minute:${minute}:${client}`, action === 'generate' ? 6 : action === 'report' ? 3 : 20, now + 120_000);
+  await reserve(env, `${action}:day:${day}:${client}`, env.ENVIRONMENT === 'development' ? 500 : action === 'generate' ? 30 : action === 'report' ? 10 : 100, now + 172_800_000);
+  const globalMax = action === 'generate' ? Math.max(1, Math.min(10_000, Number(env.DAILY_GLOBAL_LIMIT) || 1000)) : action === 'report' ? 300 : 10_000;
   await reserve(env, `${action}:global:${day}`, globalMax, now + 172_800_000);
 }

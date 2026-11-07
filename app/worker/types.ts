@@ -33,6 +33,8 @@ export interface Env {
   DAILY_GLOBAL_LIMIT?: string;
   ALLOWED_ORIGIN?: string;
   RATE_LIMIT_SALT?: string;
+  REPORTS_READ_TOKEN?: string;
+  REPORTS_WRITE_TOKEN?: string;
 }
 
 export interface SearchProvider {

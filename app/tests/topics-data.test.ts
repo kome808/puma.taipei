@@ -138,5 +138,6 @@ test('share preview image and error-report entry exist', () => {
   }
   const page = read('public/topics/index.html') + read('public/topics/topics.js');
   assert.ok(page.includes('open-report') && page.includes('report-copy'));
-  assert.ok(!/fetch\([^)]*report/i.test(read('public/topics/topics.js')), 'report form must not send data anywhere');
+  const urls = [...read('public/topics/topics.js').matchAll(/fetch\('([^']+)'/g)].map((m) => m[1]);
+  assert.deepEqual(urls.filter((u) => u !== '/topics/data.json').sort(), ['/api/config', '/api/reports'], 'topic page may only call config and the report endpoint');
 });

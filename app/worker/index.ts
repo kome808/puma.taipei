@@ -3,6 +3,7 @@ import { AppError } from './errors';
 import { checkOrigin, readInput, reserveRequest, verifyTurnstile } from './guards';
 import { corpusStats, generationContext, searchEvidence } from './search';
 import { generatePost } from './openai';
+import { cleanupReports, listReports, reportsOpen, submitReport, updateReport } from './reports';
 
 function secureResponse(response: Response, development = false): Response {
   const headers = new Headers(response.headers);
@@ -27,7 +28,7 @@ export default {
       if (path === '/api/config' && request.method === 'GET') {
         const stats = await corpusStats(env);
         const ready = stats.sources > 0 && stats.passages > 0 && Boolean(stats.version);
-        response = json({ turnstileSiteKey: env.TURNSTILE_SITE_KEY || null, stats, live: ready && Boolean(env.OPENAI_API_KEY) && (env.ENVIRONMENT === 'development' || Boolean(env.TURNSTILE_SITE_KEY && env.TURNSTILE_SECRET_KEY && env.RATE_LIMIT_SALT)) });
+        response = json({ turnstileSiteKey: env.TURNSTILE_SITE_KEY || null, stats, reportsOpen: reportsOpen(env), live: ready && Boolean(env.OPENAI_API_KEY) && (env.ENVIRONMENT === 'development' || Boolean(env.TURNSTILE_SITE_KEY && env.TURNSTILE_SECRET_KEY && env.RATE_LIMIT_SALT)) });
       } else if (path === '/api/health' && request.method === 'GET') {
         const stats = await corpusStats(env);
         const ready = stats.sources > 0 && stats.passages > 0 && Boolean(stats.version);
@@ -58,6 +59,13 @@ export default {
           env.DB.prepare('DELETE FROM request_limits WHERE bucket IN (SELECT bucket FROM request_limits WHERE expires_at < ? LIMIT 100)').bind(Date.now()).run(),
           env.DB.prepare('DELETE FROM generation_usage WHERE created_at < ?').bind(new Date(Date.now() - 30 * 86400_000).toISOString()).run(),
         ]).catch(() => undefined));
+      } else if (path === '/api/reports' && request.method === 'POST') {
+        response = json(await submitReport(request, env), 201);
+        if (ctx) ctx.waitUntil(cleanupReports(env).catch(() => undefined));
+      } else if (path === '/api/admin/reports' && request.method === 'GET') {
+        response = json(await listReports(request, env));
+      } else if (/^\/api\/admin\/reports\/[^/]+$/.test(path) && request.method === 'PATCH') {
+        response = json(await updateReport(request, env, decodeURIComponent(path.split('/').pop() ?? '')));
       } else if (path.startsWith('/api/')) {
         response = json({ error: { code: 'NOT_FOUND', message: '查詢路徑不存在。', requestId } }, 404);
       } else {

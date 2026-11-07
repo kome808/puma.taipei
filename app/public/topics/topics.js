@@ -215,6 +215,52 @@ function prepareMail() {
   mail.hidden = false;
   mail.href = `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(`回報：${state.topic.title}（${state.topic.id}）`)}&body=${encodeURIComponent(reportText())}`;
 }
+let reportConfig = null; let turnstileToken = ''; let turnstileWidget = null;
+async function loadReportConfig() {
+  if (reportConfig) return reportConfig;
+  try {
+    const response = await fetch('/api/config', { headers: { Accept: 'application/json' } });
+    const config = response.ok ? await response.json() : {};
+    reportConfig = { open: Boolean(config.reportsOpen), siteKey: config.turnstileSiteKey || null };
+  } catch { reportConfig = { open: false, siteKey: null }; }
+  return reportConfig;
+}
+function loadTurnstileScript() {
+  if (window.turnstile) return Promise.resolve();
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'; script.async = true;
+    script.onload = resolve; script.onerror = reject; document.head.append(script);
+  });
+}
+async function prepareSend() {
+  const config = await loadReportConfig();
+  $('#report-send').hidden = !config.open;
+  if (!config.open || !config.siteKey || turnstileWidget !== null) return;
+  try {
+    await loadTurnstileScript();
+    turnstileWidget = window.turnstile.render('#report-turnstile', { sitekey: config.siteKey, action: 'report', callback: (token) => { turnstileToken = token; }, 'expired-callback': () => { turnstileToken = ''; }, 'error-callback': () => { turnstileToken = ''; } });
+  } catch { $('#report-send').hidden = true; }
+}
+async function sendReport() {
+  const config = await loadReportConfig();
+  const status = $('#report-status');
+  if (config.siteKey && !turnstileToken) { status.textContent = '請先完成上方的網頁驗證。'; return; }
+  $('#report-send').disabled = true; status.textContent = '送出中…';
+  try {
+    const response = await fetch('/api/reports', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({
+      topicId: state.topic.id, type: $('#report-type').value, note: $('#report-note').value, contentVersion: state.data.content_updated || state.data.source_snapshot_date,
+      website: $('#report-website').value, turnstileToken }) });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data?.error?.message || '送出失敗');
+    status.textContent = `已收到回報，編號 ${data.id}。謝謝你協助核對。`; $('#report-note').value = '';
+  } catch (error) {
+    status.textContent = `${error.message || '送出失敗'}。你也可以改按「複製回報內容」。`;
+  } finally {
+    $('#report-send').disabled = false; turnstileToken = '';
+    if (window.turnstile && turnstileWidget !== null) { try { window.turnstile.reset(turnstileWidget); } catch { /* ignore */ } }
+  }
+}
 function closeTopic() { dialog.close(); }
 
 async function copyPost() {
@@ -269,7 +315,8 @@ dialog.addEventListener('close', () => {
 });
 $('#share-post').addEventListener('input', updatePostState); $('#restore-post').addEventListener('click', () => { $('#share-post').value = state.topic.share.text; updatePostState(); });
 $('#copy-post').addEventListener('click', copyPost);
-$('#open-report').addEventListener('click', () => { const form = $('#report-form'); form.hidden = !form.hidden; $('#open-report').setAttribute('aria-expanded', String(!form.hidden)); prepareMail(); if (!form.hidden) $('#report-type').focus(); });
+$('#open-report').addEventListener('click', () => { const form = $('#report-form'); form.hidden = !form.hidden; $('#open-report').setAttribute('aria-expanded', String(!form.hidden)); prepareMail(); if (!form.hidden) { prepareSend(); $('#report-type').focus(); } });
+$('#report-send').addEventListener('click', sendReport);
 for (const id of ['#report-type', '#report-note']) $(id).addEventListener('input', prepareMail);
 $('#report-copy').addEventListener('click', async () => {
   const text = reportText();
