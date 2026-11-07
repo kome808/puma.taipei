@@ -1,5 +1,8 @@
 # Cloudflare v1 設定與匯入
 
+**較新版本（2026-11-07，尚未部署）：** 使用者已改選D1全文搜尋＋AI Search混合搜尋；基本搜尋會送往本站D1，語意搜尋全站共用1,000次上游嘗試，前台只顯示既有摘要與來源。舊生成API仍退役。請先讀 `app/docs/2026-11-07-d1-hybrid-search.md`（app內文件使用 `docs/2026-11-07-d1-hybrid-search.md`）；下方純瀏覽器搜尋或無D1的敘述保留作歷史。
+
+
 ## 本機待發布：靜態主題搜尋
 
 2026-11-07使用者選擇公開端不接OpenAI API，使用Cloudflare免費功能。已準備瀏覽器端的86題詞彙搜尋及純靜態Pages包；詳見 [靜態搜尋紀錄](2026-11-07-static-topic-search.md)。新設定在專案根目錄 `pages-static/wrangler.jsonc`，原 `app/pages-gateway/` 僅保留既有線上版本，不應再當成新版本發行入口。

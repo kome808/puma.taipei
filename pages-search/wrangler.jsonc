@@ -1,0 +1,18 @@
+{
+  "$schema": "../app/node_modules/wrangler/config-schema.json",
+  "name": "puma-note",
+  "pages_build_output_dir": "../app/static-dist",
+  "compatibility_date": "2026-11-06",
+  "services": [],
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "puma-policy-v1",
+    "database_id": "be2e70a9-032c-474d-9550-8e6b98cb5cd8"
+  }],
+  "ai_search": [{ "binding": "SEMANTIC_SEARCH", "instance_name": "puma-note-topics" }],
+  "vars": {
+    "ENVIRONMENT": "production",
+    "SEMANTIC_SEARCH_ENABLED": "false",
+    "SEMANTIC_QUOTA_RESET_DAY": "1"
+  }
+}

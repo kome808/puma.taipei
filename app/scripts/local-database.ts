@@ -6,7 +6,7 @@ import type { Database, Statement } from '../worker/types';
 export function openLocalDatabase(filename = ':memory:') {
   const root = resolve(import.meta.dirname, '..');
   const sqlite = new DatabaseSync(filename);
-  for (const name of ['generated/schema.sql', 'generated/data.sql', 'worker/runtime-schema.sql']) sqlite.exec(readFileSync(resolve(root, name), 'utf8'));
+  for (const name of ['generated/schema.sql', 'generated/data.sql', 'worker/runtime-schema.sql', 'generated/topic-search-data.sql']) sqlite.exec(readFileSync(resolve(root, name), 'utf8'));
   class LocalStatement implements Statement {
     constructor(private sql: string, private values: unknown[] = []) {}
     bind(...values: unknown[]) { return new LocalStatement(this.sql, values); }

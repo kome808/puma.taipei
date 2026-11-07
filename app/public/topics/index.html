@@ -45,8 +45,10 @@
     <section class="browse-section" id="browse" aria-labelledby="browse-heading">
       <div class="section-heading"><div><p class="eyebrow">查詢與分類</p><h2 id="browse-heading">從你在意的事開始找。</h2></div><div class="snapshot-stamp"><span class="stamp-dot" aria-hidden="true"></span><span>來源擷取 <b class="snapshot-date">2026.11.07</b></span></div></div>
       <div class="browse-stack" id="browse-stack">
-        <form class="search-form" role="search" id="search-form"><div class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="topic-query" type="search" aria-label="輸入問題或關鍵字搜尋政策主題" aria-describedby="search-help" placeholder="輸入問題或關鍵字：都更、育兒、肌力…" autocomplete="off" maxlength="150"><button type="submit" class="search-go">搜尋 <span aria-hidden="true">↘</span></button></div><button class="all-button active" id="all-topics" type="button">全部主題 <span id="all-count">86</span></button></form>
-        <p class="search-help" id="search-help">找出已整理的相關主題，摘要與來源原樣顯示，不即時撰寫答案。</p>
+        <form class="search-form" role="search" id="search-form"><div class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="topic-query" type="search" aria-label="輸入問題或關鍵字搜尋政策主題" aria-describedby="search-help" placeholder="輸入問題或關鍵字：都更、育兒、肌力…" autocomplete="off" maxlength="150"><button type="submit" class="search-go">搜尋 <span aria-hidden="true">↘</span></button></div><div class="search-options" role="group" aria-label="搜尋方式"><label><input type="radio" name="search-mode" value="basic" checked><span>基本搜尋（關鍵字）</span></label><label><input type="radio" name="search-mode" value="semantic" disabled><span>語意搜尋（找相近意思）</span></label></div><button class="all-button active" id="all-topics" type="button">全部主題 <span id="all-count">86</span></button></form>
+        <p class="search-help" id="search-help">搜尋只在按下按鈕後送出。結果使用既有主題與固定摘要，不會生成答案或代為發文。</p>
+        <p class="semantic-mode-status" id="semantic-mode-status" role="status" aria-live="polite">語意搜尋尚未啟用，基本搜尋可照常使用。</p>
+        <p class="semantic-status" id="semantic-status" role="status" aria-live="polite" hidden></p>
         <div class="filter-status" id="filter-status" role="status" aria-live="polite"><p id="result-count" class="result-count">正在整理主題…</p><button type="button" id="clear-filters" class="clear-filters" hidden>清除篩選</button></div>
         <nav id="categories" class="category-grid" aria-label="15類政策主題分類" aria-busy="true"></nav>
         <div id="load-error" class="load-error" hidden><p>主題資料這次沒有載入，請重新載入。</p><button type="button" id="retry-load">再載入一次</button></div>
@@ -56,7 +58,7 @@
     </section>
   </main>
   <footer class="site-footer wrap">
-    <div><a class="footer-name" href="/">Puma政策筆記</a><p>民間獨立整理的政策與訪談筆記，非官方網站，也不代表任何候選人或團隊發言。訪談稿尚未逐句對照影音。<br>搜尋在瀏覽器比對既有主題，不會把問題送到AI服務；短摘要可自行複製，本站不代為發文或傳送訊息。<br>發現錯誤？打開該題，按「回報這一題」。</p></div>
+    <div><a class="footer-name" href="/">Puma政策筆記</a><p>民間獨立整理的政策與訪談筆記，非官方網站，也不代表任何候選人或團隊發言。訪談稿尚未逐句對照影音。<br>按下搜尋後，基本搜尋會將查詢送至本站全文搜尋服務；語意搜尋會將查詢送至 Cloudflare AI Search。結果只使用既有主題與固定摘要，不會生成答案或替你發文、傳送社群訊息。本功能不使用 OpenAI。<br>發現錯誤？打開該題，按「回報這一題」。</p></div>
     <div class="footer-sources"><p>資料來源</p><a href="https://puma.taipei/policies" target="_blank" rel="noopener noreferrer">官方政策頁 ↗</a><a href="https://puma-hub.pages.dev/#all" target="_blank" rel="noopener noreferrer">PUMA HUB 訪談／活動整理 ↗</a><small>來源擷取：<span class="snapshot-date">2026.11.07</span>　內容更新：<span class="content-date">2026.11.07</span><br>網站部署日期另計，不代表資料更新日期。</small></div>
   </footer>
 

@@ -1,4 +1,6 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile, rm } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { ftsTerms } from '../shared/topic-fts.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -100,6 +102,30 @@ const output = {
   groups,
   topics,
 };
+
+// Version the reviewed, public fields only. Editorial notes never reach the index.
+const corpusVersion = createHash('sha256').update(JSON.stringify(output)).digest('hex');
+output.semantic_corpus_version = corpusVersion;
+// Keep the built-in folder filter below Cloudflare's 64 UTF-8 byte prefix limit.
+const prefix = `puma-note-topics/${corpusVersion.slice(0, 32)}`;
+const manifest = { corpusVersion, prefix, topicIds: topics.map(({ id }) => id) };
+await mkdir(path.join(appDir, 'shared'), { recursive: true });
+await writeFile(path.join(appDir, 'shared/topic-search-manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
+
+const semanticDir = path.join(appDir, 'generated/semantic-topics');
+await rm(semanticDir, { recursive: true, force: true });
+await mkdir(path.join(semanticDir, prefix), { recursive: true });
+const sqlText = (value) => `'${String(value).replaceAll("'", "''")}'`;
+const sql = ['-- Idempotent versioned topic index: preserves old versions, usage, reports and original sources.', 'BEGIN TRANSACTION;'];
+for (const topic of topics) {
+  const body = [topic.intro, ...topic.official.map((p) => p.text), ...topic.interview.map((p) => p.text), topic.share.body].join('\n');
+  const indexFields = [topic.title, topic.question, topic.keywords.join(' '), body].map((value) => ftsTerms(value).join(' '));
+  sql.push(`INSERT INTO policy_topic_fts(id,corpus_version,title,question,keywords,body,payload) SELECT ${[topic.id, corpusVersion, ...indexFields, JSON.stringify(topic)].map(sqlText).join(',')} WHERE NOT EXISTS(SELECT 1 FROM policy_topic_fts WHERE id=${sqlText(topic.id)} AND corpus_version=${sqlText(corpusVersion)});`);
+  const markdown = [`# ${topic.title}`, `topic_id: ${topic.id}`, `corpus_version: ${corpusVersion}`, `分類：${topic.group_title}`, `問題：${topic.question}`, `關鍵字：${topic.keywords.join('、')}`, '', topic.intro, '', '## 官方政策內容', ...topic.official.map((p) => `${p.text}\n${p.source_urls.join('\n')}`), '', '## 訪談補充', ...topic.interview.map((p) => `${p.text}\n${p.source_urls.join('\n')}`)].join('\n\n');
+  await writeFile(path.join(semanticDir, prefix, `${topic.id}.md`), `${markdown}\n`);
+}
+sql.push(`INSERT INTO topic_search_meta(key,value) VALUES('corpus_version',${sqlText(corpusVersion)}) ON CONFLICT(key) DO UPDATE SET value=excluded.value;`, 'COMMIT;');
+await writeFile(path.join(appDir, 'generated/topic-search-data.sql'), `${sql.join('\n')}\n`);
 
 await mkdir(path.dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(output, null, 2)}\n`, 'utf8');

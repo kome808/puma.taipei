@@ -1,9 +1,9 @@
 import { CATEGORY_ART } from './categories.js';
 import { REPORT_EMAIL } from './site-config.js';
-import { searchTopics } from './topic-search.mjs';
+import { requestBasicSearch, requestSemanticSearch } from './semantic-search-client.mjs';
 
 const $ = (selector) => document.querySelector(selector);
-const state = { data: null, group: '', query: '', topic: null, copyTimer: null };
+const state = { data: null, group: '', query: '', topic: null, copyTimer: null, searchMode: 'basic', resultIds: null, searchSubmitted: false, searchBusy: false, searchMessage: '', searchController: null, semanticSearchEnabled: false };
 const dialog = $('#topic-dialog');
 const stack = $('#browse-stack');
 
@@ -81,8 +81,13 @@ function topicCard(topic) {
 function render() {
   if (!state.data) return;
   const searching = Boolean(state.query.trim());
-  stack.classList.toggle('is-searching', searching);
-  const ranked = searchTopics(state.data.topics, state.query);
+  const semantic = state.searchMode === 'semantic';
+  const successfulSearch = state.searchSubmitted && Array.isArray(state.resultIds);
+  stack.classList.toggle('is-searching', searching && successfulSearch);
+  const searchedTopics = state.searchSubmitted && Array.isArray(state.resultIds)
+    ? state.resultIds.map((id) => state.data.topics.find((topic) => topic.id === id)).filter(Boolean)
+    : [];
+  const ranked = successfulSearch ? searchedTopics : state.data.topics;
   const matchesByGroup = new Map();
   for (const group of state.data.groups) {
     matchesByGroup.set(group.id, ranked.filter((t) => t.group_id === group.id));
@@ -91,7 +96,7 @@ function render() {
 
   const host = $('#topic-sections'); host.replaceChildren();
   let shown = 0;
-  if (searching) {
+  if (successfulSearch) {
     const matches = ranked.filter((topic) => !state.group || topic.group_id === state.group);
     shown = matches.length;
     if (shown) {
@@ -127,10 +132,51 @@ function render() {
   const parts = [];
   if (groupName) parts.push(`分類：${groupName}`);
   if (searching) parts.push(`查詢：「${state.query.trim()}」`);
-  $('#result-count').textContent = parts.length ? `${shown} 個主題符合（${parts.join('、')}）` : `全部 ${total} 個主題，分成 ${state.data.groups.length} 類`;
-  $('#clear-filters').hidden = !parts.length;
+  $('#result-count').textContent = searching && !successfulSearch
+    ? (state.searchBusy ? '正在搜尋，仍可瀏覽下方主題。' : '尚未取得搜尋結果，可先瀏覽下方主題。')
+    : successfulSearch ? `${shown} 個主題符合（${parts.join('、')}）`
+      : parts.length ? `${shown} 個主題符合（${parts.join('、')}）` : `全部 ${total} 個主題，分成 ${state.data.groups.length} 類`;
+  $('#clear-filters').hidden = !state.group && !searching;
   $('#all-topics').classList.toggle('active', !state.group && !searching);
-  $('#empty-state').hidden = shown !== 0;
+  const waitingForSubmit = searching && !successfulSearch && !state.searchBusy && !state.searchMessage;
+  $('#empty-state').hidden = !successfulSearch || shown !== 0;
+  $('#empty-state h3').textContent = '沒有找到相關主題。';
+  $('#empty-state p').textContent = '試著換個方式描述問題，或清除條件看全部主題。';
+  const status = $('#semantic-status');
+  $('#search-form button[type="submit"]').disabled = state.searchBusy;
+  status.hidden = !state.searchMessage && !waitingForSubmit;
+  status.textContent = state.searchMessage || (semantic ? '輸入問題並按「搜尋」，才會送出語意搜尋。' : '輸入關鍵字並按「搜尋」，才會查詢主題。');
+  status.classList.toggle('is-loading', state.searchBusy);
+}
+
+function cancelSearch() {
+  state.searchController?.abort(); state.searchController = null;
+  state.searchBusy = false;
+}
+
+async function submitSearch() {
+  if (state.searchBusy) return;
+  cancelSearch(); state.resultIds = null; state.searchSubmitted = false; state.searchMessage = '';
+  if (state.searchMode === 'semantic' && !state.semanticSearchEnabled) {
+    state.searchMessage = '語意搜尋尚未啟用，基本搜尋可照常使用。'; render(); return;
+  }
+  const query = state.query.trim();
+  if (!query) { render(); return; }
+  const controller = new AbortController(); state.searchController = controller;
+  state.searchBusy = true; state.searchMessage = '正在搜尋既有主題…'; render();
+  try {
+    const request = state.searchMode === 'semantic' ? requestSemanticSearch : requestBasicSearch;
+    const result = await request(query, state.data.semantic_corpus_version, { signal: controller.signal });
+    if (state.searchController !== controller) return;
+    state.resultIds = [...new Set(result.topicIds)].filter((id) => state.data.topics.some((topic) => topic.id === id));
+    state.searchSubmitted = true;
+    state.searchMessage = state.resultIds.length ? `${state.searchMode === 'semantic' ? '語意' : '基本'}搜尋找到 ${state.resultIds.length} 個既有主題。` : `${state.searchMode === 'semantic' ? '語意' : '基本'}搜尋沒有找到相關主題。`;
+  } catch (error) {
+    if (state.searchController !== controller || controller.signal.aborted) return;
+    state.searchMessage = error.message || '搜尋目前無法使用，分類瀏覽仍可使用。';
+  } finally {
+    if (state.searchController === controller) { state.searchBusy = false; state.searchController = null; render(); }
+  }
 }
 
 function sourceLink(url, title) {
@@ -217,15 +263,24 @@ function prepareMail() {
   mail.hidden = false;
   mail.href = `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(`回報：${state.topic.title}（${state.topic.id}）`)}&body=${encodeURIComponent(reportText())}`;
 }
-let reportConfig = null; let turnstileToken = ''; let turnstileWidget = null;
+let reportConfig = null; let reportConfigPromise = null; let turnstileToken = ''; let turnstileWidget = null;
 async function loadReportConfig() {
   if (reportConfig) return reportConfig;
-  try {
-    const response = await fetch('/api/config', { headers: { Accept: 'application/json' } });
-    const config = response.ok ? await response.json() : {};
-    reportConfig = { open: Boolean(config.reportsOpen), siteKey: config.turnstileSiteKey || null };
-  } catch { reportConfig = { open: false, siteKey: null }; }
-  return reportConfig;
+  if (!reportConfigPromise) reportConfigPromise = (async () => {
+    try {
+      const response = await fetch('/api/config', { headers: { Accept: 'application/json' } });
+      const config = response.ok ? await response.json() : {};
+      reportConfig = { open: Boolean(config.reportsOpen), siteKey: config.turnstileSiteKey || null, semanticSearchEnabled: config.semanticSearchEnabled === true };
+    } catch { reportConfig = { open: false, siteKey: null, semanticSearchEnabled: false }; }
+    return reportConfig;
+  })();
+  return reportConfigPromise;
+}
+function updateSemanticSearchAvailability(enabled) {
+  state.semanticSearchEnabled = enabled === true;
+  const option = $('input[name="search-mode"][value="semantic"]');
+  option.disabled = !state.semanticSearchEnabled;
+  $('#semantic-mode-status').hidden = state.semanticSearchEnabled;
 }
 function loadTurnstileScript() {
   if (window.turnstile) return Promise.resolve();
@@ -287,6 +342,7 @@ async function loadData() {
     const data = await response.json();
     if (!Array.isArray(data.topics) || !Array.isArray(data.groups) || !data.topics.length) throw new Error('Invalid topic data');
     state.data = data;
+    loadReportConfig().then((config) => updateSemanticSearchAvailability(config.semanticSearchEnabled));
     const params = new URLSearchParams(location.search); const group = params.get('group');
     state.group = data.groups.some((g) => g.id === group) ? group : ''; state.query = (params.get('q') || '').slice(0, 150);
     $('#topic-query').value = state.query;
@@ -301,12 +357,17 @@ async function loadData() {
   } finally { clearTimeout(timeout); }
 }
 
-function clearFilters() { state.query = ''; state.group = ''; $('#topic-query').value = ''; render(); setAddress(''); }
+function clearFilters() { cancelSearch(); state.resultIds = null; state.searchSubmitted = false; state.searchMessage = ''; state.query = ''; state.group = ''; $('#topic-query').value = ''; render(); setAddress(''); }
 $('#search-form').addEventListener('submit', (event) => {
   event.preventDefault(); $('#topic-query').blur();
+  submitSearch();
   $('#filter-status').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
 });
-$('#topic-query').addEventListener('input', (event) => { state.query = event.target.value; render(); setAddress(''); });
+$('#topic-query').addEventListener('input', (event) => { cancelSearch(); state.resultIds = null; state.searchSubmitted = false; state.searchMessage = ''; state.query = event.target.value; render(); setAddress(''); });
+document.querySelectorAll('input[name="search-mode"]').forEach((input) => input.addEventListener('change', (event) => {
+  cancelSearch(); state.resultIds = null; state.searchSubmitted = false; state.searchMessage = '';
+  state.searchMode = event.target.value; render();
+}));
 $('#all-topics').addEventListener('click', clearFilters); $('#clear-search').addEventListener('click', clearFilters); $('#clear-filters').addEventListener('click', clearFilters);
 $('#retry-load').addEventListener('click', loadData); $('#close-topic').addEventListener('click', closeTopic);
 dialog.addEventListener('click', (event) => { if (event.target === dialog) { const rect = dialog.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) closeTopic(); } });
@@ -326,7 +387,7 @@ $('#report-copy').addEventListener('click', async () => {
   catch { const box = $('#report-note'); $('#report-status').textContent = '瀏覽器沒有允許自動複製，請手動選取下方文字。'; box.value = text; box.focus(); box.select(); }
 });
 window.addEventListener('popstate', () => {
-  if (!state.data) return; const params = new URLSearchParams(location.search);
+  if (!state.data) return; cancelSearch(); state.resultIds = null; state.searchSubmitted = false; state.searchMessage = ''; const params = new URLSearchParams(location.search);
   state.group = state.data.groups.some((g) => g.id === params.get('group')) ? params.get('group') : '';
   state.query = (params.get('q') || '').slice(0, 150); $('#topic-query').value = state.query; render();
   if (params.has('topic')) openTopic(params.get('topic'), false);

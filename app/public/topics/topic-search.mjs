@@ -73,15 +73,21 @@ function scoreTopic(topic, queryTokens, queryText) {
   return score;
 }
 
+export function getSearchTerms(query) {
+  const normalized = normalize(query).replace(/[\p{P}\p{S}\s]+/gu, " ").trim();
+  let tokens = expand(tokenize(normalized), normalized);
+  // When the search explicitly asks for an AI coach, the bare word "coach"
+  // otherwise pulls in exercise coaches even though the AI context is explicit.
+  if (normalized.includes("ai教練")) tokens = tokens.filter((token) => token !== "教練");
+  return tokens;
+}
+
 /** Return original topic records ordered by lexical relevance; never edits or generates topic content. */
 export function searchTopics(topics, query) {
   const input = Array.isArray(topics) ? topics : [];
   const normalized = normalize(query).replace(/[\p{P}\p{S}\s]+/gu, " ").trim();
   if (!normalized) return [...input];
-  let tokens = expand(tokenize(normalized), normalized);
-  // When the search explicitly asks for an AI coach, the bare word "coach"
-  // otherwise pulls in exercise coaches even though the AI context is explicit.
-  if (normalized.includes("ai教練")) tokens = tokens.filter((token) => token !== "教練");
+  const tokens = getSearchTerms(query);
   if (!tokens.length) return [];
   const ranked = input.map((topic, index) => ({ topic, index, score: scoreTopic(topic, tokens, normalized) }))
     .sort((a, b) => b.score - a.score || a.index - b.index);

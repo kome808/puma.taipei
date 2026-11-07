@@ -1,0 +1,102 @@
+{
+  "checked_on": "2026-11-07",
+  "status": "validated_locally_not_deployed",
+  "base_commit": "663840d4a58f1d584e17fd2a7e8c5d7c8c0853a8",
+  "corpus_version": "23484016772e379f9ae2c0c690990a0577b19061fa1f9483de263281016d8ee4",
+  "index_prefix": "puma-note-topics/23484016772e379f9ae2c0c690990a05",
+  "topic_count": 86,
+  "tests": {
+    "pass": 124,
+    "fail": 0,
+    "commands": [
+      "npm run build",
+      "npm run build:static",
+      "npm test",
+      "node scripts/sync-topic-search.mjs --dry-run"
+    ]
+  },
+  "data_integrity": {
+    "source_sha256": "cfa588a66f606f2b0bf8601d05e3c86646672bbd48b396635fe2baad059fc196",
+    "source_unchanged_from_base": true,
+    "all_fixed_topics_and_summaries_unchanged": true,
+    "public_envelope_added_field": "semantic_corpus_version"
+  },
+  "quota": {
+    "global_limit": 1000,
+    "atomic_reservations_tested": 1020,
+    "accepted": 1000,
+    "denied_before_provider": 20,
+    "failed_provider_reservation_refunded": false,
+    "automatic_retry": false,
+    "per_client_per_minute": 5,
+    "per_client_per_day": 30,
+    "configured_cycle_day_default": 1,
+    "timezone": "UTC",
+    "cloudflare_account_usage_reconciled": false
+  },
+  "browser": {
+    "local_pages_with_real_local_d1": true,
+    "default_cards": 86,
+    "default_categories": 15,
+    "semantic_disabled_without_configuration": true,
+    "basic_gold_queries": [
+      {
+        "query": "無限都更一開始的房子要怎樣來",
+        "ids": [
+          "t065"
+        ]
+      },
+      {
+        "query": "銀髮族肌肉流失可以做什麼",
+        "ids": [
+          "t028"
+        ]
+      },
+      {
+        "query": "老師行政工作太多怎麼辦",
+        "ids": [
+          "t007"
+        ]
+      },
+      {
+        "query": "臨時沒人幫忙帶小孩",
+        "ids": [
+          "t013"
+        ]
+      },
+      {
+        "query": "AI教練如何協助傳統產業",
+        "ids": [
+          "t060"
+        ]
+      }
+    ],
+    "requests_per_basic_submit": 1,
+    "semantic_success_and_quota_used_mock_responses": true,
+    "semantic_requests_before_explicit_submit": 0,
+    "semantic_success_duplicate_and_unknown_ids_filtered": true,
+    "t028_summary_exactly_matches_fixed_401_characters": true,
+    "quota_message_verified": true,
+    "quota_error_preserves_86_cards_and_15_categories": true,
+    "basic_d1_works_after_mocked_semantic_quota_error": true,
+    "mobile_width": 390,
+    "mobile_document_width": 390,
+    "physical_iphone_safari_tested": false,
+    "legacy_search_and_generation_http_status": 410
+  },
+  "remote_actions": {
+    "deployed": false,
+    "remote_sql_applied": false,
+    "r2_uploaded": false,
+    "ai_search_instance_created": false,
+    "real_ai_search_queried": false,
+    "secrets_changed": false
+  },
+  "release_requirements": [
+    "Apply runtime schema and versioned D1 index without clearing usage/reports.",
+    "Upload exact versioned topic keys and confirm matching AI Search hybrid index ready.",
+    "Confirm Cloudflare account-wide used allowance and reset window, seed/reconcile current counter.",
+    "Configure RATE_LIMIT_SALT and disable direct public AI Search access.",
+    "Explicitly enable the approved Pages search profile and retire old Worker generation endpoints when release is authorized."
+  ]
+}

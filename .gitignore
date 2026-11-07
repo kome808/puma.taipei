@@ -7,6 +7,8 @@ node_modules/
 dist/
 pages-dist/
 static-dist/
+app/generated/semantic-topics/
+app/generated/topic-search-data.sql
 artifacts/
 output/
 __pycache__/

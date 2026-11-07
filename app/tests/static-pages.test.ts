@@ -14,7 +14,9 @@ test("Pages configuration is isolated from the legacy Worker and resolves the st
   assert.equal(config.name, "puma-note");
   assert.equal(resolve(configDir, config.pages_build_output_dir), output);
   assert.deepEqual(config.services, []);
-  for (const binding of ["d1_databases", "r2_buckets", "ai_search", "ai", "vars"]) {
+  assert.equal(config.d1_databases[0].binding, 'DB');
+  assert.equal(config.vars.SEMANTIC_SEARCH_ENABLED, 'false');
+  for (const binding of ["r2_buckets", "ai_search", "ai"]) {
     assert.equal(binding in config, false, `${binding} must not be inherited by the Pages package`);
   }
 });

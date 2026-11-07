@@ -9,6 +9,7 @@
     "prebuild": "node scripts/export-public-topics.mjs",
     "build": "tsc --noEmit && vite build",
     "build:static": "tsc --noEmit && node scripts/export-public-topics.mjs && node scripts/build-static-pages.mjs",
+    "pretest": "node scripts/export-public-topics.mjs",
     "test": "node --import tsx --test tests/*.test.ts",
     "corpus": "node scripts/build-corpus.mjs",
     "prepreview": "npm run build:static",

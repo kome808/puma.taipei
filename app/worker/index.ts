@@ -1,6 +1,7 @@
 import type { Env } from './types';
 import { AppError } from './errors';
 import { cleanupReports, listReports, reportsOpen, submitReport, updateReport } from './reports';
+import { fulltextTopicSearch, semanticTopicSearch, semanticSearchConfigured } from './topic-retrieval';
 
 function secureResponse(response: Response, development = false): Response {
   const headers = new Headers(response.headers);
@@ -39,11 +40,18 @@ export default {
     let response: Response;
     if (path === '/api/config' && request.method === 'GET') {
       const open = Boolean(env.DB) && reportsOpen(env);
-      response = json({ mode: 'static-topic-search', generationEnabled: false, live: false, reportsOpen: open, ...(open && env.TURNSTILE_SITE_KEY ? { turnstileSiteKey: env.TURNSTILE_SITE_KEY } : {}) });
+      response = json({ mode: 'static-topic-search', generationEnabled: false, live: false, reportsOpen: open, semanticSearchEnabled: semanticSearchConfigured(env), ...(open && env.TURNSTILE_SITE_KEY ? { turnstileSiteKey: env.TURNSTILE_SITE_KEY } : {}) });
     } else if (path === '/api/health' && request.method === 'GET') {
       response = json({ ok: true, mode: 'static-topic-search', generationEnabled: false });
     } else if (path === '/api/search' || path === '/api/generate') {
       response = retired();
+    } else if (path === '/api/topic-search' || path === '/api/semantic-search') {
+      try {
+        response = json(await (path === '/api/semantic-search' ? semanticTopicSearch(request, env) : fulltextTopicSearch(request, env)));
+      } catch (error) {
+        const known = error instanceof AppError;
+        response = json({ error: { code: known ? error.code : 'SEARCH_UNAVAILABLE', message: known ? error.message : '搜尋目前無法提供服務，仍可從分類瀏覽主題。' } }, known ? error.status : 503);
+      }
     } else if (path === '/api/reports' || path.startsWith('/api/admin/reports')) {
       try {
         if (!env.DB) throw new AppError('NOT_FOUND', '查詢路徑不存在。', 404);

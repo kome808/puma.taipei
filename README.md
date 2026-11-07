@@ -1,6 +1,6 @@
 # 沈伯洋政策整理網站與來源資料
 
-目前本機網站版本：[Puma政策筆記](app/README.md)。已改為搜尋既有86題、原樣顯示摘要與來源，公開流程不使用OpenAI或其他模型API；此輪尚未部署，線上版本仍以發布紀錄為準。新Pages設定在根目錄 `pages-static/`。
+目前本機網站版本：[Puma政策筆記](app/README.md)。已加入D1全文搜尋與Cloudflare AI Search混合搜尋，原樣顯示86題摘要與來源，不生成新答案或使用OpenAI API。語意搜尋全站共用每週期1,000次硬上限。此輪尚未部署；Pages設定在根目錄 `pages-static/` 與 `pages-search/`，發行時只用核定的其中一份。
 
 跨環境接手先讀：[Claude交接入口](CLAUDE_HANDOFF.md)。此倉庫包含2026-11-07的現行工作樹與尚未發布修訂；本機名稱已改為「Puma政策筆記」。請勿將本機檔案全部視為已上線版本。
 
