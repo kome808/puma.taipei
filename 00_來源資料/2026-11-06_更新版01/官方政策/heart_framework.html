@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="zh-Hant">
+    <head>
+                    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-55HDR9CSS2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-55HDR9CSS2');
+    </script>
+                <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta name="robots" content="index, follow, max-image-preview:large">
+                <meta name="theme-color" content="#db6a41">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+                    <link rel="canonical" href="https://puma.taipei/heart">
+                            <meta name="description" content="七個問題，看看 HEART 政策架構怎麼接住你在台北的生活。">
+                                <meta property="og:type" content="website">
+                    <meta property="og:url" content="https://puma.taipei/heart">
+                <meta property="og:locale" content="zh_TW">
+        <meta property="og:site_name" content="沈伯洋台北市長競選官方網站">
+        <meta property="og:title" content="你是台北的哪一種人？">
+                    <meta property="og:description" content="七個問題，看看 HEART 政策架構怎麼接住你在台北的生活。">
+                <meta property="og:image" content="https://puma.taipei/images/og-default-20261013.webp">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="你是台北的哪一種人？">
+                    <meta name="twitter:description" content="七個問題，看看 HEART 政策架構怎麼接住你在台北的生活。">
+                <meta name="twitter:image" content="https://puma.taipei/images/og-default-20261013.webp">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        >
+        <title>你是台北的哪一種人？ — 沈伯洋台北市長競選官方網站</title>
+        <link rel="preload" as="style" href="https://puma.taipei/build/assets/heart-DVQHWUsN.css" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/heart-BnJ4V1M6.js" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/analytics-CN5p9pe7.js" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/run-hug-mode-Dv_YP_OO.js" /><link rel="stylesheet" href="https://puma.taipei/build/assets/heart-DVQHWUsN.css" data-navigate-track="reload" /><script type="module" src="https://puma.taipei/build/assets/heart-BnJ4V1M6.js" data-navigate-track="reload"></script>
+        <link rel="preload" as="style" href="https://puma.taipei/build/assets/app-ojxQ4tvn.css" /><link rel="preload" as="style" href="https://puma.taipei/build/assets/puma-COav3eFF.css" /><link rel="preload" as="style" href="https://puma.taipei/build/assets/puma-CSvobdiw.css" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/puma-BWSWh59i.js" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/preload-helper-BgbkXLIy.js" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/gsap-D_956-p2.js" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/photoswipe.esm-S6UVvKwj.js" /><link rel="modulepreload" as="script" href="https://puma.taipei/build/assets/run-hug-mode-Dv_YP_OO.js" /><link rel="stylesheet" href="https://puma.taipei/build/assets/app-ojxQ4tvn.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://puma.taipei/build/assets/puma-COav3eFF.css" data-navigate-track="reload" /><link rel="stylesheet" href="https://puma.taipei/build/assets/puma-CSvobdiw.css" data-navigate-track="reload" /><script type="module" src="https://puma.taipei/build/assets/puma-BWSWh59i.js" data-navigate-track="reload"></script>    </head>
+    <body>
+        
+                    <header
+		class="site-header"
+		data-site-menu-variant="mega"
+		x-data="siteHeaderMenu"
+		x-on:mouseenter="cancelClose()"
+		x-on:mouseleave="armClose()"
+		x-on:focusout="closeGroupsOnFocusOut($event)"
+		x-on:keydown.escape.window="closeGroupsOnEscape()"
+		x-on:resize.window="closeMenuOnWiden()"
+	>
+		<nav
+			class="site-nav site-shell"
+			x-bind:class="{ 'site-nav-open': menuOpen, 'site-nav-visible': menuVisible, 'site-nav-closing': menuClosing }"
+			aria-label="主要選單"
+			x-on:mouseover="closeGroupsForPointer($event)"
+		>
+			<a class="site-brand" href="/" aria-label="回到沈伯洋台北市長競選官方網站首頁" >
+				<img src="/images/brand/candidate-lockup.webp" alt="你的市長 沈伯洋" width="1400" height="215" />
+			</a>
+			<button
+				class="site-menu-toggle"
+				type="button"
+				aria-expanded="false"
+				x-bind:aria-expanded="menuOpen ? 'true' : 'false'"
+				aria-controls="site-menu"
+				aria-label="切換主選單"
+				x-on:click="toggleMenu()"
+			>
+				<span></span><span></span><span></span>
+			</button>
+			<div class="site-menu" id="site-menu" x-bind:inert="!isDropdown() && !menuVisible" x-on:click="closeMenuOnLink($event)">
+				<details class="site-menu-group" data-site-menu-group="about"
+					x-on:mouseenter="openGroupFromPointer($el)"
+					x-on:toggle="syncGroupExclusivity($el)"
+					x-on:click.outside="closeGroup($el)"
+				>
+					<summary x-on:click="activateGroup($el.parentElement, $event)"  aria-controls="site-menu-panel-about">關於伯洋</summary>
+					<div class="site-menu-panel" id="site-menu-panel-about">
+						<section class="site-menu-category" aria-labelledby="site-menu-about-profile">
+							<h2 id="site-menu-about-profile">個人經歷</h2>
+							<a href="/declaration" >參選聲明</a>
+							<a href="/experience" >學經歷與國際交流</a>
+						</section>
+						<section class="site-menu-category" aria-labelledby="site-menu-about-media">
+							<h2 id="site-menu-about-media">伯洋足跡</h2>
+							<a href="/schedule" >最新行程</a>
+							
+															<a href="https://gotcha.puma.taipei" target="_blank" rel="noopener noreferrer" aria-label="前往「捕捉野生沈伯洋」，另開新分頁">捕捉野生沈伯洋</a>
+													</section>
+					</div>
+				</details>
+				<details class="site-menu-group" data-site-menu-group="policy"
+					x-on:mouseenter="openGroupFromPointer($el)"
+					x-on:toggle="syncGroupExclusivity($el)"
+					x-on:click.outside="closeGroup($el)"
+				>
+					<summary x-on:click="activateGroup($el.parentElement, $event)"  data-current="true"  aria-controls="site-menu-panel-policy">政策願景</summary>
+					<div class="site-menu-panel site-menu-panel--policy" id="site-menu-panel-policy">
+						<section class="site-menu-category site-menu-category--planning" aria-labelledby="site-menu-policy-future">
+							<h2 id="site-menu-policy-future">前瞻規劃</h2>
+							<div class="site-menu-link-grid site-menu-link-grid--policy-columns">
+								<a href="/heart"  aria-current="page" >HEART 政策生態系</a>
+																	<a href="/heart-island" >HEART 政策島</a>
+																<a href="/heart/quiz/1" >伯洋分類帽</a>
+								<a href="/policies" >政策專區</a>
+							</div>
+						</section>
+						<section class="site-menu-category" aria-labelledby="site-menu-policy-civic">
+							<h2 id="site-menu-policy-civic">市民意見</h2>
+							<a href="/taipeispeaksup" >市長，你給我聽好了</a>
+															<a href="/observatory" >台北民意觀察室</a>
+													</section>
+					</div>
+				</details>
+				<details class="site-menu-group" data-site-menu-group="currents"
+					x-on:mouseenter="openGroupFromPointer($el)"
+					x-on:toggle="syncGroupExclusivity($el)"
+					x-on:click.outside="closeGroup($el)"
+				>
+					<summary x-on:click="activateGroup($el.parentElement, $event)"  aria-controls="site-menu-panel-currents">洋流來襲</summary>
+					<div class="site-menu-panel site-menu-panel--currents" id="site-menu-panel-currents">
+						<section class="site-menu-category site-menu-category--activities" aria-labelledby="site-menu-currents-activities">
+							<h2 id="site-menu-currents-activities">洋流活動</h2>
+							<div class="site-menu-link-grid site-menu-link-grid--activity-columns">
+																	<a href="/songs" >競選歌曲</a>
+																<a href="https://storemap.puma.taipei/" target="_blank" rel="noopener noreferrer" aria-label="洋流好店，另開新分頁">洋流好店</a>
+								<a href="/taipei-current" >台北大洋流</a>
+																	<a href="/hackathon" >市政 debug 松</a>
+															</div>
+						</section>
+						<section class="site-menu-category" aria-labelledby="site-menu-currents-fundraising">
+							<h2 id="site-menu-currents-fundraising">募款專區</h2>
+							<a href="/merch" data-site-run-hug-pat-trigger >洋流小物</a>
+						</section>
+						<section class="site-menu-category" aria-labelledby="site-menu-currents-downloads">
+							<h2 id="site-menu-currents-downloads">下載專區</h2>
+							<a href="/documents" >文宣下載</a>
+															<a href="/soonmook" >洋流誌</a>
+														<a href="/soon-daily" >順報</a>
+						</section>
+					</div>
+				</details>
+				<details class="site-menu-group" data-site-menu-group="fact-checks"
+					x-on:mouseenter="openGroupFromPointer($el)"
+					x-on:toggle="syncGroupExclusivity($el)"
+					x-on:click.outside="closeGroup($el)"
+				>
+					<summary x-on:click="activateGroup($el.parentElement, $event)"  aria-controls="site-menu-panel-fact-checks">闢謠專區</summary>
+					<div class="site-menu-panel" id="site-menu-panel-fact-checks">
+						<section class="site-menu-category" aria-labelledby="site-menu-fact-checks-video">
+							<h2 id="site-menu-fact-checks-video">影音專區</h2>
+							<a href="/videos" >每日受訪</a>
+															<a href="/live" >直播</a>
+													</section>
+						<section class="site-menu-category" aria-labelledby="site-menu-fact-checks-text">
+							<h2 id="site-menu-fact-checks-text">文字專區</h2>
+							<a href="/fact-checks" >闢謠專區</a>
+						</section>
+					</div>
+				</details>
+							</div>
+							<section
+    class="home-announcement"
+    data-home-announcement
+    data-home-announcement-source="/api/header-announcements"
+    hidden
+    x-bind:data-announcement-id="activeAnnouncement.id"
+    x-data="homeAnnouncement('\/api\/header-announcements')"
+    x-on:mouseenter="pauseForPointer()"
+    x-on:mouseleave="resumeForPointer()"
+    x-on:focusin="pauseForFocus()"
+    x-on:focusout="resumeAfterFocusLeaves($event)"
+    aria-label="網站公告"
+>
+    <div class="home-announcement__ticker" x-cloak>
+        <div class="home-announcement__viewport" data-home-announcement-viewport role="group" aria-label="公告跑馬燈">
+            <div class="home-announcement__track" data-home-announcement-track>
+                <div class="home-announcement__group" data-home-announcement-group>
+                    <div class="home-announcement__mascot" data-home-announcement-mascot aria-hidden="true">
+                        <div class="site-run-hug__sprite">
+                            <img
+                                class="site-run-hug__image site-run-hug__image--run"
+                                src="/images/run-hug/sprite-run.png"
+                                alt=""
+                                aria-hidden="true"
+                                width="1774"
+                                height="887"
+                            />
+                        </div>
+                    </div>
+                    <template x-for="(announcement, index) in announcements" x-bind:key="announcement.id">
+                        <button
+                            class="home-announcement__item"
+                            type="button"
+                            data-home-announcement-open
+                            data-home-announcement-title
+                            x-on:click="openAnnouncement(index)"
+                            x-bind:aria-label="'查看公告：' + announcement.title"
+                        >
+                            <span class="home-announcement__title" x-text="announcement.title"></span>
+                            <svg class="home-announcement__detail-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8" />
+                                <path d="M12 11v5m0-8h.01" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" />
+                            </svg>
+                        </button>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <dialog
+        class="home-announcement__dialog"
+        data-home-announcement-dialog
+        x-ref="dialog"
+        x-on:click.self="closeDialog()"
+        x-on:close="handleDialogClose()"
+        aria-labelledby="home-announcement-dialog-title"
+    >
+        <div class="home-announcement__dialog-card">
+            <button class="home-announcement__close" type="button" x-on:click="closeDialog()" aria-label="關閉公告">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" />
+                </svg>
+            </button>
+            <p class="home-announcement__dialog-label">公告</p>
+            <h2 id="home-announcement-dialog-title" class="home-announcement__dialog-title" x-text="activeAnnouncement.title"></h2>
+            <div class="home-announcement__dialog-image-wrap" x-show="activeAnnouncement.isPreview">
+                <div class="home-announcement__preview-image" role="img" aria-label="公告圖片預覽">
+                    <span>公告圖片預覽</span>
+                </div>
+                <p class="home-announcement__preview-note">本機版位樣板・不會公開</p>
+            </div>
+            <img
+                class="home-announcement__dialog-image"
+                x-show="!activeAnnouncement.isPreview"
+                x-bind:src="activeAnnouncement.imageUrl"
+                x-bind:alt="activeAnnouncement.alt"
+                x-bind:title="activeAnnouncement.title"
+                decoding="async"
+            >
+            <a
+                class="home-announcement__dialog-link"
+                x-show="activeAnnouncement.linkUrl"
+                x-bind:href="activeAnnouncement.linkUrl"
+            >前往相關資訊</a>
+        </div>
+    </dialog>
+</section>
+					</nav>
+	</header>
+                        <main id="top" class="page-shell"><div class="heart-page" data-heart-app>
+		<section class="heart-screen is-active" data-heart-screen="framework" aria-label="HEART 政策架構">
+			
+			<div class="heart-stage" data-heart-stage>
+				<lite-youtube
+					class="heart-stage-video"
+					data-heart-stage-video
+					videoid="i5zByHt6esg"
+					params="mute=1&amp;start=23"
+					playlabel="播放：把台北，還給台北人：HEART 政策架構"
+				></lite-youtube>
+			</div>
+
+			<div class="heart-cards">
+									
+					<button
+						type="button"
+						class="heart-card"
+						data-heart-card="H"
+						command="show-modal"
+						commandfor="heart-pillar-H"
+						aria-haspopup="dialog"
+					>
+						<span class="heart-card-front">
+							<span class="heart-card-letter">H</span>
+							<span class="heart-card-title">空間 · Habitat</span>
+							<span class="heart-card-hint">點開看內容</span>
+						</span>
+						<span class="heart-card-back">
+							<span class="heart-card-give">把好好生活的空間還給台北人</span>
+							<span class="heart-card-body">居住、街道與公共空間，是一座城市最基本的生活地基。</span>
+						</span>
+					</button>
+									
+					<button
+						type="button"
+						class="heart-card"
+						data-heart-card="E"
+						command="show-modal"
+						commandfor="heart-pillar-E"
+						aria-haspopup="dialog"
+					>
+						<span class="heart-card-front">
+							<span class="heart-card-letter">E</span>
+							<span class="heart-card-title">培力與機會 · Empower</span>
+							<span class="heart-card-hint">點開看內容</span>
+						</span>
+						<span class="heart-card-back">
+							<span class="heart-card-give">把發展的機會留在台北</span>
+							<span class="heart-card-body">城市不能只讓人「住得下來」，還要讓人「有機會留下來、走得更遠」。</span>
+						</span>
+					</button>
+									
+					<button
+						type="button"
+						class="heart-card"
+						data-heart-card="A"
+						command="show-modal"
+						commandfor="heart-pillar-A"
+						aria-haspopup="dialog"
+					>
+						<span class="heart-card-front">
+							<span class="heart-card-letter">A</span>
+							<span class="heart-card-title">陪伴 · Accompany</span>
+							<span class="heart-card-hint">點開看內容</span>
+						</span>
+						<span class="heart-card-back">
+							<span class="heart-card-give">讓每個人生階段，都有城市支持</span>
+							<span class="heart-card-body">一座好的城市，不只是提供服務，更應該在人最需要的時候，成為可靠的後盾。</span>
+						</span>
+					</button>
+									
+					<button
+						type="button"
+						class="heart-card"
+						data-heart-card="R"
+						command="show-modal"
+						commandfor="heart-pillar-R"
+						aria-haspopup="dialog"
+					>
+						<span class="heart-card-front">
+							<span class="heart-card-letter">R</span>
+							<span class="heart-card-title">韌性與安心 · Resilience</span>
+							<span class="heart-card-hint">點開看內容</span>
+						</span>
+						<span class="heart-card-back">
+							<span class="heart-card-give">把城市的根扎得更深</span>
+							<span class="heart-card-body">一座完整的森林，颱風來了，不可能每一棵樹都不倒；但只要根扎得夠深，森林必能得以重生。</span>
+						</span>
+					</button>
+									
+					<button
+						type="button"
+						class="heart-card"
+						data-heart-card="T"
+						command="show-modal"
+						commandfor="heart-pillar-T"
+						aria-haspopup="dialog"
+					>
+						<span class="heart-card-front">
+							<span class="heart-card-letter">T</span>
+							<span class="heart-card-title">時間 · Time</span>
+							<span class="heart-card-hint">點開看內容</span>
+						</span>
+						<span class="heart-card-back">
+							<span class="heart-card-give">把生活的時間還給台北人</span>
+							<span class="heart-card-body">對很多台北人來說，最稀缺的不是收入，而是時間。</span>
+						</span>
+					</button>
+							</div>
+
+			
+							<dialog
+					class="heart-pillar-modal"
+					id="heart-pillar-H"
+					data-heart-pillar-modal="H"
+					aria-labelledby="heart-pillar-give-H"
+				>
+					<form method="dialog">
+						<button type="submit" class="heart-pillar-modal-close" aria-label="關閉">×</button>
+					</form>
+					<p class="heart-pillar-modal-title">
+						<span class="heart-pillar-modal-letter">H</span>
+						<span>空間 · Habitat</span>
+					</p>
+					<p class="heart-pillar-modal-give" id="heart-pillar-give-H">把好好生活的空間還給台北人</p>
+					<p class="heart-pillar-modal-lead">居住、街道與公共空間，是一座城市最基本的生活地基。</p>
+											<p class="heart-pillar-modal-paragraph">當房價與租金讓年輕人難以留下、當老宅沒有電梯讓長者困在家中、當騎樓與人行道被違停佔滿、當孩子沒有安全的步行空間，城市就算再繁華，也不一定適合生活。</p>
+											<p class="heart-pillar-modal-paragraph">H 要做的，不是蓋先進的高樓大廈，而是重新整理城市與人的關係。</p>
+											<p class="heart-pillar-modal-paragraph">從婚育宅、青年宅，到老宅改善；從安全步道、人行環境，到更友善的街道與公共空間，讓不同年齡、不同人生階段的人，都能在台北找到一個可以安心生活的地方。</p>
+									</dialog>
+							<dialog
+					class="heart-pillar-modal"
+					id="heart-pillar-E"
+					data-heart-pillar-modal="E"
+					aria-labelledby="heart-pillar-give-E"
+				>
+					<form method="dialog">
+						<button type="submit" class="heart-pillar-modal-close" aria-label="關閉">×</button>
+					</form>
+					<p class="heart-pillar-modal-title">
+						<span class="heart-pillar-modal-letter">E</span>
+						<span>培力與機會 · Empower</span>
+					</p>
+					<p class="heart-pillar-modal-give" id="heart-pillar-give-E">把發展的機會留在台北</p>
+					<p class="heart-pillar-modal-lead">城市不能只讓人「住得下來」，還要讓人「有機會留下來、走得更遠」。</p>
+											<p class="heart-pillar-modal-paragraph">年輕人面對 AI 與產業轉型，創業者需要市場與空間，中年人可能面對轉職與再培力，傳統產業與老店也需要新的發展方式。</p>
+											<p class="heart-pillar-modal-paragraph">E 要做的，是把台北既有的人才、產業與城市資源重新串起來。</p>
+											<p class="heart-pillar-modal-paragraph">以北士科為重要節點，我們要讓科技新創和國家級科研團隊進駐，也要在這裡成立都市研究院，串聯科技、城市治理、產業創新與人才培育，讓研究不只停留在學術，也能落地進入城市、產業與日常生活。</p>
+											<p class="heart-pillar-modal-paragraph">讓年輕人有創新的舞台，讓企業找到人才，讓傳統產業有轉型的機會，也讓每一個想在台北重新開始的人，都有可以往前走的路。</p>
+									</dialog>
+							<dialog
+					class="heart-pillar-modal"
+					id="heart-pillar-A"
+					data-heart-pillar-modal="A"
+					aria-labelledby="heart-pillar-give-A"
+				>
+					<form method="dialog">
+						<button type="submit" class="heart-pillar-modal-close" aria-label="關閉">×</button>
+					</form>
+					<p class="heart-pillar-modal-title">
+						<span class="heart-pillar-modal-letter">A</span>
+						<span>陪伴 · Accompany</span>
+					</p>
+					<p class="heart-pillar-modal-give" id="heart-pillar-give-A">讓每個人生階段，都有城市支持</p>
+					<p class="heart-pillar-modal-lead">一座好的城市，不只是提供服務，更應該在人最需要的時候，成為可靠的後盾。</p>
+											<p class="heart-pillar-modal-paragraph">對長者，我們需要的不只是福利，而是能夠真正走進社區的支持與關懷。因此推動老宅延壽行動服務團、健身小巴與敬老卡擴大使用，讓健康與生活的協助，主動走到長者身邊。</p>
+											<p class="heart-pillar-modal-paragraph">對家長，要有真正能喘口氣的空間。透過家長喘息服務、家長版 1999、親子同行卡，以及家庭教育中心能量擴增，讓父母不再孤單。</p>
+											<p class="heart-pillar-modal-paragraph">對公務人員與教師，也應該有更完整的多元身心支持方案，讓第一線工作者在照顧城市的同時，也有人照顧他們。</p>
+											<p class="heart-pillar-modal-paragraph">A 要做的，就是建立一張更完整的城市支持網。</p>
+											<p class="heart-pillar-modal-paragraph">不論是長者、孩子、家長、教師、公務人員，或是正在面對人生轉折的朋友，都能知道：需要幫忙的時候，台北有人接住你。</p>
+									</dialog>
+							<dialog
+					class="heart-pillar-modal"
+					id="heart-pillar-R"
+					data-heart-pillar-modal="R"
+					aria-labelledby="heart-pillar-give-R"
+				>
+					<form method="dialog">
+						<button type="submit" class="heart-pillar-modal-close" aria-label="關閉">×</button>
+					</form>
+					<p class="heart-pillar-modal-title">
+						<span class="heart-pillar-modal-letter">R</span>
+						<span>韌性與安心 · Resilience</span>
+					</p>
+					<p class="heart-pillar-modal-give" id="heart-pillar-give-R">把城市的根扎得更深</p>
+					<p class="heart-pillar-modal-lead">一座完整的森林，颱風來了，不可能每一棵樹都不倒；但只要根扎得夠深，森林必能得以重生。</p>
+											<p class="heart-pillar-modal-paragraph">城市也是一樣。真正的韌性，不是讓城市永遠不出問題，而是當問題發生時，城市的生命力不會因此倒下。</p>
+											<p class="heart-pillar-modal-paragraph">所以，交通政策不能只追求「車子開得快、道路不塞」，更要透過都市設計與交通工程，努力朝交通零死亡前進。</p>
+											<p class="heart-pillar-modal-paragraph">所以，托育政策不能只是增加臨托名額，更要確保孩子在托育環境中的安全與品質。</p>
+											<p class="heart-pillar-modal-paragraph">R 要做的，是厚實這座城市的根，建立韌性：從公共安全、交通、托育、社區防災，到弱勢與高風險族群的支持，讓每一項政策都不只是解決眼前的問題，而是在替城市建立面對下一次風險的能力。</p>
+									</dialog>
+							<dialog
+					class="heart-pillar-modal"
+					id="heart-pillar-T"
+					data-heart-pillar-modal="T"
+					aria-labelledby="heart-pillar-give-T"
+				>
+					<form method="dialog">
+						<button type="submit" class="heart-pillar-modal-close" aria-label="關閉">×</button>
+					</form>
+					<p class="heart-pillar-modal-title">
+						<span class="heart-pillar-modal-letter">T</span>
+						<span>時間 · Time</span>
+					</p>
+					<p class="heart-pillar-modal-give" id="heart-pillar-give-T">把生活的時間還給台北人</p>
+					<p class="heart-pillar-modal-lead">對很多台北人來說，最稀缺的不是收入，而是時間。</p>
+											<p class="heart-pillar-modal-paragraph">通勤、接送、照顧父母，往往一天被切割成一個又一個零碎的片段。很多人不是沒有想做的事，而是根本沒有時間去做。</p>
+											<p class="heart-pillar-modal-paragraph">T 要做的，是讓城市替市民省下時間。</p>
+											<p class="heart-pillar-modal-paragraph">從家長喘息服務、運動驛站、健身小巴，到 TPASS 加入共享電動機車等等，把交通、運動、照顧與日常生活重新整合，讓市民可以減少為了完成一件事情而付出的額外時間，每天多增加屬於自己的 30 分鐘。</p>
+									</dialog>
+			
+			
+			<div class="heart-cta">
+				<a class="heart-start" href="https://puma.taipei/heart/quiz/1">開始測驗，看看台北有沒有接住你</a>
+				<a class="heart-policy-jump" href="https://puma.taipei/policies">直接進入政策專區</a>
+			</div>
+
+			<article class="heart-framework-intro" aria-labelledby="heart-framework-intro-title">
+	<h2 class="heart-framework-intro-title" id="heart-framework-intro-title">住在台北的你，是否總感覺自己卡住了？</h2>
+
+	<div class="heart-framework-intro-copy">
+		<p>一場大雨，出門到處積水；住在沒有電梯的老公寓，明明有補助，申請程序卻複雜得讓人打退堂鼓。每天擠著捷運、趕著下班追垃圾車，好不容易抬起頭，看到的卻仍是一片鐵皮屋頂。</p>
+		<p>台北人已經很努力生活，但城市的進步，卻沒有跟上市民的努力。</p>
+		<p>問題不是台北沒有資源，也不是市政府沒有做事，而是面對問題，往往哪裡出事就補哪裡、哪裡卡住就修哪裡。一次又一次貼上「OK 繃」，卻沒有真正處理問題彼此之間的關係。</p>
+		<p>因為我們的生活從來不按照局處分類。住在哪裡，會影響每天怎麼移動；通勤多久，會影響還剩多少時間陪伴家人；有沒有人接住生活的困難，也會影響一個人還有沒有餘裕工作、學習，甚至重新選擇人生。</p>
+		<p>這些看似不同的問題，其實就像一座森林：陽光、水、土壤與生命彼此影響，一個環節改變，也會帶動其他環節。</p>
+		<p>既然生活本來就是一個彼此牽動的生態系，城市治理也不能再把每個問題拆開處理，這就是「市政生態系」——不是把很多政策放在一起，而是讓一個改變帶動下一個改變。</p>
+		<p>空間變得更好，讓人願意走出家門；交通更順，讓人拿回自己的時間；生活有人接住，才有餘裕追求新的機會。當每一個環節彼此連結，城市才能真正順起來。</p>
+		<p>因此，從台北人的生活出發，第一步，就要從每個人生活發生的地方開始——空間。</p>
+	</div>
+
+	<section class="heart-framework-pillar" data-heart-pillar="H" aria-labelledby="heart-framework-pillar-h">
+		<h3 class="heart-framework-pillar-title" id="heart-framework-pillar-h">H - Habitat（空間）：把空間還給台北人</h3>
+		<p>空間，是一切生活發生的起點。</p>
+		<p>一個人能不能留在台北，不只是有沒有房子，而是住得起之後，附近有沒有綠地、街道好不好走，甚至是有沒有足夠的文化、運動與公共空間。</p>
+		<p>因此空間不該只談單一建設，從婚育宅、青年宅，到增加綠蔭、公園綠地、串聯山徑與河岸，目的都是同一件事：讓城市的空間真正貼合市民的日常生活。</p>
+		<p>但有了空間，生活就會自然變得更從容嗎？還不夠。當通勤、轉乘、接送與各種生活瑣事持續占據一天，再好的城市空間，也可能沒有時間真正使用。</p>
+	</section>
+
+	<section class="heart-framework-pillar" data-heart-pillar="T" aria-labelledby="heart-framework-pillar-t">
+		<h3 class="heart-framework-pillar-title" id="heart-framework-pillar-t">T - Time（時間）：把時間還給台北人</h3>
+		<p>時間，是每個人最公平、也最有限的資源。</p>
+		<p>但很多台北人的時間，每天虛耗在轉乘、塞車、等待、接送；碰到需要政府的時候，甚至得花費大量心力，在各種局處窗口處理事情。</p>
+		<p>要把時間還給台北人，就是要讓城市運行得更加順暢，從改善最後一哩交通、把共享運具接進公共運輸、設置運動驛站、增加家庭喘息與臨托服務。</p>
+		<p>看起來是不同政策，背後其實都在做同一件事——減少那些原本不必要的折返與等待。每天多出的三十分鐘，可以讓人好好吃頓飯、多些餘裕去散步或運動、陪伴孩子玩場遊戲，或甚至只是能夠喘口氣好好休息，不再感到自己被時間追著跑。</p>
+		<p>空間有了，時間也有了，但一座城市要真正運轉起來，不能只有設施與效率。政策存在，不代表每個人都能走得到、用得到；真正需要幫助的時候，也不能只剩下一個人自己想辦法。</p>
+	</section>
+
+	<section class="heart-framework-pillar" data-heart-pillar="A" aria-labelledby="heart-framework-pillar-a">
+		<h3 class="heart-framework-pillar-title" id="heart-framework-pillar-a">A - Accompany（陪伴）：把陪伴還給台北人</h3>
+		<p>很多城市問題，都回歸到一個很簡單的感受：當我真的遇到困境時，有人能陪伴我面對嗎？</p>
+		<p>長輩住在沒有電梯的老公寓，政策即使存在，如果申請程序太複雜，對他來說就等於不存在；父母面對育兒壓力，如果每一次突發狀況都只能自己請假、自己想辦法，再多公共資源也很難真正減輕負擔。</p>
+		<p>從老宅延壽的行動服務、社區共照，到家長支持、臨托與身心支持，目標都是把政府從「等你來申請」，變成在需要的時候主動把服務送到人的身邊。讓每個市民知道，遇到事情時，這座城市一直會在背後支撐你。</p>
+		<p>當人走得出門、有人陪伴，也就更有機會參與社區、進入商圈、重新連結城市。陪伴不只解決孤獨與照顧，也會讓人重新有餘裕思考自己的下一步。</p>
+	</section>
+
+	<section class="heart-framework-pillar" data-heart-pillar="E" aria-labelledby="heart-framework-pillar-e">
+		<h3 class="heart-framework-pillar-title" id="heart-framework-pillar-e">E - Empower（機會）：把機會還給台北人</h3>
+		<p>城市除了讓人生活，也必須讓人看得到未來。</p>
+		<p>許多人選擇留在台北，就是為了機會；但現在更多人離開台北，也是因為機會——想要創業、轉職、學習新技能或重新開始，會發現試錯成本太高，也缺少資源與嘗試的機會。</p>
+		<p>從青年圓夢、城市基金、新創採購，到 AI 學習、海外交流，以及中年轉職與第二次創業，核心都是讓不同人生階段的人，都有再次嘗試、往前走的可能。</p>
+		<p>當空間、時間、陪伴與機會彼此接起來，城市的生態系才真正開始運轉。但一套完整的生態系，不只要在平常運作順暢，也必須在危機來臨時站得住。</p>
+	</section>
+
+	<section class="heart-framework-pillar" data-heart-pillar="R" aria-labelledby="heart-framework-pillar-r">
+		<h3 class="heart-framework-pillar-title" id="heart-framework-pillar-r">R - Resilience（韌性）：把安心還給台北人</h3>
+		<p>對一座城市真正的考驗，是危機發生時，是否能夠對應處理，並繼續運行下去。</p>
+		<p>極端降雨、交通事故、兒少安全、詐騙犯罪，看似是不同議題，背後其實都在問同一件事：政府能不能在事情發生之前，就先降低風險？</p>
+		<p>因此強調的不只是事後補救，更是事前的預想規劃：住宅要思考儲能、綠化與排水；交通不能只求車流順暢，也要降低死亡與事故；托育不能只有名額，也必須建立安全機制；面對新型詐騙，政府也要有跨局處、能持續應變的治理能力。</p>
+		<p>城市不僅要具備韌性、回應各種危機，更得成為令人安心的後盾。</p>
+	</section>
+
+	<div class="heart-framework-conclusion">
+		<hr class="heart-framework-rule" aria-hidden="true">
+		<p>空間、時間、陪伴、機會、韌性。</p>
+		<p>五個問題，對應五個願景；五個願景彼此連動，形成一套完整的市政生態系。</p>
+		<p>Habitat、Time、Accompany、Empower、Resilience，合起來就是 HEART。</p>
+		<p>HEART 不只是五個政策願景的縮寫，代表的也是一顆治理城市的「心」——</p>
+		<p>讓原本散落在不同局處裡的政策，重新回到人的生活；讓改變不只停留在政策做了什麼，而是市民每天能不能真正感覺得到。治理一座城市有沒有用心，生活在其中的人最知道。</p>
+		<p class="heart-framework-closing">讓台北重新順起來，就從把心放回城市開始！</p>
+	</div>
+</article>
+		</section>
+
+	</div></main>
+                    <div
+                class="site-run-hug site-run-hug--parked"
+                data-site-run-hug
+                 data-site-run-hug-parked                 aria-hidden="true"
+                role="presentation"
+            >
+                <div class="site-run-hug__sprite">
+                    <img
+                        class="site-run-hug__image site-run-hug__image--run"
+                        src="/images/run-hug/sprite-run.png"
+                        alt=""
+                        aria-hidden="true"
+                        width="1774"
+                        height="887"
+                    />
+                    <img
+                        class="site-run-hug__image site-run-hug__image--pat"
+                        src="/images/run-hug/sprite-head-pat.webp"
+                        alt=""
+                        aria-hidden="true"
+                        width="2172"
+                        height="724"
+                    />
+                </div>
+            </div>
+            <a href="https://puma.oen.tw/" target="_blank" rel="noopener noreferrer" class="donation-button" data-site-run-hug-pat-trigger aria-label="贊助我們">
+    贊助我們
+</a>
+            <a
+    href="https://join.puma.taipei/line/UkfBBgZ2"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="line-button"
+    aria-label="加入官方 LINE"
+>
+    <svg class="line-button__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+        <path d="M12 3C6.48 3 2 6.69 2 11.23c0 4.07 3.55 7.48 8.35 8.12.33.07.77.22.88.5.1.26.07.66.03.92l-.14.86c-.04.26-.2 1.01.88.55 1.09-.46 5.86-3.45 8-5.91 1.48-1.62 2-3.27 2-5.04C22 6.69 17.52 3 12 3ZM8.13 13.62H6.14a.53.53 0 0 1-.53-.53V9.11a.53.53 0 0 1 1.05 0v3.45h1.47a.53.53 0 0 1 0 1.06Zm2.07-.53a.53.53 0 0 1-1.06 0V9.11a.53.53 0 0 1 1.06 0v3.98Zm4.79 0a.53.53 0 0 1-.36.5.55.55 0 0 1-.17.03.52.52 0 0 1-.43-.21l-2.04-2.78v2.46a.53.53 0 0 1-1.05 0V9.11a.53.53 0 0 1 .36-.5.52.52 0 0 1 .6.18l2.04 2.78V9.11a.53.53 0 0 1 1.05 0v3.98Zm3.2-2.52a.53.53 0 0 1 0 1.06h-1.47v.94h1.47a.53.53 0 0 1 0 1.05h-1.99a.53.53 0 0 1-.53-.53V9.11a.53.53 0 0 1 .53-.53h1.99a.53.53 0 0 1 0 1.06h-1.47v.93h1.47Z"/>
+    </svg>
+    <span>加入 LINE</span>
+</a>
+                            <footer class="site-footer" aria-label="網站頁尾">
+	<div class="site-footer-inner site-shell">
+		<div class="footer-primary">
+			<a class="footer-brand" href="/" aria-label="回到沈伯洋台北市長競選官方網站首頁">
+				<img src="/images/brand/future-soon-lockup.webp" alt="FUTURE SOON 台北順起來" width="1000" height="283" />
+			</a>
+			<div class="footer-follow">
+				<p>追蹤沈伯洋</p>
+				<nav class="social-links footer-social-links" aria-label="社群平台">
+	<a href="https://facebook.com/1087764201093899" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+		<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+			<path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" />
+		</svg>
+		<span class="sr-only">Facebook</span>
+	</a>
+	<a href="https://www.threads.com/@pumashen" target="_blank" rel="noopener noreferrer" aria-label="Threads">
+		<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+			<path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.586-1.308-.883-2.359-.89h-.029c-.844 0-1.992.232-2.721 1.32L7.734 7.847c.98-1.454 2.568-2.256 4.478-2.256h.044c3.194.02 5.097 1.975 5.287 5.388.108.046.216.094.321.142 1.49.7 2.58 1.761 3.154 3.07.797 1.82.871 4.79-1.548 7.158-1.85 1.81-4.094 2.628-7.277 2.65Zm1.003-11.69c-.242 0-.487.007-.739.021-1.836.103-2.98.946-2.916 2.143.067 1.256 1.452 1.839 2.784 1.767 1.224-.065 2.818-.543 3.086-3.71a10.5 10.5 0 0 0-2.215-.221z" />
+		</svg>
+		<span class="sr-only">Threads</span>
+	</a>
+	<a href="https://www.youtube.com/@PumaShen" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+		<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+			<path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+		</svg>
+		<span class="sr-only">YouTube</span>
+	</a>
+	<a href="https://www.instagram.com/pumashen/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+		<svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+			<path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+		</svg>
+		<span class="sr-only">Instagram</span>
+	</a>
+</nav>
+				<address class="footer-contact" aria-label="競選總部聯絡資訊">
+					<p class="footer-contact__name">沈伯洋台北市長競選總部</p>
+					<p>週一至週日 10:00 - 20:00</p>
+					<p class="footer-contact__address"><a
+						class="footer-contact__address-link"
+						href="https://www.google.com/maps/search/?api=1&amp;query=%E8%87%BA%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E5%8C%97%E5%B9%B3%E6%9D%B1%E8%B7%AF30-1%E8%99%9F1%E6%A8%93"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="在新分頁開啟 Google 地圖：臺北市中正區北平東路30-1號1樓"
+					>
+						<svg class="footer-contact__address-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+							<path d="M20 10c0 5-8 12-8 12s-8-7-8-12a8 8 0 1 1 16 0Z" />
+							<circle cx="12" cy="10" r="2.5" />
+						</svg>
+						臺北市中正區北平東路30-1號1樓
+					</a></p>
+				</address>
+			</div>
+		</div>
+
+		<nav class="footer-navigation" aria-label="頁尾主要導覽">
+			<section class="footer-navigation__group" aria-labelledby="footer-navigation-about">
+				<h2 id="footer-navigation-about">關於伯洋</h2>
+				<section class="footer-navigation__category" aria-labelledby="footer-navigation-about-profile">
+					<h3 id="footer-navigation-about-profile">個人經歷</h3>
+					<ul>
+						<li><a href="/declaration">參選聲明</a></li>
+						<li><a href="/experience">學經歷與國際交流</a></li>
+					</ul>
+				</section>
+				<section class="footer-navigation__category" aria-labelledby="footer-navigation-about-media">
+					<h3 id="footer-navigation-about-media">影音行程</h3>
+					<ul>
+						<li><a href="/videos">每日受訪</a></li>
+						<li><a href="/schedule">最新行程</a></li>
+													<li><a href="https://gotcha.puma.taipei" target="_blank" rel="noopener noreferrer" aria-label="前往「捕捉野生沈伯洋」，另開新分頁">捕捉野生沈伯洋</a></li>
+											</ul>
+				</section>
+			</section>
+
+			<section class="footer-navigation__group" aria-labelledby="footer-navigation-policy">
+				<h2 id="footer-navigation-policy">政策願景</h2>
+				<section class="footer-navigation__category" aria-labelledby="footer-navigation-policy-planning">
+					<h3 id="footer-navigation-policy-planning">前瞻規劃</h3>
+					<ul>
+						<li><a href="/heart">HEART 政策生態系</a></li>
+													<li><a href="/heart-island">HEART 政策島</a></li>
+												<li><a href="/heart/quiz/1">伯洋分類帽</a></li>
+						<li><a href="/policies">政策專區</a></li>
+					</ul>
+				</section>
+				<section class="footer-navigation__category" aria-labelledby="footer-navigation-policy-civic">
+					<h3 id="footer-navigation-policy-civic">市民意見</h3>
+					<ul>
+						<li><a href="/taipeispeaksup">市長，你給我聽好了</a></li>
+													<li><a href="/observatory">台北民意觀察室</a></li>
+											</ul>
+				</section>
+			</section>
+
+			<section class="footer-navigation__group" aria-labelledby="footer-navigation-currents">
+				<h2 id="footer-navigation-currents">洋流來襲</h2>
+				<section class="footer-navigation__category" aria-labelledby="footer-navigation-currents-activities">
+					<h3 id="footer-navigation-currents-activities">洋流活動</h3>
+					<ul>
+													<li><a href="/songs">競選歌曲</a></li>
+												<li><a href="https://storemap.puma.taipei/" target="_blank" rel="noopener noreferrer" aria-label="洋流好店，另開新分頁">洋流好店</a></li>
+						<li><a href="/taipei-current">台北大洋流</a></li>
+													<li><a href="/hackathon">市政 debug 松</a></li>
+											</ul>
+				</section>
+				<section class="footer-navigation__category" aria-labelledby="footer-navigation-currents-fundraising">
+					<h3 id="footer-navigation-currents-fundraising">募款專區</h3>
+					<ul>
+						<li><a href="/merch">洋流小物</a></li>
+					</ul>
+				</section>
+			</section>
+
+			<section class="footer-navigation__group footer-navigation__group--fact-checks" aria-labelledby="footer-navigation-downloads footer-navigation-fact-checks">
+				<section class="footer-navigation__category footer-navigation__category--downloads" aria-labelledby="footer-navigation-downloads">
+					<h3 id="footer-navigation-downloads">下載專區</h3>
+					<ul>
+						<li><a href="/documents">文宣下載</a></li>
+													<li><a href="/soonmook">洋流誌</a></li>
+												<li><a href="/soon-daily">順報</a></li>
+					</ul>
+				</section>
+				<h2 id="footer-navigation-fact-checks"><a href="/fact-checks">闢謠專區</a></h2>
+			</section>
+		</nav>
+
+		<p class="footer-license">本站文字資料與<a href="/policies">政策專區</a>圖文採用 <a href="https://creativecommons.org/licenses/by/4.0/deed.zh-hant" target="_blank" rel="license noopener noreferrer" aria-label="創用 CC 姓名標示 4.0 國際授權條款，另開新分頁">CC BY 4.0</a> 授權</p>
+	</div>
+</footer>
+            <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"57670b95e29041ce87a0fb363c9375ee","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

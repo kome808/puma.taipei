@@ -1,0 +1,421 @@
+{
+  "batch_id": "b12",
+  "read_units": [
+    {
+      "unit_id": "u0154",
+      "doc_id": "d0072",
+      "start": 17930,
+      "end": 23928,
+      "sha256": "ab066380bbad74d3e08e2ff9ce3b58bfad15db4a6765f8da439104edac56959e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0155",
+      "doc_id": "d0072",
+      "start": 23928,
+      "end": 27974,
+      "sha256": "19c8ca37aa45304f88971bc84da4e9ef0a4b3e887ceb9496e32dff3ca9b5a750",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0156",
+      "doc_id": "d0073",
+      "start": 0,
+      "end": 5848,
+      "sha256": "fa4c97c89eba92b5b3b14e8114e36109ad968cbc6a3d1e0846bfc610c93c7d4d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0157",
+      "doc_id": "d0073",
+      "start": 5848,
+      "end": 11736,
+      "sha256": "def17930570e23c6d3fd9088e73862a84f6eee0febf531ab51a4c80bb0f52c60",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0158",
+      "doc_id": "d0073",
+      "start": 11736,
+      "end": 17709,
+      "sha256": "02c4c66c433a2d102193f49a7f68ef31a37c0567e3c56d1511317cb9b193da86",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0159",
+      "doc_id": "d0073",
+      "start": 17709,
+      "end": 23660,
+      "sha256": "9a86df3506acc49369c470249f3d1b5eaf9602212240370a555f976ca01a82c1",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0160",
+      "doc_id": "d0073",
+      "start": 23660,
+      "end": 24521,
+      "sha256": "6d771b347510842f15508725ec51fac647e75cc1312bd1f90b0d1676f9afe7a7",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0161",
+      "doc_id": "d0074",
+      "start": 0,
+      "end": 5986,
+      "sha256": "0f5c2ef6a65070143e176b9b1c3335d308fad116edf7775cde014a7d717ec796",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0162",
+      "doc_id": "d0074",
+      "start": 5986,
+      "end": 11885,
+      "sha256": "7df18a68245218d60bf931ffa4cec13099921414653e011353ffdce9a73fe6e5",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0163",
+      "doc_id": "d0074",
+      "start": 11885,
+      "end": 17851,
+      "sha256": "a9b01d2b45fef0dd01eee6467979d2355b2fb3b21a64023ce0314975fda01884",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0164",
+      "doc_id": "d0074",
+      "start": 17851,
+      "end": 21483,
+      "sha256": "316d5854f1b77fc03adb11f21c02786d9c2e039ed0b4d40f4637d35c33d22faf",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0165",
+      "doc_id": "d0075",
+      "start": 0,
+      "end": 101,
+      "sha256": "8b304fc2819f1461081c2d7126abcaee6f57baf7cf6ac6612ef1f2625e70baeb",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0166",
+      "doc_id": "d0076",
+      "start": 0,
+      "end": 5941,
+      "sha256": "687efe64657a8dba0ee104c3cabbc699f8fedfb8e8b4fd6ca51830bc5e63e908",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0072",
+      "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+      "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+      "summary": "台視訪談文章含主持人提問、沈伯洋回答及完整逐字稿。市政內容包括市民意見整理、自行車與行人空間、兒少安全、社區照顧等；個人故事與國際政治內容不作市政承諾。",
+      "attributable_claims": [
+        "沈伯洋談交通路網、人行空間及綠蔭設計。",
+        "街訪市民分別提出自行車、夜間公車、南門市場及大巨蛋等意見，不能歸為沈伯洋提案。",
+        "沈伯洋談社區照顧、兒少安全及政策蒐集。"
+      ],
+      "caveats": [
+        "文章與逐字稿為同一訪談，不是獨立證據；數字和第三方事件未獨立核實。"
+      ],
+      "topic_keys": [
+        "兒少安全通報",
+        "自行車路網",
+        "社區連結",
+        "市民意見"
+      ]
+    },
+    {
+      "doc_id": "d0073",
+      "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+      "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript/",
+      "summary": "同一台視訪談的逐字稿頁，標明講者及時間碼，含街訪片段、沈伯洋回答與主持人串場。街訪意見和本人回應需分開。",
+      "attributable_claims": [
+        "沈伯洋回應自行車路網、人行空間與遮蔭。",
+        "沈伯洋描述城市孤獨、社區連結及長者活動構想。"
+      ],
+      "caveats": [
+        "逐字稿未逐句影音聽校；與 d0072 為同一場訪談。"
+      ],
+      "topic_keys": [
+        "自行車路網",
+        "社區連結",
+        "長者健身"
+      ]
+    },
+    {
+      "doc_id": "d0074",
+      "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+      "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+      "summary": "沈伯洋與工頭堅對談城市記憶、社區孤獨、文化路徑及空間保存；文章附字幕逐字稿。工頭堅的提問和個人經驗、沈伯洋的政策構想及雙方回憶須分開。",
+      "attributable_claims": [
+        "沈伯洋提出市府購置或長租有記憶價值空間的構想。",
+        "沈伯洋談社區觀察者、Link Worker、Repair Café及敬老卡健身構想。",
+        "沈伯洋提出多元歷史與淡水河沿線文化徑想法。"
+      ],
+      "caveats": [
+        "文章中的提要與字幕逐字稿不是獨立證據；歷史沿革、制度數字與健康效果未獨立核實。"
+      ],
+      "topic_keys": [
+        "城市記憶保存",
+        "孤獨與社區連結",
+        "長者健身",
+        "文化路徑"
+      ]
+    },
+    {
+      "doc_id": "d0075",
+      "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+      "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/transcript/",
+      "summary": "同一場沈伯洋與工頭堅對談的中文字幕逐字稿頁，包含雙方完整對談及時間碼。主持人經驗與本人政策陳述均需依講者標示判讀。",
+      "attributable_claims": [
+        "沈伯洋把空間記憶、社區同伴與孤獨議題連結。",
+        "沈伯洋說明 Link Worker 組團、Repair Café 與長者健身等想法。"
+      ],
+      "caveats": [
+        "字幕未逐句聽校；與 d0074 屬同一訪談。英國案例數字及政策效果沒有獨立查證。"
+      ],
+      "topic_keys": [
+        "城市記憶保存",
+        "孤獨與社區連結",
+        "長者健身",
+        "文化路徑"
+      ]
+    },
+    {
+      "doc_id": "d0076",
+      "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+      "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+      "summary": "趙少康訪問沈伯洋的逐字稿整理，涵蓋兒少保護、老宅、路樹、松山機場、交通、運動驛站及立委工作等；主持人多次追問執行限制。",
+      "attributable_claims": [
+        "沈伯洋提出兒童安全通報分流及地方制度整合。",
+        "沈伯洋提出大同區老宅示範、住戶協調與樓梯輔具補助。",
+        "沈伯洋主張遷建討論須先說明機場替代服務，並提出樹木程序公開與交通改善構想。"
+      ],
+      "caveats": [
+        "原影音尚未逐段核對；統計、事件、法律與技術資訊須保留為受訪者陳述。主持人的面積假設不是候選人方案。"
+      ],
+      "topic_keys": [
+        "兒少保護",
+        "老宅改善",
+        "樹木治理",
+        "機場遷建",
+        "交通"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "兒少安全通報如何被優先辨識",
+      "question": "大量一般陳情中，兒童安全訊息如何被及時辨識與追蹤？",
+      "points": [
+        "沈伯洋主張將兒童保護相關通報分流，讓承辦更集中判讀與追蹤。",
+        "他提出把社工支持、安全網、居家托育與校園通報程序一併檢視。",
+        "節目中提及的個案名稱與通報次數是受訪者說法，尚未核實。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0166",
+          "doc_id": "d0076",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+          "section_or_timestamp": "兒少保護段落；訪談約 00:06 起",
+          "speaker": "沈伯洋",
+          "support_excerpt": "把兒童保護相關通報獨立分流"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "自行車路網與行人空間如何一起設計",
+      "question": "自行車、行人與綠蔭能否在同一套道路設計中協調？",
+      "points": [
+        "沈伯洋回應街訪的自行車路線意見，提出重新設計路網與人行道。",
+        "他主張以清楚分流和樹蔭改善不同速度使用者的通行環境。",
+        "自行車使用與路網增幅數字是受訪者引用，統計區間與指標未交代。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0158",
+          "doc_id": "d0073",
+          "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript/",
+          "section_or_timestamp": "00:23:25",
+          "speaker": "沈伯洋",
+          "support_excerpt": "路網要重新設計、人行道要重新設計"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "社區如何主動連結孤獨者",
+      "question": "市府如何協助缺少同伴的人重新建立日常社會連結？",
+      "points": [
+        "沈伯洋描述由在地熟人留意、回報，再由有給職連結工作者訪視的設計。",
+        "工作者可把背景相近的人組成固定聚會；他也以 Repair Café 說明用既有專長建立互助空間。",
+        "年度服務量、訪視次數及國外制度細節屬受訪者轉述，未獨立核實。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0163",
+          "doc_id": "d0074",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+          "section_or_timestamp": "00:29:16–00:31:39",
+          "speaker": "沈伯洋",
+          "support_excerpt": "他們叫Repair Café"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "用空間保存城市記憶與老店",
+      "question": "城市更新時，如何讓具地方記憶的空間與店家繼續存在？",
+      "points": [
+        "沈伯洋主張市府可買下或長租具記憶價值的空間，再以一般租金租給希望保留的店家或文化工作者。",
+        "他以光華商場入口和商圈轉移說明空間記憶，也提到以復現入口意象兼顧新舊客群。",
+        "中華商場與光華商場沿革是訪談中的回憶，未獨立核實。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0163",
+          "doc_id": "d0074",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+          "section_or_timestamp": "00:21:06–00:21:39",
+          "speaker": "沈伯洋",
+          "support_excerpt": "直接就是把這邊買或長租下來"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "長者肌力活動與敬老卡使用",
+      "question": "如何讓長者更容易參與基礎健身與肌力活動？",
+      "points": [
+        "沈伯洋提出讓敬老卡可用於簡單健身、重訓，作為鼓勵長者外出的方式之一。",
+        "他把此構想連結到社區參與及照顧者壓力，屬政策理由與預期方向。",
+        "跌倒減少等效果數字未附研究或適用條件，不應寫成保證。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0163",
+          "doc_id": "d0074",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+          "section_or_timestamp": "00:33:18–00:33:52",
+          "speaker": "沈伯洋",
+          "support_excerpt": "讓敬老卡也可以用在 一些簡單的健身"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "台北文化路徑如何呈現多元歷史",
+      "question": "城市文化路徑可以如何串連不同族群、產業與人權記憶？",
+      "points": [
+        "沈伯洋主張以文化徑呈現多元族群、產業與人權等城市記憶。",
+        "他以淡水河沿線及士林慈諴宮「對場作」談競爭如何在共同民主規則下並存。",
+        "受訪者提出的歷史解讀與路徑想法可整理為主張，歷史細節仍需另查。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0162",
+          "doc_id": "d0074",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+          "section_or_timestamp": "00:10:08–00:11:16；00:14:10–00:15:02",
+          "speaker": "沈伯洋",
+          "support_excerpt": "台北的文化徑有一條 一定要從淡水河這樣沿著一路往上"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "老宅改善與長者出入協助",
+      "question": "老公寓電梯協調困難時，市府能提供哪些改善支援？",
+      "points": [
+        "沈伯洋提出以大同區作示範、逐戶說明老宅方案與補助，並由市府主動協調住戶。",
+        "電梯尚未談成時，他提出補助上下樓梯輔具作為先行選項。",
+        "趙少康追問一樓住戶權益與協商失敗情況；屋齡比例未核實。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0166",
+          "doc_id": "d0076",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+          "section_or_timestamp": "老宅改善段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "電梯尚未談成時，可以先補助上下樓梯輔具"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "樹木資料公開與都市綠化規劃",
+      "question": "如何讓樹木移除、補植與綠化規劃更透明？",
+      "points": [
+        "沈伯洋主張公開評估與紀錄，並讓都市設計、樹木專業及認養居民參與移除評估。",
+        "他提到研議「都市微森林條例」與 3-30-300 綠化方向。",
+        "訪談未附完整樹籍比對報告；數字與指標適用方式仍需核實。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0166",
+          "doc_id": "d0076",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+          "section_or_timestamp": "路樹爭議段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "讓居民知道樹木為何被移除"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "松山機場遷建前的替代服務",
+      "question": "討論遷建松山機場時，如何先交代其公共服務由誰接替？",
+      "points": [
+        "沈伯洋表示可討論遷建，但應先檢視國防、救災、醫療後送與離島交通等功能。",
+        "他要求提出者說明桃園機場第三跑道及其他替代方案能否承接需求。",
+        "主持人提出保留一部分場地的面積例子，屬假設，不是沈伯洋的方案承諾。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0166",
+          "doc_id": "d0076",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+          "section_or_timestamp": "松山機場遷建段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "但要先看替代方案"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "交通資料應用與計程車上客空間",
+      "question": "如何用交通管理與路邊配置回應壅塞和乘客上車需求？",
+      "points": [
+        "沈伯洋描述台北研究院將研究交通數據與號誌調控，也主張在事故前處理道路設計問題。",
+        "他認同檢討計程車乘客上客位置，並提與工會討論、補助設置待命指示燈。",
+        "相關構想的規格與權責尚未說明；主持人提出的指示燈點子需標為訪談共同討論。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0166",
+          "doc_id": "d0076",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+          "section_or_timestamp": "智慧交通段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "改善等候區與標線配置"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    }
+  ]
+}

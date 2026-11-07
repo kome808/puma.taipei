@@ -1,0 +1,10 @@
+{
+  "status": "complete_visual_inspection_not_verbatim_transcription",
+  "expected_pages": 120,
+  "viewed_unique_pages": 120,
+  "assets": 114,
+  "unread_pages": [],
+  "sha_errors": [],
+  "root_verified_image_count": 1,
+  "source_policy": "Use original policy text and PDF text for publishable claims; visual notes locate assets only."
+}

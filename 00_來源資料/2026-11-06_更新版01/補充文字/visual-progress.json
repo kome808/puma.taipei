@@ -1,0 +1,614 @@
+{
+  "generated_at": "2026-11-07T00:35:33+08:00",
+  "manifest_path": "00_來源資料/2026-11-06_更新版01/官方政策/manifest.json",
+  "manifest_sha256": "0bac070ae66894716c1c0aa25084bf6a4632e5c5aabbec183196a36246857bdb",
+  "viewing_method": "每張圖以 view_image 取得原圖或 PDF 無文字層頁的 pdftoppm render，並以 image(result.image_url) 確認顯示後閱讀。",
+  "tool_display_confirmed": true,
+  "expected_pages": 120,
+  "viewed_count": 120,
+  "unread_count": 0,
+  "viewed": [
+    {
+      "asset_id": "policy_16_都更政策__image_c076f8a53daf",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_c076f8a53daf.jpg"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_92d1d6cdf382",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_92d1d6cdf382.jpg"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_9d88baf94eb7",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_9d88baf94eb7.jpg"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_bb0b86fc3f6d",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_bb0b86fc3f6d.jpg"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_2a8c706f09f2",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_2a8c706f09f2.jpg"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_f8c206f577cd",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_f8c206f577cd.jpg"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_88b4e25adf40",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_88b4e25adf40.jpg"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_ecc06f4e3b2a",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_ecc06f4e3b2a.jpg"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_d60879faec11",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_d60879faec11.jpg"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_fd480b1e8c4c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_fd480b1e8c4c.jpg"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_04c9154d663e",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_04c9154d663e.jpg"
+    },
+    {
+      "asset_id": "policy_01_教育政策__image_330ca18dae33",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_01_教育政策_330ca18dae33.jpg"
+    },
+    {
+      "asset_id": "policy_01_教育政策__image_c725cbd5ba3a",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_01_教育政策_c725cbd5ba3a.webp"
+    },
+    {
+      "asset_id": "policy_01_教育政策__image_6750f10567f4",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_01_教育政策_6750f10567f4.webp"
+    },
+    {
+      "asset_id": "policy_01_教育政策__image_c8a7ef5cedfb",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_01_教育政策_c8a7ef5cedfb.webp"
+    },
+    {
+      "asset_id": "policy_01_教育政策__image_d9d99eeeffce",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_01_教育政策_d9d99eeeffce.webp"
+    },
+    {
+      "asset_id": "policy_02_交通政策__image_c8b762911ea0",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_02_交通政策_c8b762911ea0.jpg"
+    },
+    {
+      "asset_id": "policy_02_交通政策__image_fa5eabb4b623",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_02_交通政策_fa5eabb4b623.webp"
+    },
+    {
+      "asset_id": "policy_02_交通政策__image_a3f88c21a6b2",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_02_交通政策_a3f88c21a6b2.webp"
+    },
+    {
+      "asset_id": "policy_02_交通政策__image_73e26897ce90",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_02_交通政策_73e26897ce90.webp"
+    },
+    {
+      "asset_id": "policy_02_交通政策__image_afae879a9357",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_02_交通政策_afae879a9357.webp"
+    },
+    {
+      "asset_id": "policy_02_交通政策__image_d377bb2d0e19",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_02_交通政策_d377bb2d0e19.webp"
+    },
+    {
+      "asset_id": "policy_03_社福政策__image_49b595a5b36d",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_03_社福政策_49b595a5b36d.jpg"
+    },
+    {
+      "asset_id": "policy_03_社福政策__image_44e1aefb72f9",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_03_社福政策_44e1aefb72f9.webp"
+    },
+    {
+      "asset_id": "policy_03_社福政策__image_eabc7a6e7c04",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_03_社福政策_eabc7a6e7c04.webp"
+    },
+    {
+      "asset_id": "policy_03_社福政策__image_435a05fe3ab8",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_03_社福政策_435a05fe3ab8.webp"
+    },
+    {
+      "asset_id": "policy_03_社福政策__image_91630bcf974d",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_03_社福政策_91630bcf974d.webp"
+    },
+    {
+      "asset_id": "policy_03_社福政策__image_b5e09c18a91c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_03_社福政策_b5e09c18a91c.webp"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_0c3e1a835b59",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_0c3e1a835b59.jpg"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_6b2b8c93fc2b",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_6b2b8c93fc2b.webp"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_dfd669d0e8c2",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_dfd669d0e8c2.webp"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_424f909d7676",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_424f909d7676.webp"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_a169a212ec31",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_a169a212ec31.webp"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_fc5f2398b16f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_fc5f2398b16f.webp"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_0a7f3b7e7e8f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_0a7f3b7e7e8f.webp"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_f91caaaf118b",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_f91caaaf118b.webp"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_1bfcf0167531",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_1bfcf0167531.webp"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_b51f53ced508",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_b51f53ced508.webp"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__image_f6eb0c8c4ccb",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_05_都市微森林_f6eb0c8c4ccb.jpg"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__image_c5060d847060",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_05_都市微森林_c5060d847060.webp"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__image_a4ec854ca20d",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_05_都市微森林_a4ec854ca20d.webp"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__image_57fa030229c7",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_05_都市微森林_57fa030229c7.webp"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__image_9d87640eea3f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_05_都市微森林_9d87640eea3f.webp"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__image_262fe541cc7c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_05_都市微森林_262fe541cc7c.webp"
+    },
+    {
+      "asset_id": "policy_06_青年政策__image_6d976dfb5d30",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_06_青年政策_6d976dfb5d30.jpg"
+    },
+    {
+      "asset_id": "policy_06_青年政策__image_b14358a62817",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_06_青年政策_b14358a62817.webp"
+    },
+    {
+      "asset_id": "policy_06_青年政策__image_6d9a8cb19481",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_06_青年政策_6d9a8cb19481.webp"
+    },
+    {
+      "asset_id": "policy_06_青年政策__image_9200d578ed63",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_06_青年政策_9200d578ed63.webp"
+    },
+    {
+      "asset_id": "policy_07_運動政策__image_0497293a18ae",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_07_運動政策_0497293a18ae.jpg"
+    },
+    {
+      "asset_id": "policy_07_運動政策__image_4fb42607d878",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_07_運動政策_4fb42607d878.webp"
+    },
+    {
+      "asset_id": "policy_07_運動政策__image_07f921010b7c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_07_運動政策_07f921010b7c.webp"
+    },
+    {
+      "asset_id": "policy_07_運動政策__image_763db9e99f1c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_07_運動政策_763db9e99f1c.webp"
+    },
+    {
+      "asset_id": "policy_07_運動政策__image_522c66f05fe1",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_07_運動政策_522c66f05fe1.webp"
+    },
+    {
+      "asset_id": "policy_08_家庭一站通__image_1807c54a46a2",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_08_家庭一站通_1807c54a46a2.jpg"
+    },
+    {
+      "asset_id": "policy_08_家庭一站通__image_f65b3b56434e",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_08_家庭一站通_f65b3b56434e.webp"
+    },
+    {
+      "asset_id": "policy_08_家庭一站通__image_0b389d32f6d2",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_08_家庭一站通_0b389d32f6d2.webp"
+    },
+    {
+      "asset_id": "policy_08_家庭一站通__image_3cee2afa2d22",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_08_家庭一站通_3cee2afa2d22.webp"
+    },
+    {
+      "asset_id": "policy_08_家庭一站通__image_314fb490360f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_08_家庭一站通_314fb490360f.webp"
+    },
+    {
+      "asset_id": "policy_09_公務員政策__image_cead629b6ea2",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_09_公務員政策_cead629b6ea2.jpg"
+    },
+    {
+      "asset_id": "policy_09_公務員政策__image_81fc2aa74181",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_09_公務員政策_81fc2aa74181.webp"
+    },
+    {
+      "asset_id": "policy_09_公務員政策__image_1d624bf8480e",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_09_公務員政策_1d624bf8480e.webp"
+    },
+    {
+      "asset_id": "policy_09_公務員政策__image_cf806fe27806",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_09_公務員政策_cf806fe27806.webp"
+    },
+    {
+      "asset_id": "policy_10_親子同行卡__image_4912ac9bbf08",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_10_親子同行卡_4912ac9bbf08.jpg"
+    },
+    {
+      "asset_id": "policy_10_親子同行卡__image_ef8216779e3a",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_10_親子同行卡_ef8216779e3a.webp"
+    },
+    {
+      "asset_id": "policy_10_親子同行卡__image_c6925dd916db",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_10_親子同行卡_c6925dd916db.webp"
+    },
+    {
+      "asset_id": "policy_10_親子同行卡__image_0e62c6be7383",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_10_親子同行卡_0e62c6be7383.webp"
+    },
+    {
+      "asset_id": "policy_10_親子同行卡__image_4dac68a5eb61",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_10_親子同行卡_4dac68a5eb61.webp"
+    },
+    {
+      "asset_id": "policy_11_水域政策__image_21fa3026f9cf",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_11_水域政策_21fa3026f9cf.jpg"
+    },
+    {
+      "asset_id": "policy_11_水域政策__image_b34b7bc2be2f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_11_水域政策_b34b7bc2be2f.webp"
+    },
+    {
+      "asset_id": "policy_11_水域政策__image_829cff67d886",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_11_水域政策_829cff67d886.webp"
+    },
+    {
+      "asset_id": "policy_11_水域政策__image_0ba67ad06297",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_11_水域政策_0ba67ad06297.webp"
+    },
+    {
+      "asset_id": "policy_12_AI政策__image_b0f75ed389f9",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_12_AI政策_b0f75ed389f9.jpg"
+    },
+    {
+      "asset_id": "policy_12_AI政策__image_6005659a7456",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_12_AI政策_6005659a7456.jpg"
+    },
+    {
+      "asset_id": "policy_12_AI政策__image_e79283e10788",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_12_AI政策_e79283e10788.jpg"
+    },
+    {
+      "asset_id": "policy_12_AI政策__image_d1cb96c37d4f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_12_AI政策_d1cb96c37d4f.jpg"
+    },
+    {
+      "asset_id": "policy_12_AI政策__image_a89bfd96b269",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_12_AI政策_a89bfd96b269.jpg"
+    },
+    {
+      "asset_id": "policy_12_AI政策__image_fcabcdd9bc0b",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_12_AI政策_fcabcdd9bc0b.jpg"
+    },
+    {
+      "asset_id": "policy_13_客家政策__image_0639ae8382bb",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_13_客家政策_0639ae8382bb.jpg"
+    },
+    {
+      "asset_id": "policy_13_客家政策__image_47a2e85f74fa",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_13_客家政策_47a2e85f74fa.jpg"
+    },
+    {
+      "asset_id": "policy_13_客家政策__image_77f8cef21ce2",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_13_客家政策_77f8cef21ce2.jpg"
+    },
+    {
+      "asset_id": "policy_13_客家政策__image_6c8b51e85c1f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_13_客家政策_6c8b51e85c1f.jpg"
+    },
+    {
+      "asset_id": "policy_14_城市外交__image_b73db0442d8f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_14_城市外交_b73db0442d8f.jpg"
+    },
+    {
+      "asset_id": "policy_14_城市外交__image_9da641e043b4",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_14_城市外交_9da641e043b4.webp"
+    },
+    {
+      "asset_id": "policy_14_城市外交__image_16824b14aadd",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_14_城市外交_16824b14aadd.webp"
+    },
+    {
+      "asset_id": "policy_14_城市外交__image_7ccedec35078",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_14_城市外交_7ccedec35078.webp"
+    },
+    {
+      "asset_id": "policy_14_城市外交__image_e80364407e62",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_14_城市外交_e80364407e62.webp"
+    },
+    {
+      "asset_id": "policy_14_城市外交__image_0a31382bbc79",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_14_城市外交_0a31382bbc79.webp"
+    },
+    {
+      "asset_id": "policy_15_營養午餐__image_be0cbaca8fc4",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_15_營養午餐_be0cbaca8fc4.jpg"
+    },
+    {
+      "asset_id": "policy_15_營養午餐__image_dfe00ac8dc8a",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_15_營養午餐_dfe00ac8dc8a.webp"
+    },
+    {
+      "asset_id": "policy_15_營養午餐__image_f413d4e0d57c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_15_營養午餐_f413d4e0d57c.webp"
+    },
+    {
+      "asset_id": "policy_15_營養午餐__image_b72b4af88617",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_15_營養午餐_b72b4af88617.webp"
+    },
+    {
+      "asset_id": "policy_15_營養午餐__image_96a2b52be78b",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_15_營養午餐_96a2b52be78b.webp"
+    },
+    {
+      "asset_id": "policy_15_營養午餐__image_5450e2256ee2",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_15_營養午餐_5450e2256ee2.webp"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_474fed54e053",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_474fed54e053.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_ec3bcbd68b7c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_ec3bcbd68b7c.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_b5752b920e0c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_b5752b920e0c.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_8314ce79a19f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_8314ce79a19f.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_5bd802960b8c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_5bd802960b8c.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_68f595cdede5",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_68f595cdede5.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_fb593489392b",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_fb593489392b.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_199dd8ae41a2",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_199dd8ae41a2.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_5d4e250d5b2e",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_5d4e250d5b2e.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_c60a9215e251",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_c60a9215e251.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_92f7a3be8392",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_92f7a3be8392.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_6bd8397bb512",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_6bd8397bb512.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_d136b3ceb58e",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_d136b3ceb58e.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_f82150fffd61",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_f82150fffd61.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_ef5c097ea0c8",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_ef5c097ea0c8.jpg"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_a3fe0c465b6c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_a3fe0c465b6c.jpg"
+    },
+    {
+      "asset_id": "policy_03_社福政策__attachment_94bb29415a78",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/attachments/policy_03_社福政策__260910社福政策表格.jpg"
+    },
+    {
+      "asset_id": "policy_02_交通政策__attachment_1d3a6cb64944",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_02_交通政策__attachment_1d3a6cb64944_p01.png"
+    },
+    {
+      "asset_id": "policy_02_交通政策__attachment_1d3a6cb64944",
+      "page": 21,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_02_交通政策__attachment_1d3a6cb64944_p21.png"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__attachment_7ae768c9b336",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_04_台北文化徑_山林徑__attachment_7ae768c9b336_p01.png"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__attachment_7ae768c9b336",
+      "page": 8,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_04_台北文化徑_山林徑__attachment_7ae768c9b336_p08.png"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__attachment_7ae768c9b336",
+      "page": 9,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_04_台北文化徑_山林徑__attachment_7ae768c9b336_p09.png"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__attachment_7ae768c9b336",
+      "page": 16,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_04_台北文化徑_山林徑__attachment_7ae768c9b336_p16.png"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__attachment_19adb5514d42",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_05_都市微森林__attachment_19adb5514d42_p01.png"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__attachment_19adb5514d42",
+      "page": 11,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_05_都市微森林__attachment_19adb5514d42_p11.png"
+    },
+    {
+      "asset_id": "policy_06_青年政策__attachment_ee958aad30fb",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_06_青年政策__attachment_ee958aad30fb_p01.png"
+    },
+    {
+      "asset_id": "policy_06_青年政策__attachment_ee958aad30fb",
+      "page": 20,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_06_青年政策__attachment_ee958aad30fb_p20.png"
+    }
+  ],
+  "unread": [],
+  "note": "目前這一輪已實際顯示並完整閱讀 109 張 policy_image、1 張社福 JPG 附件及 10 張 PDF 無文字層頁；OCR 空結果未被當成無字或正確原文。"
+}

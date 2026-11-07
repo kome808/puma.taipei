@@ -1,0 +1,87 @@
+{
+  "batch": "batch-c",
+  "review_scope": "t059–t086",
+  "topics_reviewed": ["t059", "t060", "t061", "t062", "t063", "t064", "t065", "t066", "t067", "t068", "t069", "t070", "t071", "t072", "t073", "t074", "t075", "t076", "t077", "t078", "t079", "t080", "t081", "t082", "t083", "t084", "t085", "t086"],
+  "findings": [
+    {
+      "topic_id": "t060",
+      "severity": "minor",
+      "field": "intro",
+      "problem": "「中小型傳統產業未必有餘力」把來源未明說的企業規模當作前提。訪談說的是業者若要先學會AI再自行摸索，時間可能不夠；AI教練進入特定產業實習3至6個月，再回智庫端開發工具。",
+      "evidence": {
+        "unit_id": "u0441",
+        "quote": "例如商圈可能想知道 AI 能如何協助日常工作，但如果要求業者先學會 AI、再自行摸索如何應用，時間上可能來不及。",
+        "source_url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/transcript.md"
+      },
+      "minimal_fix": "將intro改為「業者若得先學AI再自行摸索，可能來不及。沈伯洋在訪談提出讓AI人才進入產業一起工作，辨識需求後再開發工具。」如要補足機制，可在訪談段落寫出3至6個月及回智庫開發工具。"
+    },
+    {
+      "topic_id": "t064",
+      "severity": "minor",
+      "field": "share_body",
+      "problem": "「讓遊程從抵達、出發到返程都有可使用的支持」是把不同設備與交通構想串成完整旅程的推論；簡報列出登山中心服務與步道口接駁，訪談列出登山路線、登山口公車、指標和廁所維護，沒有描述全程支持服務。",
+      "evidence": {
+        "unit_id": "u0002",
+        "quote": "增開交通路網與登山觀光中心、步道口的接駁",
+        "source_url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf"
+      },
+      "minimal_fix": "刪除「讓遊程從抵達、出發到返程都有可使用的支持」，保留登山中心服務、步道資訊與接駁串聯的規劃。"
+    },
+    {
+      "topic_id": "t070",
+      "severity": "moderate",
+      "field": "interview[0].text",
+      "problem": "本段以u0283作證，卻寫「訪談中提及圓山『超級市民運動中心』」。u0283談的是重要捷運站與步道節點的運動驛站、置物淋浴等服務，沒有提圓山或大型運動中心；圓山中心的引文在u0281，來源是中山大同政策訪談。",
+      "evidence": {
+        "quoted_unit": {
+          "unit_id": "u0283",
+          "quote": "提供置物櫃、更衣淋浴、刷鞋清理與補給空間",
+          "source_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/"
+        },
+        "matching_unit": {
+          "unit_id": "u0281",
+          "quote": "圓山的超級市民運動中心",
+          "source_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/"
+        }
+      },
+      "minimal_fix": "把u0283段落改寫為運動驛站的置物、更衣、淋浴、刷鞋與補給構想；若要保留圓山中心，另加u0281/u0449相應引文及其來源URL。"
+    },
+    {
+      "topic_id": "t080",
+      "severity": "moderate",
+      "field": "interview[0].text; share_body",
+      "problem": "「由主管承擔責任、公開說明」沒有被目前引用的u0187支持。該段談的是讓同仁能向上報告問題、管理者不遮掩，並在犯錯後修正；對外說明與責任歸屬需要另一個對應場景來源，否則應刪除。",
+      "evidence": {
+        "unit_id": "u0187",
+        "quote": "我最喜歡大家把問題報出來，因為問題報出來就表示有改進的空間",
+        "source_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17"
+      },
+      "minimal_fix": "改為「鼓勵同仁把問題向上回報，出錯後趕快修正、避免再犯」；刪除「主管承擔責任、公開說明」。"
+    },
+    {
+      "topic_id": "t082",
+      "severity": "minor",
+      "field": "share_body",
+      "problem": "結尾「理解時需要連同發言情境與傳播方式一起看，而不是只截取單一句話或一個數字」是編輯閱讀提醒，不是該訪談提出的政策觀點。",
+      "evidence": {
+        "unit_id": "u0222",
+        "quote": "省一顆飛彈的錢養一千個網紅，就能影響多少台灣人。",
+        "source_url": "https://puma-shen-interview.pages.dev/puma-shen-2023-12-27"
+      },
+      "minimal_fix": "刪除結尾閱讀提醒，分享稿聚焦受訪者談到的網紅資助、平台傳播及資訊操作觀點，並保留這是2023年公共議題訪談、非台北市政方案的界線。"
+    },
+    {
+      "topic_id": "t083",
+      "severity": "minor",
+      "field": "share_body",
+      "problem": "「這一題談的是……與迎風—港墘自行車橋分開整理」是編輯分題說明，不是記者會內容；不宜放入對外分享文。",
+      "evidence": {
+        "unit_id": "u0432",
+        "quote": "你可以把原本的這一些一塊一塊的明治橋的重現，不要做在跨河那一塊，做在「陸地」這一塊！",
+        "source_url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md"
+      },
+      "minimal_fix": "刪除分題比較句，保留明治橋部分復原於陸地、銜接現代自行車橋的構想。"
+    }
+  ],
+  "other_topics": "Reviewed t059, t061–t063, t065–t069, t071–t079, t081, t084–t086 against cited source units. No material speaker, numeric, current-service, or proposal-status error found."
+}

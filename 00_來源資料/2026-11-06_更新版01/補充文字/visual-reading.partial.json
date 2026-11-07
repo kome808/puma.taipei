@@ -1,0 +1,2844 @@
+{
+  "generated_at": "2026-11-07T00:35:33+08:00",
+  "manifest_path": "00_來源資料/2026-11-06_更新版01/官方政策/manifest.json",
+  "manifest_sha256": "0bac070ae66894716c1c0aa25084bf6a4632e5c5aabbec183196a36246857bdb",
+  "scope": "目前輪次實際顯示閱讀的 120 頁視覺資產；完整輸出可由後續 agent 以同一筆記與 SHA 核對。",
+  "ocr_policy": "人工視覺閱讀；OCR未逐字圖面核驗；OCR 空結果不視為無字或正確原文。",
+  "assets_read": [
+    {
+      "asset_id": "policy_16_都更政策__image_c076f8a53daf",
+      "sha256": "a89733d3ace10a73d6c5fc78861cd4d85ab473638341431f2c68581b9ff3b81b",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_c076f8a53daf.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "封面「無限鄰里 無限陪伴」；提出加速都更審查、活化邊陲都更、建立循環都更三條主線",
+      "policy_points": [
+        "精進審議制度，補人力、審得準、審得快",
+        "以交換與循環房源降低搬遷卡關"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/414/G7JjRRk9q6eKy9tYh1JozSuun1a4c2XNEJGqaQvt.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_92d1d6cdf382",
+      "sha256": "f8ceb7a5e6220769d3a5add126a818fbaa07be41b00943d75e0efc618a2c7c06",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_92d1d6cdf382.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "加速都更審查：精進審議制度",
+      "policy_points": [
+        "都更涉及都市設計、交通影響評估、文化資產、老樹保護等跨域審查",
+        "補人力、提高薪資獎金、導入公會協審與報核前聯合預審",
+        "建立 AI 都更知識庫、審議資料庫與承辦專案管理"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/415/BYAYGfemUWNAVLUfAJNaVrJqwBGAQqNkIU4HLtTi.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_9d88baf94eb7",
+      "sha256": "8c881903ee078b43a865dc2f41cf17a6ed62ee4954c0cc38597b6caf7341a428",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_9d88baf94eb7.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "循環都更：不用搬來搬去，都更不再卡在安置",
+      "policy_points": [
+        "盤點公有地、老房舍、自主都更、聯開分回戶等屋源",
+        "以交換平台讓舊房換新房、換屋或換權，公平估價、多退少補"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/416/y5IVpVGXL1lgfbgmAXo4GnMUBv25yzJZ2MX8XNi8.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_bb0b86fc3f6d",
+      "sha256": "ffd8bcad40bf7a4d27bd54e1333e64acebb8b62a00166756cbcd29d89adf8020",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_bb0b86fc3f6d.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "加速都更審查：不想開車的就換手",
+      "policy_points": [
+        "北市有 70 多件核准五年以上未動工，最久近 20 年",
+        "以黃燈輔導／推進計畫、紅燈廢止或換車下車處理停滯案件"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/417/DE0PvIRyw0Qbq1bLzlOmfvzgWiMZZdtHUhV54WPP.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_2a8c706f09f2",
+      "sha256": "711d13897a56089bcc6ee2afb5ae1bb01958288ef98d65ee61d56b42b6c8d930",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_2a8c706f09f2.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "循環都更六大步驟圖",
+      "policy_points": [
+        "盤點屋源、建立重劃更新區法源、交換平台公平估價",
+        "循環住宅只搬一次、舊屋包租代管、完工分回進下一輪"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/418/iIxNPHgiDyI9FGQ8XuqOsycmqi7cuHZSLxTUVhE8.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_f8c206f577cd",
+      "sha256": "a702e4f53cee605a397d3106a80d0ce2f9e8ce7f7b2f880830fa537a6d3f1157",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_f8c206f577cd.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "盤點四種屋源",
+      "policy_points": [
+        "公有土地、殭屍都更、自主都更、聯開分回戶列為循環房源"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "卡片小字未逐字轉錄"
+      ],
+      "source_url": "https://media.puma.taipei/files/419/4RUNBpSHGMxHd8YL8cjrSo4Xvv7GovzY8LcLKZiU.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_88b4e25adf40",
+      "sha256": "d27b324e14faf342499a4e0d0c8dce7367a8f15227b9dd6192ade677b55af650",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_88b4e25adf40.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "重劃更新區",
+      "policy_points": [
+        "盤點需求與地點，修法建立交換平台與租稅機制"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/420/mcSzuraYZwXCRRxwyMxwR51cbTr8zInVtP9k2nSZ.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_ecc06f4e3b2a",
+      "sha256": "f15088be7c4132472c7186686ac4860747135a66fcbf911af2733b7fdfeb6f72",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_ecc06f4e3b2a.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "交換平台與多退少補",
+      "policy_points": [
+        "示例顯示 1,500 萬換 1,200 萬可退 300 萬；1,800 萬需補 300 萬",
+        "換屋是產權換產權，換權是產權換地上權；近區塊、整合完整者優先"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "示例數字依圖面閱讀，細部門檻待政策核對"
+      ],
+      "source_url": "https://media.puma.taipei/files/421/7AHwC07rOVIQxGFystToxFMbO7mrOkkThWk6T7vM.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_d60879faec11",
+      "sha256": "19bcbc1ada99fac6f3c760abbde80fe8541106023c62b16e7d24f91ec4b2da5d",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_d60879faec11.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "循環住宅：舊家到新家只搬一次",
+      "policy_points": [
+        "市府先蓋、住戶同意後直接搬；坪數與價格可選、可看實體房屋",
+        "市府取得一定比例舊屋後開始都更，比例仍待研議"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/422/Ep2UMEv5qZx5MimPX5hV9phPo1Ib9IvFOhgoFNRt.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_fd480b1e8c4c",
+      "sha256": "a18827c2afdb9999011790644be8c7afefc320147965bbb3d8927ff9c3f42df0",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_fd480b1e8c4c.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "舊屋包租代管",
+      "policy_points": [
+        "舊屋可作社宅、青年出租、老人日照或社區托育等安全用途",
+        "市府以容積參與，自建、招商或協商"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/423/irFsxchcklTXG4qAhmm8SsZNUPBEEy1FKIx708ky.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_16_都更政策__image_04c9154d663e",
+      "sha256": "10ed0bba457b0d1e7ce5eef3e2b44ea1914dc6b985bb159a5dda3556717ddfef",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_16_都更政策_04c9154d663e.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "完工分回戶進入下一輪",
+      "policy_points": [
+        "市府取得分回戶，部分標售回補基金，其餘作下一輪循環房源"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/424/Bdr1ykl4xKJUFqt5xEw0ZrnnjQbzUppKSh5JZ7Bg.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_01_教育政策__image_330ca18dae33",
+      "sha256": "e42a16e5c1554d5735f0fdb0f323dbc35d23487dc476668b529b30815258313d",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_01_教育政策_330ca18dae33.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "教育有溫暖，孩子好未來",
+      "policy_points": [
+        "四條主線：教師減壓、親師溝通、幼教、特教"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/200/01M3X2SD9CX5B5H5JR6WB4FWGA.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_01_教育政策__image_c725cbd5ba3a",
+      "sha256": "78e740b700cd4961e5191e48c1525bf4bce359a3cd1ffa5b7cc795eb452eef68",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_01_教育政策_c725cbd5ba3a.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "教師減壓",
+      "policy_points": [
+        "117 學年度每班國小 24 人、國中 25 人",
+        "補正式員額、優化師資、評估獎金，配置雙導師與行政助理"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/244/conversions/01M4DG0RC8N6XB26WX5BD1P0VT-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_01_教育政策__image_6750f10567f4",
+      "sha256": "17f79f827d82841399dfdfc7c6bbb02e40399a8f1093981fb9ff73f63d36355d",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_01_教育政策_6750f10567f4.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "第三方親師協助",
+      "policy_points": [
+        "以第三方協助師生調和與衝突分流",
+        "設 EAP 諮商據點，納入心理諮商所"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/274/conversions/01M4NAK4G1FTBFY25PW28R75ZK-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_01_教育政策__image_c8a7ef5cedfb",
+      "sha256": "3a12c7893bc4e1f6bd8ae54fdaf6e3c0407670bd52891555432e9b0e30024baf",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_01_教育政策_c8a7ef5cedfb.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "幼教支持",
+      "policy_points": [
+        "117 學年度幼幼班 10 人、幼兒園 24 人",
+        "公幼設專任主任並簡化行政"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/246/conversions/01M4DG13AJCWETJJ9D8MNXNRNC-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_01_教育政策__image_d9d99eeeffce",
+      "sha256": "e55553d9356f52daba115a45ebd72167630f2d0a6dc1d8ad7b800ce1df1b6b83",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_01_教育政策_d9d99eeeffce.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "特教與家庭支持",
+      "policy_points": [
+        "116 學年度推分數式資源班；師生比幼兒 1:15、國小 1:10、國中 1:8",
+        "增加特教助理員、家庭教育與育兒支持"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/247/conversions/01M4DG18H9CZRXRCZ6KVGHHXV5-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_02_交通政策__image_c8b762911ea0",
+      "sha256": "df4c23cb010f2bd9a64a02144bb631d65802a111adbb8c6987ba08589fbfecd4",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_02_交通政策_c8b762911ea0.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "台北交通順起來：綠色通勤選項加一",
+      "policy_points": [
+        "通學區、公車安全、自行車路網、TPASS 共享電動機車四方案"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/193/01M2KYP737B6KS45R03NPZZGV6.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_02_交通政策__image_fa5eabb4b623",
+      "sha256": "3589614dbce3c846ac904fbf40f19b867e0528fa70bb0d46e70942935e0ccbea",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_02_交通政策_fa5eabb4b623.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "公車安全改革",
+      "policy_points": [
+        "補貼駕駛薪資，改善人因座椅與折返點休息站",
+        "重整公車路網"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/223/conversions/01M4DERB5AQ2HS73VSR55574TD-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_02_交通政策__image_a3f88c21a6b2",
+      "sha256": "4d68de7c52f75c7b7cf148b0bd74365ef0c646767027ce31b5d96a926c5b4c91",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_02_交通政策_a3f88c21a6b2.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "通學區共同標準",
+      "policy_points": [
+        "以學校周邊 150 公尺為範圍",
+        "淨空、抬升式穿越、減速、庇護島與接送動線納入標準，保留意見調整"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/224/conversions/01M4DERGKVCZA7ZYY2WZ9SA87V-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_02_交通政策__image_73e26897ce90",
+      "sha256": "79f6d29c01bfa67e10290d1b96a55621bab69a751b954860f5dd37fe660e942c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_02_交通政策_73e26897ce90.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "自行車路網",
+      "policy_points": [
+        "規劃迎風—港墘跨基隆河專用橋",
+        "統一維護並升級 YouBike"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/225/conversions/01M4DERP8RBJC94D4ZCA1Y700Y-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_02_交通政策__image_afae879a9357",
+      "sha256": "012ba181ecce9f800fa6459e294fbc903d7a53b7704d6f5b66bb0ee731f5d8d7",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_02_交通政策_afae879a9357.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "TPASS 共享電動機車",
+      "policy_points": [
+        "前 10 分鐘免費，每日固定次數",
+        "設計停車、借還與補助規則"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/226/conversions/01M4DERVM4FRK7ADMCFGXDBQW1-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_02_交通政策__image_d377bb2d0e19",
+      "sha256": "b8675f46c81dbcd236d13c468860fe9b0616c2fa43f342b1f56a680f95efbc3b",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_02_交通政策_d377bb2d0e19.webp",
+      "viewed_fully": true,
+      "readable": false,
+      "summary": "整合交通示意圖",
+      "policy_points": [
+        "以捷運／鐵路、巴士、自行車架、共享機車與 TPASS 卡呈現多模態接駁"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "此圖為版面示意，無可讀的新增政策文字"
+      ],
+      "source_url": "https://media.puma.taipei/files/143/conversions/01M2MPZR4ZRXX0EJ7W2KG34BKG-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_03_社福政策__image_49b595a5b36d",
+      "sha256": "59454961762e4db420e10096b3370ae932f3f87b2aba2716be870151229c6638",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_03_社福政策_49b595a5b36d.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "打造台北幸福國：從孩子到長者的安全網",
+      "policy_points": [
+        "以多世代、多族群需求串起社福安全網"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/192/01M27QHKA28GR3A2D42HY8K675.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_03_社福政策__image_44e1aefb72f9",
+      "sha256": "51d3ea0f9d389d09a73d26472cd1a4c2fd3fd1d620bbd0931e01cb811c748f29",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_03_社福政策_44e1aefb72f9.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "長者生活支持",
+      "policy_points": [
+        "敬老卡城市探索護照、健身小巴／在宅醫療",
+        "爬梯機、修繕、租屋、住宿長照與臨托券，增加長者外出理由"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/227/conversions/01M4DEZWPQBNNKV8ERY529XXZR-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_03_社福政策__image_eabc7a6e7c04",
+      "sha256": "4c420dca95c941dba7a275c782576b131eb5f0e7f6a1df96887da01a723919cb",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_03_社福政策_eabc7a6e7c04.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "中年與心理健康",
+      "policy_points": [
+        "50+ 皮蛇疫苗一劑；65 歲心理諮商加碼 3 次",
+        "職場友善與 45+ 職涯／創業支持"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/228/conversions/01M4DF022EDJ2GC6YJEFFVM4TG-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_03_社福政策__image_435a05fe3ab8",
+      "sha256": "bb0b3be1c2b218bfd386883f4362b1ef0ea047abad904d61d0becbb772dc23f6",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_03_社福政策_435a05fe3ab8.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "兒少安全與資源",
+      "policy_points": [
+        "0—6 歲腸病毒疫苗、0—18 歲親子同行卡每月 600 點",
+        "兒少治理中心與通學路安全"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/229/conversions/01M4DF07AJ3EX3M20C532PN7VF-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_03_社福政策__image_91630bcf974d",
+      "sha256": "2e733c7564f285851275a6563f606c322f0fa36f39371bfdbf977e97ca680883",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_03_社福政策_91630bcf974d.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "女性安全",
+      "policy_points": [
+        "推女性安全審計與女性身心一站式專線"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/230/conversions/01M4DF0CJB31N53AQ85CCZYPX7-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_03_社福政策__image_b5e09c18a91c",
+      "sha256": "65367ebe9982c11493b764d4cb48832da3d003b9d399861113298335902abd89",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_03_社福政策_b5e09c18a91c.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "身障與弱勢安全網",
+      "policy_points": [
+        "無障礙城市設計中心、罕病家用不斷電",
+        "增加女性決策參與"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/273/conversions/01M4N9RR5BE37Z28XAGK8J94CP-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_0c3e1a835b59",
+      "sha256": "77c6594d01a560c517a4f0234bd61efa5d15caaa2e9dc9dd5d17762ca095a236",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_0c3e1a835b59.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "打造首都文化徑及山林徑",
+      "policy_points": [
+        "四大主題、亞洲第一觀光登山城、步道重新檢視",
+        "路徑品牌、數位治理與親子同行 600 點"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/191/01M204R77HRB5EZ9GQ55DB1TBC.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_6b2b8c93fc2b",
+      "sha256": "996a6df528f4f8ce76f31f15c3f0e5138df29537476862064832016fbe6e8ca2",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_6b2b8c93fc2b.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "城市歷史記憶地圖",
+      "policy_points": [
+        "以城市歷史記憶串聯歷史場址與路徑節點"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "地圖節點文字較小，僅記錄清楚可辨識標題與重點"
+      ],
+      "source_url": "https://media.puma.taipei/files/128/conversions/01M20MBANF6ZAZ4HGBWQ9S21WK-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_dfd669d0e8c2",
+      "sha256": "2df332f61f82d384088b3a9155477214dfc9138520a44b5ee8d17a077b954fca",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_dfd669d0e8c2.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "產業文化遺跡地圖",
+      "policy_points": [
+        "標示產業文化遺跡路線／節點，並連結象山登山中心"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "地圖節點文字較小，未逐字轉錄"
+      ],
+      "source_url": "https://media.puma.taipei/files/129/conversions/01M20MBD3SX0BPPW3SBB0ZGVF3-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_424f909d7676",
+      "sha256": "eef08c616281a442c61bb4eee8442311bc1e5118ca5386e0ea9c588f4250f21f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_424f909d7676.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "多元族群文化地圖",
+      "policy_points": [
+        "以多元族群、文化場址與各區節點組成路徑"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "地圖節點文字較小，未逐字轉錄"
+      ],
+      "source_url": "https://media.puma.taipei/files/130/conversions/01M20MBFBFSYGX1281XTWN21WN-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_a169a212ec31",
+      "sha256": "60ba3fb17c1d7c607761367715e0a02facfdabda8c57deed52c1b4039d0114a0",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_a169a212ec31.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "人權與民主記憶地圖",
+      "policy_points": [
+        "可辨識天馬茶房原址、清南基督長老教會、二二八國家紀念館、戒嚴時期政治受難者墓園等節點"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "地圖節點文字較小，未逐字轉錄"
+      ],
+      "source_url": "https://media.puma.taipei/files/131/conversions/01M20MBHNZWBR9MQZXFEFCCRP9-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_fc5f2398b16f",
+      "sha256": "5d2cce30442200830a8e1a205e5b3b9147990f8312b9ab744bde6d60e6674535",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_fc5f2398b16f.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "文化路徑總覽",
+      "policy_points": [
+        "將城市歷史、產業、白色恐怖、人權等路徑與登山中心連結"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "地圖／示意文字較小，未逐字轉錄"
+      ],
+      "source_url": "https://media.puma.taipei/files/132/conversions/01M20MBKR7D771MMTK6V5HT7NW-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_0a7f3b7e7e8f",
+      "sha256": "2806b15b30bd45b8d784db99202d1a8a29f9f506c23d10f3643e5f73d1312edc",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_0a7f3b7e7e8f.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "四大主題文化徑",
+      "policy_points": [
+        "產業文化遺跡、城市歷史記憶、多元族群敘事、人權與民主記憶",
+        "第一階段四主題，第二階段進行共創"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/219/conversions/01M4DEJBTRH50NGFKK7XQWT73Y-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_f91caaaf118b",
+      "sha256": "491ee5d355c0fe2d39e47a46dcbc2304341f2f5fb4760afbdb266f48583772b9",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_f91caaaf118b.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "亞洲第一觀光登山城",
+      "policy_points": [
+        "象山、劍潭、貓空三座登山觀光中心",
+        "裝備租借、置物更衣、洗鞋區；中英日韓導覽與即時步道狀況"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/220/conversions/01M4DEJH0P7QZYMK2ZMG70NW0W-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_1bfcf0167531",
+      "sha256": "9603e409027fb1d08dddd65834a4349b1c8acc4ba562ec77e079831ecfe2799a",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_1bfcf0167531.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "重新檢視步道系統",
+      "policy_points": [
+        "因地制宜恢復自然步道並重訂分級",
+        "數位導覽、安全應急、廁所飲水休息照明指標與登山口接駁"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/221/conversions/01M4DEJP6KVY43RCRWXN91FJE7-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__image_b51f53ced508",
+      "sha256": "ec1ef9211ab723802bdb1c78e2e0b83d5cda3f7b147a4fd321553611a4932f2f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_04_台北文化徑_山林徑_b51f53ced508.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "重新建立城市連結",
+      "policy_points": [
+        "路徑品牌化、數位治理、方便抵達、在地參與、跨局處平台五策略",
+        "每月 600 點親子同行卡"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/222/conversions/01M4DEJVKNS4P202P30CVTWVRB-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__image_f6eb0c8c4ccb",
+      "sha256": "27ddaeacc2c241da8dc6e9443df02fc1e8953b0c61e6220a233a3e704adab42a",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_05_都市微森林_f6eb0c8c4ccb.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "打造永續宜居台北，從都市微森林開始",
+      "policy_points": [
+        "專業專責／專法專款、智慧管理、市民參與、循環再利用"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/190/01M22BJFVPR3M9GMA3NME26KKJ.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__image_c5060d847060",
+      "sha256": "f57232cfbebd28873f8186ad12ccd294b995ce2f8dff17c4f41466e505720dc9",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_05_都市微森林_c5060d847060.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "更重視每棵樹",
+      "policy_points": [
+        "推動都市林專法、都市森林委員會與維運基金",
+        "培養綠領人才"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/248/conversions/01M4DG76DTZK8C0TY5Y1YKP0P5-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__image_a4ec854ca20d",
+      "sha256": "9ac1c0c4e8a0685af02a109f149b6cc850307f366536f41721c6064c1146320d",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_05_都市微森林_a4ec854ca20d.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "讓行道樹再生",
+      "policy_points": [
+        "整合樹籍管理、監測系統、數位孿生三合一智慧管理"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/249/conversions/01M4DG7CD2JBX2MDE9R0NHJM97-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__image_57fa030229c7",
+      "sha256": "b2a90903e48a42320a8cf67dab21a53094053050d0d22f054449ed65026f829b",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_05_都市微森林_57fa030229c7.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "樹木種植全民規劃",
+      "policy_points": [
+        "串接樹籍、氣象與體感溫度，提供回報互動",
+        "在高溫點投入樹木、遮蔭與補水，建立 COOL MAP"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/250/conversions/01M4DG7JRNXK5NVK1KM6K1HG97-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__image_9d87640eea3f",
+      "sha256": "4d7a035323e14399a5d5323c57756189d06417bdfefd9ca503a93d4704604729",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_05_都市微森林_9d87640eea3f.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "讓樹木重生，循環再利用",
+      "policy_points": [
+        "結合新創與學術，將樹木循環製造成公共設施與高值產品"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/251/conversions/01M4DG7TV1W1N6J43XCNXMV0D9-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__image_262fe541cc7c",
+      "sha256": "83da3089e4e4de0137324ef152b6f2dc28e32f64bb15698aaa4231b86ca42963",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_05_都市微森林_262fe541cc7c.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "3-30-300 國際目標",
+      "policy_points": [
+        "3：窗前看見 3 棵樹；30%：平地市區綠覆率；300：300 公尺內有綠蔭公園"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/252/conversions/01M4DG816NABRG7J6NY57FHYFH-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_06_青年政策__image_6d976dfb5d30",
+      "sha256": "f021859cb86937ad7cf6ec4462fe63ae225db1c929ebf8afb49e2007cc77a210",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_06_青年政策_6d976dfb5d30.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "台北發展青年力：年輕人的第一步",
+      "policy_points": [
+        "本金 × AI × 舞台；50 萬起跑本金、AI 使用支持、青年圓夢舞台"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/189/01M22F84RM3173Q1NDGXRYEHTD.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_06_青年政策__image_b14358a62817",
+      "sha256": "58f788c4f7458fae6eb233a177cc9cb9a3fb53329483a84c03cad8960d62b8af",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_06_青年政策_b14358a62817.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "50 萬起跑本金",
+      "policy_points": [
+        "18—22 歲；市府存 1,500、青年再存 1,500，弱勢市府加碼 1,500",
+        "大學畢業拿 50 萬"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/232/conversions/01M4DF3HKJEMSXYEPM2KTJ6ME5-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_06_青年政策__image_6d9a8cb19481",
+      "sha256": "b0361a33fc594ed82e7d8ea934971158f2d105302c3d624ddecdecc242ea969e",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_06_青年政策_6d9a8cb19481.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "AI 使用支持方案",
+      "policy_points": [
+        "就學每月最高補助 300；競賽加碼",
+        "第一期 18—25 歲設籍台北，第二期擴大 18—45 歲社會人士；跨模型、跨平台、有算力"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/233/conversions/01M4DF3Q4MM1WKQ33P8AS7J154-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_06_青年政策__image_9200d578ed63",
+      "sha256": "be760b455ac7df77fe3c93eb700a7b50804a45c65c6bc2e17b3abe883879554b",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_06_青年政策_9200d578ed63.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "AI 青年圓夢計畫",
+      "policy_points": [
+        "接續中央圓夢基金，協助落地創業並培育青年市民外交官",
+        "8 年 20 億"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/234/conversions/01M4DF3W6PNA5NDV46QK73QS20-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_07_運動政策__image_0497293a18ae",
+      "sha256": "f092e437a0ae5255543a13726b7c5d0b2bf627e2342f09613f06a41bb0234d26",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_07_運動政策_0497293a18ae.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "運動政策：你的市長，你的主場",
+      "policy_points": [
+        "小巨蛋進社區巷口運動場、河濱市民運動主場、國際足球主場、運動外交、捷運／登山口運動驛站"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/187/01M277H9CVHEQMGE13CWFY51KW.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_07_運動政策__image_4fb42607d878",
+      "sha256": "5bc4eaf2bca45e956952c9b7513e10237b256c346be170523658bce3901d6e28",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_07_運動政策_4fb42607d878.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "巷口運動場",
+      "policy_points": [
+        "健身不用找，小巴進社區，出門就能動"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/253/conversions/01M4DGBYP35GAB0NMTYWAKKQ62-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_07_運動政策__image_07f921010b7c",
+      "sha256": "6bffa0ebfc6038865895765075a2f32dcc8c03f2bba54e27dbc98775d5fd9a5d",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_07_運動政策_07f921010b7c.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "點亮河濱公園，市民運動主場",
+      "policy_points": [
+        "以足球、籃球、羽球等運動設施活化河濱"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/254/conversions/01M4DGC4HTHFWD9B6G7ZJNMZ95-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_07_運動政策__image_763db9e99f1c",
+      "sha256": "c0645f35eeecbcb9eead7998f2dacfeb103a61025d8b38c0255e33fce96daf23",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_07_運動政策_763db9e99f1c.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "運動外交",
+      "policy_points": [
+        "以運動交流讓台北成為可向世界遞出的城市名片"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/255/conversions/01M4DGC9H03JEKD54EKFVDBR3T-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_07_運動政策__image_522c66f05fe1",
+      "sha256": "e8541ab6e22395a2042073e8a178615caf408723bcd3237e9211c2e22a6bca85",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_07_運動政策_522c66f05fe1.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "國際足球主場",
+      "policy_points": [
+        "還台北一座國際足球主場，提供市民旗艦運動中心"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/256/conversions/01M4DGCEE57YPV1W4JWK0PXFHM-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_08_家庭一站通__image_1807c54a46a2",
+      "sha256": "9af71af840c7f3b2cd44b14bfc9233b04233383c69b34557ddd056e6291a2699",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_08_家庭一站通_1807c54a46a2.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "家庭一站通",
+      "policy_points": [
+        "以 0—18 歲資源與家長喘息支持家庭"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/184/01M24TGF36PVV7NNT8WKCRRB53.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_08_家庭一站通__image_f65b3b56434e",
+      "sha256": "8ab9e2517a8aaa3054c694dd7dd2e9ecd0687f94823ccbb7d88704b31a8a8576",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_08_家庭一站通_f65b3b56434e.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "免費臨托／喘息",
+      "policy_points": [
+        "6 個月—6 歲孩童每週一定時數免費臨托與喘息"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/240/conversions/01M4DFTG203ZNZJCG96NBVAV5C-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_08_家庭一站通__image_0b389d32f6d2",
+      "sha256": "ecdc4370cd5e2f4771c8fc1f55d2a124a03712a69452cc568c3ea62a10541e33",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_08_家庭一站通_0b389d32f6d2.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "心理諮商加碼",
+      "policy_points": [
+        "中央補助 3 次免費心理諮商，地方再加碼，支持家長喘息"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/241/conversions/01M4DFTNQF89CG3NJ1WYJHAZPQ-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_08_家庭一站通__image_3cee2afa2d22",
+      "sha256": "6cf13d1688a5e6199fefec1c1e24c8c690133c4405d53369952079ffc8588791",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_08_家庭一站通_3cee2afa2d22.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "免費到宅育兒先指導",
+      "policy_points": [
+        "未滿 2 歲家庭加碼至 6 次，含親職示範、餐點預備、居家安全、家務指導"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/242/conversions/01M4DFTTSC9X1SHFNQA31JRDSP-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_08_家庭一站通__image_314fb490360f",
+      "sha256": "c1678d32c1ad4ad65b1a56430b3bfd14c1254ad094a3c5d253b6da15bfda33c4",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_08_家庭一站通_314fb490360f.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "第三方機制六個好處",
+      "policy_points": [
+        "釋放學校衝突壓力、保護學生教師、專業分流、增加調解、制度化支持、一致專業標準"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/243/conversions/01M4DFTZSRYC2S7PAPKFDXETQ2-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_09_公務員政策__image_cead629b6ea2",
+      "sha256": "3e195dea0c3bc70c40c76323695420ba9cbecd1b1990959b03cd7849bdc7271c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_09_公務員政策_cead629b6ea2.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "市府職場全面升級",
+      "policy_points": [
+        "彈性工時、專案獎金、EAP 與 AI 支援"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/171/01M24R6Y5WK33KKXBQKQ8GS0P9.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_09_公務員政策__image_81fc2aa74181",
+      "sha256": "e5f3a3ef60136de57d97ae4c73c911103e042f3075acd10639747ff26a71d981",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_09_公務員政策_81fc2aa74181.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "友善職場空間總體檢",
+      "policy_points": [
+        "哺乳室、紓壓、運動、淋浴設施點檢改善，辦公空間向科技公司看齊"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/216/conversions/01M4DCRBEAX8ADQDMTN5C9HF8Z-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_09_公務員政策__image_1d624bf8480e",
+      "sha256": "648b00bf9b2625b35d4ffe37848c6f7d192eb7a10c12ba90214e57af96038d0f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_09_公務員政策_1d624bf8480e.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "彈性上下班更彈性",
+      "policy_points": [
+        "擴大既有彈性方案，員工在相同工時下自行調整上下班起訖"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/217/conversions/01M4DCRJH1377KWH4WPDXWXHHX-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_09_公務員政策__image_cf806fe27806",
+      "sha256": "e6a2b7b7d3c88e5ac6d1fddbd1ffdab5e6700cb66bb992da2b00cbf2ab306084",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_09_公務員政策_cf806fe27806.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "市府專案獎金活化加碼",
+      "policy_points": [
+        "以大型專案獎勵工作成果；EAP 可自選心理、正念、運動、藝術、醫療等支持"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/218/conversions/01M4DCRS0Y2JHBBTBSC4CM49YD-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_10_親子同行卡__image_4912ac9bbf08",
+      "sha256": "f34eb73472dd490c55a50e4bf458dc9b8d05ee137000da7bdda7e6afe85797f2",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_10_親子同行卡_4912ac9bbf08.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "每月 600 點的 0—18 歲家庭支持",
+      "policy_points": [
+        "可連結台北文化幣、運動幣、閱讀袋與家庭教育網絡"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/169/01M24R99W8JSPB6WXMTHK15Y70.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_10_親子同行卡__image_ef8216779e3a",
+      "sha256": "f1a33a7ea49b4b59e5ba553624a7b168244606ee930f5de8125417f63710c525",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_10_親子同行卡_ef8216779e3a.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "閱讀禮袋",
+      "policy_points": [
+        "0、2、5 歲各有一袋，從出生陪伴到入學"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/257/conversions/01M4DGJ68Q7BC5SQBB2F8M08P5-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_10_親子同行卡__image_c6925dd916db",
+      "sha256": "d2e253279fccf11d21622094465e4d66ba5d8301e70ee50ba5f910707933d6e4",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_10_親子同行卡_c6925dd916db.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "親子同行卡的第三方機制",
+      "policy_points": [
+        "圖面列出第三方機制與六項支持效益，與家庭／學校衝突分流相連"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/258/conversions/01M4DGJBZHVC3K6ERHKDXG04BV-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_10_親子同行卡__image_0e62c6be7383",
+      "sha256": "c7d3bb87eacccbe878e6efb20a43e135df3633d809b2650b5d592b56353eef80",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_10_親子同行卡_0e62c6be7383.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "台北閱讀袋",
+      "policy_points": [
+        "0、2、5 歲書袋，建立出生到入學的閱讀陪伴"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/259/conversions/01M4DGJH6B0B7YJKB72PKMPCDD-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_10_親子同行卡__image_4dac68a5eb61",
+      "sha256": "ca8856197378ea9e10998c5b2c9bc53260a8cc097d518e278f9dc0f302e6c58d",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_10_親子同行卡_4dac68a5eb61.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "家庭教育網絡",
+      "policy_points": [
+        "提供孕產、親子溝通等家長學習，串接每月點數"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/260/conversions/01M4DGJPCQBCFCCRC8B48AY8Q8-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_11_水域政策__image_21fa3026f9cf",
+      "sha256": "d3e8ef53a8a7567cb55ec6f60dedf6de34c9b1d9a3003182073b24e690618d62",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_11_水域政策_21fa3026f9cf.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "找回台北水文化：水文化復興運動",
+      "policy_points": [
+        "Active、Beauty、Clean、Detention、Ecosystem 五面向"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/381/RIv9vvP8qHzyasGNsvJtqD9TwZFrXHe02CGY00f6.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_11_水域政策__image_b34b7bc2be2f",
+      "sha256": "3f5946d6db90a43bd87e9a8b5b5c1e109a56c6c1c73f002002324e9e02ea494b",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_11_水域政策_b34b7bc2be2f.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "親近水岸與水文化",
+      "policy_points": [
+        "改善淡水河、基隆河岸與溪流，恢復歷史水道並連結文化、山林與社區"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/382/conversions/Fy774uBoyYq7ffUu3l5FSirQKNM5h35MClajAb0j-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_11_水域政策__image_829cff67d886",
+      "sha256": "b2aff0f514c4553a3cd0fbab06a5374b1fb7896b3c7c9e3f3b0151c28aa18b22",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_11_水域政策_829cff67d886.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "改善水質、強化防洪",
+      "policy_points": [
+        "Clean：改善溪流水質與循環再利用；Detention：學校、公園、社區防洪韌性",
+        "濕地、綠色過濾與分散式微型滯洪設施"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/383/conversions/h1MoarbHTMvTFYaWoWHIW8BgRirBVzWVFz3XeN0V-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_11_水域政策__image_0ba67ad06297",
+      "sha256": "516ea3d28d1934adcb0c954a2d0b301551bff0d0d2be35c7feddc7ab3ef417d5",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_11_水域政策_0ba67ad06297.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "讓水成為城市降溫力量",
+      "policy_points": [
+        "以濕地、滯洪與都市森林形成夏季降溫廊道，跨局處打造永續台北"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/384/conversions/qnbSjcCi45GBOOahLRVCc4ouZz4JTYBufggI1Lgp-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_12_AI政策__image_b0f75ed389f9",
+      "sha256": "066934346cd2de2fb24dd498ed113197b663f1301afd956d2ab2c3e583dd7416",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_12_AI政策_b0f75ed389f9.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "AI 應用實踐：城市的未來",
+      "policy_points": [
+        "青年 AI 基本使用權、中高齡職涯、博士／研究、北士科與市政 AI"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/372/bLSTt978OI2xU4B5Sg2vSjyryImR1uy8BTONLAu1.jpg",
+      "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_12_AI政策__image_6005659a7456",
+      "sha256": "50fdc8fe4203dcec013a693d7946c9ed7f23b0231fc8cb64adb035472429af72",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_12_AI政策_6005659a7456.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "青年 AI 基本使用權",
+      "policy_points": [
+        "AI 教育包每月最高 300，低收入／認定弱勢 500",
+        "課程每月 500—1,000、專案 2,000—10,000，降低工具門檻"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/373/AguFfEEYwGSP7gZ748bpyNdSJB3H5xGK1VcvgeVo.jpg",
+      "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_12_AI政策__image_e79283e10788",
+      "sha256": "c4ee84e1725bed2739cf429fce869d23879c31559f1e48e4c69319cdbd6c31b2",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_12_AI政策_e79283e10788.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "中高齡創業轉職支持",
+      "policy_points": [
+        "45+ 重新起步，薪資／學員補助、AI 職缺與貸款利息支持"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/374/ITRNLKwQaW75TNCyohc7WRbBvHtuApXgjoVCHI64.jpg",
+      "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_12_AI政策__image_d1cb96c37d4f",
+      "sha256": "6b9ad98e9065d7dc2f397ea2d5ebdfe79e513f575d4398ad016033116fb3a15e",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_12_AI政策_d1cb96c37d4f.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "北士科星群計畫",
+      "policy_points": [
+        "變電站／公車充電與六個實驗盒：數位孿生、地下管線、智慧垃圾、產學共生、無人載具、數位圖書館"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/375/m0z2metP2MBwTY1DdbGlmEy04iF9ZLfGvTgB9RdJ.jpg",
+      "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_12_AI政策__image_a89bfd96b269",
+      "sha256": "145802319e5c1a4a1d826687e1a639dfed1a62d2e3e9a5ea529d30db97c7be99",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_12_AI政策_a89bfd96b269.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "台北研究院",
+      "policy_points": [
+        "跨域城市研究，聚焦 AI 政策、都市規劃、交通、教育與照護"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/376/hqbH7jrK2XX3MGvL70kXlAQjDZ0xldfSOceCBiMB.jpg",
+      "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_12_AI政策__image_fcabcdd9bc0b",
+      "sha256": "6ed41269e0035c104a69bff265de7651585676003ca836156d31d5546e297b18",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_12_AI政策_fcabcdd9bc0b.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "市政 AI 支持",
+      "policy_points": [
+        "專業 AI 團隊進入局處，找出重複工作，減少額外訓練與工具負擔，聚焦服務"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/377/dsmUeDSWS9DKjxZyuqXbTEcnclngrCvAcpffULyO.jpg",
+      "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_13_客家政策__image_0639ae8382bb",
+      "sha256": "dd76724224e3c63c58c26745d18dc152d16bd01a1fca3619ac2c74e403dac36f",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_13_客家政策_0639ae8382bb.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "無限城論壇：讓台北成為全球客家樞紐",
+      "policy_points": [
+        "長輩有據點、學童有互訪、出門講客語、約聘有加分、世界有客家"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/368/0WFBSPJRi20amugQmdLShtceF2EbgLvsH7MZt1uF.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_13_客家政策__image_47a2e85f74fa",
+      "sha256": "30764d3e18fa2fb882fa6583aed845c9495be9b01000faeb9154a16a18f095f6",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_13_客家政策_47a2e85f74fa.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "長輩有據點，孩子有互訪",
+      "policy_points": [
+        "增設都會伯公照護站，結合社團據點、社區照顧與老幼共學",
+        "串聯台北與客庄學校，推動中小學結盟及寒暑假交流"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/369/DO9Mhc28i0l0zUqITUvA42fDGWGlrTBSCmgfTIj2.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_13_客家政策__image_77f8cef21ce2",
+      "sha256": "130fa72bba333607ac2b209765ffbab37d7754ba59b2e758ebb22fc8c9632f4a",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_13_客家政策_77f8cef21ce2.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "出門講客語，約聘有加分",
+      "policy_points": [
+        "客語學習集點、客語友善店家與數位幣",
+        "修正約聘與 1999 第一線櫃檯規定，中級認證加分"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/370/XwVium56PsOoxwaB6pfqiH4v6BjJgrrmpGYzZTje.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_13_客家政策__image_6c8b51e85c1f",
+      "sha256": "1d8713f3048cac781a079d546600c5154c0a65092f847fc30a3e10c9c20417ab",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_13_客家政策_6c8b51e85c1f.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "讓世界看見台灣客家",
+      "policy_points": [
+        "將客家精神納入無限城國際論壇，推動跨國多元文化保存與全球客家樞紐"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/371/ZtMuUInyIEkeCqxdvBtkLY0lWVqfsldfTlFmXUYh.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_14_城市外交__image_b73db0442d8f",
+      "sha256": "058df25f17991ba6cbe544c76c0988ae609961e696bb0f1882f6e46c9a5ffa9d",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_14_城市外交_b73db0442d8f.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "城市外交：台北與世界找到更好的生活方式",
+      "policy_points": [
+        "拓展無限城合作網絡、基層交流、台北研究院、市政實質合作、海外人才與產業"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/302/lTdkkCOd5aERMwU3juBtwutgmPBfGOpdc594Qljz.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_14_城市外交__image_9da641e043b4",
+      "sha256": "54935b60469983c4259a300d10ec924f11a44a6159756db79d4923e8ae4cc2f1",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_14_城市外交_9da641e043b4.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "拓展無限城合作網絡",
+      "policy_points": [
+        "串聯地方領袖、議員、智庫、企業與海外夥伴，交換住宅、降溫、交通安全、人才治理經驗"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/235/conversions/01M4DFDE833X6RW2TPD065CGHP-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_14_城市外交__image_16824b14aadd",
+      "sha256": "66260c42e8fe23aad5dd457e7647bc8da8ef9173417d9bb4a0b2084173256b75",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_14_城市外交_16824b14aadd.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "展開深度計畫合作",
+      "policy_points": [
+        "推動基層公務員半年互換交流，累積城市外交制度知識"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/236/conversions/01M4DFDKR63A28NTBE1G92NNDN-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_14_城市外交__image_7ccedec35078",
+      "sha256": "8cfcb102a85f8fb5ccaf8edcd6651cd264bd6546909aec97b87aadb5a1cc9d90",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_14_城市外交_7ccedec35078.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "建立台北研究院",
+      "policy_points": [
+        "以都市設計、AI、產業、交通、社會與兒少安全支援長期規劃，連結研究、實作與國際知識"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/237/conversions/01M4DFDS5K9WCADATGPSB2ZN07-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_14_城市外交__image_e80364407e62",
+      "sha256": "3535aa93799bc20ca3d3373686d0a817374bd94f70eacce50f6cd08c524b0949",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_14_城市外交_e80364407e62.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "以市政問題推動實質合作",
+      "policy_points": [
+        "都市森林風險評估／保險、交通視線死角與行人零死亡試點、都更早期可負擔住宅與居民需求"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/238/conversions/01M4DFDYYEPAX1DQBTVHR7SS43-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_14_城市外交__image_0a31382bbc79",
+      "sha256": "809a82b6f5769679782d77db1743e5e0b7652d5efb7401e7fe9e94f69d3c95ae",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_14_城市外交_0a31382bbc79.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "串聯海外人才與產業合作",
+      "policy_points": [
+        "連結海外台灣人、企業、智庫與地方政府，促進人才回流與台北／世界流動"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/239/conversions/01M4DFE4HQG2PN3GEGZZDBNZAC-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_15_營養午餐__image_be0cbaca8fc4",
+      "sha256": "ad789d1afce622a3dd68eb53291bda9593d76691d52d7aaaf7cdd41ff51bf863",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_15_營養午餐_be0cbaca8fc4.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "營養午餐專法倡議：食農營養教育並進",
+      "policy_points": [
+        "專法、彈性費用、在地農場／學校、食農教育、營養與食物識讀"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/194/01M364EB4635040MB7QV41YB6D.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_15_營養午餐__image_dfe00ac8dc8a",
+      "sha256": "0c8e5ee4dc554e8feabb80a35bee8327b9a6267c6c3dde04c6bcd588bd606950",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_15_營養午餐_dfe00ac8dc8a.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "支持營養午餐專法",
+      "policy_points": [
+        "明確縣市預算、營養、安全、來源與教育責任"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/261/conversions/01M4DGNZ8HK85A9GSFQN3T59VD-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_15_營養午餐__image_f413d4e0d57c",
+      "sha256": "6919c219131a6ed60c68fef1aca0ba9014fb238f957f1cee7ddc3668762c7d5d",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_15_營養午餐_f413d4e0d57c.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "彈性午餐費機制",
+      "policy_points": [
+        "依原物料價格、天候與市場調整標準，降低學校／供應商壓力並維持品質"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/262/conversions/01M4DGP40DRVJSG47M68E0KDM1-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_15_營養午餐__image_b72b4af88617",
+      "sha256": "66e05aa9f1de332b88ee05abc838fb591fb6a7e223a3f785ee21f6d9c107634e",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_15_營養午餐_b72b4af88617.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "在地農場與學校合作",
+      "policy_points": [
+        "參考東京經驗，建立合作與穩定在地食材供應，連結農業與管理學習"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/263/conversions/01M4DGP9E66HQ1QDTEXQQ4K8H0-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_15_營養午餐__image_96a2b52be78b",
+      "sha256": "6b7ab7094a2f8bd914c76949974411be3cdfa17792a7fe3ec0322da232a3f180",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_15_營養午餐_96a2b52be78b.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "營養教育",
+      "policy_points": [
+        "把午餐連結學校課程，讓學生理解食物來源、製作與供應"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/264/conversions/01M4DGPEZ6VZ55RNYXA3JNQQYP-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_15_營養午餐__image_5450e2256ee2",
+      "sha256": "1276074fc850d8271167bf33919e5036f3d9f6a68c50ba209d65fffac8d73c46",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/policy_15_營養午餐_5450e2256ee2.webp",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "食物與營養識讀",
+      "policy_points": [
+        "發展教材、培養健康習慣，降低慢性病風險"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/265/conversions/01M4DGPN6J4VAN27TA8XNFT8M9-large.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_474fed54e053",
+      "sha256": "4703d90366cac681b8499a74c31078664b68637faf4e3542da42132952cd686c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_474fed54e053.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "消除山徑苔蘚的魔法",
+      "policy_points": [
+        "改善雨天山徑濕滑、老舊步道與休息空間；提示天候、身體與食物準備"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://puma.taipei/images/heart/result-scholar.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_ec3bcbd68b7c",
+      "sha256": "948f8e842527909c9e70d27b1818125159dad5d2b6b448ed61916ecb765103e6",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_ec3bcbd68b7c.jpg",
+      "viewed_fully": true,
+      "readable": false,
+      "summary": "純插畫：鹿",
+      "policy_points": [],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "no_substantive_text"
+      ],
+      "source_url": "https://puma.taipei/images/heart/char-scholar.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_b5752b920e0c",
+      "sha256": "c037bdf58bf5b0349fa6225e564631e3d6dd87dda2fa62f52db9baea9cc45d70",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_b5752b920e0c.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "讓眼角長出後照鏡的魔法",
+      "policy_points": [
+        "看見車輛與道路風險，避免違停，讓家長與寵物探索更安全"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://puma.taipei/images/heart/result-mom.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_8314ce79a19f",
+      "sha256": "ef63774ba3717991e91d9b2052e1d52c226c45c94326620e44d1d0b3cdc6e412",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_8314ce79a19f.jpg",
+      "viewed_fully": true,
+      "readable": false,
+      "summary": "純插畫：燕／鳥",
+      "policy_points": [],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "no_substantive_text"
+      ],
+      "source_url": "https://puma.taipei/images/heart/char-mom.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_5bd802960b8c",
+      "sha256": "47a1f7a1765dcf7ca6f64f3f336786e17621b619f008ebdab31510d54fc6528c",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_5bd802960b8c.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "讓公告都有被好好閱讀的魔法",
+      "policy_points": [
+        "非營業時間不設門、避免違停與垃圾，讓店面周邊更安定；涉及租金折扣"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://puma.taipei/images/heart/result-biz.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_68f595cdede5",
+      "sha256": "a79f58c8e8f0fde74289c14de14d1dc2ce26eeb6759dcbc51d73ad1192619b82",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_68f595cdede5.jpg",
+      "viewed_fully": true,
+      "readable": false,
+      "summary": "純插畫：牛／水牛",
+      "policy_points": [],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "no_substantive_text"
+      ],
+      "source_url": "https://puma.taipei/images/heart/char-biz.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_fb593489392b",
+      "sha256": "a5df9e754f4a67b1cb30b51fe48f98273fb5ebeb8d579a3ab9ac123644293aed",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_fb593489392b.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "公車剛剛好到車站的魔法",
+      "policy_points": [
+        "減少炎熱或寒冷中久候，讓通勤休息、聽音樂或閱讀"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "以魔法／生活情境表達，非具體執行細節"
+      ],
+      "source_url": "https://puma.taipei/images/heart/result-fresh.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_199dd8ae41a2",
+      "sha256": "94b8fd433baf4f6bb4e8cd3061aced2b092932adbd8d1d9ed1655823ee3903b1",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_199dd8ae41a2.jpg",
+      "viewed_fully": true,
+      "readable": false,
+      "summary": "純插畫：橘色狗",
+      "policy_points": [],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "no_substantive_text"
+      ],
+      "source_url": "https://puma.taipei/images/heart/char-fresh.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_5d4e250d5b2e",
+      "sha256": "7b4af7060a94fd58ade5f4e7c4a0ce5aedc5ed7ef0d22da2e8b8b7c4d395ddac",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_5d4e250d5b2e.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "把路燈變成夕陽的魔法",
+      "policy_points": [
+        "以城市照明營造夕陽般的詩意，提出城市生活美感想像"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "未見可核對的執行數字"
+      ],
+      "source_url": "https://puma.taipei/images/heart/result-art.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_c60a9215e251",
+      "sha256": "7bc1a0136db1358ffd36f84b6ffd131657085e9181966dba703d392e084bc968",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_c60a9215e251.jpg",
+      "viewed_fully": true,
+      "readable": false,
+      "summary": "純插畫：孔雀",
+      "policy_points": [],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "no_substantive_text"
+      ],
+      "source_url": "https://puma.taipei/images/heart/char-art.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_92f7a3be8392",
+      "sha256": "509b4760d676274a57067b82b2378a333b8f8ef5b07418efc631e8eca1f20a01",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_92f7a3be8392.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "絕對不會把名片拿反的魔法",
+      "policy_points": [
+        "記住名片方向，減少客戶互動尷尬並能立即記下報價"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "生活情境卡，非正式政策規格"
+      ],
+      "source_url": "https://puma.taipei/images/heart/result-eng.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_6bd8397bb512",
+      "sha256": "a471ab18a76c3658324964736bd1b8cb23013e174ea3b552eb8ce18e5132c396",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_6bd8397bb512.jpg",
+      "viewed_fully": true,
+      "readable": false,
+      "summary": "純插畫：蜂鳥",
+      "policy_points": [],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "no_substantive_text"
+      ],
+      "source_url": "https://puma.taipei/images/heart/char-eng.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_d136b3ceb58e",
+      "sha256": "590fc39789332934e34b9b75c0e074772324ca75604b7a6c045a099e039f82d9",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_d136b3ceb58e.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "把人行道變成棉花糖的魔法",
+      "policy_points": [
+        "改善路面高低差與障礙，降低跌倒風險；仍提醒行走注意"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "生活情境卡，未逐字轉錄"
+      ],
+      "source_url": "https://puma.taipei/images/heart/result-mob.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_f82150fffd61",
+      "sha256": "b304578fa7aa80e9dd42b28bb946c8a095a3b511fb5fe416dfa50e6587844743",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_f82150fffd61.jpg",
+      "viewed_fully": true,
+      "readable": false,
+      "summary": "純插畫：貓頭鷹",
+      "policy_points": [],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "no_substantive_text"
+      ],
+      "source_url": "https://puma.taipei/images/heart/char-mob.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_ef5c097ea0c8",
+      "sha256": "11b9e3f2d27cf594c8eeac4df0276d7b80fbccfb5142122a4e27332e4d478bb8",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_ef5c097ea0c8.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "把青菜瞬間洗好的魔法",
+      "policy_points": [
+        "去除泥土與蟲，節省備餐時間"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "生活情境卡，另以手洗衣物作對照，非正式政策規格"
+      ],
+      "source_url": "https://puma.taipei/images/heart/result-care.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_a3fe0c465b6c",
+      "sha256": "09ee03c90987b49dc45a22391e30e051f23fde21b91b9bf0a3f13fcbf7b808dc",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/images/heart_quiz_1_a3fe0c465b6c.jpg",
+      "viewed_fully": true,
+      "readable": false,
+      "summary": "純插畫：大象",
+      "policy_points": [],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "no_substantive_text"
+      ],
+      "source_url": "https://puma.taipei/images/heart/char-care.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_03_社福政策__attachment_94bb29415a78",
+      "sha256": "d345876180c6c4bda2937e5de2b5ffd4414a17a239cc3991ba6cd10b7f6a27dc",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/官方政策/attachments/policy_03_社福政策__260910社福政策表格.jpg",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "社福政策五大目標族群與概念總表",
+      "policy_points": [
+        "長者：敬老卡、健身小巴／運動胖卡、代間學習、高年級導航、無障礙城市、時間銀行、功能評估",
+        "在宅醫療、社會處方 2.0、老人租屋／修繕／爬梯機、住宿型機構與鐘點移工、臨托老券／失智友善",
+        "兒少：0—6 歲免費腸病毒、0—18 歲卡、兒少安全、幼教安全網、通學安全",
+        "身障：無障礙鏈、爬梯機、不斷電、女性公共參與；中年：50+ 皮蛇、65 歲 6 次／15—45 歲免費 3+3、職場友善、45+ 轉職創業",
+        "女性：安全審計與身心健康；社區共照一區 5—10 個"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "表格小字未逐字轉錄"
+      ],
+      "source_url": "https://media.puma.taipei/files/135/01M27RZE0DG56XK89VJQVG7JEN.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "ocr_status": "vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_02_交通政策__attachment_1d3a6cb64944",
+      "sha256": "d83ef271e87892a7311a5b7d1ccd138c5743437dcd3341cf9acb173f8f7d3fa9",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_02_交通政策__attachment_1d3a6cb64944_p01.png",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "封面「台北交通順起來／綠色通勤選項+1」",
+      "policy_points": [
+        "通學區、公車安全、自行車路網、TPASS 共享電動機車四方案"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "ocr_status": "no_text_layer; vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_02_交通政策__attachment_1d3a6cb64944",
+      "sha256": "d83ef271e87892a7311a5b7d1ccd138c5743437dcd3341cf9acb173f8f7d3fa9",
+      "page": 21,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_02_交通政策__attachment_1d3a6cb64944_p21.png",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "結尾橙色版面「SOON 你的市長 沈伯洋 台北順起來」",
+      "policy_points": [],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "no_substantive_text",
+        "封面／結尾版面"
+      ],
+      "source_url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "ocr_status": "no_text_layer; vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__attachment_7ae768c9b336",
+      "sha256": "0c92e531479bdf1ba0e92beab4abd91a117dd970879327c13ba7b428dba737c1",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_04_台北文化徑_山林徑__attachment_7ae768c9b336_p01.png",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "文化徑×山林徑政策封面",
+      "policy_points": [
+        "串連文化徑與山林徑，把台北重新接起來"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "no_text_layer; vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__attachment_7ae768c9b336",
+      "sha256": "0c92e531479bdf1ba0e92beab4abd91a117dd970879327c13ba7b428dba737c1",
+      "page": 8,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_04_台北文化徑_山林徑__attachment_7ae768c9b336_p08.png",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "城市歷史記憶地圖頁",
+      "policy_points": [
+        "以城市歷史記憶與路徑／場址節點呈現文化路徑"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "地圖節點文字較小，未逐字轉錄"
+      ],
+      "source_url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "no_text_layer; vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__attachment_7ae768c9b336",
+      "sha256": "0c92e531479bdf1ba0e92beab4abd91a117dd970879327c13ba7b428dba737c1",
+      "page": 9,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_04_台北文化徑_山林徑__attachment_7ae768c9b336_p09.png",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "文化路徑、河岸、山林徑連結示意",
+      "policy_points": [
+        "以城市、河岸、山林與交通串接文化徑／山林徑"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "示意圖小字未逐字轉錄"
+      ],
+      "source_url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "no_text_layer; vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_04_台北文化徑_山林徑__attachment_7ae768c9b336",
+      "sha256": "0c92e531479bdf1ba0e92beab4abd91a117dd970879327c13ba7b428dba737c1",
+      "page": 16,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_04_台北文化徑_山林徑__attachment_7ae768c9b336_p16.png",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "結尾橙色版面「SOON 你的市長 沈伯洋 台北順起來」",
+      "policy_points": [],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "no_substantive_text",
+        "封面／結尾版面"
+      ],
+      "source_url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "ocr_status": "no_text_layer; vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__attachment_19adb5514d42",
+      "sha256": "aafc2438849e839076de7943d88ef8053074fd3c17166a669e55dcdc437bf2c8",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_05_都市微森林__attachment_19adb5514d42_p01.png",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "都市微森林政策封面：把樹種在你身邊，降溫台北",
+      "policy_points": [
+        "都市微森林以樹木、降溫與宜居為主題"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "ocr_status": "no_text_layer; vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_05_都市微森林__attachment_19adb5514d42",
+      "sha256": "aafc2438849e839076de7943d88ef8053074fd3c17166a669e55dcdc437bf2c8",
+      "page": 11,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_05_都市微森林__attachment_19adb5514d42_p11.png",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "結尾橙色版面「SOON」",
+      "policy_points": [],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "no_substantive_text",
+        "封面／結尾版面"
+      ],
+      "source_url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "ocr_status": "no_text_layer; vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_06_青年政策__attachment_ee958aad30fb",
+      "sha256": "cacf591bb31d497d613bedc8a407aca89297ed502f81af0bc095096ce229be0a",
+      "page": 1,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_06_青年政策__attachment_ee958aad30fb_p01.png",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "青年政策封面：年輕人的第一步，台北來發展",
+      "policy_points": [
+        "本金 × AI × 舞台"
+      ],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗"
+      ],
+      "source_url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "no_text_layer; vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    },
+    {
+      "asset_id": "policy_06_青年政策__attachment_ee958aad30fb",
+      "sha256": "cacf591bb31d497d613bedc8a407aca89297ed502f81af0bc095096ce229be0a",
+      "page": 20,
+      "path": "00_來源資料/2026-11-06_更新版01/補充文字/視覺閱讀暫存/pdf-pages/policy_06_青年政策__attachment_ee958aad30fb_p20.png",
+      "viewed_fully": true,
+      "readable": true,
+      "summary": "結尾橙色版面「SOON」",
+      "policy_points": [],
+      "caveats": [
+        "人工視覺閱讀；OCR未逐字圖面核驗",
+        "no_substantive_text",
+        "封面／結尾版面"
+      ],
+      "source_url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "ocr_status": "no_text_layer; vision_no_text_detected",
+      "ocr_verification": "not_word_for_word_verified"
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "都更審查與循環安置",
+      "question": "如何縮短都更審查並降低反覆搬遷？",
+      "points": [
+        "補人力與跨域預審",
+        "交換平台、公平估價、循環住宅與分回戶房源"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_16_都更政策__image_92d1d6cdf382",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/415/BYAYGfemUWNAVLUfAJNaVrJqwBGAQqNkIU4HLtTi.jpg",
+          "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "都更審查跨域且有人力、標準與程序瓶頸"
+        },
+        {
+          "asset_id": "policy_16_都更政策__image_9d88baf94eb7",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/416/y5IVpVGXL1lgfbgmAXo4GnMUBv25yzJZ2MX8XNi8.jpg",
+          "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "循環都更主張不用搬來搬去"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "教育減壓與支持",
+      "question": "如何讓教師、親師、幼教與特教得到支持？",
+      "points": [
+        "降低班級人數、補師資與行政",
+        "第三方協助、幼教行政、特教資源與家庭支持"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_01_教育政策__image_c725cbd5ba3a",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/244/conversions/01M4DG0RC8N6XB26WX5BD1P0VT-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "117 學年度班級人數與雙導師／行政助理"
+        },
+        {
+          "asset_id": "policy_01_教育政策__image_d9d99eeeffce",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/247/conversions/01M4DG18H9CZRXRCZ6KVGHHXV5-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "特教師生比與助理員"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "交通安全與綠色通勤",
+      "question": "如何讓通學、公車、自行車與共享運具更順？",
+      "points": [
+        "150 公尺通學區標準、公車駕駛與路網改革",
+        "自行車跨河專用橋、YouBike、TPASS 共享電動機車"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_02_交通政策__image_73e26897ce90",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/225/conversions/01M4DERP8RBJC94D4ZCA1Y700Y-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "自行車路網與迎風—港墘專用橋"
+        },
+        {
+          "asset_id": "policy_02_交通政策__image_afae879a9357",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/226/conversions/01M4DERVM4FRK7ADMCFGXDBQW1-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "TPASS 共享電動機車前 10 分鐘免費"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "社福多世代安全網",
+      "question": "如何涵蓋長者、兒少、身障、中年與女性？",
+      "points": [
+        "長者醫療、居住、照顧與外出",
+        "兒少、女性與身障安全及支持"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_03_社福政策__image_44e1aefb72f9",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/227/conversions/01M4DEZWPQBNNKV8ERY529XXZR-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "長者生活與照顧支持"
+        },
+        {
+          "asset_id": "policy_03_社福政策__attachment_94bb29415a78",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/135/01M27RZE0DG56XK89VJQVG7JEN.jpg",
+          "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "五大目標族群與概念總表"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "文化徑與山林徑",
+      "question": "如何用文化路徑串起城市、河岸與山林？",
+      "points": [
+        "四大文化徑主題與節點",
+        "登山中心、步道系統、品牌與數位治理"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_04_台北文化徑_山林徑__image_0a7f3b7e7e8f",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/219/conversions/01M4DEJBTRH50NGFKK7XQWT73Y-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "四大主題文化徑"
+        },
+        {
+          "asset_id": "policy_04_台北文化徑_山林徑__image_f91caaaf118b",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/220/conversions/01M4DEJH0P7QZYMK2ZMG70NW0W-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "三座登山觀光中心"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "都市微森林",
+      "question": "如何用樹木與智慧管理改善都市熱環境？",
+      "points": [
+        "專法專款、都市森林委員會與維運基金",
+        "樹籍、監測、數位孿生、市民參與與 3-30-300"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_05_都市微森林__image_a4ec854ca20d",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/249/conversions/01M4DG7CD2JBX2MDE9R0NHJM97-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "樹籍、監測與數位孿生三合一"
+        },
+        {
+          "asset_id": "policy_05_都市微森林__image_262fe541cc7c",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/252/conversions/01M4DG816NABRG7J6NY57FHYFH-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "3-30-300 國際目標"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "青年本金與 AI 舞台",
+      "question": "如何支持青年起步、使用 AI 與圓夢？",
+      "points": [
+        "18—22 歲起跑本金",
+        "AI 工具補助、創業與青年市民外交官計畫"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_06_青年政策__image_b14358a62817",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/232/conversions/01M4DF3HKJEMSXYEPM2KTJ6ME5-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "50 萬起跑本金規則"
+        },
+        {
+          "asset_id": "policy_06_青年政策__image_9200d578ed63",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/234/conversions/01M4DF3W6PNA5NDV46QK73QS20-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "AI 圓夢計畫 8 年 20 億"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "社區運動主場",
+      "question": "如何把運動帶到社區、河濱與國際場域？",
+      "points": [
+        "巷口運動場、運動小巴、河濱運動主場",
+        "國際足球主場與運動外交"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_07_運動政策__image_4fb42607d878",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/253/conversions/01M4DGBYP35GAB0NMTYWAKKQ62-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "小巴進社區與巷口運動場"
+        },
+        {
+          "asset_id": "policy_07_運動政策__image_522c66f05fe1",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/256/conversions/01M4DGCEE57YPV1W4JWK0PXFHM-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "國際足球主場"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "家庭一站通與家長喘息",
+      "question": "如何讓托育、心理諮商、到宅育兒與學校支持更可近？",
+      "points": [
+        "免費臨托／喘息、心理諮商加碼",
+        "到宅育兒先指導與第三方機制"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_08_家庭一站通__image_f65b3b56434e",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/240/conversions/01M4DFTG203ZNZJCG96NBVAV5C-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "6 個月—6 歲免費臨托／喘息"
+        },
+        {
+          "asset_id": "policy_08_家庭一站通__image_3cee2afa2d22",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/242/conversions/01M4DFTTSC9X1SHFNQA31JRDSP-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "到宅育兒先指導加碼至 6 次"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "市府友善職場",
+      "question": "如何升級公務員工作環境與彈性？",
+      "points": [
+        "空間總體檢、彈性上下班、專案獎金",
+        "EAP 與 AI 支持"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_09_公務員政策__image_81fc2aa74181",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/216/conversions/01M4DCRBEAX8ADQDMTN5C9HF8Z-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "友善職場空間設施"
+        },
+        {
+          "asset_id": "policy_09_公務員政策__image_cf806fe27806",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/218/conversions/01M4DCRS0Y2JHBBTBSC4CM49YD-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "專案獎金與 EAP 自選支持"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "親子同行卡與閱讀袋",
+      "question": "如何把每月資源導向閱讀與家庭教育？",
+      "points": [
+        "每月 600 點與 0／2／5 歲閱讀袋",
+        "家庭教育網絡與第三方支持"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_10_親子同行卡__image_4912ac9bbf08",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/169/01M24R99W8JSPB6WXMTHK15Y70.jpg",
+          "discovered_from": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "0—18 歲家庭每月 600 點"
+        },
+        {
+          "asset_id": "policy_10_親子同行卡__image_4dac68a5eb61",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/260/conversions/01M4DGJPCQBCFCCRC8B48AY8Q8-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "家庭教育網絡"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "水文化與城市韌性",
+      "question": "如何讓水岸、水質、防洪與降溫共同治理？",
+      "points": [
+        "親近水岸與歷史水道",
+        "改善水質、滯洪、濕地、都市森林與降溫廊道"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_11_水域政策__image_b34b7bc2be2f",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/382/conversions/Fy774uBoyYq7ffUu3l5FSirQKNM5h35MClajAb0j-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "親近水岸與水文化"
+        },
+        {
+          "asset_id": "policy_11_水域政策__image_829cff67d886",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/383/conversions/h1MoarbHTMvTFYaWoWHIW8BgRirBVzWVFz3XeN0V-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "改善水質與強化防洪"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "AI 城市應用",
+      "question": "如何把 AI 支持從青年延伸到職涯、研究與市政？",
+      "points": [
+        "青年基本使用權與中高齡轉職創業",
+        "北士科實驗、台北研究院、市政 AI 團隊"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_12_AI政策__image_6005659a7456",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/373/AguFfEEYwGSP7gZ748bpyNdSJB3H5xGK1VcvgeVo.jpg",
+          "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "青年 AI 基本使用權補助"
+        },
+        {
+          "asset_id": "policy_12_AI政策__image_fcabcdd9bc0b",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/377/dsmUeDSWS9DKjxZyuqXbTEcnclngrCvAcpffULyO.jpg",
+          "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "市政 AI 團隊進局處找出重複工作"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "客家世代與國際樞紐",
+      "question": "如何讓客家文化在日常、世代與國際交流中被看見？",
+      "points": [
+        "伯公照護、老幼共學、學校交流",
+        "客語友善與無限城國際論壇"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_13_客家政策__image_47a2e85f74fa",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/369/DO9Mhc28i0l0zUqITUvA42fDGWGlrTBSCmgfTIj2.jpg",
+          "discovered_from": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "長輩據點與孩子互訪"
+        },
+        {
+          "asset_id": "policy_13_客家政策__image_6c8b51e85c1f",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/371/ZtMuUInyIEkeCqxdvBtkLY0lWVqfsldfTlFmXUYh.jpg",
+          "discovered_from": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "全球客家樞紐"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "城市外交與實質合作",
+      "question": "如何以市政問題連結海外城市、人才與產業？",
+      "points": [
+        "無限城網絡與公務員交換",
+        "研究院、都市森林風險、交通與住宅試點"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_14_城市外交__image_9da641e043b4",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/235/conversions/01M4DFDE833X6RW2TPD065CGHP-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "無限城合作網絡"
+        },
+        {
+          "asset_id": "policy_14_城市外交__image_e80364407e62",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/238/conversions/01M4DFDYYEPAX1DQBTVHR7SS43-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "以市政問題推動實質合作"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "營養午餐與食農教育",
+      "question": "如何以專法、彈性費用與食農教育維持午餐品質？",
+      "points": [
+        "明確預算、營養、安全與來源責任",
+        "依市場彈性調整、在地食材與營養／食物識讀"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "policy_15_營養午餐__image_be0cbaca8fc4",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/194/01M364EB4635040MB7QV41YB6D.jpg",
+          "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "營養午餐專法與食農教育"
+        },
+        {
+          "asset_id": "policy_15_營養午餐__image_f413d4e0d57c",
+          "page": 1,
+          "url": "https://media.puma.taipei/files/262/conversions/01M4DGP40DRVJSG47M68E0KDM1-large.webp",
+          "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "彈性午餐費機制"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    },
+    {
+      "working_title": "心聲小卡的生活提案",
+      "question": "圖卡中的生活情境如何指向城市微改善？",
+      "points": [
+        "山徑、防駕駛視線、公告、候車、照明、人行道與備餐等情境",
+        "部分頁面為純插畫或生活隱喻，不能當成正式政策規格"
+      ],
+      "source_refs": [
+        {
+          "asset_id": "heart_quiz_1__image_474fed54e053",
+          "page": 1,
+          "url": "https://puma.taipei/images/heart/result-scholar.jpg",
+          "discovered_from": "https://puma.taipei/heart/quiz/1",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "改善山徑苔蘚與雨天行走"
+        },
+        {
+          "asset_id": "heart_quiz_1__image_5d4e250d5b2e",
+          "page": 1,
+          "url": "https://puma.taipei/images/heart/result-art.jpg",
+          "discovered_from": "https://puma.taipei/heart/quiz/1",
+          "speaker": "官方政策圖卡",
+          "support_excerpt": "把路燈變成夕陽的魔法"
+        }
+      ],
+      "eligibility": "官方政策圖卡／附件的人工視覺閱讀索引；可供閱讀包定位，正式引用須與政策文字頁交叉核對。"
+    }
+  ],
+  "unreadable": [
+    {
+      "asset_id": "policy_02_交通政策__image_d377bb2d0e19",
+      "page": 1,
+      "reason": "純插畫，無可讀政策文字"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_ec3bcbd68b7c",
+      "page": 1,
+      "reason": "純插畫，無可讀政策文字"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_8314ce79a19f",
+      "page": 1,
+      "reason": "純插畫，無可讀政策文字"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_68f595cdede5",
+      "page": 1,
+      "reason": "純插畫，無可讀政策文字"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_199dd8ae41a2",
+      "page": 1,
+      "reason": "純插畫，無可讀政策文字"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_c60a9215e251",
+      "page": 1,
+      "reason": "純插畫，無可讀政策文字"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_6bd8397bb512",
+      "page": 1,
+      "reason": "純插畫，無可讀政策文字"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_f82150fffd61",
+      "page": 1,
+      "reason": "純插畫，無可讀政策文字"
+    },
+    {
+      "asset_id": "heart_quiz_1__image_a3fe0c465b6c",
+      "page": 1,
+      "reason": "純插畫，無可讀政策文字"
+    }
+  ]
+}

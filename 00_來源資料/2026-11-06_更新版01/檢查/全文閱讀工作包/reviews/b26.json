@@ -1,0 +1,153 @@
+{
+  "batch_id": "b26",
+  "read_units": [
+    {
+      "unit_id": "u0367",
+      "doc_id": "d0190",
+      "start": 0,
+      "end": 3146,
+      "sha256": "1222fef899ede60ffd8713ce97a65c1019b361b44964c85b072c04fc4e912cea",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0368",
+      "doc_id": "d0191",
+      "start": 0,
+      "end": 5998,
+      "sha256": "2a09a3262f6d2ceebac76af05924dc7a50b5755835ce5187dff065c45fc9dc8d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0369",
+      "doc_id": "d0191",
+      "start": 5998,
+      "end": 11990,
+      "sha256": "1f31f166f0afc2186155419898423f200d86163dffd8fc4305025d37cbf41562",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0370",
+      "doc_id": "d0191",
+      "start": 11990,
+      "end": 17969,
+      "sha256": "32fef382aa065caf35ce69d48845d0b557ae4ba21da26240178276e7c3eb3813",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0371",
+      "doc_id": "d0191",
+      "start": 17969,
+      "end": 23947,
+      "sha256": "c9de94c88008052f8d95df4ff8104b5e7dcac57a387e391780e3dcbbd70b958c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0372",
+      "doc_id": "d0191",
+      "start": 23947,
+      "end": 29925,
+      "sha256": "a88bfef0cb17ce96e67a316e7d9238bca7e40208a5637cf28321b0abc4fbce58",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0373",
+      "doc_id": "d0191",
+      "start": 29925,
+      "end": 35901,
+      "sha256": "70b5433f8d11818d86ce8f426fbe5d46fc299b7a60f27ebc7b842f73fedde871",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0374",
+      "doc_id": "d0191",
+      "start": 35901,
+      "end": 41898,
+      "sha256": "a1490edd6f03d52b0300b7328b2a744193587d90a42ae1cc22129532b91b5d5c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0375",
+      "doc_id": "d0191",
+      "start": 41898,
+      "end": 47896,
+      "sha256": "78bacc34e13cac7e37ce94101d4423923e79a25ed3f76bc86478872a53a7e3ae",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0376",
+      "doc_id": "d0191",
+      "start": 47896,
+      "end": 53893,
+      "sha256": "6f5ce08b793ede48c6cb04542cc3057f2d0c53989c72e7da5f04177967c87a84",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0377",
+      "doc_id": "d0191",
+      "start": 53893,
+      "end": 59871,
+      "sha256": "29df9f67d8733b181e15e009d2e51b53a215261d3e83ad6a4cf8ca542e397915",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0190",
+      "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+      "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/transcript.md",
+      "summary": "編排版字幕逐字稿列出城市記憶、文化徑、孤獨與同伴等段落題目，並明示未逐句聽校且沒有可靠逐句講者標籤。",
+      "attributable_claims": [],
+      "caveats": [
+        "字幕沒有可靠逐句講者標籤，不能據此把政策主張歸給沈伯洋或工頭堅。",
+        "只閱讀本批所屬附件文字，不以段落題目取代實際發言。"
+      ],
+      "topic_keys": [
+        "taipei-history-paths"
+      ]
+    },
+    {
+      "doc_id": "d0191",
+      "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+      "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/captions.json",
+      "summary": "原始字幕事件涵蓋對談開場、台北世代記憶與城市史跡/文化徑話題；本批只讀至影片約15分鐘處，並非完整對談。",
+      "attributable_claims": [],
+      "caveats": [
+        "字幕無講者欄位；發言不能歸屬沈或其他來賓。",
+        "d0190與d0191同一場對談，不是獨立佐證；本批只含u0368–u0377，不代表已讀完整影片。"
+      ],
+      "topic_keys": [
+        "taipei-history-paths"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "台北城市記憶與文化徑",
+      "question": "如何把台北不同時期、族群與地方生活的歷史連成可理解的城市記憶？",
+      "points": [
+        "對談字幕談到史跡斷裂及如何連接城市歷史，並提到不同族群與人權記憶。",
+        "字幕也提及以文化徑呈現城市記憶；這是未標講者的對談內容，不能當作沈伯洋的具名政策承諾。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0376",
+          "doc_id": "d0191",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/captions.json",
+          "section_or_timestamp": "約00:13:15（字幕事件tStartMs 795110）",
+          "speaker": "未標講者的對談字幕",
+          "support_excerpt": "好可惜 我們有好多史跡都斷裂了"
+        },
+        {
+          "unit_id": "u0377",
+          "doc_id": "d0191",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/captions.json",
+          "section_or_timestamp": "約00:14:22（字幕事件tStartMs 862761）",
+          "speaker": "未標講者的對談字幕",
+          "support_excerpt": "我們的多元族群的歷史"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    }
+  ]
+}

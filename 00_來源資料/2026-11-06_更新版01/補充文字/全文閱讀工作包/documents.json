@@ -1,0 +1,107 @@
+[
+  {
+    "doc_id": "d0001",
+    "resource_id": "policy_02_交通政策__attachment_1d3a6cb64944",
+    "entry_ids": [],
+    "title": "20260916-交通政策PDF.pdf",
+    "url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+    "kind": "policy_attachment_text",
+    "source_group": "官方補充文字",
+    "text_path": null,
+    "retrieved_at": null,
+    "source_warnings": [],
+    "notes": "PDF文字層；無文字層頁另列圖面閱讀。",
+    "text_sha256": "2d1432089cb60aac1b3c6f6a22831dcf46c82d80c6199a689bc2becca679ed67",
+    "original_chars": 2494,
+    "visible_chars": 2494,
+    "links": [],
+    "reading_chars": 2494,
+    "units": [
+      "u0001"
+    ]
+  },
+  {
+    "doc_id": "d0002",
+    "resource_id": "policy_04_台北文化徑_山林徑__attachment_7ae768c9b336",
+    "entry_ids": [],
+    "title": "20260908-文化徑山林徑記者會簡報.pdf",
+    "url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+    "kind": "policy_attachment_text",
+    "source_group": "官方補充文字",
+    "text_path": null,
+    "retrieved_at": null,
+    "source_warnings": [],
+    "notes": "PDF文字層；無文字層頁另列圖面閱讀。",
+    "text_sha256": "debb004719c44dc4098abf54b0ea3d3387b8400381b859cd5bd12985949b0e7b",
+    "original_chars": 1157,
+    "visible_chars": 1157,
+    "links": [],
+    "reading_chars": 1157,
+    "units": [
+      "u0002"
+    ]
+  },
+  {
+    "doc_id": "d0003",
+    "resource_id": "policy_05_都市微森林__attachment_19adb5514d42",
+    "entry_ids": [],
+    "title": "20260824-簡報N.pdf",
+    "url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+    "kind": "policy_attachment_text",
+    "source_group": "官方補充文字",
+    "text_path": null,
+    "retrieved_at": null,
+    "source_warnings": [],
+    "notes": "PDF文字層；無文字層頁另列圖面閱讀。",
+    "text_sha256": "cea026037c4347eee15de1f10c548360d2f5a8296e0970e53db2d8c13ece6785",
+    "original_chars": 1183,
+    "visible_chars": 1183,
+    "links": [],
+    "reading_chars": 1183,
+    "units": [
+      "u0003"
+    ]
+  },
+  {
+    "doc_id": "d0004",
+    "resource_id": "policy_06_青年政策__attachment_ee958aad30fb",
+    "entry_ids": [],
+    "title": "20260818-簡報.new.pdf",
+    "url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+    "kind": "policy_attachment_text",
+    "source_group": "官方補充文字",
+    "text_path": null,
+    "retrieved_at": null,
+    "source_warnings": [],
+    "notes": "PDF文字層；無文字層頁另列圖面閱讀。",
+    "text_sha256": "a9396f6037a87a542ad89850d4467ffba9dccd44c73635315859cceb8f28346d",
+    "original_chars": 2028,
+    "visible_chars": 2028,
+    "links": [],
+    "reading_chars": 2028,
+    "units": [
+      "u0004"
+    ]
+  },
+  {
+    "doc_id": "d0005",
+    "resource_id": "policy_07_運動政策__attachment_a2808bf4ced8",
+    "entry_ids": [],
+    "title": "沈伯洋_運動政策記者會0715.pdf",
+    "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+    "kind": "policy_attachment_text",
+    "source_group": "官方補充文字",
+    "text_path": null,
+    "retrieved_at": null,
+    "source_warnings": [],
+    "notes": "PDF文字層；無文字層頁另列圖面閱讀。",
+    "text_sha256": "257eaa20d0e2f71c3258846afea271dc57e2c8c1f79655274925249d6931795d",
+    "original_chars": 2947,
+    "visible_chars": 2947,
+    "links": [],
+    "reading_chars": 2947,
+    "units": [
+      "u0005"
+    ]
+  }
+]

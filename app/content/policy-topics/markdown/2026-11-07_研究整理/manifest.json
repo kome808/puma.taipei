@@ -1,0 +1,2892 @@
+{
+  "type": "internal_research_markdown",
+  "generated_at": "2026-11-07T13:55:31+08:00",
+  "source_snapshot_date": "2026-11-07",
+  "publication_status": "not_published",
+  "input": {
+    "path": "app/content/policy-topics/expanded-topics.json",
+    "sha256": "917336cbfe932dd3f3b7ef1ff409b07dd83e5fb8c9772cc40d038c333923d12c"
+  },
+  "files": [
+    {
+      "path": "來源文字/main/d0001.md",
+      "sha256": "14ea1215728c4cdfc023be76cf8186886c76fd593f4825625c9fb15fab71c73d",
+      "bytes": 9326
+    },
+    {
+      "path": "來源文字/main/d0002.md",
+      "sha256": "4c5c1a66c28471bb90f319fd2e198663bd9a91dde9c50522797732c24facd676",
+      "bytes": 10019
+    },
+    {
+      "path": "來源文字/main/d0003.md",
+      "sha256": "448df6645f1a9480e32130c25af5f7589d182f1524242524e4da289448b0fea6",
+      "bytes": 8228
+    },
+    {
+      "path": "來源文字/main/d0004.md",
+      "sha256": "f1c063bfb57bf558996310445757763b7df05cc9aa3d96eb8bd4657eb4a81437",
+      "bytes": 7759
+    },
+    {
+      "path": "來源文字/main/d0005.md",
+      "sha256": "ab90d65ee4a08993f9c816236fdfdbf83da18f1205ad66d06fd20b3b52c49cde",
+      "bytes": 9019
+    },
+    {
+      "path": "來源文字/main/d0006.md",
+      "sha256": "9b6a3f7f915cd2ef55be6c6c3e1c9cd0b38e56f90c4ee5bf35787ebd77e114a8",
+      "bytes": 8935
+    },
+    {
+      "path": "來源文字/main/d0007.md",
+      "sha256": "92c790709569fd21f1e3fd08ecbcec535deb662ac99075030113c6e4a61cce59",
+      "bytes": 7634
+    },
+    {
+      "path": "來源文字/main/d0008.md",
+      "sha256": "0dc0144f86c5c4601d1aca101a3042e6426a8850d6dfa247c8a86124bb9ded96",
+      "bytes": 8991
+    },
+    {
+      "path": "來源文字/main/d0009.md",
+      "sha256": "1ee019df5aa25f5158bc2bc2f4b939f745d74d2e2945b1b84f9a3b90f5f7174f",
+      "bytes": 7576
+    },
+    {
+      "path": "來源文字/main/d0010.md",
+      "sha256": "1857f6bb09489ed984690766e518ce60580569572330c6d27ec55b62e8b5f9cd",
+      "bytes": 5791
+    },
+    {
+      "path": "來源文字/main/d0011.md",
+      "sha256": "8ac0c13b53284283c78536cd4f3d4502007cba021aa181754bbfa7bf31ffface",
+      "bytes": 8593
+    },
+    {
+      "path": "來源文字/main/d0012.md",
+      "sha256": "11cc18653bbb13480a87bfd34750521efe88e4624ce70810df4e6d17ded6a8f6",
+      "bytes": 6316
+    },
+    {
+      "path": "來源文字/main/d0013.md",
+      "sha256": "a42e5bb88d639a38287d707b2c9a6a9461d1b1021efc633a6b43d5a74943dd58",
+      "bytes": 10864
+    },
+    {
+      "path": "來源文字/main/d0014.md",
+      "sha256": "447fec11433dcdc0f981d8e86364dead6160630f41646acb262bd5c96228c043",
+      "bytes": 7587
+    },
+    {
+      "path": "來源文字/main/d0015.md",
+      "sha256": "f964807f0a0db475d0c3bffcd23aec689ecad881dfedb0d4a6a713693b6ef3c3",
+      "bytes": 7460
+    },
+    {
+      "path": "來源文字/main/d0016.md",
+      "sha256": "6564a77cf698c8a07e20a375171e139c696eba968ad7fda02f8a5ae489ffcbb6",
+      "bytes": 6330
+    },
+    {
+      "path": "來源文字/main/d0017.md",
+      "sha256": "31ed0c160090e9345403e504a9f4fc41b708e5d2ff00a7919531b41dc76d3971",
+      "bytes": 11477
+    },
+    {
+      "path": "來源文字/main/d0018.md",
+      "sha256": "c9148eca847d48e9888cb05e378ebd6b0f06a6f4085306602f1da68bbe6107c9",
+      "bytes": 1019
+    },
+    {
+      "path": "來源文字/main/d0019.md",
+      "sha256": "fb251699e46242eae61579fe40b13ed0101f79754aef537627805b708001e17e",
+      "bytes": 33396
+    },
+    {
+      "path": "來源文字/main/d0020.md",
+      "sha256": "779d8f9e2048758f2139ed83639c4a417b12a19dc50c51599bde786205b2a463",
+      "bytes": 3721
+    },
+    {
+      "path": "來源文字/main/d0021.md",
+      "sha256": "d582101aac17ffca56a5d0f33542eaedf01df69507e6aab821d1d6668d950001",
+      "bytes": 4080
+    },
+    {
+      "path": "來源文字/main/d0022.md",
+      "sha256": "69ccdba8298438a0c55f26712c4560f00561f82d7a44445c77a599c4fb85f314",
+      "bytes": 5043
+    },
+    {
+      "path": "來源文字/main/d0023.md",
+      "sha256": "cedfaca755adfc012c2f63770a015797fd9f00ca7059eb0bdf0d2783957d45a6",
+      "bytes": 4039
+    },
+    {
+      "path": "來源文字/main/d0024.md",
+      "sha256": "db8eb8ef414f583d249c6d05bca3b229f6ba4c98f8519bd19d66b5621797d801",
+      "bytes": 4481
+    },
+    {
+      "path": "來源文字/main/d0025.md",
+      "sha256": "28b5731f93e6c2ed8f598877e6a4339bc61518966351090e2e75025856e65f13",
+      "bytes": 33673
+    },
+    {
+      "path": "來源文字/main/d0026.md",
+      "sha256": "628e1299d578a3cfc18730defe630cfc4a42efd82c4ae6db16543b67d421e060",
+      "bytes": 35815
+    },
+    {
+      "path": "來源文字/main/d0027.md",
+      "sha256": "f901c99a35cd5d0d71db8440da98b32e5c743ee0949c7dacdb905b576077cdbd",
+      "bytes": 17931
+    },
+    {
+      "path": "來源文字/main/d0028.md",
+      "sha256": "1c1e315293c91497cda4aee58645aea5ccb71df0d00fe53382de91f999dec423",
+      "bytes": 14928
+    },
+    {
+      "path": "來源文字/main/d0029.md",
+      "sha256": "87a6f2d3515a261185f9db725c5d516b27013f6e3bf082b6265b092b06cca20f",
+      "bytes": 17028
+    },
+    {
+      "path": "來源文字/main/d0030.md",
+      "sha256": "28cb46611835c3f36fb3bdc4816748f494b63ac59b47057e1c9d9c5228d9525c",
+      "bytes": 13746
+    },
+    {
+      "path": "來源文字/main/d0031.md",
+      "sha256": "f4d3bcd2a26b9b11cf4b504ff66e26f808c298aef9830c65f829c35e86c4d614",
+      "bytes": 43634
+    },
+    {
+      "path": "來源文字/main/d0032.md",
+      "sha256": "c44776cb48f0bdb3b78ee46959e6206429c8a5fadf36e5c8391b9f5e6097e7f8",
+      "bytes": 26118
+    },
+    {
+      "path": "來源文字/main/d0033.md",
+      "sha256": "9fc80b73176048d81b234261432790ca365062e9f8e90f5c6d82520429ff7dc3",
+      "bytes": 24511
+    },
+    {
+      "path": "來源文字/main/d0034.md",
+      "sha256": "e7604100a44251374e8390c3d685fcec0edd4ba207d343e854ee1b8f0a1ad0bc",
+      "bytes": 37941
+    },
+    {
+      "path": "來源文字/main/d0035.md",
+      "sha256": "1635fb40dd8770c83826f7961deafa4d7bef4d0245b4309d60c448ec5600c74a",
+      "bytes": 35974
+    },
+    {
+      "path": "來源文字/main/d0036.md",
+      "sha256": "4a694bd4103d52fe01ec1b0b333724468d05a019307f005cbd7f1982c9d25d0f",
+      "bytes": 52798
+    },
+    {
+      "path": "來源文字/main/d0037.md",
+      "sha256": "1fe004b69a3ed12077667ceca6bbaadea8d15af8b41ad49391cae1c0b688a158",
+      "bytes": 48464
+    },
+    {
+      "path": "來源文字/main/d0038.md",
+      "sha256": "99d78446e41d8a0ac57a4442bf1eb2d73c2687ce9745cd2c4c90270241265cdb",
+      "bytes": 26344
+    },
+    {
+      "path": "來源文字/main/d0039.md",
+      "sha256": "58b0772520f923ec87d2af629dbbd30ad36ab01de8c9218e581cd8cad9e12cd6",
+      "bytes": 21955
+    },
+    {
+      "path": "來源文字/main/d0040.md",
+      "sha256": "7784cb13ab9ed8c1b2404cf46231823ba697d1bfb085461b1f60a2774b6d5e8e",
+      "bytes": 26833
+    },
+    {
+      "path": "來源文字/main/d0041.md",
+      "sha256": "d92333a89c1b4b103e754562dc88211de138121d2d8ba5cfb7d3a91b861554ff",
+      "bytes": 24924
+    },
+    {
+      "path": "來源文字/main/d0042.md",
+      "sha256": "8885dc35b865299b6d4760ad6d08584e703287ea1b99c09e009325000eff6acd",
+      "bytes": 74105
+    },
+    {
+      "path": "來源文字/main/d0043.md",
+      "sha256": "826c62a39455b3f70cde73a07bf414de5f0edbe16d6b77c1051876b5fbbef927",
+      "bytes": 70060
+    },
+    {
+      "path": "來源文字/main/d0044.md",
+      "sha256": "15b314602b28a43789d3b5f2e179339407ad0244fa9b09c902f92a6726d3e800",
+      "bytes": 73438
+    },
+    {
+      "path": "來源文字/main/d0045.md",
+      "sha256": "7726ef5688dc16c76bec0136eec07c12f5397a3a8bf71631680ec310d28ea0d4",
+      "bytes": 70162
+    },
+    {
+      "path": "來源文字/main/d0046.md",
+      "sha256": "acf2037f8a7a4ebd919af37307b3298ff424ac5fff55621c017c821ab933a227",
+      "bytes": 75325
+    },
+    {
+      "path": "來源文字/main/d0047.md",
+      "sha256": "e58643f9886e833d56f35817bbf9a7439aa3939d2b29c69255a2a2a75fd2138b",
+      "bytes": 71654
+    },
+    {
+      "path": "來源文字/main/d0048.md",
+      "sha256": "dbffd2508132d91b797752cc8422886cfb711e14c2f6703c36e6a135e9c31f82",
+      "bytes": 39032
+    },
+    {
+      "path": "來源文字/main/d0049.md",
+      "sha256": "aca785e22592b735a88892caf0ab67f4e9feb63be294c81b6892736a6fcc16be",
+      "bytes": 30310
+    },
+    {
+      "path": "來源文字/main/d0050.md",
+      "sha256": "3f84596f6b898b86e6af5e4900f6ce56b706a3bedeffe06aee5827fffad5a4f0",
+      "bytes": 49120
+    },
+    {
+      "path": "來源文字/main/d0051.md",
+      "sha256": "52ca99fabee16e763a75e7e487a43f690070e659609b18010c75cfe0432bd2b8",
+      "bytes": 38826
+    },
+    {
+      "path": "來源文字/main/d0052.md",
+      "sha256": "0250f935acf5b45195b0e51658a653ad49a5d0b335c59feb70674dd2de719226",
+      "bytes": 40535
+    },
+    {
+      "path": "來源文字/main/d0053.md",
+      "sha256": "48f86931f07520a9b9cf6782e913b9c6d9b2f3a3e669fe3e5e88cb286152cac6",
+      "bytes": 30498
+    },
+    {
+      "path": "來源文字/main/d0054.md",
+      "sha256": "c7c43d006ac9bacdc1c6e4a250b4afa4c8967ea381f197d8f91160e8ad006073",
+      "bytes": 33370
+    },
+    {
+      "path": "來源文字/main/d0055.md",
+      "sha256": "1abd70013d1223e4bba05b622b96a7a05212e9648b64fc90f0b4ce86f30a8924",
+      "bytes": 23324
+    },
+    {
+      "path": "來源文字/main/d0056.md",
+      "sha256": "e09879a98baeb193c19dbd931cddd3cb602ec36a4096fbff768f304db477cc63",
+      "bytes": 41132
+    },
+    {
+      "path": "來源文字/main/d0057.md",
+      "sha256": "70a731ee52f33703ca03da7167fae18f7974d7d793db4e52e8e69895929001da",
+      "bytes": 35199
+    },
+    {
+      "path": "來源文字/main/d0058.md",
+      "sha256": "9a30ac332096ad38d19e969604e8c06da5af02d28e145f737024553bbd59dd67",
+      "bytes": 22261
+    },
+    {
+      "path": "來源文字/main/d0059.md",
+      "sha256": "f7e1827b2b6fb5d4faba9f51cbcf590891d937e23af7201d2596ae0524af61ea",
+      "bytes": 17003
+    },
+    {
+      "path": "來源文字/main/d0060.md",
+      "sha256": "c3273756b5e19cb07d4f45797f1988786e96a714db2cdd6b7e8a954c686f5b19",
+      "bytes": 40401
+    },
+    {
+      "path": "來源文字/main/d0061.md",
+      "sha256": "763bd0c5a7d9a28746b2fc53dbc61f6ecface06fb8c43547edf2687c7c80d047",
+      "bytes": 34034
+    },
+    {
+      "path": "來源文字/main/d0062.md",
+      "sha256": "57ab04a378b36088eea1945266cdd93bee5ad477bde17eee998b8c4e2290af9f",
+      "bytes": 87625
+    },
+    {
+      "path": "來源文字/main/d0063.md",
+      "sha256": "bb0e9506139b0892e18fd2cbcafd0dcc2e45e2910836aad9d4111cb2057334b0",
+      "bytes": 78766
+    },
+    {
+      "path": "來源文字/main/d0064.md",
+      "sha256": "83a8f64c6fd290ec1b5fc4a6d452c595c1d49839d29fb8929e943f9f22ff69e6",
+      "bytes": 22850
+    },
+    {
+      "path": "來源文字/main/d0065.md",
+      "sha256": "e17c94947f728d021bc0db2c72c4219affff05c5d2af5168ff5e4c5fda12d666",
+      "bytes": 18018
+    },
+    {
+      "path": "來源文字/main/d0066.md",
+      "sha256": "f236761b71eba17bee13f17924c33e5f4441174ecd3a925f70a935020b05eef3",
+      "bytes": 33059
+    },
+    {
+      "path": "來源文字/main/d0067.md",
+      "sha256": "357bba508559c0b5b6949eb641d1ae7ca90b7bef88de16460c3b38638b8ba644",
+      "bytes": 26891
+    },
+    {
+      "path": "來源文字/main/d0068.md",
+      "sha256": "577d15dbd6bc6cf4ba7cf49cc9345c27350692cd6a4959bc167acbaf8860bfa5",
+      "bytes": 20287
+    },
+    {
+      "path": "來源文字/main/d0069.md",
+      "sha256": "a6063ff79698b267f5711078806c77e16cb21184a7fc2c379881a5fae6f5d90b",
+      "bytes": 14203
+    },
+    {
+      "path": "來源文字/main/d0070.md",
+      "sha256": "def0b2223066b47bd077dcf19bc578270c3d0c7c917e4602fcce2ff7100695fc",
+      "bytes": 23544
+    },
+    {
+      "path": "來源文字/main/d0071.md",
+      "sha256": "96d2fcf46990da985bd09b407d15dcb935500cf788f81688d88e0f1cd183a9ee",
+      "bytes": 17425
+    },
+    {
+      "path": "來源文字/main/d0072.md",
+      "sha256": "a1f857d182dec320c120eb2fefb44e05e7e8e24ab13085089dc65554da9d2ef5",
+      "bytes": 84859
+    },
+    {
+      "path": "來源文字/main/d0073.md",
+      "sha256": "3f42253e11211e5f9abd0c0473ec1cddd33560c6198bf083466c0cb1c236dbca",
+      "bytes": 74593
+    },
+    {
+      "path": "來源文字/main/d0074.md",
+      "sha256": "6ff04c99e5101a019a11bc3e7b5d49a18d2b01c3b79ba21ae1566f1959d282f4",
+      "bytes": 67785
+    },
+    {
+      "path": "來源文字/main/d0075.md",
+      "sha256": "89a6c695ccf1d9273eec2ec2478ed2ee4404dbeb6bbaf86bdeb08e93a0e38a52",
+      "bytes": 55989
+    },
+    {
+      "path": "來源文字/main/d0076.md",
+      "sha256": "23c070ead9c658f8c50f26e5fcaf59441549f9ca415aabb8197846f097f49ab5",
+      "bytes": 86036
+    },
+    {
+      "path": "來源文字/main/d0077.md",
+      "sha256": "4bc80eafc96defb60b063786dcb1ef2463a7cbd4447a755ff3186e6b5ee066ca",
+      "bytes": 71535
+    },
+    {
+      "path": "來源文字/main/d0078.md",
+      "sha256": "7d6352c4dcac1e0f08af0302328d5a36f677b50f3e1247539e710c3243655352",
+      "bytes": 65255
+    },
+    {
+      "path": "來源文字/main/d0079.md",
+      "sha256": "3576a297f8cea3a54c0a45647f916eeabd9e11088f3530338dcc6622ecf88f68",
+      "bytes": 34773
+    },
+    {
+      "path": "來源文字/main/d0080.md",
+      "sha256": "4568b42b68b7adf2bc7b212cba87c2ffc56727461fc04b77534876486c7c3e8e",
+      "bytes": 18697
+    },
+    {
+      "path": "來源文字/main/d0081.md",
+      "sha256": "8cd7929a4e8c9874cf445ce744dba67ac78ced16a6f78c1fda604422ede2c4ac",
+      "bytes": 37459
+    },
+    {
+      "path": "來源文字/main/d0082.md",
+      "sha256": "be060b8f584aaaceea0e513312d79e9b41b39a105f1025fc94af7233d06e18d9",
+      "bytes": 36447
+    },
+    {
+      "path": "來源文字/main/d0083.md",
+      "sha256": "2ce132d6e4145e19bcf9f4b85b4f2d33df8341e1c6f889dea225a316d7ea6673",
+      "bytes": 28462
+    },
+    {
+      "path": "來源文字/main/d0084.md",
+      "sha256": "3e6c0cc02678046b7d1c05eaca900640f8e77891534723200a11a11d90cce30d",
+      "bytes": 19116
+    },
+    {
+      "path": "來源文字/main/d0085.md",
+      "sha256": "2ccf895f9e2dcb5aae82c662d06015c1ab6145f2d8ed39acf8851849ec161370",
+      "bytes": 18611
+    },
+    {
+      "path": "來源文字/main/d0086.md",
+      "sha256": "4693eb8794f46938f4bdb89fec32fedfa1e6e3f9ec75a099169da6f114f77909",
+      "bytes": 21293
+    },
+    {
+      "path": "來源文字/main/d0087.md",
+      "sha256": "d5dd444c6fdc18bbc2c1d793a7451a4e92a9ed0adca2b5fb82954cdab2e48aab",
+      "bytes": 22613
+    },
+    {
+      "path": "來源文字/main/d0088.md",
+      "sha256": "270f9663b909dfca7d4665665107caa501ff2a2ad01af67c6a961ddb5e08904e",
+      "bytes": 16615
+    },
+    {
+      "path": "來源文字/main/d0089.md",
+      "sha256": "57948b71010bf918ad3b9dac937883870ca0621cd81d9c74290d90c3b07f4a93",
+      "bytes": 22130
+    },
+    {
+      "path": "來源文字/main/d0090.md",
+      "sha256": "91ea19f3964290be4984ed99d32ba0ab9369345cad5564419fee061025b5790b",
+      "bytes": 14887
+    },
+    {
+      "path": "來源文字/main/d0091.md",
+      "sha256": "1f706e8b5e7702777845e2924f37fecf66766be8e8ba58453dad8a7150873797",
+      "bytes": 7304
+    },
+    {
+      "path": "來源文字/main/d0092.md",
+      "sha256": "85948e4788b42c0951ed229496dc53ecac1a2263696287bc099df752dfe484ad",
+      "bytes": 17980
+    },
+    {
+      "path": "來源文字/main/d0093.md",
+      "sha256": "c94cb6ffc575e3e30203b08e4f3f9664c4597f700069b0ba5720f47591b728f8",
+      "bytes": 12776
+    },
+    {
+      "path": "來源文字/main/d0094.md",
+      "sha256": "97551a7317325a4f14e5bc3e24323b8add2e3e2cf1cb9f75d3c36468ca73d654",
+      "bytes": 15398
+    },
+    {
+      "path": "來源文字/main/d0095.md",
+      "sha256": "89ffab4a45b3192282132f82a2e34a1cb088a6bd5f0916e70673d39ace6fba76",
+      "bytes": 11237
+    },
+    {
+      "path": "來源文字/main/d0096.md",
+      "sha256": "4a6c27b0b8d4ec2b31b339479a0c43441c3742c36a78be1ee107d092ef1b2759",
+      "bytes": 12852
+    },
+    {
+      "path": "來源文字/main/d0097.md",
+      "sha256": "55f89df6dfb52133c20e4d861622f7018fa84e679dc43eafb42745762abc40e9",
+      "bytes": 15259
+    },
+    {
+      "path": "來源文字/main/d0098.md",
+      "sha256": "4fe2e8815bb93b2f60d809e5e069bda1497e96e6e1983ac15868fe5828fefb68",
+      "bytes": 19467
+    },
+    {
+      "path": "來源文字/main/d0099.md",
+      "sha256": "07de4fdd5946a6f2dad46680e855b2ff02ed7020a072354c40a85c2d1c9ed092",
+      "bytes": 19471
+    },
+    {
+      "path": "來源文字/main/d0100.md",
+      "sha256": "61c429c147d7ecd09b21dae43492fa549d7bf7bab828845ac98abc2fb87cc5a5",
+      "bytes": 15155
+    },
+    {
+      "path": "來源文字/main/d0101.md",
+      "sha256": "f7a37b9a05874caebf42b3bec996b64483c19b88c83f1406bd0fab9685763b1e",
+      "bytes": 11400
+    },
+    {
+      "path": "來源文字/main/d0102.md",
+      "sha256": "76206f67dd282d8277904787f768683ba3bdf6fcfda506c0833c87a0572434d1",
+      "bytes": 14240
+    },
+    {
+      "path": "來源文字/main/d0103.md",
+      "sha256": "0e54c136dc5fe05d5bdd8c6b0527890e416ebc7032b4aeb810acc49f4034723c",
+      "bytes": 20803
+    },
+    {
+      "path": "來源文字/main/d0104.md",
+      "sha256": "d819b33b7e7b94e87f14f76c1923e1bf3ea86ed3f8f65843787776cccf22fc31",
+      "bytes": 20750
+    },
+    {
+      "path": "來源文字/main/d0105.md",
+      "sha256": "42340994cf7708972f21309df7115e4c2d94706be20f87d8ce7a704ed2b43bc7",
+      "bytes": 9236
+    },
+    {
+      "path": "來源文字/main/d0106.md",
+      "sha256": "386cacdf1a6859da8705cd194273821c7149a32847782f09b53167d09882e35a",
+      "bytes": 22835
+    },
+    {
+      "path": "來源文字/main/d0107.md",
+      "sha256": "0207558f2e22ce0fc888cadefd250568ca1e6c5cb6aa5cb0dc24e58b4a3581d1",
+      "bytes": 48682
+    },
+    {
+      "path": "來源文字/main/d0108.md",
+      "sha256": "4bf13682b569515b61065a8a9e4c1c0868b54e63f95b89ec13ee6a360ef09942",
+      "bytes": 46348
+    },
+    {
+      "path": "來源文字/main/d0109.md",
+      "sha256": "0e43955a43fd1d84a863e2d710e091849993c607c17739c7ece5261ddb034e93",
+      "bytes": 12757
+    },
+    {
+      "path": "來源文字/main/d0110.md",
+      "sha256": "e36c9194ec13b52ecb8c8c803c9632ae707d0d1b482199949a1481144bf090ff",
+      "bytes": 10103
+    },
+    {
+      "path": "來源文字/main/d0111.md",
+      "sha256": "e6670a52681661a6431b4022a804bad7853fce9f796883e9c72ef1085dbe7768",
+      "bytes": 11681
+    },
+    {
+      "path": "來源文字/main/d0112.md",
+      "sha256": "425c0229a601e50e5e6bf2aefd2d3713cf8c7e2520ca1951930642fac678123e",
+      "bytes": 10012
+    },
+    {
+      "path": "來源文字/main/d0113.md",
+      "sha256": "14d38bfc57e98e1e0808b04cc98f8b76a6cab9d93bf169f3aa6b264174375edc",
+      "bytes": 42612
+    },
+    {
+      "path": "來源文字/main/d0114.md",
+      "sha256": "74b66741b98fc0f61b9e068a3b423f2522fd392b9fef7ee42497cb363f305a32",
+      "bytes": 38137
+    },
+    {
+      "path": "來源文字/main/d0115.md",
+      "sha256": "b44179f3d8cfb73f786bb1805a60dbe8c35c9c9483d23ca52281068a1fdd11c7",
+      "bytes": 43730
+    },
+    {
+      "path": "來源文字/main/d0116.md",
+      "sha256": "ef36b592b65d9bcd8653dfc9632f4a795bb3510ec04602f0b902a322f00756e4",
+      "bytes": 39571
+    },
+    {
+      "path": "來源文字/main/d0117.md",
+      "sha256": "7e2e39d60d9babd0ee315ffbd80ed7a66fdd1afb0c637ea89e10a9bfacee10c5",
+      "bytes": 16847
+    },
+    {
+      "path": "來源文字/main/d0118.md",
+      "sha256": "b9d5321b53dbece3c26271dcd41814e773ea1a684b57fd6b1d19503390ea05dc",
+      "bytes": 10462
+    },
+    {
+      "path": "來源文字/main/d0119.md",
+      "sha256": "74f5d659160bdacb071fb176e8f36aca248026f9072fe2e76731d23812c2462d",
+      "bytes": 31987
+    },
+    {
+      "path": "來源文字/main/d0120.md",
+      "sha256": "86d4047f5773d091aa9ad17c241c7a779f7003649db988ae8bf32b64e5fcc64e",
+      "bytes": 21957
+    },
+    {
+      "path": "來源文字/main/d0121.md",
+      "sha256": "7af260b383b1311929c74c01b23a9a3b74b554e9c6d39d963067eff2a6237e30",
+      "bytes": 24552
+    },
+    {
+      "path": "來源文字/main/d0122.md",
+      "sha256": "c32ec529c17b76fc89b123ab2783e13ecbf7319c01591b8e6b8e40a27e48f45c",
+      "bytes": 14504
+    },
+    {
+      "path": "來源文字/main/d0123.md",
+      "sha256": "b1a5c793a0d295f6846666e6a76416a626996c393ebe5642cfdc67128ac4de69",
+      "bytes": 36945
+    },
+    {
+      "path": "來源文字/main/d0124.md",
+      "sha256": "61bf607133b56765734d420dc4530f71c47032f3b07b3bd7c4a4d73f5d44fd19",
+      "bytes": 28619
+    },
+    {
+      "path": "來源文字/main/d0125.md",
+      "sha256": "9bc0cff471fdca45eb3b7b3ad16c759c379415b3ed73b9593c4b41b0f129ce1e",
+      "bytes": 31606
+    },
+    {
+      "path": "來源文字/main/d0126.md",
+      "sha256": "4a21da8416ca2acbe833b962670e0048f1a6e0a46001b120818aefed69496182",
+      "bytes": 25014
+    },
+    {
+      "path": "來源文字/main/d0127.md",
+      "sha256": "cdb99f4db69a9487742fd8a0f2adaf6cccb7d6fd4f626314848c8e1db6b7afe6",
+      "bytes": 4976
+    },
+    {
+      "path": "來源文字/main/d0128.md",
+      "sha256": "5b14f94eaf640d85c57de9f031e230b9cf295e1f9b8ad0c5f0db6ed3670f1ee9",
+      "bytes": 29975
+    },
+    {
+      "path": "來源文字/main/d0129.md",
+      "sha256": "5a881115dbef09e902b18f666ffc462daeaa2e3624f616627f149380b9b2b98f",
+      "bytes": 12846
+    },
+    {
+      "path": "來源文字/main/d0130.md",
+      "sha256": "5b25fec27a8f621c455b02634ea814b175b22644cdbb88744012c3b50beaa59b",
+      "bytes": 18602
+    },
+    {
+      "path": "來源文字/main/d0131.md",
+      "sha256": "9fee422ad2a662ffda133f54daba1030f4d97b91fec64e3fae416b7196fe1ec4",
+      "bytes": 23514
+    },
+    {
+      "path": "來源文字/main/d0132.md",
+      "sha256": "7c7c4a4a907e52a61520d4c2c5fd23f94d2f4af69c5de4bb6424647b6ff61610",
+      "bytes": 18853
+    },
+    {
+      "path": "來源文字/main/d0133.md",
+      "sha256": "e08e16f511ff0c17711fc54188edf560e7d59af9ea7060e70391dc7688ad64af",
+      "bytes": 19111
+    },
+    {
+      "path": "來源文字/main/d0134.md",
+      "sha256": "6c1f574aa2e55e44560aca22a9d53874c8f70f78f708c6c34ce6d57eded95a50",
+      "bytes": 21675
+    },
+    {
+      "path": "來源文字/main/d0135.md",
+      "sha256": "973521f23c916b390aeae0e12e6e7094ce50e4497c03156c6400978153b56637",
+      "bytes": 18282
+    },
+    {
+      "path": "來源文字/main/d0136.md",
+      "sha256": "e35485ee950b24075a286ca752177143b9caa8e345a672c7a06a4be2e16151d9",
+      "bytes": 28285
+    },
+    {
+      "path": "來源文字/main/d0137.md",
+      "sha256": "c1f6c47878acd5e1a80a11f734190c86d12a86799d26aa92d2c4fd42958b9aca",
+      "bytes": 22248
+    },
+    {
+      "path": "來源文字/main/d0138.md",
+      "sha256": "ac3179e334e47c70792789dd654b38aaa3f8b3d27065f9db093adec58e973146",
+      "bytes": 4377
+    },
+    {
+      "path": "來源文字/main/d0139.md",
+      "sha256": "21cdd956ceb1cb7b03fc4bccd1abd9c5f7fece96b7610df899c4c69a12a301f8",
+      "bytes": 15265
+    },
+    {
+      "path": "來源文字/main/d0140.md",
+      "sha256": "f9fc18c318239418fa248c874c4199a2ebcd5ebf1c5e6d35fe2658bc4791b54d",
+      "bytes": 40537
+    },
+    {
+      "path": "來源文字/main/d0141.md",
+      "sha256": "04b76dc4d8a4e7c349275220d71d9e2ad5fc6056d3d78355af1156c5a08002ff",
+      "bytes": 4230
+    },
+    {
+      "path": "來源文字/main/d0142.md",
+      "sha256": "92ee3b94fce7a6eeeb69412e8369e792a6e13dcc6b31514baaa6013de42f8fb9",
+      "bytes": 13075
+    },
+    {
+      "path": "來源文字/main/d0143.md",
+      "sha256": "15b7f407982e28bd4c6316684738aceef7fcecc5d6faaa14aa9996642ebb0db0",
+      "bytes": 4366
+    },
+    {
+      "path": "來源文字/main/d0144.md",
+      "sha256": "bab6be9373a2382a4b17c94043aa7126fe109019e4f28f8b2d40fa2649d60cda",
+      "bytes": 40910
+    },
+    {
+      "path": "來源文字/main/d0145.md",
+      "sha256": "14d3840392e07620620dc72e123420c06a7dc181a9676991e255fb9ef0b8ae5f",
+      "bytes": 2672
+    },
+    {
+      "path": "來源文字/main/d0146.md",
+      "sha256": "06f2ca05b7055ed1e99a920c90e9c1e324ed0b29079f297f15314401f8ea86ab",
+      "bytes": 26877
+    },
+    {
+      "path": "來源文字/main/d0147.md",
+      "sha256": "59355d371944a67b365ad556275c8ffdea86e4a945d751079ad9b63c4a925f93",
+      "bytes": 3159
+    },
+    {
+      "path": "來源文字/main/d0148.md",
+      "sha256": "0b964a9f58810dc6fdd7457cde38b164775f3e0a02315530e1b8bbdf0c04f755",
+      "bytes": 36217
+    },
+    {
+      "path": "來源文字/main/d0149.md",
+      "sha256": "337de48532d67f0b3e4312f1bdc0eb75dc60aa493650bd8c1747a01c7df93e8b",
+      "bytes": 5594
+    },
+    {
+      "path": "來源文字/main/d0150.md",
+      "sha256": "7ab4fbdc72611c0f1d372f770e9c802d14c085b1439f09f00b0f2b20c8ebd61f",
+      "bytes": 48538
+    },
+    {
+      "path": "來源文字/main/d0151.md",
+      "sha256": "59d7e0f258ea5e79e1130df2a64f35ccec6e9107c558b6c8363917e6c2180476",
+      "bytes": 5621
+    },
+    {
+      "path": "來源文字/main/d0152.md",
+      "sha256": "3c13e29d0c03d726d6599ad05dce83b522587b84593905298357cc09e6c1d6ff",
+      "bytes": 21454
+    },
+    {
+      "path": "來源文字/main/d0153.md",
+      "sha256": "1bb2deaa98e3d327e0b4d40cec68c663fbd3caf193257ba460af15ece9faff99",
+      "bytes": 2950
+    },
+    {
+      "path": "來源文字/main/d0154.md",
+      "sha256": "1d3891ef83f70b77216abd1a88727dc99b7f15b82c9391723e2c0178358af8bd",
+      "bytes": 26311
+    },
+    {
+      "path": "來源文字/main/d0155.md",
+      "sha256": "14a7fed68cdd772fa10f2b4313e93d4a8951276717a074af0c247383069999bd",
+      "bytes": 5031
+    },
+    {
+      "path": "來源文字/main/d0156.md",
+      "sha256": "f84abf93edf4d1c6cc38627b0d382209ac87c6d15b1debbb4f75631fc248d534",
+      "bytes": 59622
+    },
+    {
+      "path": "來源文字/main/d0157.md",
+      "sha256": "bb61bced8e32c3aabec935ae5feaf1694ee270c7f1a605476ae4d90614188160",
+      "bytes": 61186
+    },
+    {
+      "path": "來源文字/main/d0158.md",
+      "sha256": "e9ccb07901d56b0f865039591cdf098502632c82a8f13335e8bb04b428471555",
+      "bytes": 4422
+    },
+    {
+      "path": "來源文字/main/d0159.md",
+      "sha256": "318a2f73cb08c3e0e1b2769357806c63d2c000991ac5a9bb9c35ddbc2c636927",
+      "bytes": 68269
+    },
+    {
+      "path": "來源文字/main/d0160.md",
+      "sha256": "73b1576bc1592b9f1057196f73c873061b76085dac34616a332e5b2a4cafa41a",
+      "bytes": 4908
+    },
+    {
+      "path": "來源文字/main/d0161.md",
+      "sha256": "18e237c7d5a0db4082b5e7d495b3b69fd5ee815f0a52d5c3c9334a4f7f38293b",
+      "bytes": 70876
+    },
+    {
+      "path": "來源文字/main/d0162.md",
+      "sha256": "a290155976c5457c84adc75671353519b4867b5d9afc49d7b6ba22c79f334361",
+      "bytes": 10392
+    },
+    {
+      "path": "來源文字/main/d0163.md",
+      "sha256": "bc3de55dc4909c73b0330c34212206bd1d6f170b3eee322e053008a677c20ae3",
+      "bytes": 45719
+    },
+    {
+      "path": "來源文字/main/d0164.md",
+      "sha256": "226c9d9390a7e80860d16612394ca16ba0c97c175e8d5d04e01a17983dcd21fc",
+      "bytes": 12534
+    },
+    {
+      "path": "來源文字/main/d0165.md",
+      "sha256": "0e528d0a40a0036d901eda23dbb05178c4b69ff0c5758a90195a1610acac5e56",
+      "bytes": 75195
+    },
+    {
+      "path": "來源文字/main/d0166.md",
+      "sha256": "5f034839289f0629cc220c6564fda520b4a6c6b98bceaf811f27e5bcbc0f4143",
+      "bytes": 9638
+    },
+    {
+      "path": "來源文字/main/d0167.md",
+      "sha256": "2ce2d23dd1011d203e8cc950402c0c7bb0a529ee957e23dc230b9b37058842d6",
+      "bytes": 86823
+    },
+    {
+      "path": "來源文字/main/d0168.md",
+      "sha256": "ec491175284ae98beea0f7430cfd913a4fc3b97fc1c169b525140d2aa76f043d",
+      "bytes": 9664
+    },
+    {
+      "path": "來源文字/main/d0169.md",
+      "sha256": "7d8a28c9893bd26800938525d2b026454a2792ef082faf0d264554dc2e9adb4d",
+      "bytes": 63083
+    },
+    {
+      "path": "來源文字/main/d0170.md",
+      "sha256": "af2d18796c8658f31db0085aefa35c7022f7c739f4facfcbc181bf1a91ae8b38",
+      "bytes": 7388
+    },
+    {
+      "path": "來源文字/main/d0171.md",
+      "sha256": "b9a7a660e1362b7eed54b5170e0f380f1fc3beb6c9e442022f627726ead8e608",
+      "bytes": 28625
+    },
+    {
+      "path": "來源文字/main/d0172.md",
+      "sha256": "5acd227bdf42fd88b3063491d8400a614eccda51f98c7ac2e4612df3264a7723",
+      "bytes": 6886
+    },
+    {
+      "path": "來源文字/main/d0173.md",
+      "sha256": "5b0d5f6cca3fe8e05725b422c55d8043364ef910dd116dc96bb4a92e06b090aa",
+      "bytes": 17356
+    },
+    {
+      "path": "來源文字/main/d0174.md",
+      "sha256": "0262dcf4aa26d2a31fa398b8ca81f0f0fc134d610077c42b594e1716dda52511",
+      "bytes": 8009
+    },
+    {
+      "path": "來源文字/main/d0175.md",
+      "sha256": "7975f4e8cb779960b62073bb1643cec2f01b36da0e8c8781a2bedfb555b3f41b",
+      "bytes": 31088
+    },
+    {
+      "path": "來源文字/main/d0176.md",
+      "sha256": "4e4eb01f143cd2c75eb3aa6526a8fa0a67b4177a8d6688f1f3b0e8bdce2f8d5e",
+      "bytes": 10420
+    },
+    {
+      "path": "來源文字/main/d0177.md",
+      "sha256": "bc4cc47265477d5b0c54cdf892cd3ed41f07f7a2bfbf78ee9f24f95547b8b0b5",
+      "bytes": 74230
+    },
+    {
+      "path": "來源文字/main/d0178.md",
+      "sha256": "67f0eb7bd019a6194dcc867edf3a8fad4ac81ea0e5d60b0f463f9f975ec85431",
+      "bytes": 6370
+    },
+    {
+      "path": "來源文字/main/d0179.md",
+      "sha256": "23c415a5794c1a9de23218143d54b10aa67405bfcbb964f1d1056c810010c4be",
+      "bytes": 17156
+    },
+    {
+      "path": "來源文字/main/d0180.md",
+      "sha256": "57e5bac2dfde1c6b9583ae31df1512aeca18e31aa9056b9df647a157c901a84b",
+      "bytes": 7695
+    },
+    {
+      "path": "來源文字/main/d0181.md",
+      "sha256": "6bfc480771d9396e3d2971b230eaf265c0737bed84f6f3d175a9c8beeef13860",
+      "bytes": 28699
+    },
+    {
+      "path": "來源文字/main/d0182.md",
+      "sha256": "d94e4a4bf9436ea902079cd7d39858bf96a9820b3a673c76245da2e87fb24050",
+      "bytes": 7464
+    },
+    {
+      "path": "來源文字/main/d0183.md",
+      "sha256": "522b097b6023798f73864c3b73c26e09b171177aaf7713b28e91f63ae0aeb8b3",
+      "bytes": 15689
+    },
+    {
+      "path": "來源文字/main/d0184.md",
+      "sha256": "d779cf260b6ef58577819635a6e2056f060eceaeae16fece0ff524d2f3f8c6cc",
+      "bytes": 7540
+    },
+    {
+      "path": "來源文字/main/d0185.md",
+      "sha256": "178d6636f5af8a4700e3397c811ffa4326c7f2c4aff7995fa943f218f5db313e",
+      "bytes": 14570
+    },
+    {
+      "path": "來源文字/main/d0186.md",
+      "sha256": "54622aeb30a80a3bd34f53625207c8a154d94bc8e4780b6279b205dbfc9eb33b",
+      "bytes": 12441
+    },
+    {
+      "path": "來源文字/main/d0187.md",
+      "sha256": "a66b1f78d9851b6feb74574aa9ed248d6f80311a11b042caf7c4486b87a9bd9c",
+      "bytes": 72532
+    },
+    {
+      "path": "來源文字/main/d0188.md",
+      "sha256": "e11cce5f3cdfcfa59bfe2d8234724392a7af999f195390c99e1914a0795321e4",
+      "bytes": 13387
+    },
+    {
+      "path": "來源文字/main/d0189.md",
+      "sha256": "dd790956153a4b18a4b0a6cc0c183c38e192bddd4242140024c4e71cb5c007c7",
+      "bytes": 10112
+    },
+    {
+      "path": "來源文字/main/d0190.md",
+      "sha256": "ede6df0b79404c484b91758593b24455e7f92ebc9dcf1aa002e9fd65ab7cce92",
+      "bytes": 57174
+    },
+    {
+      "path": "來源文字/main/d0191.md",
+      "sha256": "32020aede9be30d87a049d1e1e3e2daae7f784b3484c2bc999cf0a77f69f8610",
+      "bytes": 199744
+    },
+    {
+      "path": "來源文字/main/d0192.md",
+      "sha256": "04354f53cb5e3b845effe94465aaf074a0f77742e72607c6c63a4e9b60e2e783",
+      "bytes": 16226
+    },
+    {
+      "path": "來源文字/main/d0193.md",
+      "sha256": "8a47cea2463c8527e0540ad983e8381f95c336bd105ce3b738f736ab83682355",
+      "bytes": 67134
+    },
+    {
+      "path": "來源文字/main/d0194.md",
+      "sha256": "b36ee4d63e33669d0fe857e0f2f0031280bfbd19bf9d1b0c70fa126ef11b9aca",
+      "bytes": 64607
+    },
+    {
+      "path": "來源文字/main/d0195.md",
+      "sha256": "e983863bce318af2405f04e7fd40acdd1e5d8bd1373fcc5638137d9c3d85eea2",
+      "bytes": 32080
+    },
+    {
+      "path": "來源文字/main/d0196.md",
+      "sha256": "0a3159ba024abae295bc4e3dcd6928641e18b5f2b871c12177d00ff928c640f3",
+      "bytes": 3652
+    },
+    {
+      "path": "來源文字/main/d0197.md",
+      "sha256": "f62b459e992adda6ab44b69a47aee4e947db60fbd5dfecf6ddd158f39903966d",
+      "bytes": 47407
+    },
+    {
+      "path": "來源文字/main/d0198.md",
+      "sha256": "1ab0ec35cb7b426a451fa561ffe48f40f834197000d778b7a24e595ca1cf1038",
+      "bytes": 3740
+    },
+    {
+      "path": "來源文字/main/d0199.md",
+      "sha256": "39ff1adeea4b3a27c412a4333ad4ea0cf2cb86d1c944d3ae8b2d78bfdab86903",
+      "bytes": 10958
+    },
+    {
+      "path": "來源文字/main/d0200.md",
+      "sha256": "b959bb7a98449846320683f88111faa4875ea6517729dd06ccbeb65df5275e3b",
+      "bytes": 2574
+    },
+    {
+      "path": "來源文字/main/d0201.md",
+      "sha256": "1b640f8b66fa97531aacb752f6aff0f29c7b0b46d119f868fcdb8f0053df5c79",
+      "bytes": 9831
+    },
+    {
+      "path": "來源文字/main/d0202.md",
+      "sha256": "e729e47c4f889b72df1b4bd2c9d9fed79d0f5abd799b40a49cc1f0c862ed8ccb",
+      "bytes": 5657
+    },
+    {
+      "path": "來源文字/main/d0203.md",
+      "sha256": "c9c888aba22406cc490e534ec5bbe2d5bf4dad874573bd59891ce068dca33766",
+      "bytes": 37737
+    },
+    {
+      "path": "來源文字/main/d0204.md",
+      "sha256": "a32f77b52e66dc600c96e0e31dc6d947511f79e00575cf186f831d6a36b04cc3",
+      "bytes": 5252
+    },
+    {
+      "path": "來源文字/main/d0205.md",
+      "sha256": "f19891b13f4af5dc1d60ee6bc5a922e840644905baea63e30fe8c91074ea5310",
+      "bytes": 39987
+    },
+    {
+      "path": "來源文字/main/d0206.md",
+      "sha256": "6ce20c5ba7eb4fe8b7b42d1638eb7b4725a46aae9c3d5f97a654ec7b71652127",
+      "bytes": 7684
+    },
+    {
+      "path": "來源文字/main/d0207.md",
+      "sha256": "6f038f68553eb73e1f3f349c9ee0dd22537970f2d9dc60a003f5a0f12cfda64a",
+      "bytes": 10445
+    },
+    {
+      "path": "來源文字/main/d0208.md",
+      "sha256": "a69f15f0233abac86ffb32623d87277c54ebfb8a3dfaa604d9e7ea72b4d50e8b",
+      "bytes": 11500
+    },
+    {
+      "path": "來源文字/main/d0209.md",
+      "sha256": "ba7e4d6fba9ac166b3f59dede72873f59a8fb1bd64607b7bc6b3e732fbcba897",
+      "bytes": 82358
+    },
+    {
+      "path": "來源文字/main/d0210.md",
+      "sha256": "e4a3ae27f6336f0dba43b243e91d7e4740941a71c56ab2d303a19118f8167d11",
+      "bytes": 10109
+    },
+    {
+      "path": "來源文字/main/d0211.md",
+      "sha256": "720a53ed253d5c97348d12c2f01dd729408904f39d5a855256dca87dd9ffdd19",
+      "bytes": 32466
+    },
+    {
+      "path": "來源文字/main/d0212.md",
+      "sha256": "d0aa8f8bf97fc4f3b9a91ccc348b0b1fb84c485946c3f4df3cab6c390299513d",
+      "bytes": 9732
+    },
+    {
+      "path": "來源文字/main/d0213.md",
+      "sha256": "3cdca441ba70264a9c479bd7d091b45c9a5cc363be003d0e86e2ae983cd56b17",
+      "bytes": 51977
+    },
+    {
+      "path": "來源文字/main/d0214.md",
+      "sha256": "8146f418e2d8b9773726b05d9e5edae5c7e7fbcadc427e42e9dba3ef206a86bb",
+      "bytes": 7926
+    },
+    {
+      "path": "來源文字/main/d0215.md",
+      "sha256": "f9c0d43ba158f6968c412f74d4fcaf7a2089f40c0b12da516ab1035cb4f837f7",
+      "bytes": 24848
+    },
+    {
+      "path": "來源文字/main/d0216.md",
+      "sha256": "4fc21ea59c210423c322571d42d5e4ac947ff691c9acd25f23cdc9eb65c962eb",
+      "bytes": 32709
+    },
+    {
+      "path": "來源文字/main/d0217.md",
+      "sha256": "d41e1979e26a59c6bd123ca88687b7ced714d9d6f6adb42e6c4067c210dfd863",
+      "bytes": 27890
+    },
+    {
+      "path": "來源文字/main/d0218.md",
+      "sha256": "fc96293fb152ecf6e28ea4ccd710ff1cb76831bf5e820b0e63a809437da88a49",
+      "bytes": 21139
+    },
+    {
+      "path": "來源文字/official-pdf/d0001.md",
+      "sha256": "9d58519d62cb5140cfe8fdeace300818f793b98654dad35f42c255bcfa45bf32",
+      "bytes": 4646
+    },
+    {
+      "path": "來源文字/official-pdf/d0002.md",
+      "sha256": "b6814a7d17c2698d23768f4f23fca560ebf2fb25014993dcf43129f6fc429203",
+      "bytes": 2740
+    },
+    {
+      "path": "來源文字/official-pdf/d0003.md",
+      "sha256": "e5107d8afda0185b41b736283ee9b7a932b682f9075e8aee67a3fdf56fa84b22",
+      "bytes": 2876
+    },
+    {
+      "path": "來源文字/official-pdf/d0004.md",
+      "sha256": "fe8fd6e12ed60c40c8eb2a065115da06d689030bc0f30adaa0f7ff9f62a6b9a8",
+      "bytes": 3978
+    },
+    {
+      "path": "來源文字/official-pdf/d0005.md",
+      "sha256": "21a0932a6ba6ac4887a55f017eec07f4fa85cad1295da9df87d9b62934f07f4a",
+      "bytes": 6316
+    },
+    {
+      "path": "主題/g01_居住與城市更新/t001_停滯都更案如何退場或重新啟動？.md",
+      "sha256": "016aac9ff6f375e07d76de2490647ecdaf238ebf7495cb9c82091868d7ca0350",
+      "bytes": 2540
+    },
+    {
+      "path": "主題/g01_居住與城市更新/t002_換屋估價與搬遷安排如何保障住戶選擇？.md",
+      "sha256": "8055af3036d040256dc7be17ea4e924bcb5badee203dfd610b4c4805eecb221b",
+      "bytes": 3238
+    },
+    {
+      "path": "主題/g01_居住與城市更新/t003_都更審議如何縮短等待、增加專業人力？.md",
+      "sha256": "4b7d07f558579608a428bc06e5a7b0da0deb26c4ffce0f2b597c658ef357d563",
+      "bytes": 1995
+    },
+    {
+      "path": "主題/g01_居住與城市更新/t004_老宅安全與無障礙改善如何取得協助？.md",
+      "sha256": "d185226dfde50c645c2d5b154c909656dec6c8d28ba6bad2f3a97e07fe7d28a7",
+      "bytes": 2208
+    },
+    {
+      "path": "主題/g01_居住與城市更新/t005_不同家庭如何取得合適住宅或換居安排？.md",
+      "sha256": "6be91ef1cbedb5844f84e16f066fb1b6b85e17f84d1b3ab57b4f35e75f5dc570",
+      "bytes": 2263
+    },
+    {
+      "path": "主題/g01_居住與城市更新/t006_社子島如何兼顧居住改善、聚落與生態？.md",
+      "sha256": "556fb6a24f2b2ba9e885526764088ea104ab9bb1faf757a6befcc54f4e8409f1",
+      "bytes": 2175
+    },
+    {
+      "path": "主題/g01_居住與城市更新/t065_第一批循環都更房源從哪裡來？.md",
+      "sha256": "ae40f658bd5b9c286431c0ff53cc4330c19988c3b5c9a397f605fe9bf48b0d01",
+      "bytes": 2492
+    },
+    {
+      "path": "主題/g02_教育與校園/t007_教師人力、班級規模與行政工作如何改善？.md",
+      "sha256": "2e7edb7d0aa4af4d58b4631d61dde682ff8d7a18297e2bba2f5d2c32f8e2b9f8",
+      "bytes": 2527
+    },
+    {
+      "path": "主題/g02_教育與校園/t008_校園毒品與毒駕風險如何預防、辨識和轉介？.md",
+      "sha256": "ce5c37ce1ea4ab827d2d8a3a669c39a66476fbf2169f47c875d3db0c7b1954b0",
+      "bytes": 2516
+    },
+    {
+      "path": "主題/g02_教育與校園/t009_孩子上下學的路口與通學巷如何更安全？.md",
+      "sha256": "d2635c4fbff8f06563dd2db4c04444314b55bd47e55abd2d50c3ee73b91409d1",
+      "bytes": 2510
+    },
+    {
+      "path": "主題/g02_教育與校園/t010_學校如何讓學生公平、安全地使用 AI？.md",
+      "sha256": "911b3b658fde1412790d4859088bfdc9abe7f217aeb16e326c484cca6759965d",
+      "bytes": 2060
+    },
+    {
+      "path": "主題/g02_教育與校園/t011_免費營養午餐如何兼顧品質、食安與弱勢平權？.md",
+      "sha256": "a4cacea862ba5db15fda2832385e02dea9ffe9db7dd13c8df578ac2aea23650e",
+      "bytes": 2652
+    },
+    {
+      "path": "主題/g02_教育與校園/t053_台北學童如何透過客庄互訪認識客家文化？.md",
+      "sha256": "e1da62e24b83181fb18d0de6f8fbb8a5ddba949fd4879a66511960df3d3038d6",
+      "bytes": 2008
+    },
+    {
+      "path": "主題/g02_教育與校園/t066_親師衝突、幼教與特教支持如何補位？.md",
+      "sha256": "8888352eb3890a0a13ab0183c455d71e9653d822dc7f18f89d8665344e8e9fe8",
+      "bytes": 1874
+    },
+    {
+      "path": "主題/g03_育兒與家庭支持/t012_育兒求助與服務轉介如何找到同一個入口？.md",
+      "sha256": "aa7e9d9f7da69cd0de9bac832f81ca42fc3cc8c2ce484fe38094978b12e7a0a9",
+      "bytes": 2449
+    },
+    {
+      "path": "主題/g03_育兒與家庭支持/t013_照顧者如何取得臨時托育與喘息時間？.md",
+      "sha256": "746e7ec3c95ada35c5266a50b2a46d5a6ad72eaa2a70ad7530b12bc3af6c5c14",
+      "bytes": 2479
+    },
+    {
+      "path": "主題/g03_育兒與家庭支持/t014_產後家長如何取得情緒支持與到宅育兒指導？.md",
+      "sha256": "88ca5c47228f7a5cc7a3e2b737bebb93a77792ddedd92804bfc35c515e6bc0e0",
+      "bytes": 2608
+    },
+    {
+      "path": "主題/g03_育兒與家庭支持/t015_兒少安全通報如何脫離一般1999並接上專業保護？.md",
+      "sha256": "c69de12f874cf1af6e450bfb60165447a38da124b79445bd8996c18de5260e72",
+      "bytes": 2609
+    },
+    {
+      "path": "主題/g03_育兒與家庭支持/t016_親子同行卡如何支持家庭共同參與文化、閱讀與運動？.md",
+      "sha256": "39ca095a217e5b71d625c6ea64f1d6076a5cf2dcc99b0afbbeee84576518e9e3",
+      "bytes": 2604
+    },
+    {
+      "path": "主題/g04_高齡、身障與心理健康/t017_長者如何在熟悉生活圈取得長照、在宅醫療與行動支持？.md",
+      "sha256": "e1bd02fa7b0942dcf07a2b7a0e696ed4e0ee16b754284cb1bd2c957075620fb8",
+      "bytes": 2521
+    },
+    {
+      "path": "主題/g04_高齡、身障與心理健康/t018_一般市民如何取得公費心理諮商與家庭心理支持？.md",
+      "sha256": "676b943f56ae3de8ab862b50bb389ffcc2a83029b4a41c80b25ada2b9917b7f4",
+      "bytes": 2451
+    },
+    {
+      "path": "主題/g04_高齡、身障與心理健康/t019_無家者如何先取得住所並接上生活支持？.md",
+      "sha256": "a37203c34cd0157a4a5b1d1a32c9a1a0bd56490994bfa6e61188538e28a3e6f9",
+      "bytes": 2176
+    },
+    {
+      "path": "主題/g04_高齡、身障與心理健康/t020_如何支援超量社工與第一線兒少服務人力？.md",
+      "sha256": "7eb4219689bcaaa67cf0065ffb499367aa5d421cb37b674f56f3604441474fec",
+      "bytes": 2115
+    },
+    {
+      "path": "主題/g04_高齡、身障與心理健康/t052_客家文化與照護如何在社區據點相遇？.md",
+      "sha256": "a370023b23111ef6c0af47b95b0fe6d10dcbaa8ad53c8e5c81eb8e1a2505d67b",
+      "bytes": 2008
+    },
+    {
+      "path": "主題/g04_高齡、身障與心理健康/t084_兒童與中高齡有哪些疫苗支持構想？.md",
+      "sha256": "1ef674e3e78e5bf2856620391b149c9413ae132efdd8bbe0c8c7020b0c343bdd",
+      "bytes": 1847
+    },
+    {
+      "path": "主題/g04_高齡、身障與心理健康/t085_罕病維生與身障行動需求如何獲得支持？.md",
+      "sha256": "ba48025e2bd11c8452b023ec5f2b0a138175fe58a2c6f0986a03c75323b2c378",
+      "bytes": 1918
+    },
+    {
+      "path": "主題/g04_高齡、身障與心理健康/t086_單身女性如何透過專線找到身心與社福支持？.md",
+      "sha256": "a1eb77769b34e3c29296495fa8f6436172e9bb8e50be275e95623403587d9445",
+      "bytes": 1945
+    },
+    {
+      "path": "主題/g05_青年與就業/t021_青年起步基金如何累積並銜接成年轉銜？.md",
+      "sha256": "1677532c4737233cdf23c8d7d650ab6212eba757d8393d9b5de3d08eab872e91",
+      "bytes": 3572
+    },
+    {
+      "path": "主題/g05_青年與就業/t022_青年如何取得免先墊款的 AI 工具與轉職支持？.md",
+      "sha256": "55bcec4b1a93e41db5664ef80fc028f6cdcad707d692dfde4bf7acc607a17f02",
+      "bytes": 2635
+    },
+    {
+      "path": "主題/g05_青年與就業/t023_中高齡工作者如何接上 AI 轉職、職務再設計或創業？.md",
+      "sha256": "95ff82b23f1a265ec15a816694813a0215e96ef7bdfb1cd78bf50b37c3d25319",
+      "bytes": 2144
+    },
+    {
+      "path": "主題/g05_青年與就業/t024_青年海外學習、創業和市政實作如何回到台北？.md",
+      "sha256": "972325571bed7fe711c4cb399823e6175f9ebae0c2e465945bdea3b34bc13a5a",
+      "bytes": 2089
+    },
+    {
+      "path": "主題/g06_AI與市府治理/t025_台北研究院如何把城市問題轉成研究與政策方案？.md",
+      "sha256": "34745828f7873fa1d664c7dfeff4c98d8a5d5e9670e167e802a86f1e734c6d3b",
+      "bytes": 3269
+    },
+    {
+      "path": "主題/g06_AI與市府治理/t026_AI如何減少公務流程負擔並保留專業判斷？.md",
+      "sha256": "69537640831c6643d7522726790eeeafa5e77da95bd810fde07691668e78cd38",
+      "bytes": 2619
+    },
+    {
+      "path": "主題/g06_AI與市府治理/t027_公務員的工時、職場支持與專案回饋如何改善？.md",
+      "sha256": "846036c7e141d677cccf0db7fceb3e316b1fe92f3bae2b50942b6109708a82f8",
+      "bytes": 2380
+    },
+    {
+      "path": "主題/g06_AI與市府治理/t049_北士科變電所與公車總站如何結合周邊服務？.md",
+      "sha256": "1726022f805ce34237c5be4eea7dd9de9e2f051662f27fc0bd143eae84d1de0d",
+      "bytes": 2295
+    },
+    {
+      "path": "主題/g06_AI與市府治理/t057_大學如何以 USR 計畫研究市政痛點？.md",
+      "sha256": "cf22bb92727dccee240cedd54d476eeed8df6aa2f64b39ffdb09160e975a2a39",
+      "bytes": 1954
+    },
+    {
+      "path": "主題/g06_AI與市府治理/t078_北士科如何培養AI人才並把技術用於城市問題？.md",
+      "sha256": "1a29b3ddfa9ca3976e5cb7b4f1fcef1f3ed050368dddb053958c2b9750ef5b06",
+      "bytes": 2386
+    },
+    {
+      "path": "主題/g06_AI與市府治理/t081_市民科技原型如何經過法規與資安評估再交給市府？.md",
+      "sha256": "e20370d283cac09f4cac06eaa938fe1bfd9e2c0fbbc52b6eadfdf555b58e672e",
+      "bytes": 2132
+    },
+    {
+      "path": "主題/g07_運動與休閒/t028_健身小巴與專業教練如何把肌力訓練帶進社區？.md",
+      "sha256": "c3062f00ac0a9bd3e94704caf2cde2592dad01171009f45b496a787bc5c9848f",
+      "bytes": 2504
+    },
+    {
+      "path": "主題/g07_運動與休閒/t029_運動驛站如何解決戶外運動者的寄物與盥洗需求？.md",
+      "sha256": "3f1b7e6382404a43a4134d720b3f1f91aef957265aaab6520020f52476fa647c",
+      "bytes": 3253
+    },
+    {
+      "path": "主題/g07_運動與休閒/t030_社區小型運動據點與學校場地如何開放？.md",
+      "sha256": "0d3f1f5cdd01d63039c2b0100e928a53a1bfc1e2d4f467cd205b759004e0b110",
+      "bytes": 2710
+    },
+    {
+      "path": "主題/g07_運動與休閒/t069_關渡足球場要提供什麼運動空間？.md",
+      "sha256": "5fa0eae2568288b28299974d88c15adb734264e9e10d73a6ef5cb614052e9b7d",
+      "bytes": 1843
+    },
+    {
+      "path": "主題/g07_運動與休閒/t070_花博與圓山的大型運動中心如何補場地？.md",
+      "sha256": "d09ddcbcf5ed15d87c14d21294183ab310ac63b48d3e72589c2fee395f3f057c",
+      "bytes": 2325
+    },
+    {
+      "path": "主題/g08_文化、步道與地方記憶/t031_文化徑如何串連台北的地方歷史與族群記憶？.md",
+      "sha256": "a525ae65d9d98b4f8c38f5ab9f741bb8ed03ebe2583e3709466f28dd158b90e4",
+      "bytes": 4104
+    },
+    {
+      "path": "主題/g08_文化、步道與地方記憶/t032_商圈老店與文化空間如何不因租金上漲而消失？.md",
+      "sha256": "8711cdff5bb8b48e061198a57305df77495c7471616fc98f6e59e1badd20da32",
+      "bytes": 2525
+    },
+    {
+      "path": "主題/g08_文化、步道與地方記憶/t033_本土影視、音樂與動漫創作者如何取得場地和觀眾？.md",
+      "sha256": "8d132186276b1b70521b53fc2c16dd746b39ca8fc092402a96d89f9052c2840e",
+      "bytes": 3388
+    },
+    {
+      "path": "主題/g08_文化、步道與地方記憶/t054_學客語或在商圈講客語如何取得數位獎勵？.md",
+      "sha256": "038c382e89bb1132165f374e64b431ca0567567584d09e35e636a1ef57955b1a",
+      "bytes": 2071
+    },
+    {
+      "path": "主題/g08_文化、步道與地方記憶/t064_登山觀光中心與接駁如何改善淺山步道體驗？.md",
+      "sha256": "5805ae1b35a0b29f012d55e5f0aa555567334f0fbfa31fab5b1cb1112623c5a8",
+      "bytes": 2363
+    },
+    {
+      "path": "主題/g08_文化、步道與地方記憶/t083_明治橋的歷史景觀如何結合自行車通勤？.md",
+      "sha256": "eeb8ba8468f918a6fd14c55f83de1083f1263222de5385f5494d808eff22d243",
+      "bytes": 1985
+    },
+    {
+      "path": "主題/g09_公園、樹木與水路/t034_樹木維護資料與移除評估如何透明？.md",
+      "sha256": "f3a6f4e000293139a81aac5c85d4af49bd8c23674d055e3aef68ceef96eb5558",
+      "bytes": 3329
+    },
+    {
+      "path": "主題/g09_公園、樹木與水路/t035_水路如何先改善水質並選擇適合親水的河段？.md",
+      "sha256": "cb65a3f7218a09431a2e6b1b39dedb44c9efefd4ee1577d788dd532c6e8b98b6",
+      "bytes": 2474
+    },
+    {
+      "path": "主題/g09_公園、樹木與水路/t072_樹蔭公平與熱點植樹如何規劃？.md",
+      "sha256": "9d2d0ec3dadc156042fc13c48d73785e2b39d30ccd3abd70cb115d248d255390",
+      "bytes": 2130
+    },
+    {
+      "path": "主題/g09_公園、樹木與水路/t073_修剪木料如何再利用？.md",
+      "sha256": "445044448ac0b73e463d01429bd834e7935221e213f3c869378ea3cc340f8edc",
+      "bytes": 1801
+    },
+    {
+      "path": "主題/g09_公園、樹木與水路/t074_分散滯洪與水岸生態如何納入城市設計？.md",
+      "sha256": "30c916595c8150189f8d1d5f0ee42b1809aaf261161f934a8d4c81e41a0b681b",
+      "bytes": 2229
+    },
+    {
+      "path": "主題/g09_公園、樹木與水路/t075_河岸入口與巷弄親水空間如何接進生活圈？.md",
+      "sha256": "60a1589d9a27a5faa288e7f9fd41808d2e6962917c49ec1365fdd79059af70c3",
+      "bytes": 2283
+    },
+    {
+      "path": "主題/g10_交通與街道/t036_自行車通勤路網如何連續、安全並接上跨河橋梁？.md",
+      "sha256": "8d8d97e447fbd8bb9d5a82a5829a595b011459e28da46e94d79abfc81b15219b",
+      "bytes": 2626
+    },
+    {
+      "path": "主題/g10_交通與街道/t037_公車駕駛工時與駕駛座安全如何改善？.md",
+      "sha256": "858d89101d44361b84eb9e4418891efa3006ed9d1184817a2146588280c9023d",
+      "bytes": 2340
+    },
+    {
+      "path": "主題/g10_交通與街道/t038_如何修正標線、路口及行人空間的日常危險？.md",
+      "sha256": "063bf3e953ffe46e192a17a79e9f99f8f5e4ab4d85480dc7acfa74479a19b6c9",
+      "bytes": 2568
+    },
+    {
+      "path": "主題/g10_交通與街道/t039_共享電動機車如何接上 TPASS 並離開路邊車格？.md",
+      "sha256": "2ebe5eccb92a40e801e1ce53f251c8e31913ea55989a825501a5aeb3d2064135",
+      "bytes": 2149
+    },
+    {
+      "path": "主題/g10_交通與街道/t040_交通資料如何用於號誌、計程車停靠與事故熱點？.md",
+      "sha256": "b8951eefe099305414c7b5033ea3aacd4ad5fd4ce476b12b2901dd846bc5adc1",
+      "bytes": 2717
+    },
+    {
+      "path": "主題/g10_交通與街道/t041_市民大道橋下如何縫合街區並帶動人流？.md",
+      "sha256": "f1049be1fe2f8f555ce738be61dd4d7e22f4529e15b4d3af1b7b4e2c0a08e02d",
+      "bytes": 2385
+    },
+    {
+      "path": "主題/g10_交通與街道/t076_台北車站公車站牌與路線如何更好找？.md",
+      "sha256": "9830f390230fbc2870ce65ddd24fad8096fbac4b7cad8d2542010d827c761637",
+      "bytes": 1961
+    },
+    {
+      "path": "主題/g10_交通與街道/t077_公車轉彎警示聲與捷運寧靜車廂如何試辦？.md",
+      "sha256": "765169ab5d13fbdf20ddb212ac9e75e14834a7666c592029acdd49671265367e",
+      "bytes": 1958
+    },
+    {
+      "path": "主題/g11_城市生活與治理/t042_夜間商圈的噪音、安全與居民衝突由誰協調？.md",
+      "sha256": "105a1067051e64ba9f800c3307dda4b7c83a39dfa2686a3a1a8b163ac077451f",
+      "bytes": 2439
+    },
+    {
+      "path": "主題/g11_城市生活與治理/t043_市民提問、陳情與黑客松如何進入政策討論？.md",
+      "sha256": "8a9965f89d188230f3ac79a3263390278db1a01de547ab7df03bf3688c34f7ac",
+      "bytes": 3734
+    },
+    {
+      "path": "主題/g11_城市生活與治理/t044_市長如何與不同黨派議會協商推動市政？.md",
+      "sha256": "3d759bc6e32cb67b5b6fc1e1bf517d890a2937c034d2db11f5c9787b5cf3db45",
+      "bytes": 2385
+    },
+    {
+      "path": "主題/g11_城市生活與治理/t045_有限預算下哪些公共需求優先於普發現金？.md",
+      "sha256": "e56ab474bb1123096445c8eb3c3d75c474ca9de525cee967db854829f45016ff",
+      "bytes": 2448
+    },
+    {
+      "path": "主題/g11_城市生活與治理/t055_市府如何增加臨櫃與1999客語服務人才？.md",
+      "sha256": "7d8e6df33166ef7b62726fd7c5c9c7b0590cb8eca6bde31da6a3967ca25a7bef",
+      "bytes": 1998
+    },
+    {
+      "path": "主題/g11_城市生活與治理/t062_地方加碼現金發放須符合哪些財政條件？.md",
+      "sha256": "744d98c9fa8d247857e4436552dc0597462beab1e499ac86d5803caf396e1fe5",
+      "bytes": 1980
+    },
+    {
+      "path": "主題/g11_城市生活與治理/t079_市府小內閣如何選任兼具執行與溝通的人才？.md",
+      "sha256": "adbffeebce70652b4131a7a37402101a7d40de3bf7b7d5ff4a00b7cb0c0d782e",
+      "bytes": 2098
+    },
+    {
+      "path": "主題/g11_城市生活與治理/t080_第一線如何回報錯誤並促成市府修正？.md",
+      "sha256": "6f8c9a27b59b8d2bb9308d1ab84e7b66adbb3d4a823a6f65837500ed9f70d961",
+      "bytes": 1882
+    },
+    {
+      "path": "主題/g12_城市交流與公共議題/t046_城市交流要先滿足哪些政治對等與資安條件？.md",
+      "sha256": "b1e08e71782ccd04efb8562034de9ce40825da11e9ef46036a62f8805007dc47",
+      "bytes": 2268
+    },
+    {
+      "path": "主題/g12_城市交流與公共議題/t047_台北如何透過城市外交合作解決交通、住宅與降溫問題？.md",
+      "sha256": "c0e3d3fbe7ce1b32029abaaa9f9918df63d0b1a83e2790602d50d5c74e44c695",
+      "bytes": 2822
+    },
+    {
+      "path": "主題/g12_城市交流與公共議題/t056_客家文化如何進入無限城國際城市交流？.md",
+      "sha256": "b2b88464650939d41d6ee0a45f13bd0fdd1748c5465cb1dbf1d9ee7d9185bf1b",
+      "bytes": 2005
+    },
+    {
+      "path": "主題/g12_城市交流與公共議題/t071_城市運動聯盟如何促進常態交流？.md",
+      "sha256": "87c0356b44eef6336f58e1469b2bdf2f73c39190b45815ba8c9634debeba9c99",
+      "bytes": 1898
+    },
+    {
+      "path": "主題/g13_公共安全與權益/t048_地方民防如何把避難設施與鄰里互助接起來？.md",
+      "sha256": "2da18c9e6d3b2caee4dcd639d4e0c3d908e9c5def6f113fb5b3c13e784fc62a0",
+      "bytes": 2850
+    },
+    {
+      "path": "主題/g13_公共安全與權益/t058_網路霸凌報案如何減少被害人二度傷害？.md",
+      "sha256": "a8f81e2e52541ce40a9f5ac8eeda8a18f76bbcab6891440ec4a0bb6616658b65",
+      "bytes": 2393
+    },
+    {
+      "path": "主題/g13_公共安全與權益/t059_高風險勞工如何取得安全裝備與現場檢查？.md",
+      "sha256": "d72dd84f06b0df30c606496e2c65bddab8898a6b3e8aef5977b306305efa9199",
+      "bytes": 2068
+    },
+    {
+      "path": "主題/g13_公共安全與權益/t067_女性夜間步行如何更容易求助？.md",
+      "sha256": "9f482145082fb407fc95e236b4f048111a1bd891aa897188929f833fecc4f690",
+      "bytes": 2403
+    },
+    {
+      "path": "主題/g13_公共安全與權益/t068_警察如何讓性騷擾與霸凌報案少受二度傷害？.md",
+      "sha256": "06fa91a9f6469cd6320e9ec2d6b5f846383528b8ea09a89b52049baeaa0c7191",
+      "bytes": 2064
+    },
+    {
+      "path": "主題/g14_民主制度與國安公共議題/t050_公民動員與體制內程序如何分擔民主防線責任？.md",
+      "sha256": "8c2d3a27bedd261e43253742aaa86c0b876c79ca48a14ce17f21eb3a4c108f27",
+      "bytes": 2516
+    },
+    {
+      "path": "主題/g14_民主制度與國安公共議題/t051_國防採購如何涵蓋後勤、訓練與維修？.md",
+      "sha256": "287a3eff8cde0e06b80c93d523f66f3cfa3b4676e1cd855cb27e7551feb33c62",
+      "bytes": 2452
+    },
+    {
+      "path": "主題/g14_民主制度與國安公共議題/t061_身心靈服務的消費資訊與市場規範如何改善？.md",
+      "sha256": "9667fa873d19360e1b5dd01dada8e198567449e7b04ebd1563ed54eea1e8c546",
+      "bytes": 2063
+    },
+    {
+      "path": "主題/g14_民主制度與國安公共議題/t063_公民如何在選舉之外持續監督政治代表？.md",
+      "sha256": "88945785952109aff8c03902b1344b97ff5732573adfd4daf4837592a3ed67ca",
+      "bytes": 2017
+    },
+    {
+      "path": "主題/g14_民主制度與國安公共議題/t082_資訊作戰如何影響公共安全與社會信任？.md",
+      "sha256": "35cdc57669dcfc08f8bb7d74f31b6aef384265960a5b09169b7b5a09a133a745",
+      "bytes": 1863
+    },
+    {
+      "path": "主題/g15_城市產業與創新/t060_AI 專家如何協助傳統產業把工具接進工作流程？.md",
+      "sha256": "05f417ca67fb68f67ff5490825ac4c36affd595f4d4f9ad53fba42b830e2fcf6",
+      "bytes": 2030
+    },
+    {
+      "path": "README.md",
+      "sha256": "66d5b33d97a20426331906f503fdbecf7b046b294b3dd02eb407bb411a577100",
+      "bytes": 33082
+    },
+    {
+      "path": "政策與訪談_完整整理.md",
+      "sha256": "3a281923c511f8e3d0c771e8f6c3bd928aab35d4fe8b2a0e1866cde09c20390c",
+      "bytes": 169972
+    },
+    {
+      "path": "來源索引.md",
+      "sha256": "c1fc70b2809a1d28863dc0d4afd63426045c57ddd32fa7255942a60067b4b33b",
+      "bytes": 107675
+    },
+    {
+      "path": "摘要與字數說明.md",
+      "sha256": "607f5f2e236ca991dff207a588bf809a67d33bdc225e9b7f85d137c285093d48",
+      "bytes": 31886
+    },
+    {
+      "path": "版本與校讀說明.md",
+      "sha256": "121642ebab0db0df504428d1d1a1ec3ba81f80ec01e8298d94c864b6203cd8d8",
+      "bytes": 2303
+    }
+  ],
+  "exact_source_copies": [
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_16_都更政策.md",
+      "sha256": "14ea1215728c4cdfc023be76cf8186886c76fd593f4825625c9fb15fab71c73d",
+      "copy_path": "來源文字/main/d0001.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_01_教育政策.md",
+      "sha256": "4c5c1a66c28471bb90f319fd2e198663bd9a91dde9c50522797732c24facd676",
+      "copy_path": "來源文字/main/d0002.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_02_交通政策.md",
+      "sha256": "448df6645f1a9480e32130c25af5f7589d182f1524242524e4da289448b0fea6",
+      "copy_path": "來源文字/main/d0003.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_03_社福政策.md",
+      "sha256": "f1c063bfb57bf558996310445757763b7df05cc9aa3d96eb8bd4657eb4a81437",
+      "copy_path": "來源文字/main/d0004.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_04_台北文化徑_山林徑.md",
+      "sha256": "ab90d65ee4a08993f9c816236fdfdbf83da18f1205ad66d06fd20b3b52c49cde",
+      "copy_path": "來源文字/main/d0005.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_05_都市微森林.md",
+      "sha256": "9b6a3f7f915cd2ef55be6c6c3e1c9cd0b38e56f90c4ee5bf35787ebd77e114a8",
+      "copy_path": "來源文字/main/d0006.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_06_青年政策.md",
+      "sha256": "92c790709569fd21f1e3fd08ecbcec535deb662ac99075030113c6e4a61cce59",
+      "copy_path": "來源文字/main/d0007.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_07_運動政策.md",
+      "sha256": "0dc0144f86c5c4601d1aca101a3042e6426a8850d6dfa247c8a86124bb9ded96",
+      "copy_path": "來源文字/main/d0008.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_08_家庭一站通.md",
+      "sha256": "1ee019df5aa25f5158bc2bc2f4b939f745d74d2e2945b1b84f9a3b90f5f7174f",
+      "copy_path": "來源文字/main/d0009.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_09_公務員政策.md",
+      "sha256": "1857f6bb09489ed984690766e518ce60580569572330c6d27ec55b62e8b5f9cd",
+      "copy_path": "來源文字/main/d0010.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_10_親子同行卡.md",
+      "sha256": "8ac0c13b53284283c78536cd4f3d4502007cba021aa181754bbfa7bf31ffface",
+      "copy_path": "來源文字/main/d0011.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_11_水域政策.md",
+      "sha256": "11cc18653bbb13480a87bfd34750521efe88e4624ce70810df4e6d17ded6a8f6",
+      "copy_path": "來源文字/main/d0012.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_12_AI政策.md",
+      "sha256": "a42e5bb88d639a38287d707b2c9a6a9461d1b1021efc633a6b43d5a74943dd58",
+      "copy_path": "來源文字/main/d0013.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_13_客家政策.md",
+      "sha256": "447fec11433dcdc0f981d8e86364dead6160630f41646acb262bd5c96228c043",
+      "copy_path": "來源文字/main/d0014.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_14_城市外交.md",
+      "sha256": "f964807f0a0db475d0c3bffcd23aec689ecad881dfedb0d4a6a713693b6ef3c3",
+      "copy_path": "來源文字/main/d0015.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/policy_15_營養午餐.md",
+      "sha256": "6564a77cf698c8a07e20a375171e139c696eba968ad7fda02f8a5ae489ffcbb6",
+      "copy_path": "來源文字/main/d0016.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/heart_framework.md",
+      "sha256": "31ed0c160090e9345403e504a9f4fc41b708e5d2ff00a7919531b41dc76d3971",
+      "copy_path": "來源文字/main/d0017.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/heart_island.md",
+      "sha256": "c9148eca847d48e9888cb05e378ebd6b0f06a6f4085306602f1da68bbe6107c9",
+      "copy_path": "來源文字/main/d0018.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/heart_quiz_1.md",
+      "sha256": "fb251699e46242eae61579fe40b13ed0101f79754aef537627805b708001e17e",
+      "copy_path": "來源文字/main/d0019.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/heart_axis_h.md",
+      "sha256": "779d8f9e2048758f2139ed83639c4a417b12a19dc50c51599bde786205b2a463",
+      "copy_path": "來源文字/main/d0020.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/heart_axis_e.md",
+      "sha256": "d582101aac17ffca56a5d0f33542eaedf01df69507e6aab821d1d6668d950001",
+      "copy_path": "來源文字/main/d0021.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/heart_axis_a.md",
+      "sha256": "69ccdba8298438a0c55f26712c4560f00561f82d7a44445c77a599c4fb85f314",
+      "copy_path": "來源文字/main/d0022.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/heart_axis_r.md",
+      "sha256": "cedfaca755adfc012c2f63770a015797fd9f00ca7059eb0bdf0d2783957d45a6",
+      "copy_path": "來源文字/main/d0023.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/官方政策/heart_axis_t.md",
+      "sha256": "db8eb8ef414f583d249c6d05bca3b229f6ba4c98f8519bd19d66b5621797d801",
+      "copy_path": "來源文字/main/d0024.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-root-6f871f56ce.md",
+      "sha256": "28b5731f93e6c2ed8f598877e6a4339bc61518966351090e2e75025856e65f13",
+      "copy_path": "來源文字/main/d0025.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-04-12-c2a408418d.md",
+      "sha256": "628e1299d578a3cfc18730defe630cfc4a42efd82c4ae6db16543b67d421e060",
+      "copy_path": "來源文字/main/d0026.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-reuters-debate-preparation-2026-11-06-23614711da.md",
+      "sha256": "f901c99a35cd5d0d71db8440da98b32e5c743ee0949c7dacdb905b576077cdbd",
+      "copy_path": "來源文字/main/d0027.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-reuters-debate-preparation-2026-11-06-transcript-6bc8bfcb14.md",
+      "sha256": "1c1e315293c91497cda4aee58645aea5ccb71df0d00fe53382de91f999dec423",
+      "copy_path": "來源文字/main/d0028.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-taiwan-frontline-2026-11-06-7b5d008c49.md",
+      "sha256": "87a6f2d3515a261185f9db725c5d516b27013f6e3bf082b6265b092b06cca20f",
+      "copy_path": "來源文字/main/d0029.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-taiwan-frontline-2026-11-06-transcript-f55a617a9b.md",
+      "sha256": "28cb46611835c3f36fb3bdc4816748f494b63ac59b47057e1c9d9c5228d9525c",
+      "copy_path": "來源文字/main/d0030.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-taiwan-frontline-full-2026-11-06-e6070e2234.md",
+      "sha256": "f4d3bcd2a26b9b11cf4b504ff66e26f808c298aef9830c65f829c35e86c4d614",
+      "copy_path": "來源文字/main/d0031.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-eleven-oclock-hot-2026-11-03-aede5e7133.md",
+      "sha256": "c44776cb48f0bdb3b78ee46959e6206429c8a5fadf36e5c8391b9f5e6097e7f8",
+      "copy_path": "來源文字/main/d0032.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-eleven-oclock-hot-2026-11-03-transcript-06924b138a.md",
+      "sha256": "9fc80b73176048d81b234261432790ca365062e9f8e90f5c6d82520429ff7dc3",
+      "copy_path": "來源文字/main/d0033.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-today-world-2026-11-04-68b144cf28.md",
+      "sha256": "e7604100a44251374e8390c3d685fcec0edd4ba207d343e854ee1b8f0a1ad0bc",
+      "copy_path": "來源文字/main/d0034.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-today-world-2026-11-04-transcript-965326aa00.md",
+      "sha256": "1635fb40dd8770c83826f7961deafa4d7bef4d0245b4309d60c448ec5600c74a",
+      "copy_path": "來源文字/main/d0035.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-business-week-taipei-2026-11-02-21229c32f0.md",
+      "sha256": "4a694bd4103d52fe01ec1b0b333724468d05a019307f005cbd7f1982c9d25d0f",
+      "copy_path": "來源文字/main/d0036.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-business-week-taipei-2026-11-02-transcript-ff8899b013.md",
+      "sha256": "1fe004b69a3ed12077667ceca6bbaadea8d15af8b41ad49391cae1c0b688a158",
+      "copy_path": "來源文字/main/d0037.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-news-face-to-face-2026-11-02-41df509872.md",
+      "sha256": "99d78446e41d8a0ac57a4442bf1eb2d73c2687ce9745cd2c4c90270241265cdb",
+      "copy_path": "來源文字/main/d0038.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-news-face-to-face-2026-11-02-transcript-c01cac2abb.md",
+      "sha256": "58b0772520f923ec87d2af629dbbd30ad36ab01de8c9218e581cd8cad9e12cd6",
+      "copy_path": "來源文字/main/d0039.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-new-era-boys-ep69-2026-10-31-d6633e07b1.md",
+      "sha256": "7784cb13ab9ed8c1b2404cf46231823ba697d1bfb085461b1f60a2774b6d5e8e",
+      "copy_path": "來源文字/main/d0040.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-new-era-boys-ep69-2026-10-31-transcript-a237b2b705.md",
+      "sha256": "d92333a89c1b4b103e754562dc88211de138121d2d8ba5cfb7d3a91b861554ff",
+      "copy_path": "來源文字/main/d0041.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-shen-chunhua-s2ep6-2026-c9e3280cf1.md",
+      "sha256": "8885dc35b865299b6d4760ad6d08584e703287ea1b99c09e009325000eff6acd",
+      "copy_path": "來源文字/main/d0042.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-shen-chunhua-s2ep6-2026-transcript-63e3033b6a.md",
+      "sha256": "826c62a39455b3f70cde73a07bf414de5f0edbe16d6b77c1051876b5fbbef927",
+      "copy_path": "來源文字/main/d0043.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-mirror-election-2026-10-26-e2fabcde9b.md",
+      "sha256": "15b314602b28a43789d3b5f2e179339407ad0244fa9b09c902f92a6726d3e800",
+      "copy_path": "來源文字/main/d0044.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-mirror-election-2026-10-26-transcript-7dd183bfc5.md",
+      "sha256": "7726ef5688dc16c76bec0136eec07c12f5397a3a8bf71631680ec310d28ea0d4",
+      "copy_path": "來源文字/main/d0045.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-taiwan-on-air-2026-10-28-b30b76e4bf.md",
+      "sha256": "acf2037f8a7a4ebd919af37307b3298ff424ac5fff55621c017c821ab933a227",
+      "copy_path": "來源文字/main/d0046.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-taiwan-on-air-2026-10-28-transcript-e55b54c4f3.md",
+      "sha256": "e58643f9886e833d56f35817bbf9a7439aa3939d2b29c69255a2a2a75fd2138b",
+      "copy_path": "來源文字/main/d0047.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-yaqin-english-2026-10-25-772151c58e.md",
+      "sha256": "dbffd2508132d91b797752cc8422886cfb711e14c2f6703c36e6a135e9c31f82",
+      "copy_path": "來源文字/main/d0048.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-yaqin-english-2026-10-25-transcript-a698ceb11a.md",
+      "sha256": "aca785e22592b735a88892caf0ab67f4e9feb63be294c81b6892736a6fcc16be",
+      "copy_path": "來源文字/main/d0049.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-yaqin-world-2026-10-25-2825988554.md",
+      "sha256": "3f84596f6b898b86e6af5e4900f6ce56b706a3bedeffe06aee5827fffad5a4f0",
+      "copy_path": "來源文字/main/d0050.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-yaqin-world-2026-10-25-transcript-b30480863e.md",
+      "sha256": "52ca99fabee16e763a75e7e487a43f690070e659609b18010c75cfe0432bd2b8",
+      "copy_path": "來源文字/main/d0051.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-humanzoo-s3ep173-877822d5ff.md",
+      "sha256": "0250f935acf5b45195b0e51658a653ad49a5d0b335c59feb70674dd2de719226",
+      "copy_path": "來源文字/main/d0052.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-humanzoo-s3ep173-transcript-92cc984e78.md",
+      "sha256": "48f86931f07520a9b9cf6782e913b9c6d9b2f3a3e669fe3e5e88cb286152cac6",
+      "copy_path": "來源文字/main/d0053.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-humanzoo-s3ep174-c582635f8f.md",
+      "sha256": "c7c43d006ac9bacdc1c6e4a250b4afa4c8967ea381f197d8f91160e8ad006073",
+      "copy_path": "來源文字/main/d0054.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-humanzoo-s3ep174-transcript-34f612c008.md",
+      "sha256": "1abd70013d1223e4bba05b622b96a7a05212e9648b64fc90f0b4ce86f30a8924",
+      "copy_path": "來源文字/main/d0055.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-jomotalk-ep397-13f9874c71.md",
+      "sha256": "e09879a98baeb193c19dbd931cddd3cb602ec36a4096fbff768f304db477cc63",
+      "copy_path": "來源文字/main/d0056.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-jomotalk-ep397-transcript-7abd6f5c19.md",
+      "sha256": "70a731ee52f33703ca03da7167fae18f7974d7d793db4e52e8e69895929001da",
+      "copy_path": "來源文字/main/d0057.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-chiou-podcast-ep137-cb99ee9a9c.md",
+      "sha256": "9a30ac332096ad38d19e969604e8c06da5af02d28e145f737024553bbd59dd67",
+      "copy_path": "來源文字/main/d0058.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-chiou-podcast-ep137-transcript-d26b5b3213.md",
+      "sha256": "f7e1827b2b6fb5d4faba9f51cbcf590891d937e23af7201d2596ae0524af61ea",
+      "copy_path": "來源文字/main/d0059.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-fang-yehan-2026-10-20-63e280defe.md",
+      "sha256": "c3273756b5e19cb07d4f45797f1988786e96a714db2cdd6b7e8a954c686f5b19",
+      "copy_path": "來源文字/main/d0060.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-fang-yehan-2026-10-20-transcript-808a42ee61.md",
+      "sha256": "763bd0c5a7d9a28746b2fc53dbc61f6ecface06fb8c43547edf2687c7c80d047",
+      "copy_path": "來源文字/main/d0061.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-wang-qianqiu-2026-10-20-c8deac67b2.md",
+      "sha256": "57ab04a378b36088eea1945266cdd93bee5ad477bde17eee998b8c4e2290af9f",
+      "copy_path": "來源文字/main/d0062.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-wang-qianqiu-2026-10-20-transcript-95a11b16b2.md",
+      "sha256": "bb0e9506139b0892e18fd2cbcafd0dcc2e45e2910836aad9d4111cb2057334b0",
+      "copy_path": "來源文字/main/d0063.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-nexttv-inside-2026-10-19-57e191e9b3.md",
+      "sha256": "83a8f64c6fd290ec1b5fc4a6d452c595c1d49839d29fb8929e943f9f22ff69e6",
+      "copy_path": "來源文字/main/d0064.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-nexttv-inside-2026-10-19-transcript-99eea5d138.md",
+      "sha256": "e17c94947f728d021bc0db2c72c4219affff05c5d2af5168ff5e4c5fda12d666",
+      "copy_path": "來源文字/main/d0065.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-iszn-dageng-2026-10-19-7d5486e6be.md",
+      "sha256": "f236761b71eba17bee13f17924c33e5f4441174ecd3a925f70a935020b05eef3",
+      "copy_path": "來源文字/main/d0066.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-iszn-dageng-2026-10-19-transcript-f03ab1be74.md",
+      "sha256": "357bba508559c0b5b6949eb641d1ae7ca90b7bef88de16460c3b38638b8ba644",
+      "copy_path": "來源文字/main/d0067.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-huang-guangqin-2026-10-19-d2c7a191df.md",
+      "sha256": "577d15dbd6bc6cf4ba7cf49cc9345c27350692cd6a4959bc167acbaf8860bfa5",
+      "copy_path": "來源文字/main/d0068.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-huang-guangqin-2026-10-19-transcript-b0b06f2c0d.md",
+      "sha256": "a6063ff79698b267f5711078806c77e16cb21184a7fc2c379881a5fae6f5d90b",
+      "copy_path": "來源文字/main/d0069.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-wu-danru-2026-10-19-cbde64c865.md",
+      "sha256": "def0b2223066b47bd077dcf19bc578270c3d0c7c917e4602fcce2ff7100695fc",
+      "copy_path": "來源文字/main/d0070.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-wu-danru-2026-10-19-transcript-843859f813.md",
+      "sha256": "96d2fcf46990da985bd09b407d15dcb935500cf788f81688d88e0f1cd183a9ee",
+      "copy_path": "來源文字/main/d0071.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-ttv-hall-of-fame-2026-10-15-03f9d8ef75.md",
+      "sha256": "a1f857d182dec320c120eb2fefb44e05e7e8e24ab13085089dc65554da9d2ef5",
+      "copy_path": "來源文字/main/d0072.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-ttv-hall-of-fame-2026-10-15-transcript-07fc681319.md",
+      "sha256": "3f42253e11211e5f9abd0c0473ec1cddd33560c6198bf083466c0cb1c236dbca",
+      "copy_path": "來源文字/main/d0073.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-loneliness-city-government-fab89204f5.md",
+      "sha256": "6ff04c99e5101a019a11bc3e7b5d49a18d2b01c3b79ba21ae1566f1959d282f4",
+      "copy_path": "來源文字/main/d0074.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-loneliness-city-government-transcript-0bf85e2989.md",
+      "sha256": "89a6c695ccf1d9273eec2ec2478ed2ee4404dbeb6bbaf86bdeb08e93a0e38a52",
+      "copy_path": "來源文字/main/d0075.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-zhao-shaokang-2026-10-14-b3e7548085.md",
+      "sha256": "23c070ead9c658f8c50f26e5fcaf59441549f9ca415aabb8197846f097f49ab5",
+      "copy_path": "來源文字/main/d0076.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-zhao-shaokang-2026-10-14-transcript-4f270aa34c.md",
+      "sha256": "4bc80eafc96defb60b063786dcb1ef2463a7cbd4447a755ff3186e6b5ee066ca",
+      "copy_path": "來源文字/main/d0077.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-qiang-news-2026-10-12-ec90346894.md",
+      "sha256": "7d6352c4dcac1e0f08af0302328d5a36f677b50f3e1247539e710c3243655352",
+      "copy_path": "來源文字/main/d0078.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-ep148-05eff20931.md",
+      "sha256": "3576a297f8cea3a54c0a45647f916eeabd9e11088f3530338dcc6622ecf88f68",
+      "copy_path": "來源文字/main/d0079.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-10-07-1707da3b6a.md",
+      "sha256": "4568b42b68b7adf2bc7b212cba87c2ffc56727461fc04b77534876486c7c3e8e",
+      "copy_path": "來源文字/main/d0080.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2021-03-05-87baad75e4.md",
+      "sha256": "8cd7929a4e8c9874cf445ce744dba67ac78ced16a6f78c1fda604422ede2c4ac",
+      "copy_path": "來源文字/main/d0081.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-07-17-c507799b7f.md",
+      "sha256": "be060b8f584aaaceea0e513312d79e9b41b39a105f1025fc94af7233d06e18d9",
+      "copy_path": "來源文字/main/d0082.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2025-05-27-27bc409e00.md",
+      "sha256": "2ce132d6e4145e19bcf9f4b85b4f2d33df8341e1c6f889dea225a316d7ea6673",
+      "copy_path": "來源文字/main/d0083.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-shenboyang-interview-pages-dev-root-a32b7c7a8f.md",
+      "sha256": "3e6c0cc02678046b7d1c05eaca900640f8e77891534723200a11a11d90cce30d",
+      "copy_path": "來源文字/main/d0084.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-interview-2026-pages-dev-root-f6c7f4fdf0.md",
+      "sha256": "2ccf895f9e2dcb5aae82c662d06015c1ab6145f2d8ed39acf8851849ec161370",
+      "copy_path": "來源文字/main/d0085.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2025-12-11-6eeb41309a.md",
+      "sha256": "4693eb8794f46938f4bdb89fec32fedfa1e6e3f9ec75a099169da6f114f77909",
+      "copy_path": "來源文字/main/d0086.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-08-23-023dbc36d8.md",
+      "sha256": "d5dd444c6fdc18bbc2c1d793a7451a4e92a9ed0adca2b5fb82954cdab2e48aab",
+      "copy_path": "來源文字/main/d0087.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-09-07-d02a4a849a.md",
+      "sha256": "270f9663b909dfca7d4665665107caa501ff2a2ad01af67c6a961ddb5e08904e",
+      "copy_path": "來源文字/main/d0088.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-09-13-bae359d9d2.md",
+      "sha256": "57948b71010bf918ad3b9dac937883870ca0621cd81d9c74290d90c3b07f4a93",
+      "copy_path": "來源文字/main/d0089.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2022-12-26-0749125011.md",
+      "sha256": "91ea19f3964290be4984ed99d32ba0ab9369345cad5564419fee061025b5790b",
+      "copy_path": "來源文字/main/d0090.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2024-06-08-ef19e04c2a.md",
+      "sha256": "1f706e8b5e7702777845e2924f37fecf66766be8e8ba58453dad8a7150873797",
+      "copy_path": "來源文字/main/d0091.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2025-08-31-0a5d70b6c2.md",
+      "sha256": "85948e4788b42c0951ed229496dc53ecac1a2263696287bc099df752dfe484ad",
+      "copy_path": "來源文字/main/d0092.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2025-11-22-we-will-never-back-down-a1715de76a.md",
+      "sha256": "c94cb6ffc575e3e30203b08e4f3f9664c4597f700069b0ba5720f47591b728f8",
+      "copy_path": "來源文字/main/d0093.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2025-11-22-huashi-san-guo-yi-89e0752cad.md",
+      "sha256": "97551a7317325a4f14e5bc3e24323b8add2e3e2cf1cb9f75d3c36468ca73d654",
+      "copy_path": "來源文字/main/d0094.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2025-12-13-9ca2b6c9a5.md",
+      "sha256": "89ffab4a45b3192282132f82a2e34a1cb088a6bd5f0916e70673d39ace6fba76",
+      "copy_path": "來源文字/main/d0095.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-08-18-28aacc873a.md",
+      "sha256": "4a6c27b0b8d4ec2b31b339479a0c43441c3742c36a78be1ee107d092ef1b2759",
+      "copy_path": "來源文字/main/d0096.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-08-26-a48f055ce8.md",
+      "sha256": "55f89df6dfb52133c20e4d861622f7018fa84e679dc43eafb42745762abc40e9",
+      "copy_path": "來源文字/main/d0097.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-09-03-a9609994ef.md",
+      "sha256": "4fe2e8815bb93b2f60d809e5e069bda1497e96e6e1983ac15868fe5828fefb68",
+      "copy_path": "來源文字/main/d0098.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2023-04-11-5d30b7a5d6.md",
+      "sha256": "07de4fdd5946a6f2dad46680e855b2ff02ed7020a072354c40a85c2d1c9ed092",
+      "copy_path": "來源文字/main/d0099.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2023-08-29-00e8a53c2e.md",
+      "sha256": "61c429c147d7ecd09b21dae43492fa549d7bf7bab828845ac98abc2fb87cc5a5",
+      "copy_path": "來源文字/main/d0100.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2023-09-08-pla-hackers-2f5aa3d963.md",
+      "sha256": "f7a37b9a05874caebf42b3bec996b64483c19b88c83f1406bd0fab9685763b1e",
+      "copy_path": "來源文字/main/d0101.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2023-09-08-hybrid-warfare-center-2306f5d908.md",
+      "sha256": "76206f67dd282d8277904787f768683ba3bdf6fcfda506c0833c87a0572434d1",
+      "copy_path": "來源文字/main/d0102.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2023-10-07-3a1ab9a658.md",
+      "sha256": "0e54c136dc5fe05d5bdd8c6b0527890e416ebc7032b4aeb810acc49f4034723c",
+      "copy_path": "來源文字/main/d0103.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2023-12-16-7d970c40d0.md",
+      "sha256": "d819b33b7e7b94e87f14f76c1923e1bf3ea86ed3f8f65843787776cccf22fc31",
+      "copy_path": "來源文字/main/d0104.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2023-12-23-14f4d1335e.md",
+      "sha256": "42340994cf7708972f21309df7115e4c2d94706be20f87d8ce7a704ed2b43bc7",
+      "copy_path": "來源文字/main/d0105.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2023-12-27-98ae6824ed.md",
+      "sha256": "386cacdf1a6859da8705cd194273821c7149a32847782f09b53167d09882e35a",
+      "copy_path": "來源文字/main/d0106.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-cautious-night-2026-11-06-ac1166e713.md",
+      "sha256": "0207558f2e22ce0fc888cadefd250568ca1e6c5cb6aa5cb0dc24e58b4a3581d1",
+      "copy_path": "來源文字/main/d0107.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-cautious-night-2026-11-06-transcript-84a3c52c68.md",
+      "sha256": "4bf13682b569515b61065a8a9e4c1c0868b54e63f95b89ec13ee6a360ef09942",
+      "copy_path": "來源文字/main/d0108.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-chen-chien-chih-visit-2026-11-05-d8d0982af5.md",
+      "sha256": "0e43955a43fd1d84a863e2d710e091849993c607c17739c7ece5261ddb034e93",
+      "copy_path": "來源文字/main/d0109.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-chen-chien-chih-visit-2026-11-05-transcript-9b99cb7de7.md",
+      "sha256": "e36c9194ec13b52ecb8c8c803c9632ae707d0d1b482199949a1481144bf090ff",
+      "copy_path": "來源文字/main/d0110.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-taipei-debate-press-2026-10-31-55c9ef3c26.md",
+      "sha256": "e6670a52681661a6431b4022a804bad7853fce9f796883e9c72ef1085dbe7768",
+      "copy_path": "來源文字/main/d0111.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-taipei-debate-press-2026-10-31-transcript-7330c51289.md",
+      "sha256": "425c0229a601e50e5e6bf2aefd2d3713cf8c7e2520ca1951930642fac678123e",
+      "copy_path": "來源文字/main/d0112.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-taipei-mayoral-debate-2026-10-31-b0aa27bd54.md",
+      "sha256": "14d38bfc57e98e1e0808b04cc98f8b76a6cab9d93bf169f3aa6b264174375edc",
+      "copy_path": "來源文字/main/d0113.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-taipei-mayoral-debate-2026-10-31-transcript-ec33d4f163.md",
+      "sha256": "74b66741b98fc0f61b9e068a3b423f2522fd392b9fef7ee42497cb363f305a32",
+      "copy_path": "來源文字/main/d0114.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-foreign-defense-committee-2026-10-28-bb13ca12f9.md",
+      "sha256": "b44179f3d8cfb73f786bb1805a60dbe8c35c9c9483d23ca52281068a1fdd11c7",
+      "copy_path": "來源文字/main/d0115.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-foreign-defense-committee-2026-10-28-transcript-974862850c.md",
+      "sha256": "ef36b592b65d9bcd8653dfc9632f4a795bb3510ec04602f0b902a322f00756e4",
+      "copy_path": "來源文字/main/d0116.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-ocean-policy-colorbook-2026-10-27-9647c5a60e.md",
+      "sha256": "7e2e39d60d9babd0ee315ffbd80ed7a66fdd1afb0c637ea89e10a9bfacee10c5",
+      "copy_path": "來源文字/main/d0117.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-ocean-policy-colorbook-2026-10-27-transcript-9499688958.md",
+      "sha256": "b9d5321b53dbece3c26271dcd41814e773ea1a684b57fd6b1d19503390ea05dc",
+      "copy_path": "來源文字/main/d0118.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-taipei-water-culture-2026-10-26-ebe5e75b8d.md",
+      "sha256": "74f5d659160bdacb071fb176e8f36aca248026f9072fe2e76731d23812c2462d",
+      "copy_path": "來源文字/main/d0119.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-taipei-water-culture-2026-10-26-transcript-9fa16328f1.md",
+      "sha256": "86d4047f5773d091aa9ad17c241c7a779f7003649db988ae8bf32b64e5fcc64e",
+      "copy_path": "來源文字/main/d0120.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-zhiding-ep127-6ad47e849f.md",
+      "sha256": "7af260b383b1311929c74c01b23a9a3b74b554e9c6d39d963067eff2a6237e30",
+      "copy_path": "來源文字/main/d0121.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-zhiding-ep127-transcript-e8043b5ca0.md",
+      "sha256": "c32ec529c17b76fc89b123ab2783e13ecbf7319c01591b8e6b8e40a27e48f45c",
+      "copy_path": "來源文字/main/d0122.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-city-debug-2026-10-24-52410f2694.md",
+      "sha256": "b1a5c793a0d295f6846666e6a76416a626996c393ebe5642cfdc67128ac4de69",
+      "copy_path": "來源文字/main/d0123.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-city-debug-2026-10-24-transcript-fbd9dfc8cd.md",
+      "sha256": "61bf607133b56765734d420dc4530f71c47032f3b07b3bd7c4a4d73f5d44fd19",
+      "copy_path": "來源文字/main/d0124.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-in-between-spaces-2026-10-22-9aa628d84e.md",
+      "sha256": "9bc0cff471fdca45eb3b7b3ad16c759c379415b3ed73b9593c4b41b0f129ce1e",
+      "copy_path": "來源文字/main/d0125.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-in-between-spaces-2026-10-22-transcript-67b0572e21.md",
+      "sha256": "4a21da8416ca2acbe833b962670e0048f1a6e0a46001b120818aefed69496182",
+      "copy_path": "來源文字/main/d0126.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-taipei-ocean-current-pages-dev-root-d68be4917c.md",
+      "sha256": "cdb99f4db69a9487742fd8a0f2adaf6cccb7d6fd4f626314848c8e1db6b7afe6",
+      "copy_path": "來源文字/main/d0127.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-09-27-e10e2f4ddf.md",
+      "sha256": "5b14f94eaf640d85c57de9f031e230b9cf295e1f9b8ad0c5f0db6ed3670f1ee9",
+      "copy_path": "來源文字/main/d0128.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-transcript-pages-dev-article-eb57d9685d.md",
+      "sha256": "5a881115dbef09e902b18f666ffc462daeaa2e3624f616627f149380b9b2b98f",
+      "copy_path": "來源文字/main/d0129.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-scholars-2026-u8901006-workers-dev-root-a5fd582955.md",
+      "sha256": "5b25fec27a8f621c455b02634ea814b175b22644cdbb88744012c3b50beaa59b",
+      "copy_path": "來源文字/main/d0130.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-09-23-f76c101ae3.md",
+      "sha256": "9fee422ad2a662ffda133f54daba1030f4d97b91fec64e3fae416b7196fe1ec4",
+      "copy_path": "來源文字/main/d0131.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2025-10-30-df1fb13181.md",
+      "sha256": "7c7c4a4a907e52a61520d4c2c5fd23f94d2f4af69c5de4bb6424647b6ff61610",
+      "copy_path": "來源文字/main/d0132.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2025-12-03-2928c19f8f.md",
+      "sha256": "e08e16f511ff0c17711fc54188edf560e7d59af9ea7060e70391dc7688ad64af",
+      "copy_path": "來源文字/main/d0133.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-09-23-nvidia-beitou-46c4758032.md",
+      "sha256": "6c1f574aa2e55e44560aca22a9d53874c8f70f78f708c6c34ce6d57eded95a50",
+      "copy_path": "來源文字/main/d0134.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-shen-interview-pages-dev-puma-shen-2026-09-12-3636461308.md",
+      "sha256": "973521f23c916b390aeae0e12e6e7094ce50e4497c03156c6400978153b56637",
+      "copy_path": "來源文字/main/d0135.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-zhongshan-datong-policy-ef2ec49f39.md",
+      "sha256": "e35485ee950b24075a286ca752177143b9caa8e345a672c7a06a4be2e16151d9",
+      "copy_path": "來源文字/main/d0136.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/interview_article-puma-hub-pages-dev-articles-digitaiwan-hd636-a7e6bf8b30.md",
+      "sha256": "c1f6c47878acd5e1a80a11f734190c86d12a86799d26aa92d2c4fd42958b9aca",
+      "copy_path": "來源文字/main/d0137.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-reuters-debate-preparation-2026-11-06-article-md-fc6b1a3994.md",
+      "sha256": "ac3179e334e47c70792789dd654b38aaa3f8b3d27065f9db093adec58e973146",
+      "copy_path": "來源文字/main/d0138.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-reuters-debate-preparation-2026-11-06-transcript-md-13a90ae76b.md",
+      "sha256": "21cdd956ceb1cb7b03fc4bccd1abd9c5f7fece96b7610df899c4c69a12a301f8",
+      "copy_path": "來源文字/main/d0139.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-hub-pages-dev-articles-taiwan-frontline-full-2026-11-06-transcript-4774a7b5db.md",
+      "sha256": "f9fc18c318239418fa248c874c4199a2ebcd5ebf1c5e6d35fe2658bc4791b54d",
+      "copy_path": "來源文字/main/d0140.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-taiwan-frontline-2026-11-06-article-md-de3175ec32.md",
+      "sha256": "04b76dc4d8a4e7c349275220d71d9e2ad5fc6056d3d78355af1156c5a08002ff",
+      "copy_path": "來源文字/main/d0141.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-taiwan-frontline-2026-11-06-transcript-md-6c166851bc.md",
+      "sha256": "92ee3b94fce7a6eeeb69412e8369e792a6e13dcc6b31514baaa6013de42f8fb9",
+      "copy_path": "來源文字/main/d0142.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-taiwan-frontline-full-2026-11-06-article-md-a3a58ea0ba.md",
+      "sha256": "15b7f407982e28bd4c6316684738aceef7fcecc5d6faaa14aa9996642ebb0db0",
+      "copy_path": "來源文字/main/d0143.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-taiwan-frontline-full-2026-11-06-transcript-md-7f82f2be7b.md",
+      "sha256": "bab6be9373a2382a4b17c94043aa7126fe109019e4f28f8b2d40fa2649d60cda",
+      "copy_path": "來源文字/main/d0144.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-eleven-oclock-hot-2026-11-03-article-md-b9cfd4263a.md",
+      "sha256": "14d3840392e07620620dc72e123420c06a7dc181a9676991e255fb9ef0b8ae5f",
+      "copy_path": "來源文字/main/d0145.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-eleven-oclock-hot-2026-11-03-transcript-md-d4a2d486b6.md",
+      "sha256": "06f2ca05b7055ed1e99a920c90e9c1e324ed0b29079f297f15314401f8ea86ab",
+      "copy_path": "來源文字/main/d0146.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-today-world-2026-11-04-article-md-c65316a67a.md",
+      "sha256": "59355d371944a67b365ad556275c8ffdea86e4a945d751079ad9b63c4a925f93",
+      "copy_path": "來源文字/main/d0147.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-today-world-2026-11-04-transcript-md-c98be34d24.md",
+      "sha256": "0b964a9f58810dc6fdd7457cde38b164775f3e0a02315530e1b8bbdf0c04f755",
+      "copy_path": "來源文字/main/d0148.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-business-week-taipei-2026-11-02-article-md-f623153779.md",
+      "sha256": "337de48532d67f0b3e4312f1bdc0eb75dc60aa493650bd8c1747a01c7df93e8b",
+      "copy_path": "來源文字/main/d0149.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-business-week-taipei-2026-11-02-transcript-md-978c2f028d.md",
+      "sha256": "7ab4fbdc72611c0f1d372f770e9c802d14c085b1439f09f00b0f2b20c8ebd61f",
+      "copy_path": "來源文字/main/d0150.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-news-face-to-face-2026-11-02-article-md-377ef4301c.md",
+      "sha256": "59d7e0f258ea5e79e1130df2a64f35ccec6e9107c558b6c8363917e6c2180476",
+      "copy_path": "來源文字/main/d0151.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-news-face-to-face-2026-11-02-transcript-md-c66890771d.md",
+      "sha256": "3c13e29d0c03d726d6599ad05dce83b522587b84593905298357cc09e6c1d6ff",
+      "copy_path": "來源文字/main/d0152.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-new-era-boys-ep69-2026-10-31-article-md-6a8eaf28c6.md",
+      "sha256": "1bb2deaa98e3d327e0b4d40cec68c663fbd3caf193257ba460af15ece9faff99",
+      "copy_path": "來源文字/main/d0153.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-new-era-boys-ep69-2026-10-31-transcript-md-d07e6eb6e0.md",
+      "sha256": "1d3891ef83f70b77216abd1a88727dc99b7f15b82c9391723e2c0178358af8bd",
+      "copy_path": "來源文字/main/d0154.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-shen-chunhua-s2ep6-2026-article-md-9d84eae122.md",
+      "sha256": "14a7fed68cdd772fa10f2b4313e93d4a8951276717a074af0c247383069999bd",
+      "copy_path": "來源文字/main/d0155.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-shen-chunhua-s2ep6-2026-original-docx-a2be15494a.md",
+      "sha256": "f84abf93edf4d1c6cc38627b0d382209ac87c6d15b1debbb4f75631fc248d534",
+      "copy_path": "來源文字/main/d0156.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-shen-chunhua-s2ep6-2026-transcript-md-c2c8c1ed7e.md",
+      "sha256": "bb61bced8e32c3aabec935ae5feaf1694ee270c7f1a605476ae4d90614188160",
+      "copy_path": "來源文字/main/d0157.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-mirror-election-2026-10-26-article-md-7aca6233fb.md",
+      "sha256": "e9ccb07901d56b0f865039591cdf098502632c82a8f13335e8bb04b428471555",
+      "copy_path": "來源文字/main/d0158.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-mirror-election-2026-10-26-transcript-md-0e53dc089c.md",
+      "sha256": "318a2f73cb08c3e0e1b2769357806c63d2c000991ac5a9bb9c35ddbc2c636927",
+      "copy_path": "來源文字/main/d0159.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-taiwan-on-air-2026-10-28-article-md-a8dcc7c2d6.md",
+      "sha256": "73b1576bc1592b9f1057196f73c873061b76085dac34616a332e5b2a4cafa41a",
+      "copy_path": "來源文字/main/d0160.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-taiwan-on-air-2026-10-28-transcript-md-2582fd9fcc.md",
+      "sha256": "18e237c7d5a0db4082b5e7d495b3b69fd5ee815f0a52d5c3c9334a4f7f38293b",
+      "copy_path": "來源文字/main/d0161.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-yaqin-english-2026-10-25-article-md-7587bd39df.md",
+      "sha256": "a290155976c5457c84adc75671353519b4867b5d9afc49d7b6ba22c79f334361",
+      "copy_path": "來源文字/main/d0162.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-yaqin-english-2026-10-25-transcript-md-9ec151495f.md",
+      "sha256": "bc3de55dc4909c73b0330c34212206bd1d6f170b3eee322e053008a677c20ae3",
+      "copy_path": "來源文字/main/d0163.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-yaqin-world-2026-10-25-article-md-7915d05c97.md",
+      "sha256": "226c9d9390a7e80860d16612394ca16ba0c97c175e8d5d04e01a17983dcd21fc",
+      "copy_path": "來源文字/main/d0164.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-yaqin-world-2026-10-25-transcript-md-701f3e79ff.md",
+      "sha256": "0e528d0a40a0036d901eda23dbb05178c4b69ff0c5758a90195a1610acac5e56",
+      "copy_path": "來源文字/main/d0165.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-humanzoo-s3ep173-article-md-5d6d5d6431.md",
+      "sha256": "5f034839289f0629cc220c6564fda520b4a6c6b98bceaf811f27e5bcbc0f4143",
+      "copy_path": "來源文字/main/d0166.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-humanzoo-s3ep173-transcript-md-b1ccae12c0.md",
+      "sha256": "2ce2d23dd1011d203e8cc950402c0c7bb0a529ee957e23dc230b9b37058842d6",
+      "copy_path": "來源文字/main/d0167.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-humanzoo-s3ep174-article-md-4388a19a87.md",
+      "sha256": "ec491175284ae98beea0f7430cfd913a4fc3b97fc1c169b525140d2aa76f043d",
+      "copy_path": "來源文字/main/d0168.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-humanzoo-s3ep174-transcript-md-6d26913e47.md",
+      "sha256": "7d8a28c9893bd26800938525d2b026454a2792ef082faf0d264554dc2e9adb4d",
+      "copy_path": "來源文字/main/d0169.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-jomotalk-ep397-article-md-47c31d7545.md",
+      "sha256": "af2d18796c8658f31db0085aefa35c7022f7c739f4facfcbc181bf1a91ae8b38",
+      "copy_path": "來源文字/main/d0170.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-jomotalk-ep397-transcript-md-828b2b4d71.md",
+      "sha256": "b9a7a660e1362b7eed54b5170e0f380f1fc3beb6c9e442022f627726ead8e608",
+      "copy_path": "來源文字/main/d0171.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-chiou-podcast-ep137-article-md-e4571b5027.md",
+      "sha256": "5acd227bdf42fd88b3063491d8400a614eccda51f98c7ac2e4612df3264a7723",
+      "copy_path": "來源文字/main/d0172.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-chiou-podcast-ep137-transcript-md-32cd2361ea.md",
+      "sha256": "5b0d5f6cca3fe8e05725b422c55d8043364ef910dd116dc96bb4a92e06b090aa",
+      "copy_path": "來源文字/main/d0173.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-fang-yehan-2026-10-20-article-md-e30e3b3409.md",
+      "sha256": "0262dcf4aa26d2a31fa398b8ca81f0f0fc134d610077c42b594e1716dda52511",
+      "copy_path": "來源文字/main/d0174.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-fang-yehan-2026-10-20-transcript-md-c92f1397f4.md",
+      "sha256": "7975f4e8cb779960b62073bb1643cec2f01b36da0e8c8781a2bedfb555b3f41b",
+      "copy_path": "來源文字/main/d0175.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-wang-qianqiu-2026-10-20-article-md-f02e8998e5.md",
+      "sha256": "4e4eb01f143cd2c75eb3aa6526a8fa0a67b4177a8d6688f1f3b0e8bdce2f8d5e",
+      "copy_path": "來源文字/main/d0176.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-wang-qianqiu-2026-10-20-transcript-md-b8fa0d639c.md",
+      "sha256": "bc4cc47265477d5b0c54cdf892cd3ed41f07f7a2bfbf78ee9f24f95547b8b0b5",
+      "copy_path": "來源文字/main/d0177.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-nexttv-inside-2026-10-19-article-md-f5323bc383.md",
+      "sha256": "67f0eb7bd019a6194dcc867edf3a8fad4ac81ea0e5d60b0f463f9f975ec85431",
+      "copy_path": "來源文字/main/d0178.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-nexttv-inside-2026-10-19-transcript-md-ccf1c4f8b2.md",
+      "sha256": "23c415a5794c1a9de23218143d54b10aa67405bfcbb964f1d1056c810010c4be",
+      "copy_path": "來源文字/main/d0179.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-iszn-dageng-2026-10-19-article-md-be6d18c842.md",
+      "sha256": "57e5bac2dfde1c6b9583ae31df1512aeca18e31aa9056b9df647a157c901a84b",
+      "copy_path": "來源文字/main/d0180.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-iszn-dageng-2026-10-19-transcript-md-31bc44f78f.md",
+      "sha256": "6bfc480771d9396e3d2971b230eaf265c0737bed84f6f3d175a9c8beeef13860",
+      "copy_path": "來源文字/main/d0181.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-huang-guangqin-2026-10-19-article-md-60f479f719.md",
+      "sha256": "d94e4a4bf9436ea902079cd7d39858bf96a9820b3a673c76245da2e87fb24050",
+      "copy_path": "來源文字/main/d0182.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-huang-guangqin-2026-10-19-transcript-md-e3d0f9de01.md",
+      "sha256": "522b097b6023798f73864c3b73c26e09b171177aaf7713b28e91f63ae0aeb8b3",
+      "copy_path": "來源文字/main/d0183.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-wu-danru-2026-10-19-article-md-41cb8bb17d.md",
+      "sha256": "d779cf260b6ef58577819635a6e2056f060eceaeae16fece0ff524d2f3f8c6cc",
+      "copy_path": "來源文字/main/d0184.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-wu-danru-2026-10-19-transcript-md-6d702b0c59.md",
+      "sha256": "178d6636f5af8a4700e3397c811ffa4326c7f2c4aff7995fa943f218f5db313e",
+      "copy_path": "來源文字/main/d0185.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-ttv-hall-of-fame-2026-10-15-article-md-80dffb2f78.md",
+      "sha256": "54622aeb30a80a3bd34f53625207c8a154d94bc8e4780b6279b205dbfc9eb33b",
+      "copy_path": "來源文字/main/d0186.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-ttv-hall-of-fame-2026-10-15-transcript-md-5ab41e78ea.md",
+      "sha256": "a66b1f78d9851b6feb74574aa9ed248d6f80311a11b042caf7c4486b87a9bd9c",
+      "copy_path": "來源文字/main/d0187.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-loneliness-city-government-article-md-51b22ec552.md",
+      "sha256": "e11cce5f3cdfcfa59bfe2d8234724392a7af999f195390c99e1914a0795321e4",
+      "copy_path": "來源文字/main/d0188.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/source_notes_attachment-puma-hub-pages-dev-articles-loneliness-city-government-source-notes-md-80f62364bc.md",
+      "sha256": "dd790956153a4b18a4b0a6cc0c183c38e192bddd4242140024c4e71cb5c007c7",
+      "copy_path": "來源文字/main/d0189.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-loneliness-city-government-transcript-md-87ab19b49f.md",
+      "sha256": "ede6df0b79404c484b91758593b24455e7f92ebc9dcf1aa002e9fd65ab7cce92",
+      "copy_path": "來源文字/main/d0190.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-loneliness-city-government-captions-json-a14150de0a.json",
+      "sha256": "32020aede9be30d87a049d1e1e3e2daae7f784b3484c2bc999cf0a77f69f8610",
+      "copy_path": "來源文字/main/d0191.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-zhao-shaokang-2026-10-14-article-md-52430beae2.md",
+      "sha256": "04354f53cb5e3b845effe94465aaf074a0f77742e72607c6c63a4e9b60e2e783",
+      "copy_path": "來源文字/main/d0192.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-zhao-shaokang-2026-10-14-transcript-md-203deaba21.md",
+      "sha256": "8a47cea2463c8527e0540ad983e8381f95c336bd105ce3b738f736ab83682355",
+      "copy_path": "來源文字/main/d0193.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-qiang-news-2026-10-12-content-md-b3113f2611.md",
+      "sha256": "b36ee4d63e33669d0fe857e0f2f0031280bfbd19bf9d1b0c70fa126ef11b9aca",
+      "copy_path": "來源文字/main/d0194.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-ep148-content-md-2716bb3325.md",
+      "sha256": "e983863bce318af2405f04e7fd40acdd1e5d8bd1373fcc5638137d9c3d85eea2",
+      "copy_path": "來源文字/main/d0195.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-cautious-night-2026-11-06-article-md-dd58784b9c.md",
+      "sha256": "0a3159ba024abae295bc4e3dcd6928641e18b5f2b871c12177d00ff928c640f3",
+      "copy_path": "來源文字/main/d0196.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-cautious-night-2026-11-06-transcript-md-b8343a444f.md",
+      "sha256": "f62b459e992adda6ab44b69a47aee4e947db60fbd5dfecf6ddd158f39903966d",
+      "copy_path": "來源文字/main/d0197.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-chen-chien-chih-visit-2026-11-05-article-md-1eef531971.md",
+      "sha256": "1ab0ec35cb7b426a451fa561ffe48f40f834197000d778b7a24e595ca1cf1038",
+      "copy_path": "來源文字/main/d0198.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-chen-chien-chih-visit-2026-11-05-transcript-md-0f0ed3e280.md",
+      "sha256": "39ff1adeea4b3a27c412a4333ad4ea0cf2cb86d1c944d3ae8b2d78bfdab86903",
+      "copy_path": "來源文字/main/d0199.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-taipei-debate-press-2026-10-31-article-md-eab4b495f8.md",
+      "sha256": "b959bb7a98449846320683f88111faa4875ea6517729dd06ccbeb65df5275e3b",
+      "copy_path": "來源文字/main/d0200.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-taipei-debate-press-2026-10-31-transcript-md-7cafea21f8.md",
+      "sha256": "1b640f8b66fa97531aacb752f6aff0f29c7b0b46d119f868fcdb8f0053df5c79",
+      "copy_path": "來源文字/main/d0201.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-taipei-mayoral-debate-2026-10-31-article-md-9c5adfff2a.md",
+      "sha256": "e729e47c4f889b72df1b4bd2c9d9fed79d0f5abd799b40a49cc1f0c862ed8ccb",
+      "copy_path": "來源文字/main/d0202.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-taipei-mayoral-debate-2026-10-31-original-md-2deee697f4.md",
+      "sha256": "c9c888aba22406cc490e534ec5bbe2d5bf4dad874573bd59891ce068dca33766",
+      "copy_path": "來源文字/main/d0203.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-foreign-defense-committee-2026-10-28-article-md-427c999953.md",
+      "sha256": "a32f77b52e66dc600c96e0e31dc6d947511f79e00575cf186f831d6a36b04cc3",
+      "copy_path": "來源文字/main/d0204.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-foreign-defense-committee-2026-10-28-transcript-md-455317f39d.md",
+      "sha256": "f19891b13f4af5dc1d60ee6bc5a922e840644905baea63e30fe8c91074ea5310",
+      "copy_path": "來源文字/main/d0205.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-ocean-policy-colorbook-2026-10-27-article-md-f848643e06.md",
+      "sha256": "6ce20c5ba7eb4fe8b7b42d1638eb7b4725a46aae9c3d5f97a654ec7b71652127",
+      "copy_path": "來源文字/main/d0206.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-ocean-policy-colorbook-2026-10-27-transcript-md-51027835a7.md",
+      "sha256": "6f038f68553eb73e1f3f349c9ee0dd22537970f2d9dc60a003f5a0f12cfda64a",
+      "copy_path": "來源文字/main/d0207.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-taipei-water-culture-2026-10-26-article-md-bb3c3c0287.md",
+      "sha256": "a69f15f0233abac86ffb32623d87277c54ebfb8a3dfaa604d9e7ea72b4d50e8b",
+      "copy_path": "來源文字/main/d0208.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-taipei-water-culture-2026-10-26-transcript-md-aca689bb7c.md",
+      "sha256": "ba7e4d6fba9ac166b3f59dede72873f59a8fb1bd64607b7bc6b3e732fbcba897",
+      "copy_path": "來源文字/main/d0209.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-zhiding-ep127-article-md-96b8587c92.md",
+      "sha256": "e4a3ae27f6336f0dba43b243e91d7e4740941a71c56ab2d303a19118f8167d11",
+      "copy_path": "來源文字/main/d0210.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-zhiding-ep127-transcript-md-fd92770dd2.md",
+      "sha256": "720a53ed253d5c97348d12c2f01dd729408904f39d5a855256dca87dd9ffdd19",
+      "copy_path": "來源文字/main/d0211.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-city-debug-2026-10-24-article-md-5d7009616a.md",
+      "sha256": "d0aa8f8bf97fc4f3b9a91ccc348b0b1fb84c485946c3f4df3cab6c390299513d",
+      "copy_path": "來源文字/main/d0212.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-city-debug-2026-10-24-transcript-md-0dd12945cf.md",
+      "sha256": "3cdca441ba70264a9c479bd7d091b45c9a5cc363be003d0e86e2ae983cd56b17",
+      "copy_path": "來源文字/main/d0213.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/article_attachment-puma-hub-pages-dev-articles-in-between-spaces-2026-10-22-article-md-f0a101cb8c.md",
+      "sha256": "8146f418e2d8b9773726b05d9e5edae5c7e7fbcadc427e42e9dba3ef206a86bb",
+      "copy_path": "來源文字/main/d0214.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-in-between-spaces-2026-10-22-transcript-md-fb99e92057.md",
+      "sha256": "f9c0d43ba158f6968c412f74d4fcaf7a2089f40c0b12da516ab1035cb4f837f7",
+      "copy_path": "來源文字/main/d0215.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_page-puma-transcript-pages-dev-root-4853aaae66.md",
+      "sha256": "4fc21ea59c210423c322571d42d5e4ac947ff691c9acd25f23cdc9eb65c962eb",
+      "copy_path": "來源文字/main/d0216.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-zhongshan-datong-policy-content-md-e57fb809e6.md",
+      "sha256": "d41e1979e26a59c6bd123ca88687b7ced714d9d6f6adb42e6c4067c210dfd863",
+      "copy_path": "來源文字/main/d0217.md",
+      "exact_copy": true
+    },
+    {
+      "source_path": "00_來源資料/2026-11-06_更新版01/訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-digitaiwan-hd636-content-md-4b69b763be.md",
+      "sha256": "fc96293fb152ecf6e28ea4ccd710ff1cb76831bf5e820b0e63a809437da88a49",
+      "copy_path": "來源文字/main/d0218.md",
+      "exact_copy": true
+    }
+  ]
+}

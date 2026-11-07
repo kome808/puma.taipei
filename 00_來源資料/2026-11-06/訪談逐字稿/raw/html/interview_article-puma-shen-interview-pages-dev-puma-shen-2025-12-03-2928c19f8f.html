@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>地圖不只導航，也記錄位置：高德地圖與中資 APP 的資安風險 — 立法院質詢沈伯洋｜PUMA 老師文章</title>
+<meta name="description" content="本文依 15 分鐘質詢的三個段落整理：地圖 APP 與國安、台美交往法案與預算攻防，以及《舊金山和約》與聯合國第 2758 號決議相關論述。官員的說明和沈伯洋的判斷分開呈現，讀者可回看原始影片了解完整問答脈絡。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="地圖不只導航，也記錄位置：高德地圖與中資 APP 的資安風險 — 立法院質詢沈伯洋">
+<meta property="og:description" content="本文依 15 分鐘質詢的三個段落整理：地圖 APP 與國安、台美交往法案與預算攻防，以及《舊金山和約》與聯合國第 2758 號決議相關論述。官員的說明和沈伯洋的判斷分開呈現，讀者可回看原始影片了解完整問答脈絡。">
+<meta property="og:locale" content="zh_TW">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="progress"><div class="progress__bar" id="progressBar"></div></div>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="index.html">
+      <svg class="paw" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#182840"/><g fill="#c6f24e"><ellipse cx="32" cy="41" rx="12.5" ry="10"/><circle cx="15.5" cy="28" r="6"/><circle cx="26" cy="19.5" r="6.4"/><circle cx="38" cy="19.5" r="6.4"/><circle cx="48.5" cy="28" r="6"/></g></svg>
+      <span><em>PUMA</em> 老師的另一場戰局</span>
+    </a>
+    <nav class="topnav">
+      <a href="#route" data-spy-target="route">主題路線</a>
+      <a href="#points" data-spy-target="points">核心要點</a>
+      <a href="#transcript" data-spy-target="transcript">文章精華</a>
+      <details class="article-menu"><summary>所有文章</summary><div class="article-menu__items">
+<a href="index.html">佳頴T政步｜TVBS</a>
+<a href="puma-shen-2026-04-12.html">雙北戰局｜筱君台灣PLUS</a>
+<a href="puma-shen-2025-05-27.html">百靈果《The KK Show》</a>
+<a href="puma-shen-2025-10-30.html">10/30 國會質詢</a>
+<a href="puma-shen-2025-12-11.html">斐姨所思 EP271</a>
+<a href="puma-shen-2026-08-23.html">下班瀚你聊 Ep402</a>
+<a href="puma-shen-2026-09-07.html">POP最正點專訪</a>
+<a href="puma-shen-2026-09-13.html">話時代人物專訪</a>
+<a href="puma-shen-2026-09-23.html">西門町街講</a>
+<a href="puma-shen-2026-09-23-nvidia-beitou.html">輝達北士科公民會</a>
+<a href="puma-shen-2026-09-27.html">兒少環境倡議</a>
+<a href="puma-shen-2026-10-07.html">少康戰情室｜沈伯洋直球對決</a>
+<a href="puma-shen-2026-07-17.html">馬力歐 S8EP169｜台北市長</a>
+<a href="puma-shen-2021-03-05.html">馬力歐 S5EP08｜資訊戰</a>
+<a href="puma-shen-2022-12-26.html">斐姨所思 EP46</a>
+<a href="puma-shen-2024-06-08.html">斐姨所思 EP169</a>
+<a href="puma-shen-2025-08-31.html">話時代人物｜家庭專訪</a>
+<a href="puma-shen-2025-11-22-we-will-never-back-down.html">我們絕不退縮</a>
+<a href="puma-shen-2025-11-22-huashi-san-guo-yi.html">華視《三國演議》</a>
+<a href="puma-shen-2025-12-13.html">筱君台灣PLUS</a>
+<a href="puma-shen-2026-08-18.html">POP大國民｜林穎佑</a>
+<a href="puma-shen-2026-08-26.html">POP大國民｜平秀琳</a>
+<a href="puma-shen-2026-09-03.html">POP搶先爆｜周楷</a>
+<a href="puma-shen-2023-04-11.html">百靈果 KK187｜網軍</a>
+<a href="puma-shen-2023-08-29.html">百靈果 KK212｜收養</a>
+<a href="puma-shen-2023-09-08-pla-hackers.html">REAL TALK Ep17 上</a>
+<a href="puma-shen-2023-09-08-hybrid-warfare-center.html">REAL TALK Ep17 下</a>
+<a href="puma-shen-2023-10-07.html">三國演議 2023/10</a>
+<a href="puma-shen-2023-12-16.html">三國演議 2023/12</a>
+<a href="puma-shen-2023-12-23.html">政經最前線</a>
+<a href="puma-shen-2023-12-27.html">寶島全世界</a>
+<a href="puma-shen-2026-09-12.html">東京後援會演說</a>
+      </div></details>
+      <a class="nav-cta" href="https://youtu.be/qgROien6aHI" target="_blank" rel="noopener">▶ 觀看原片</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top"><div class="hero__inner">
+      <span class="kicker">立法院外交及國防委員會｜沈伯洋委員質詢</span><h1><span class="hl">地圖不只導航，也記錄位置</span></h1>
+      <p class="hero__sub">本文依 15 分鐘質詢的三個段落整理：地圖 APP 與國安、台美交往法案與預算攻防，以及《舊金山和約》與聯合國第 2758 號決議相關論述。官員的說明和沈伯洋的判斷分開呈現，讀者可回看原始影片了解完整問答脈絡。</p>
+      <div class="hero__meta"><span class="chip">類型 <b>立法院質詢</b></span> <span class="chip">日期 <b>2025 年 12 月 3 日</b></span> <span class="chip">主持／主辦 <b>立法院外交及國防委員會</b></span> <span class="chip">出席／受訪 <b>沈伯洋、蔡明彥、林佳龍</b></span> <span class="chip">片長 <b>15 分 09 秒</b></span></div>
+      <div class="hero__actions"><a class="btn btn--primary" href="#route">↓ 從文章重點開始</a>
+        <a class="btn btn--ghost" href="https://youtu.be/qgROien6aHI" target="_blank" rel="noopener">▶ 觀看原始影音</a></div>
+    </div></section>
+
+<!-- ================= 數據 ================= -->
+<div class="stats">
+  <div class="stat reveal"><div class="stat__num">15:09</div><div class="stat__label">質詢影片長度</div></div>
+  <div class="stat reveal"><div class="stat__num">8 年</div><div class="stat__label">國防特別預算規劃年限</div></div>
+  <div class="stat reveal"><div class="stat__num">1.25 兆</div><div class="stat__label">國防特別預算規模（質詢所述）</div></div>
+  <div class="stat reveal"><div class="stat__num">3 段</div><div class="stat__label">質詢主要議題脈絡</div></div>
+</div>
+
+<!-- ================= 訪談路線 ================= -->
+<section class="block" id="route" data-spy><div class="wrap">
+      <header class="sec-head reveal"><div class="sec-eyebrow">8 CHAPTERS</div>
+        <h2 class="sec-title"><span class="num">01</span>8 個主題，讀懂這場質詢</h2>
+        <p class="sec-desc">本文依 15 分鐘質詢的三個段落整理：地圖 APP 與國安、台美交往法案與預算攻防，以及《舊金山和約》與聯合國第 2758 號決議相關論述。官員的說明和沈伯洋的判斷分開呈現，讀者可回看原始影片了解完整問答脈絡。</p></header>
+      <div class="timeline">
+      <div class="stop reveal">
+        <div class="stop__badge"><span class="t">00:00</span>序</div>
+        <div class="stop__card"><div class="stop__time">00:00</div>
+          <h3><a href="#ch0">從高德地圖切入：地圖服務需要持續的位置資訊</a></h3><p>沈伯洋指出，地圖服務為了提供導航，必須處理使用者所在位置；使用者也可能回報街景資訊或瀏覽內容。他以高德地圖為例，提到國台辦公開表示「喜聞樂見」，並詢問國安局對這類服務的資安與國安風險有何評估。</p>
+        </div>
+      </div>
+      <div class="stop reveal">
+        <div class="stop__badge"><span class="t">01:47</span>01</div>
+        <div class="stop__card"><div class="stop__time">01:47</div>
+          <h3><a href="#ch1">國安局談中製 APP 的授權、資料回傳與法律環境</a></h3><p>國安局長蔡明彥表示，國安局曾針對中國製 APP 與生成式 AI 模型進行資安檢測，觀察到部分軟體要求較多權限，可能蒐集位置、通訊或消費習慣等資料，再傳回中國境內的母公司資料庫。</p>
+        </div>
+      </div>
+      <div class="stop reveal">
+        <div class="stop__badge"><span class="t">03:34</span>02</div>
+        <div class="stop__card"><div class="stop__time">03:34</div>
+          <h3><a href="#ch2">一般資安檢測之外，地圖資料也有地理安全面向</a></h3><p>沈伯洋同意過度授權是重要議題，但強調高德地圖的疑慮不完全等同於其他 APP：即使一款地圖服務沒有明顯過度索取權限，長期導航、位置回報與街景更新仍可能使資料累積，形成另一種國安風險。</p>
+        </div>
+      </div>
+      <div class="stop reveal">
+        <div class="stop__badge"><span class="t">05:28</span>03</div>
+        <div class="stop__card"><div class="stop__time">05:28</div>
+          <h3><a href="#ch3">《台灣保證實施法案》與美臺交往準則</a></h3><p>質詢轉向美國簽署《台灣保證實施法案》（Taiwan Assurance Implementation Act）。林佳龍表示，該法案建立在《台灣保證法》與《台灣旅行法》等基礎上，目的包括讓美臺官員互訪及進入彼此政府機構洽談公務，並透過法律程序調整交往準則。</p>
+        </div>
+      </div>
+      <div class="stop reveal">
+        <div class="stop__badge"><span class="t">07:36</span>04</div>
+        <div class="stop__card"><div class="stop__time">07:36</div>
+          <h3><a href="#ch4">國防特別預算與「疑台論」的政治風險</a></h3><p>沈伯洋提及 8 年新臺幣 1.25 兆元的國防特別預算在立法院程序委員會受阻，擔心這類內部政治攻防會被外界解讀為臺灣缺乏自我防衛決心，並成為「疑台論」的素材。</p>
+        </div>
+      </div>
+      <div class="stop reveal">
+        <div class="stop__badge"><span class="t">09:46</span>05</div>
+        <div class="stop__card"><div class="stop__time">09:46</div>
+          <h3><a href="#ch5">美中通話與公開訊息落差</a></h3><p>沈伯洋指出，當時沒有完整通話譯文可供外界檢視，因此應從美中各自公布的訊息有限度地觀察。他注意到雙方對通話內容的公開說法並不一致，提醒讀者不宜把單一方的新聞稿直接視作完整紀錄。</p>
+        </div>
+      </div>
+      <div class="stop reveal">
+        <div class="stop__badge"><span class="t">10:42</span>06</div>
+        <div class="stop__card"><div class="stop__time">10:42</div>
+          <h3><a href="#ch6">以「三個 80 年」敘事檢視《舊金山和約》</a></h3><p>林佳龍表示，他觀察到中國以抗戰勝利、臺灣光復及聯合國成立等「三個 80 年」作為論述框架，並稱外交部已就歷史與法律問題準備對外說明。他提到自己在美國法學會亞太論壇的演講，以及外交部與美方、AIT 的溝通。</p>
+        </div>
+      </div>
+      <div class="stop reveal">
+        <div class="stop__badge"><span class="t">13:23</span>07</div>
+        <div class="stop__card"><div class="stop__time">13:23</div>
+          <h3><a href="#ch7">國際論述要及時，也要持續累積</a></h3><p>林佳龍接著提到，外交部與 IPAC（對中政策跨國議會聯盟）及其他國家議會合作，推動對聯合國第 2758 號決議的不同解釋與相關決議。沈伯洋認為，平時建立外交往來與論述，能讓夥伴在事件發生時更快回應；但國內政治言行也可能影響海外對臺灣的判斷。</p>
+        </div>
+      </div>
+      </div></div></section>
+
+<!-- ================= 六大論點 ================= -->
+<section class="block" id="points" data-spy><div class="wrap">
+      <header class="sec-head reveal"><div class="sec-eyebrow">KEY ARGUMENTS</div>
+        <h2 class="sec-title"><span class="num">02</span>六個核心要點</h2>
+        <p class="sec-desc">以下重點依文章內容整理，訪談觀點、機關說明與公民建議各自保留原有發言者脈絡。</p></header>
+      <div class="cards">
+      <article class="card reveal"><div class="card__icon">🏛️</div>
+        <h3>地圖 APP</h3><p>沈伯洋關注定位、街景回報與瀏覽資料累積；他認為風險不限於一般權限是否過多。</p></article>
+      <article class="card reveal"><div class="card__icon">🧭</div>
+        <h3>中製軟體</h3><p>蔡明彥表示，國安局曾檢測中製 APP 與生成式 AI，並關注權限要求、資料回傳及中國法律制度。</p></article>
+      <article class="card reveal"><div class="card__icon">🛡️</div>
+        <h3>跨部會規劃</h3><p>國安局表示相關法規與後續措施仍在跨部會研議及評估。</p></article>
+      <article class="card reveal"><div class="card__icon">🌱</div>
+        <h3>台美交往</h3><p>林佳龍說明《台灣保證實施法案》與既有法案、交往準則調整的關係。</p></article>
+      <article class="card reveal"><div class="card__icon">💬</div>
+        <h3>國防預算</h3><p>沈伯洋擔心審議受阻被操作成「疑台論」；外交部盼議案進入實質討論。</p></article>
+      <article class="card reveal"><div class="card__icon">📍</div>
+        <h3>歷史法律戰</h3><p>質詢涉及《舊金山和約》、第 2758 號決議及國際夥伴的外交論述。</p></article>
+      </div></div></section>
+
+<!-- ================= 金句 ================= -->
+<section class="banner"><div class="banner__inner reveal"><span class="banner__quote-mark">“</span>
+      <blockquote>「它即使沒有到過度的授權，但它在剛剛講國安相關的這一個，它可能比其他的風險要來得更高。」</blockquote><cite>—— 沈伯洋談地圖類 APP 的位置與街景資料風險。</cite></div></section>
+
+<!-- ================= 完整逐字稿 ================= -->
+<section class="block" id="transcript" data-spy><div class="wrap">
+      <header class="sec-head reveal"><div class="sec-eyebrow">ARTICLE SECTIONS</div>
+        <h2 class="sec-title"><span class="num">03</span>主題章節精華</h2>
+        <p class="sec-desc">依定稿 Markdown 文章整理；本頁不另行改寫逐字稿，原始逐字稿與影音請見來源連結。</p></header>
+      <div class="chapters"><aside class="toc"><h4>章節目錄</h4>
+        <a href="#ch0"><span class="tc">00:00</span>從高德地圖切入：地圖服務需要持續的位置資訊</a>
+        <a href="#ch1"><span class="tc">01:47</span>國安局談中製 APP 的授權、資料回傳與法律環境</a>
+        <a href="#ch2"><span class="tc">03:34</span>一般資安檢測之外，地圖資料也有地理安全面向</a>
+        <a href="#ch3"><span class="tc">05:28</span>《台灣保證實施法案》與美臺交往準則</a>
+        <a href="#ch4"><span class="tc">07:36</span>國防特別預算與「疑台論」的政治風險</a>
+        <a href="#ch5"><span class="tc">09:46</span>美中通話與公開訊息落差</a>
+        <a href="#ch6"><span class="tc">10:42</span>以「三個 80 年」敘事檢視《舊金山和約》</a>
+        <a href="#ch7"><span class="tc">13:23</span>國際論述要及時，也要持續累積</a>
+        </aside>
+        <div class="transcript-body">
+        <article class="chapter" id="ch0">
+          <header class="chapter-head"><span class="tc-badge">00:00</span><h3>從高德地圖切入：地圖服務需要持續的位置資訊</h3></header>
+          <div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>沈伯洋指出，地圖服務為了提供導航，必須處理使用者所在位置；使用者也可能回報街景資訊或瀏覽內容。他以高德地圖為例，提到國台辦公開表示「喜聞樂見」，並詢問國安局對這類服務的資安與國安風險有何評估。</p></div></div><div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>他在質詢中也指出，高德地圖與北斗衛星導航系統及阿里巴巴等中國機構、企業有關聯，擔心累積的街景和位置資訊會形成敏感的地理與人員動態資料。這些是委員提出的風險疑慮，不等於質詢已證明特定資料遭到不當利用。</p></div></div>
+        </article>
+        <article class="chapter" id="ch1">
+          <header class="chapter-head"><span class="tc-badge">01:47</span><h3>國安局談中製 APP 的授權、資料回傳與法律環境</h3></header>
+          <div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>國安局長蔡明彥表示，國安局曾針對中國製 APP 與生成式 AI 模型進行資安檢測，觀察到部分軟體要求較多權限，可能蒐集位置、通訊或消費習慣等資料，再傳回中國境內的母公司資料庫。</p></div></div><div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>蔡明彥並提到中國《國家情報法》與《國家安全法》所形成的資料提供義務，認為這與民主國家的個資保護制度不同，是評估中製軟體風險時的重要背景。他補充，後續法規研議及可能措施仍在跨部會評估階段，當時不適合公開細節。</p></div></div>
+        </article>
+        <article class="chapter" id="ch2">
+          <header class="chapter-head"><span class="tc-badge">03:34</span><h3>一般資安檢測之外，地圖資料也有地理安全面向</h3></header>
+          <div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>沈伯洋同意過度授權是重要議題，但強調高德地圖的疑慮不完全等同於其他 APP：即使一款地圖服務沒有明顯過度索取權限，長期導航、位置回報與街景更新仍可能使資料累積，形成另一種國安風險。</p></div></div><div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>他建議政府在公布高風險產品時，將不同類型的風險講清楚，避免只用「過度授權」一項標準理解所有軟體。蔡明彥也表示，除了軟體本身的資安問題，背後的法律制度與資料可能被政府要求提供，是另一個值得關注的層面。</p></div></div>
+        </article>
+        <article class="chapter" id="ch3">
+          <header class="chapter-head"><span class="tc-badge">05:28</span><h3>《台灣保證實施法案》與美臺交往準則</h3></header>
+          <div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>質詢轉向美國簽署《台灣保證實施法案》（Taiwan Assurance Implementation Act）。林佳龍表示，該法案建立在《台灣保證法》與《台灣旅行法》等基礎上，目的包括讓美臺官員互訪及進入彼此政府機構洽談公務，並透過法律程序調整交往準則。</p></div></div><div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>沈伯洋認為，法案設有定期檢視機制，並指出若其他國家也逐步調整對臺交往規範，對臺灣國際往來可能有幫助。文章在此保留問答中的立場，不將外交效果寫成已經實現的結果。</p></div></div>
+        </article>
+        <article class="chapter" id="ch4">
+          <header class="chapter-head"><span class="tc-badge">07:36</span><h3>國防特別預算與「疑台論」的政治風險</h3></header>
+          <div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>沈伯洋提及 8 年新臺幣 1.25 兆元的國防特別預算在立法院程序委員會受阻，擔心這類內部政治攻防會被外界解讀為臺灣缺乏自我防衛決心，並成為「疑台論」的素材。</p></div></div><div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>林佳龍表示，特別預算須依《公共債務法》等規範處理，期待議案能進入實質審查；外交部也會持續向美國及友盟溝通。沈伯洋則提醒，對外說明應交代立法院審議仍在進行，避免把程序攻防誤讀成政策已定案或臺灣放棄防衛。</p></div></div>
+        </article>
+        <article class="chapter" id="ch5">
+          <header class="chapter-head"><span class="tc-badge">09:46</span><h3>美中通話與公開訊息落差</h3></header>
+          <div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>沈伯洋指出，當時沒有完整通話譯文可供外界檢視，因此應從美中各自公布的訊息有限度地觀察。他注意到雙方對通話內容的公開說法並不一致，提醒讀者不宜把單一方的新聞稿直接視作完整紀錄。</p></div></div><div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>他隨後將問題連到歷史敘事：當中國以自身版本描述戰後秩序與臺灣地位時，外交部是否已準備好回應，成為後續質詢的主軸。</p></div></div>
+        </article>
+        <article class="chapter" id="ch6">
+          <header class="chapter-head"><span class="tc-badge">10:42</span><h3>以「三個 80 年」敘事檢視《舊金山和約》</h3></header>
+          <div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>林佳龍表示，他觀察到中國以抗戰勝利、臺灣光復及聯合國成立等「三個 80 年」作為論述框架，並稱外交部已就歷史與法律問題準備對外說明。他提到自己在美國法學會亞太論壇的演講，以及外交部與美方、AIT 的溝通。</p></div></div><div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>林佳龍並談及《舊金山和約》對臺灣法律地位的討論，以及日本首相高市早苗在國會受詢時的表述。這些國際法與歷史詮釋在質詢中屬於官員的政策說明，文章保留歸屬，不將單一說法寫成沒有爭議的定論。</p></div></div>
+        </article>
+        <article class="chapter" id="ch7">
+          <header class="chapter-head"><span class="tc-badge">13:23</span><h3>國際論述要及時，也要持續累積</h3></header>
+          <div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>林佳龍接著提到，外交部與 IPAC（對中政策跨國議會聯盟）及其他國家議會合作，推動對聯合國第 2758 號決議的不同解釋與相關決議。沈伯洋認為，平時建立外交往來與論述，能讓夥伴在事件發生時更快回應；但國內政治言行也可能影響海外對臺灣的判斷。</p></div></div><div class="turn turn--people"><div class="turn__avatar">摘</div><div class="turn__body"><div class="turn__who">文章整理</div><p>他最後提醒，未來可能還會出現新的法律戰議題，因此政府須持續準備論述、協調友盟並及時說明。這場質詢同時呈現資訊安全與外交敘事兩條戰線：前者關心資料如何被收集及使用，後者關心臺灣如何在國際法與外交場域說明自身立場。</p></div></div>
+        </article>
+        </div></div></div></section>
+
+<!-- ================= 其他章節 ================= -->
+<section class="block"><div class="wrap"><header class="sec-head reveal">
+      <div class="sec-eyebrow">MORE FROM PUMA</div><h2 class="sec-title">延伸閱讀</h2>
+      <p class="sec-desc">更多訪談、立法院質詢與公民活動整理，從不同場合理解政策與公共討論。</p></header>
+      <div class="cards"><article class="card reveal"><div class="card__icon">📚</div>
+          <h3>佳頴T政步｜TVBS</h3><p>延伸閱讀：探索沈伯洋相關訪談、質詢與公民活動整理。</p>
+          <p style="margin-top:0.9rem"><a class="btn btn--primary" href="index.html" style="font-size:0.9rem;padding:0.5rem 1.1rem">→ 前往閱讀</a></p></article> <article class="card reveal"><div class="card__icon">🗣️</div>
+          <h3>雙北戰局｜筱君台灣PLUS</h3><p>延伸閱讀：探索沈伯洋相關訪談、質詢與公民活動整理。</p>
+          <p style="margin-top:0.9rem"><a class="btn btn--primary" href="puma-shen-2026-04-12.html" style="font-size:0.9rem;padding:0.5rem 1.1rem">→ 前往閱讀</a></p></article> <article class="card reveal"><div class="card__icon">🌐</div>
+          <h3>百靈果《The KK Show》</h3><p>延伸閱讀：探索沈伯洋相關訪談、質詢與公民活動整理。</p>
+          <p style="margin-top:0.9rem"><a class="btn btn--primary" href="puma-shen-2025-05-27.html" style="font-size:0.9rem;padding:0.5rem 1.1rem">→ 前往閱讀</a></p></article></div></div></section>
+
+<!-- ================= CTA ================= -->
+<section class="cta"><div class="cta__inner reveal"><h2>回到來源，閱讀完整脈絡</h2>
+      <p>本文為依逐字稿整理的精華文章。涉及立場的內容均盡可能標明發言者，完整影音請以原始來源為準。</p>
+      <a class="btn btn--primary" href="https://youtu.be/qgROien6aHI" target="_blank" rel="noopener">▶ 觀看原始影音</a></div></section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site"><div class="footer__inner">
+      <div class="footer__note">本頁為依據 <a href="https://youtu.be/qgROien6aHI" target="_blank" rel="noopener">原始節目／活動來源</a>整理的非官方文章網頁；觀點歸屬與具體說法請以原始影音及逐字稿為準。<br>
+        文章內容來源：<code>2025-12-03_沈伯洋質詢國安局與外交部_中國地圖APP資安與中台局勢_PUMA老師文章.md</code></div>
+      <div><div>立法院質詢｜2025 年 12 月 3 日｜15 分 09 秒</div>
+        <div style="margin-top:0.5rem"><a href="puma-shen-2026-07-17.html">另一場：馬力歐陪你喝一杯 S8EP169《台北市長參選人》專訪 →</a></div>
+<div style="margin-top:0.5rem"><a href="puma-shen-2026-10-07.html">另一場：《少康戰情室》沈伯洋直球對決專訪 →</a></div>
+<div style="margin-top:0.5rem"><a href="https://puma-hub.pages.dev/">📚 回到 PUMA HUB 索引</a></div></div>
+      <div class="footer-network"><strong>站內文章</strong><div class="footer-network__links">
+<a href="index.html">佳頴T政步｜TVBS</a>
+<a href="puma-shen-2026-04-12.html">雙北戰局｜筱君台灣PLUS</a>
+<a href="puma-shen-2025-05-27.html">百靈果《The KK Show》</a>
+<a href="puma-shen-2025-10-30.html">10/30 國會質詢</a>
+<a href="puma-shen-2025-12-11.html">斐姨所思 EP271</a>
+<a href="puma-shen-2026-08-23.html">下班瀚你聊 Ep402</a>
+<a href="puma-shen-2026-09-07.html">POP最正點專訪</a>
+<a href="puma-shen-2026-09-13.html">話時代人物專訪</a>
+<a href="puma-shen-2026-09-23.html">西門町街講</a>
+<a href="puma-shen-2026-09-23-nvidia-beitou.html">輝達北士科公民會</a>
+<a href="puma-shen-2026-09-27.html">兒少環境倡議</a>
+<a href="puma-shen-2026-10-07.html">少康戰情室｜沈伯洋直球對決</a>
+<a href="puma-shen-2026-07-17.html">馬力歐 S8EP169｜台北市長</a>
+<a href="puma-shen-2021-03-05.html">馬力歐 S5EP08｜資訊戰</a>
+<a href="puma-shen-2022-12-26.html">斐姨所思 EP46</a>
+<a href="puma-shen-2024-06-08.html">斐姨所思 EP169</a>
+<a href="puma-shen-2025-08-31.html">話時代人物｜家庭專訪</a>
+<a href="puma-shen-2025-11-22-we-will-never-back-down.html">我們絕不退縮</a>
+<a href="puma-shen-2025-11-22-huashi-san-guo-yi.html">華視《三國演議》</a>
+<a href="puma-shen-2025-12-13.html">筱君台灣PLUS</a>
+<a href="puma-shen-2026-08-18.html">POP大國民｜林穎佑</a>
+<a href="puma-shen-2026-08-26.html">POP大國民｜平秀琳</a>
+<a href="puma-shen-2026-09-03.html">POP搶先爆｜周楷</a>
+<a href="puma-shen-2023-04-11.html">百靈果 KK187｜網軍</a>
+<a href="puma-shen-2023-08-29.html">百靈果 KK212｜收養</a>
+<a href="puma-shen-2023-09-08-pla-hackers.html">REAL TALK Ep17 上</a>
+<a href="puma-shen-2023-09-08-hybrid-warfare-center.html">REAL TALK Ep17 下</a>
+<a href="puma-shen-2023-10-07.html">三國演議 2023/10</a>
+<a href="puma-shen-2023-12-16.html">三國演議 2023/12</a>
+<a href="puma-shen-2023-12-23.html">政經最前線</a>
+<a href="puma-shen-2023-12-27.html">寶島全世界</a>
+<a href="puma-shen-2026-09-12.html">東京後援會演說</a>
+<a href="https://puma-hub.pages.dev/">📚 回到 PUMA HUB</a>
+      </div></div>
+    </div></footer>
+
+<button id="toTop" aria-label="回到頂端">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,2825 @@
+{
+  "version": 1,
+  "assets": {
+    "a89733d3ace10a73d6c5fc78861cd4d85ab473638341431f2c68581b9ff3b81b": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "a89733d3ace10a73d6c5fc78861cd4d85ab473638341431f2c68581b9ff3b81b",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "f8ceb7a5e6220769d3a5add126a818fbaa07be41b00943d75e0efc618a2c7c06": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "f8ceb7a5e6220769d3a5add126a818fbaa07be41b00943d75e0efc618a2c7c06",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "8c881903ee078b43a865dc2f41cf17a6ed62ee4954c0cc38597b6caf7341a428": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "8c881903ee078b43a865dc2f41cf17a6ed62ee4954c0cc38597b6caf7341a428",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "ffd8bcad40bf7a4d27bd54e1333e64acebb8b62a00166756cbcd29d89adf8020": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "ffd8bcad40bf7a4d27bd54e1333e64acebb8b62a00166756cbcd29d89adf8020",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "711d13897a56089bcc6ee2afb5ae1bb01958288ef98d65ee61d56b42b6c8d930": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "711d13897a56089bcc6ee2afb5ae1bb01958288ef98d65ee61d56b42b6c8d930",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "a702e4f53cee605a397d3106a80d0ce2f9e8ce7f7b2f880830fa537a6d3f1157": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "a702e4f53cee605a397d3106a80d0ce2f9e8ce7f7b2f880830fa537a6d3f1157",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "d27b324e14faf342499a4e0d0c8dce7367a8f15227b9dd6192ade677b55af650": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "d27b324e14faf342499a4e0d0c8dce7367a8f15227b9dd6192ade677b55af650",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "f15088be7c4132472c7186686ac4860747135a66fcbf911af2733b7fdfeb6f72": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "f15088be7c4132472c7186686ac4860747135a66fcbf911af2733b7fdfeb6f72",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "19bcbc1ada99fac6f3c760abbde80fe8541106023c62b16e7d24f91ec4b2da5d": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "19bcbc1ada99fac6f3c760abbde80fe8541106023c62b16e7d24f91ec4b2da5d",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "a18827c2afdb9999011790644be8c7afefc320147965bbb3d8927ff9c3f42df0": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "a18827c2afdb9999011790644be8c7afefc320147965bbb3d8927ff9c3f42df0",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "10ed0bba457b0d1e7ce5eef3e2b44ea1914dc6b985bb159a5dda3556717ddfef": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "10ed0bba457b0d1e7ce5eef3e2b44ea1914dc6b985bb159a5dda3556717ddfef",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "e42a16e5c1554d5735f0fdb0f323dbc35d23487dc476668b529b30815258313d": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "e42a16e5c1554d5735f0fdb0f323dbc35d23487dc476668b529b30815258313d",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "78e740b700cd4961e5191e48c1525bf4bce359a3cd1ffa5b7cc795eb452eef68": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "78e740b700cd4961e5191e48c1525bf4bce359a3cd1ffa5b7cc795eb452eef68",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "17f79f827d82841399dfdfc7c6bbb02e40399a8f1093981fb9ff73f63d36355d": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "17f79f827d82841399dfdfc7c6bbb02e40399a8f1093981fb9ff73f63d36355d",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "3a12c7893bc4e1f6bd8ae54fdaf6e3c0407670bd52891555432e9b0e30024baf": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "3a12c7893bc4e1f6bd8ae54fdaf6e3c0407670bd52891555432e9b0e30024baf",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "e55553d9356f52daba115a45ebd72167630f2d0a6dc1d8ad7b800ce1df1b6b83": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "e55553d9356f52daba115a45ebd72167630f2d0a6dc1d8ad7b800ce1df1b6b83",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "df4c23cb010f2bd9a64a02144bb631d65802a111adbb8c6987ba08589fbfecd4": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "df4c23cb010f2bd9a64a02144bb631d65802a111adbb8c6987ba08589fbfecd4",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "3589614dbce3c846ac904fbf40f19b867e0528fa70bb0d46e70942935e0ccbea": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "3589614dbce3c846ac904fbf40f19b867e0528fa70bb0d46e70942935e0ccbea",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "4d68de7c52f75c7b7cf148b0bd74365ef0c646767027ce31b5d96a926c5b4c91": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "4d68de7c52f75c7b7cf148b0bd74365ef0c646767027ce31b5d96a926c5b4c91",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "79f6d29c01bfa67e10290d1b96a55621bab69a751b954860f5dd37fe660e942c": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "79f6d29c01bfa67e10290d1b96a55621bab69a751b954860f5dd37fe660e942c",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "012ba181ecce9f800fa6459e294fbc903d7a53b7704d6f5b66bb0ee731f5d8d7": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "012ba181ecce9f800fa6459e294fbc903d7a53b7704d6f5b66bb0ee731f5d8d7",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "b8675f46c81dbcd236d13c468860fe9b0616c2fa43f342b1f56a680f95efbc3b": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "b8675f46c81dbcd236d13c468860fe9b0616c2fa43f342b1f56a680f95efbc3b",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "d83ef271e87892a7311a5b7d1ccd138c5743437dcd3341cf9acb173f8f7d3fa9": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "d83ef271e87892a7311a5b7d1ccd138c5743437dcd3341cf9acb173f8f7d3fa9",
+      "page_count": 21,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        },
+        {
+          "page_number": 2,
+          "pdf_page": 2,
+          "text": "綠色通勤選項+1\n\n 4萬+         23%          60%\n  則市民留言      是交通議題        是負面情緒\n  平台上線至今累積   佔全部留言近四分之一   交通相關留言中",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 3,
+          "pdf_page": 3,
+          "text": "綠色通勤選項+1\n\n  台北交通骨幹：捷運系統\n     通車至今已30年",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 4,
+          "pdf_page": 4,
+          "text": "綠色通勤選項+1\n\n     安全＋便利\n    安全，而且方便，才叫選項",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 5,
+          "pdf_page": 5,
+          "text": "綠色通勤選項+1\n\n       安全\n 在最危險的時候，保護最脆弱的用路人",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 6,
+          "pdf_page": 6,
+          "text": "綠色通勤選項+1\n\n孩子上學的時間\n就是道路最危險的時間\n\n  6,539\n上午7-9點死傷人數，全日最高峰(2024年)\n\n★全市150多所國小，市府做了4個通學區\n\n※圖片截自北市交通局統計室《臺北市道路交通事故分析》",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 7,
+          "pdf_page": 7,
+          "text": "綠色通勤選項+1\n\n            八年完成150所建置\n     目標：通學區零死亡\n\n      於路中設置減速墊       公有地圍牆退縮設人行道   路口設置行人護欄\n\n※圖片截自交通部《校園周邊人行空間改善參考指引》",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 8,
+          "pdf_page": 8,
+          "text": "綠色通勤選項+1\n\n       安全\n   駕駛長的安全，就是乘客的安全",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 9,
+          "pdf_page": 9,
+          "text": "綠色通勤選項+1\n讓駕駛長安心開車\n乘客才會安全\n\n 2.15         4.02\n公車有責肇事率(件/百萬公里) 2024、2025\n\n短短 15 個月，7 項設備與SOP\n疊在同一個駕駛座上",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 10,
+          "pdf_page": 10,
+          "text": "綠色通勤選項+1\n\n1. 補貼駕駛長薪資\n 直接補貼駕駛長薪資並與勞動條件掛勾\n\n2. 重新設計駕駛座\n 導入人因工程，整合告警、減少干擾\n\n3. 折返點設駕駛長休息站\n 跑完一趟能真正休息再返程\n\n4. 分區路網盤點與重整\n 公車與捷運妥善分工",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 11,
+          "pdf_page": 11,
+          "text": "綠色通勤選項+1\n\n       便利\n      有路可騎，才有人騎",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 12,
+          "pdf_page": 12,
+          "text": "綠色通勤選項+1\n\n +55% YouBike騎乘成長\n 不到 5% 自行車道路網成長\n ● YouBike 目標 2,000站、27,500輛\n ● 市區自行車道沒有任何公里數目標",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 13,
+          "pdf_page": 13,
+          "text": "綠色通勤選項+1\n\n  接×養×補\n 把自行車從假日的休閒選項，變成每天可以用的通勤選項",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 14,
+          "pdf_page": 14,
+          "text": "綠色通勤選項+1\n接 補上跨河與越堤的斷點\n\n迎風–港墘跨基隆河自行車專用橋",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 15,
+          "pdf_page": 15,
+          "text": "綠色通勤選項+1\n                                                                               鐵馬驛站\n\n                                                                                      B   A\n\n底圖影像提供：Google地球，© 2026 Google, AirbusData SIO, NOAA, U.S. Navy, NGA, GEBCO 。\n\n                                                                                   A         B\n橋  長：跨河約220M+跨越堤頂大道120M；總長340M                                                            複合型自行車\n                                                                                單純上下設備\n橋梁型式：寬8米鋼拱橋(跨基隆河)+寬8米鋼橋(跨越堤頂大道)                                                            服務空間\n工程經費：9.57億\n工  期：1年10個月",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 16,
+          "pdf_page": 16,
+          "text": "綠色通勤選項+1\n\n           底圖影像提供：Google地球，© 2026 Google, AirbusData SIO, NOAA, U.S. Navy, NGA, GEBCO 。\n\n   夜景模擬",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 17,
+          "pdf_page": 17,
+          "text": "綠色通勤選項+1\n養 把河岸自行車道當通勤基礎建設管理\n鋪面．標線．照明．指標．越堤動線\n\n補 讓騎車上班，變成日常\n補上公共自行車的站點、車輛與調度\n通勤時段 YouBike 2.0E 前 30 分鐘免費\n\n＋運動驛站\n置物、盥洗、租借",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 18,
+          "pdf_page": 18,
+          "text": "綠色通勤選項+1\n\n 你可以不擁有\n  公共自行車，已經讓台北人習慣不必自己買一台自行車\n\n     那，一台機車呢？\n      台北市機車登記數超過 90萬 輛",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 19,
+          "pdf_page": 19,
+          "text": "綠色通勤選項+1\n讓TPASS多接一種車\n也讓車有地方停\nTPASS加碼\n持 TPASS 者每日一定次數，前 10 分鐘免費\n\n停車場進駐\n公有、委外，再加上民間停車場媒合\n\n合格業者一律適用",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 20,
+          "pdf_page": 20,
+          "text": "綠色通勤選項+1\n\n   安全 × 便利\n    通學區零死亡      自行車通勤路網\n    公車安全改革    TPASS納共享電動機車\n\n        選項越多，路才走得開\n\n      綠色通勤選項+1",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 21,
+          "pdf_page": 21,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "59454961762e4db420e10096b3370ae932f3f87b2aba2716be870151229c6638": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "59454961762e4db420e10096b3370ae932f3f87b2aba2716be870151229c6638",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "51d3ea0f9d389d09a73d26472cd1a4c2fd3fd1d620bbd0931e01cb811c748f29": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "51d3ea0f9d389d09a73d26472cd1a4c2fd3fd1d620bbd0931e01cb811c748f29",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "4c420dca95c941dba7a275c782576b131eb5f0e7f6a1df96887da01a723919cb": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "4c420dca95c941dba7a275c782576b131eb5f0e7f6a1df96887da01a723919cb",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "bb0b3be1c2b218bfd386883f4362b1ef0ea047abad904d61d0becbb772dc23f6": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "bb0b3be1c2b218bfd386883f4362b1ef0ea047abad904d61d0becbb772dc23f6",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "2e733c7564f285851275a6563f606c322f0fa36f39371bfdbf977e97ca680883": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "2e733c7564f285851275a6563f606c322f0fa36f39371bfdbf977e97ca680883",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "65367ebe9982c11493b764d4cb48832da3d003b9d399861113298335902abd89": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "65367ebe9982c11493b764d4cb48832da3d003b9d399861113298335902abd89",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "d345876180c6c4bda2937e5de2b5ffd4414a17a239cc3991ba6cd10b7f6a27dc": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "d345876180c6c4bda2937e5de2b5ffd4414a17a239cc3991ba6cd10b7f6a27dc",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "77c6594d01a560c517a4f0234bd61efa5d15caaa2e9dc9dd5d17762ca095a236": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "77c6594d01a560c517a4f0234bd61efa5d15caaa2e9dc9dd5d17762ca095a236",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "996a6df528f4f8ce76f31f15c3f0e5138df29537476862064832016fbe6e8ca2": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "996a6df528f4f8ce76f31f15c3f0e5138df29537476862064832016fbe6e8ca2",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "2df332f61f82d384088b3a9155477214dfc9138520a44b5ee8d17a077b954fca": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "2df332f61f82d384088b3a9155477214dfc9138520a44b5ee8d17a077b954fca",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "eef08c616281a442c61bb4eee8442311bc1e5118ca5386e0ea9c588f4250f21f": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "eef08c616281a442c61bb4eee8442311bc1e5118ca5386e0ea9c588f4250f21f",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "60ba3fb17c1d7c607761367715e0a02facfdabda8c57deed52c1b4039d0114a0": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "60ba3fb17c1d7c607761367715e0a02facfdabda8c57deed52c1b4039d0114a0",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "5d2cce30442200830a8e1a205e5b3b9147990f8312b9ab744bde6d60e6674535": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "5d2cce30442200830a8e1a205e5b3b9147990f8312b9ab744bde6d60e6674535",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "2806b15b30bd45b8d784db99202d1a8a29f9f506c23d10f3643e5f73d1312edc": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "2806b15b30bd45b8d784db99202d1a8a29f9f506c23d10f3643e5f73d1312edc",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "491ee5d355c0fe2d39e47a46dcbc2304341f2f5fb4760afbdb266f48583772b9": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "491ee5d355c0fe2d39e47a46dcbc2304341f2f5fb4760afbdb266f48583772b9",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "9603e409027fb1d08dddd65834a4349b1c8acc4ba562ec77e079831ecfe2799a": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "9603e409027fb1d08dddd65834a4349b1c8acc4ba562ec77e079831ecfe2799a",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "ec1ef9211ab723802bdb1c78e2e0b83d5cda3f7b147a4fd321553611a4932f2f": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "ec1ef9211ab723802bdb1c78e2e0b83d5cda3f7b147a4fd321553611a4932f2f",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "0c92e531479bdf1ba0e92beab4abd91a117dd970879327c13ba7b428dba737c1": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "0c92e531479bdf1ba0e92beab4abd91a117dd970879327c13ba7b428dba737c1",
+      "page_count": 16,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        },
+        {
+          "page_number": 2,
+          "pdf_page": 2,
+          "text": "台北 一座光榮的城市",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 3,
+          "pdf_page": 3,
+          "text": "台北 群山環繞的城市\n這是台北\n\n 這也是台北",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 4,
+          "pdf_page": 4,
+          "text": "四大主題     亞洲第一\n串連首都文化徑   登山觀光城",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 5,
+          "pdf_page": 5,
+          "text": "首都文化徑 四大主題\n\n   產業文化遺跡       城市歷史記憶\n   產業發展的集體記憶   從舊城到都會的成長軌跡\n\n   多元族群敘事      人權與民主記憶\n  包容與共榮的城市底蘊    民主之城的精神地標",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 6,
+          "pdf_page": 6,
+          "text": "台北登山觀光中心\n\n第一座：象山登山觀光中心 （信義區、象山捷運站）\n第二座：劍潭山登山觀光中心（士林區、劍潭捷運站）\n第三座：貓空登山觀光中心（文山區、動物園站/貓空纜車起站旁）\n                       服務內容\n   裝備租借          置物櫃          更衣室   中英日韓四語導覽\n登山杖、雨具、頭燈、輕量背包\n\n    洗鞋區          刷鞋槽      即時步道狀態    生態季節導覽預約",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 7,
+          "pdf_page": 7,
+          "text": "台北登山觀光中心\n\n        生態友善步道\n   修復代替新建，讓步道成歷史地景的載體\n\n        最後一哩路\n  增開交通路網與登山觀光中心、步道口的接駁",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 8,
+          "pdf_page": 8,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        },
+        {
+          "page_number": 9,
+          "pdf_page": 9,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        },
+        {
+          "page_number": 10,
+          "pdf_page": 10,
+          "text": "台北的故事\n不只在台北城內",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 11,
+          "pdf_page": 11,
+          "text": "台北的一瞬\n道出台北百年的歷史",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 12,
+          "pdf_page": 12,
+          "text": "台北的故事：群星熠熠，整合有餘\n\n    ★ 資源分散與缺乏品牌機制\n    ★市府部門整合與協作不足\n    ★保存模式受限\n    ★欠缺跨域整合與制度性支持",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 13,
+          "pdf_page": 13,
+          "text": "強化五層連結\n\n 第一層 | 空間：山林   城市\n 第二層 | 時間：歷史   當代 未來\n 第三層 | 社會：居民   社區 青年   遊客\n 第四層 | 行政：文化   工務 觀光   教育   交通\n 第五層 | 區域：台北   北台灣",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 14,
+          "pdf_page": 14,
+          "text": "執行策略\n\n1   推動「路徑品牌化」：走一條路，認識台北這座城\n\n2 強化數位治理：閱讀文化、認識生態，隨時隨地\n\n3 提升文化與山林易達性：親子同行卡，讓山林更近\n\n4 跨局處合作平台：連結專業，讓文化在台北活起來\n\n5 深化在地社會參與：由台北裡的人，說自己的故事",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 15,
+          "pdf_page": 15,
+          "text": "縮短 市民與文化、山與城 的距離\n讓生活在這座城市的人\n都能自信地說出：\n\n「這是我的城市，我以它為榮!!」",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 16,
+          "pdf_page": 16,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "27ddaeacc2c241da8dc6e9443df02fc1e8953b0c61e6220a233a3e704adab42a": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "27ddaeacc2c241da8dc6e9443df02fc1e8953b0c61e6220a233a3e704adab42a",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "f57232cfbebd28873f8186ad12ccd294b995ce2f8dff17c4f41466e505720dc9": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "f57232cfbebd28873f8186ad12ccd294b995ce2f8dff17c4f41466e505720dc9",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "9ac1c0c4e8a0685af02a109f149b6cc850307f366536f41721c6064c1146320d": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "9ac1c0c4e8a0685af02a109f149b6cc850307f366536f41721c6064c1146320d",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "b2a90903e48a42320a8cf67dab21a53094053050d0d22f054449ed65026f829b": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "b2a90903e48a42320a8cf67dab21a53094053050d0d22f054449ed65026f829b",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "4d7a035323e14399a5d5323c57756189d06417bdfefd9ca503a93d4704604729": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "4d7a035323e14399a5d5323c57756189d06417bdfefd9ca503a93d4704604729",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "83da3089e4e4de0137324ef152b6f2dc28e32f64bb15698aaa4231b86ca42963": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "83da3089e4e4de0137324ef152b6f2dc28e32f64bb15698aaa4231b86ca42963",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "aafc2438849e839076de7943d88ef8053074fd3c17166a669e55dcdc437bf2c8": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "aafc2438849e839076de7943d88ef8053074fd3c17166a669e55dcdc437bf2c8",
+      "page_count": 11,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        },
+        {
+          "page_number": 2,
+          "pdf_page": 2,
+          "text": "我們的理念\n\n 樹木，不只是樹木\n\n 它更是一個城市偉大的象徵",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 3,
+          "pdf_page": 3,
+          "text": "我們的理念\n\n  降溫    吸附雨水   空氣品質   生物多樣性   城市共同回憶",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 4,
+          "pdf_page": 4,
+          "text": "目前痛點\n\n 1. 不到國際標準 : 林試所2021資料 : 綠覆率18%\n 2. 有規則但採購辦法落後 : 常用最低標，廠商和公務員都困擾\n 3. 管理權責分散 : 不同局處各自負責，缺乏整體計畫\n 4. 長期缺乏溝通 : 市府、民眾、樹木，三方皆輸\n 5. 人才缺乏 : 台北硬體人才不足，管理人才也不足",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 5,
+          "pdf_page": 5,
+          "text": "我們的目標\n\n落實3-30-300\n\n 3棵可見樹木、20%樹覆率+30%綠覆率\n        300公尺內有綠蔭公園",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 6,
+          "pdf_page": 6,
+          "text": "第一項改革\n一、讓都市森林政策由更高層級負責\n\n  專責 成立都市森林委員會，由副市長層級統籌工作。\n  專法 與議會合作，制定台北市都市林自治條例。\n  專款 都市森林維運基金。\n  專業    與職訓局和民間公協會，成立都市林人才培育中心 : 樹醫生、園藝工\n        程、園藝經理；同時改革最低標，讓證照與專業有價值。",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 7,
+          "pdf_page": 7,
+          "text": "第二項改革\n\n二、不只種樹，還要能智慧管理 :\n\n 1.   為路樹開發「數位雙生」模型，打造智慧管理。\n 2.   檢討公有地及校園圍牆退縮可能，從大學開始，用綠籬取代圍牆。\n 3.   路樹管理計畫 : 「先有根域，才准種樹」、設立樹木傾斜監測系統等。\n 4.   三級三年推動現況管理 : 改善、更新、移除，分門歸類。\n 5.   增加動態健康履歷 : 風險等級、修剪紀錄、傾斜資訊等等。",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 8,
+          "pdf_page": 8,
+          "text": "第三項改革\n\n三、讓市民看得到，也說得上話\n\n  1. Cool Map : 不僅串起台北綠色走廊，根據民眾回饋的高溫熱點數\n    據資料，讓市府施政有依據。\n 2. 維護平台 : 整併樹籍資料和修剪計劃書，讓每個市民有機會每天\n    提供意見、提供狀況。\n 3. 溝通平台 : 至少5位代表 - 市府、居民、樹管及都計委員、樹木專\n    家、保險公司。可透過會議方式，強化移除前溝通等。",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 9,
+          "pdf_page": 9,
+          "text": "第四項改革\n\n四、讓樹木循環重生再利用\n\n  成立廢木料銀行，提供木料、與新創及學術合作 :\n   1. 廢木再製，先行導入公共設施\n   2. 新創合作，鼓勵研發高階商品\n   3. 投入生物土壤、建材製作等研發\n   4. 生質能發電 (不輕易燒毀，最後一道防線)",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 10,
+          "pdf_page": 10,
+          "text": "種下的不是樹 而是台北的未來",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 11,
+          "pdf_page": 11,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "f021859cb86937ad7cf6ec4462fe63ae225db1c929ebf8afb49e2007cc77a210": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "f021859cb86937ad7cf6ec4462fe63ae225db1c929ebf8afb49e2007cc77a210",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "58f788c4f7458fae6eb233a177cc9cb9a3fb53329483a84c03cad8960d62b8af": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "58f788c4f7458fae6eb233a177cc9cb9a3fb53329483a84c03cad8960d62b8af",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "b0361a33fc594ed82e7d8ea934971158f2d105302c3d624ddecdecc242ea969e": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "b0361a33fc594ed82e7d8ea934971158f2d105302c3d624ddecdecc242ea969e",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "be760b455ac7df77fe3c93eb700a7b50804a45c65c6bc2e17b3abe883879554b": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "be760b455ac7df77fe3c93eb700a7b50804a45c65c6bc2e17b3abe883879554b",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "cacf591bb31d497d613bedc8a407aca89297ed502f81af0bc095096ce229be0a": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "cacf591bb31d497d613bedc8a407aca89297ed502f81af0bc095096ce229be0a",
+      "page_count": 20,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        },
+        {
+          "page_number": 2,
+          "pdf_page": 2,
+          "text": "年輕人不是沒有能力，而是第一步\n常常缺本金、缺工具、缺機會",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 3,
+          "pdf_page": 3,
+          "text": "★本金 | 城市青年基金\n★ＡＩ | 青年AI使用支持方案\n★舞台 | 台北青年圓夢計劃",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 4,
+          "pdf_page": 4,
+          "text": "城市青年基金\n\n    投資年輕人，就是 投資台北\n  大學畢業，準備接近 50萬的起步本金",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 5,
+          "pdf_page": 5,
+          "text": "城市青年基金\n\n         18-22歲台北青年\n         市府每月存 1,500元\n         鼓勵個人同步自存\n     採長期基金方式操作",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 6,
+          "pdf_page": 6,
+          "text": "城市青年基金\n\n         中央累積   36萬\n         市府四年   7.2萬\n     個人自存 7.2萬\n    合計約50萬+投資收益",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 7,
+          "pdf_page": 7,
+          "text": "城市青年基金\n\n 弱勢青年 | 市府每月加碼至 3,000元\n 領取條件 | 居住年限 +財商教育\n 退場機制 | 重大犯罪僅退個人本金",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 8,
+          "pdf_page": 8,
+          "text": "城市青年基金\n\n                    中央階段              城市青年基金\n 對           象      6-18歲            18-22歲台北青年\n 提           撥   中央每月存 2,500元   市府每月存 1,500元；弱勢 3,000元\n 青   年   自   存        ×                鼓勵自存\n 四 年 市 府 提 撥          ×                  7.2萬\n 制度設計               基金操作          基金操作．有門檻、有退場",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 9,
+          "pdf_page": 9,
+          "text": "城市青年基金\n\n         約 9.5萬 名青年\n\n         每年約 18億 元\n\n     不到市府總預算 1%",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 10,
+          "pdf_page": 10,
+          "text": "青年AI使用支持方案\n\n      台北市AI入口平台\n     跨模型×跨平台×有算力\n     每月自動儲 值，依實際用量結算",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 11,
+          "pdf_page": 11,
+          "text": "青年AI使用支持方案\n\n [ Level 1 ] 每月 300 元：基本學習\n [ Level 2 ] 每月 500-1,000 元：專業課程\n [ Level 3 ] 2,000-10,000 元：專題與創業",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 12,
+          "pdf_page": 12,
+          "text": "青年AI使用支持方案\n\n 現行台北市方案 卡在哪裡？\n 先付後補 | 青年先墊款，且只補助三個月\n 工具受限 | 最多兩項訂 閱，且無法使用 API模型\n 門檻繁複 | 修課證明、書面申請、提交心得",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 13,
+          "pdf_page": 13,
+          "text": "青年AI使用支持方案\n\n           現行AI補助 vs 新平台\n              現行補助         新AI平台＋學習錢包\n   使用方式     自行訂閱、事後核銷       統一入口、直接使用\n   付   款   青年先墊款，補助期短      每月自動儲 值、按量結算\n   工   具   最多兩項，無法使用 API     跨平台、跨模型\n   基本門檻    修課證明與申請文件         基本額度低門檻\n   支持方式      固定年度上限        基本 / 課程 / 專案 三級\n   產業效應    多流向大型國際業者        可納入台灣 AI新創",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 14,
+          "pdf_page": 14,
+          "text": "青年AI使用支持方案\n\n 新平台帶來什麼改變？\n 青年 | 免墊款、自由選工具\n 市府 | 管Token、控資安、集中議價\n 產業 | 納入台灣 AI新創，市府當第一個買家",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 15,
+          "pdf_page": 15,
+          "text": "青年AI使用支持方案\n\n 年長者 | 敬老卡\n 小孩 | 親子同行卡\n 青年 | AI卡",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 16,
+          "pdf_page": 16,
+          "text": "台北青年圓夢計畫\n\n    八年20億，挺夢成真\n   讓海外經驗回到台北，讓青年想法落地",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 17,
+          "pdf_page": 17,
+          "text": "台北青年圓夢計畫\n\n    政策接力 | 接住中央計畫成果\n    自主圓夢 | 青年提案、海外行動\n    城市實作 | 市政參與、市民外交官",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 18,
+          "pdf_page": 18,
+          "text": "台北青年圓夢計畫\n\n      帶著台北走出去\n 把世界的經驗、朋友與機會帶回來\n    共同打造 「無限城」 網絡",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 19,
+          "pdf_page": 19,
+          "text": "台北青年圓夢計畫\n\n   給青年本金、工具與舞台\n 讓第一步走得穩，讓下一步跑得快\n     用心，讓台北順起來",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 20,
+          "pdf_page": 20,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "f092e437a0ae5255543a13726b7c5d0b2bf627e2342f09613f06a41bb0234d26": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "f092e437a0ae5255543a13726b7c5d0b2bf627e2342f09613f06a41bb0234d26",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "5bc4eaf2bca45e956952c9b7513e10237b256c346be170523658bce3901d6e28": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "5bc4eaf2bca45e956952c9b7513e10237b256c346be170523658bce3901d6e28",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "6bffa0ebfc6038865895765075a2f32dcc8c03f2bba54e27dbc98775d5fd9a5d": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "6bffa0ebfc6038865895765075a2f32dcc8c03f2bba54e27dbc98775d5fd9a5d",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "c0645f35eeecbcb9eead7998f2dacfeb103a61025d8b38c0255e33fce96daf23": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "c0645f35eeecbcb9eead7998f2dacfeb103a61025d8b38c0255e33fce96daf23",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "e8541ab6e22395a2042073e8a178615caf408723bcd3237e9211c2e22a6bca85": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "e8541ab6e22395a2042073e8a178615caf408723bcd3237e9211c2e22a6bca85",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "0c9dfce33e55485bbe5e11bd6df0561e154ca6e98285c3b697436e615e602b4e": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "0c9dfce33e55485bbe5e11bd6df0561e154ca6e98285c3b697436e615e602b4e",
+      "page_count": 12,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "運動政策公佈記者",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 2,
+          "pdf_page": 2,
+          "text": "建立運動生態\n系\n\n    促進運動產業         投入運動建設\n\n             運動\n             生態系\n增加運動人口             培養運動興趣",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 3,
+          "pdf_page": 3,
+          "text": "從巷口到國際，為人設計的運動城市\n\n運動政策，要以人為中心設計。\n\n                                       每個人\n     走得到            用得安心\n                                       都能參與\n\n                照明、廁所、動線、遮陽、休   不分年齡、性別、身體條件與\n運動資源不能只集中在大型場\n                息與急救設施，都不該只是    運動程度，都要有適合的運\n館，也要進入社區生活圈。\n                臨時設施。           動空間。",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 4,
+          "pdf_page": 4,
+          "text": "台北人想運動，城市要更貼近生活、更安全\n\n  運動資源不 夠分散多元         日常空間不 夠安全舒適\n  長者、山區居民、身障，以及運動場地   河濱部分區域照明不足、人車動線混雜\n  步行圈外的市民等等，取得運動資源仍   ，廁所、遮陽、換洗、球場休息區、急救\n  有不少門檻。              設施也不完整。\n\n  熱門場地不 夠用            城市運動舞台不完整\n  羽球、籃球等熱門場地一位難求，台北   台北缺乏國際標準專屬足球場，也缺少\n\n  現有運動中心不夠使用。         常態性的城市運動交流機制。",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 5,
+          "pdf_page": 5,
+          "text": "從家門口到世界，打造台北人的運動主場\n\n   家門口         巷口與河濱        城市主場          世界舞台\n               社區運動據點      關渡國際足球場        運動平權\n 健身小巴進社區\n               河濱運動升級      花博旗艦運動中心       運動外交\n把運動、營養與健康追   讓運動離家更近；    一座承接國際競技；一\n                                        用運動連結城市，讓世\n蹤，送到長者與不便者   讓市民在河濱運動更   座解決場地不足及新\n                                        界看見台北。\n生活的地方。       安心。         興運動需求。\n\n           小到一台巡迴車，大到一座國際球場：讓更多人走進運動。",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 6,
+          "pdf_page": 6,
+          "text": "健身不用找，小巴進社區\n\n   運動送到社區\n以行動健身小巴，巡迴日照中\n\n心、長照據點、里民活動中心、\n\n公園與廟埕。\n   運動結合營\n   養\n提供低衝擊健身器材與專業運動\n\n指導，並加入營養諮詢。",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 7,
+          "pdf_page": 7,
+          "text": "運動不該是特地安排行程，\n出門就能動，巷口運動場        而是下樓就開始的日常。\n\n    每區新增 3–5 處特色運動據點\n    盤點公有閒置空間，依照不同社區需求設置多元的小型特色運動場地。\n\n    新設口袋公園，引入專業規劃\n    利用畸零地設置口袋公園 + 改善既有公園運動設施\n\n    由運動專業與使用者需求共同規劃，讓運動場地更親近生活。",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 8,
+          "pdf_page": 8,
+          "text": "晚上敢去、累了好休息、安心使用，\n點亮河濱公園，市民運動主場\n                      才是市民運動主場。\n\n     安全地運動\n     夜間照明、行人跑者與自行車\n     動線分流、安全巡查與AED配\n                           便利地到達\n     置。\n                           改善公共運輸，方便到水門\n\n     舒服地停留\n     遮陽、休息區、寄物換衣站、\n     與固定式廁所及維護。",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 9,
+          "pdf_page": 9,
+          "text": "台北需要找回\n還台北一座國際足球主場\n                             國際標準的足球場\n\n台北為什麼需要\n● 中山足球場已轉作花博場館。\n                         政策主張 優先選址關渡，打造國際足\n                         球場，未來可發展其他運動場地。\n● 迎風河濱足球場曾被評為最低等級。\n\n● 田徑和足球有不同專業養護、使用強度、觀    足球專用場館 符合國際賽事、職業發展與\n  賽體驗，有心發展就應該分開。\n                         訓練需求、兼顧全民運動。\n● 台北有企業球隊、青少年球隊、兒童足球隊，\n  全民運動需要發展。              未來發展性大 不只國際足球場，未來也可\n● 台北曾舉辦過國際足球賽事，台北值得用一    以增加其他運動場地。\n  座專業球場舉辦更多高等級的賽事。",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 10,
+          "pdf_page": 10,
+          "text": "場地缺乏，尤其新興運動\n給市民一座超級運動中心\n                      想運動時常常訂不到場地。\n\n                         球類場館：籃球．排球．羽球等\n  補足大眾運動需求\n\n  增加羽球、籃球、排球、游泳、健身、\n                         游泳與健身空間\n  攀岩與運動教室等空間。\n\n                         攀岩、匹克球等新興運動\n  容納新興與適應運動\n  設置匹克球、兒童體適能、射擊及適       適應運動．兒童體適能\n  應運動場地等。\n                         新場館保留原新創基地",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 11,
+          "pdf_page": 11,
+          "text": "運動外交，              運動不只是比賽，\n                   更是城市與城市交流的語言 !\n讓台北這張名片遞給世界\n\n  建立無限城運動聯盟            青年海外實習機會\n  推動台北與國際城市的常態性        結合城市聯盟賽事，提供青年赴\n\n  運動交流及比賽。             海外交流機會。\n\n  邀請聯盟城市隊伍來台           運動平權，台北價 值\n  推動聯盟城市球隊來台熱身、移       促進性別、年齡、族群平等參與\n\n  地訓練與城市交流。            運動。",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        },
+        {
+          "page_number": 12,
+          "pdf_page": 12,
+          "text": "讓台北成為每一個人的主場\n從家門口的健身小巴，到巷口、河濱與城市場館；\n從市民的日常運動，到台北走向世界。\n\n透過建設、培養興趣、增進運動人口及產業，\n形成台北的運動生態系",
+          "method": "pdf_text",
+          "ocr_status": "not_needed_text_layer",
+          "verification": [
+            "文字來自 PDF 文字層抽取，未逐字進行圖面核驗；頁面上若另有以圖面呈現的文字，可能未包含。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "9af71af840c7f3b2cd44b14bfc9233b04233383c69b34557ddd056e6291a2699": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "9af71af840c7f3b2cd44b14bfc9233b04233383c69b34557ddd056e6291a2699",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "8ab9e2517a8aaa3054c694dd7dd2e9ecd0687f94823ccbb7d88704b31a8a8576": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "8ab9e2517a8aaa3054c694dd7dd2e9ecd0687f94823ccbb7d88704b31a8a8576",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "ecdc4370cd5e2f4771c8fc1f55d2a124a03712a69452cc568c3ea62a10541e33": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "ecdc4370cd5e2f4771c8fc1f55d2a124a03712a69452cc568c3ea62a10541e33",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "6cf13d1688a5e6199fefec1c1e24c8c690133c4405d53369952079ffc8588791": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "6cf13d1688a5e6199fefec1c1e24c8c690133c4405d53369952079ffc8588791",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "c1678d32c1ad4ad65b1a56430b3bfd14c1254ad094a3c5d253b6da15bfda33c4": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "c1678d32c1ad4ad65b1a56430b3bfd14c1254ad094a3c5d253b6da15bfda33c4",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "3e195dea0c3bc70c40c76323695420ba9cbecd1b1990959b03cd7849bdc7271c": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "3e195dea0c3bc70c40c76323695420ba9cbecd1b1990959b03cd7849bdc7271c",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "e5f3a3ef60136de57d97ae4c73c911103e042f3075acd10639747ff26a71d981": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "e5f3a3ef60136de57d97ae4c73c911103e042f3075acd10639747ff26a71d981",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "648b00bf9b2625b35d4ffe37848c6f7d192eb7a10c12ba90214e57af96038d0f": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "648b00bf9b2625b35d4ffe37848c6f7d192eb7a10c12ba90214e57af96038d0f",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "e6a2b7b7d3c88e5ac6d1fddbd1ffdab5e6700cb66bb992da2b00cbf2ab306084": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "e6a2b7b7d3c88e5ac6d1fddbd1ffdab5e6700cb66bb992da2b00cbf2ab306084",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "f34eb73472dd490c55a50e4bf458dc9b8d05ee137000da7bdda7e6afe85797f2": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "f34eb73472dd490c55a50e4bf458dc9b8d05ee137000da7bdda7e6afe85797f2",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "f1a33a7ea49b4b59e5ba553624a7b168244606ee930f5de8125417f63710c525": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "f1a33a7ea49b4b59e5ba553624a7b168244606ee930f5de8125417f63710c525",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "d2e253279fccf11d21622094465e4d66ba5d8301e70ee50ba5f910707933d6e4": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "d2e253279fccf11d21622094465e4d66ba5d8301e70ee50ba5f910707933d6e4",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "c7d3bb87eacccbe878e6efb20a43e135df3633d809b2650b5d592b56353eef80": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "c7d3bb87eacccbe878e6efb20a43e135df3633d809b2650b5d592b56353eef80",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "ca8856197378ea9e10998c5b2c9bc53260a8cc097d518e278f9dc0f302e6c58d": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "ca8856197378ea9e10998c5b2c9bc53260a8cc097d518e278f9dc0f302e6c58d",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "d3e8ef53a8a7567cb55ec6f60dedf6de34c9b1d9a3003182073b24e690618d62": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "d3e8ef53a8a7567cb55ec6f60dedf6de34c9b1d9a3003182073b24e690618d62",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "3f5946d6db90a43bd87e9a8b5b5c1e109a56c6c1c73f002002324e9e02ea494b": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "3f5946d6db90a43bd87e9a8b5b5c1e109a56c6c1c73f002002324e9e02ea494b",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "b2aff0f514c4553a3cd0fbab06a5374b1fb7896b3c7c9e3f3b0151c28aa18b22": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "b2aff0f514c4553a3cd0fbab06a5374b1fb7896b3c7c9e3f3b0151c28aa18b22",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "516ea3d28d1934adcb0c954a2d0b301551bff0d0d2be35c7feddc7ab3ef417d5": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "516ea3d28d1934adcb0c954a2d0b301551bff0d0d2be35c7feddc7ab3ef417d5",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "066934346cd2de2fb24dd498ed113197b663f1301afd956d2ab2c3e583dd7416": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "066934346cd2de2fb24dd498ed113197b663f1301afd956d2ab2c3e583dd7416",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "50fdc8fe4203dcec013a693d7946c9ed7f23b0231fc8cb64adb035472429af72": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "50fdc8fe4203dcec013a693d7946c9ed7f23b0231fc8cb64adb035472429af72",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "c4ee84e1725bed2739cf429fce869d23879c31559f1e48e4c69319cdbd6c31b2": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "c4ee84e1725bed2739cf429fce869d23879c31559f1e48e4c69319cdbd6c31b2",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "6b9ad98e9065d7dc2f397ea2d5ebdfe79e513f575d4398ad016033116fb3a15e": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "6b9ad98e9065d7dc2f397ea2d5ebdfe79e513f575d4398ad016033116fb3a15e",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "145802319e5c1a4a1d826687e1a639dfed1a62d2e3e9a5ea529d30db97c7be99": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "145802319e5c1a4a1d826687e1a639dfed1a62d2e3e9a5ea529d30db97c7be99",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "6ed41269e0035c104a69bff265de7651585676003ca836156d31d5546e297b18": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "6ed41269e0035c104a69bff265de7651585676003ca836156d31d5546e297b18",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "dd76724224e3c63c58c26745d18dc152d16bd01a1fca3619ac2c74e403dac36f": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "dd76724224e3c63c58c26745d18dc152d16bd01a1fca3619ac2c74e403dac36f",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "30764d3e18fa2fb882fa6583aed845c9495be9b01000faeb9154a16a18f095f6": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "30764d3e18fa2fb882fa6583aed845c9495be9b01000faeb9154a16a18f095f6",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "130fa72bba333607ac2b209765ffbab37d7754ba59b2e758ebb22fc8c9632f4a": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "130fa72bba333607ac2b209765ffbab37d7754ba59b2e758ebb22fc8c9632f4a",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "1d8713f3048cac781a079d546600c5154c0a65092f847fc30a3e10c9c20417ab": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "1d8713f3048cac781a079d546600c5154c0a65092f847fc30a3e10c9c20417ab",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "058df25f17991ba6cbe544c76c0988ae609961e696bb0f1882f6e46c9a5ffa9d": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "058df25f17991ba6cbe544c76c0988ae609961e696bb0f1882f6e46c9a5ffa9d",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "54935b60469983c4259a300d10ec924f11a44a6159756db79d4923e8ae4cc2f1": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "54935b60469983c4259a300d10ec924f11a44a6159756db79d4923e8ae4cc2f1",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "66260c42e8fe23aad5dd457e7647bc8da8ef9173417d9bb4a0b2084173256b75": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "66260c42e8fe23aad5dd457e7647bc8da8ef9173417d9bb4a0b2084173256b75",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "8cfcb102a85f8fb5ccaf8edcd6651cd264bd6546909aec97b87aadb5a1cc9d90": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "8cfcb102a85f8fb5ccaf8edcd6651cd264bd6546909aec97b87aadb5a1cc9d90",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "3535aa93799bc20ca3d3373686d0a817374bd94f70eacce50f6cd08c524b0949": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "3535aa93799bc20ca3d3373686d0a817374bd94f70eacce50f6cd08c524b0949",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "809a82b6f5769679782d77db1743e5e0b7652d5efb7401e7fe9e94f69d3c95ae": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "809a82b6f5769679782d77db1743e5e0b7652d5efb7401e7fe9e94f69d3c95ae",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "ad789d1afce622a3dd68eb53291bda9593d76691d52d7aaaf7cdd41ff51bf863": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "ad789d1afce622a3dd68eb53291bda9593d76691d52d7aaaf7cdd41ff51bf863",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "0c8e5ee4dc554e8feabb80a35bee8327b9a6267c6c3dde04c6bcd588bd606950": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "0c8e5ee4dc554e8feabb80a35bee8327b9a6267c6c3dde04c6bcd588bd606950",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "6919c219131a6ed60c68fef1aca0ba9014fb238f957f1cee7ddc3668762c7d5d": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "6919c219131a6ed60c68fef1aca0ba9014fb238f957f1cee7ddc3668762c7d5d",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "66e05aa9f1de332b88ee05abc838fb591fb6a7e223a3f785ee21f6d9c107634e": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "66e05aa9f1de332b88ee05abc838fb591fb6a7e223a3f785ee21f6d9c107634e",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "6b7ab7094a2f8bd914c76949974411be3cdfa17792a7fe3ec0322da232a3f180": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "6b7ab7094a2f8bd914c76949974411be3cdfa17792a7fe3ec0322da232a3f180",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "1276074fc850d8271167bf33919e5036f3d9f6a68c50ba209d65fffac8d73c46": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "1276074fc850d8271167bf33919e5036f3d9f6a68c50ba209d65fffac8d73c46",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "4703d90366cac681b8499a74c31078664b68637faf4e3542da42132952cd686c": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "4703d90366cac681b8499a74c31078664b68637faf4e3542da42132952cd686c",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "948f8e842527909c9e70d27b1818125159dad5d2b6b448ed61916ecb765103e6": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "948f8e842527909c9e70d27b1818125159dad5d2b6b448ed61916ecb765103e6",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "c037bdf58bf5b0349fa6225e564631e3d6dd87dda2fa62f52db9baea9cc45d70": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "c037bdf58bf5b0349fa6225e564631e3d6dd87dda2fa62f52db9baea9cc45d70",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "ef63774ba3717991e91d9b2052e1d52c226c45c94326620e44d1d0b3cdc6e412": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "ef63774ba3717991e91d9b2052e1d52c226c45c94326620e44d1d0b3cdc6e412",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "47a1f7a1765dcf7ca6f64f3f336786e17621b619f008ebdab31510d54fc6528c": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "47a1f7a1765dcf7ca6f64f3f336786e17621b619f008ebdab31510d54fc6528c",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "a79f58c8e8f0fde74289c14de14d1dc2ce26eeb6759dcbc51d73ad1192619b82": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "a79f58c8e8f0fde74289c14de14d1dc2ce26eeb6759dcbc51d73ad1192619b82",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "a5df9e754f4a67b1cb30b51fe48f98273fb5ebeb8d579a3ab9ac123644293aed": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "a5df9e754f4a67b1cb30b51fe48f98273fb5ebeb8d579a3ab9ac123644293aed",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "94b8fd433baf4f6bb4e8cd3061aced2b092932adbd8d1d9ed1655823ee3903b1": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "94b8fd433baf4f6bb4e8cd3061aced2b092932adbd8d1d9ed1655823ee3903b1",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "7b4af7060a94fd58ade5f4e7c4a0ce5aedc5ed7ef0d22da2e8b8b7c4d395ddac": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "7b4af7060a94fd58ade5f4e7c4a0ce5aedc5ed7ef0d22da2e8b8b7c4d395ddac",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "7bc1a0136db1358ffd36f84b6ffd131657085e9181966dba703d392e084bc968": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "7bc1a0136db1358ffd36f84b6ffd131657085e9181966dba703d392e084bc968",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "509b4760d676274a57067b82b2378a333b8f8ef5b07418efc631e8eca1f20a01": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "509b4760d676274a57067b82b2378a333b8f8ef5b07418efc631e8eca1f20a01",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "a471ab18a76c3658324964736bd1b8cb23013e174ea3b552eb8ce18e5132c396": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "a471ab18a76c3658324964736bd1b8cb23013e174ea3b552eb8ce18e5132c396",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "590fc39789332934e34b9b75c0e074772324ca75604b7a6c045a099e039f82d9": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "590fc39789332934e34b9b75c0e074772324ca75604b7a6c045a099e039f82d9",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "b304578fa7aa80e9dd42b28bb946c8a095a3b511fb5fe416dfa50e6587844743": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "b304578fa7aa80e9dd42b28bb946c8a095a3b511fb5fe416dfa50e6587844743",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "11b9e3f2d27cf594c8eeac4df0276d7b80fbccfb5142122a4e27332e4d478bb8": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "11b9e3f2d27cf594c8eeac4df0276d7b80fbccfb5142122a4e27332e4d478bb8",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "09ee03c90987b49dc45a22391e30e051f23fde21b91b9bf0a3f13fcbf7b808dc": {
+      "algorithm_version": "extract-supplements-1.1",
+      "sha256": "09ee03c90987b49dc45a22391e30e051f23fde21b91b9bf0a3f13fcbf7b808dc",
+      "page_count": 1,
+      "pages": [
+        {
+          "page_number": 1,
+          "pdf_page": 1,
+          "text": "",
+          "method": "none",
+          "ocr_status": "vision_no_text_detected",
+          "verification": [
+            "macOS Vision OCR 未辨識到可讀文字；未人工核驗圖面，未虛構內容。"
+          ]
+        }
+      ],
+      "warnings": []
+    }
+  }
+}

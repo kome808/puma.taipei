@@ -1,0 +1,492 @@
+{
+  "batch_id": "b16",
+  "read_units": [
+    {
+      "unit_id": "u0207",
+      "doc_id": "d0095",
+      "start": 0,
+      "end": 4059,
+      "sha256": "89ffab4a45b3192282132f82a2e34a1cb088a6bd5f0916e70673d39ace6fba76",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0208",
+      "doc_id": "d0096",
+      "start": 0,
+      "end": 4756,
+      "sha256": "4a6c27b0b8d4ec2b31b339479a0c43441c3742c36a78be1ee107d092ef1b2759",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0209",
+      "doc_id": "d0097",
+      "start": 0,
+      "end": 5571,
+      "sha256": "55f89df6dfb52133c20e4d861622f7018fa84e679dc43eafb42745762abc40e9",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0210",
+      "doc_id": "d0098",
+      "start": 0,
+      "end": 5951,
+      "sha256": "f60222b0927e7a72306a41aa6ac175a41f91a21ff31721df64cf9883e37cd53d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0211",
+      "doc_id": "d0098",
+      "start": 5951,
+      "end": 6983,
+      "sha256": "b7df8122de0f2dca5a7cd5785a421139eb54c2c593622445572691af17ebcdbf",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0212",
+      "doc_id": "d0099",
+      "start": 0,
+      "end": 5934,
+      "sha256": "6cc7b16c610ea8563ffe1504eefa33ab6817826adca589401bac389044fe9c98",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0213",
+      "doc_id": "d0099",
+      "start": 5934,
+      "end": 7013,
+      "sha256": "d4ac2e1b5d896d9c8db6244d4062dedb7cd1136e96b46a0154880f877e2c4492",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0214",
+      "doc_id": "d0100",
+      "start": 0,
+      "end": 5501,
+      "sha256": "61c429c147d7ecd09b21dae43492fa549d7bf7bab828845ac98abc2fb87cc5a5",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0215",
+      "doc_id": "d0101",
+      "start": 0,
+      "end": 4200,
+      "sha256": "f7a37b9a05874caebf42b3bec996b64483c19b88c83f1406bd0fab9685763b1e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0216",
+      "doc_id": "d0102",
+      "start": 0,
+      "end": 5196,
+      "sha256": "76206f67dd282d8277904787f768683ba3bdf6fcfda506c0833c87a0572434d1",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0217",
+      "doc_id": "d0103",
+      "start": 0,
+      "end": 5972,
+      "sha256": "50c53f1a03e08b02fdd3f2f2f5b55db35ce95276da0278f5072c541b74639d3d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0218",
+      "doc_id": "d0103",
+      "start": 5972,
+      "end": 7645,
+      "sha256": "9b712e696e1bd121646f2263523ee6ea0cfd30040bfa2f7eacdd50b5c7094af6",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0219",
+      "doc_id": "d0104",
+      "start": 0,
+      "end": 5889,
+      "sha256": "b577f9df4b790e5b7ae31e3be1960736b3840f21d0bf3ccb6ed4ada367d33d9b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0220",
+      "doc_id": "d0104",
+      "start": 5889,
+      "end": 7590,
+      "sha256": "63a90a3e72006d3642c426d59a75ce2e6cd82cab01d32800a5d330317c401d5b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0221",
+      "doc_id": "d0105",
+      "start": 0,
+      "end": 3398,
+      "sha256": "42340994cf7708972f21309df7115e4c2d94706be20f87d8ce7a704ed2b43bc7",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0095",
+      "title": "他們要的，是讓示警的烏鴉沒人相信",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2025-12-13",
+      "summary": "文章依訪談整理2025年底兩廳院事件、傳言如何擴散及認知作戰等議題。內容屬政治與資訊戰訪談，非台北市政方案。",
+      "attributable_claims": [
+        "受訪者將造謠、媒體轉載及來源隱匿描述為連續傳播鏈。",
+        "受訪者談到偵查與法律攻防，屬其對個案的說法。"
+      ],
+      "caveats": [
+        "政治資訊戰個案與推論不等於市政政策或獨立查證結論。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0096",
+      "title": "不是不發，是有條件地發：普發現金與青年投資",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+      "summary": "訪談提出現金發放的前提條件，並談青年資產、AI工具補助、夜間市長、城市交流及韌性和運動驛站。",
+      "attributable_claims": [
+        "地方加碼現金須市府提出、不舉債、先照顧應照顧者且有剩餘。",
+        "提出18至22歲由台北市接續投資至50萬元，並要求理財、防詐課程。",
+        "提出青年AI工具入口、夜間市長及運動驛站等構想。"
+      ],
+      "caveats": [
+        "中央與地方現金發放的說明為受訪者對預算與憲政的陳述；數字和資格條件均是構想或訪談主張。"
+      ],
+      "topic_keys": [
+        "conditional_cash",
+        "youth_ai_access",
+        "night_governance",
+        "urban_resilience",
+        "active_mobility"
+      ]
+    },
+    {
+      "doc_id": "d0097",
+      "title": "在台北種下一片森林：都市微森林與洋流",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26",
+      "summary": "訪談集中於都市微森林、遮蔭平權、熱點數據、樹木維護及市府組織調整。",
+      "attributable_claims": [
+        "提出四年綠覆率30%、樹冠覆蓋率20%的目標，並稱理想為30%。",
+        "主張優先在學校、公有空間和熱點布植，並以Cool Map回報、光達、人流及數位孿生輔助盤點。",
+        "提出10億元都市林基金、專法、專責機關、樹木感測和廢木料銀行。"
+      ],
+      "caveats": [
+        "受訪者明確說明10億元為基金規模而非年度支出；覆蓋率基準與國際比較是訪談中的數據說法。"
+      ],
+      "topic_keys": [
+        "urban_forest",
+        "night_governance",
+        "city_institute"
+      ]
+    },
+    {
+      "doc_id": "d0098",
+      "title": "開船，不能遇到礁石才轉彎：讓預算有方向",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+      "summary": "長篇市政訪談涵蓋家庭支持、營養午餐、鮮奶、青年AI、兒少風險與社工分工、運動服務、通勤及自行車橋。",
+      "attributable_claims": [
+        "提出將育兒相關通報從一般1999分流，並主張每區設家庭教育中心。",
+        "提出把運動服務、敬老卡及親子卡串連社區活動，並討論學校廚房與營養教育。",
+        "提出松山至內湖自行車與行人專用橋，並說明仍在與工程團隊討論細節。"
+      ],
+      "caveats": [
+        "本文為選舉訪談改寫稿，對現行市政措施、案件數字、兌換率和國外案例的比較應視為受訪者說法。"
+      ],
+      "topic_keys": [
+        "family_support",
+        "nutrition",
+        "youth_ai_access",
+        "urban_resilience",
+        "active_mobility",
+        "child_protection"
+      ]
+    },
+    {
+      "doc_id": "d0099",
+      "title": "有金流，才有資訊流：中共網軍手法與陰謀論的長線鋪陳",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2023-04-11",
+      "summary": "百靈果訪談討論金流、資訊流、網路操作和陰謀論擴散，屬國安與政治議題。",
+      "attributable_claims": [
+        "受訪者主張應從資金來源理解資訊操作的傳播。",
+        "訪談將網路謠言與陰謀論描述為長期累積，而非單一訊息事件。"
+      ],
+      "caveats": [
+        "訪談的政治與安全分析不構成台北市政服務主張；因果關係與個案敘述未在此獨立驗證。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0100",
+      "title": "沒有血緣，一樣可以愛：收養女兒與台灣的收出養制度",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2023-08-29",
+      "summary": "訪談前段談政治資訊環境，後段為受訪者收養女兒的個人經驗，並描述其理解的收出養流程。",
+      "attributable_claims": [
+        "受訪者分享透過合法媒合機構辦理收養的經歷與家庭適應過程。",
+        "受訪者依自身經驗描述書面審查、訪談、課程、媒合及共同生活期。"
+      ],
+      "caveats": [
+        "受訪者明確提醒流程與費用為個人經驗，實際規定應以主管機關和媒合機構為準；不應將個人故事概括成市政提案。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0101",
+      "title": "駭客與假消息，是同一條線：解放軍跳板 IP 與政治冷感青年",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2023-09-08-pla-hackers",
+      "summary": "訪談聚焦駭客跳板、假消息與政治冷感青年，屬國安與政治資訊議題。",
+      "attributable_claims": [
+        "受訪者把網路攻擊與資訊操作視為可能相連的現象。",
+        "訪談談到青年政治冷感及資訊環境的影響。"
+      ],
+      "caveats": [
+        "相關網路攻擊來源與連結屬受訪者訪談中的分析，非本批可獨立證實的事實；無市政服務提案。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0102",
+      "title": "台灣可以是第一個「反混合戰中心」",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2023-09-08-hybrid-warfare-center",
+      "summary": "訪談提出台灣建立反混合戰中心的構想，討論跨部門情報整合、研究與反制。",
+      "attributable_claims": [
+        "受訪者主張整合政府與研究能量，形成反混合戰中心。",
+        "訪談把資訊戰與其他國家安全工具並置討論。"
+      ],
+      "caveats": [
+        "屬國家層級安全構想，不是台北市可直接執行的市政政策；不將構想寫作既成機構。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0103",
+      "title": "我們缺的，是一個「克里米亞時刻」",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2023-10-07",
+      "summary": "訪談以克里米亞為例討論突發危機、OSINT、資訊戰、青年與社會反應。",
+      "attributable_claims": [
+        "受訪者主張需提升社會對資訊操作與危機訊號的辨識。",
+        "訪談比較不同社群平台與媒體環境中的傳播。"
+      ],
+      "caveats": [
+        "歷史類比、戰略推論與平台傳播描述是受訪者觀點，非市政承諾。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0104",
+      "title": "防衛不是挑釁，法律要讓反制自動發生",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2023-12-16",
+      "summary": "訪談討論國安法律及反制措施、村里組織、平台資訊與防衛觀念。",
+      "attributable_claims": [
+        "受訪者主張以法律規範讓部分反制措施能依條件啟動。",
+        "訪談談到揭露影響來源與強化地方防衛組織。"
+      ],
+      "caveats": [
+        "法案主張屬中央立法及國安範圍；不可當作市政府既有權限或政策。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0105",
+      "title": "不像介選，才是介選：王滬寧新指示與兩岸買辦",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2023-12-23",
+      "summary": "訪談分析長期介選操作、代理人與地方組織，並談風險分級和應對。",
+      "attributable_claims": [
+        "受訪者認為政治影響可能透過商業、人際與地方網絡長期進行。",
+        "訪談主張應辨識不同風險並建立制度化回應。"
+      ],
+      "caveats": [
+        "內容為受訪者政治與安全分析，文中指控未獨立核實；沒有直接市政服務提案。"
+      ],
+      "topic_keys": []
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "把青年AI工具補助做成直接可用的入口",
+      "question": "青年申請AI工具補助時，如何降低先付費、資格審查與事後核銷的門檻？",
+      "points": [
+        "受訪者提出18至25歲登入單一入口，連結不同AI工具並在工具內直接取得補助額度。",
+        "也提到45歲前轉職者可獲兩年補助，具體額度和平台執行方式仍待設計。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0208",
+          "doc_id": "d0096",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+          "section_or_timestamp": "AI補助段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "每一個 AI 工具的連結都在那裡"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b10青年AI補助主題"
+      ]
+    },
+    {
+      "working_title": "以條件設定地方現金加碼的門檻",
+      "question": "地方政府若考慮加碼普發現金，受訪者提出哪些財政前提？",
+      "points": [
+        "受訪者表示地方政府自行發動、不舉債、先照顧應照顧者且仍有剩餘，才可討論加碼。",
+        "此為受訪者對財政與程序的主張，並非已核定的台北市方案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0208",
+          "doc_id": "d0096",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+          "section_or_timestamp": "普發現金段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "市政府自己發動、不舉債"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以專責協調者處理夜間城市需求",
+      "question": "夜間工作者、店家與居民之間的安全、噪音和營運摩擦如何協調？",
+      "points": [
+        "受訪者提出由不同夜間產業代表選出民間代表，與副市長共同對接市府。",
+        "談及護理師夜歸、夜市垃圾與噪音、夜間跑步安全等情境，並以阿姆斯特丹作為參考。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0208",
+          "doc_id": "d0096",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+          "section_or_timestamp": "夜間市長段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "你不能用白天的邏輯去管晚上的事情"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b10夜間市長主題"
+      ]
+    },
+    {
+      "working_title": "以熱點和遮蔭平權規劃都市植樹",
+      "question": "都市植樹如何讓遮蔭分布更平均，並優先改善高溫地點？",
+      "points": [
+        "受訪者提出四年內綠覆率30%、樹冠覆蓋率20%的目標，並稱理想樹冠覆蓋率為30%。",
+        "主張從學校、公有空間和熱點著手，利用Cool Map回報、光達、人流等資訊協助盤點。",
+        "另提出專法、專責機關與10億元都市林基金；受訪者說明該數字為基金規模而非年度支出。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0209",
+          "doc_id": "d0097",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26",
+          "section_or_timestamp": "熱點植樹段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "哪裡被回報最熱，我們就從哪裡開始種樹"
+        },
+        {
+          "unit_id": "u0209",
+          "doc_id": "d0097",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26",
+          "section_or_timestamp": "基金段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "十億是基金規模，不是每年的花費"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b04都市樹木治理主題",
+        "b10都市森林主題"
+      ]
+    },
+    {
+      "working_title": "讓育兒求助不被一般1999案件淹沒",
+      "question": "家長遇到育兒或兒少風險時，如何更快得到專人協助？",
+      "points": [
+        "受訪者提出育兒相關通報從一般1999分流，設專人接聽與承接家長疑慮。",
+        "並主張12個行政區各有家庭教育中心，提供從懷孕到孩子18歲的諮詢及育兒支援。",
+        "此為候選人政策主張，訪談中的案件數與現行服務情形需另行核對。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0210",
+          "doc_id": "d0098",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+          "section_or_timestamp": "家長版1999段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "把家長、育兒相關的 1999 獨立出來"
+        },
+        {
+          "unit_id": "u0210",
+          "doc_id": "d0098",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+          "section_or_timestamp": "家庭教育中心段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "12 個行政區每區都要有"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b04兒少保護通報分流",
+        "b13家長版1999與家庭教育中心"
+      ]
+    },
+    {
+      "working_title": "讓運動服務走進日常路線與社區",
+      "question": "如何讓長者和通勤者更容易在生活動線中運動？",
+      "points": [
+        "訪談提出健身小巴到社區停車場提供教練及營養諮詢，並討論結合敬老卡補助。",
+        "另提出在通勤、登山或河濱路線增設簡易沖洗等運動驛站，先依熱點試辦。",
+        "這些是受訪者提案，實際地點、成本與營運模式未定。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0210",
+          "doc_id": "d0098",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+          "section_or_timestamp": "健身小巴段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "下樓走不到幾百公尺就能健身"
+        },
+        {
+          "unit_id": "u0208",
+          "doc_id": "d0096",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+          "section_or_timestamp": "運動驛站段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "把運動加進上下班的路上"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b13運動驛站主題"
+      ]
+    },
+    {
+      "working_title": "以自行車與行人橋補足松山至內湖最後一哩",
+      "question": "松山與內湖之間，如何降低自行車通勤跨越堤防的繞行負擔？",
+      "points": [
+        "受訪者提出自行車與行人專用橋直接跨越，以連接松山端大眾運輸與內湖最後一哩。",
+        "訪談明確說明負重、堤防銜接及土地等仍在工程討論，完整政策尚未公布。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0210",
+          "doc_id": "d0098",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+          "section_or_timestamp": "松山—內湖自行車橋段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "腳踏車和行人專用橋直接跨過去"
+        },
+        {
+          "unit_id": "u0211",
+          "doc_id": "d0098",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+          "section_or_timestamp": "同段補充",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們還在跟工程團隊討論細節"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b13松山—內湖自行車橋主題"
+      ]
+    }
+  ]
+}

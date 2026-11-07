@@ -1,0 +1,241 @@
+{
+  "basis": "完整閱讀documents.json中16篇kind=policy_detail之全部unit.text，逐篇以來源ID核對consolidation-input.jsonl候選，並參照consolidation-sources.json摘要。covered表示已存在候選明確表達主要機制；partial/gap列出未表達之實質機制。official-pdf候選作為相關政策主題的交叉參照。",
+  "policies": [
+    {
+      "doc_id": "d0001",
+      "title": "都更政策",
+      "unit_ids": [
+        "u0001"
+      ],
+      "url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "status": "covered",
+      "candidate_ids": [
+        "main:b01:001",
+        "main:b01:002"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0002",
+      "title": "教育政策",
+      "unit_ids": [
+        "u0002"
+      ],
+      "url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "status": "partial",
+      "candidate_ids": [
+        "main:b01:003",
+        "main:b01:004",
+        "main:b01:018",
+        "official-pdf:b01:006",
+        "official-pdf:b01:007"
+      ],
+      "gap": "教師候選漏列正式教師員額、專任輔導教師及留任獎勵；教育政策另有USR大學研究市政議題／建議機制，未見候選。教師部分建議補入main:b01:003，不另建；USR需新增候選。"
+    },
+    {
+      "doc_id": "d0003",
+      "title": "交通政策",
+      "unit_ids": [
+        "u0003"
+      ],
+      "url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "status": "covered",
+      "candidate_ids": [
+        "main:b01:005",
+        "main:b01:006",
+        "main:b01:007",
+        "main:b01:008"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0004",
+      "title": "社福政策",
+      "unit_ids": [
+        "u0004"
+      ],
+      "url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "status": "covered",
+      "candidate_ids": [
+        "main:b01:009",
+        "main:b01:010",
+        "main:b01:011",
+        "main:b01:012",
+        "official-pdf:b01:011",
+        "official-pdf:b01:012",
+        "official-pdf:b01:013"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0005",
+      "title": "台北文化徑×山林徑",
+      "unit_ids": [
+        "u0005"
+      ],
+      "url": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "status": "covered",
+      "candidate_ids": [
+        "main:b01:013",
+        "official-pdf:b01:014",
+        "official-pdf:b01:015",
+        "official-pdf:b01:016",
+        "official-pdf:b01:017",
+        "official-pdf:b01:018",
+        "official-pdf:b01:019"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0006",
+      "title": "都市微森林",
+      "unit_ids": [
+        "u0006"
+      ],
+      "url": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "status": "covered",
+      "candidate_ids": [
+        "main:b01:014"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0007",
+      "title": "青年政策",
+      "unit_ids": [
+        "u0007"
+      ],
+      "url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "status": "covered",
+      "candidate_ids": [
+        "main:b01:016",
+        "main:b01:017",
+        "main:b01:021"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0008",
+      "title": "運動政策",
+      "unit_ids": [
+        "u0008"
+      ],
+      "url": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "status": "covered",
+      "candidate_ids": [
+        "main:b01:022"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0009",
+      "title": "家庭一站通",
+      "unit_ids": [
+        "u0009"
+      ],
+      "url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "status": "covered",
+      "candidate_ids": [
+        "main:root-additions:001",
+        "main:root-additions:002",
+        "main:root-additions:003",
+        "main:root-additions:004"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0010",
+      "title": "公務員政策",
+      "unit_ids": [
+        "u0010"
+      ],
+      "url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+      "status": "covered",
+      "candidate_ids": [
+        "main:root-additions:005",
+        "main:root-additions:006",
+        "main:root-additions:007"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0011",
+      "title": "親子同行卡",
+      "unit_ids": [
+        "u0011"
+      ],
+      "url": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "status": "covered",
+      "candidate_ids": [
+        "main:b01:023"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0012",
+      "title": "水域政策",
+      "unit_ids": [
+        "u0012"
+      ],
+      "url": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+      "status": "covered",
+      "candidate_ids": [
+        "main:b01:015"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0013",
+      "title": "AI政策",
+      "unit_ids": [
+        "u0013"
+      ],
+      "url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "status": "covered",
+      "candidate_ids": [
+        "main:b01:017",
+        "main:b01:019",
+        "main:b01:020"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0014",
+      "title": "客家政策",
+      "unit_ids": [
+        "u0014"
+      ],
+      "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+      "status": "gap",
+      "candidate_ids": [],
+      "gap": "整項客家政策尚無候選：伯公照護站／老幼共學、客庄學校互訪、台北通客語獎勵、約聘加分研議／第一線服務人才獎勵、無限城論壇客家交流。"
+    },
+    {
+      "doc_id": "d0015",
+      "title": "城市外交",
+      "unit_ids": [
+        "u0015"
+      ],
+      "url": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "status": "covered",
+      "candidate_ids": [
+        "main:b01:024",
+        "main:b01:025"
+      ],
+      "gap": ""
+    },
+    {
+      "doc_id": "d0016",
+      "title": "營養午餐",
+      "unit_ids": [
+        "u0016"
+      ],
+      "url": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "status": "covered",
+      "candidate_ids": [
+        "main:b01:026"
+      ],
+      "gap": ""
+    }
+  ]
+}

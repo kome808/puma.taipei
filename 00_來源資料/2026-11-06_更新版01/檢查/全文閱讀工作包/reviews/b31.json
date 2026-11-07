@@ -1,0 +1,437 @@
+{
+  "batch_id": "b31",
+  "read_units": [
+    {
+      "unit_id": "u0434",
+      "doc_id": "d0211",
+      "start": 0,
+      "end": 5863,
+      "sha256": "0f6df8903d57c5a012ea74e581844ff48e09b86bb403ea87f71018a1e5254553",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0435",
+      "doc_id": "d0211",
+      "start": 5863,
+      "end": 11854,
+      "sha256": "a6070f2ca35e48ed950e43ea229474421e42f8dcfbad506cecb90cc7ba4f3d31",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0436",
+      "doc_id": "d0211",
+      "start": 11854,
+      "end": 11928,
+      "sha256": "04bd56c36d5510a906524c45d8a5463136853754701a960adc0760581274dff4",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0437",
+      "doc_id": "d0212",
+      "start": 0,
+      "end": 1890,
+      "sha256": "efb032fffacf60ae60dd079d7a6695ab88002ffae9a3bba0d9190f263b7c6abf",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0438",
+      "doc_id": "d0213",
+      "start": 0,
+      "end": 5928,
+      "sha256": "6eb4b7423857884ca604d939825e2be49e1cba1e3ee6e5d496ac77708188b734",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0439",
+      "doc_id": "d0213",
+      "start": 5928,
+      "end": 11909,
+      "sha256": "3c2d7c78c6002b249516a9b15b80d74fbf4ab66867ca972f4a53ab7d583c2a77",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0440",
+      "doc_id": "d0213",
+      "start": 11909,
+      "end": 17803,
+      "sha256": "5bafdca96ad9fbf6ebcadd9370f8451cbf61e405c371de4644353722ba60f636",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0441",
+      "doc_id": "d0213",
+      "start": 17803,
+      "end": 21157,
+      "sha256": "75a4b7f2598bdf660678c8c95d9a50e77c1b550ea275eaa6716769069178039c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0442",
+      "doc_id": "d0214",
+      "start": 0,
+      "end": 1242,
+      "sha256": "b90eb1f924e3b721f4df34f6877f4b78bac41f515fc747f9a7689f51d7af7d51",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0443",
+      "doc_id": "d0215",
+      "start": 0,
+      "end": 5948,
+      "sha256": "956661213604141dea1a8611d93f7202a5647a263f287b4c6629da7dea53cee1",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0444",
+      "doc_id": "d0215",
+      "start": 5948,
+      "end": 8723,
+      "sha256": "8d5058ef4df16765030b673a97f088a49ae6e03febfa6271f16a3ae645d70917",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0445",
+      "doc_id": "d0216",
+      "start": 0,
+      "end": 5717,
+      "sha256": "9e119f57e77437e960adbc6fc8f6a9b90b532b6fdec1c2f1a75c4b3c406e6bb0",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0446",
+      "doc_id": "d0216",
+      "start": 5717,
+      "end": 11693,
+      "sha256": "a63fd7e9dfac2e91c3207db2b595ed48dbc3d08a4118ae7227602341b9a0c230",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0447",
+      "doc_id": "d0216",
+      "start": 11693,
+      "end": 12278,
+      "sha256": "cf61d37d2118ee708fc30ca5afb3a33b5dc3a5e81dfa8229d310bdec588da74e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0448",
+      "doc_id": "d0217",
+      "start": 0,
+      "end": 5882,
+      "sha256": "d76c7ba33d5f55193ec5939740dd3f0198f4f3ce5863afc6686dc5b49d2886cc",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0211",
+      "title": "「第一個站出來的人」：沈伯洋談國民黨的變化、國會監督與公民行動",
+      "url": "https://puma-hub.pages.dev/articles/zhiding-ep127/transcript.md",
+      "summary": "知定講堂春季青鳥活動演講逐字稿，主要聚焦罷免動員、國會監督及國家安全敘事。",
+      "attributable_claims": [
+        "講者以徐巧芯及國會事件說明其對國民黨變化與罷免行動的看法。"
+      ],
+      "caveats": [
+        "內容是選舉宣講及政治動員，涉及對個人、政黨和第三方的指控；不作市政主題或已驗證事實。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0212",
+      "title": "市政 debug 松：從十組城市提案，到 AI 教練與公民協作",
+      "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/article.md",
+      "summary": "市政debug松活動整理頁介紹十組城市提案、候選人講評、台北研究院、AI教練及市民協作。",
+      "attributable_claims": [
+        "候選人講評強調市政工具應資訊易達、容易理解並可互動。",
+        "提出研究院作為原型至公務體系間的研究及法規、資安和資料整合機制。",
+        "談AI教練支援產業與轉職者降低使用門檻。"
+      ],
+      "caveats": [
+        "報名、錄取和組隊數字有待核實；Demo為原型，不代表市府已採用或落地。"
+      ],
+      "topic_keys": [
+        "civic_technology",
+        "city_institute",
+        "ai_workforce"
+      ]
+    },
+    {
+      "doc_id": "d0213",
+      "title": "市政 debug 松：從十組城市提案，到 AI 教練與公民協作",
+      "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/transcript.md",
+      "summary": "市政debug松逐字稿和編者紀要，涵蓋城市痛點Demo、候選人講評及松後座談。",
+      "attributable_claims": [
+        "候選人提出先由智庫做跨域研究、法規及資安對接、資料整合和沙盒試辦，再交由議會及公務體系。",
+        "提出熟悉AI者進入產業工作3至6個月，之後開發工作者能直接使用的工具。",
+        "市民可透過黑客松與持續性工作組參與市政問題設計。"
+      ],
+      "caveats": [
+        "部分Demo之後的對談文字為新聞或編者整理，並非全段音軌逐字；時間碼和場次有原稿自述差異。黑客松原型非政策成果。"
+      ],
+      "topic_keys": [
+        "civic_technology",
+        "city_institute",
+        "ai_workforce",
+        "urban_renewal",
+        "waste"
+      ]
+    },
+    {
+      "doc_id": "d0214",
+      "title": "看見縫隙：從橋下空間、城市綠網到台北公共空間治理",
+      "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/article.md",
+      "summary": "看見縫隙論壇整理頁，介紹高架橋下、水岸、街區綠網與跨局處治理。",
+      "attributable_claims": [
+        "文章整理沈伯洋談市民大道文化廊道、老宅延壽及空間治理試驗。"
+      ],
+      "caveats": [
+        "全文有建築師、主持人與候選人多位講者；具體主張須按講者區分，部分為發言紀要。"
+      ],
+      "topic_keys": [
+        "public_space",
+        "cultural_routes",
+        "green_network",
+        "urban_renewal"
+      ]
+    },
+    {
+      "doc_id": "d0215",
+      "title": "看見縫隙：從橋下空間、城市綠網到台北公共空間治理",
+      "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/transcript.md",
+      "summary": "看見縫隙論壇紀錄，載有建築專業者的公共空間提案和沈伯洋的政策回應。",
+      "attributable_claims": [
+        "候選人提出活化市民大道高架橋下作音樂與動漫廊道，並談老宅延壽。",
+        "與主辦方共同提出跨局處單一窗口及空間沙盒試驗。"
+      ],
+      "caveats": [
+        "專家案例與研究說法不等同候選人政策；來源沒有正式學術參考資料，研究性表述需另查。"
+      ],
+      "topic_keys": [
+        "public_space",
+        "cultural_routes",
+        "green_network",
+        "urban_renewal",
+        "governance"
+      ]
+    },
+    {
+      "doc_id": "d0216",
+      "title": "影視音產業對談：打造一座內容城市",
+      "url": "https://puma-transcript.pages.dev/",
+      "summary": "影視音產業對談逐字稿，記錄創作者建言與候選人對影視、音樂、產業空間及國際合作的回應。",
+      "attributable_claims": [
+        "候選人主張文化內容是主權AI所需的資料及價值基礎。",
+        "提出捷運及既有場館的常態放映點、敬老卡和親子卡藝文點數、行政支援基地。",
+        "談Livehouse、音樂廊帶、國際駐村及本土IP支持。"
+      ],
+      "caveats": [
+        "部分提案源自受邀業者建議，需與候選人回應區分；逐字稿未補齊完整活動日期/地點資訊，少數外部產業數字為來賓說法。"
+      ],
+      "topic_keys": [
+        "culture",
+        "film",
+        "music",
+        "local_ip",
+        "public_space"
+      ]
+    },
+    {
+      "doc_id": "d0217",
+      "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+      "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+      "summary": "保安宮演講整理與逐字稿前段，介紹中山大同五項政見並記錄政策形成及地方痛點盤點。",
+      "attributable_claims": [
+        "演講說明先收集市民問題，再按區回應和調整政策。",
+        "摘要列出夜間安全、文化路徑、運動、老宅服務與在宅醫療等五個方向。",
+        "講稿前段提及大同老屋比例與中山區女性居民等背景數字。"
+      ],
+      "caveats": [
+        "本批僅讀到講稿前段和五項政見摘要，演講數字及方案細節屬講者或編者所述，需參照後續逐字稿單元核對。"
+      ],
+      "topic_keys": [
+        "district_safety",
+        "commercial_culture",
+        "urban_renewal",
+        "sports",
+        "home_care"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "將公民科技原型經研究和試辦後交由市府執行",
+      "question": "如何把黑客松提出的市政工具安全地交接給公務體系？",
+      "points": [
+        "候選人主張先由台北研究院做跨域研究、法規對接、資安保障及資料整合，並在示範場域試辦。",
+        "方案成熟後再透過議會與正式制度交給公務體系執行，並可開源分享。",
+        "活動展示的作品是原型，落地流程、機構權責及成本未定。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0441",
+          "doc_id": "d0213",
+          "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/transcript.md",
+          "section_or_timestamp": "松後座談／台北研究院",
+          "speaker": "沈伯洋",
+          "support_excerpt": "由台北研究院負責前期的跨領域研究"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以AI教練協助產業把AI工具融入工作流程",
+      "question": "不熟悉AI的產業工作者如何取得能直接使用的工具與轉職支持？",
+      "points": [
+        "候選人表示單靠開課追不上AI發展，提出熟悉AI的人進入特定產業實習3至6個月，理解流程後再開發工具。",
+        "也在思考將青年AI Token支持延伸至中年轉職者，並設計較短、符合兼職需求的訓練。",
+        "此為政策構想，參與資格、資源規模和執行單位未定。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0441",
+          "doc_id": "d0213",
+          "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/transcript.md",
+          "section_or_timestamp": "松後座談／AI教練",
+          "speaker": "沈伯洋",
+          "support_excerpt": "直接進入特定產業實習 3 至 6 個月"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "活化都市縫隙並建立跨局處協調窗口",
+      "question": "高架橋下、親水空間和街區綠地如何跨越局處分工實驗改造？",
+      "points": [
+        "論壇與談整理提出市府為公共空間設單一推動窗口，減少跨局處往返。",
+        "另提出在特定場址先作數月或一至兩年的空間沙盒試驗，累積經驗再擴大。",
+        "論壇內容含主辦方共同倡議；需區分共同提案與個別候選人發言。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0444",
+          "doc_id": "d0215",
+          "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/transcript.md",
+          "section_or_timestamp": "空間治理兩大呼籲",
+          "speaker": "主辦方／沈伯洋共同提出",
+          "support_excerpt": "設立單一專責窗口"
+        },
+        {
+          "unit_id": "u0444",
+          "doc_id": "d0215",
+          "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/transcript.md",
+          "section_or_timestamp": "空間治理兩大呼籲",
+          "speaker": "主辦方／沈伯洋共同提出",
+          "support_excerpt": "允許在特定點狀公共空間"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以文化廊道串接市民大道橋下空間與商圈",
+      "question": "如何讓高架橋下空間成為可步行、展演並串聯文化商圈的場所？",
+      "points": [
+        "候選人提出結合北流規劃市民大道橋下音樂廊道，另談動漫及藝文廊道。",
+        "構想串連地下街、光華商圈和三創周邊文化，兼顧步行、展演、市集與商圈人流。",
+        "尚未列明路段、設計及後續維運安排。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0444",
+          "doc_id": "d0215",
+          "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/transcript.md",
+          "section_or_timestamp": "沈伯洋回應：空間政策",
+          "speaker": "沈伯洋",
+          "support_excerpt": "打造成為長條形的『**音樂廊道**』！"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以既有場館和交通節點增加影視作品放映機會",
+      "question": "如何讓獨立影視作品在主流院線下檔後仍有固定觀眾與交流場域？",
+      "points": [
+        "候選人不主張另花大錢蓋專用戲院，提出結合捷運地下街和既有場館設置常態放映空間。",
+        "也提出以敬老卡、愛心卡及親子卡點數提供藝文消費誘因。",
+        "具體點數規則、場地和營運模式尚未說明。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0446",
+          "doc_id": "d0216",
+          "url": "https://puma-transcript.pages.dev/",
+          "section_or_timestamp": "影視政策回應／放映空間",
+          "speaker": "沈伯洋",
+          "support_excerpt": "設置舒適、常態性的放映空間"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以音樂廊帶和國際駐村支持本土音樂產業",
+      "question": "市府如何協助Livehouse和本土音樂人持續創作並建立國際合作？",
+      "points": [
+        "候選人提出在都市計畫中為音樂空間訂定容許標準，並結合捷運綠廊或街區形成音樂廊帶。",
+        "另建議市府支持的國際音樂節搭配兩至三個月國際駐村，促進台灣與外國音樂人共同創作。",
+        "他主張國際IP與本土IP公平競爭，並優先扶持本土原創。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0446",
+          "doc_id": "d0216",
+          "url": "https://puma-transcript.pages.dev/",
+          "section_or_timestamp": "音樂政策回應／國際交流",
+          "speaker": "沈伯洋",
+          "support_excerpt": "市府主辦或補助的國際音樂節"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "盤點地方安全問題並以安全審計改善夜間步行",
+      "question": "中山大同如何以照明、步行動線和夜間治理回應居民安全擔憂？",
+      "points": [
+        "政見摘要提出在中山大同導入全域安全審計，關注女性居民夜間照明及步行動線。",
+        "另提跨局處夜市長協調夜間噪音、治安與鄰里紛爭。",
+        "本單元只含摘要和演講前段，方案位置與目標數字仍需讀後續講稿核對。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0448",
+          "doc_id": "d0217",
+          "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+          "section_or_timestamp": "五大政見摘要／大祕寶一",
+          "speaker": "編者整理的演講摘要",
+          "support_excerpt": "全域安全審計（Safety Audit）"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "記錄保安宮演講中的在地政策形成脈絡",
+      "question": "地方政見如何從市民提問、資料整理到分區回應？",
+      "points": [
+        "演講者描述先由專家討論，再收集居民回饋並按區回應，形成調整政策的方式。",
+        "此段同時提及中山大同垃圾桶、鼠患、菸害、商圈及夜間安全等地方痛點。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0448",
+          "doc_id": "d0217",
+          "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+          "section_or_timestamp": "00:02:31",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我認為這個才是政策形成的方式"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    }
+  ]
+}

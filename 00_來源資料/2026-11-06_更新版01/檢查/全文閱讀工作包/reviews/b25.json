@@ -1,0 +1,654 @@
+{
+  "batch_id": "b25",
+  "read_units": [
+    {
+      "unit_id": "u0344",
+      "doc_id": "d0171",
+      "start": 5977,
+      "end": 11145,
+      "sha256": "d40776214bd3b2472384824a008b6ae336d6faf00c8e27eb6acea5e3efe087ef",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0345",
+      "doc_id": "d0172",
+      "start": 0,
+      "end": 1425,
+      "sha256": "252dbc3f2da16d6c1539eb275c629244bf28ef3d830627cf52a08fc7e8053304",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0346",
+      "doc_id": "d0173",
+      "start": 0,
+      "end": 1077,
+      "sha256": "52904c372fa5cff05c96dfd9bb347b563e44ba6c08bc7f9d3a00cbe06d7b05e5",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0347",
+      "doc_id": "d0174",
+      "start": 0,
+      "end": 1379,
+      "sha256": "cbc664f3de5d8ff10730addce010ed5133a678851caadc033808cf1fd7c70e03",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0348",
+      "doc_id": "d0175",
+      "start": 0,
+      "end": 1392,
+      "sha256": "f4721b6f832559134f08a047dea3890f8ff6277144cccd4afc598676ecaf2383",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0349",
+      "doc_id": "d0176",
+      "start": 0,
+      "end": 1347,
+      "sha256": "a0178dd925548a713f9ef012ff9835c991caf8ffc740f916dace21c919c5c8fe",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0350",
+      "doc_id": "d0177",
+      "start": 0,
+      "end": 2944,
+      "sha256": "2ce28ab8b8605da461971ee0ff0d82352f515cf015bc19371a02ab1795c489e0",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0351",
+      "doc_id": "d0178",
+      "start": 0,
+      "end": 1183,
+      "sha256": "8934abfc77f806c0b0cdf371493360cb55988a356c13fb6153a2690f2b3a81b2",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0352",
+      "doc_id": "d0179",
+      "start": 0,
+      "end": 2046,
+      "sha256": "2f866643af3d0572566a3884402be6abb6a50fc4961ca9ff3bc9b0ff651ca964",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0353",
+      "doc_id": "d0180",
+      "start": 0,
+      "end": 1269,
+      "sha256": "c5b161d816778e1f943c088b53731728a279e789ed278142523c2bd2d7592a4d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0354",
+      "doc_id": "d0181",
+      "start": 0,
+      "end": 2632,
+      "sha256": "d56db890b1ddf82a949d7e2466e7216e6878c924334d35885d48e7179fa0d986",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0355",
+      "doc_id": "d0182",
+      "start": 0,
+      "end": 1151,
+      "sha256": "e1a1ba301cc9869c08c31d8c169bef751c26e4a1fd98fc1b417ae49c742f7cfc",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0356",
+      "doc_id": "d0183",
+      "start": 0,
+      "end": 1500,
+      "sha256": "8c5d668b60887e4305f0041bb744a54db8f5f3537d2f64e8ee5db8bcf64a6fe8",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0357",
+      "doc_id": "d0184",
+      "start": 0,
+      "end": 1173,
+      "sha256": "183c42139a23cb171ba6446d9b1c96f4d561dadd37ae1013757c8614f42508d4",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0358",
+      "doc_id": "d0185",
+      "start": 0,
+      "end": 335,
+      "sha256": "124121163095762da840a0814fc711b91ea36d0708c56288418bf58fbaa1f588",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0359",
+      "doc_id": "d0186",
+      "start": 0,
+      "end": 1618,
+      "sha256": "c957af552608468f11821801281a3b79f117edf53624a68c0d0d9645578b0c20",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0360",
+      "doc_id": "d0187",
+      "start": 0,
+      "end": 5882,
+      "sha256": "3b5065e62ba91052db07ee9293ae9fcfc40df651c89b45865fc3d3c38529b38e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0361",
+      "doc_id": "d0187",
+      "start": 5882,
+      "end": 11871,
+      "sha256": "67a9b504e5e32f5820fede316de98a06cc6d9b384d2c1aa51f99c983505c9f63",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0362",
+      "doc_id": "d0187",
+      "start": 11871,
+      "end": 17701,
+      "sha256": "322fab41024c43cbbcae8ea27dbc51f6256d9a3bd86f5dd4ef0e91722115ffa6",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0363",
+      "doc_id": "d0187",
+      "start": 17701,
+      "end": 23613,
+      "sha256": "e75b377e6936a90c0df1cc300c845ca6bb4ab3491fe312055585ef77af18b679",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0364",
+      "doc_id": "d0187",
+      "start": 23613,
+      "end": 27969,
+      "sha256": "efaccee0394897de13ce7954093a7a233f79cd2b27d2d275f5f9bf33ae522dab",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0365",
+      "doc_id": "d0188",
+      "start": 0,
+      "end": 5911,
+      "sha256": "c6911b8fe802e628549a570a8e95755603465ce5d53cf2c6232b8181a5dad225",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0366",
+      "doc_id": "d0189",
+      "start": 0,
+      "end": 2131,
+      "sha256": "8ec6487ca16b2ff0901c4a45f5a77e72a5678b5612d8d184db01a1c7979d6092",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0171",
+      "title": "揪某聊 EP397：從蛋清事件、動漫到家庭與選戰中的支持",
+      "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/transcript.md",
+      "summary": "揪某聊EP397逐字稿按時間記錄訪談，涵蓋家庭成長、動漫、興趣與選戰生活。",
+      "attributable_claims": [
+        "受訪者在節目中談到家庭與個人生活。"
+      ],
+      "caveats": [
+        "市政內容僅在一段中簡短提及孤獨；避免將個人軼事擴張成政策。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0172",
+      "title": "沈伯洋與何立安談運動城市：運動驛站、肌力訓練與體育產業",
+      "url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/article.md",
+      "summary": "運動城市訪談整理頁，涉及運動驛站、肌力訓練、運動社群與產業。",
+      "attributable_claims": [
+        "受訪者與主持人討論運動設施和社群參與。"
+      ],
+      "caveats": [
+        "多為訪談整理與節目摘要，成效數字及健康建議需另行查證。"
+      ],
+      "topic_keys": [
+        "sports_city",
+        "community_fitness"
+      ]
+    },
+    {
+      "doc_id": "d0173",
+      "title": "沈伯洋與何立安談運動城市：運動驛站、肌力訓練與體育產業",
+      "url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/transcript.md",
+      "summary": "同集運動城市訪談附件，保留逐字稿及節目摘要片段。",
+      "attributable_claims": [
+        "受訪者和來賓討論基層運動參與與社區設施。"
+      ],
+      "caveats": [
+        "逐字內容不完整；醫療效益及死亡率等數據不作已證實事實。"
+      ],
+      "topic_keys": [
+        "sports_city",
+        "community_fitness"
+      ]
+    },
+    {
+      "doc_id": "d0174",
+      "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+      "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/article.md",
+      "summary": "房業涵專訪文章整理市民提問，包含兒少保護、居住、城市智庫等議題。",
+      "attributable_claims": [
+        "整理頁記錄受訪者對兒少安全與城市規劃的回答方向。"
+      ],
+      "caveats": [
+        "部分政策細節來自編者整理，應與附件對讀，不視為已核定承諾。"
+      ],
+      "topic_keys": [
+        "child_protection",
+        "housing",
+        "city_institute"
+      ]
+    },
+    {
+      "doc_id": "d0175",
+      "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+      "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/transcript.md",
+      "summary": "房業涵專訪附件切片保存有限原稿與編者摘要，涵蓋兒少、住宅及智庫等議題。",
+      "attributable_claims": [
+        "摘要提及市民提問、兒少保護、居住和城市研究等主題。"
+      ],
+      "caveats": [
+        "附件片段零散，數字與政策細節不能視為完整逐字內容。"
+      ],
+      "topic_keys": [
+        "child_protection",
+        "housing",
+        "city_institute"
+      ]
+    },
+    {
+      "doc_id": "d0176",
+      "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+      "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/article.md",
+      "summary": "王淺秋訪談整理頁談城市智庫、毒品防制及台北願景。",
+      "attributable_claims": [
+        "整理頁呈現受訪者對城市治理及毒品防制問題的回答方向。"
+      ],
+      "caveats": [
+        "主要依編者摘要整理，與原始問答有落差可能。"
+      ],
+      "topic_keys": [
+        "city_institute",
+        "drug_policy"
+      ]
+    },
+    {
+      "doc_id": "d0177",
+      "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+      "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript.md",
+      "summary": "王淺秋訪談ASR逐字稿片段，涉及安心休閒、城市智庫、毒品治療及城市交流。",
+      "attributable_claims": [
+        "受訪者談城市智庫與毒品防制等議題。"
+      ],
+      "caveats": [
+        "轉錄有大量錯字、缺口與辨識錯誤；採用時需核對影音。"
+      ],
+      "topic_keys": [
+        "city_institute",
+        "drug_policy"
+      ]
+    },
+    {
+      "doc_id": "d0178",
+      "title": "沈伯洋《很懂內幕》：從車掃與科技動員，談台北文化與動漫廊帶",
+      "url": "https://puma-hub.pages.dev/articles/nexttv-inside-2026-10-19/article.md",
+      "summary": "NEXT TV專訪整理頁列文化及城市廊帶等議題。",
+      "attributable_claims": [
+        "訪談提問涉及ACG文化與城市文化規劃。"
+      ],
+      "caveats": [
+        "此頁主要是標題、主題導覽，細節不足。"
+      ],
+      "topic_keys": [
+        "culture",
+        "acg"
+      ]
+    },
+    {
+      "doc_id": "d0179",
+      "title": "沈伯洋《很懂內幕》：從車掃與科技動員，談台北文化與動漫廊帶",
+      "url": "https://puma-hub.pages.dev/articles/nexttv-inside-2026-10-19/transcript.md",
+      "summary": "NEXT TV訪談附件僅留摘要與部分片段，提到ACG廊帶及文化面向。",
+      "attributable_claims": [
+        "編者摘要提及ACG廊帶構想。"
+      ],
+      "caveats": [
+        "正文與講者逐句歸屬不足，政策細節僅能作背景線索。"
+      ],
+      "topic_keys": [
+        "culture",
+        "acg"
+      ]
+    },
+    {
+      "doc_id": "d0180",
+      "title": "沈伯洋與大耕老師對談：城市陪伴、產業規範與社區連結",
+      "url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/article.md",
+      "summary": "ISZN訪談文章頁以消費教育、文化旅遊和社區活動等為主題。",
+      "attributable_claims": [
+        "整理頁呈現身心靈消費與城市文化的訪談方向。"
+      ],
+      "caveats": [
+        "細節需參考d0181；文章未提供完整問答。"
+      ],
+      "topic_keys": [
+        "consumer_protection",
+        "culture"
+      ]
+    },
+    {
+      "doc_id": "d0181",
+      "title": "沈伯洋與大耕老師對談：城市陪伴、產業規範與社區連結",
+      "url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/transcript.md",
+      "summary": "ISZN訪談附件有整理式段落，涉及身心靈服務消費教育、修理咖啡館及AI教練。",
+      "attributable_claims": [
+        "整理內容提到第三方認證及消費者教育的想法。",
+        "內容也提出修理咖啡館連結社區與文化旅遊。"
+      ],
+      "caveats": [
+        "多數為摘要或整理段落，並非完整逐句逐字稿；講者身份和精確主張需謹慎。"
+      ],
+      "topic_keys": [
+        "consumer_protection",
+        "community",
+        "culture"
+      ]
+    },
+    {
+      "doc_id": "d0182",
+      "title": "黃光芹專訪沈伯洋：突破同溫層，從生活需求談城市解方",
+      "url": "https://puma-hub.pages.dev/articles/huang-guangqin-2026-10-19/article.md",
+      "summary": "黃光芹專訪文章頁列長照福利、京華城補償、商圈與AI等提問主題。",
+      "attributable_claims": [
+        "訪談整理頁觸及長者福利、商圈及城市科技議題。"
+      ],
+      "caveats": [
+        "僅提供主題與簡略整理，缺乏可確認的完整發言。"
+      ],
+      "topic_keys": [
+        "eldercare",
+        "commercial_culture",
+        "technology"
+      ]
+    },
+    {
+      "doc_id": "d0183",
+      "title": "黃光芹專訪沈伯洋：突破同溫層，從生活需求談城市解方",
+      "url": "https://puma-hub.pages.dev/articles/huang-guangqin-2026-10-19/transcript.md",
+      "summary": "黃光芹專訪附件摘要和片段談長者福利、京華城補償、商圈與科技。",
+      "attributable_claims": [
+        "整理內容記錄對長期照顧和城市發展的談話。"
+      ],
+      "caveats": [
+        "缺少多數問題的完整逐字內容；爭議性政策主張不能由片段補足。"
+      ],
+      "topic_keys": [
+        "eldercare",
+        "commercial_culture",
+        "technology"
+      ]
+    },
+    {
+      "doc_id": "d0184",
+      "title": "吳淡如專訪沈伯洋：從少年夢想，到自己想成為的大人",
+      "url": "https://puma-hub.pages.dev/articles/wu-danru-2026-10-19/article.md",
+      "summary": "吳淡如專訪文章整理個人經歷、家庭與文化願景。",
+      "attributable_claims": [
+        "訪談以成長與家庭故事為主。"
+      ],
+      "caveats": [
+        "個人回憶未獨立查證，不由此推定家人年齡或政策細節。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0185",
+      "title": "吳淡如專訪沈伯洋：從少年夢想，到自己想成為的大人",
+      "url": "https://puma-hub.pages.dev/articles/wu-danru-2026-10-19/transcript.md",
+      "summary": "吳淡如訪談附件極短，僅保存資訊與段落標題。",
+      "attributable_claims": [
+        "附件確認訪談觸及成長和家庭主題。"
+      ],
+      "caveats": [
+        "只有少量文字，沒有可用逐字政策內容。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0186",
+      "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+      "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/article.md",
+      "summary": "台灣名人堂專訪整理頁涵蓋市民提問、兒少保護、城市智庫、街道、長者與家人。",
+      "attributable_claims": [
+        "整理頁概述受訪者對公共服務及城市空間的主張。"
+      ],
+      "caveats": [
+        "政策細節以逐字稿d0187為主要依據，數字和效果仍需外部驗證。"
+      ],
+      "topic_keys": [
+        "child_protection",
+        "city_institute",
+        "active_transport",
+        "eldercare",
+        "social_connection"
+      ]
+    },
+    {
+      "doc_id": "d0187",
+      "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+      "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript.md",
+      "summary": "台灣名人堂逐字稿清楚標示主持人和沈伯洋發言，談市民建言、兒少、公務負荷、街道、社區及長者健康。",
+      "attributable_claims": [
+        "受訪者提出優先處理兒少受虐風險與公務負荷。",
+        "提出檢討自行車路網、行人空間及遮蔭配置。",
+        "提出健身小巴、敬老卡和社區社交等長者健康構想。"
+      ],
+      "caveats": [
+        "研究院位置、英國社區模式、跌倒減少比例等為訪談說法，數字需另核；此來源逐句標示講者。"
+      ],
+      "topic_keys": [
+        "child_protection",
+        "city_institute",
+        "active_transport",
+        "eldercare",
+        "social_connection"
+      ]
+    },
+    {
+      "doc_id": "d0188",
+      "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+      "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/article.md",
+      "summary": "工頭堅與沈伯洋對談整理文章，談城市記憶、五年級世代、文化路徑及孤獨社區連結。",
+      "attributable_claims": [
+        "文章整理受訪者談Link Worker、社區觀察者及修理咖啡館。"
+      ],
+      "caveats": [
+        "來源說明記錄字幕未逐句聽校且未自行判定說話者；正文條列雖標姓名，需以有講者標記的版本確認沈伯洋歸屬。"
+      ],
+      "topic_keys": [
+        "social_connection",
+        "cultural_routes",
+        "commercial_culture"
+      ]
+    },
+    {
+      "doc_id": "d0189",
+      "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+      "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/source-notes.md",
+      "summary": "工頭堅訪談來源筆記，提供分段摘要並逐段標示沈伯洋或工頭堅。",
+      "attributable_claims": [
+        "筆記將社區觀察者、Link Worker和修理咖啡館內容標作沈伯洋發言。"
+      ],
+      "caveats": [
+        "這是整理筆記，不等同逐字稿；數字與制度案例仍需核對，且與同集字幕並非獨立證據。"
+      ],
+      "topic_keys": [
+        "social_connection",
+        "cultural_routes",
+        "commercial_culture"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "用生活問題而非政黨分類理解市民需求",
+      "question": "市政選舉如何爭取關心生活議題、政治立場不同的市民？",
+      "points": [
+        "受訪者表示以育兒孤單、夜間步行安全、樹木、兒少受虐與營養午餐等關切來理解市民，而非先按政黨分類。",
+        "他說市政服務議題較能跨越黨派，並希望爭取不同政黨支持者。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0364",
+          "doc_id": "d0187",
+          "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript.md",
+          "section_or_timestamp": "00:56:08–00:57:28",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我是用這個來設定，所以我反而就不會用政黨"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "讓公民行動超越選舉持續參與",
+      "question": "選舉動員形成的公民網絡如何在選後繼續參與公共事務？",
+      "points": [
+        "受訪者將「洋流」理解為關心社會的公民運動，認為重要的是公民在重要議題發生時仍願意站出來。",
+        "他表示支持者也應能批評政策不可行或需要調整，視為民主常態。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0364",
+          "doc_id": "d0187",
+          "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript.md",
+          "section_or_timestamp": "00:58:15–00:59:16",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我只希望這些公民就是永遠都在"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以城市研究機制連結研究、議會規則與公務執行",
+      "question": "如何讓城市研究成果成為可執行的治理依據？",
+      "points": [
+        "受訪者構想在北投士林科學園區設置台北研究院或城市智庫，作為市府外部研究腦。",
+        "談到由研究機制整理議題、議會訂定規則，再由公務員執行，並以此回應公務工作負荷。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0362",
+          "doc_id": "d0187",
+          "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript.md",
+          "section_or_timestamp": "約00:20–00:21",
+          "speaker": "沈伯洋",
+          "support_excerpt": "公務員只要負責執行就好了"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "檢討自行車路線並改善步行與樹蔭空間",
+      "question": "如何改善自行車通行、行人空間與街道遮蔭？",
+      "points": [
+        "受訪者比較自行車路線增加比例與使用者成長比例，主張重新檢視路線規劃。",
+        "他談到連接自行車路線、步行空間及植樹遮蔭；具體路段和統計來源未在訪談中交代。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0362",
+          "doc_id": "d0187",
+          "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript.md",
+          "section_or_timestamp": "自行車路網／逐字稿段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "使用者增加 55%，但是我們的腳踏車路網只增加 5%"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以社區網絡增加長者社交與日常活動",
+      "question": "社區如何協助長者維持連結、活動與身心健康？",
+      "points": [
+        "受訪者提及英國以小規模社群組織長者彼此照應的作法，作為社區網絡的參考。",
+        "他提出健身小巴進入社區並可使用敬老卡，讓長者步行一小段路參與簡單負重訓練。",
+        "訪談中所述組織比例與運動降低跌倒效果仍需查證。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0363",
+          "doc_id": "d0187",
+          "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript.md",
+          "section_or_timestamp": "00:42:31–00:42:49",
+          "speaker": "沈伯洋",
+          "support_excerpt": "讓健身小巴能夠到社區"
+        },
+        {
+          "unit_id": "u0365",
+          "doc_id": "d0188",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/article.md",
+          "section_or_timestamp": "文章整理／社區機制",
+          "speaker": "編者整理",
+          "support_excerpt": "Link Worker（有給職連結工作者）"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以社區同伴與文化空間回應孤獨感",
+      "question": "城市有哪些公共支持可以幫助市民建立日常陪伴與社區連結？",
+      "points": [
+        "整理文章描述社區觀察者、有給職Link Worker與修理咖啡館等想法，連結長者、店家和不同世代。",
+        "字幕附件沒有可靠逐句講者標籤；僅能作整場對談脈絡，若要歸給沈伯洋，須使用明確標講者的來源並附註整理筆記。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0365",
+          "doc_id": "d0188",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/article.md",
+          "section_or_timestamp": "來源與校訂說明",
+          "speaker": "編者說明",
+          "support_excerpt": "未逐句聽校，也未自行判定每句說話者"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以城市記憶與空間保存回應世代失落",
+      "question": "如何讓不同世代在城市空間中遇見熟悉的記憶與文化？",
+      "points": [
+        "來源筆記整理以光華商場入口意象呈現世代記憶，並提出政府買下或長租具文化記憶的空間再出租。",
+        "文章另提到文化路徑與修理咖啡館等社區連結構想。",
+        "其中市府長租制度、Link Worker數字和部分講者歸屬應以原始影音或明確標記逐字稿再確認。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0366",
+          "doc_id": "d0189",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/source-notes.md",
+          "section_or_timestamp": "URS 2.0政策整理",
+          "speaker": "編者整理（來源筆記）",
+          "support_excerpt": "由市府買下或長租具記憶價值的空間"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    }
+  ]
+}

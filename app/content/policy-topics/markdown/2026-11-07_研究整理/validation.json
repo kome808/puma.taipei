@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "groups": 15,
+  "topics": 86,
+  "scope_counts": {
+    "municipal_policy": 81,
+    "public_issue": 5
+  },
+  "source_coverage": {
+    "both": 34,
+    "official_only": 20,
+    "interview_only": 32
+  },
+  "paragraphs": 130,
+  "evidence_excerpts_checked": 147,
+  "source_documents": 223,
+  "original_markdown_exact_copies": 218,
+  "official_pdf_text_documents": 5,
+  "unique_cited_urls": 71,
+  "authored_local_links_checked": 977,
+  "model_api_calls": 0,
+  "social_share_fields_exported": false,
+  "website_deployed": false,
+  "errors": []
+}

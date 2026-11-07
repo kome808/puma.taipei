@@ -1,0 +1,3150 @@
+{
+  "name": "沈伯洋政策分享蒟蒻・主題整理",
+  "source_snapshot_date": "2026-11-07",
+  "positioning": "民間獨立整理；內容說明為來源提出的政策與觀點。",
+  "stage": "主題與說明；尚未製作含來源500字元分享稿、尚未套用公開網站。",
+  "topic_count": 86,
+  "by_scope": {
+    "municipal_policy": 81,
+    "public_issue": 5
+  },
+  "groups": [
+    {
+      "title": "居住與城市更新",
+      "topic_count": 7,
+      "topics": [
+        {
+          "id": "t001",
+          "title": "停滯都更案如何退場或重新啟動？",
+          "question": "都更案久拖不決、實施者撤場時，住戶如何改走公辦、換手或退場？",
+          "summary": "主張先盤點停滯案件，以分級檢視、限期改善或退出原程序處理卡關案；退場後可依個案轉換實施者、改採公辦或自主更新，並建立續建與住戶權益的安全網。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "都更政策",
+              "url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "先把問題爆出來，才有改進的空間",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+              "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "logical_url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更",
+              "url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "logical_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋《雅琴看世界》：走進台北街頭，從洋流談城市與家人",
+              "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+              "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "logical_url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t002",
+          "title": "換屋估價與搬遷安排如何保障住戶選擇？",
+          "question": "住戶換屋或換地上權時，如何處理公平估價、價差、暫住與回遷？",
+          "summary": "提出「產權換屋」或「產權換地上權」兩種選擇，透過公平估價多退少補，並協調稅捐與專案貸款；媒合以鄰近生活圈、整合度高者優先，讓住戶能先入住新屋，再推進原基地更新。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "都更政策",
+              "url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+              "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來",
+              "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+              "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "logical_url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更",
+              "url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "logical_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t003",
+          "title": "都更審議如何縮短等待、增加專業人力？",
+          "question": "都更案件審查久、局處人手不足時，行政流程如何減少重工？",
+          "summary": "主張補強專業人力與待遇，讓公會協助技術審查，審議會聚焦權利價值爭議，並設報核前聯合預審及數位資料支援。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "都更政策",
+              "url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t004",
+          "title": "老宅安全與無障礙改善如何取得協助？",
+          "question": "公寓沒有電梯、管線老舊或住戶難以協調時，市府可以怎麼協助改善？",
+          "summary": "提出由老宅行動服務團到戶說明耐震初篩、管線、屋頂、電梯與危老等改善途徑，協助住戶了解補助與協調方式；電梯難以推動時，也談爬梯輔具或高低樓層換居。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "社福政策",
+              "url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+              "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "做了，就要想辦法贏 — 跟著 PUMA 老師走一天",
+              "url": "https://puma-shen-interview.pages.dev/",
+              "logical_url": "https://puma-shen-interview.pages.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "先把問題爆出來，才有改進的空間",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+              "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+              "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "logical_url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "看見縫隙：從橋下空間、城市綠網到台北公共空間治理",
+              "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t005",
+          "title": "不同家庭如何取得合適住宅或換居安排？",
+          "question": "青年、婚育家庭、長者或科技工作者的居住需求，如何接上社宅、包租代管與土地更新？",
+          "summary": "訪談提出按需求規劃青年宅、婚育宅、科技宅及只租不賣住宅，並討論以社宅、包租代管、租金支持或低樓層換居回應生活需要。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+              "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "logical_url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+              "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "logical_url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t006",
+          "title": "社子島如何兼顧居住改善、聚落與生態？",
+          "question": "社子島發展要如何改善公共設施，同時回應既有聚落與生態保留？",
+          "summary": "受訪者反對全區剷平或整體遷移的單一路徑，提出重新討論公共設施、下水道、衛生條件、補償與開發利益回饋，兼顧既有聚落與生態。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "「台北市需要做夢」：首都願景、治理細節與青年基金",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-13",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-13",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《新聞面對面》專訪：從選戰、府會溝通到城市治理",
+              "url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t065",
+          "title": "第一批循環都更房源從哪裡來？",
+          "question": "要先啟動循環換屋平台時，市府有哪些新屋或公有土地可作為第一批房源？",
+          "summary": "官方提出四類循環都更房源：公有地老舊房舍改建、殭屍都更轉公辦取得的土地、市府介入的自主都更土地，以及捷運聯開分回戶（補充）；先建新屋供住戶交換，作為後續更新的起點。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "都更政策",
+              "url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來",
+              "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+              "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "logical_url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更",
+              "url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "logical_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "教育與校園",
+      "topic_count": 7,
+      "topics": [
+        {
+          "id": "t007",
+          "title": "教師人力、班級規模與行政工作如何改善？",
+          "question": "教師缺額、班級人數和重複行政工作如何影響教學時間，提出哪些人力與流程調整？",
+          "summary": "提出減生不減師、增加正式教師與專任輔導員額、試辦雙導師及導師行政助理，並刪除重複行政流程、改善留任支持，讓教師有更多心力教學與輔導。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "教育政策",
+              "url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更",
+              "url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "logical_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+              "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "logical_url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t008",
+          "title": "校園毒品與毒駕風險如何預防、辨識和轉介？",
+          "question": "如何從校園周邊執法、拒絕技巧教育到風險轉介，處理毒品及毒駕問題？",
+          "summary": "提出在校園周邊優先處理販售及毒駕熱點，以生活技能教育練習辨識壓力與拒絕，並透過問卷式風險辨識，銜接醫療與毒品防制轉介。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "教育政策",
+              "url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "把爭議帶回制度：公共安全、程序正義與台北治理",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-10-07",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-10-07",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+              "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+              "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t009",
+          "title": "孩子上下學的路口與通學巷如何更安全？",
+          "question": "學校周邊行人空間中斷、車流速度快時，哪些道路設計可以先降低風險？",
+          "summary": "主張以學校周邊150公尺為通學區改善範圍，透過縮窄車道、抬升行穿線、減速設施、庇護島與路口淨空降低風險；先以低成本設施試辦，再依事故風險排序推進。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260916-交通政策PDF.pdf",
+              "url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+              "logical_url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "交通政策",
+              "url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "做了，就要想辦法贏 — 跟著 PUMA 老師走一天",
+              "url": "https://puma-shen-interview.pages.dev/",
+              "logical_url": "https://puma-shen-interview.pages.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t010",
+          "title": "學校如何讓學生公平、安全地使用 AI？",
+          "question": "教育版 AI 如何降低家庭資源差距，又建立教師陪同與校園使用界線？",
+          "summary": "提出由市府協助學校採用教育版AI，透過校管帳號、課堂時段及教師在場，讓學生練習理解、使用和判斷AI，降低家庭資源差距。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "AI政策",
+              "url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "教育政策",
+              "url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "青年政策",
+              "url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t011",
+          "title": "免費營養午餐如何兼顧品質、食安與弱勢平權？",
+          "question": "免費供餐作為底線時，如何調整餐費、保障弱勢並提升營養與食農教育？",
+          "summary": "主張以營養午餐專法訂出餐費、營養、食安和食材要求，餐費可依成本調整；若全校加價提升品質，市府補足弱勢差額，並連結在地小農與食農教育。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "營養午餐",
+              "url": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+              "logical_url": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+              "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+              "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t053",
+          "title": "台北學童如何透過客庄互訪認識客家文化？",
+          "question": "如何讓台北與桃竹苗、六堆客庄學校建立雙向文化交流？",
+          "summary": "提出串聯台北與客庄中小學結盟，將寒暑假文化體驗與雙向互訪常態化。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "客家政策",
+              "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t066",
+          "title": "親師衝突、幼教與特教支持如何補位？",
+          "question": "親師衝突、幼幼班或特教支持需要更多專業協助時，學校有哪些支援構想？",
+          "summary": "提出親師第三方調和、幼教班級與行政支持、補足特教及助理人力，並結合家庭教育與教師支持，回應教學和照顧現場需要。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "教育政策",
+              "url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "育兒與家庭支持",
+      "topic_count": 5,
+      "topics": [
+        {
+          "id": "t012",
+          "title": "育兒求助與服務轉介如何找到同一個入口？",
+          "question": "家長遇到托育、早療或家庭教養問題時，如何更快找到能承接與轉介的人？",
+          "summary": "提出整合育兒專線、家長版1999及各區家庭支持服務站，由專人了解家庭需求、協助轉介托育、早療與教養資源，並以到戶訪視和陪伴接續支持。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "家庭一站通",
+              "url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+              "logical_url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+              "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "從基層行程到城市願景：沈伯洋談台北市政與育兒支持",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-07",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-07",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "開船，不能遇到礁石才轉彎：讓預算有方向",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "黃暐瀚專訪沈伯洋：四場辯論、交叉詰問與台北市政",
+              "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+              "logical_url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t013",
+          "title": "照顧者如何取得臨時托育與喘息時間？",
+          "question": "家長需要休息、辦事或工作時，社區能提供哪些短時托育與接送支持？",
+          "summary": "官網規劃滿6個月至6歲兒童每週固定時數免費臨托，並提出在夜市、百貨等夜間工作場所附近增設托育據點。訪談也談兼職保母、接送彈性與雙親共同照顧的支持。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "你是台北的哪一種人？",
+              "url": "https://puma.taipei/heart/quiz/1",
+              "logical_url": "https://puma.taipei/heart/quiz/1",
+              "type": "official",
+              "kind": "framework_page"
+            },
+            {
+              "title": "家庭一站通",
+              "url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+              "logical_url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+              "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "《雅琴看世界》英文專訪沈伯洋：洋流、城市交流與傾聽的力量",
+              "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "從基層行程到城市願景：沈伯洋談台北市政與育兒支持",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-07",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-07",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更",
+              "url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "logical_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《大選鏡來講》專訪：從選民對話、城市智庫到育兒政策（逐字稿）",
+              "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋談性別與城市：從家庭分工到制度改變",
+              "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+              "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "logical_url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t014",
+          "title": "產後家長如何取得情緒支持與到宅育兒指導？",
+          "question": "孩子出生後，心理支持及餵養、照顧與居家安全指導如何更容易取得？",
+          "summary": "提出產後一年內家長心理諮商加碼，以及未滿兩歲家庭免費到宅育兒指導，內容包括餵奶、洗澡與居家安全。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "家庭一站通",
+              "url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+              "logical_url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t015",
+          "title": "兒少安全通報如何脫離一般1999並接上專業保護？",
+          "question": "兒虐或高風險訊息如何不被大量一般陳情淹沒，並及時進入調查與支持？",
+          "summary": "提出將兒童安全案件從一般1999分流，由兒保專業人員辨識風險、追蹤並串接社工、教保、家庭教育及跨局處支持；也談改善第一線社工負荷與監督。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "社福政策",
+              "url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "從基層行程到城市願景：沈伯洋談台北市政與育兒支持",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-07",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-07",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "我想要的台北，先從讓公務員喘口氣開始",
+              "url": "https://shenboyang-interview.pages.dev/",
+              "logical_url": "https://shenboyang-interview.pages.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+              "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "logical_url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+              "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+              "logical_url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋《新聞面對面》專訪：從選戰、府會溝通到城市治理",
+              "url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+              "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "開船，不能遇到礁石才轉彎：讓預算有方向",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t016",
+          "title": "親子同行卡如何支持家庭共同參與文化、閱讀與運動？",
+          "question": "點數卡如何讓孩子和家長一起使用藝文、閱讀、運動及社區活動？",
+          "summary": "提出兒少每月點數與認證合作場域，支持家庭共讀、看展、運動、走讀和親子活動，並讓獨立書店、小劇場及社區店家參與。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "你是台北的哪一種人？",
+              "url": "https://puma.taipei/heart/quiz/1",
+              "logical_url": "https://puma.taipei/heart/quiz/1",
+              "type": "official",
+              "kind": "framework_page"
+            },
+            {
+              "title": "親子同行卡",
+              "url": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+              "logical_url": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來",
+              "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋《大選鏡來講》專訪：從選民對話、城市智庫到育兒政策（逐字稿）",
+              "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+              "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "logical_url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "高齡、身障與心理健康",
+      "topic_count": 8,
+      "topics": [
+        {
+          "id": "t017",
+          "title": "長者如何在熟悉生活圈取得長照、在宅醫療與行動支持？",
+          "question": "長者不想離開社區或上下樓就醫困難時，照護、交通與住宅支持如何銜接？",
+          "summary": "提出在宅醫療、社區共照與失智友善據點，並討論敬老卡、臨時托老券、健身小巴、共乘接駁、爬梯輔具及樓層換居。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "社福政策",
+              "url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+              "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "《雅琴看世界》英文專訪沈伯洋：洋流、城市交流與傾聽的力量",
+              "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+              "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+              "logical_url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+              "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "那個被國民黨訓練出來的男人：沈伯洋談選戰與韌性台北",
+              "url": "https://puma-hub.pages.dev/articles/ep148/",
+              "logical_url": "https://puma-hub.pages.dev/articles/ep148/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t018",
+          "title": "一般市民如何取得公費心理諮商與家庭心理支持？",
+          "question": "工作、照顧或孤獨帶來壓力時，提出哪些一般心理健康與社區支持？",
+          "summary": "提出擴大公費心理諮商、強化家庭教育中心，並以社區文化活動與實體聚點，支持心理健康和日常人際連結。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "社福政策",
+              "url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+              "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+              "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+              "logical_url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "揪某聊 EP397：從蛋清事件、動漫到家庭與選戰中的支持",
+              "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋與大耕老師對談：城市陪伴、產業規範與社區連結",
+              "url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/",
+              "logical_url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "那個被國民黨訓練出來的男人：沈伯洋談選戰與韌性台北",
+              "url": "https://puma-hub.pages.dev/articles/ep148/",
+              "logical_url": "https://puma-hub.pages.dev/articles/ep148/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t019",
+          "title": "無家者如何先取得住所並接上生活支持？",
+          "question": "如何提供穩定住處，同時回應社區對治安、環境與安置據點的疑慮？",
+          "summary": "受訪者以居住優先為方向，提出先提供穩定居所，再銜接社工、職業與心理支持，並由市府整合治安巡查、環境維護和居民溝通。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "那個被國民黨訓練出來的男人：沈伯洋談選戰與韌性台北",
+              "url": "https://puma-hub.pages.dev/articles/ep148/",
+              "logical_url": "https://puma-hub.pages.dev/articles/ep148/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t020",
+          "title": "如何支援超量社工與第一線兒少服務人力？",
+          "question": "社工個案負荷過重或安全風險升高時，市府如何提供人力補位？",
+          "summary": "提出改善社工待遇與安全保障，設置機動支援人力，在單位個案量達門檻時暫時補位；另透過風險分級，把專業人力放在高風險個案。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+              "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "logical_url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《雅琴看世界》：走進台北街頭，從洋流談城市與家人",
+              "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+              "logical_url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+              "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "logical_url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t052",
+          "title": "客家文化與照護如何在社區據點相遇？",
+          "question": "長者照顧與客語傳承如何放進同一個社區服務據點？",
+          "summary": "提出都會伯公照護站與老幼共學，讓長者照顧、客語交流及文化傳承在社區據點結合。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "客家政策",
+              "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t084",
+          "title": "兒童與中高齡有哪些疫苗支持構想？",
+          "question": "官網對幼兒腸病毒疫苗及中高齡帶狀疱疹疫苗提出什麼補助？",
+          "summary": "官方社福政策提出0至6歲幼兒免費腸病毒疫苗接種，以及50歲以上市民一劑帶狀疱疹（皮蛇）疫苗補助，將預防性的健康支持納入不同生命階段。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "社福政策",
+              "url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t085",
+          "title": "罕病維生與身障行動需求如何獲得支持？",
+          "question": "依賴家用維生設備或上下樓困難的身障者，政策提出哪些支援？",
+          "summary": "官方社福政策提出補助罕病患者家用不斷電系統，擴大無障礙爬梯機專案補助額度，並增加身障女性在公共決策中的參與。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "社福政策",
+              "url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t086",
+          "title": "單身女性如何透過專線找到身心與社福支持？",
+          "question": "單身女性遇到心理、社福或醫療需求時，政策規劃什麼求助入口？",
+          "summary": "官方社福政策提出「單身不孤獨服務專線」，整合心理、社福及醫療資源，規劃女性一站式身心健康支持。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "社福政策",
+              "url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "青年與就業",
+      "topic_count": 4,
+      "topics": [
+        {
+          "id": "t021",
+          "title": "青年起步基金如何累積並銜接成年轉銜？",
+          "question": "青年從求學進入工作、求職或初期租屋時，如何累積可使用的第一筆資金？",
+          "summary": "提出結合中央階段、地方提撥、青年自存與弱勢加碼的起步基金，搭配理財、防詐及市政資源課程，支持成年後求職、租屋與發展。約50萬元構想的組成包含中央、地方及個人自存。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260818-簡報.new.pdf",
+              "url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+              "logical_url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "青年政策",
+              "url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "「台北市需要做夢」：首都願景、治理細節與青年基金",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-13",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-13",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來",
+              "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+              "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "logical_url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t022",
+          "title": "青年如何取得免先墊款的 AI 工具與轉職支持？",
+          "question": "AI工具訂閱成本高、核銷繁複時，學生、青年或轉職者如何直接取得使用額度？",
+          "summary": "提出跨模型平台與按量結算的學習錢包，讓青年直接使用AI工具，減少先墊款和紙本核銷；以基本學習、課程及專案分級提供支持。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260818-簡報.new.pdf",
+              "url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+              "logical_url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "AI政策",
+              "url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "你是台北的哪一種人？",
+              "url": "https://puma.taipei/heart/quiz/1",
+              "logical_url": "https://puma.taipei/heart/quiz/1",
+              "type": "official",
+              "kind": "framework_page"
+            },
+            {
+              "title": "青年政策",
+              "url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "不是不發，是有條件地發：普發現金與青年投資",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t023",
+          "title": "中高齡工作者如何接上 AI 轉職、職務再設計或創業？",
+          "question": "45歲以上或中年轉職者如何盤點經驗、取得訓練並連到實習或工作？",
+          "summary": "提出職涯健檢、職務再設計、帶薪轉職或實習補貼、就業媒合與創業利息支持，也談由熟悉 AI 的人進入產業了解流程再開發工具。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "AI政策",
+              "url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "社福政策",
+              "url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "市政 debug 松：從十組城市提案，到 AI 教練與公民協作",
+              "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            }
+          ]
+        },
+        {
+          "id": "t024",
+          "title": "青年海外學習、創業和市政實作如何回到台北？",
+          "question": "青年出國、創業或投入公共事務後，如何把經驗與資源接回城市？",
+          "summary": "提出青年圓夢、海外提案、市政實習、創業培訓與國際交流等支持，並希望連結台北研究院及城市外交網絡。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260818-簡報.new.pdf",
+              "url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+              "logical_url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "你是台北的哪一種人？",
+              "url": "https://puma.taipei/heart/quiz/1",
+              "logical_url": "https://puma.taipei/heart/quiz/1",
+              "type": "official",
+              "kind": "framework_page"
+            },
+            {
+              "title": "青年政策",
+              "url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來",
+              "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+              "logical_url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AI與市府治理",
+      "topic_count": 7,
+      "topics": [
+        {
+          "id": "t025",
+          "title": "台北研究院如何把城市問題轉成研究與政策方案？",
+          "question": "市府如何組織大學、研究團隊與產業，持續研究交通、教育、照護和 AI 等城市問題？",
+          "summary": "構想成立台北研究院或城市智庫，從市民需求和市政痛點出發，串連大學、研究團隊與產業提出研究及政策方案，支援市府規劃與執行。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "AI政策",
+              "url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "城市外交",
+              "url": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+              "logical_url": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "《雅琴看世界》英文專訪沈伯洋：洋流、城市交流與傾聽的力量",
+              "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "一場沒有下課鐘的口試：八位學者問我台北",
+              "url": "https://puma-scholars-2026.u8901006.workers.dev/",
+              "logical_url": "https://puma-scholars-2026.u8901006.workers.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來",
+              "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "市政 debug 松：從十組城市提案，到 AI 教練與公民協作",
+              "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/",
+              "logical_url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+              "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "logical_url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更",
+              "url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "logical_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣 ON AIR》專訪：從領導責任、台北研究院到城市文化（逐字稿）",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+              "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋《大選鏡來講》專訪：從選民對話、城市智庫到育兒政策",
+              "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+              "logical_url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《雅琴看世界》：走進台北街頭，從洋流談城市與家人",
+              "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "沈伯洋路透英文專訪與模擬辯論：民主、城市交流與市政問答",
+              "url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+              "logical_url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+              "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "輝達進駐北士科：五大公民訴求與四項倡議",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23-nvidia-beitou",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23-nvidia-beitou",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t026",
+          "title": "AI如何減少公務流程負擔並保留專業判斷？",
+          "question": "市府如何盤點重複表單、資料整理和行政流程，讓 AI 工具真正支援局處工作？",
+          "summary": "提出由AI教練或專業團隊進入局處，先盤點行政流程與庶務，再協助處理重複表單、資料整理和基礎流程自動化，並先刪除多餘程序。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "公務員政策",
+              "url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "一場沒有下課鐘的口試：八位學者問我台北",
+              "url": "https://puma-scholars-2026.u8901006.workers.dev/",
+              "logical_url": "https://puma-scholars-2026.u8901006.workers.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t027",
+          "title": "公務員的工時、職場支持與專案回饋如何改善？",
+          "question": "公務員面對照顧責任、壓力或重大專案時，提出哪些職場支持？",
+          "summary": "在每日總工時不變的前提下擴大彈性上下班，並提出哺乳與紓壓空間升級、EAP點數自選、健檢補助及重大專案獎勵，支持工作與照顧安排。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "公務員政策",
+              "url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "先把問題爆出來，才有改進的空間",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "我想要的台北，先從讓公務員喘口氣開始",
+              "url": "https://shenboyang-interview.pages.dev/",
+              "logical_url": "https://shenboyang-interview.pages.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣 ON AIR》專訪：從領導責任、台北研究院到城市文化",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋《雅琴看世界》：走進台北街頭，從洋流談城市與家人",
+              "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            }
+          ]
+        },
+        {
+          "id": "t049",
+          "title": "北士科變電所與公車總站如何結合周邊服務？",
+          "question": "供電與電動公車充電設施如何和數位圖書館、社區使用空間放在一起？",
+          "summary": "提出半地下或室內化變電所與公車總站充電需求整合，並評估加入數位圖書館、社區空間及科技試驗場域。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t057",
+          "title": "大學如何以 USR 計畫研究市政痛點？",
+          "question": "市府如何與大學合作，把市政問題與社會需求轉成研究建議？",
+          "summary": "提出由市府提出市政痛點與社會需求，大學透過大學社會責任（USR）計畫研究議題或提出市政建議。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "教育政策",
+              "url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t078",
+          "title": "北士科如何培養AI人才並把技術用於城市問題？",
+          "question": "北士科不只招商，如何連結大學、企業、城市專案與 AI 人才培育？",
+          "summary": "提出連結大學、研究團隊、企業與中央資源培養AI人才，並以智慧醫療、無人載具及商圈等城市需求作為技術應用場域，串接研發、就業與居民生活。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "AI政策",
+              "url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來",
+              "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋《雅琴看世界》：走進台北街頭，從洋流談城市與家人",
+              "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+              "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "輝達進駐北士科：五大公民訴求與四項倡議",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23-nvidia-beitou",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23-nvidia-beitou",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t081",
+          "title": "市民科技原型如何經過法規與資安評估再交給市府？",
+          "question": "黑客松展示的數位原型如何完成研究、試辦與正式交接？",
+          "summary": "活動提出由台北研究院協助公民科技原型進行研究、法規對接、資安及資料整合，先在示範場域試辦，再銜接正式市政流程。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "市政 debug 松：從十組城市提案，到 AI 教練與公民協作",
+              "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/",
+              "logical_url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "運動與休閒",
+      "topic_count": 5,
+      "topics": [
+        {
+          "id": "t028",
+          "title": "健身小巴與專業教練如何把肌力訓練帶進社區？",
+          "question": "不方便到大型健身場館的人，如何在社區附近取得肌力訓練、教練及營養支持？",
+          "summary": "提出讓健身小巴巡迴日照、里民活動中心與公園等社區據點，結合器材、專業運動指導及營養諮詢；訪談另談合格體能教練與社區指導補貼，支持長者就近參與肌力訓練。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋_運動政策記者會0715.pdf",
+              "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+              "logical_url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "運動政策",
+              "url": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "不是不發，是有條件地發：普發現金與青年投資",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+              "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+              "logical_url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+              "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "沈伯洋與何立安談運動城市：運動驛站、肌力訓練與體育產業",
+              "url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/",
+              "logical_url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "那個被國民黨訓練出來的男人：沈伯洋談選戰與韌性台北",
+              "url": "https://puma-hub.pages.dev/articles/ep148/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/ep148/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "開船，不能遇到礁石才轉彎：讓預算有方向",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t029",
+          "title": "運動驛站如何解決戶外運動者的寄物與盥洗需求？",
+          "question": "跑步、登山或通勤運動後，如何在捷運、河濱或步道節點更衣、洗澡與整理裝備？",
+          "summary": "提出在捷運附屬空間、公園、河濱入口或步道節點設運動驛站，提供置物、更衣、淋浴、洗鞋與裝備租借，銜接運動前後及通勤途中需要的服務。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "交通政策",
+              "url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "運動政策",
+              "url": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "「戒慎恐懼之夜」活動整理：沈伯洋、蘇巧慧與北台灣候選人同台｜逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "不是不發，是有條件地發：普發現金與青年投資",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "做了，就要想辦法贏 — 跟著 PUMA 老師走一天",
+              "url": "https://puma-shen-interview.pages.dev/",
+              "logical_url": "https://puma-shen-interview.pages.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更",
+              "url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "logical_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋與何立安談運動城市：運動驛站、肌力訓練與體育產業",
+              "url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/",
+              "logical_url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+              "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "開船，不能遇到礁石才轉彎：讓預算有方向",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t030",
+          "title": "社區小型運動據點與學校場地如何開放？",
+          "question": "住家附近缺少方便運動的地方時，如何增加小型據點並讓學校場地在課後可用？",
+          "summary": "提出盤點公有閒置空間、每區增設小型特色運動據點，改善河濱設施並檢討學校場地開放，發展社區俱樂部。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋_運動政策記者會0715.pdf",
+              "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+              "logical_url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "沈伯洋與何立安談運動城市：運動驛站、肌力訓練與體育產業",
+              "url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/",
+              "logical_url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t069",
+          "title": "關渡足球場要提供什麼運動空間？",
+          "question": "台北是否需要可辦國際賽事與日常訓練的專用足球場？",
+          "summary": "提出優先評估關渡設置國際足球場，兼顧國際賽事、職業訓練與全民運動。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋_運動政策記者會0715.pdf",
+              "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+              "logical_url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            }
+          ]
+        },
+        {
+          "id": "t070",
+          "title": "花博與圓山的大型運動中心如何補場地？",
+          "question": "熱門球場難預約、新興運動或適應運動缺少場地時，花博圓山如何增加容量？",
+          "summary": "提出在花博附近規劃大型市民運動中心，增加球類、游泳、攀岩、健身及適應運動場地，並保留既有商圈與新創空間。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋_運動政策記者會0715.pdf",
+              "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+              "logical_url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "文化、步道與地方記憶",
+      "topic_count": 6,
+      "topics": [
+        {
+          "id": "t031",
+          "title": "文化徑如何串連台北的地方歷史與族群記憶？",
+          "question": "如何把產業、移民、人權與地方文化史連成可理解的城市敘事？",
+          "summary": "提出以文化徑串連城市歷史、產業、移民、多元族群與人權記憶，並透過音樂、小說、遊戲或漫畫傳遞地方故事，讓分散的地點形成可以走訪的路線。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260908-文化徑山林徑記者會簡報.pdf",
+              "url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+              "logical_url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "台北文化徑×山林徑",
+              "url": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+              "logical_url": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "一場沒有下課鐘的口試：八位學者問我台北",
+              "url": "https://puma-scholars-2026.u8901006.workers.dev/",
+              "logical_url": "https://puma-scholars-2026.u8901006.workers.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "吳淡如專訪沈伯洋：從少年夢想，到自己想成為的大人",
+              "url": "https://puma-hub.pages.dev/articles/wu-danru-2026-10-19/",
+              "logical_url": "https://puma-hub.pages.dev/articles/wu-danru-2026-10-19/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "和而不同：讓海外的朋友，成為台北的眼睛",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-12",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-12",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+              "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+              "logical_url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更",
+              "url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "logical_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣 ON AIR》專訪：從領導責任、台北研究院到城市文化（逐字稿）",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋台北水文化記者會：ABCDE 水治理、城市降溫與歷史水路",
+              "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            }
+          ]
+        },
+        {
+          "id": "t032",
+          "title": "商圈老店與文化空間如何不因租金上漲而消失？",
+          "question": "街區更新、租金上升時，市府如何讓有地方記憶的店家與文化空間留下？",
+          "summary": "提出市府長租或購置具地方記憶的空間，再依審議與居民參與方式提供店家或文化工作者使用；也談以URS 2.0延續商圈日常。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "你是台北的哪一種人？",
+              "url": "https://puma.taipei/heart/quiz/1",
+              "logical_url": "https://puma.taipei/heart/quiz/1",
+              "type": "official",
+              "kind": "framework_page"
+            },
+            {
+              "title": "吳淡如專訪沈伯洋：從少年夢想，到自己想成為的大人",
+              "url": "https://puma-hub.pages.dev/articles/wu-danru-2026-10-19/",
+              "logical_url": "https://puma-hub.pages.dev/articles/wu-danru-2026-10-19/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+              "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+              "logical_url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣 ON AIR》專訪：從領導責任、台北研究院到城市文化（逐字稿）",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t033",
+          "title": "本土影視、音樂與動漫創作者如何取得場地和觀眾？",
+          "question": "如何利用既有場館、捷運與城市活動支持本土內容產業和獨立創作者？",
+          "summary": "提出以既有場館或交通節點增加影視放映，支持Livehouse、音樂廊帶、國際駐村及板南線動漫據點，也談用卡點數增加藝文參與。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "你是台北的哪一種人？",
+              "url": "https://puma.taipei/heart/quiz/1",
+              "logical_url": "https://puma.taipei/heart/quiz/1",
+              "type": "official",
+              "kind": "framework_page"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "影視音產業對談：打造一座內容城市",
+              "url": "https://puma-transcript.pages.dev/article/",
+              "logical_url": "https://puma-transcript.pages.dev/article/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣 ON AIR》專訪：從領導責任、台北研究院到城市文化",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《很懂內幕》：從車掃與科技動員，談台北文化與動漫廊帶",
+              "url": "https://puma-hub.pages.dev/articles/nexttv-inside-2026-10-19/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/nexttv-inside-2026-10-19/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "看見縫隙：從橋下空間、城市綠網到台北公共空間治理",
+              "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "黃暐瀚專訪沈伯洋：四場辯論、交叉詰問與台北市政",
+              "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+              "logical_url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t054",
+          "title": "學客語或在商圈講客語如何取得數位獎勵？",
+          "question": "台北通如何鼓勵市民學客語、收聽節目並在特約商圈使用客語？",
+          "summary": "提出透過台北通獎勵線上學習、收聽客語節目及特約商圈使用客語，累積數位獎勵並折抵消費。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "客家政策",
+              "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t064",
+          "title": "登山觀光中心與接駁如何改善淺山步道體驗？",
+          "question": "搭捷運或公車去爬山時，裝備、盥洗、導覽與接駁如何接起來？",
+          "summary": "提出在劍潭、象山、貓空等登山節點規劃觀光中心，提供裝備租借、置物、更衣、洗鞋及多語導覽，搭配步道資訊和接駁改善最後一哩路。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260908-文化徑山林徑記者會簡報.pdf",
+              "url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+              "logical_url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "台北文化徑×山林徑",
+              "url": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+              "logical_url": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "「洋流來了」之後，台北市政要怎麼談？",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-23",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-23",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t083",
+          "title": "明治橋的歷史景觀如何結合自行車通勤？",
+          "question": "重現明治橋除了保存歷史，還能怎麼連結河岸與日常通勤？",
+          "summary": "水文化記者會提出在河濱陸地復原部分明治橋，再銜接跨河自行車橋，兼顧歷史景觀與通勤，並和首都文化徑串聯。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "沈伯洋台北水文化記者會：ABCDE 水治理、城市降溫與歷史水路",
+              "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "公園、樹木與水路",
+      "topic_count": 6,
+      "topics": [
+        {
+          "id": "t034",
+          "title": "樹木維護資料與移除評估如何透明？",
+          "question": "市民如何知道路樹健康、修剪或移除的依據，並參與相關評估？",
+          "summary": "提出樹木自治規範、樹籍健康履歷、根域種植原則及移除前專業評估，公開維護紀錄並納入居民參與；也把保險與認養列為風險分擔的評估方向。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260824-簡報N.pdf",
+              "url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+              "logical_url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "都市微森林",
+              "url": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+              "logical_url": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "做了，就要想辦法贏 — 跟著 PUMA 老師走一天",
+              "url": "https://puma-shen-interview.pages.dev/",
+              "logical_url": "https://puma-shen-interview.pages.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+              "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t035",
+          "title": "水路如何先改善水質並選擇適合親水的河段？",
+          "question": "水圳或河段要開放親水前，水質、歷史紋理和工程限制如何評估？",
+          "summary": "提出先清疏、檢視並改善水質，使用植生過濾、濕地或礫間接觸等自然工法，再依歷史紋理及工程條件選擇合適區段，不主張全面開蓋。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "水域政策",
+              "url": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "沈伯洋台北水文化記者會：ABCDE 水治理、城市降溫與歷史水路",
+              "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t072",
+          "title": "樹蔭公平與熱點植樹如何規劃？",
+          "question": "哪些街區較熱、遮蔭不足時，市府如何決定補植與綠化優先順序？",
+          "summary": "提出透過涼感地圖、市民高溫熱點回報及行人需求安排植樹，結合樹覆率、綠覆率和口袋公園目標，補足不同街區的遮蔭。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260824-簡報N.pdf",
+              "url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+              "logical_url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+              "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "做了，就要想辦法贏 — 跟著 PUMA 老師走一天",
+              "url": "https://puma-shen-interview.pages.dev/",
+              "logical_url": "https://puma-shen-interview.pages.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "在台北種下一片森林：都市微森林與洋流",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+              "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+              "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t073",
+          "title": "修剪木料如何再利用？",
+          "question": "路樹修剪或移除後，木料能否留在城市循環使用？",
+          "summary": "提出設置廢木料銀行，優先用於公共設施，再串連新創與研究，探索建材、土壤或其他產品；生質能是較後順位。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260824-簡報N.pdf",
+              "url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+              "logical_url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "都市微森林",
+              "url": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+              "logical_url": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t074",
+          "title": "分散滯洪與水岸生態如何納入城市設計？",
+          "question": "豪雨與熱島風險下，校園、公園、建物及河岸如何共同管理雨水與生態？",
+          "summary": "提出校園、公園與建物設置分散式微型滯洪，並以濕地、植生和礫間接觸等自然工法兼顧生態。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "水域政策",
+              "url": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "沈伯洋台北水文化記者會：ABCDE 水治理、城市降溫與歷史水路",
+              "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t075",
+          "title": "河岸入口與巷弄親水空間如何接進生活圈？",
+          "question": "如何讓居民安全走到河岸或在居住區附近接觸水路與親水空間？",
+          "summary": "提出盤點河濱入口交通安全，串連住宅區、文化路徑及河岸動線，並透過在地參與，設計生活圈內容易到達的親水空間。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "水域政策",
+              "url": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "沈伯洋台北水文化記者會：ABCDE 水治理、城市降溫與歷史水路",
+              "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "交通與街道",
+      "topic_count": 8,
+      "topics": [
+        {
+          "id": "t036",
+          "title": "自行車通勤路網如何連續、安全並接上跨河橋梁？",
+          "question": "跨河、越堤或路網中斷時，如何讓自行車能安全連接工作與生活圈？",
+          "summary": "提出改善河岸自行車道的鋪面、標線、照明與越堤動線，規劃迎風—港墘跨河自行車專用橋，並補足YouBike站點、車輛與調度，提出通勤時段優惠。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260916-交通政策PDF.pdf",
+              "url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+              "logical_url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "交通政策",
+              "url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "做了，就要想辦法贏 — 跟著 PUMA 老師走一天",
+              "url": "https://puma-shen-interview.pages.dev/",
+              "logical_url": "https://puma-shen-interview.pages.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+              "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "沈伯洋台北水文化記者會：ABCDE 水治理、城市降溫與歷史水路",
+              "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "開船，不能遇到礁石才轉彎：讓預算有方向",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t037",
+          "title": "公車駕駛工時與駕駛座安全如何改善？",
+          "question": "班表太趕、休息不足或告警設備過多時，如何降低駕駛壓力與事故風險？",
+          "summary": "提出重新整合駕駛座告警與螢幕，盤點折返點並將休息排進班表；薪資補貼與服務可靠度、勞動條件連結，減少趕班與操作干擾。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260916-交通政策PDF.pdf",
+              "url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+              "logical_url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "交通政策",
+              "url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+              "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t038",
+          "title": "如何修正標線、路口及行人空間的日常危險？",
+          "question": "不只學校周邊，街道上的人車衝突與標線混亂如何透過設計改善？",
+          "summary": "提出重新檢視標線、分流自行車與行人、改善路口與步行空間，並優先盤點學校、市場周邊及事故熱點，讓安全從道路設計著手。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "交通政策",
+              "url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+              "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "市長你給我聽好了：西門町街頭，市民直接問",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+              "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+              "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+              "logical_url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "黃暐瀚專訪沈伯洋：四場辯論、交叉詰問與台北市政",
+              "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+              "logical_url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t039",
+          "title": "共享電動機車如何接上 TPASS 並離開路邊車格？",
+          "question": "最後一哩需要共享機車時，如何安排票證優惠、停車與安全考核？",
+          "summary": "提出以記名 TPASS 試辦共享電動機車前段免費，媒合路外停車場並以事故、違規情形考核業者。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260916-交通政策PDF.pdf",
+              "url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+              "logical_url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "交通政策",
+              "url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t040",
+          "title": "交通資料如何用於號誌、計程車停靠與事故熱點？",
+          "question": "如何整合車流與事故資料改善號誌，並讓計程車安全上下客？",
+          "summary": "提出盤點交通資料與 API 支援號誌調整，檢視事故熱點、公車站點及計程車招呼區，也討論和工會協作待命指示燈。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+              "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t041",
+          "title": "市民大道橋下如何縫合街區並帶動人流？",
+          "question": "高架道路兩側被隔開時，如何利用橋下空間、步行或展演連結商圈？",
+          "summary": "提出盤點市民大道橋下可用空間，透過綠地、文化或音樂廊道，以及步行連結，改善高架道路兩側的人流與商圈互動。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更",
+              "url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "logical_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《大選鏡來講》專訪：從選民對話、城市智庫到育兒政策",
+              "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+              "logical_url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋質詢外交部：外館預算、國際傳播與無人機外交",
+              "url": "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/",
+              "logical_url": "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "看見縫隙：從橋下空間、城市綠網到台北公共空間治理",
+              "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t076",
+          "title": "台北車站公車站牌與路線如何更好找？",
+          "question": "台北車站周邊站點分散時，如何讓乘客看懂站牌並檢視路線安排？",
+          "summary": "提出整理台北車站周邊站牌編號與標示，檢視部分路線的精簡或集中方式，同時考慮駕駛工作負荷，避免所有路線塞進單一總站。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "黃暐瀚專訪沈伯洋：四場辯論、交叉詰問與台北市政",
+              "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+              "logical_url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t077",
+          "title": "公車轉彎警示聲與捷運寧靜車廂如何試辦？",
+          "question": "如何讓公車警示只在需要處提醒，也降低噪音並評估安靜車廂？",
+          "summary": "提出將公車蜂鳴或語音朝向有風險的一側、依時段調整音量，並可小範圍試辦捷運寧靜車廂後觀察效果。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "黃暐瀚專訪沈伯洋：四場辯論、交叉詰問與台北市政",
+              "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+              "logical_url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "城市生活與治理",
+      "topic_count": 8,
+      "topics": [
+        {
+          "id": "t042",
+          "title": "夜間商圈的噪音、安全與居民衝突由誰協調？",
+          "question": "夜間產業、工作者與鄰里發生噪音、垃圾或安全問題時，如何形成常態協調窗口？",
+          "summary": "提出由夜間產業代表推選民間窗口，對接副市長或市府指定窗口，跨局處協調夜市、表演、噪音、衛生及夜間通行需求，建立商圈與鄰里常態討論機制。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "不是不發，是有條件地發：普發現金與青年投資",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "我在面試一份工作，面試官是全體市民",
+              "url": "https://puma-interview-2026.pages.dev/",
+              "logical_url": "https://puma-interview-2026.pages.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t043",
+          "title": "市民提問、陳情與黑客松如何進入政策討論？",
+          "question": "如何把市民日常問題整理、分類並交給政府或研究團隊回應？",
+          "summary": "提出透過線上與街頭提問、1999分類、地圖呈現及市政黑客松蒐集需求，再由研究團隊形成方案，並以直播、廣播或公開對話定期回應。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "《洋流誌》政策彩皮書：六冊主題、創作者分享與市民之書",
+              "url": "https://puma-hub.pages.dev/articles/ocean-policy-colorbook-2026-10-27/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/ocean-policy-colorbook-2026-10-27/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "《雅琴看世界》英文專訪沈伯洋：洋流、城市交流與傾聽的力量",
+              "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "一場沒有下課鐘的口試：八位學者問我台北",
+              "url": "https://puma-scholars-2026.u8901006.workers.dev/",
+              "logical_url": "https://puma-scholars-2026.u8901006.workers.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "兒少環境聯合倡議：請求書當面遞給市長候選人",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-27",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-27",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "市政 debug 松：從十組城市提案，到 AI 教練與公民協作",
+              "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/",
+              "logical_url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "我想要的台北，先從讓公務員喘口氣開始",
+              "url": "https://shenboyang-interview.pages.dev/",
+              "logical_url": "https://shenboyang-interview.pages.dev/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+              "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "logical_url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "揪某聊 EP397：從蛋清事件、動漫到家庭與選戰中的支持",
+              "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/",
+              "logical_url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+              "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+              "logical_url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《大選鏡來講》專訪：從選民對話、城市智庫到育兒政策（逐字稿）",
+              "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋《新聞面對面》專訪：從選戰、府會溝通到城市治理",
+              "url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/",
+              "logical_url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《雅琴看世界》：走進台北街頭，從洋流談城市與家人",
+              "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+              "logical_url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "沈伯洋台北水文化記者會：ABCDE 水治理、城市降溫與歷史水路",
+              "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "黃光芹專訪沈伯洋：突破同溫層，從生活需求談城市解方",
+              "url": "https://puma-hub.pages.dev/articles/huang-guangqin-2026-10-19/",
+              "logical_url": "https://puma-hub.pages.dev/articles/huang-guangqin-2026-10-19/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "黃暐瀚專訪沈伯洋：四場辯論、交叉詰問與台北市政",
+              "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+              "logical_url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t044",
+          "title": "市長如何與不同黨派議會協商推動市政？",
+          "question": "議會未過半、府會立場不同時，如何兼顧原則與溝通？",
+          "summary": "受訪者以拜會前議長請益府會協調經驗為例，提出原則清楚、溝通柔軟、願向不同政治立場人士請教，透過跨黨派協商推進市政。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋拜會前議長陳健治：從府會溝通談跨黨派合作｜逐字稿原稿",
+              "url": "https://puma-hub.pages.dev/articles/chen-chien-chih-visit-2026-11-05/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/chen-chien-chih-visit-2026-11-05/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t045",
+          "title": "有限預算下哪些公共需求優先於普發現金？",
+          "question": "候選人如何說明舉債、普發現金與住宅、托育、長照等公共需求的優先順序？",
+          "summary": "受訪者反對為普發現金舉債，主張先處理住宅、托育、長照與弱勢照顧等公共需求；地方若不舉債、完成應有照顧且仍有剩餘財源，才討論加碼發放。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "不是不發，是有條件地發：普發現金與青年投資",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來",
+              "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋路透英文專訪與模擬辯論：民主、城市交流與市政問答",
+              "url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t055",
+          "title": "市府如何增加臨櫃與1999客語服務人才？",
+          "question": "市府第一線服務如何讓客語使用者更容易以客語洽詢？",
+          "summary": "提出規劃臨櫃及1999客語服務人才運用與獎勵，並研議客語中級認證納入約聘僱甄選加分。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "客家政策",
+              "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t062",
+          "title": "地方加碼現金發放須符合哪些財政條件？",
+          "question": "受訪者提出地方政府若討論加碼普發，應先滿足哪些財源與照顧優先條件？",
+          "summary": "受訪者主張地方加碼現金應以不舉債、先照顧需要照顧者，以及仍有剩餘財源為討論前提。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "不是不發，是有條件地發：普發現金與青年投資",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t079",
+          "title": "市府小內閣如何選任兼具執行與溝通的人才？",
+          "question": "市府用人如何兼顧行政執行、務實研究和跨局處或府會溝通？",
+          "summary": "受訪者提出以執行力、解決問題能力、溝通能力與品格作為市府用人考量，並表示不以派系背景作為選任標準。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t080",
+          "title": "第一線如何回報錯誤並促成市府修正？",
+          "question": "市府如何讓基層及早說出問題，並由主管公開說明處理方式？",
+          "summary": "主張團隊可向上反映錯誤，主管對外說明問題與修正方式，重複未改善才考慮更換人員。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "先把問題爆出來，才有改進的空間",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣 ON AIR》專訪：從領導責任、台北研究院到城市文化",
+              "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+              "logical_url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "城市交流與公共議題",
+      "topic_count": 4,
+      "topics": [
+        {
+          "id": "t046",
+          "title": "城市交流要先滿足哪些政治對等與資安條件？",
+          "question": "雙城論壇或台北上海交流若要延續，政治前提、資料安全和軍演風險要如何處理？",
+          "summary": "提出可保留交流架構但重談內容，要求對等、不得附政治前提，並先說明資料交換、主權與資安風險；若交流後仍有軍演則不可接受。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "《雅琴看世界》英文專訪沈伯洋：洋流、城市交流與傾聽的力量",
+              "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+              "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "logical_url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更",
+              "url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "logical_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《雅琴看世界》：走進台北街頭，從洋流談城市與家人",
+              "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋路透英文專訪與模擬辯論：民主、城市交流與市政問答",
+              "url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+              "logical_url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t047",
+          "title": "台北如何透過城市外交合作解決交通、住宅與降溫問題？",
+          "question": "城市交流如何從參訪延伸到公務員、研究者、產業與市民共同解題？",
+          "summary": "提出以無限城網絡連結地方政府、學者、企業及僑界，聚焦可負擔住宅、交通安全、都市降溫和人才培育；讓公務員互換與共同研究成為城市交流的內容。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "20260818-簡報.new.pdf",
+              "url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+              "logical_url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "城市外交",
+              "url": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+              "logical_url": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "沈伯洋_運動政策記者會0715.pdf",
+              "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+              "logical_url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            },
+            {
+              "title": "青年政策",
+              "url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            },
+            {
+              "title": "和而不同：讓海外的朋友，成為台北的眼睛",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-12",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-12",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來",
+              "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+              "logical_url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更",
+              "url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "logical_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+              "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈伯洋路透英文專訪與模擬辯論：民主、城市交流與市政問答",
+              "url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+              "logical_url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t056",
+          "title": "客家文化如何進入無限城國際城市交流？",
+          "question": "國際城市論壇如何呈現客家文化與永續生活智慧？",
+          "summary": "提出將客家文化及永續生活智慧納入無限城國際論壇，連結國際城市交流。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "客家政策",
+              "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+              "logical_url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+              "type": "official",
+              "kind": "policy_detail"
+            }
+          ]
+        },
+        {
+          "id": "t071",
+          "title": "城市運動聯盟如何促進常態交流？",
+          "question": "城市之間如何透過固定賽事、球隊移訓與青年實習延續運動交流？",
+          "summary": "提出建立無限城運動聯盟，安排常態賽事、邀請球隊來台熱身與移訓，並連結青年海外實習。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋_運動政策記者會0715.pdf",
+              "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+              "logical_url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+              "type": "official",
+              "kind": "policy_attachment_text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "公共安全與權益",
+      "topic_count": 5,
+      "topics": [
+        {
+          "id": "t048",
+          "title": "地方民防如何把避難設施與鄰里互助接起來？",
+          "question": "災害或危機發生時，地方政府如何與里長、社區及民間團體協作？",
+          "summary": "提出盤點避難處所、通風能源與集合資訊，平時建立鄰里互助、認識需要支援的居民，串聯里長、義警義消及民間團體；也以親子活動推廣民防與實用技能。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "「爸爸已經有我一票！」：守護社區與陪伴家人，沈伯洋怎麼選？",
+              "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/",
+              "logical_url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《大選鏡來講》專訪：從選民對話、城市智庫到育兒政策（逐字稿）",
+              "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+              "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "logical_url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "那個被國民黨訓練出來的男人：沈伯洋談選戰與韌性台北",
+              "url": "https://puma-hub.pages.dev/articles/ep148/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/ep148/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            }
+          ]
+        },
+        {
+          "id": "t058",
+          "title": "網路霸凌報案如何減少被害人二度傷害？",
+          "question": "網路霸凌或性騷擾案件報案時，如何減少被害人重複陳述的壓力？",
+          "summary": "受訪者建議在網路霸凌報案中安排女性員警陪同，以書面指認侮辱內容，減少被害人反覆口述；也區分一般政治留言與人身攻擊、性騷擾。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋上《11點熱吵店》：選戰生活、家人與紓壓時刻",
+              "url": "https://puma-hub.pages.dev/articles/eleven-oclock-hot-2026-11-03/",
+              "logical_url": "https://puma-hub.pages.dev/articles/eleven-oclock-hot-2026-11-03/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t059",
+          "title": "高風險勞工如何取得安全裝備與現場檢查？",
+          "question": "建築、水電與高空作業等高風險工作，市政可以怎樣補足職安支持？",
+          "summary": "提出安全指引、裝備補助與勞安檢查等方向。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋談性別與城市：從家庭分工到制度改變",
+              "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t067",
+          "title": "女性夜間步行如何更容易求助？",
+          "question": "夜間街區有哪些環境設計與求助網絡，可協助遭遇騷擾或感到不安的人？",
+          "summary": "提出改善照明、視線與步行動線，和店家建立友善求助點，並依風險配置巡邏。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+              "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "沈伯洋談性別與城市：從家庭分工到制度改變",
+              "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/",
+              "type": "interview",
+              "kind": "transcript_page"
+            },
+            {
+              "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+              "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t068",
+          "title": "警察如何讓性騷擾與霸凌報案少受二度傷害？",
+          "question": "遭遇網路霸凌、性騷擾或跟蹤時，報案流程與警察考評如何支持受害者？",
+          "summary": "提出以女性員警陪同、書面指認減少反覆陳述；另檢視警察績效與升遷指標，讓案件處理品質與受害者照顧進入組織管理。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "沈伯洋上《11點熱吵店》：選戰生活、家人與紓壓時刻",
+              "url": "https://puma-hub.pages.dev/articles/eleven-oclock-hot-2026-11-03/",
+              "logical_url": "https://puma-hub.pages.dev/articles/eleven-oclock-hot-2026-11-03/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋談性別與城市：從家庭分工到制度改變",
+              "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "民主制度與國安公共議題",
+      "topic_count": 5,
+      "topics": [
+        {
+          "id": "t050",
+          "title": "公民動員與體制內程序如何分擔民主防線責任？",
+          "question": "國會爭議、憲政程序與公民行動同時出現時，受訪者如何看待各方責任？",
+          "summary": "受訪者談及公民運動、罷免與國會程序，主張體制內善用覆議、釋憲等方式承擔責任，讓公民志工有休息、沉澱和重新投入的空間。",
+          "scope": "public_issue",
+          "sources": [
+            {
+              "title": "「第一個站出來的人」：沈伯洋談國民黨的變化、國會監督與公民行動",
+              "url": "https://puma-hub.pages.dev/articles/zhiding-ep127/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhiding-ep127/",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "三戰已經全部鋪設完畢，只差最後點燃引信",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-04-12",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-04-12",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+              "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            }
+          ]
+        },
+        {
+          "id": "t051",
+          "title": "國防採購如何涵蓋後勤、訓練與維修？",
+          "question": "受訪者對軍售、商購和裝備後勤提出什麼國防政策觀點？",
+          "summary": "受訪者區分國對國軍售與商業採購，主張裝備之外也應一併考慮維修、訓練、零附件及後勤，讓國防採購涵蓋完整支援。",
+          "scope": "public_issue",
+          "sources": [
+            {
+              "title": "三戰已經全部鋪設完畢，只差最後點燃引信",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-04-12",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-04-12",
+              "type": "interview",
+              "kind": "interview_article"
+            },
+            {
+              "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+              "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t061",
+          "title": "身心靈服務的消費資訊與市場規範如何改善？",
+          "question": "面對身心靈服務資訊落差，受訪者提出哪些消費者教育或規範方向？",
+          "summary": "受訪者談提升消費者辨識能力、防詐與資安規範，並提出以服務認證或市場規範改善資訊落差的討論方向。",
+          "scope": "public_issue",
+          "sources": [
+            {
+              "title": "沈伯洋與大耕老師對談：城市陪伴、產業規範與社區連結",
+              "url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/transcript/",
+              "logical_url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/",
+              "type": "interview",
+              "kind": "transcript_page"
+            }
+          ]
+        },
+        {
+          "id": "t063",
+          "title": "公民如何在選舉之外持續監督政治代表？",
+          "question": "政治代表如何面對公民行動、批評與持續監督？",
+          "summary": "演講者主張公民參與延續到選舉以外的重要議題，支持者也應能批評政策，透過持續討論和行動監督政治代表。",
+          "scope": "public_issue",
+          "sources": [
+            {
+              "title": "「第一個站出來的人」：沈伯洋談國民黨的變化、國會監督與公民行動",
+              "url": "https://puma-hub.pages.dev/articles/zhiding-ep127/",
+              "logical_url": "https://puma-hub.pages.dev/articles/zhiding-ep127/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        },
+        {
+          "id": "t082",
+          "title": "資訊作戰如何影響公共安全與社會信任？",
+          "question": "受訪者如何描述網路資訊操作、社群傳播與公共安全之間的關係？",
+          "summary": "訪談討論資訊作戰、社群傳播與資訊韌性等公共議題。",
+          "scope": "public_issue",
+          "sources": [
+            {
+              "title": "一顆飛彈的錢，可以養一千個網紅",
+              "url": "https://puma-shen-interview.pages.dev/puma-shen-2023-12-27",
+              "logical_url": "https://puma-shen-interview.pages.dev/puma-shen-2023-12-27",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "城市產業與創新",
+      "topic_count": 1,
+      "topics": [
+        {
+          "id": "t060",
+          "title": "AI 專家如何協助傳統產業把工具接進工作流程？",
+          "question": "業者不熟悉 AI 時，如何讓專業者先理解產業流程再協助導入？",
+          "summary": "提出安排 AI 專家進入產業或商圈數月，先理解實務流程，再協助開發合用工具。",
+          "scope": "municipal_policy",
+          "sources": [
+            {
+              "title": "市政 debug 松：從十組城市提案，到 AI 教練與公民協作",
+              "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/transcript.md",
+              "logical_url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/",
+              "type": "interview",
+              "kind": "transcript_attachment"
+            },
+            {
+              "title": "沈伯洋與大耕老師對談：城市陪伴、產業規範與社區連結",
+              "url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/",
+              "logical_url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/",
+              "type": "interview",
+              "kind": "interview_article"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source_notes": [
+    "依2026-11-07重新擷取的政策、訪談/活動文字與附件整理。",
+    "逐字稿未逐句核對影音；圖面是LUNA檢視，未逐字人工校訂。",
+    "原文數字及版本差異另存校讀紀錄，摘要採可支持的內容。"
+  ]
+}

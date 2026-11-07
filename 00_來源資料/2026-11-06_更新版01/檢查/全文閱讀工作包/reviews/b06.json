@@ -1,0 +1,375 @@
+{
+  "batch_id": "b06",
+  "read_units": [
+    {
+      "unit_id": "u0076",
+      "doc_id": "d0044",
+      "start": 17404,
+      "end": 22876,
+      "sha256": "e6f9aae72b6a1b63073a992a730048d19cf5ed2e09f0067d167824be5ee7d5f3",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0077",
+      "doc_id": "d0044",
+      "start": 22876,
+      "end": 24691,
+      "sha256": "ded6fe76f3edb43e667e3f620f632000b4d99736907fe65f919a9f31b3143c68",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0078",
+      "doc_id": "d0045",
+      "start": 0,
+      "end": 5554,
+      "sha256": "df5a9cafa318374230e20c51f7a37d14f250c402f2283cefa58456aa73f846f5",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0079",
+      "doc_id": "d0045",
+      "start": 5554,
+      "end": 11547,
+      "sha256": "e1de5f2ab6cc46cc3f23e8428b370895a824cfbcc1d6d0edb65c3b4addcb6f46",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0080",
+      "doc_id": "d0045",
+      "start": 11547,
+      "end": 17462,
+      "sha256": "3a24156e3dfa06c699cc990b6727c76541ed0269b76d564e68ce48f0295f4157",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0081",
+      "doc_id": "d0045",
+      "start": 17462,
+      "end": 23059,
+      "sha256": "e75f4675214bc8eb5c90d5ffc21b8d9b58af8e76c6fe8285c7ddc1bae7792c77",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0082",
+      "doc_id": "d0045",
+      "start": 23059,
+      "end": 23587,
+      "sha256": "fdf792598d62304fd586cffbf49e7e7f6dbf1570b176e701d648105740190d55",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0083",
+      "doc_id": "d0046",
+      "start": 0,
+      "end": 5709,
+      "sha256": "31fbf1a1542f114a693bdb0b8fd73e7dfc92255807584188f80b6d3cd6addd2e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0084",
+      "doc_id": "d0046",
+      "start": 5709,
+      "end": 11701,
+      "sha256": "a9dc3d9eae5e51ae02db40a53bcaeb8513d8913592781264e0371f914f0dbc3e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0085",
+      "doc_id": "d0046",
+      "start": 11701,
+      "end": 17681,
+      "sha256": "57b1514de1454355a778a4228a0eb0aa2b07f780a6c44a185e33c4c0456ce17e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0086",
+      "doc_id": "d0046",
+      "start": 17681,
+      "end": 23401,
+      "sha256": "94875c7e62d811b2b199445887b007be58aff9b7dc95aaf0e56f0498d68810f0",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0087",
+      "doc_id": "d0046",
+      "start": 23401,
+      "end": 26720,
+      "sha256": "634acfc25cd8729e7ec12d1c3a4d91573c29e8e1dc83887e3808f4ecffb89552",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0088",
+      "doc_id": "d0047",
+      "start": 0,
+      "end": 5276,
+      "sha256": "0c57f2cae054a7e9975303889b27d9e50ce2d7940601e636c0785ff7c16ca704",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0044",
+      "title": "沈伯洋《大選鏡來講》專訪：從選民對話、城市智庫到育兒政策",
+      "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+      "summary": "沈伯洋談市民意見平台、政策黑客松、台北研究院、育兒支持及防災分工；主持人另提供民調數字與選情解讀。",
+      "attributable_claims": [
+        "沈稱希望先用線上意見蒐集，再把議題帶入實體對話及政策討論。",
+        "沈提出育兒臨托、接送彈性、親子活動等方向；方案尚非核定服務。",
+        "沈以橋下空間活化及市民大道縫合說明都市設計構想。"
+      ],
+      "caveats": [
+        "原稿未逐句聽校；民調和數字由主持人引述，不能當成經核實資料。"
+      ],
+      "topic_keys": [
+        "public_input_policy",
+        "childcare",
+        "disaster_roles",
+        "urban_seams"
+      ]
+    },
+    {
+      "doc_id": "d0045",
+      "title": "沈伯洋《大選鏡來講》專訪：從選民對話、城市智庫到育兒政策（逐字稿）",
+      "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/transcript/",
+      "summary": "同一節目的逐字稿分段，提供較完整的受訪者及主持人發言脈絡；與 d0044 為同一訪談而非獨立證據。",
+      "attributable_claims": [
+        "沈描述以 LINE 意見收集及市政黑客松讓政策能被市民參與。",
+        "沈說明臨托、彈性接送、社區親子活動與親子同行卡構想。",
+        "沈說明其立委角色在災時協調中央資源，並稱可補地方未及之處。"
+      ],
+      "caveats": [
+        "語音辨識錯字及講者標記疑點未經影音校正；政策為受訪者主張。"
+      ],
+      "topic_keys": [
+        "public_input_policy",
+        "childcare",
+        "disaster_roles",
+        "urban_seams"
+      ]
+    },
+    {
+      "doc_id": "d0046",
+      "title": "沈伯洋《台灣 ON AIR》專訪：從領導責任、台北研究院到城市文化",
+      "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+      "summary": "沈談管理責任與問題回報、市政研究院、商圈特色保存、城市文化路徑與歷史故事；主持及來賓亦帶入自己的提問和詮釋。",
+      "attributable_claims": [
+        "沈主張主管對外承擔管理責任、公開說明錯誤並修正。",
+        "沈提出由研究院、大學及公務體系分工研究、規範與執行的市政治理構想。",
+        "沈提出市府租買空間留住特色店家、以居民參與討論商圈發展。"
+      ],
+      "caveats": [
+        "原稿未聽校且含明顯辨識錯字；政策和歷史敘述均依受訪者說法，影音/史實未核。"
+      ],
+      "topic_keys": [
+        "accountability",
+        "city_institute",
+        "commercial_district",
+        "culture_routes",
+        "local_history"
+      ]
+    },
+    {
+      "doc_id": "d0047",
+      "title": "沈伯洋《台灣 ON AIR》專訪：從領導責任、台北研究院到城市文化（逐字稿）",
+      "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript/",
+      "summary": "同一節目的逐字稿分段，保留來賓問答及現場英文介紹；與 d0046 為同一訪談而非獨立證據。",
+      "attributable_claims": [
+        "沈以景美水圳、廟宇、市場及仙跡岩組成地方文化介紹路線。",
+        "沈以剉冰比喻移民多元並存，提出沿河文化路徑串連台北歷史。",
+        "沈提到以音樂、戲劇、漫畫/動畫和商圈活動傳遞地方故事。"
+      ],
+      "caveats": [
+        "英文演說、歷史地名及時間碼未與影音或外部史料核對；不可把逐字稿與摘要視作兩份獨立證據。"
+      ],
+      "topic_keys": [
+        "culture_routes",
+        "local_history",
+        "commercial_district"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "高架道路橋下空間與市民大道縫合",
+      "question": "高架道路造成的街區隔閡，如何透過橋下空間改善連結？",
+      "points": [
+        "沈稱團隊盤點市民大道較寬的四處空間，並稱規劃已進入工程圖面階段。",
+        "以橋下活化作為連結兩側街區的方向，並類比市府中山線公園至台北車站的縫合案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0076",
+          "doc_id": "d0044",
+          "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+          "section_or_timestamp": "00:40:05",
+          "speaker": "沈伯洋",
+          "support_excerpt": "市民大道這邊其實有幾個寬的地方我們已經盤點出四個來"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "d0045同訪談逐字稿u0081附近"
+      ]
+    },
+    {
+      "working_title": "災害時中央與地方如何分工補位",
+      "question": "災害發生時，民代及中央資源如何配合地方處理？",
+      "points": [
+        "沈稱市府負責地方清理，立委則協調中央資源；需要時可聯繫國軍、衛福部或內政部。",
+        "他舉內湖淹水後進入私人宅後方清理淤泥，以及花蓮災後協調洗澡、電力等資源為例。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0079",
+          "doc_id": "d0045",
+          "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/transcript/",
+          "section_or_timestamp": "00:20:14–00:23:54",
+          "speaker": "沈伯洋",
+          "support_excerpt": "地方政府有地方政府的工作中央有中央的工作"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "用市民提案和黑客松把政策帶入生活問題",
+      "question": "市民如何把日常困擾轉成可討論的市政方案？",
+      "points": [
+        "沈稱先以 LINE 蒐集市民意見，再安排實體對話，並以市政黑客松讓民間提出解法。",
+        "交通彈性工時構想曾以點數回饋作為示例；沈明言仍須先與企業討論及調整機制。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0080",
+          "doc_id": "d0045",
+          "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/transcript/",
+          "section_or_timestamp": "00:27:35–00:31:43",
+          "speaker": "沈伯洋",
+          "support_excerpt": "政策一旦被討論就來回回了那一旦來來回回了之後"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "育兒照顧的臨托、接送與社區活動構想",
+      "question": "如何替主要照顧者騰出時間，並增加住家附近的親子去處？",
+      "points": [
+        "沈提出免費臨托與學校接送彈性，作為減輕照顧壓力的方向。",
+        "另構想親子同行卡支持附近書店等場所辦活動，讓家長喘息、孩子參與、商家獲得收入。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0080",
+          "doc_id": "d0045",
+          "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/transcript/",
+          "section_or_timestamp": "00:32:40–00:35:07",
+          "speaker": "沈伯洋",
+          "support_excerpt": "免費臨托很重要嘛因為你以後免費臨托你才有時間空出來"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "台北研究院如何支援市政治理",
+      "question": "研究機構、大學、議會與公務體系可以怎麼分工？",
+      "points": [
+        "沈構想由外部研究團隊先釐清問題、提出方案，再由議會制定規則，公務體系執行。",
+        "其稱此分工可讓責任較清楚並減輕公務員壓力；組織、預算與執行細節未定。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0084",
+          "doc_id": "d0046",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+          "section_or_timestamp": "00:09:34–00:13:45",
+          "speaker": "沈伯洋",
+          "support_excerpt": "那這個責任歸屬也會變得很清楚"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "領導者如何承擔管理責任並促進問題回報",
+      "question": "市府出錯時，主管應如何處理責任、回報與修正？",
+      "points": [
+        "沈主張團隊應能向上反映錯誤，主管對外說明問題和修正方式。",
+        "他舉自己未發現簡報錯字為例，稱最終責任在自己；若主管屢次未改善，才考慮更換。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0083",
+          "doc_id": "d0046",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+          "section_or_timestamp": "00:04:00–00:05:43",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我對外就只有一個說法我說就是我沒有看到錯字啊這是我的責任"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以租買空間支持商圈特色店家",
+      "question": "市府如何回應租金上升與連鎖店進駐造成的商圈同質化？",
+      "points": [
+        "沈提出盤點具地方意義的店家與工作場域，由市府長租或購買空間，再租給希望留在當地的店家。",
+        "他提醒需建立審議及居民參與機制，並保留市場機制；也提出整合老產業與 AI 的探索方向。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0084",
+          "doc_id": "d0046",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+          "section_or_timestamp": "00:21:18–00:24:46",
+          "speaker": "沈伯洋",
+          "support_excerpt": "市政府直接把長租下來甚至還有市政府直接把一些空間買下來"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以文化路徑串連台北移民與地方歷史",
+      "question": "怎麼讓城市的移民、產業與地方故事被保存並傳遞？",
+      "points": [
+        "沈提出沿河串連南北的文化路徑，談不同移民群體、商圈及城市發展史。",
+        "他以剉冰比喻多元文化並存，並提出四條路徑的構想；先完成第一條作為方向。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0086",
+          "doc_id": "d0046",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+          "section_or_timestamp": "00:38:01–00:43:25",
+          "speaker": "沈伯洋",
+          "support_excerpt": "台北市融合了非常非常多不同城市的移民來到這裡"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "用故事媒介補足文化保存的點線面",
+      "question": "文化保存如何從單一紀念點擴展成可理解的城市故事？",
+      "points": [
+        "沈認為需把地點、彼此相關的故事及更大的敘事串起來，而非只留地名牌。",
+        "他提出歌曲、戲劇、遊戲、小說、漫畫或動畫作為傳遞方式，並提及中華商場記憶與商圈複合使用。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0086",
+          "doc_id": "d0046",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+          "section_or_timestamp": "00:44:47",
+          "speaker": "沈伯洋",
+          "support_excerpt": "遊戲是一種然後小說是一種然後詩歌然後呢這個音樂"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    }
+  ]
+}

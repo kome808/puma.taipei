@@ -1,0 +1,164 @@
+[
+  {
+    "working_title": "台北客家文化如何進入社區照護、校園、消費與市府服務？",
+    "question": "台北如何透過伯公照護站與老幼共學、客庄學校互訪、台北通客語獎勵、市府客語服務及無限城交流，增加客語日常使用場景？",
+    "points": [
+      "主張推動都會伯公照護站並導入老幼共學，讓長者照顧、客語交流與文化傳承在社區據點結合。",
+      "主張串聯台北與桃竹苗、六堆等客庄中小學結盟，將寒暑假文化體驗與雙向互訪常態化。",
+      "主張透過台北通獎勵線上學習、收聽客語節目及在特約商圈使用客語，累積數位獎勵並折抵消費。",
+      "研議客語中級認證納入市府約聘僱甄選加分，並規劃臨櫃及1999客語服務人才運用與獎勵。",
+      "主張將客家文化及永續生活智慧納入無限城國際論壇，連結國際城市交流。"
+    ],
+    "source_refs": [
+      {
+        "unit_id": "u0014",
+        "doc_id": "d0014",
+        "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+        "section_or_timestamp": "04｜政策內容・一｜長輩有據點，客語代代傳",
+        "speaker": "官方政策",
+        "support_excerpt": "推動「都會伯公照護站」與老幼共學",
+        "pack_id": "main",
+        "kind": "policy_detail",
+        "entry_ids": [],
+        "logical_source_urls": [
+          "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96"
+        ]
+      },
+      {
+        "unit_id": "u0014",
+        "doc_id": "d0014",
+        "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+        "section_or_timestamp": "04｜政策內容・二｜學童有互訪",
+        "speaker": "官方政策",
+        "support_excerpt": "將寒暑假文化體驗與雙向互訪常態化",
+        "pack_id": "main",
+        "kind": "policy_detail",
+        "entry_ids": [],
+        "logical_source_urls": [
+          "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96"
+        ]
+      },
+      {
+        "unit_id": "u0014",
+        "doc_id": "d0014",
+        "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+        "section_or_timestamp": "04｜政策內容・三｜出門講客語",
+        "speaker": "官方政策",
+        "support_excerpt": "都能累積數位獎勵並折抵消費",
+        "pack_id": "main",
+        "kind": "policy_detail",
+        "entry_ids": [],
+        "logical_source_urls": [
+          "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96"
+        ]
+      },
+      {
+        "unit_id": "u0014",
+        "doc_id": "d0014",
+        "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+        "section_or_timestamp": "04｜政策內容・四｜約聘有加分",
+        "speaker": "官方政策",
+        "support_excerpt": "研議將客語中級認證納入台北市政府約聘僱人員甄選的加分機制",
+        "pack_id": "main",
+        "kind": "policy_detail",
+        "entry_ids": [],
+        "logical_source_urls": [
+          "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96"
+        ]
+      },
+      {
+        "unit_id": "u0014",
+        "doc_id": "d0014",
+        "url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+        "section_or_timestamp": "04｜政策內容・五｜世界有客家",
+        "speaker": "官方政策",
+        "support_excerpt": "將客家文化與精神納入「無限城」國際論壇",
+        "pack_id": "main",
+        "kind": "policy_detail",
+        "entry_ids": [],
+        "logical_source_urls": [
+          "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96"
+        ]
+      }
+    ],
+    "eligibility": "shareable",
+    "possible_duplicates": [],
+    "caveats": [
+      "客語中級認證約聘僱甄選加分仍為研議，臨櫃與1999人才運用及獎勵為規劃；政策頁未列實施時程、獎勵規則或合作學校名單。"
+    ],
+    "existing_candidate_ids": [],
+    "existing_candidate_action": "新增一個客家政策主題候選，涵蓋五項相連的官方政策機制；目前沒有引用d0014的候選。",
+    "candidate_id": "main:official-additions:001",
+    "origin_batch": "main:official-additions"
+  },
+  {
+    "working_title": "教育現場如何補足正式師資與專任輔導人力？",
+    "question": "除降低班級人數與行政減壓外，如何藉正式教師員額、專任輔導教師及留任獎勵支撐教育現場？",
+    "points": [
+      "主張以減生不減師配置，釋出正式教師員額並增加專任輔導教師。",
+      "提出評估爭取各種獎勵方案，提高教師留任意願。"
+    ],
+    "source_refs": [
+      {
+        "unit_id": "u0002",
+        "doc_id": "d0002",
+        "url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+        "section_or_timestamp": "04｜政策內容・一｜教師不超載，學習更有感",
+        "speaker": "官方政策",
+        "support_excerpt": "釋出正式教師員額、增加專任輔導教師",
+        "pack_id": "main",
+        "kind": "policy_detail",
+        "entry_ids": [],
+        "logical_source_urls": [
+          "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96"
+        ]
+      }
+    ],
+    "eligibility": "shareable",
+    "possible_duplicates": [
+      "main:b01:003"
+    ],
+    "caveats": [
+      "屬教育政策主張；頁面未列正式教師員額數、獎勵方案內容或配置期程。"
+    ],
+    "existing_candidate_ids": [
+      "main:b01:003"
+    ],
+    "existing_candidate_action": "併入現有候選main:b01:003「教師如何減少班級與行政負擔？」補上正式員額、專任輔導教師與留任獎勵，不另建重複候選。",
+    "candidate_id": "main:official-additions:002",
+    "origin_batch": "main:official-additions"
+  },
+  {
+    "working_title": "市府如何與大學合作研究市政痛點？",
+    "question": "市府如何透過大學社會責任計畫，把市政痛點與社會需求轉為研究及政策建議？",
+    "points": [
+      "主張以大學社會責任（USR）機制合作，由市府提出市政痛點與社會多元需求。",
+      "大學以計畫方式研究相關議題或提出市政建議。"
+    ],
+    "source_refs": [
+      {
+        "unit_id": "u0002",
+        "doc_id": "d0002",
+        "url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+        "section_or_timestamp": "04｜政策內容・八｜讓大學成為市政教育夥伴",
+        "speaker": "官方政策",
+        "support_excerpt": "大學以計畫的模式研究議題或市政建議",
+        "pack_id": "main",
+        "kind": "policy_detail",
+        "entry_ids": [],
+        "logical_source_urls": [
+          "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96"
+        ]
+      }
+    ],
+    "eligibility": "shareable",
+    "possible_duplicates": [],
+    "caveats": [
+      "政策頁提出USR合作方向，未列合作大學、議題清單、計畫程序或預算。"
+    ],
+    "existing_candidate_ids": [],
+    "existing_candidate_action": "新增閱讀候選；基準資料中沒有引用d0002第八項USR合作機制的候選。",
+    "candidate_id": "main:official-additions:003",
+    "origin_batch": "main:official-additions"
+  }
+]

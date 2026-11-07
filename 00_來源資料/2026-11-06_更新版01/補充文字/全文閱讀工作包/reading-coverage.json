@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "expected_batches": 1,
+  "reviewed_batches": [
+    "b01"
+  ],
+  "expected_units": 5,
+  "read_units": 5,
+  "read_chars": 9809,
+  "expected_chars": 9809,
+  "raw_topics": 19,
+  "missing_units": [],
+  "errors": [],
+  "warnings": [],
+  "scope": "Reading attestations, range/hash coverage, document summaries and provenance pointers. Not independent policy fact checking or video listening."
+}

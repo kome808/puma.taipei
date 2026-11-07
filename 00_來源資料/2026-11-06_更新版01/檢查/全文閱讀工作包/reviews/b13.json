@@ -1,0 +1,351 @@
+{
+  "batch_id": "b13",
+  "read_units": [
+    {
+      "unit_id": "u0167",
+      "doc_id": "d0076",
+      "start": 5941,
+      "end": 11804,
+      "sha256": "2112c7c832cbbce24f1d34ddb30b759c2bbf0f166340b11f1659dfc0e92c748b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0168",
+      "doc_id": "d0076",
+      "start": 11804,
+      "end": 17580,
+      "sha256": "3073dd91eec6f7c307614ecdf8ef4f31cb61be3f644e86d77ae793edc4576346",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0169",
+      "doc_id": "d0076",
+      "start": 17580,
+      "end": 23536,
+      "sha256": "3bc2c40f3ce60e8e2ac869a30a8144f547a00e52dc7dee9daa24fa03b660abf4",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0170",
+      "doc_id": "d0076",
+      "start": 23536,
+      "end": 29311,
+      "sha256": "93ed2989fc2de6dbc75424d62fce5851c1601052e8009aacab86447e52ccd329",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0171",
+      "doc_id": "d0077",
+      "start": 0,
+      "end": 5937,
+      "sha256": "652273f5af746d9c1c058247b337d27d70e8ed6a5dec7ebc1af47319020b1bd7",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0172",
+      "doc_id": "d0077",
+      "start": 5937,
+      "end": 11912,
+      "sha256": "3486530dfa40cb854cce4699189b33872ae0b4329b790b53a8a4f6b3138b06e8",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0173",
+      "doc_id": "d0077",
+      "start": 11912,
+      "end": 17891,
+      "sha256": "046e09366e262be2a02b3b87da1fabc29a65061ef11799f2c8f61bb63c4abb8f",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0174",
+      "doc_id": "d0077",
+      "start": 17891,
+      "end": 23874,
+      "sha256": "38b68fca4121f46b7460503d2bf96cc88923b674b96aca14fc4e15462fabfe62",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0175",
+      "doc_id": "d0077",
+      "start": 23874,
+      "end": 24259,
+      "sha256": "004e762cb70b9dc42b684c146d3113e6ed5029a45552ba61267374f72d723dd6",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0176",
+      "doc_id": "d0078",
+      "start": 0,
+      "end": 5843,
+      "sha256": "45b99b09dc39f8e334af4d494641e60f061e30264b98d152c6f68bdc75351e3a",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0177",
+      "doc_id": "d0078",
+      "start": 5843,
+      "end": 11707,
+      "sha256": "512d6eb7fbedf9c42d9ee4bab0bc7ee8b55ee9ade16fd0913c20904c459fbb19",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0076",
+      "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+      "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+      "summary": "《趙少康時間》訪談整理涵蓋1999兒少通報分流、老宅延壽、路樹管理、松機遷建、交通號誌與運動驛站等市政主張。文章另含選戰和國會議題。",
+      "attributable_claims": [
+        "受訪者提出將兒童保護相關通報從一般1999陳情中分流，並以老宅延壽行動服務團協助住戶理解改善方案。",
+        "提出以制度化評估與透明資料管理路樹，並將交通數據用於號誌調整和計程車上下客規劃。",
+        "松山機場遷建採條件討論，須先解決國防、救災、醫療後送和離島交通等替代需求。"
+      ],
+      "caveats": [
+        "本文依逐字稿整理，未逐段對照影音；數字、個案、國際比較與爭議均需核實。",
+        "受訪者自述的選戰觀察與政策構想不等於已核定或成效已驗證。"
+      ],
+      "topic_keys": [
+        "child_protection_triage",
+        "old_house_access",
+        "urban_tree_governance",
+        "songshan_airport",
+        "smart_traffic",
+        "sport_station",
+        "drug_driving"
+      ]
+    },
+    {
+      "doc_id": "d0077",
+      "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+      "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+      "summary": "《趙少康時間》同場逐字稿，保留議會協商、1999兒少通報、老宅屋頂與電梯、路樹管理、松機遷建及AI交通等對話。",
+      "attributable_claims": [
+        "主張將兒童保護通報獨立分流、老宅改善以行動服務團逐戶說明，未能裝電梯時以輔具過渡。",
+        "提出樹木移除評估、居民參與、資料公開與綠化標準等城市樹木治理構想。",
+        "提出以交通資料調整號誌、改善計程車招呼與補助待命燈，並在校園附近配置毒駕臨檢。"
+      ],
+      "caveats": [
+        "逐字稿標示可能有口誤、轉錄錯誤及未核實說法；時間碼、數字及政策細節需回看影音或主管機關資料。",
+        "d0076與d0077為同一場訪談的文章與逐字稿，不構成獨立佐證。"
+      ],
+      "topic_keys": [
+        "child_protection_triage",
+        "old_house_access",
+        "urban_tree_governance",
+        "songshan_airport",
+        "smart_traffic",
+        "sport_station",
+        "drug_driving",
+        "city_forum"
+      ]
+    },
+    {
+      "doc_id": "d0078",
+      "title": "黃暐瀚專訪沈伯洋：四場辯論、交叉詰問與台北市政",
+      "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+      "summary": "黃暐瀚訪談整理車掃與選舉互動後，談主題辯論、交通與公共運輸、文化活動、市民溝通及市府政策延續。",
+      "attributable_claims": [
+        "受訪者主張舉辦主題式辯論並保留交叉詰問，讓政策有充分討論。",
+        "訪談整理談到交通及公車安全、1999與AI/LINE市民反映整合，以及文化活動等議題。",
+        "受訪者表示支持延續社宅、鮮乳、無菸城市與免費營養午餐等政策，並提出執行調整。"
+      ],
+      "caveats": [
+        "文章雖附逐字稿，逐字部分有口誤及明顯語音辨識錯誤；其民調、活動人數和公共事實未獨立核實。",
+        "d0078與d0076/d0077為不同訪談，不能將受訪者在不同場合的概述視作同一段完整政策文本。"
+      ],
+      "topic_keys": [
+        "debate_format",
+        "public_transport",
+        "citizen_feedback",
+        "policy_continuity"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "將兒童保護通報從一般陳情分流",
+      "question": "大量1999陳情中，如何讓兒少保護風險較容易被辨識與追蹤？",
+      "points": [
+        "受訪者認為兒少通報容易被交通、環境衛生等大量陳情淹沒，提出獨立分流以利判斷風險。",
+        "該提議是對通報分類與承辦流程的構想，未在訪談中交代平台設計或預警標準。",
+        "訪談提及特定幼兒園案件及通報次數，個案名稱與數字仍需核對。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0168",
+          "doc_id": "d0076",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+          "section_or_timestamp": "約00:16:02，1999兒童保護通報",
+          "speaker": "沈伯洋",
+          "support_excerpt": "把跟兒童有關的獨立拉出來"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b04兒少保護與訪視監督主題"
+      ]
+    },
+    {
+      "working_title": "以行動服務團協助老宅改善與長者通行",
+      "question": "住戶對電梯工程難以取得共識時，還有哪些老宅改善與長者通行做法？",
+      "points": [
+        "提出大同區作示範，結合電梯、管線與屋頂改善等資訊，由行動服務團逐戶說明補助及方案。",
+        "市府可用親子友善商家認證等誘因與一樓店家協商；電梯尚無法推動時，先補助上下樓輔具。",
+        "逐字稿所稱老屋比例、補助條件及示範區範圍需再核實。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0172",
+          "doc_id": "d0077",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+          "section_or_timestamp": "約00:18:25–00:20:40，老宅延壽",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們就做「行動服務團」"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b04循環都更與高齡生活空間主題"
+      ]
+    },
+    {
+      "working_title": "以透明評估與居民參與管理路樹",
+      "question": "如何在樹木移除與新增時兼顧安全、綠化公平及居民信任？",
+      "points": [
+        "受訪者提出訂定都市微森林條例，規範樹穴根域及樹木移除評估流程。",
+        "評估會議納入都市設計、樹木專業人員與認養居民，並公開資料及採用分區綠化目標。",
+        "文中對既有樹木增減及資料取得的指控未附完整比對報告，應與政策構想分開呈現。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0173",
+          "doc_id": "d0077",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+          "section_or_timestamp": "約00:30:27–00:32:09，都市微森林條例",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我已經在擬那個《都市微森林條例》"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b10都市熱島植樹主題"
+      ]
+    },
+    {
+      "working_title": "松山機場遷建須先確認功能替代方案",
+      "question": "討論松山機場遷建前，哪些公共功能需要先有替代安排？",
+      "points": [
+        "受訪者列出國防、空勤救災、離島醫療後送、離島交通與轉降等需評估的功能。",
+        "他表示若替代方案可行，遷建可以進一步討論；對醫療後送及救災替代尤其表示疑慮。",
+        "醫院車程、機場跑道用途、機型與需求等說法需由主管機關資料核實。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0173",
+          "doc_id": "d0077",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+          "section_or_timestamp": "約00:35:18–00:38:52，松山機場遷建",
+          "speaker": "沈伯洋",
+          "support_excerpt": "如果替代方案可行"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b04松機遷建排序與條件主題",
+        "b07松機遷建前提主題"
+      ]
+    },
+    {
+      "working_title": "用交通資料改善號誌與計程車上下客",
+      "question": "如何用城市交通資料減少空等並改善計程車臨停與叫車辨識？",
+      "points": [
+        "提出由交通數據中心整合既有交通資料與API，支援車流及號誌調整，並以預防事故為目標。",
+        "計程車招呼區可配合街道標線改善；受訪者也認同與工會討論補助待命燈號。",
+        "訪談未提供資料治理、個資保護、建置方式或成效指標。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0174",
+          "doc_id": "d0077",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+          "section_or_timestamp": "約00:45:49–00:47:47，交通數據與計程車",
+          "speaker": "沈伯洋",
+          "support_excerpt": "交通上能夠做出號誌的改善"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b04城市智庫與AI應用",
+        "b10城市智庫與智慧交通"
+      ]
+    },
+    {
+      "working_title": "在捷運附屬空間設運動淋浴驛站",
+      "question": "如何為跑步、登山與通勤者提供可用的運動後盥洗空間？",
+      "points": [
+        "受訪者提出利用捷運附屬空間、公園或登山口設置運動驛站，服務跑步、登山與通勤者。",
+        "訪談提到人員管理、定期反偷拍偵測與會員資料綁定等安全構想。",
+        "空間位置、營運者、收費與個資管理方式尚未具體說明。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0174",
+          "doc_id": "d0077",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+          "section_or_timestamp": "約00:51:21–00:52:29，運動驛站",
+          "speaker": "沈伯洋",
+          "support_excerpt": "有人員的管理嘛、定期會掃描"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "將毒駕臨檢熱點優先放在校園周邊",
+      "question": "在警力有限時，如何安排毒駕臨檢以保護高風險路段？",
+      "points": [
+        "受訪者將毒駕執法概括為提高查獲確定性，並指出全面增加臨檢會耗用警力、影響交通。",
+        "提出優先在校園附近設熱點，並將毒品源頭治理視為中央層級工作。",
+        "這是訪談中的執法配置主張，未提供風險資料、實施方式或成效評估。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0174",
+          "doc_id": "d0077",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+          "section_or_timestamp": "約00:52:29–00:53:30，毒駕防制",
+          "speaker": "沈伯洋",
+          "support_excerpt": "校園附近」先開始抓熱點"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b10校園毒品預防分層主題"
+      ]
+    },
+    {
+      "working_title": "以城市專長作為國際城市交流交換基礎",
+      "question": "如何讓城市論壇交流對台北有具體互惠內容？",
+      "points": [
+        "受訪者認為，應先盤點台北可與其他城市交流的專長，如AI應用、文化路徑或山林觀光。",
+        "交流需有可供對方學習或交換的內容，先建立基礎再邀請城市參與。",
+        "論壇形式、合作對象與專案內容仍屬構想。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0175",
+          "doc_id": "d0077",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript/",
+          "section_or_timestamp": "約00:53:36，無限城論壇",
+          "speaker": "沈伯洋",
+          "support_excerpt": "要先把它基底打好"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b07城市交流與合作條件主題"
+      ]
+    }
+  ]
+}

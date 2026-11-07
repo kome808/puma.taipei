@@ -1,0 +1,524 @@
+{
+  "batch_id": "b29",
+  "read_units": [
+    {
+      "unit_id": "u0399",
+      "doc_id": "d0193",
+      "start": 5725,
+      "end": 11612,
+      "sha256": "de8f92c146a045248de9c7f5b996ed823fac6f854a3b7301baec650b30308812",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0400",
+      "doc_id": "d0193",
+      "start": 11612,
+      "end": 17292,
+      "sha256": "a71e015c18a967d2a92cc4bd8666b0fad2439d2710892bdf60003559c3553e89",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0401",
+      "doc_id": "d0193",
+      "start": 17292,
+      "end": 23256,
+      "sha256": "3642b6fdc294bcf49b5d42766d9725549c06fc2150a1443e62dc5578c2246197",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0402",
+      "doc_id": "d0193",
+      "start": 23256,
+      "end": 23504,
+      "sha256": "347fe141c574627d25fd9c0672c07bdf98ccae33a58f4a280e04d6dcbc53c64a",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0403",
+      "doc_id": "d0194",
+      "start": 0,
+      "end": 5914,
+      "sha256": "1d52c82ef98cd938cb2c20697d3a5adf80895554a002e5371949d0ab81637bca",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0404",
+      "doc_id": "d0194",
+      "start": 5914,
+      "end": 10809,
+      "sha256": "5fd7b843d4c30ea0092c59690ad9cded48c4a9a77ffd55c3ad3b6f7671ad8fdf",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0405",
+      "doc_id": "d0194",
+      "start": 10809,
+      "end": 16784,
+      "sha256": "972ba1f91f7326b53507f9fc2178044c46ee9c03a9d855140be52070a70f7a68",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0406",
+      "doc_id": "d0194",
+      "start": 16784,
+      "end": 22760,
+      "sha256": "1aeafd8259dedd45a3237cbf52115d77730c3b204f20574b98336e827cbc8c9b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0407",
+      "doc_id": "d0194",
+      "start": 22760,
+      "end": 24229,
+      "sha256": "9eb34f6cba64aff22e05a211e6575c580acfa1fe36360c60de13a2a7e28d0dd1",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0408",
+      "doc_id": "d0195",
+      "start": 0,
+      "end": 5939,
+      "sha256": "645f319794e61a318733a6d45731902395064b2c612bb7bcff353d1b021678f3",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0409",
+      "doc_id": "d0195",
+      "start": 5939,
+      "end": 11908,
+      "sha256": "e2e1917a1f06634ae8e25a19df108947c1f0a28d5c0414d3b39e5749b8c00405",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0410",
+      "doc_id": "d0195",
+      "start": 11908,
+      "end": 13201,
+      "sha256": "777ae03e26536082ab054fef9881888a69726162494d32f2ab5d8880f7cf3bda",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0411",
+      "doc_id": "d0196",
+      "start": 0,
+      "end": 1003,
+      "sha256": "3f26a67573100752f5d239971bd94f67ab0bb9a59ef399d04062286bd90628e5",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0412",
+      "doc_id": "d0197",
+      "start": 0,
+      "end": 5968,
+      "sha256": "1d156456d91af3516730b53204c25ad7149beb5c02296ac470b4002623137712",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0193",
+      "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+      "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript.md",
+      "summary": "趙少康主持的訪談逐字稿摘錄涵蓋市政協商、1999兒少案件分類、老宅屋頂改善與松山機場遷建條件，也談沈伯洋是否辭立委。",
+      "attributable_claims": [
+        "沈伯洋表示目前不打算辭去立委職務，稱會做到最後一刻。",
+        "提議把兒童相關1999案件獨立分類，並把老宅延壽、屋頂綠化與行動服務結合。",
+        "對松山機場遷建持條件式開放態度，要求先說明替代方案及相關功能安排。"
+      ],
+      "caveats": [
+        "本批包含d0193的u0399–u0402；其餘前段u0398由其他閱讀批次處理。",
+        "提及的民調、案件數字與市政現況是受訪者在訪談中的說法。"
+      ],
+      "topic_keys": [
+        "child-complaint-routing",
+        "old-home-roof-upgrade",
+        "songshan-airport-relocation"
+      ]
+    },
+    {
+      "doc_id": "d0194",
+      "title": "黃暐瀚專訪沈伯洋：四場辯論、交叉詰問與台北市政",
+      "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/content.md",
+      "summary": "Hit FM黃暐瀚專訪逐字稿，包含車流、站牌、駕駛壓力、行人安全、城市IP、市民意見蒐集與1999等市政議題，也有選戰辯論及選舉攻防內容。",
+      "attributable_claims": [
+        "提出以交通資料改善號誌與車流管理，並討論計程車等候區及指示燈補助。",
+        "建議盤點公車路線、改善站牌辨識與蜂鳴聲，並以示範方式測試寧靜車廂。",
+        "提出結合市民回饋、公共藝術及本土與國際IP的城市展示構想。"
+      ],
+      "caveats": [
+        "車流統計與其他現況數字屬逐字稿內受訪者說法，未另行核實。"
+      ],
+      "topic_keys": [
+        "transport-data-and-taxi-pickup",
+        "bus-network-and-driver-workload",
+        "bus-warning-and-quiet-carriage",
+        "civic-ip-space",
+        "citizen-feedback-1999"
+      ]
+    },
+    {
+      "doc_id": "d0195",
+      "title": "那個被國民黨訓練出來的男人：沈伯洋談選戰與韌性台北",
+      "url": "https://puma-hub.pages.dev/articles/ep148/content.md",
+      "summary": "《只能喝酒的圖書館》訪談逐字稿全文，含長者健康、弱勢賦權、街友安置、孤單與陪伴、韌性城市等議題，也有家庭個人故事及動漫/政治經驗。",
+      "attributable_claims": [
+        "長者政策偏向健康、運動、出門及社區活動，提到希望把健身房帶進社區。",
+        "主張以居住優先和跨局處配套回應無家者問題，並處理社區鄰避。",
+        "提出以日常藝文社區活動和民間互助網絡增進陪伴與城市韌性。"
+      ],
+      "caveats": [
+        "家庭故事與自我描述屬個人經驗，非市政方案。"
+      ],
+      "topic_keys": [
+        "elder-health-and-community-exercise",
+        "homelessness-housing-first",
+        "loneliness-social-spaces",
+        "resilient-city"
+      ]
+    },
+    {
+      "doc_id": "d0196",
+      "title": "「戒慎恐懼之夜」活動整理：沈伯洋、蘇巧慧與北台灣候選人同台",
+      "url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/article.md",
+      "summary": "活動整理頁列出活動名稱、來源直播與內容章節，並明確提示活動約2小時52分的時間及逐字稿對應尚待核對；本unit本身沒有可整理的具體市政發言。",
+      "attributable_claims": [],
+      "caveats": [
+        "頁面說明不能單獨證明現場實際發言；時間需核對。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0197",
+      "title": "「戒慎恐懼之夜」完整活動發言逐字稿",
+      "url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/transcript.md",
+      "summary": "本批只涵蓋長篇活動逐字稿開頭至沈伯洋發言約00:32:37，包含開場主持與樂團、沈伯洋脫口秀及其提及運動驛站；後續講者和活動內容在本批未讀範圍。",
+      "attributable_claims": [
+        "沈伯洋在活動發言中提到運動驛站，並稱遇到市民對此有興趣。"
+      ],
+      "caveats": [
+        "d0197其餘u0413–u0415不屬本批；活動整理頁另提醒時長及逐字稿對應尚待核對。"
+      ],
+      "topic_keys": [
+        "exercise-stations"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "1999兒少案件獨立分類",
+      "question": "如何避免兒少風險案件被大量交通與環境衛生通報淹沒？",
+      "points": [
+        "沈伯洋提出把兒童相關案件從交通、衛生等通報中獨立拉出，便於判斷風險。",
+        "逐字稿提到「夏莉絲（幼兒園）」相關通報13次，屬受訪者提供的個案數字。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0399",
+          "doc_id": "d0193",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript.md",
+          "section_or_timestamp": "00:16:02",
+          "speaker": "沈伯洋",
+          "support_excerpt": "要不要把跟兒童有關的獨立拉出來"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "老宅延壽結合屋頂改善與到府說明",
+      "question": "如何讓老屋改善補助同時處理屋頂環境，並降低住戶參與門檻？",
+      "points": [
+        "沈伯洋談把屋頂綠化、違建處理及能源儲備納入老宅延壽配套。",
+        "他提到在大同區以行動服務團逐戶說明並作為示範；住戶協調仍是實施條件。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0399",
+          "doc_id": "d0193",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript.md",
+          "section_or_timestamp": "00:17:49",
+          "speaker": "沈伯洋",
+          "support_excerpt": "老宅延壽的時候一起來做屋頂的美化"
+        },
+        {
+          "unit_id": "u0399",
+          "doc_id": "d0193",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript.md",
+          "section_or_timestamp": "00:18:25",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們就做「行動服務團」"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "松山機場遷建須先提出替代方案",
+      "question": "若討論松山機場遷建，如何兼顧國防、救災、醫療後送與離島交通？",
+      "points": [
+        "沈伯洋表示遷建值得討論，但要先處理軍事、空勤救災、醫療後送、離島交通及機型等條件。",
+        "他表示若替代方案可行，台北缺地是支持討論的理由；並未無條件支持遷建。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0400",
+          "doc_id": "d0193",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript.md",
+          "section_or_timestamp": "00:35:18–00:38:11",
+          "speaker": "沈伯洋",
+          "support_excerpt": "如果替代方案可行，因為的確我們是需要地的"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以交通資料改善號誌與計程車上下客",
+      "question": "如何用交通資料調整車流號誌，並讓計程車更容易安全上下客？",
+      "points": [
+        "沈伯洋提議盤點交通資料中心可用資料，再整合既有數據以改善號誌轉換。",
+        "對計程車停靠問題，他談到檢視等候區設計，並可與工會討論補助指示燈。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0401",
+          "doc_id": "d0193",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript.md",
+          "section_or_timestamp": "00:45:49",
+          "speaker": "沈伯洋",
+          "support_excerpt": "交通數據中心它資料到底收集到什麼程度"
+        },
+        {
+          "unit_id": "u0401",
+          "doc_id": "d0193",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript.md",
+          "section_or_timestamp": "00:47:47",
+          "speaker": "沈伯洋",
+          "support_excerpt": "跟工會談，然後我們可以去補助那個東西也可以啊"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "公車路網、站牌辨識與駕駛工作負荷",
+      "question": "如何同時改善公車轉乘辨識與駕駛因班次安排而承受的壓力？",
+      "points": [
+        "沈伯洋認為台北車站不適合硬做單一總站，但可精簡、重新編號並清楚標示周邊站點。",
+        "他提出盤點路線以處理駕駛搶班、疲勞與乘客安全問題，並援引訪談一名親自開過公車的研究生。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0406",
+          "doc_id": "d0194",
+          "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/content.md",
+          "section_or_timestamp": "00:35:09",
+          "speaker": "沈伯洋",
+          "support_excerpt": "台北車站一號台北車站二號"
+        },
+        {
+          "unit_id": "u0406",
+          "doc_id": "d0194",
+          "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/content.md",
+          "section_or_timestamp": "00:36:10",
+          "speaker": "沈伯洋",
+          "support_excerpt": "要解決駕駛的疲勞"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "降低公車蜂鳴干擾並試行寧靜車廂",
+      "question": "如何兼顧公車轉彎警示、周邊噪音與大眾運輸安靜需求？",
+      "points": [
+        "訪談提出把蜂鳴聲或語音朝向有風險的一側，並依時段調整音量；也提到改善道路設計。",
+        "沈伯洋對捷運安靜車廂表示可先小範圍示範，再觀察成效；並承認執行方式仍待想清楚。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0406",
+          "doc_id": "d0194",
+          "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/content.md",
+          "section_or_timestamp": "00:37:54",
+          "speaker": "沈伯洋",
+          "support_excerpt": "只要往著會有危險的方向去有蜂鳴聲"
+        },
+        {
+          "unit_id": "u0406",
+          "doc_id": "d0194",
+          "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/content.md",
+          "section_or_timestamp": "00:41:26",
+          "speaker": "沈伯洋",
+          "support_excerpt": "你一定是只有你一個車廂"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "結合市民參與與本土、國際IP的公共空間",
+      "question": "如何讓大型文化展示兼具市民參與、在地內容與商圈效益？",
+      "points": [
+        "沈伯洋討論設置可輪替展示本土及國際IP的公共基座，並讓市民意見或公共藝術進入展示內容。",
+        "他把商圈人潮、城市標誌及科技展示列為不同考量，也提到活動效益可能有長短期之別。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0406",
+          "doc_id": "d0194",
+          "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/content.md",
+          "section_or_timestamp": "00:44:42–00:46:20",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們的公民比如說我們用一個科技的方式讓大家的抱怨"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "市民提問與1999案件分流",
+      "question": "如何讓市民提問能被公開回應，也讓1999通報更快進入適當流程？",
+      "points": [
+        "沈伯洋想延續市民提問機制，以科技整理常見問題，再透過廣播或直播定期回覆。",
+        "對1999則提到親子案件另設專線、交通與衛生案件留在原線，並研究整合LINE；分流仍是核心。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0406",
+          "doc_id": "d0194",
+          "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/content.md",
+          "section_or_timestamp": "00:47:00",
+          "speaker": "沈伯洋",
+          "support_excerpt": "用廣播或者用直播等的方式去回答市民的提問"
+        },
+        {
+          "unit_id": "u0406",
+          "doc_id": "d0194",
+          "url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/content.md",
+          "section_or_timestamp": "00:48:18",
+          "speaker": "沈伯洋",
+          "support_excerpt": "親子的也另外一個專線任何跟家長有關的"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "把社區運動與健康活動帶進日常生活",
+      "question": "如何讓長者更容易在社區中運動、外出與參與活動？",
+      "points": [
+        "沈伯洋談長者政策時重視健康、運動、外出及參與活動，並提出把健身房開進社區。",
+        "內容呈現訪談中的政策方向，沒有交代設置地點、規模或經費。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0409",
+          "doc_id": "d0195",
+          "url": "https://puma-hub.pages.dev/articles/ep148/content.md",
+          "section_or_timestamp": "00:15:53",
+          "speaker": "沈伯洋",
+          "support_excerpt": "希望把健身房開到社區裡面"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以居住優先回應無家者安置",
+      "question": "如何提供無家者穩定居所並處理安置據點的社區疑慮？",
+      "points": [
+        "沈伯洋介紹Housing First，主張先提供穩定居所，再銜接社工、職業重建與心理支持。",
+        "他指出房價疑慮與鄰避會使據點停滯，並主張由市府整合治安、環境維護等配套。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0409",
+          "doc_id": "d0195",
+          "url": "https://puma-hub.pages.dev/articles/ep148/content.md",
+          "section_or_timestamp": "00:45:20",
+          "speaker": "沈伯洋",
+          "support_excerpt": "先提供一個有尊嚴、能洗澡安睡的穩定小空間"
+        },
+        {
+          "unit_id": "u0409",
+          "doc_id": "d0195",
+          "url": "https://puma-hub.pages.dev/articles/ep148/content.md",
+          "section_or_timestamp": "00:48:20",
+          "speaker": "沈伯洋",
+          "support_excerpt": "市府必須拿出誠意做跨局處的配套整合"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以實體社區空間承接孤單與照顧壓力",
+      "question": "政府如何讓照顧者及其他市民有機會重新建立日常連結？",
+      "points": [
+        "沈伯洋把孤單育兒與人際網絡斷裂分開談，提出社區活動、書店或運動聚點作為相遇空間。",
+        "他將政府角色描述為創造交流和被承接的實體空間，並非承諾能解決每個人的孤單。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0409",
+          "doc_id": "d0195",
+          "url": "https://puma-hub.pages.dev/articles/ep148/content.md",
+          "section_or_timestamp": "01:09:50",
+          "speaker": "沈伯洋",
+          "support_excerpt": "政府有責任創造讓人與人能夠相遇、交流與被承接的實體空間"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "韌性城市由硬體與互助網絡共同支撐",
+      "question": "除了能源與管線等基礎設施，城市如何建立日常互助能力？",
+      "points": [
+        "沈伯洋把韌性同時連結能源、發電、管線等硬體及彼此熟識、互相支援的人際網絡。",
+        "他提出串聯扶輪社、獅子會、宮廟、教會等民間組織，作為建立互助的方向。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0410",
+          "doc_id": "d0195",
+          "url": "https://puma-hub.pages.dev/articles/ep148/content.md",
+          "section_or_timestamp": "01:29:28",
+          "speaker": "沈伯洋",
+          "support_excerpt": "彼此熟識、能互相支援"
+        },
+        {
+          "unit_id": "u0410",
+          "doc_id": "d0195",
+          "url": "https://puma-hub.pages.dev/articles/ep148/content.md",
+          "section_or_timestamp": "01:29:53",
+          "speaker": "沈伯洋",
+          "support_excerpt": "綿密的人際互助網絡"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "運動驛站作為戶外運動的盥洗空間",
+      "question": "如何為登山、跑步與通勤者提供方便整理身體的場所？",
+      "points": [
+        "沈伯洋在活動發言中提到運動驛站，描述為在外運動流汗或弄髒後可盥洗整理的空間。",
+        "本批只讀到活動逐字稿前段，內容沒有說明具體選址、營運或經費。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0412",
+          "doc_id": "d0197",
+          "url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/transcript.md",
+          "section_or_timestamp": "00:30:21",
+          "speaker": "沈伯洋",
+          "support_excerpt": "他們對「運動驛站」是很有興趣的"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    }
+  ]
+}

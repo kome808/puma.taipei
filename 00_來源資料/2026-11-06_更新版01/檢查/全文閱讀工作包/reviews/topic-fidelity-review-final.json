@@ -1,0 +1,72 @@
+{
+  "snapshot": "final",
+  "checked_topic_count": 82,
+  "resolved": [
+    {
+      "topic_title": "停滯都更案如何退場或重新啟動？",
+      "resolution": "已移除青年基金main:b01:016及松機遷建main:b04:009；目前members支持停滯案分級、換手/退場與續建安全網。"
+    },
+    {
+      "topic_title": "不同家庭如何取得合適住宅或換居安排？",
+      "resolution": "已加入main:b32:014；包租代管租金補貼及高低樓層換居有對應候選points。"
+    },
+    {
+      "topic_title": "孩子上下學的路口與通學巷如何更安全？",
+      "resolution": "已移除反毒候選main:b01:004；現有members均支持通學區交通安全。"
+    },
+    {
+      "topic_title": "兒少安全通報如何脫離一般1999並接上專業保護？",
+      "resolution": "已移除青年基金main:b01:016；目前members支持兒少通報、保護、家庭支持及社工機制。"
+    },
+    {
+      "topic_title": "長者如何在熟悉生活圈取得長照、在宅醫療與行動支持？",
+      "resolution": "已移除45歲以上AI就業候選main:b01:019及客家文化候選main:official-additions:001；現有members談長照、在宅醫療、社區行動與輔具換居。"
+    },
+    {
+      "topic_title": "青年如何取得免先墊款的 AI 工具與轉職支持？",
+      "resolution": "已移除只談青年基金的main:b15:006；現有members提供AI錢包、單一入口及跨模型工具依據。"
+    },
+    {
+      "topic_title": "AI如何減少公務流程負擔並保留專業判斷？",
+      "resolution": "已移除兒少、午餐/交通及產業端AI候選；目前members聚焦局處AI教練、流程盤點和行政自動化。"
+    },
+    {
+      "topic_title": "運動驛站如何解決戶外運動者的寄物與盥洗需求？",
+      "resolution": "已移除災害救援候選main:b06:002；現有members對應驛站位置、設施與安全管理。"
+    },
+    {
+      "topic_title": "文化徑如何串連台北的地方歷史與族群記憶？",
+      "resolution": "已移除都市林候選main:b01:014及水域治理候選main:b01:015；目前members支持文化故事、路線敘事及歷史記憶。"
+    },
+    {
+      "topic_title": "有限預算下哪些公共需求優先於普發現金？",
+      "resolution": "已加入main:b16:002，現有候選支持「不舉債、先照顧需要者、有餘額才討論地方加碼」條件。"
+    },
+    {
+      "topic_title": "公民動員與體制內程序如何分擔民主防線責任？",
+      "resolution": "已移除資訊作戰候選main:b17:004；目前members支持公民行動及覆議、釋憲等制度內程序。"
+    },
+    {
+      "topic_title": "第一批循環都更房源從哪裡來？",
+      "resolution": "summary列出的四類與官方政策頁u0001一致：公有地老舊房舍改建、殭屍案轉公辦取得土地、市府介入的自主都更土地、捷運聯開分回戶；並正確說明先建新屋作交換起點。"
+    },
+    {
+      "topic_title": "台北研究院如何把城市問題轉成研究與政策方案？",
+      "resolution": "已加入main:official-additions:003，summary中的USR大學研究市政議題有直接來源；但需看下列剩餘問題以避免制度混淆。"
+    }
+  ],
+  "remaining_blockers": [
+    {
+      "topic_title": "台北研究院如何把城市問題轉成研究與政策方案？",
+      "issue": "summary把台北研究院/城市智庫與USR大學合作並列於同一段，未明確交代兩者是不同機制；讀者可能把USR理解為研究院的執行方式。",
+      "evidence": "main:official-additions:003只支持市府提出議題、由大學透過USR計畫研究；main:b06:005、main:b07:001等支持研究院/智庫研究後由議會定規則、市府執行。兩組候選points描述不同安排。",
+      "fix": "明確分句：USR是市府提出市政痛點、大學以計畫研究或提出建議；另行提出設立台北研究院/城市智庫支援長期政策研究。不要表述為USR隸屬研究院或由研究院執行。"
+    }
+  ],
+  "root_resolution": {
+    "resolved": "研究院摘要移除USR並移除對應USR member；USR保留獨立t057。",
+    "mapping_sha256": "9488d49d64ff2328cf503097b4e39ea5e8f85dc604a09fb566c143093e3619dc",
+    "remaining_blockers": [],
+    "additional_source_checks": "明治橋依b30:005；疫苗/罕病/身障/單身女性依官方u0004逐字核對；所有描述均為主張。"
+  }
+}

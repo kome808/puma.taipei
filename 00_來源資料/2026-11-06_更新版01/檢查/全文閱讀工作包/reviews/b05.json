@@ -1,0 +1,354 @@
+{
+  "batch_id": "b05",
+  "read_units": [
+    {
+      "unit_id": "u0065",
+      "doc_id": "d0042",
+      "start": 0,
+      "end": 5920,
+      "sha256": "a2043f9b05f1d8d99933f5c058669fabfa0dfb8f5d4006a889a515dc4e421904",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0066",
+      "doc_id": "d0042",
+      "start": 5920,
+      "end": 11672,
+      "sha256": "393efdbb5562979c09769d97c1326ac83ecd6ad4e867e9b89e54639a59defd70",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0067",
+      "doc_id": "d0042",
+      "start": 11672,
+      "end": 17612,
+      "sha256": "003f2ca9a9d44196c275808a214c3658753e7a10e018b31865b0f63d263e9c71",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0068",
+      "doc_id": "d0042",
+      "start": 17612,
+      "end": 23314,
+      "sha256": "8c0a60f3f072d548503286fe91ff6c0bb512b23266b7131a02f0f41ecbdfab5e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0069",
+      "doc_id": "d0043",
+      "start": 0,
+      "end": 5974,
+      "sha256": "29dc62e1f0c7404b3eea6eb73ce626f3cb44e4cbe5d27eb5f132523f287a5cbe",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0070",
+      "doc_id": "d0043",
+      "start": 5974,
+      "end": 11963,
+      "sha256": "0f0a652b1a0379b0ec8dbc544a1246b62767363bd7cdc0748ce9fac5538e4896",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0071",
+      "doc_id": "d0043",
+      "start": 11963,
+      "end": 17959,
+      "sha256": "7d929af7650ebd7fcee6a1438a122d4e4de3cccdb12831b23e4dfa9e8d3ad0db",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0072",
+      "doc_id": "d0043",
+      "start": 17959,
+      "end": 22060,
+      "sha256": "69a8c603066126f87ff0def3cf155cc74635a461f6083498985ec3d7c77e6236",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0073",
+      "doc_id": "d0044",
+      "start": 0,
+      "end": 5915,
+      "sha256": "50ac87ab7586a2fe5ea4bd3e08f64bf4f957d5804f0f3505d6d8e16db14abb98",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0074",
+      "doc_id": "d0044",
+      "start": 5915,
+      "end": 11552,
+      "sha256": "6189a4027cc692a0c110aa74f4a7df3f00b2d0cee56cac1032665ae2082819e8",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0075",
+      "doc_id": "d0044",
+      "start": 11552,
+      "end": 17404,
+      "sha256": "7fdb370b908da8a1adae585caa73830d208b0f72b99ecc637b299e959b5af4b1",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0042",
+      "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+      "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+      "summary": "沈春華訪問沈伯洋，逐字稿涵蓋地方民防、青年資金、教育社工、老屋更新、育兒及青年生活。",
+      "attributable_claims": [
+        "沈伯洋提出民防硬體盤點及社區協作。",
+        "提出青年起始資金、理財防詐課程、教師與社工支援、都市更新及育兒服務構想。",
+        "提及的財源和數字是訪談說法，非核定方案。"
+      ],
+      "caveats": [
+        "依原稿擷取，未逐句核對影音；數字與政策實施狀態未獨立核實。"
+      ],
+      "topic_keys": [
+        "地方民防",
+        "青年資金",
+        "教育與社工",
+        "住宅更新",
+        "育兒",
+        "青年生活"
+      ]
+    },
+    {
+      "doc_id": "d0043",
+      "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題｜原稿全文",
+      "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/transcript/",
+      "summary": "與 d0042 同一訪談的逐字稿獨立頁，內容為重複逐字紀錄。",
+      "attributable_claims": [
+        "本批所讀區段與 d0042 同訪談內容重複，未形成獨立證據。"
+      ],
+      "caveats": [
+        "逐字稿未逐句聽校。"
+      ],
+      "topic_keys": [
+        "重複來源"
+      ]
+    },
+    {
+      "doc_id": "d0044",
+      "title": "沈伯洋《大選鏡來講》專訪：從選民對話、城市智庫到育兒政策",
+      "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+      "summary": "陳園淳訪問沈伯洋，談民調解讀、跨城交流、安全、災時分工、市民提案與育兒政策；原稿有語音辨識和講者切分疑點。",
+      "attributable_claims": [
+        "沈伯洋表示民調及拒訪者組成仍有不確定性，並主張依生活議題接觸不同市民。",
+        "談到地方災害工作和中央資源協調的分工。",
+        "提出市政黑客松、台北研究院、交通與育兒支持構想。"
+      ],
+      "caveats": [
+        "逐字稿有明顯辨識錯字和標記疑點；數字、人物及時間碼未逐句核影音。"
+      ],
+      "topic_keys": [
+        "民調語境",
+        "災害協作",
+        "市政參與",
+        "育兒"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "台北地方民防的硬體與社區協作",
+      "question": "市府可以如何準備地方民防？",
+      "points": [
+        "受訪者區分國家層級認知作戰與地方首長負責的民防。",
+        "主張盤點避難處所的可用性、通風、能源與民眾集合資訊，並透過社區分工建立互助能力。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0066",
+          "doc_id": "d0042",
+          "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+          "section_or_timestamp": "00:11:27–00:12:36",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "民防工作我會分兩大塊，就是硬體跟軟體"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "青年起始資金與領取前的理財防詐教育",
+      "question": "青年 22 歲領取起始金構想如何搭配教育？",
+      "points": [
+        "他描述中央提撥約 34–36 萬、北市補足約 14 萬，實際金額取決於基金操作；弱勢另加碼。",
+        "構想包含領款前一週理財、防詐課程與簡單測驗，也介紹求職、照顧等可用資源。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0067",
+          "doc_id": "d0042",
+          "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+          "section_or_timestamp": "00:20:14–00:21:41",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "我們補的是後面那一個 14 萬"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "小學雙導師試辦與第一線留任",
+      "question": "如何以雙導師減壓並處理師資不足？",
+      "points": [
+        "他以新北秀朗國小試辦經驗為參照，提出在台北選點試辦；並承認需先處理師資來源。",
+        "另提聽取教師困境，讓教師願意留在台北，並把社工等第一線缺工視為相連問題。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0067",
+          "doc_id": "d0042",
+          "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+          "section_or_timestamp": "00:24:21",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "在台北試辦幾個地方看看"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "社工超量案件的機動支援",
+      "question": "社工個案負荷過重時如何暫時補位？",
+      "points": [
+        "他提出公費制度與機動隊，在機構或中心個案量達門檻時派員支援，等待補足人力。",
+        "引述美國每位社工 12–15 案即偏多、台北約 25–30 案的比較；數字為受訪者說法。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0067",
+          "doc_id": "d0042",
+          "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+          "section_or_timestamp": "00:25:34",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "機動隊直接在還沒有補到人之前去幫忙"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "老屋延壽、危老修法與都更",
+      "question": "他提出哪些處理高齡住宅的階段作法？",
+      "points": [
+        "將高齡人口與老屋集中描述為「雙老」問題，並關注安全及長者上下樓需求。",
+        "提出老宅延壽、檢討危老門檻、加速都市更新三個方向；「無限都更」細節當時尚未公布。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0067",
+          "doc_id": "d0042",
+          "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+          "section_or_timestamp": "00:29:32–00:31:26",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "屋子有三個階段或三個方案"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "社區臨托、兼職保母與親子通行卡",
+      "question": "如何提供育兒喘息並增加社區親子活動？",
+      "points": [
+        "主張先盤點家庭教育中心、親子館及學校可用空間，再補充到宅托育和兼職保母人力。",
+        "提出每月 600 點親子通行卡，讓家庭使用附近書店或社區活動；稱年費約 24 億，並認為市府現有財源足以支應。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0068",
+          "doc_id": "d0042",
+          "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+          "section_or_timestamp": "00:33:28–00:35:41",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "家長也稍微喘息到、小孩跟別的小孩玩放電"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "青年留在台北的薪資與產業支持",
+      "question": "青年要如何在台北工作並維持生活？",
+      "points": [
+        "他舉文學、動畫等作為市府可持續耕耘支持的青年產業。",
+        "以過去經營智庫與組織的經驗估計，租屋青年月薪需約 4–4.5 萬元，才較有餘裕儲蓄或投資；這是個人估算。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0068",
+          "doc_id": "d0042",
+          "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+          "section_or_timestamp": "00:40:47–00:44:07",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "一定要 4 萬到 4 萬五以上"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以市民意見與黑客松形成市政方案",
+      "question": "如何讓市民生活問題進入政策討論？",
+      "points": [
+        "他說明透過線上意見蒐集與市政黑客松提升政策參與感，並以交通與彈性工時等問題示範。",
+        "提出設立台北研究院，結合研究與政策規劃；相關制度、點數誘因及可行性仍待完善。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0075",
+          "doc_id": "d0044",
+          "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+          "section_or_timestamp": "00:24:44–00:31:43",
+          "speaker": "陳園淳（主持人）與沈伯洋（受訪來賓）",
+          "support_excerpt": "這就是比人家一天的創意就可以想到"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "育兒喘息及社區活動支持",
+      "question": "家庭照顧者需要哪些日常支持？",
+      "points": [
+        "他談免費臨托、接送彈性、安心托育及住家附近的兒童活動，讓主要照顧者有休息和社交時間。",
+        "親子通行卡構想連結家庭、兒童活動與社區商家；服務安排尚為提案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0075",
+          "doc_id": "d0044",
+          "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+          "section_or_timestamp": "00:32:40",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "免費臨托很重要嘛因為你以後免費臨托"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "災時中央地方依職責協調補位",
+      "question": "颱風與災後處理時不同層級如何協作？",
+      "points": [
+        "他表示地方政府負責市政現場處理，立委可協調中央資源，並以花蓮災後協調沐浴、水電支援為例。",
+        "他提出依缺口補位、避免各方重複干預；例子與情況均依訪談陳述。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0074",
+          "doc_id": "d0044",
+          "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+          "section_or_timestamp": "00:20:14–00:23:59",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "地方政府有地方政府的工作中央有中央的工作"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    }
+  ]
+}

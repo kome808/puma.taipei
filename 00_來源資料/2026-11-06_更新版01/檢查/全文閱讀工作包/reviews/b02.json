@@ -1,0 +1,646 @@
+{
+  "batch_id": "b02",
+  "read_units": [
+    {
+      "unit_id": "u0023",
+      "doc_id": "d0022",
+      "start": 0,
+      "end": 1427,
+      "sha256": "74a66848e992104668d26a1363a6547e4a5b20e1300e632ff1572a62f0ddef22",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0024",
+      "doc_id": "d0023",
+      "start": 0,
+      "end": 1156,
+      "sha256": "2f2e4ce0e5a61490f08b95fbb983e2790a673b6006ec580d04f7674a81ad295f",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0025",
+      "doc_id": "d0024",
+      "start": 0,
+      "end": 1055,
+      "sha256": "6fa9a8d24477b87ce1a6db9f99036c42bc3dd18dae01661eb659416276cdb85b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0026",
+      "doc_id": "d0025",
+      "start": 0,
+      "end": 6000,
+      "sha256": "a844fd2224a79b9cd3ea5368d35e7232df28fe56cddc0f14315a64dc842900be",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0027",
+      "doc_id": "d0025",
+      "start": 6000,
+      "end": 10753,
+      "sha256": "a37978c2d677d2e80c5e0246d3bb1775198b07e4f890ac861344faed2fc7a41b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0028",
+      "doc_id": "d0026",
+      "start": 0,
+      "end": 6000,
+      "sha256": "b72b077ca5f15464a32bf85fe53eab9bc631993b6ee00c082abf533dd9dca4c5",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0029",
+      "doc_id": "d0026",
+      "start": 6000,
+      "end": 11746,
+      "sha256": "229c995d6d0cd466e852fb7e06fa8e3f0e132b48068bfc2c7d4fa00123e9f065",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0030",
+      "doc_id": "d0027",
+      "start": 0,
+      "end": 5891,
+      "sha256": "1f27c7eafb539ffa81016f84cd0dbd0b907dcbcaa52461d6962ad0ea569ead7f",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0031",
+      "doc_id": "d0027",
+      "start": 5891,
+      "end": 7613,
+      "sha256": "222a52346e56a96ad2b3d99aa76983af5bd840608d473c5f415544ab5d7930af",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0032",
+      "doc_id": "d0028",
+      "start": 0,
+      "end": 5948,
+      "sha256": "3eb9bfdcbdc3a9bab2a7436ca11937f34ea6e6d7067abba767563fc8e986662f",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0033",
+      "doc_id": "d0028",
+      "start": 5948,
+      "end": 6682,
+      "sha256": "43e3293279cf90ea2208ca770180d300f464f68e107b50ffeeb02abc923a3903",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0034",
+      "doc_id": "d0029",
+      "start": 0,
+      "end": 5966,
+      "sha256": "d51a38b8c37fecb7c1f3d56629e62e2a21356e078f83d88c96d0fa6fb3614be6",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0035",
+      "doc_id": "d0030",
+      "start": 0,
+      "end": 4934,
+      "sha256": "d835d24c46038b44a5d294bb0d24e1c43d832f391ca7af37f6191d368f917c12",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0036",
+      "doc_id": "d0031",
+      "start": 0,
+      "end": 5878,
+      "sha256": "61fd7d69eac3446e1e6ac565e7bf8aaa60e367b68c02c1dc50ca651619defb4d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0037",
+      "doc_id": "d0031",
+      "start": 5878,
+      "end": 11801,
+      "sha256": "feff333c7a6c035d655d0dc29aa650fa13677e5b55962ddafc0e39b5839710e3",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0022",
+      "title": "政見主軸：陪伴 · Accompany",
+      "url": "https://puma.taipei/policy/heart/a",
+      "summary": "官方 HEART 政見索引頁，以陪伴面向列出都更、教育、社福、文化徑、家庭一站通、親子同行卡、水域、AI、客家等政策入口；本 unit 只有索引與連結，沒有各政策內文。",
+      "attributable_claims": [
+        "官方網站將上述政策歸在陪伴主軸。"
+      ],
+      "caveats": [
+        "索引頁不是各政策的詳細方案，不可由此頁推定政策內容、預算或承諾細節。"
+      ],
+      "topic_keys": [
+        "官方政見索引",
+        "陪伴"
+      ]
+    },
+    {
+      "doc_id": "d0023",
+      "title": "政見主軸：韌性與安心 · Resilience",
+      "url": "https://puma.taipei/policy/heart/r",
+      "summary": "官方 HEART 政見索引頁，以韌性與安心面向列出都更、社福、都市微森林、家庭一站通、水域、城市外交、營養午餐等政策入口；本 unit 只有索引與連結。",
+      "attributable_claims": [
+        "官方網站將上述政策歸在韌性與安心主軸。"
+      ],
+      "caveats": [
+        "索引頁不是各政策的詳細方案，不可由此頁推定政策內容、預算或承諾細節。"
+      ],
+      "topic_keys": [
+        "官方政見索引",
+        "韌性與安心"
+      ]
+    },
+    {
+      "doc_id": "d0024",
+      "title": "政見主軸：時間 · Time",
+      "url": "https://puma.taipei/policy/heart/t",
+      "summary": "官方 HEART 政見索引頁，以時間面向列出交通、青年、運動、家庭一站通、公務員、親子同行卡等政策入口；本 unit 只有索引與連結。",
+      "attributable_claims": [
+        "官方網站將上述政策歸在時間主軸。"
+      ],
+      "caveats": [
+        "索引頁不是各政策的詳細方案，不可由此頁推定政策內容、預算或承諾細節。"
+      ],
+      "topic_keys": [
+        "官方政見索引",
+        "時間"
+      ]
+    },
+    {
+      "doc_id": "d0025",
+      "title": "做了，就要想辦法贏 — 跟著 PUMA 老師走一天",
+      "url": "https://puma-shen-interview.pages.dev/",
+      "summary": "佳頴T政步約 36 分鐘跟拍訪談，從永康街通學巷、大安森林公園運動驛站、家庭與民生法案、五分埔老家到永吉市場；可辨識的市政主張集中在學校／市場周邊安全、戶外運動服務、都市林與老宅延壽。",
+      "attributable_claims": [
+        "沈伯洋主張先從學校與市場周邊改善通行安全，並提出運動驛站、都市林及老宅延壽等方向。",
+        "沈伯洋在訪談中將通學區 150 公尺、約 150 所國小、已改善 4 所、戶外運動 75% 等數字作為說明。"
+      ],
+      "caveats": [
+        "頁面是訪談文章與逐字稿整理，數字、外國案例及政策可行性未由本來源另行驗證；數字只能標為受訪者／節目說法。",
+        "不得將主持人、跑友或文章編者的話歸給沈伯洋；家庭故事與民生立法比例不是市政政策承諾。"
+      ],
+      "topic_keys": [
+        "通學巷",
+        "交通安全",
+        "運動驛站",
+        "都市林",
+        "老宅延壽"
+      ]
+    },
+    {
+      "doc_id": "d0026",
+      "title": "三戰已經全部鋪設完畢，只差最後點燃引信",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-04-12",
+      "summary": "筱君台灣PLUS 約 39 分鐘訪談，主題是國會公民運動、罷免／落選運動、中共法律／輿論／心理三戰、台海預警、軍購與商購、青鳥與鏟子超人、公民動員、制裁及家庭；主要是國家安全與民主制度脈絡，不是台北市政方案。",
+      "attributable_claims": [
+        "沈伯洋將 2025 公民運動描述為阻擋爭議法案的防線，並主張中國三戰已同時施作。",
+        "沈伯洋主張軍購須包含彈藥、後勤、訓練與零附件等商購，並以 3% 民主行動人口等研究說法解釋公民韌性。"
+      ],
+      "caveats": [
+        "三戰、國際情勢、軍購延宕、3% 研究及民調數字均是訪談中的主張或轉述，本批未作外部核實。",
+        "屬國家／國際公共議題 context，不要改寫成市長已核定的地方施政。"
+      ],
+      "topic_keys": [
+        "公民運動",
+        "三戰",
+        "軍購與商購",
+        "公民能動性",
+        "民主韌性"
+      ]
+    },
+    {
+      "doc_id": "d0027",
+      "title": "沈伯洋路透英文專訪與模擬辯論：民主、城市交流與市政問答",
+      "url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+      "summary": "頁面整理路透英文訪問與幕後模擬辯論：談民主、跨立場溝通、台北／上海交流條件、無地方首長經驗如何治理、台北研究院，以及青年 AI、敬老卡／健身小巴、托育／親子同行卡與預算試算。",
+      "attributable_claims": [
+        "沈伯洋在英文訪問中提出：城市交流須無政治前提、無中國騷擾且交流後無軍演；並談以市民需求跨越藍白綠。",
+        "模擬辯論中沈伯洋將市長能力概括為局處協調、執行力／政治意志與願景，並提出數項政策及試算。"
+      ],
+      "caveats": [
+        "頁面明確標示尚未逐句對照影音；英文當選者文字與其他報導有差異。",
+        "民調、翻譯、時間碼、政策金額與財源未獨立核實；提問者扮演對手，不是正式辯論中的蔣萬安本人；預算不可視為正式編列。"
+      ],
+      "topic_keys": [
+        "城市交流",
+        "跨立場溝通",
+        "市長治理能力",
+        "青年AI",
+        "敬老卡",
+        "托育",
+        "財源試算"
+      ]
+    },
+    {
+      "doc_id": "d0028",
+      "title": "沈伯洋路透英文專訪與模擬辯論：民主、城市交流與市政問答",
+      "url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/transcript/",
+      "summary": "d0027 的逐字稿頁，保留同一份路透英文訪問與模擬辯論原稿，補足逐字稿段落；主題與 d0027 相同。",
+      "attributable_claims": [
+        "原稿將城市交流條件、跨立場溝通、市長能力及青年／老人／托育預算試算置於同一場英文訪問與模擬辯論。"
+      ],
+      "caveats": [
+        "與 d0027 是同一 underlying interview 的文章／transcript 版本，不是第二份獨立證據；原稿、翻譯、金額、時間碼均待核實。"
+      ],
+      "topic_keys": [
+        "城市交流",
+        "市長治理能力",
+        "政策財源試算",
+        "同 d0027"
+      ]
+    },
+    {
+      "doc_id": "d0029",
+      "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+      "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+      "summary": "台灣最前線重點對話整理，涵蓋拜會前議長請教府會協調、用人標準、松山機場／AI 園區／社子島、市政三支箭（行政減壓、無限都更、兒少保護）與選戰爭議。",
+      "attributable_claims": [
+        "沈伯洋說明跨黨派請教府會關係，重視執行型公務員、務實學者及溝通協調人才。",
+        "沈伯洋提出以既有園區與人才庫做 AI 應用、AI 教練團減輕行政、房屋交換／估價／退場機制推都更、1999 兒少專業分流等主張。"
+      ],
+      "caveats": [
+        "是提供的重點對話原稿，未逐句對照影音，講者標示、轉述、選情數字、土地／時程／中央協商及爭議指控待核實。",
+        "上述內容是政治主張，不是已核定政策；應與 d0031 的擴充稿視為同場不同版本。"
+      ],
+      "topic_keys": [
+        "府會協調",
+        "市府用人",
+        "AI應用與人才",
+        "行政減壓",
+        "無限都更",
+        "兒少保護"
+      ]
+    },
+    {
+      "doc_id": "d0030",
+      "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+      "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/transcript/",
+      "summary": "d0029 重點對話的 transcript 頁，內容為同一場台灣最前線訪談的相同版本；涵蓋府會、用人、AI、行政減壓、都更及兒少保護。",
+      "attributable_claims": [
+        "逐字稿再次記錄上述六類主張，主要講者為沈伯洋，提問者包括主持人與秦慧珠、邱明玉等。"
+      ],
+      "caveats": [
+        "與 d0029 為同一份重點對話的不同頁面，不可當成獨立佐證；仍未逐句對照影音，爭議與數字待核實。"
+      ],
+      "topic_keys": [
+        "府會協調",
+        "市府用人",
+        "AI應用與人才",
+        "行政減壓",
+        "無限都更",
+        "兒少保護",
+        "同 d0029"
+      ]
+    },
+    {
+      "doc_id": "d0031",
+      "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+      "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/",
+      "summary": "同一節目的較長擴充整理；本批 u0036–u0037 讀到開場、戒慎恐懼／洋流守則、拜會前議長、用人、AI 產業及三項優先施政到兒少保護，u0038 不在 b02。",
+      "attributable_claims": [
+        "沈伯洋在擴充稿中將府會協調、AI 應用與人才庫、行政減壓、無限都更及兒少保護列為市政重點。",
+        "他主張對街頭／網路挑釁保持冷靜，並以跨黨派請益與柔軟溝通處理可能的朝小野大。"
+      ],
+      "caveats": [
+        "來源自稱完整逐字稿但尚未逐句對照影音；本批只讀 u0036、u0037，d0031 尚有未指派的 u0038，不能宣稱本批讀完整份 d0031。",
+        "它與 d0029／d0030 是同一節目的擴充／重點版本，議題重疊；選情、土地、中央承諾及爭議文宣均待核實。"
+      ],
+      "topic_keys": [
+        "府會協調",
+        "洋流守則",
+        "市府用人",
+        "AI應用與人才",
+        "行政減壓",
+        "無限都更",
+        "兒少保護",
+        "同 d0029/d0030"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "學校與市場周邊的通行安全如何連續改善？",
+      "question": "如何讓兒童上下學、長者與一般行人在小巷及捷運／自行車交會處安全通行？",
+      "points": [
+        "沈伯洋指出通學巷的標線型人行道常中斷，主張先從學校附近做起；訪談提到國外 300–500 公尺與民間倡議 150 公尺的不同尺度。",
+        "他也主張把交通零死亡與街道醫生的局部經驗先用在學校、市場周邊，並處理人行道、停車、店家與自行車路線的衝突。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0026",
+          "doc_id": "d0025",
+          "url": "https://puma-shen-interview.pages.dev/",
+          "section_or_timestamp": "00:01:26，第一站：永康街生活圈、通學巷與交通安全",
+          "speaker": "沈伯洋",
+          "support_excerpt": "至少我們可以先從學校附近走起"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "戶外運動者缺少什麼就近支持？",
+      "question": "如何讓跑步、騎車、登山者以及外送／業務工作者在公園、捷運或登山入口附近寄物、盥洗與租借用品？",
+      "points": [
+        "沈伯洋提出設在公有地附近的運動驛站，功能包括寄物、盥洗與跑鞋／運動服租借，並認為可用公辦民營、收費方式提供服務。",
+        "訪談用 75% 戶外運動比例及室內運動中心服務落差作為理由；比例與公有地、收費可行性仍需核實。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0026",
+          "doc_id": "d0025",
+          "url": "https://puma-shen-interview.pages.dev/",
+          "section_or_timestamp": "00:08:12，大安森林公園與運動驛站倡議",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們設運動驛站本來就是要服務這些人"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "都市林與街道設計如何兼顧降溫和安全？",
+      "question": "如何依道路、公園與公共建築場景選樹、留出綠蔭，又降低落葉、樹倒及自行車／行人衝突？",
+      "points": [
+        "訪談中沈伯洋談到都市林降溫、常青與落葉樹的場景選擇，並建議可先由公家機關及大學做建築退縮與種樹。",
+        "他以腳踏車架放在駕駛死角等街道細節說明，重點是將安全納入設計，而非只增加設施。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0026",
+          "doc_id": "d0025",
+          "url": "https://puma-shen-interview.pages.dev/",
+          "section_or_timestamp": "00:01:26–08:12，通學巷與都市林討論",
+          "speaker": "沈伯洋",
+          "support_excerpt": "國外都市林的政策怎麼做？降溫的效果到底如何？樹種要怎麼選擇？"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "老街更新前如何處理老宅安全？",
+      "question": "老街區要改善環境與延續生活機能時，是否先做老宅耐震與延壽評估？",
+      "points": [
+        "在永吉市場段落，沈伯洋把老街區改造與老宅延壽先期耐震評估連在一起。",
+        "原文只有訪談中的一段主張，未提供評估方法、範圍、經費或執行期程。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0027",
+          "doc_id": "d0025",
+          "url": "https://puma-shen-interview.pages.dev/",
+          "section_or_timestamp": "00:30:56，永吉市場老街古早味油飯",
+          "speaker": "沈伯洋",
+          "support_excerpt": "首先要做「老宅延壽」耐震評估"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "市政與城市交流的對話條件如何界定？",
+      "question": "若台北與上海進行城市交流，哪些政治、騷擾或軍演條件會影響是否接受？",
+      "points": [
+        "沈伯洋在英文訪問中表示，若沒有政治前提、來自中國的騷擾，且交流後沒有軍演，可能接受雙城交流；他同時說明這是自己的假設與立場。",
+        "他也談到市長選舉須與過去不同立場的選民溝通，並以市民照顧家庭等需求跨越藍白綠標籤。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0030",
+          "doc_id": "d0027",
+          "url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+          "section_or_timestamp": "00:00–02:48，路透社英文專訪",
+          "speaker": "沈伯洋",
+          "support_excerpt": "If there's no political precondition"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": [
+        "d0028／u0032，同一訪問的 transcript 版本"
+      ]
+    },
+    {
+      "working_title": "沒有地方首長經驗如何治理首都？",
+      "question": "若候選人缺乏地方首長經驗，如何證明具備局處協調、執行、政治意志與城市願景？",
+      "points": [
+        "模擬提問中，沈伯洋把市長能力分為局處協調、執行力與政治意志、願景，並以民防學院與競選團隊快速修正作為例子。",
+        "他另把國際城市行銷與台北研究院構想列入市長的城市願景；這段是幕後模擬辯論，不是正式候選人辯論。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0031",
+          "doc_id": "d0027",
+          "url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+          "section_or_timestamp": "05:59–08:24，模擬辯論第一回合",
+          "speaker": "沈伯洋；提問人為模擬扮演對手／幕僚",
+          "support_excerpt": "市長是要能夠去協調各個局處"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": [
+        "d0028／u0032–u0033，同一模擬辯論 transcript 版本"
+      ]
+    },
+    {
+      "working_title": "青年、敬老與托育政策的財源能否相容？",
+      "question": "青年 AI、敬老卡／健身服務、臨托與親子同行卡若同時推動，經費、期限、成效與可動用財源如何核算？",
+      "points": [
+        "模擬追問中列出青年 AI／圓夢配套約 19–20 億、敬老卡結合健身小巴行政費數百萬、臨托 20 多億、親子同行卡約 24 億等試算。",
+        "同一段又稱市府可彈性動支約 55–60 億，並提及中央統籌分配款、工程預算與富邦金股息；原稿警告金額與合計關係不清，不是正式預算。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0033",
+          "doc_id": "d0028",
+          "url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/transcript/",
+          "section_or_timestamp": "08:35–11:05，模擬辯論第二回合追問",
+          "speaker": "沈伯洋；提問人為模擬扮演對手／幕僚",
+          "support_excerpt": "19 億到 20 億左右"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": [
+        "d0027／u0031，同一模擬辯論文章版本"
+      ]
+    },
+    {
+      "working_title": "少數政府如何維持府會協調？",
+      "question": "若市長面對朝小野大的議會，如何在原則與協商之間推動市政不卡關？",
+      "points": [
+        "沈伯洋說拜會前議長陳健治是為請教過去不同黨派市長的府會衝突與化解方式，而不是請求支持。",
+        "他轉述得到的原則是立場可以堅定，但溝通身段要柔軟，並表示願向不同政治立場人士請益。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0034",
+          "doc_id": "d0029",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+          "section_or_timestamp": "府會關係：從拜會談跨黨派請益",
+          "speaker": "沈伯洋；主持人／前議長內容為原稿轉述",
+          "support_excerpt": "原則可以踩得很硬，但身段一定要很柔軟。"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": [
+        "d0030／u0035、d0031／u0036，同一節目的重點／擴充版本"
+      ]
+    },
+    {
+      "working_title": "市府用人如何避免派系分配？",
+      "question": "市府小內閣與局處人才要以哪些能力和品格選任，如何兼顧文官專業、務實研究與府會溝通？",
+      "points": [
+        "沈伯洋提出三類人才：執行力強的公務員、能落地解決問題的務實型學者、具局處／府會溝通能力的人才。",
+        "他表示收到推薦後會親自評估能力與品格，不以黨內派系背景作為標準；這是候選人的用人主張，非已公布人事。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0035",
+          "doc_id": "d0030",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/transcript/",
+          "section_or_timestamp": "第二節：北市府用人哲學與派系質疑",
+          "speaker": "沈伯洋；提問者秦慧珠",
+          "support_excerpt": "執行力強的公務員"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": [
+        "d0029／u0034、d0031／u0037，同一節目的其他版本"
+      ]
+    },
+    {
+      "working_title": "台北的 AI 發展要先做土地還是人才與應用？",
+      "question": "台北若發展 AI，是否應利用既有園區串聯大學、企業、國科會／TTA，優先做軟體應用與人才培育，而不是等待大型算力園區？",
+      "points": [
+        "沈伯洋主張 AI 競爭核心是人才庫與技術應用，台北可使用內湖、南港、北士科等既有園區，算力中心則可放在外圍。",
+        "他提出台北研究院、中央出資／市府出地、連結國科會與 TTA 的構想，並主張現在就做而不是等待松山機場遷移後的 7–8 年期園區。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0037",
+          "doc_id": "d0031",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/",
+          "section_or_timestamp": "第六段：松山機場遷建與 AI 產業園區激辯",
+          "speaker": "沈伯洋；提問者秦慧珠",
+          "support_excerpt": "應用面（Application）"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": [
+        "d0029／u0034、d0030／u0035，同一節目較短版本"
+      ]
+    },
+    {
+      "working_title": "如何先替市府基層減壓再推大型政策？",
+      "question": "能否用流程盤點、AI 工具與彈性工時減少公務員重複性行政，並保留專業判斷與執行量能？",
+      "points": [
+        "沈伯洋把行政減壓列為上任優先方向，構想由 AI 教練團進駐局處約半年，盤點庶務與表單，再做各局處的自動化／資料整理工具。",
+        "他同時提出更友善的彈性工時；此為候選人構想，不代表現行員額、工具、法規或成效已確認。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0037",
+          "doc_id": "d0031",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/",
+          "section_or_timestamp": "第七段第 1 項：行政減壓與 AI 教練",
+          "speaker": "沈伯洋",
+          "support_excerpt": "在各局處進行深度的田野調查與業務盤點"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": [
+        "d0029／u0034、d0030／u0035，同一節目的重點／transcript 版本"
+      ]
+    },
+    {
+      "working_title": "都更成案後如何走完最後一哩路？",
+      "question": "如何處理估價爭議、釘子戶、建商撤場與停滯案件，讓都更能釋出長照、托嬰、青年宅等公共空間？",
+      "points": [
+        "沈伯洋把重點放在成案後加速，而非只增加申請入口，提出公開透明的房屋交換平台、公平價值計算、公有地盤點及殭屍都更退場。",
+        "原稿未交代估價規則、法定權限、個案篩選、公共空間量體或財源，不能當成已核定的無限都更方案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0037",
+          "doc_id": "d0031",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/",
+          "section_or_timestamp": "第七段第 2 項：推動無限都更",
+          "speaker": "沈伯洋",
+          "support_excerpt": "都更成案之後，如何真正加速走完最後一哩路"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": [
+        "d0029／u0034、d0030／u0035，同一節目的重點／transcript 版本"
+      ]
+    },
+    {
+      "working_title": "兒少安全通報如何避免淹沒在一般 1999 陳情？",
+      "question": "如何讓家庭內外兒虐案件獲得專業分流、及時調查，並同時改善社工、教保員與家庭支持？",
+      "points": [
+        "沈伯洋把兒虐分為家庭內與家庭外，提出提升社工待遇與安全保障、設區域家庭教育中心，以及把 1999 兒童安全案件轉入獨立兒保專業分流。",
+        "他提出 3 個月至半年內快速反應／改善，但原稿沒有驗證現行 1999 流程、需求量、師生比或可用資源。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0034",
+          "doc_id": "d0029",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+          "section_or_timestamp": "市政三支箭第 3 項：解決兒虐問題",
+          "speaker": "沈伯洋",
+          "support_excerpt": "由具備社工與兒保專業的專責小組處理"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": [
+        "d0030／u0035、d0031／u0037，同一節目的其他版本"
+      ]
+    },
+    {
+      "working_title": "民主防線是公民運動還是體制內程序？",
+      "question": "當國會爭議法案、憲法法庭運作與公民動員同時出現時，如何分配志工、公民與立法院／行政院的責任？",
+      "points": [
+        "沈伯洋將 2025 公民運動描述為在大法官受阻後阻擋爭議法案的防線，並主張不能永遠讓志工在第一線受傷，體制內應先用覆議、釋憲等合法程序。",
+        "訪談也談青鳥、罷免、鏟子超人與公民能動性／歷史遺產；這些是民主制度與公共議題脈絡，不是台北市政承諾。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0029",
+          "doc_id": "d0026",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-04-12",
+          "section_or_timestamp": "00:02:25 與 00:37:02，阻擋國會惡法／給公民志工的話",
+          "speaker": "沈伯洋",
+          "support_excerpt": "體制內的立委黨團、行政院必須窮盡一切法律與行政手段"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "軍購是否包含後勤、訓練與商業採購？",
+      "question": "防衛裝備採購如何把彈藥庫存、維修、訓練與零附件納入，避免只買平台卻沒有作戰支援？",
+      "points": [
+        "沈伯洋區分 FMS 國對國軍售與 DCS 商業採購，主張後勤、維修、訓練與零附件是武器效能的一部分。",
+        "原文以 HIMARS 舉例，並批評刪除商購會使系統形同虛設；這是受訪者的國防政策論述，需與正式預算與採購資料核對。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0029",
+          "doc_id": "d0026",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-04-12",
+          "section_or_timestamp": "00:15:10，美國軍購與商購後勤",
+          "speaker": "沈伯洋",
+          "support_excerpt": "彈藥庫存、後勤保修、訓練與零附件採購"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    }
+  ],
+  "review_note": "root已逐項對照13處引文所在原段，將改寫／合句／句尾標點差異改為原文中的短連續引文，points保留為整理敘述。"
+}

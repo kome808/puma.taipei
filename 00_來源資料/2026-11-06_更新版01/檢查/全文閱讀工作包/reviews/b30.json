@@ -1,0 +1,561 @@
+{
+  "batch_id": "b30",
+  "read_units": [
+    {
+      "unit_id": "u0413",
+      "doc_id": "d0197",
+      "start": 5968,
+      "end": 11928,
+      "sha256": "2242317f2e904d176583712ce7828dc99b35e6b94ecc7c8e3134f44d30b32cb7",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0414",
+      "doc_id": "d0197",
+      "start": 11928,
+      "end": 17738,
+      "sha256": "7326e8f3ab75f055142507e8783ca1252b95342812358bd880c71da2c76a7753",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0415",
+      "doc_id": "d0197",
+      "start": 17738,
+      "end": 18202,
+      "sha256": "d7eea4e33c2f00547954f963ed3f6890531b28f564b776bcbc31852857560767",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0416",
+      "doc_id": "d0198",
+      "start": 0,
+      "end": 1140,
+      "sha256": "c0b018a488bd5280c00c9d627fe536c960ebb33c6d33956a16b55da2e0cdbeec",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0417",
+      "doc_id": "d0199",
+      "start": 0,
+      "end": 1136,
+      "sha256": "a1dcf5e5f159bd5d261fcdb979df716d9094d2d19505579a295cbb3112f188be",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0418",
+      "doc_id": "d0200",
+      "start": 0,
+      "end": 699,
+      "sha256": "eca2b0b3bfc760cd43dfa45487f16c219ffba3f46d62483b868df03a19794f8c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0419",
+      "doc_id": "d0201",
+      "start": 0,
+      "end": 3448,
+      "sha256": "b45288763220a3519136160bc024c2f14a8dc8a2189ef52e4cb16d832927602f",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0420",
+      "doc_id": "d0202",
+      "start": 0,
+      "end": 1116,
+      "sha256": "3292bd7cdfa773fdc9c7316a3100251a67f18393f13e61b32bcfa9a9b1a987de",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0421",
+      "doc_id": "d0203",
+      "start": 0,
+      "end": 1188,
+      "sha256": "289eb8b9f493e902e975a6c4db1c80ea53715f291c2d90fa0b42a14dbc7c43a5",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0422",
+      "doc_id": "d0204",
+      "start": 0,
+      "end": 1132,
+      "sha256": "9a85662bc5955d143fad1b592c107cc80abf7a55baf6d44f498e34969e4b8860",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0423",
+      "doc_id": "d0205",
+      "start": 0,
+      "end": 1865,
+      "sha256": "80735c90364966c58c03dbf71f830188fce95c8c2c077153e901ab868cdcd62f",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0424",
+      "doc_id": "d0206",
+      "start": 0,
+      "end": 1551,
+      "sha256": "1335acfe183fa8b40b17a10620bad01579965a414c28de0d028ada2323a911b4",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0425",
+      "doc_id": "d0207",
+      "start": 0,
+      "end": 1116,
+      "sha256": "b86c399b1af35bd3093ec443251133595e34029c8e89e7cc4d44827ed062a3ee",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0426",
+      "doc_id": "d0208",
+      "start": 0,
+      "end": 1829,
+      "sha256": "161c92554798a4b66fc612f3ea0f84e2eebd86f84e394a93072a4444995431ed",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0427",
+      "doc_id": "d0209",
+      "start": 0,
+      "end": 5865,
+      "sha256": "3d7a5d01b09f62b02c601900a5c06ee893ef9d2351b0e637b277d1e0423c4411",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0428",
+      "doc_id": "d0209",
+      "start": 5865,
+      "end": 11826,
+      "sha256": "ef0b8393d7306da68272549ff01f0968197a3f71a74c9384dfaa9cfd9c1999ae",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0429",
+      "doc_id": "d0209",
+      "start": 11826,
+      "end": 17453,
+      "sha256": "0c5ffcf4d5fc672b8e761a6ad324dd394a85434b2d2736e4a4a922df570282b7",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0430",
+      "doc_id": "d0209",
+      "start": 17453,
+      "end": 23273,
+      "sha256": "87c581946ea6a4f4a4882380931c10ea07636ab472f8c49d28304ac5691250a4",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0431",
+      "doc_id": "d0209",
+      "start": 23273,
+      "end": 29153,
+      "sha256": "0dfc8f912f13b87f94eaad3feac43cc43289123e95aacf05e574efed08d19e35",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0432",
+      "doc_id": "d0209",
+      "start": 29153,
+      "end": 30142,
+      "sha256": "4bfe01547ee3753c020e1f357dd078d1c35c9d557750d6eb75e0901649aa7eaa",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0433",
+      "doc_id": "d0210",
+      "start": 0,
+      "end": 1253,
+      "sha256": "935eea496cfb9e8e29c158b02010a4c3bb312590da2b22b5e05ab9b02a1137c9",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0197",
+      "title": "「戒慎恐懼之夜」活動整理：沈伯洋、蘇巧慧與北台灣候選人同台",
+      "url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/transcript.md",
+      "summary": "活動逐字稿片段包括沈伯洋對辯論及市政的舞台發言、蘇巧慧演講、預錄致詞和其他縣市候選人短講。沈在前文脈絡提到「運動驛站」可供戶外運動者盥洗；本批其餘大量內容為選舉幽默、競選訊息與他人發言。",
+      "attributable_claims": [
+        "沈伯洋把運動驛站描述為戶外運動後可盥洗整理的場所。"
+      ],
+      "caveats": [
+        "競選造勢演講中的笑談（如鮮奶、三色豆、老鼠）不可當作已核定政策。黃世杰的桃園公車政見、林國漳的宜蘭接駁政見及蘇巧慧、新北政見均屬其他候選人。"
+      ],
+      "topic_keys": [
+        "運動驛站",
+        "候選人活動與市政表述"
+      ]
+    },
+    {
+      "doc_id": "d0198",
+      "title": "沈伯洋拜會前議長陳健治：從府會溝通談跨黨派合作",
+      "url": "https://puma-hub.pages.dev/articles/chen-chien-chih-visit-2026-11-05/article.md",
+      "summary": "會前／會後聯訪整理頁，摘要稱拜會目的是向資深議長請益府會協調，並談跨黨派合作；細節應以影音及逐字稿為準。",
+      "attributable_claims": [],
+      "caveats": [
+        "本批文章只讀到資料與章節摘要。"
+      ],
+      "topic_keys": [
+        "府會溝通"
+      ]
+    },
+    {
+      "doc_id": "d0199",
+      "title": "沈伯洋拜會前議長陳健治：從府會溝通談跨黨派合作",
+      "url": "https://puma-hub.pages.dev/articles/chen-chien-chih-visit-2026-11-05/transcript.md",
+      "summary": "來源附件含影音資訊和訪談摘要，實際完整問答未收錄在本批可見的文字片段，末尾僅見陳健治與里長互動。",
+      "attributable_claims": [],
+      "caveats": [
+        "原稿提醒閉門會談未收錄，逐字稿可能有辨識、轉述或講者標示錯誤；不可將摘要當作逐字直接引言。"
+      ],
+      "topic_keys": [
+        "府會溝通"
+      ]
+    },
+    {
+      "doc_id": "d0200",
+      "title": "台北市長辯論後記者會：沈伯洋回應辯論與選戰",
+      "url": "https://puma-hub.pages.dev/articles/taipei-debate-press-2026-10-31/article.md",
+      "summary": "辯論後記者會文章目錄，摘要涵蓋候選人對辯論表現、政策討論及後續辯論的回應。",
+      "attributable_claims": [],
+      "caveats": [
+        "本批只讀到目錄及來源說明。"
+      ],
+      "topic_keys": [
+        "辯論與選戰"
+      ]
+    },
+    {
+      "doc_id": "d0201",
+      "title": "台北市長辯論後記者會：沈伯洋回應辯論與選戰",
+      "url": "https://puma-hub.pages.dev/articles/taipei-debate-press-2026-10-31/transcript.md",
+      "summary": "沈伯洋在首場辯論後回答媒體提問；談政策選舉文化、按市民關注議題溝通、希望續辦辯論，並回應市政一棒接一棒及對手表現。",
+      "attributable_claims": [
+        "沈伯洋表示希望選舉多傳遞政策討論，並稱不會因民眾原先投票對象而排除說服，會依市民關注議題交流。",
+        "沈伯洋表示希望有後續辯論，讓市民理解候選人的市政願景。"
+      ],
+      "caveats": [
+        "這是競選後記者會表述，不是具體政策細節；關於對手、出席與辯論的描述屬候選人觀點。"
+      ],
+      "topic_keys": [
+        "政策溝通",
+        "辯論"
+      ]
+    },
+    {
+      "doc_id": "d0202",
+      "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+      "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/article.md",
+      "summary": "辯論整理頁目錄列出都更、產業交通、市府應變、兒虐食安等題目，並自述交互詰問編排與公視紀錄不一致。",
+      "attributable_claims": [],
+      "caveats": [
+        "本批讀到的是文章目錄而非辯論全文；原稿明示部分內容待核。"
+      ],
+      "topic_keys": [
+        "市政辯論"
+      ]
+    },
+    {
+      "doc_id": "d0203",
+      "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+      "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/original.md",
+      "summary": "辯論逐字稿原稿包含候選人、主持人與媒體提問名錄及議程標題，但本批只見架構，未見實際問答內容。",
+      "attributable_claims": [],
+      "caveats": [
+        "不從議程標題推定任何候選人的政策細節。"
+      ],
+      "topic_keys": [
+        "市政辯論"
+      ]
+    },
+    {
+      "doc_id": "d0204",
+      "title": "沈伯洋質詢外交部：外館預算、國際傳播與無人機外交",
+      "url": "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/article.md",
+      "summary": "外交及國防委員會質詢與會後聯訪整理頁；目錄顯示包含外館、外宣、無人機外交，並有聯訪的市政與水文化議題。",
+      "attributable_claims": [],
+      "caveats": [
+        "本批只見摘要與目錄，不以目錄替代沈伯洋的實際發言；主要是國會外交議題。"
+      ],
+      "topic_keys": [
+        "國會外交",
+        "水文化聯訪"
+      ]
+    },
+    {
+      "doc_id": "d0205",
+      "title": "沈伯洋質詢外交部：外館預算、國際傳播與無人機外交",
+      "url": "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/transcript.md",
+      "summary": "逐字稿附件目錄列外交委員會各人質詢和沈伯洋的媒體聯訪，但本批大部分實際質詢正文未見。",
+      "attributable_claims": [],
+      "caveats": [
+        "本批只有講者名錄、章節列表及零星結尾句，不能按章節目錄推定政策或外交主張。"
+      ],
+      "topic_keys": [
+        "國會外交"
+      ]
+    },
+    {
+      "doc_id": "d0206",
+      "title": "《洋流誌》政策彩皮書：六冊主題、創作者分享與市民之書",
+      "url": "https://puma-hub.pages.dev/articles/ocean-policy-colorbook-2026-10-27/article.md",
+      "summary": "《洋流誌》發表會整理頁；介紹書系與創作者，並附記者會逐字稿、影音來源。",
+      "attributable_claims": [],
+      "caveats": [
+        "原稿未逐句影音核實，活動日期、人名和出席陣容仍待核；本批主要是目錄。"
+      ],
+      "topic_keys": [
+        "政策溝通出版"
+      ]
+    },
+    {
+      "doc_id": "d0207",
+      "title": "《洋流誌》政策彩皮書：六冊主題、創作者分享與市民之書",
+      "url": "https://puma-hub.pages.dev/articles/ocean-policy-colorbook-2026-10-27/transcript.md",
+      "summary": "逐字記錄稿列六冊大致主題（市政治理、交通、育兒、城市再造、勞動經濟、市民之書）及創作者陣容；本批未見發表會實際發言。",
+      "attributable_claims": [],
+      "caveats": [
+        "僅見活動資訊、空白章節和附錄；不從書名或章節標題推斷政策內容。"
+      ],
+      "topic_keys": [
+        "政策溝通出版"
+      ]
+    },
+    {
+      "doc_id": "d0208",
+      "title": "沈伯洋台北水文化記者會：ABCDE 水治理、城市降溫與歷史水路",
+      "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/article.md",
+      "summary": "水文化記者會文章摘要列沈伯洋 ABCDE 五方向、社區水圳、跨局處治理及明治橋構想，並區分候選人、團隊與外部專家。",
+      "attributable_claims": [],
+      "caveats": [
+        "頁面聲明不同影音版本未逐句比對，原稿精確度和部分引用仍待核；本批僅為文章摘要，具體主張引用逐字稿 d0209。"
+      ],
+      "topic_keys": [
+        "水文化政策"
+      ]
+    },
+    {
+      "doc_id": "d0209",
+      "title": "沈伯洋台北水文化記者會：ABCDE 水治理、城市降溫與歷史水路",
+      "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+      "summary": "水文化記者會逐字稿涵蓋沈伯洋開場與ABCDE政見、楊志彬民間社造觀點、侯志仁都市設計案例、吳沛憶在地歷史及媒體問答。沈的方案包括溪圳、親水、安全入口、居民參與、水質、跨局處協調、滯洪、生態風廊與明治橋自行車橋構想。",
+      "attributable_claims": [
+        "沈伯洋提出以溪圳及水文化補上山林徑、文化徑，並把水的歷史文化、降溫、滯洪與生態放在整體城市規劃中。",
+        "他將ABCDE說明為親水、美感、潔淨、滯洪、生態，並主張以居民參與、跨局處平台、水質改善和資訊整合推動。",
+        "他表示水路開蓋不應「一開全開」，應先改善水質，依歷史紋理與文化徑選擇區段；另提出將明治橋部分復原與跨河自行車橋結合。"
+      ],
+      "caveats": [
+        "專家楊志彬的市政痛點與日本案例、侯志仁的都市設計經驗、吳沛憶的在地陳述均非沈伯洋發言。原稿自述已聽打，但未逐句影音核實、三版本未比對；逐字原話與細節仍應對照影音。",
+        "「熱區差2–4度」等專家數字及引述只按發言者歸因，不當作已獨立驗證事實。"
+      ],
+      "topic_keys": [
+        "ABCDE水治理",
+        "親水與水質",
+        "跨局處和居民參與",
+        "分散式滯洪與降溫生態",
+        "明治橋歷史重建"
+      ]
+    },
+    {
+      "doc_id": "d0210",
+      "title": "「第一個站出來的人」：沈伯洋談國民黨的變化、國會監督與公民行動",
+      "url": "https://puma-hub.pages.dev/articles/zhiding-ep127/article.md",
+      "summary": "文章整理2025年演講內容的章節摘要，談國會監督、公民行動及沈伯洋對政治事件的分析。",
+      "attributable_claims": [],
+      "caveats": [
+        "文章聲明為提供逐字稿的整理，未重新聽校原音；內容是歷史演講及政治分析，不是市政政策。"
+      ],
+      "topic_keys": [
+        "歷史演講",
+        "國會與公民行動"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "以水文化串起溪圳、地方歷史與城市生態",
+      "question": "台北市如何讓被遮蔽的水路重新成為生活空間？",
+      "points": [
+        "沈伯洋提出以水文化補上山林徑、文化徑的缺口，把溪圳視為城市「微血管」，連結歷史文化、降溫、滯洪與生態。",
+        "他把ABCDE列為親水、美感、潔淨、滯洪、生態；包括讓居民步行可達的巷弄水空間，並以在地參與決定設計特色。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0430",
+          "doc_id": "d0209",
+          "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+          "section_or_timestamp": "00:35:12–00:37:52",
+          "speaker": "沈伯洋",
+          "support_excerpt": "都市的這個「微血管」"
+        },
+        {
+          "unit_id": "u0430",
+          "doc_id": "d0209",
+          "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+          "section_or_timestamp": "00:29:01",
+          "speaker": "沈伯洋",
+          "support_excerpt": "你可能家裡走出去 500 公尺以內"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "先改善水質，再選擇適合打開的水路區段",
+      "question": "圳道開蓋如何兼顧可親近性、歷史紋理與工程限制？",
+      "points": [
+        "沈伯洋把水質改善、清疏與檢視列為親水營造的優先工作，提到植生過濾、濕地、礫間接觸等自然工法。",
+        "他說不是全線開蓋，而是依歷史紋理和文化徑選擇區段，並需顧及高架等工程條件。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0430",
+          "doc_id": "d0209",
+          "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+          "section_or_timestamp": "00:31:03–00:33:16",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們最重要是它的「水質」"
+        },
+        {
+          "unit_id": "u0431",
+          "doc_id": "d0209",
+          "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+          "section_or_timestamp": "00:44:56 起",
+          "speaker": "沈伯洋",
+          "support_excerpt": "絕對不是說「一開全開」"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "用跨局處平台連結研究、政府資料與居民參與",
+      "question": "分屬多個局處的水路治理如何形成整體規劃？",
+      "points": [
+        "沈伯洋表示水路資料散在學術研究、民間盤點與市政府，需整合資訊並建立跨局處平台。",
+        "水質、體育、社會及工程等權責交錯，他主張平台需和居民協調，並將水路規劃納入社區及巷弄設計。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0430",
+          "doc_id": "d0209",
+          "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+          "section_or_timestamp": "00:29:56–00:33:16",
+          "speaker": "沈伯洋",
+          "support_excerpt": "必須要跨局處平台加上居民的協調"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "串聯河岸入口與馬場町至明治橋的水文化路徑",
+      "question": "如何讓市民更安全、連續地接近河岸和城市水路？",
+      "points": [
+        "沈伯洋指出部分河濱公園入口過馬路不安全，主張盤點交通接點、改善入口，也在住宅區內營造可近的親水區域。",
+        "他提出從馬場町南入口經中正、萬華、青年公園風廊、北大同，延伸至明治橋的發展路徑。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0430",
+          "doc_id": "d0209",
+          "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+          "section_or_timestamp": "00:42:23–00:44:37",
+          "speaker": "沈伯洋",
+          "support_excerpt": "交通的入口把它做好"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以自行車通勤橋結合明治橋部分復原",
+      "question": "明治橋歷史重建如何兼顧安全與現代通勤？",
+      "points": [
+        "沈伯洋認為把拆下橋塊重排成裝置藝術不足以重現歷史，直接跨河復建則有結構安全顧慮。",
+        "他提出在南岸河濱公園陸地段復原部分明治橋，再銜接跨河自行車橋，兼顧歷史景觀、安全及通勤用途。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0432",
+          "doc_id": "d0209",
+          "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+          "section_or_timestamp": "00:59:13–01:01:36",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們可以做一個「自行車橋」"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "水文化逐字稿中的專家與在地團隊觀點",
+      "question": "社區工作者、都市設計者和地方民代如何補充水治理討論？",
+      "points": [
+        "楊志彬列出親水路徑、水歷史保存、積淹水與跨局處等痛點，主張公私協力；這是民間倡議者的發言。",
+        "侯志仁分享河道風廊、雨水公園、基地雨水管理和新加坡案例；吳沛憶談華江濕地、河乃庄與堀仔頭，均與沈的政策發言分列。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0428",
+          "doc_id": "d0209",
+          "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+          "section_or_timestamp": "00:11:19–00:12:27",
+          "speaker": "楊志彬",
+          "support_excerpt": "需要跨局處整合，需要有魄力的市長"
+        },
+        {
+          "unit_id": "u0429",
+          "doc_id": "d0209",
+          "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md",
+          "section_or_timestamp": "00:14:00–00:20:15",
+          "speaker": "侯志仁",
+          "support_excerpt": "河道是一個城市非常重要的風廊"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "運動驛站提供戶外活動後盥洗整理",
+      "question": "戶外運動者在流汗或弄髒後可在哪裡整理？",
+      "points": [
+        "沈伯洋在競選活動發言中把「運動驛站」描述為可讓戶外運動後盥洗整理的地方。",
+        "這是概念的簡短描述，材料未提供站點、服務時段、設施規格或推動時程。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0413",
+          "doc_id": "d0197",
+          "url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/transcript.md",
+          "section_or_timestamp": "約 00:32:37 前（前文脈絡）",
+          "speaker": "沈伯洋",
+          "support_excerpt": "可以有地方盥洗整理"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "辯論後按市民關心議題溝通政策",
+      "question": "競選時如何依市民關切交流市政？",
+      "points": [
+        "沈伯洋說希望選舉回到政策討論，並舉運動、音樂、社工等領域說明會按市民關心主題交流。",
+        "這是競選溝通方式的自述，沒有在本來源中列出對應政策內容。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0419",
+          "doc_id": "d0201",
+          "url": "https://puma-hub.pages.dev/articles/taipei-debate-press-2026-10-31/transcript.md",
+          "section_or_timestamp": "辯論後聯訪，關於選舉策略",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們不會把人分黨派"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    }
+  ]
+}

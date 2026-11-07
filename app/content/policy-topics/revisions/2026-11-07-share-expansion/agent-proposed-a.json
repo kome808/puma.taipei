@@ -1,0 +1,674 @@
+[
+  {
+    "id": "t001",
+    "share_body": "沈伯洋的政策主張：都更案停滯，可能來自權利整合、估價不透明、安置不足或融資卡關，不只是審議速度問題。政策提出黃牌體檢、限期提計畫；仍無進展再列紅牌，調查所有權人意向。地主可依約尋找新實施者，或在紅牌後同意轉公辦都更、自主更新；選擇退場者可獲法律諮詢，已拆屋案件啟動續建安全網。訪談也提到退場後的賠償、法律與租稅問題仍需政府協助。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/today-world-2026-11-04/"
+    ],
+    "added_details": [
+      {
+        "text": "安置制度不足：多發放租金補貼由住戶自行找房，補的是錢而非確定居所",
+        "pack_id": "main",
+        "unit_id": "u0001",
+        "source_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+        "quote": "安置制度不足：多發放租金補貼由住戶自行找房，補的是錢而非確定居所"
+      },
+      {
+        "text": "選擇下車退場案件，市府協助法律諮詢，若已拆屋則強制啟動「續建安全網」。",
+        "pack_id": "main",
+        "unit_id": "u0001",
+        "source_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+        "quote": "選擇下車退場案件，市府協助法律諮詢，若已拆屋則強制啟動「續建安全網」。"
+      },
+      {
+        "text": "所有權整合困難：不同世代住戶在利益、財力與用途上難以達成共識。\n2.權利價值不透明：前期估價與共同負擔計算專業門檻高，住戶難以核驗自身權益。\n3.安置制度不足：多發放租金補貼由住戶自行找房",
+        "pack_id": "main",
+        "unit_id": "u0001",
+        "source_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+        "quote": "所有權整合困難：不同世代住戶在利益、財力與用途上難以達成共識。\n2.權利價值不透明：前期估價與共同負擔計算專業門檻高，住戶難以核驗自身權益。\n3.安置制度不足：多發放租金補貼由住戶自行找房"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t002",
+    "share_body": "沈伯洋的政策主張：循環都更的房源規劃包括公有地老舊房舍改建、殭屍都更轉公辦取得土地、市府介入的自主都更土地，以及捷運聯開分回戶。住戶可選產權換屋或換地上權，以公平估價多退少補，並優先媒合鄰近生活圈、整合度較高的案件；另協調稅捐與專案貸款。政策設想先入住新屋，再推進原基地更新，避免中繼搬遷；搬出後符合安全條件的舊屋可先投入包租代管。官方也提醒初期房源有限，媒合門檻會較嚴格。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/"
+    ],
+    "added_details": [
+      {
+        "text": "盤點四大房源：公有地老舊房舍改建、殭屍都更轉公辦取得之土地、市府介入的自主都更土地、捷運聯開分回戶",
+        "pack_id": "main",
+        "unit_id": "u0001",
+        "source_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+        "quote": "盤點四大房源：公有地老舊房舍改建、殭屍都更轉公辦取得之土地、市府介入的自主都更土地、捷運聯開分回戶"
+      },
+      {
+        "text": "興建首批住宅供住戶直接入住，免除搬入中繼期與兩次搬遷的困擾。",
+        "pack_id": "main",
+        "unit_id": "u0001",
+        "source_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+        "quote": "興建首批住宅供住戶直接入住，免除搬入中繼期與兩次搬遷的困擾。"
+      },
+      {
+        "text": "用公平估價退補差額並配合貸款協助",
+        "pack_id": "main",
+        "unit_id": "u0001",
+        "source_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+        "quote": "跨區交換平台：提供「產權換屋」或「產權換地上權」雙選項，「鄰近區優先媒合，整合度高者優先媒合」，用公平估價退補差額，並協調稅捐問題與專案貸款。"
+      },
+      {
+        "text": "住戶遷出後，符合安全條件的老屋先轉作社宅、青創或托育空間",
+        "pack_id": "main",
+        "unit_id": "u0001",
+        "source_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+        "quote": "住戶遷出後，符合安全條件的老屋先轉作社宅、青創或托育空間"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t003",
+    "share_body": "沈伯洋的政策主張：都更審議提速不只靠催件。政策提出改善基層待遇、以專業公會協助技術審查，讓審議會聚焦權利價值爭議；報核前先聯合預審，一次確認公益設施與都計變更。另建置都更知識庫、數位審議資料庫與AI秘書，整理行政資料，讓承辦人能轉做專案管理。這些安排分別處理人力留任、專業分工和流程往返，目標是減少重複行政工作。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96"
+    ],
+    "added_details": [
+      {
+        "text": "實施「報核前聯合預審」，一次確認公益設施與都計變更",
+        "pack_id": "main",
+        "unit_id": "u0001",
+        "source_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+        "quote": "實施「報核前聯合預審」，一次確認公益設施與都計變更"
+      },
+      {
+        "text": "讓市府承辦人員轉型為專案經理",
+        "pack_id": "main",
+        "unit_id": "u0001",
+        "source_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+        "quote": "讓市府承辦人員轉型為專案經理"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t004",
+    "share_body": "老宅改善涉及屋況、補助與住戶協調。沈伯洋在訪談提出由行動服務團逐戶說明老宅延壽、電梯及補助方案，並把外部管線、屋頂綠化等項目一併討論。電梯若因住戶意見尚未談成，可先協助長者使用上下樓輔具；這讓安全與無障礙改善能分階段處理，不必把所有需求都押在電梯工程上。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/"
+    ],
+    "added_details": [
+      {
+        "text": "透過「行動服務團」逐戶說明方案與補助",
+        "pack_id": "main",
+        "unit_id": "u0166",
+        "source_url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+        "quote": "透過「行動服務團」逐戶說明方案與補助"
+      },
+      {
+        "text": "電梯尚未談成時，可以先補助上下樓梯輔具",
+        "pack_id": "main",
+        "unit_id": "u0166",
+        "source_url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+        "quote": "電梯尚未談成時，可以先補助上下樓梯輔具"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t005",
+    "share_body": "沈伯洋的政策主張：住宅政策把不同需求分開處理：訪談提出婚育宅、青年宅、科技宅，以及可負擔的只租不售住宅，並盤點市有地、國有地與包租代管增加供給。都更換屋則提供換到新屋後不必搬回原基地的選擇，讓長者可留在熟悉生活圈、年輕家庭也有租屋選項。政策工具分別回應租屋可負擔性與都更搬遷安排。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/"
+    ],
+    "added_details": [
+      {
+        "text": "我們現在都會去細分，比如「婚育宅」、「青年宅」",
+        "pack_id": "main",
+        "unit_id": "u0122",
+        "source_url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+        "quote": "我們現在都會去細分，比如「婚育宅」、「青年宅」"
+      },
+      {
+        "text": "換屋地點距離原生活圈太遠，也會影響長者意願",
+        "pack_id": "main",
+        "unit_id": "u0122",
+        "source_url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+        "quote": "如果換的地方離原本習慣的生活圈太遠（比如五、六公里），老人家可能就不想要。"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t006",
+    "share_body": "社子島居民對開發有不同期待：有人希望改善長期禁建帶來的生活不便，也有人重視原有聚落、濕地與生態。沈伯洋在訪談反對全區剷平、填土後整體遷移的單一路徑，主張重新討論更重視聚落保存與生態平衡的方案。也就是把居住改善、聚落延續和環境條件放在同一場規劃討論中。",
+    "share_source_urls": [
+      "https://puma-shen-interview.pages.dev/puma-shen-2026-09-13"
+    ],
+    "added_details": [
+      {
+        "text": "有人盼望改善長期禁建造成的生活不便，也有人重視原有聚落、濕地與生態",
+        "pack_id": "main",
+        "unit_id": "u0199",
+        "source_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-13",
+        "quote": "有人盼望改善長期禁建造成的生活不便，也有人重視原有聚落、濕地與生態"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t007",
+    "share_body": "沈伯洋的政策主張：教育政策提出117學年度國小每班24人、國中25人的目標，以減生不減師為原則，並增加正式教師員額與專任輔導教師。行政方面，試辦國小雙導師和導師行政助理，先盤點、刪除重複或過時流程，再導入數位工具與自動化，避免只是把紙本繁瑣流程搬到線上。訪談補充，雙導師先選年級試辦、觀察效果再逐步推廣，讓減班、人力和行政減量相互配合。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/today-world-2026-11-04/"
+    ],
+    "added_details": [
+      {
+        "text": "規劃於117學年度達成國小每班24人、國中25人的目標",
+        "pack_id": "main",
+        "unit_id": "u0002",
+        "source_url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+        "quote": "規劃於117學年度達成國小每班24人、國中25人的目標"
+      },
+      {
+        "text": "先盤點、刪除重複與過時流程，再導入數位工具、自動化與系統化管理",
+        "pack_id": "main",
+        "unit_id": "u0002",
+        "source_url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+        "quote": "先盤點、刪除重複與過時流程，再導入數位工具、自動化與系統化管理"
+      },
+      {
+        "text": "雙導師是要「試辦」！",
+        "pack_id": "main",
+        "unit_id": "u0045",
+        "source_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+        "quote": "雙導師是要「試辦」！"
+      },
+      {
+        "text": "並以「減生不減師」為原則，將少子化釋出的空間，轉化為降低班級人數與提升教學品質的機會。同時透過釋出正式教師員額、增加專任輔導教師",
+        "pack_id": "main",
+        "unit_id": "u0002",
+        "source_url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+        "quote": "並以「減生不減師」為原則，將少子化釋出的空間，轉化為降低班級人數與提升教學品質的機會。同時透過釋出正式教師員額、增加專任輔導教師"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t008",
+    "share_body": "沈伯洋的政策主張：校園反毒政策分成四層：查緝校園周邊販售熱點、把宣導轉成拒絕技巧等生活技能、以篩檢和簡短處遇辨識需求，再轉介醫療與毒防資源。訪談也提到以問卷評估後轉介，讓教育端有辨識與求助管道；司法在整體策略中是輔助角色。這套做法把源頭查緝、預防教育和後續治療連起來。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "https://puma-shen-interview.pages.dev/puma-shen-2026-10-07"
+    ],
+    "added_details": [
+      {
+        "text": "反毒政策採取「斷來源、教拒絕、轉治療、司法為輔」四層策略",
+        "pack_id": "main",
+        "unit_id": "u0002",
+        "source_url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+        "quote": "反毒政策採取「斷來源、教拒絕、轉治療、司法為輔」四層策略"
+      },
+      {
+        "text": "提出校園周邊執法、教孩子練習拒絕，以及問卷評估後轉介等方向",
+        "pack_id": "main",
+        "unit_id": "u0182",
+        "source_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-10-07",
+        "quote": "提出校園周邊執法、教孩子練習拒絕，以及問卷評估後轉介等方向"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t009",
+    "share_body": "沈伯洋的政策主張：交通政策以學校四周150公尺作為通學改善原則，提出縮減車道、抬升行穿線、減速丘、行人庇護島、縮小轉彎半徑與路口淨空。可先用油漆、塑膠桿或花台試辦，確認有效再永久化，也以事故資料排序改善優先順序。訪談則提到先從學校附近著手，讓路口設計和學生每天實際走的路段接軌。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "https://puma-shen-interview.pages.dev/"
+    ],
+    "added_details": [
+      {
+        "text": "以學校四周 150 公尺為原則",
+        "pack_id": "main",
+        "unit_id": "u0003",
+        "source_url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+        "quote": "以學校四周 150 公尺為原則"
+      },
+      {
+        "text": "採用油漆、塑膠桿與花台等低成本設施快速試辦，驗證有效後永久化",
+        "pack_id": "main",
+        "unit_id": "u0003",
+        "source_url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+        "quote": "採用油漆、塑膠桿與花台等低成本設施快速試辦，驗證有效後永久化"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t010",
+    "share_body": "沈伯洋的政策主張：教育政策提出補助市立高中、國中與國小採用教育版AI工具，以校管帳號、限定課堂時段及教師在場建立使用場域。學生可在課堂學習理解、使用與判斷AI，不必由家庭自行付費購買工具；學校則把工具納入教師引導的學習情境。政策重點同時包括使用機會與校園內的安全管理。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96"
+    ],
+    "added_details": [
+      {
+        "text": "透過校管帳號、限定課堂時段與教師在場的使用場域建立保護機制",
+        "pack_id": "main",
+        "unit_id": "u0002",
+        "source_url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+        "quote": "透過校管帳號、限定課堂時段與教師在場的使用場域建立保護機制"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t011",
+    "share_body": "沈伯洋的政策主張：營養午餐政策提出推動專法，讓餐費、營養、食安、食材來源與教育內容有制度依循。餐費可依原物料、天災和市場供需調整；若全校選擇加價提升品質，市府補足弱勢學生差額。政策也談到讓在地小農與校園合作，並把食農與飲食素養教材帶進學校，讓午餐兼顧吃得營養與認識食物來源。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/"
+    ],
+    "added_details": [
+      {
+        "text": "在地小農與校園合作，導入食農教育",
+        "pack_id": "main",
+        "unit_id": "u0016",
+        "source_url": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+        "quote": "在地小農與校園合作，導入食農教育"
+      },
+      {
+        "text": "全校決定加價提升品質，則由市府替弱勢學生補足價差",
+        "pack_id": "main",
+        "unit_id": "u0016",
+        "source_url": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+        "quote": "全校決定加價提升品質，則由市府替弱勢學生補足價差"
+      },
+      {
+        "text": "我提出一個學校一個營養師",
+        "pack_id": "main",
+        "unit_id": "u0135",
+        "source_url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+        "quote": "我提出一個學校一個營養師"
+      },
+      {
+        "text": "我提出一個學校一個營養師",
+        "pack_id": "main",
+        "unit_id": "u0135",
+        "source_url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+        "quote": "我提出一個學校一個營養師"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t012",
+    "share_body": "沈伯洋的政策主張：家庭一站通規劃整合育兒專線，由同一入口受理問題、專人了解需求並協助轉介，減少家長自行找窗口和反覆詢問。政策也提出各區家庭支持服務站，逐步擴大服務家庭範圍，並由個案管理師訪視、陪伴。訪談另談到把家長與育兒相關的1999需求獨立處理，讓電話入口與在地服務據點相互銜接。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03"
+    ],
+    "added_details": [
+      {
+        "text": "整合相關窗口電話，讓家長透過同一個窗口提出問題",
+        "pack_id": "main",
+        "unit_id": "u0009",
+        "source_url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+        "quote": "整合相關窗口電話，讓家長透過同一個窗口提出問題"
+      },
+      {
+        "text": "把家長、育兒相關的 1999 獨立出來",
+        "pack_id": "main",
+        "unit_id": "u0210",
+        "source_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+        "quote": "把家長、育兒相關的 1999 獨立出來"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t013",
+    "share_body": "沈伯洋的家庭一站通規劃為滿6個月至6歲孩子提供每週固定時數免費臨托，讓家長休息、社交或處理個人事務；夜市、百貨等夜間工作地點附近也評估設點。訪談另提出各社區微型臨托據點與喘息服務，讓短暫照顧更接近家庭生活。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/"
+    ],
+    "added_details": [
+      {
+        "text": "每週固定時數免費臨時托育",
+        "pack_id": "main",
+        "unit_id": "u0009",
+        "source_url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+        "quote": "每週固定時數免費臨時托育"
+      },
+      {
+        "text": "規劃提供滿 6 個月至六歲孩子，每週固定時數免費臨時托育",
+        "pack_id": "main",
+        "unit_id": "u0009",
+        "source_url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+        "quote": "規劃提供滿 6 個月至六歲孩子，每週固定時數免費臨時托育"
+      },
+      {
+        "text": "在台北各社區建立微型臨托據點",
+        "pack_id": "main",
+        "unit_id": "u0064",
+        "source_url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/",
+        "quote": "在台北各社區建立微型臨托據點"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t014",
+    "share_body": "沈伯洋的家庭一站通提出產後一年內家長心理諮商支持，並把未滿2歲家庭免費到宅育兒指導擴充到6次，協助餵奶、洗澡及居家安全。政策頁另說明中央原有服務與市府規劃加碼分開計算；到宅指導是不同服務，讓家庭能獲得照顧實作協助。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A"
+    ],
+    "added_details": [
+      {
+        "text": "未滿2歲兒童家庭的免費到宅育兒指導擴充至 6 次",
+        "pack_id": "main",
+        "unit_id": "u0009",
+        "source_url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+        "quote": "未滿2歲兒童家庭的免費到宅育兒指導擴充至 6 次"
+      },
+      {
+        "text": "未滿2歲兒童家庭的免費到宅育兒指導擴充至 6 次，提供餵奶、洗澡與居家安全等實際協助",
+        "pack_id": "main",
+        "unit_id": "u0009",
+        "source_url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+        "quote": "未滿2歲兒童家庭的免費到宅育兒指導擴充至 6 次，提供餵奶、洗澡與居家安全等實際協助"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t015",
+    "share_body": "沈伯洋提出1999兒童安全案件專業分流，直接轉入獨立兒保專業管道，避免和路燈、噪音等一般陳情混在一起。社福政策另規劃整合教育、社政與警政資料，協助跨局處辨識高風險；訪談也談到減輕第一線社工行政與案量壓力，讓通報後有專業人力接手。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript/"
+    ],
+    "added_details": [
+      {
+        "text": "1999 市民熱線進行「專業分流」",
+        "pack_id": "main",
+        "unit_id": "u0287",
+        "source_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript/",
+        "quote": "1999 市民熱線進行「專業分流」"
+      },
+      {
+        "text": "例如路燈壞掉、噪音這些東西",
+        "pack_id": "main",
+        "unit_id": "u0287",
+        "source_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript/",
+        "quote": "結果跟一般的路燈不亮、違規停車、環境噪音陳情混在一起處理"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t016",
+    "share_body": "沈伯洋提出親子同行卡，規劃給設籍台北0至18歲兒少每人每月600點，注意是點數，不是600元現金。可串接文化、體育、閱讀和家庭教育活動，支持看展、運動、共讀或課程；商周訪談補充點數預計每月歸零，並以親子走讀為例說明如何帶家庭參與在地活動。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/"
+    ],
+    "added_details": [
+      {
+        "text": "每人每月提供 600 點",
+        "pack_id": "main",
+        "unit_id": "u0011",
+        "source_url": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+        "quote": "每人每月提供 600 點"
+      },
+      {
+        "text": "我們600年是打算每個月歸零",
+        "pack_id": "main",
+        "unit_id": "u0055",
+        "source_url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+        "quote": "我們600年是打算每個月歸零"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t017",
+    "share_body": "沈伯洋的政策主張：社福政策把長者支持放在熟悉生活圈：提出在宅醫療銜接社區安全網、擴大敬老卡可用場館與用途，並發展社區共照和照護支持。中山大同演講另提出在宅醫療示範區，希望照顧身體需求時，也維持長者的心靈與人際連結。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/"
+    ],
+    "added_details": [
+      {
+        "text": "我們也希望在這邊把在宅醫療的示範區做起來",
+        "pack_id": "main",
+        "unit_id": "u0281",
+        "source_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+        "quote": "我們也希望在這邊把在宅醫療的示範區做起來"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t018",
+    "share_body": "沈伯洋的社福政策提出15至65歲免費心理諮商計畫，並連結家庭教育中心與社區支持。JomoTalk訪談中，他另主張爭取每年至少6次補助，屬訪談提出的政策期待；服務年齡範圍與次數主張分別保留各自來源，讓心理支持能延伸到一般成人與家庭。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/jomotalk-ep397/transcript/"
+    ],
+    "added_details": [
+      {
+        "text": "我主張應爭取一年至少六次補助",
+        "pack_id": "main",
+        "unit_id": "u0116",
+        "source_url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/transcript/",
+        "quote": "我主張應爭取一年至少六次補助"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t019",
+    "share_body": "Housing First的支持順序是先有穩定住所，再銜接生活重建。沈伯洋在訪談用能洗澡、安睡的住所說明起點，後續再連結社工輔導、職業重建與心理治療；也談到市府整合跨局處配套，處理環境維護、治安巡查與居民溝通。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/ep148/content.md"
+    ],
+    "added_details": [
+      {
+        "text": "先提供一個有尊嚴、能洗澡安睡的穩定小空間",
+        "pack_id": "main",
+        "unit_id": "u0409",
+        "source_url": "https://puma-hub.pages.dev/articles/ep148/content.md",
+        "quote": "先提供一個有尊嚴、能洗澡安睡的穩定小空間"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t020",
+    "share_body": "沈伯洋的政策主張：沈春華訪談提出社工機動隊構想：當單位或中心案件量達一定門檻，機動人力先到現場支援，直到正式人力補足。另談改善待遇與安全保障、讓有經驗者回流支援。方案同時處理短期案量缺口和較長期的人力留任。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/"
+    ],
+    "added_details": [
+      {
+        "text": "機動隊直接在還沒有補到人之前去幫忙",
+        "pack_id": "main",
+        "unit_id": "u0067",
+        "source_url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+        "quote": "機動隊直接在還沒有補到人之前去幫忙"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t021",
+    "share_body": "沈伯洋的青年基金規劃市府每月提撥1,500元，鼓勵青年自存1,500元，弱勢另加碼。按一般方案自存4年，市府和個人各累積7.2萬元，再加官網銜接中央36萬元，合計50.4萬元；不是市府另發50萬元，也不保證收益。商周訪談提求職、租屋及理財防詐課程，領用年齡說22歲，與官網23歲寫法不同。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/"
+    ],
+    "added_details": [
+      {
+        "text": "市府提撥：每月 1,500 元，鼓勵自存 1,500 元",
+        "pack_id": "main",
+        "unit_id": "u0007",
+        "source_url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+        "quote": "市府提撥：每月 1,500 元，鼓勵自存 1,500 元"
+      },
+      {
+        "text": "市府提撥：每月 1,500 元，鼓勵自存 1,500 元",
+        "pack_id": "main",
+        "unit_id": "u0007",
+        "source_url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+        "quote": "市府提撥：每月 1,500 元，鼓勵自存 1,500 元"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t022",
+    "share_body": "沈伯洋的政策主張：AI教育錢包第一期規劃對象為18至25歲、設籍台北且為大專或研究所在學學生。基本額度每月最高300元，弱勢500元；課程加值後每月總額提高至500至1,000元，並非在基本額度上另加；專案則一次核給2,000至10,000元。工具跨模型使用、按實際用量結算，免先墊款。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96"
+    ],
+    "added_details": [
+      {
+        "text": "課程加值由教師或學校申請，每月總額度提高至 500–1,000 元",
+        "pack_id": "main",
+        "unit_id": "u0013",
+        "source_url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+        "quote": "課程加值由教師或學校申請，每月總額度提高至 500–1,000 元"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t023",
+    "share_body": "沈伯洋的政策主張：AI政策另提出45歲以上市民職涯健檢，協助盤點轉職方向，並透過友善企業合作進行職務再設計，搭配帶薪轉職或實習補貼與就業媒合。創業支持則提出利息補貼，聚焦社會服務、醫事照護等社會企業工作。這是職涯支持方案，與AI教練團另案的3至6個月流程不同。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96"
+    ],
+    "added_details": [
+      {
+        "text": "針對 45 歲以上市民，提供由專業人士協助的職涯健檢",
+        "pack_id": "main",
+        "unit_id": "u0013",
+        "source_url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+        "quote": "針對 45 歲以上市民，提供由專業人士協助的職涯健檢"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t024",
+    "share_body": "沈伯洋的政策主張：台北青年圓夢計畫串聯海外學習、市政參與與創業實作。政策提出銜接中央青年海外圓夢基金，支持青年自主提案赴海外實踐；回到城市發展時，另可連結市政實習、創業諮詢、培訓、場地與基金等資源，並納入公共參與和市民外交。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96"
+    ],
+    "added_details": [
+      {
+        "text": "串聯海外學習、市政參與與創業實作",
+        "pack_id": "main",
+        "unit_id": "u0007",
+        "source_url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+        "quote": "串聯海外學習、市政參與與創業實作"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t025",
+    "share_body": "台北研究院構想是整合跨領域研究，從城市問題出發提出政策建議。王淺秋訪談中，沈伯洋補充智庫應先找出具體問題，再形成方案與規則標準，交由市府執行；他也把研究院視為人才培育機制，讓研究、城市應用與人才養成相連。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/"
+    ],
+    "added_details": [
+      {
+        "text": "研究院才是真正的人才養成機制",
+        "pack_id": "main",
+        "unit_id": "u0135",
+        "source_url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+        "quote": "研究院才是真正的人才養成機制"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t026",
+    "share_body": "沈伯洋的政策主張：公務員政策提出AI技術支援團隊進駐局處，協助自動化重複表單、數據整理和基礎行政流程。訪談補充團隊先花約半年進行田野調查與業務盤點，再依現場需求打造工具與資料整理平台；這讓導入順序從了解工作流程開始，並避免要求同仁額外承擔研習負擔。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/"
+    ],
+    "added_details": [
+      {
+        "text": "在各局處進行深度的田野調查與業務盤點",
+        "pack_id": "main",
+        "unit_id": "u0037",
+        "source_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/",
+        "quote": "在各局處進行深度的田野調查與業務盤點"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t027",
+    "share_body": "沈伯洋的政策主張：公務員政策提出在每日總工時不變前提下擴大彈性上下班，並規劃升級哺乳室、紓壓休息區、EAP點數自選、健檢補助及重大專案獎勵。訪談也談到專案型獎金、心理諮商資源與彈性工時，把照顧安排、身心支持和專案回饋都納入職場改善。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+      "https://shenboyang-interview.pages.dev/"
+    ],
+    "added_details": [
+      {
+        "text": "在每日總工時不變前提下",
+        "pack_id": "main",
+        "unit_id": "u0010",
+        "source_url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+        "quote": "在每日總工時不變前提下"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t028",
+    "share_body": "沈伯洋的政策主張：運動政策提出社區運動小巴主動到各地，優先服務因距離或移動不便而較難運動的居民，提供專業運動指導與營養諮詢，也規劃利用閒置公有空間設據點。訪談再提出合格體能教練制度和社區指導補貼，讓專業指導不只集中在運動中心。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/"
+    ],
+    "added_details": [
+      {
+        "text": "專業合格體能教練制度",
+        "pack_id": "main",
+        "unit_id": "u0117",
+        "source_url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/",
+        "quote": "專業合格體能教練制度"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  },
+  {
+    "id": "t029",
+    "share_body": "沈伯洋的政策主張：運動驛站構想提供盥洗、置物與租借服務，並鼓勵大樓增設淋浴設施，銜接自行車通勤和河濱活動。數字台灣訪談補充可在重要捷運站與步道節點設置置物櫃、更衣淋浴、刷鞋清理及補給空間，方便跑者、登山者和戶外工作者接續行程。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/digitaiwan-hd636/"
+    ],
+    "added_details": [
+      {
+        "text": "提供置物櫃、更衣淋浴、刷鞋清理與補給空間",
+        "pack_id": "main",
+        "unit_id": "u0283",
+        "source_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+        "quote": "提供置物櫃、更衣淋浴、刷鞋清理與補給空間"
+      }
+    ],
+    "note": "依同一來源全文補入具體內容；新增事實逐項附來源引句。"
+  }
+]

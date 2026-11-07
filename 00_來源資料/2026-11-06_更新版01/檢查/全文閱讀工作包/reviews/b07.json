@@ -1,0 +1,368 @@
+{
+  "batch_id": "b07",
+  "read_units": [
+    {
+      "unit_id": "u0089",
+      "doc_id": "d0047",
+      "start": 5276,
+      "end": 10970,
+      "sha256": "a88731e0e4fcc2cfc69e58dde2a350105ba5fae22147df96bc2df5f484d48f0a",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0090",
+      "doc_id": "d0047",
+      "start": 10970,
+      "end": 16963,
+      "sha256": "d2a790af075106cc950b302dab13c175ac7bfe113faebcab2d8261f3c5b88f0a",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0091",
+      "doc_id": "d0047",
+      "start": 16963,
+      "end": 22231,
+      "sha256": "cc351394bc83cfb58cb6cb79177a1b985d4dbf30467cbe1250a973e94429586e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0092",
+      "doc_id": "d0047",
+      "start": 22231,
+      "end": 25550,
+      "sha256": "634acfc25cd8729e7ec12d1c3a4d91573c29e8e1dc83887e3808f4ecffb89552",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0093",
+      "doc_id": "d0048",
+      "start": 0,
+      "end": 5972,
+      "sha256": "17ae1d552c3c8176e103abc69d7a8d0cd8655df56c2f6cd9b7ad8c3c7c78d4f8",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0094",
+      "doc_id": "d0048",
+      "start": 5972,
+      "end": 11969,
+      "sha256": "37add6d549cc7467d8f5b39f8d5ea3fc218e0395ec06254868888f7e429c2c1d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0095",
+      "doc_id": "d0048",
+      "start": 11969,
+      "end": 14762,
+      "sha256": "5a1016d60b8ef89d2cb5b4d62660b8f8bda23a611e829e67474feb4a8c3da18d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0096",
+      "doc_id": "d0049",
+      "start": 0,
+      "end": 5971,
+      "sha256": "945510837b0ac80c7e5ac04607bd157e749545d5772e25a65e6597a761156f58",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0097",
+      "doc_id": "d0049",
+      "start": 5971,
+      "end": 11574,
+      "sha256": "5c92d8a5d16e4bd3277eaef2b483e7f7f3027b81d3eb300c36577b1bcc30b605",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0098",
+      "doc_id": "d0050",
+      "start": 0,
+      "end": 5953,
+      "sha256": "074bfc05ced0dec89d34b827d219dd58a1b50cb1d894332ffb05387d4ee78178",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0099",
+      "doc_id": "d0050",
+      "start": 5953,
+      "end": 11948,
+      "sha256": "6610146a950f2bf4a1e31ec754b2cc1c852fa8c3474d4b6d938e9c292a9f1b86",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0100",
+      "doc_id": "d0050",
+      "start": 11948,
+      "end": 17094,
+      "sha256": "eaed383e7b7ed496d5e7194ce4f1d0a77884e9cd5f7eb07b81462ae3124b30e6",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0047",
+      "title": "沈伯洋《台灣 ON AIR》專訪：從領導責任、台北研究院到城市文化",
+      "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript/",
+      "summary": "訪談談台北研究院如何以問題導向支援市府，並延伸到商圈租用／保存、光華商場空間縫合、文化路徑和移民記憶。逐字原稿亦含選戰及個人話題。",
+      "attributable_claims": [
+        "受訪者主張城市智庫按具體市政問題委託研究，再由議會定規則、市府執行。",
+        "提出政府可用長租或購買方式保留有文化意義的商業空間，並要求居民參與。",
+        "提出以文化路徑、故事與在地創作媒介串連城市記憶。"
+      ],
+      "caveats": [
+        "稿件標示語音辨識錯字、講者切分疑點且未逐句聽校；個別段落由主持人或提問者帶出。",
+        "國際案例及政策細節屬訪談說法，尚未獨立核實。"
+      ],
+      "topic_keys": [
+        "city_institute",
+        "commercial_culture",
+        "cultural_routes"
+      ]
+    },
+    {
+      "doc_id": "d0048",
+      "title": "《雅琴看世界》英文專訪沈伯洋：洋流、城市交流與傾聽的力量",
+      "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/",
+      "summary": "英文專訪整理「洋流」名稱、雙城論壇條件、主權／資安風險管理及市民提問與街頭回應。新聞性事件與留言數字以受訪者說法轉述。",
+      "attributable_claims": [
+        "受訪者表示可保留雙城論壇架構，但應排除政治前提並採對等標準。",
+        "受訪者主張交流要評估對台北的實益，並保護市政及市民資料。",
+        "受訪者談線上收集問題、分類後在街頭提出解方並接受追問。"
+      ],
+      "caveats": [
+        "中英稿未逐句影音校對，中文有雜字及解釋性增補；時間碼待核。",
+        "民調與「六萬多則」留言等數字未附方法，黑名單、跟監與軍演說法未獨立核實。"
+      ],
+      "topic_keys": [
+        "city_exchange",
+        "citizen_listening",
+        "campaign_context"
+      ]
+    },
+    {
+      "doc_id": "d0049",
+      "title": "《雅琴看世界》英文專訪沈伯洋：洋流、城市交流與傾聽的力量",
+      "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript/",
+      "summary": "同集英文訪談的中英逐字稿，記錄論壇條件、風險管理、民調比喻及線上提問和肥皂箱互動。",
+      "attributable_claims": [
+        "受訪者表示交流可談，但需無政治前提、對等、透明並做好主權與資安風險管理。",
+        "受訪者描述把線上問題分類後帶到街頭，向市民回答並接受追問。"
+      ],
+      "caveats": [
+        "翻譯含雜字、增補且未逐句聽校；14:29–17:50是概述。",
+        "與 d0048 是同一場訪談，不構成獨立佐證。"
+      ],
+      "topic_keys": [
+        "city_exchange",
+        "citizen_listening"
+      ]
+    },
+    {
+      "doc_id": "d0050",
+      "title": "沈伯洋《雅琴看世界》：走進台北街頭，從洋流談城市與家人",
+      "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+      "summary": "中文訪談文章整理辯論模擬、北士科人才政策、街頭傾聽、個人生活及三項優先方向：台北研究院、第一線工作者減壓、都更。後段多為節目精華、預告或新聞報導彙整。",
+      "attributable_claims": [
+        "受訪者把台北研究院、第一線工作者減壓、都更列為若當選優先方向。",
+        "受訪者描述線上提問與街頭肥皂箱互動作為收集、回應市民問題的方式。",
+        "文章整理北士科人才培育和城市專案的串接構想。"
+      ],
+      "caveats": [
+        "原稿時間碼分屬不同影片，並明示第 08–10 章是精華／新聞整理而非中文主片完整逐字稿。",
+        "留言、人潮、民調與個人經歷數字未獨立核實；政策主張不是正式定案。"
+      ],
+      "topic_keys": [
+        "priority_agenda",
+        "citizen_listening",
+        "ai_talent",
+        "airport_context"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "以問題導向的台北研究院支援市政",
+      "question": "城市智庫如何與市府及議會分工，讓研究結果進入執行？",
+      "points": [
+        "先界定具體城市問題，再由大學或跨校團隊提出方案。",
+        "議會訂定標準與規則，公務員依規執行並驗收。",
+        "受訪者認為此分工可減少公務員在政策規劃上的不確定負擔。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0089",
+          "doc_id": "d0047",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript/",
+          "section_or_timestamp": "約 00:13:13–00:13:45，problem-oriented 智庫",
+          "speaker": "沈伯洋",
+          "support_excerpt": "problem oriented就是先有問題才有智庫"
+        },
+        {
+          "unit_id": "u0090",
+          "doc_id": "d0047",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript/",
+          "section_or_timestamp": "00:29:25，產官學整合",
+          "speaker": "沈伯洋",
+          "support_excerpt": "如果台北市肯出地中央來出錢一棟蓋在北市科國科會願意過去"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b04城市智庫與AI人才主題"
+      ]
+    },
+    {
+      "working_title": "以長租或購置保留有文化意義的商業空間",
+      "question": "如何避免商圈文化空間因租金上漲而流失？",
+      "points": [
+        "受訪者提出市府可長租或買下部分空間，再租給希望留在當地的文化店家。",
+        "租用資格需由文化審議機制審慎決定，並納入居民、店家和常客意見。",
+        "他以長租、保存的方式類比文資保護，並主張保留市場機制的角色。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0089",
+          "doc_id": "d0047",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript/",
+          "section_or_timestamp": "00:21:18–00:25:45，赤峰街／商圈文化",
+          "speaker": "沈伯洋",
+          "support_excerpt": "不管用長租還是用買賣"
+        },
+        {
+          "unit_id": "u0089",
+          "doc_id": "d0047",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript/",
+          "section_or_timestamp": "00:21:18–00:25:45，居民參與",
+          "speaker": "沈伯洋",
+          "support_excerpt": "居民的參與還是很重要"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b04親子同行卡／商圈活化主題"
+      ]
+    },
+    {
+      "working_title": "用文化路徑和在地故事串連台北記憶",
+      "question": "如何讓居民與訪客理解地標背後的移民和地方歷史？",
+      "points": [
+        "構想以河岸或山線規劃文化路徑，並以多個入口串連不同年代的城市記憶。",
+        "可用音樂、小說、遊戲、動畫或漫畫講述地方故事，再把故事連成路徑。",
+        "他以移民、語言族群及商圈記憶為城市文化保存內容。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0091",
+          "doc_id": "d0047",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript/",
+          "section_or_timestamp": "00:38:01–00:44:47，文化路徑與城市地標",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我希望做四條但我希望至少先把第一條做出來"
+        },
+        {
+          "unit_id": "u0091",
+          "doc_id": "d0047",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript/",
+          "section_or_timestamp": "00:44:47，文化保存媒介",
+          "speaker": "沈伯洋",
+          "support_excerpt": "故事就有很多種呈現的方式遊戲是一種"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "雙城論壇須無政治前提、對等並做好風險管理",
+      "question": "城市交流要符合哪些條件，才能兼顧溝通和安全？",
+      "points": [
+        "受訪者表示可保留交流架構，但內容需重談，不能附帶政治前提。",
+        "他要求對等標準、公開說明交流對台北的實益。",
+        "並提出保護主權及市政／市民資料的風險管理。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0097",
+          "doc_id": "d0049",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript/",
+          "section_or_timestamp": "00:08:13–00:09:38，雙城論壇",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們仍然可以保留這個交流架構，但我們必須改變裡面的實質內容"
+        },
+        {
+          "unit_id": "u0097",
+          "doc_id": "d0049",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript/",
+          "section_or_timestamp": "00:09:10，主權與資安",
+          "speaker": "沈伯洋",
+          "support_excerpt": "你必須保護好自己的市政與市民資料"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "將線上提問整理成街頭可追問的市政回應",
+      "question": "如何把民眾意見轉成可討論、可追問的政策回應？",
+      "points": [
+        "受訪者表示會依議題、行政區等方式分類線上收集的問題。",
+        "再把問題帶到街頭提出解方，開放市民現場追問。",
+        "訪談稿所列留言量沒有獨立核實，應記錄互動方式而不推估代表性。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0097",
+          "doc_id": "d0049",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript/",
+          "section_or_timestamp": "00:12:51–00:13:32，線上平台與肥皂箱",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們把這 6 萬多則問題依照議題、行政區甚至情緒進行分類整理"
+        },
+        {
+          "unit_id": "u0100",
+          "doc_id": "d0050",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+          "section_or_timestamp": "約 00:10:26，精華片肥皂箱段",
+          "speaker": "沈伯洋",
+          "support_excerpt": "市長，你給我聽好了"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b04以1999陳情分類與地圖配置資源",
+        "b04家長版1999及市民陳情主題"
+      ]
+    },
+    {
+      "working_title": "台北研究院、第一線人員減壓與都更列為優先方向",
+      "question": "受訪者表示當選後最想先推動哪些市政工作？",
+      "points": [
+        "列出台北研究院、減輕公務員／教師／社工工作壓力及都更三項方向。",
+        "來源把三者列為受訪者的優先構想，未附完整預算或時程。",
+        "「減壓」的措施細節在本批片段沒有完整說明。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0100",
+          "doc_id": "d0050",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+          "section_or_timestamp": "01:15:34–01:15:49，結語三項方向",
+          "speaker": "沈伯洋",
+          "support_excerpt": "第一個，就是我講的「台北研究院」"
+        },
+        {
+          "unit_id": "u0100",
+          "doc_id": "d0050",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+          "section_or_timestamp": "01:15:41–01:15:49，結語三項方向",
+          "speaker": "沈伯洋",
+          "support_excerpt": "第三個，就是「都更」"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": [
+        "b04循環都更",
+        "b04城市智庫"
+      ]
+    }
+  ]
+}

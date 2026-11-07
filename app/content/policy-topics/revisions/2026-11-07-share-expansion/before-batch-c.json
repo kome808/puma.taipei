@@ -1,0 +1,1031 @@
+[
+  {
+    "id": "t059",
+    "intro": "高風險工作者可能面對裝備不足與現場安全風險。沈伯洋在訪談中提出以指引、裝備補助及勞安檢查補強職安。",
+    "official": [],
+    "interview": [
+      {
+        "text": "高風險工作需要安全裝備，也需要能落實的現場保護。沈伯洋在訪談以冷氣裝設事故談勞工安全，提出安全指引、裝備補助與勞安檢查等方向，讓高風險藍領工作的職安支持更完整。重點是把現場風險、工作者使用的裝備與檢查機制一起處理，減少安全只能靠個人承擔的情況。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0064",
+            "quote": "安全指引、裝備補助與勞安檢查落實到這些高危藍領族群"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "高風險勞工",
+      "職業安全",
+      "安全裝備",
+      "勞安檢查"
+    ],
+    "share_body": "高風險工作需要安全裝備，也需要能落實的現場保護。沈伯洋在訪談以冷氣裝設事故談勞工安全，提出安全指引、裝備補助與勞安檢查等方向，讓高風險藍領工作的職安支持更完整。重點是把現場風險、工作者使用的裝備與檢查機制一起處理，減少安全只能靠個人承擔的情況。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t060",
+    "intro": "業者若要先學AI再自行摸索，可能來不及。訪談提出讓AI人才進入產業理解需求，再開發工具。",
+    "official": [],
+    "interview": [
+      {
+        "text": "傳統產業要用AI，先得知道工具能幫上哪一段工作。沈伯洋在訪談提出，讓AI專家進入產業現場，先理解既有流程與需求，再協助開發合用工具。這個思路把實際工作放在前面，讓專業人員和業者一起找應用方式，而不是只提供一套工具，再讓業者自行摸索。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/transcript.md"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0441",
+            "quote": "直接進入特定產業實習 3 至 6 個月"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "AI教練",
+      "傳統產業AI",
+      "產業流程",
+      "商圈數位轉型"
+    ],
+    "share_body": "傳統產業要用AI，先得知道工具能幫上哪一段工作。沈伯洋在訪談提出，讓AI專家進入產業現場，先理解既有流程與需求，再協助開發合用工具。這個思路把實際工作放在前面，讓專業人員和業者一起找應用方式，而不是只提供一套工具，再讓業者自行摸索。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/transcript.md"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t061",
+    "intro": "身心靈服務的資訊落差可能增加消費者受騙風險。這場對談談的是公共議題與產業規範方向，不是台北市政服務。",
+    "official": [],
+    "interview": [
+      {
+        "text": "在與大耕老師的公共議題對談中，沈伯洋討論身心靈服務的資訊落差與市場規範。同場談到專業認證和市場機制，他則提及政府可從資安與防詐規範協助。這段對談從消費者如何理解服務與風險出發，討論產業自律、市場資訊及公共部門可能扮演的角色。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/transcript/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0144",
+            "quote": "市府必須輔導資安與防詐規範"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "身心靈服務",
+      "消費者資訊",
+      "防詐",
+      "資安規範"
+    ],
+    "share_body": "在與大耕老師的公共議題對談中，沈伯洋討論身心靈服務的資訊落差與市場規範。同場談到專業認證和市場機制，他則提及政府可從資安與防詐規範協助。這段對談從消費者如何理解服務與風險出發，討論產業自律、市場資訊及公共部門可能扮演的角色。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/transcript/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t062",
+    "intro": "地方若討論加碼現金，沈伯洋提出不舉債、先照顧必要需求且仍有剩餘財源等條件。這是財政立場，不是核定方案。",
+    "official": [],
+    "interview": [
+      {
+        "text": "地方要不要加碼發現金，沈伯洋在訪談提出幾個財政前提：不能為發現金舉債，先把必要的公共照顧做好，再看是否仍有財源餘裕。他把現金發放放在整體支出順序裡討論，要求同時檢視托育、長照與弱勢支持等需求，才決定剩餘資源如何使用。",
+        "source_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0208",
+            "quote": "市政府自己發動、不舉債、該照顧的都照顧了、還有剩餘，就可以加碼"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "地方普發",
+      "現金發放",
+      "地方財政",
+      "不舉債"
+    ],
+    "share_body": "地方要不要加碼發現金，沈伯洋在訪談提出幾個財政前提：不能為發現金舉債，先把必要的公共照顧做好，再看是否仍有財源餘裕。他把現金發放放在整體支出順序裡討論，要求同時檢視托育、長照與弱勢支持等需求，才決定剩餘資源如何使用。",
+    "share_source_urls": [
+      "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t063",
+    "intro": "選舉之外的公民參與與持續監督，是這場演講談到的民主議題。內容不是台北市政服務方案。",
+    "official": [],
+    "interview": [
+      {
+        "text": "沈伯洋在公共議題演講談到，公民對政治代表的監督可以延續到選舉之外。投票是參與的一部分，平時持續關心公共議題、檢視政治代表的作為，也是民主運作的一環。這段內容呈現他對公民參與與政治責任的看法，重點是公共討論與監督如何持續發生。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/zhiding-ep127/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0254",
+            "quote": "台灣就是需要一開始撿垃圾的那個"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "公民參與",
+      "選舉外監督",
+      "民主行動",
+      "政治代表"
+    ],
+    "share_body": "沈伯洋在公共議題演講談到，公民對政治代表的監督可以延續到選舉之外。投票是參與的一部分，平時持續關心公共議題、檢視政治代表的作為，也是民主運作的一環。這段內容呈現他對公民參與與政治責任的看法，重點是公共討論與監督如何持續發生。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/zhiding-ep127/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t064",
+    "intro": "登山客從大眾運輸到步道入口，會遇到裝備、資訊與最後一段接駁需求。政策提出登山中心及步道接駁構想。",
+    "official": [
+      {
+        "text": "官方簡報提出登山觀光中心，可提供裝備租借、置物、更衣、洗鞋及多語導覽等服務；另提出增開交通路網與步道口接駁。這些是規劃內容，並未表示中心已開放。",
+        "source_urls": [
+          "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf"
+        ],
+        "evidence": [
+          {
+            "pack_id": "official-pdf",
+            "unit_id": "u0002",
+            "quote": "裝備租借          置物櫃          更衣室"
+          }
+        ]
+      }
+    ],
+    "interview": [
+      {
+        "text": "在 8 月訪談中，沈伯洋談到北、東、南登山節點，並提出配合登山口公車、清楚指標與廁所維護，串連步道和周邊市場商圈。",
+        "source_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2026-08-23"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0196",
+            "quote": "配合登山口公車、清楚指標、廁所維護"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "登山觀光中心",
+      "步道接駁",
+      "登山口公車",
+      "裝備租借"
+    ],
+    "share_body": "搭車去爬山，步道資訊與最後一段接駁都會影響體驗。沈伯洋的政策提出登山觀光中心，並增加中心與步道口之間的交通接駁；訪談也談到盤點登山路線、登山口公車、指標與廁所維護。這些做法從資訊、交通與步道設施著手，改善淺山步道和城市生活圈的連結。",
+    "share_source_urls": [
+      "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+      "https://puma-shen-interview.pages.dev/puma-shen-2026-08-23"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t065",
+    "intro": "先換屋需要先有能入住的住宅。官方政策列出四類房源，並規劃先興建住宅，再透過平台媒合交換。",
+    "official": [
+      {
+        "text": "都更政策的循環都更計畫列出四類第一批房源：改建公有地老舊房舍、停滯案轉公辦取得的土地、市府介入自主都更的土地，以及捷運聯開分回戶。平台規劃鄰近區優先媒合，並以公平估價提供產權換屋或換地上權選項。",
+        "source_urls": [
+          "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0001",
+            "quote": "盤點四大房源：公有地老舊房舍改建"
+          }
+        ]
+      }
+    ],
+    "interview": [
+      {
+        "text": "在 10 月 20 日房業涵訪談中，沈伯洋把中繼宅與永久換屋並列為搬遷安排：住戶可先搬到中繼宅，或換到新屋後留在新地點，避免重建完成後再搬一次。換屋仍須考量估價及與原生活圈的距離。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0122",
+            "quote": "一種解法是「中繼宅」。中繼宅就是這邊要都更了，厝邊大家一起搬到中繼宅。"
+          },
+          {
+            "pack_id": "main",
+            "unit_id": "u0122",
+            "quote": "所以還有一種做法就是「換」"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "循環都更",
+      "中繼宅",
+      "國有地",
+      "換屋平台"
+    ],
+    "share_body": "先換屋、再都更，第一批新家從哪裡來？沈伯洋的政策列出四類房源：公有地老舊房舍改建、停滯都更轉公辦後取得的土地、市府介入自主都更的土地，以及作為補充的捷運聯開分回戶。政策規劃先興建循環住宅，再依估價媒合換屋，推動原基地重建。訪談也談到中繼宅與換屋後不必搬回兩種選擇，並考量原生活圈距離。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t066",
+    "intro": "親師衝突、幼教人力與特教支持都影響校園照顧。官方教育政策提出降低班級人數等方向。",
+    "official": [
+      {
+        "text": "親師衝突、幼教人力和特教支持，都是教學現場需要的後援。沈伯洋的教育政策提出親師衝突第三方機制與教師心理支持，同時改善幼教、特教人力，逐步降低班級人數並調整師資配置。這些做法從人力、溝通與專業支持著手，讓教師更有心力教學，也讓學生與家庭遇到問題時有協助。",
+        "source_urls": [
+          "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0002",
+            "quote": "117學年度達成國小每班24人"
+          }
+        ]
+      }
+    ],
+    "interview": [],
+    "differences": [],
+    "keywords": [
+      "國小班級人數",
+      "每班24人",
+      "教育政策"
+    ],
+    "share_body": "親師衝突、幼教人力和特教支持，都是教學現場需要的後援。沈伯洋的教育政策提出親師衝突第三方機制與教師心理支持，同時改善幼教、特教人力，逐步降低班級人數並調整師資配置。這些做法從人力、溝通與專業支持著手，讓教師更有心力教學，也讓學生與家庭遇到問題時有協助。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t067",
+    "intro": "夜間行走的安全感與照明、通視和求助管道相關。沈伯洋在訪談中主張以環境設計及友善店家補足安全網。",
+    "official": [
+      {
+        "text": "社福政策提出由下而上的「女性安全審計」，檢視公共空間，將女性的使用經驗納入城市安全治理。",
+        "source_urls": [
+          "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0004",
+            "quote": "推動由下而上的「女性安全審計」檢視公共空間"
+          }
+        ]
+      }
+    ],
+    "interview": [
+      {
+        "text": "夜間走路的安全感，和照明、視線及求助管道都有關。沈伯洋的社福政策提出由下而上的女性安全審計，檢視公共空間；訪談則談到改善夜間照明與通視，串連友善店家及即時求助庇護網絡。從使用者的經驗找出問題，再把環境改善和能求助的地方接起來，是這些主張共同處理的方向。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0064",
+            "quote": "友善店家與即時求助庇護網絡"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "夜間安全",
+      "女性步行",
+      "友善店家",
+      "照明通視"
+    ],
+    "share_body": "夜間走路的安全感，和照明、視線及求助管道都有關。沈伯洋的社福政策提出由下而上的女性安全審計，檢視公共空間；訪談則談到改善夜間照明與通視，串連友善店家及即時求助庇護網絡。從使用者的經驗找出問題，再把環境改善和能求助的地方接起來，是這些主張共同處理的方向。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t068",
+    "intro": "性騷擾與霸凌報案若處理不當，可能造成當事人二度傷害。訪談主張檢討流程並將案件處理納入制度。",
+    "official": [],
+    "interview": [
+      {
+        "text": "性騷擾與霸凌案件的求助流程，也需要照顧當事人的感受。沈伯洋在訪談主張檢討報案流程，避免受害者在求助時遭遇二度傷害，並把相關案件處理納入制度改善。這項討論從第一線如何受理、如何聽取遭遇出發，讓案件處理與當事人受到的對待一起被看見。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/eleven-oclock-hot-2026-11-03/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0040",
+            "quote": "實務上報案流程確實需要檢討改進"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "性騷擾報案",
+      "霸凌",
+      "二度傷害",
+      "警察考評"
+    ],
+    "share_body": "性騷擾與霸凌案件的求助流程，也需要照顧當事人的感受。沈伯洋在訪談主張檢討報案流程，避免受害者在求助時遭遇二度傷害，並把相關案件處理納入制度改善。這項討論從第一線如何受理、如何聽取遭遇出發，讓案件處理與當事人受到的對待一起被看見。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/eleven-oclock-hot-2026-11-03/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t069",
+    "intro": "足球場地與訓練空間可能不足。官方簡報提出優先評估關渡作為足球場選址。",
+    "official": [
+      {
+        "text": "沈伯洋的運動政策簡報提出，優先選址關渡打造國際足球場。簡報說明，足球與田徑在專業養護、使用強度和觀賽體驗上各有需求，因此規劃足球專用場館，支援國際賽事、職業發展與訓練，同時兼顧全民運動；未來也可發展其他運動場地，補足城市的足球空間。",
+        "source_urls": [
+          "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf"
+        ],
+        "evidence": [
+          {
+            "pack_id": "official-pdf",
+            "unit_id": "u0005",
+            "quote": "政策主張 優先選址關渡，打造國際足"
+          }
+        ]
+      }
+    ],
+    "interview": [],
+    "differences": [],
+    "keywords": [
+      "關渡足球場",
+      "足球場地",
+      "運動空間"
+    ],
+    "share_body": "沈伯洋的運動政策簡報提出，優先選址關渡打造國際足球場。簡報說明，足球與田徑在專業養護、使用強度和觀賽體驗上各有需求，因此規劃足球專用場館，支援國際賽事、職業發展與訓練，同時兼顧全民運動；未來也可發展其他運動場地，補足城市的足球空間。",
+    "share_source_urls": [
+      "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t070",
+    "intro": "大型運動空間可補充場地、淋浴更衣與運動後清潔需求。政策提出圓山及花博周邊的運動中心規劃。",
+    "official": [
+      {
+        "text": "官方運動簡報提出在花博、圓山一帶規劃大型運動中心，並記載新場館保留原新創基地。",
+        "source_urls": [
+          "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf"
+        ],
+        "evidence": [
+          {
+            "pack_id": "official-pdf",
+            "unit_id": "u0005",
+            "quote": "新場館保留原新創基地"
+          }
+        ]
+      }
+    ],
+    "interview": [
+      {
+        "text": "中山大同演講以「圓山超級市民運動中心」說明運動空間構想，納入各式球類與新興運動，並希望保留原商圈、帶入人流，與自行車路線及運動驛站功能銜接。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0281",
+            "quote": "我們要去做「圓山的超級市民運動中心」，給大家有更多運動的機會。這個大家最喜歡運動，對不對？而這個運動的機會呢，就像我上面列的各式各樣的球類，它可以適應各式各樣不同的新興運動，而且我們要讓原來的商圈繼續留在哪邊，也就是說它一樣還是有它的消費，因為它有另外的人流。\n[00:17:34] 所以我們如果把這"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "花博運動中心",
+      "圓山運動中心",
+      "更衣淋浴",
+      "運動設施"
+    ],
+    "share_body": "沈伯洋的運動政策提出花博旗艦運動中心，補足不同運動場地需求。中山大同演講則以「圓山超級市民運動中心」說明構想，納入各式球類與新興運動，保留原有商圈並帶入人流，與自行車路線及運動驛站功能銜接，讓運動和周邊街區一起規劃。",
+    "share_source_urls": [
+      "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+      "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t071",
+    "intro": "運動可以成為城市交流的共同語言。官方簡報提出國際城市聯盟、賽事合作與青年海外交流。",
+    "official": [
+      {
+        "text": "沈伯洋的運動政策簡報提出建立「無限城運動聯盟」，推動台北與國際城市常態交流、比賽，也邀請聯盟城市球隊來台熱身、移地訓練。政策另規劃結合城市聯盟賽事提供青年海外實習與交流機會，並促進不同性別、年齡與族群參與運動，讓城市交流從運動開始。",
+        "source_urls": [
+          "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf"
+        ],
+        "evidence": [
+          {
+            "pack_id": "official-pdf",
+            "unit_id": "u0005",
+            "quote": "建立無限城運動聯盟"
+          }
+        ]
+      }
+    ],
+    "interview": [],
+    "differences": [],
+    "keywords": [
+      "無限城運動聯盟",
+      "運動交流",
+      "運動社群"
+    ],
+    "share_body": "沈伯洋的運動政策簡報提出建立「無限城運動聯盟」，推動台北與國際城市常態交流、比賽，也邀請聯盟城市球隊來台熱身、移地訓練。政策另規劃結合城市聯盟賽事提供青年海外實習與交流機會，並促進不同性別、年齡與族群參與運動，讓城市交流從運動開始。",
+    "share_source_urls": [
+      "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t072",
+    "intro": "熱區種樹與行人遮蔭可回應不同街區的高溫及綠蔭落差。官方政策提出樹覆率與綠覆率目標，訪談另談回報熱點優先植樹。",
+    "official": [
+      {
+        "text": "都市微森林簡報以全市樹覆率 20% 與綠覆率 30% 為目標，並提出以可見樹木等指標檢視綠蔭。兩項比例各有定義，不應互換。",
+        "source_urls": [
+          "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf"
+        ],
+        "evidence": [
+          {
+            "pack_id": "official-pdf",
+            "unit_id": "u0003",
+            "quote": "20%樹覆率+30%綠覆率"
+          }
+        ]
+      }
+    ],
+    "interview": [
+      {
+        "text": "沈伯洋在訪談中表示，會優先從民眾回報最熱的地點開始種樹；",
+        "source_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0209",
+            "quote": "哪裡被回報最熱，我們就從哪裡開始種樹"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "樹蔭公平",
+      "都市微森林",
+      "樹覆率20%",
+      "綠覆率30%",
+      "熱點植樹"
+    ],
+    "share_body": "哪裡最缺樹蔭，就從居民的日常感受找起。沈伯洋的都市微森林政策分列全市樹覆率20%、綠覆率30%的目標，並希望市民在300公尺內能到有綠蔭的公園。訪談補充可依民眾回報的高溫熱點優先種樹，將整體綠化目標和街區遮蔭需求一起處理；樹覆與綠覆是分開的指標。",
+    "share_source_urls": [
+      "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+      "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t073",
+    "intro": "樹木修剪後的木料若能再利用，可減少資源浪費並增加在地材料用途。政策提出建立廢木料銀行。",
+    "official": [
+      {
+        "text": "修剪下來的木料，還可以繼續派上用場。沈伯洋的都市微森林簡報提出「廢木料銀行」，與新創、學術單位合作，先把再製木料導入公共設施，也研發商品、生物土壤與建材等用途。生質能發電放在最後一道利用方式，讓木料先經過不同層次的循環使用，再處理剩餘資源。",
+        "source_urls": [
+          "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf"
+        ],
+        "evidence": [
+          {
+            "pack_id": "official-pdf",
+            "unit_id": "u0003",
+            "quote": "成立廢木料銀行，提供木料、與新創及學術合作"
+          },
+          {
+            "pack_id": "official-pdf",
+            "unit_id": "u0003",
+            "quote": "廢木再製，先行導入公共設施"
+          },
+          {
+            "pack_id": "official-pdf",
+            "unit_id": "u0003",
+            "quote": "廢木再製，先行導入公共設施"
+          }
+        ]
+      }
+    ],
+    "interview": [],
+    "differences": [],
+    "keywords": [
+      "修枝木料",
+      "廢木料銀行",
+      "木材再利用"
+    ],
+    "share_body": "修剪下來的木料，還可以繼續派上用場。沈伯洋的都市微森林簡報提出「廢木料銀行」，與新創、學術單位合作，先把再製木料導入公共設施，也研發商品、生物土壤與建材等用途。生質能發電放在最後一道利用方式，讓木料先經過不同層次的循環使用，再處理剩餘資源。",
+    "share_source_urls": [
+      "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t074",
+    "intro": "雨水治理可透過分散滯洪與生態設計融入街區，不必把所有水路都改成同一種工程。官方政策提出水域治理原則。",
+    "official": [
+      {
+        "text": "水域政策提出 ABCDE 五大治理方向，並以多元方式處理水域空間。",
+        "source_urls": [
+          "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0012",
+            "quote": "提出「ABCDE 五大治理方向」"
+          }
+        ]
+      }
+    ],
+    "interview": [
+      {
+        "text": "在水文化記者會中，沈伯洋說明 ABCDE 是選擇與設計水文化空間的原則，並指出不會採取全線開蓋。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0250",
+            "quote": "不會採取全線開蓋的做法"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "分散滯洪",
+      "水岸生態",
+      "水域政策",
+      "ABCDE治理"
+    ],
+    "share_body": "城市排水也能和生態、街區生活一起規劃。沈伯洋的水域政策提出分散滯洪，依各河段的水質、排洪與生態條件選擇工法，並評估濕地、植生過濾等方式。訪談也談到水路治理需要先看現場條件，讓雨水調節與水岸生態納入城市設計，避免所有河段都只採取同一種處理方式。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t075",
+    "intro": "水岸入口、巷弄水路與日常動線若能銜接，親水空間較容易融入生活圈。政策提出跨局處協作及交通入口改善。",
+    "official": [
+      {
+        "text": "水域政策提出 ABCDE 五大治理方向，作為推動水域空間的政策框架。",
+        "source_urls": [
+          "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0012",
+            "quote": "提出「ABCDE 五大治理方向」"
+          }
+        ]
+      }
+    ],
+    "interview": [
+      {
+        "text": "水文化記者會中，沈伯洋談到親水空間需要跨局處平台與居民協調，也提出把交通入口做好，讓居民能從生活圈接近水域。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0430",
+            "quote": "必須要跨局處平台加上居民的協調"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "親水空間",
+      "水岸入口",
+      "巷弄水路",
+      "跨局處協調"
+    ],
+    "share_body": "水岸再近，入口難找、動線不順，也不容易成為日常去處。沈伯洋的水域政策提出把河岸入口、巷弄水路與周邊交通一起考量，透過跨局處合作改善可近性；訪談也談到銜接附近生活圈。構想是從抵達水岸的路線開始，讓親水空間與居民平常步行、騎車及搭車的動線接起來。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t076",
+    "intro": "台北車站周邊公車站點分散，乘客需要更容易辨識站牌與路線的方式。訪談提出以編號協助找站。",
+    "official": [],
+    "interview": [
+      {
+        "text": "台北車站周邊公車站點分散，第一次轉乘常得花時間找站牌。沈伯洋在訪談提出以編號幫助辨識站點，讓乘客比較容易把路線資訊和實際位置對起來。這個構想從轉乘者的找路經驗出發，整理站牌與路線的呈現方式，減少在不同站點之間反覆確認的困擾。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0406",
+            "quote": "台北車站一號台北車站二號"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "台北車站公車",
+      "站牌編號",
+      "公車路線",
+      "駕駛疲勞"
+    ],
+    "share_body": "台北車站周邊公車站點分散，第一次轉乘常得花時間找站牌。沈伯洋在訪談提出以編號幫助辨識站點，讓乘客比較容易把路線資訊和實際位置對起來。這個構想從轉乘者的找路經驗出發，整理站牌與路線的呈現方式，減少在不同站點之間反覆確認的困擾。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t077",
+    "intro": "公車轉彎提示與捷運寧靜車廂涉及不同使用情境。受訪者提出先試辦，觀察實際利弊再調整。",
+    "official": [],
+    "interview": [
+      {
+        "text": "公車轉彎警示聲與捷運寧靜車廂，涉及乘客、行人和沿線居民的不同需要。沈伯洋在訪談談到，這類措施可先試辦，觀察實際使用與利弊，再做調整。這段討論的重點是讓交通服務透過試行和回饋改善，把安全提示、乘車感受與環境影響放在一起評估。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0406",
+            "quote": "只要往著會有危險的方向去有蜂鳴聲"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "公車轉彎警示",
+      "蜂鳴聲",
+      "捷運寧靜車廂",
+      "試辦"
+    ],
+    "share_body": "公車轉彎警示聲與捷運寧靜車廂，涉及乘客、行人和沿線居民的不同需要。沈伯洋在訪談談到，這類措施可先試辦，觀察實際使用與利弊，再做調整。這段討論的重點是讓交通服務透過試行和回饋改善，把安全提示、乘車感受與環境影響放在一起評估。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t078",
+    "intro": "AI人才與城市應用需要研究、人才培育和產業協作。官方政策及訪談提出北士科、台北研究院與人才庫等構想。",
+    "official": [
+      {
+        "text": "AI政策提出「北士科星群計畫」，結合能源、交通、六大實驗沙盒與周邊產業，引進國家新創團隊TTA，並成立台北研究院整合跨領域研究，提供科技人才與產業的應用場域。",
+        "source_urls": [
+          "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0013",
+            "quote": "打造AI 聚落——「北士科星群計畫」"
+          }
+        ]
+      }
+    ],
+    "interview": [
+      {
+        "text": "訪談把人才庫視為AI產業發展的核心，談到透過城市研究與專案實作培育人才，連結本土工作機會、海外人才參與及企業進駐。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0287",
+            "quote": "AI 產業園區真正重要的核心反而是「人才庫」"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "北士科AI",
+      "AI人才",
+      "台北研究院",
+      "城市AI應用"
+    ],
+    "share_body": "AI產業需要人才，也需要能實際運用技術的地方。沈伯洋的AI政策提出北士科星群計畫，整合能源、交通、實驗沙盒與周邊產業，引進新創團隊；台北研究院則整合跨領域城市研究。訪談強調人才庫的重要，透過城市問題與研究專案提供實作機會，讓人才培育連上產業與公共服務需求。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t079",
+    "intro": "市府內閣需兼顧政策執行、專業轉譯與跨部門協調。沈伯洋在訪談中提出三類用人方向。",
+    "official": [],
+    "interview": [
+      {
+        "text": "沈伯洋在訪談說明市府用人時，提出三類人才：執行力強的公務員、能解決實際問題的務實型學者，以及擅長溝通協調的人。他也談到充分授權、由自己評估能力與品格。用人方向同時看專業執行、把研究轉成做法，以及局處之間、府會之間的協調能力。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/transcript/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0035",
+            "quote": "我主要看重三類人才"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "市府小內閣",
+      "用人標準",
+      "公務員執行力",
+      "府會溝通"
+    ],
+    "share_body": "沈伯洋在訪談說明市府用人時，提出三類人才：執行力強的公務員、能解決實際問題的務實型學者，以及擅長溝通協調的人。他也談到充分授權、由自己評估能力與品格。用人方向同時看專業執行、把研究轉成做法，以及局處之間、府會之間的協調能力。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/transcript/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t080",
+    "intro": "問題被提出來，才有機會改善。訪談主張讓同仁向上回報，出錯後修正、避免重犯。",
+    "official": [],
+    "interview": [
+      {
+        "text": "第一線看到問題，能不能往上說，會影響組織能否修正。沈伯洋在訪談表示，他喜歡同仁把問題提出來，因為這代表還有改進空間；出錯後應趕快修正、避免重犯。這段治理想法重視向上回報與面對問題，讓日常工作中發現的困難能成為調整做法的依據。",
+        "source_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0187",
+            "quote": "問題報出來就表示有改進的空間"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "第一線回報",
+      "市府檢討",
+      "主管責任",
+      "錯誤修正"
+    ],
+    "share_body": "第一線看到問題，能不能往上說，會影響組織能否修正。沈伯洋在訪談表示，他喜歡同仁把問題提出來，因為這代表還有改進空間；出錯後應趕快修正、避免重犯。這段治理想法重視向上回報與面對問題，讓日常工作中發現的困難能成為調整做法的依據。",
+    "share_source_urls": [
+      "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t081",
+    "intro": "市民科技原型要進入市府流程，需先處理研究、法規、資安與資料整合。座談提出台北研究院作為銜接構想，Demo不等於部署。",
+    "official": [],
+    "interview": [
+      {
+        "text": "市民做出的科技原型，要進入正式市政流程，還需要研究與制度銜接。沈伯洋在市政Debug松座談提出，由台北研究院協助前期跨領域研究、法規對接、資安及資料整合，先在示範場域試辦，成熟後再交由正式制度執行。構想把活動中的點子、試驗與後續交接連起來，處理從原型到持續使用之間的工作。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0441",
+            "quote": "由台北研究院負責前期的跨領域研究"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "公民科技",
+      "市民科技原型",
+      "台北研究院",
+      "資安評估",
+      "法規對接"
+    ],
+    "share_body": "市民做出的科技原型，要進入正式市政流程，還需要研究與制度銜接。沈伯洋在市政Debug松座談提出，由台北研究院協助前期跨領域研究、法規對接、資安及資料整合，先在示範場域試辦，成熟後再交由正式制度執行。構想把活動中的點子、試驗與後續交接連起來，處理從原型到持續使用之間的工作。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t082",
+    "intro": "資訊作戰與社群內容傳播可能影響公共討論及社會信任。這是受訪者的公共議題分析，不是市政方案。",
+    "official": [],
+    "interview": [
+      {
+        "text": "沈伯洋在2023年公共議題訪談，以資助網紅、社群平台與內容傳播討論資訊操作。他認為，資訊作戰可以透過這些傳播管道接觸民眾，進而影響公共討論與社會信任。這段內容呈現他對資訊操作及平台傳播角色的分析。",
+        "source_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2023-12-27"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0222",
+            "quote": "省一顆飛彈的錢養一千個網紅"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "資訊作戰",
+      "社群傳播",
+      "資訊韌性",
+      "公共信任"
+    ],
+    "share_body": "沈伯洋在2023年公共議題訪談，以資助網紅、社群平台與內容傳播討論資訊操作。他認為，資訊作戰可以透過這些傳播管道接觸民眾，進而影響公共討論與社會信任。這段內容呈現他對資訊操作及平台傳播角色的分析。",
+    "share_source_urls": [
+      "https://puma-shen-interview.pages.dev/puma-shen-2023-12-27"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t083",
+    "intro": "明治橋的歷史意象可與現代自行車通勤需求一起考量。沈伯洋提出在陸地重現部分橋體，再銜接現代跨河橋。",
+    "official": [],
+    "interview": [
+      {
+        "text": "歷史景觀也能和自行車通勤一起思考。沈伯洋在水文化記者會提出，把明治橋的部分意象重現在河岸陸地，再延伸銜接現代自行車橋，將歷史記憶、景觀與跨河交通需求放進同一個構想。",
+        "source_urls": [
+          "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0432",
+            "quote": "我們可以做一個「自行車橋」"
+          }
+        ]
+      }
+    ],
+    "differences": [],
+    "keywords": [
+      "明治橋",
+      "自行車橋",
+      "河岸景觀",
+      "自行車通勤"
+    ],
+    "share_body": "歷史景觀也能和自行車通勤一起思考。沈伯洋在水文化記者會提出，把明治橋的部分意象重現在河岸陸地，再延伸銜接現代自行車橋，將歷史記憶、景觀與跨河交通需求放進同一個構想。",
+    "share_source_urls": [
+      "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t084",
+    "intro": "社福政策提出幼兒腸病毒與中高齡帶狀疱疹疫苗支持，分別規劃免費接種及一劑補助。",
+    "official": [
+      {
+        "text": "沈伯洋的社福政策提出兩項不同年齡階段的疫苗支持：為0至6歲幼兒提供免費腸病毒疫苗接種，並擴大提供50歲以上市民一劑帶狀疱疹（皮蛇）疫苗補助。兩項主張分別以幼兒及中高齡市民為對象，把預防性的健康支持納入不同生命階段的社福規劃。",
+        "source_urls": [
+          "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0004",
+            "quote": "推行0至6歲幼兒免費腸病毒疫苗接種"
+          }
+        ]
+      }
+    ],
+    "interview": [],
+    "differences": [],
+    "keywords": [
+      "腸病毒疫苗",
+      "帶狀疱疹疫苗",
+      "兒童疫苗補助",
+      "中高齡健康"
+    ],
+    "share_body": "沈伯洋的社福政策提出兩項不同年齡階段的疫苗支持：為0至6歲幼兒提供免費腸病毒疫苗接種，並擴大提供50歲以上市民一劑帶狀疱疹（皮蛇）疫苗補助。兩項主張分別以幼兒及中高齡市民為對象，把預防性的健康支持納入不同生命階段的社福規劃。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t085",
+    "intro": "罕病患者仰賴維生設備，停電可能帶來照護風險；行動不便者也可能需要爬梯輔具。官方政策提出兩項補助方向。",
+    "official": [
+      {
+        "text": "維生設備遇到停電、住家沒有電梯，都可能影響照顧與外出的安排。沈伯洋的社福政策提出補助罕病患者家用不斷電系統，支持醫療維生設備的用電安全；另擴大無障礙爬梯機專案補助額度。兩項做法分別回應居家維生與上下樓需求，從日常使用的設備補強支持。",
+        "source_urls": [
+          "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0004",
+            "quote": "針對罕病患者補助家用不斷電系統"
+          }
+        ]
+      }
+    ],
+    "interview": [],
+    "differences": [],
+    "keywords": [
+      "罕病維生設備",
+      "不斷電系統",
+      "無障礙爬梯機",
+      "身障支持"
+    ],
+    "share_body": "維生設備遇到停電、住家沒有電梯，都可能影響照顧與外出的安排。沈伯洋的社福政策提出補助罕病患者家用不斷電系統，支持醫療維生設備的用電安全；另擴大無障礙爬梯機專案補助額度。兩項做法分別回應居家維生與上下樓需求，從日常使用的設備補強支持。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96"
+    ],
+    "editor_notes": []
+  },
+  {
+    "id": "t086",
+    "intro": "單身女性遇到心理、社福或醫療需求時，可能需要更容易找到資源的入口。官方政策提出整合型服務專線構想。",
+    "official": [
+      {
+        "text": "遇到心理、社福或醫療需求，先找到合適的窗口就能少一些摸索。沈伯洋的社福政策提出單身女性專屬「單身不孤獨服務專線」，整合這三類資源，作為一站式身心健康支持入口。構想讓求助者透過同一管道連結不同服務，把分散的支持資源整理到更容易找到的入口。",
+        "source_urls": [
+          "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96"
+        ],
+        "evidence": [
+          {
+            "pack_id": "main",
+            "unit_id": "u0004",
+            "quote": "建置單身女性專屬「單身不孤獨服務專線」整合心理、社福及醫療資源"
+          }
+        ]
+      }
+    ],
+    "interview": [],
+    "differences": [],
+    "keywords": [
+      "單身不孤獨服務專線",
+      "單身女性",
+      "心理社福資源",
+      "一站式支持"
+    ],
+    "share_body": "遇到心理、社福或醫療需求，先找到合適的窗口就能少一些摸索。沈伯洋的社福政策提出單身女性專屬「單身不孤獨服務專線」，整合這三類資源，作為一站式身心健康支持入口。構想讓求助者透過同一管道連結不同服務，把分散的支持資源整理到更容易找到的入口。",
+    "share_source_urls": [
+      "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96"
+    ],
+    "editor_notes": []
+  }
+]

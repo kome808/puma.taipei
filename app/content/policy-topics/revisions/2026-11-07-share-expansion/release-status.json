@@ -1,0 +1,38 @@
+{
+  "status": "not_deployed_pending_purpose_review",
+  "date": "2026-11-07",
+  "reason": "User reported OpenAI political campaigning usage warning. Stop scaled campaign copy work and deployment pending a substantive purpose review.",
+  "deployed_worker_version_unchanged": "90ec93aa-9cce-4b52-9861-907aa850ac5e",
+  "live_api_disabled": false,
+  "unpublished_changes": [
+    "share copy revisions",
+    "search results immediately below search form",
+    "source-summary interface copy and metadata",
+    "source-summary task instructions",
+    "research Markdown character counts"
+  ],
+  "local_checks": {
+    "source_and_length_validation": "passed",
+    "topics": 86,
+    "revised_topics": 32,
+    "max_share_utf16": 334,
+    "build": "passed",
+    "existing_tests_passed": 65,
+    "mobile_search_layout": "390px verified"
+  },
+  "editorial_review_notes": [
+    "t030: remove unsupported coach phrase or supply matching context before any later reuse.",
+    "t021: add original excerpt covering course and exam if retained in a future permitted research context."
+  ],
+  "local_summary_copy_revision": {
+    "date": "2026-11-07",
+    "status": "verified_locally_not_deployed",
+    "description": "Describe source retrieval, AI summaries and manual copying accurately; no claim of policy approval.",
+    "brand_name_preserved": true,
+    "legacy_api_ids_preserved": true,
+    "new_real_model_generation_tests": false,
+    "existing_tests_passed": 65,
+    "summary_text_extended_in_this_revision": false,
+    "research_markdown_length_report": "app/content/policy-topics/markdown/2026-11-07_研究整理/摘要與字數說明.md"
+  }
+}

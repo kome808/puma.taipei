@@ -1,0 +1,17 @@
+{
+  "unit_id": "u0437",
+  "doc_id": "d0212",
+  "start": 0,
+  "end": 1890,
+  "chars": 1890,
+  "sha256": "efb032fffacf60ae60dd079d7a6695ab88002ffae9a3bba0d9190f263b7c6abf",
+  "title": "市政 debug 松：從十組城市提案，到 AI 教練與公民協作",
+  "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/article.md",
+  "kind": "article_attachment",
+  "entry_ids": [
+    "entry-sessions-08-814460fb18"
+  ],
+  "warnings": [],
+  "previous_context": "",
+  "text": "---\ntitle: 市政 debug 松：從十組城市提案，到 AI 教練與公民協作\ndescription: 整理市政 debug 松成果 Demo 與松後座談，涵蓋護樹、垃圾清運、鼠患、交通、都更與 AI 教練，附逐字稿與發言紀要全文、影音時間碼及下載。\ndate: '2026-10-24'\ntags:\n- 沈伯洋\n- 市政 debug 松\n- 公民科技\nkeywords:\n- 市政 debug 松\n- 沈伯洋\n- 黑客松\n- AI 教練\n- 台北程式工作組\n- 逐字稿\ntwitter:\n  card: summary\n  title: 市政 debug 松：從十組城市提案，到 AI 教練與公民協作\n  description: 整理市政 debug 松成果 Demo 與松後座談，涵蓋護樹、垃圾清運、鼠患、交通、都更與 AI 教練，附逐字稿與發言紀要全文、影音時間碼及下載。\nschema:\n  '@context': https://schema.org\n  '@type': Article\n  headline: 市政 debug 松：從十組城市提案，到 AI 教練與公民協作\n  description: 整理市政 debug 松成果 Demo 與松後座談，涵蓋護樹、垃圾清運、鼠患、交通、都更與 AI 教練，附逐字稿與發言紀要全文、影音時間碼及下載。\n  inLanguage: zh-Hant-TW\n  datePublished: '2026-10-24'\n  dateModified: '2026-10-24'\n  mainEntityOfPage: https://puma-hub.pages.dev/articles/city-debug-2026-10-24/\n  isBasedOn: https://www.youtube.com/watch?v=QP2w7IJNsuU\n---\n\n# 市政 debug 松：從十組城市提案，到 AI 教練與公民協作\n\n## 活動資訊與閱讀方式\n\n- 活動：市政 debug 松，主題為 `$ git checkout taipei`。\n- 日期：2026 年 10 月 24 日；官網公告當日以線上方式進行開發、Demo 與座談。\n- 成果 Demo 由 Brian 主持。松後座談由黑貘主持，與談人為沈伯洋、蕭上農、杜奕瑾與侯宜秀。\n- 官網入選名單列出 36 支隊伍；本篇聚焦原稿收錄的十組 Demo 流程，其中《折返點》因連線狀況未完成展示。\n\n## 十組 Demo：先看問題，再看工具\n\n## 沈伯洋講評：資訊易達、容易理解、能夠互動\n\n## 松後座談：AI 寫得出程式，如何接住城市需求？\n\n## 台北研究院：從原型到公務體系之間的工作\n\n## AI 教練：讓工具走進工作現場\n\n## 台北程式工作組：活動之後繼續協作\n\n## 來源、時間碼與逐字稿說明\n\n- 本文依使用者提供的 `debug.md` 整理，原始檔完整提供下載，未改寫其中對話。\n- 原直播為原稿所附影音。片長、音軌切換及自動字幕恢復時間依原稿記載，未逐秒聽校（needs verification）。\n- 原稿第 12 章自 00:55:50 後、第 13 章為混合來源或核心發言整理，引用時須區分逐字轉錄與紀要（needs verification）。\n- 原稿時間表將第 14 章起點列為 02:05:20，正文則為 02:05:10，另有 00:45:17 發言早於該章時間區間；全文保留差異，時間碼供定位（needs verification）。\n- 官網可核對 36 組入選；原稿的 324 人報名、94 人錄取及 34 至 36 組說法未完整核實（needs verification）。颱風名稱與改線上原因亦依原稿保留待查證。\n- 原稿所引自由時報、太報、華視、鏡報、三立、ETtoday 與 PTT 部分連結目前無法取得完整內容；作者、日期與具體引文仍待核對（needs verification）。原稿提到的國際文獻未列作者、年份與 DOI（needs verification），本次未新增 DOI。\n\n## 延伸閱讀\n\n- [看見縫隙：公共空間與城市治理](/articles/in-between-spaces-2026-10-22/)\n- [房業涵專訪：市民提問、居住與城市智庫](/articles/fang-yehan-2026-10-20/)\n- [回到 PUMA HUB 全部文章](/)\n"
+}

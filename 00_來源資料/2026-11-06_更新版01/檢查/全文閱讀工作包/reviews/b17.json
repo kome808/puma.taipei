@@ -1,0 +1,333 @@
+{
+  "batch_id": "b17",
+  "read_units": [
+    {
+      "unit_id": "u0222",
+      "doc_id": "d0106",
+      "start": 0,
+      "end": 5995,
+      "sha256": "6401be3feb219eb9d450ebf88f6477766e289614fe85926dcebee035caff8b18",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0223",
+      "doc_id": "d0106",
+      "start": 5995,
+      "end": 8115,
+      "sha256": "7e86ba0c99f569c9d98407454153b30e81b337cf099479e8b15701e78894c472",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0224",
+      "doc_id": "d0107",
+      "start": 0,
+      "end": 5890,
+      "sha256": "9e075b364107a2f764beda7095835e1232722cce3fedfd5b740a332ad0d11eaa",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0225",
+      "doc_id": "d0107",
+      "start": 5890,
+      "end": 11752,
+      "sha256": "ca9f08a01cb57eb8283ffafdbb2697b06826101fa1f0ccff4a562685c946760a",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0226",
+      "doc_id": "d0107",
+      "start": 11752,
+      "end": 17611,
+      "sha256": "4d66ae2f25124da6562f57053a78153d5d8b157287261c0e1151fd8b8eaa02c8",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0227",
+      "doc_id": "d0107",
+      "start": 17611,
+      "end": 18153,
+      "sha256": "264215893101d5fd3fe55073dd54e4ef829a8faf57508b55b1a88ed4a974db6c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0228",
+      "doc_id": "d0108",
+      "start": 0,
+      "end": 5976,
+      "sha256": "2f6bbaad64bf3f897d0a58fc22d5f42ee93d380437a544867254baa3a40251f0",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0229",
+      "doc_id": "d0108",
+      "start": 5976,
+      "end": 11894,
+      "sha256": "7f7ede7f31538dbb3e2a4c1b550efb322d802f7f00bc5375d9651f223bd83964",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0230",
+      "doc_id": "d0108",
+      "start": 11894,
+      "end": 17427,
+      "sha256": "733e95a1d4cd16f944ee74b210c921a321846983608dd49cb49586fd5cbc2427",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0231",
+      "doc_id": "d0109",
+      "start": 0,
+      "end": 4547,
+      "sha256": "8f0af22029a4fac3e1dca06b556744f8f2fc761b559d58a4d3c33b00c6840bd3",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0232",
+      "doc_id": "d0110",
+      "start": 0,
+      "end": 3667,
+      "sha256": "422ee0cf43f60b76b0c41bf43780cdc7f96ba15caa37d4e3a8b6409f8f5239f8",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0233",
+      "doc_id": "d0111",
+      "start": 0,
+      "end": 4383,
+      "sha256": "a66ad1dda80179646d09a76a5f94cbaf9fe443ceb6e924c1d612bed32bde453d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0234",
+      "doc_id": "d0112",
+      "start": 0,
+      "end": 3820,
+      "sha256": "33d73519c4c1a70a879ec506fa5ee35773741f71d644aff58ed25e54bd7573f9",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0106",
+      "title": "一顆飛彈的錢，可以養一千個網紅",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2023-12-27",
+      "summary": "2023年訪談談資訊作戰、社群平台與個人投入公共議題的經歷。整體屬國安及個人故事脈絡，非市政政見。",
+      "attributable_claims": [
+        "沈伯洋談資訊操作與社群傳播案例",
+        "談公共安全網及自身投入政治的緣由"
+      ],
+      "caveats": [
+        "訪談早於市長選舉，勿解讀為台北市政方案"
+      ],
+      "topic_keys": [
+        "context-information-resilience"
+      ]
+    },
+    {
+      "doc_id": "d0107",
+      "title": "「戒慎恐懼之夜」活動整理：沈伯洋、蘇巧慧與北台灣候選人同台",
+      "url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/",
+      "summary": "選舉活動整理，含主持、沈伯洋脫口秀、其他候選人政策問答與政見、蘇巧慧及錄影致詞等。沈伯洋可辨識市政提及包括運動設施，其他候選人交通提案不可歸給他。",
+      "attributable_claims": [
+        "沈伯洋談運動設施及選戰笑談"
+      ],
+      "caveats": [
+        "原稿有摘要與可能錯置講者/時間；活動文與逐字頁是同一場次不同版本"
+      ],
+      "topic_keys": [
+        "community-sports-facilities"
+      ]
+    },
+    {
+      "doc_id": "d0108",
+      "title": "「戒慎恐懼之夜」活動整理：沈伯洋、蘇巧慧與北台灣候選人同台｜逐字稿",
+      "url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/transcript/",
+      "summary": "與d0107相同活動的逐字稿頁，含跨候選人發言及活動流程；與活動整理互為同源版本，非獨立證據。",
+      "attributable_claims": [
+        "沈伯洋就運動設施發言，另有校園午餐笑談"
+      ],
+      "caveats": [
+        "部分未標明可靠逐句講者，摘要段落需謹慎；候選人交通政見屬黃世杰、林國漳"
+      ],
+      "topic_keys": [
+        "community-sports-facilities"
+      ]
+    },
+    {
+      "doc_id": "d0109",
+      "title": "沈伯洋拜會前議長陳健治：從府會溝通談跨黨派合作",
+      "url": "https://puma-hub.pages.dev/articles/chen-chien-chih-visit-2026-11-05/",
+      "summary": "記錄拜會前後聯訪及閉門會談外的公開發言。沈伯洋談府會協商、跨黨派合作及請益前輩，閉門內容不在稿內。",
+      "attributable_claims": [
+        "沈伯洋稱推動市政需跨黨派合作與協商",
+        "會前表示關注內湖議題及府會溝通"
+      ],
+      "caveats": [
+        "原稿未逐句核影音；閉門會談內容缺席"
+      ],
+      "topic_keys": [
+        "cross-party-city-governance"
+      ]
+    },
+    {
+      "doc_id": "d0110",
+      "title": "沈伯洋拜會前議長陳健治：從府會溝通談跨黨派合作｜逐字稿原稿",
+      "url": "https://puma-hub.pages.dev/articles/chen-chien-chih-visit-2026-11-05/transcript/",
+      "summary": "與d0109同一拜會的提供逐字稿版本，重述會前會後聯訪，並含陳健治及記者發言。",
+      "attributable_claims": [
+        "沈伯洋表示市府推動政策會面臨多黨合作與協商"
+      ],
+      "caveats": [
+        "同源重複版本；未逐句核影音，閉門內容未收錄"
+      ],
+      "topic_keys": [
+        "cross-party-city-governance"
+      ]
+    },
+    {
+      "doc_id": "d0111",
+      "title": "台北市長辯論後記者會：沈伯洋回應辯論與選戰",
+      "url": "https://puma-hub.pages.dev/articles/taipei-debate-press-2026-10-31/",
+      "summary": "辯論後沈伯洋及競選總幹事吳思瑤接受訪問；主體是辯論與選戰策略，涉及對手的說法屬發言者評價。",
+      "attributable_claims": [
+        "沈伯洋主張選舉多談政策，少處理負面標籤",
+        "談以理解後的話表達及計時器使用"
+      ],
+      "caveats": [
+        "整理稿含濃縮及時間碼跳接，影音未核；吳思瑤批評不可歸沈"
+      ],
+      "topic_keys": [
+        "context-campaign-dialogue"
+      ]
+    },
+    {
+      "doc_id": "d0112",
+      "title": "台北市長辯論後記者會：沈伯洋回應辯論與選戰｜提供原稿",
+      "url": "https://puma-hub.pages.dev/articles/taipei-debate-press-2026-10-31/transcript/",
+      "summary": "與d0111同場記者會的逐字稿原稿頁，內容含沈伯洋、吳思瑤、媒體及幕僚發言。",
+      "attributable_claims": [
+        "沈伯洋說市政應接續推動，舉捷運與營養午餐為例",
+        "以依市民關心議題溝通描述選戰方式"
+      ],
+      "caveats": [
+        "整理稿且尚未影音核對；吳思瑤發言須與沈伯洋區分"
+      ],
+      "topic_keys": [
+        "context-campaign-dialogue"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "府會溝通與跨黨派協作",
+      "question": "市府如何在不同黨派與議會間協商，推動市政？",
+      "points": [
+        "沈伯洋表示拜會前議長是請益府會折衝與溝通經驗。",
+        "他主張市政推動需要跨黨派合作、遇歧見時協調。",
+        "公開稿未記錄閉門談話的具體制度或方案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0231",
+          "doc_id": "d0109",
+          "url": "https://puma-hub.pages.dev/articles/chen-chien-chih-visit-2026-11-05/",
+          "section_or_timestamp": "會前媒體聯訪",
+          "speaker": "沈伯洋",
+          "support_excerpt": "府會之間要怎麼折衝"
+        },
+        {
+          "unit_id": "u0231",
+          "doc_id": "d0109",
+          "url": "https://puma-hub.pages.dev/articles/chen-chien-chih-visit-2026-11-05/",
+          "section_or_timestamp": "會後媒體聯訪",
+          "speaker": "沈伯洋",
+          "support_excerpt": "市政其實非常需要跨黨派的合作"
+        },
+        {
+          "unit_id": "u0232",
+          "doc_id": "d0110",
+          "url": "https://puma-hub.pages.dev/articles/chen-chien-chih-visit-2026-11-05/transcript/",
+          "section_or_timestamp": "會後媒體聯訪",
+          "speaker": "沈伯洋",
+          "support_excerpt": "遇到歧見要怎麼協調"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "d0110與d0109同一拜會，為逐字稿版本"
+      ]
+    },
+    {
+      "working_title": "運動設施與跑步休憩需求",
+      "question": "市民運動時能否在路線節點取得基本休憩與整理空間？",
+      "points": [
+        "活動發言提及在運動路線關鍵節點設置可洗澡、更衣的設施。",
+        "目前單元中的內容是活動演說片段，服務形式與場址尚未細化。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0225",
+          "doc_id": "d0107",
+          "url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/",
+          "section_or_timestamp": "沈伯洋活動發言，約00:28前段",
+          "speaker": "沈伯洋",
+          "support_excerpt": "身體有弄髒啊、有流汗"
+        },
+        {
+          "unit_id": "u0228",
+          "doc_id": "d0108",
+          "url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/transcript/",
+          "section_or_timestamp": "沈伯洋活動發言，對應活動逐字稿",
+          "speaker": "沈伯洋",
+          "support_excerpt": "可以有地方盥洗整理"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "d0108與d0107為同場活動不同版本"
+      ]
+    },
+    {
+      "working_title": "校園午餐笑談及選戰論述",
+      "question": "選戰發言如何提及既有市政服務的延續？",
+      "points": [
+        "沈伯洋以捷運及免費營養午餐舉例說明市政具有延續性。",
+        "活動中對校園餐食的其他提及帶有笑談性質，未構成具體供餐方案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0234",
+          "doc_id": "d0112",
+          "url": "https://puma-hub.pages.dev/articles/taipei-debate-press-2026-10-31/transcript/",
+          "section_or_timestamp": "辯論後記者會，市政一棒接一棒段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "現在不要免費營養午餐"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": [
+        "d0111同一記者會整理版；此處引用逐字原稿單元"
+      ]
+    },
+    {
+      "working_title": "資訊作戰訪談脈絡",
+      "question": "沈伯洋如何描述網路資訊操作及公共安全？",
+      "points": [
+        "2023年訪談以國安、社群傳播與個人經歷為主。",
+        "其中的社會安全網和資訊韌性談法屬一般公共議題，不能直接當作市府方案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0222",
+          "doc_id": "d0106",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2023-12-27",
+          "section_or_timestamp": "訪談前段",
+          "speaker": "沈伯洋",
+          "support_excerpt": "省一顆飛彈的錢養一千個網紅"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    }
+  ]
+}

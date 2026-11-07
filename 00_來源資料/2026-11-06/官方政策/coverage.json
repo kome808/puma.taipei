@@ -1,0 +1,1223 @@
+{
+  "snapshot_date": "2026-11-06",
+  "timezone": "Asia/Taipei",
+  "seed_url": "https://puma.taipei/policies",
+  "policy_index_items": [
+    {
+      "position": 1,
+      "title": "教育政策",
+      "source_url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96"
+    },
+    {
+      "position": 2,
+      "title": "交通政策",
+      "source_url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96"
+    },
+    {
+      "position": 3,
+      "title": "社福政策",
+      "source_url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96"
+    },
+    {
+      "position": 4,
+      "title": "台北文化徑×山林徑",
+      "source_url": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91"
+    },
+    {
+      "position": 5,
+      "title": "都市微森林",
+      "source_url": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97"
+    },
+    {
+      "position": 6,
+      "title": "青年政策",
+      "source_url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96"
+    },
+    {
+      "position": 7,
+      "title": "運動政策",
+      "source_url": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96"
+    },
+    {
+      "position": 8,
+      "title": "家庭一站通",
+      "source_url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A"
+    },
+    {
+      "position": 9,
+      "title": "公務員政策",
+      "source_url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96"
+    },
+    {
+      "position": 10,
+      "title": "親子同行卡",
+      "source_url": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1"
+    },
+    {
+      "position": 11,
+      "title": "水域政策",
+      "source_url": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96"
+    },
+    {
+      "position": 12,
+      "title": "AI政策",
+      "source_url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96"
+    },
+    {
+      "position": 13,
+      "title": "客家政策",
+      "source_url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96"
+    },
+    {
+      "position": 14,
+      "title": "城市外交",
+      "source_url": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4"
+    },
+    {
+      "position": 15,
+      "title": "營養午餐",
+      "source_url": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90"
+    }
+  ],
+  "retrieved_pages": [
+    {
+      "id": "policy_index",
+      "title": "政見",
+      "kind": "policy_index",
+      "source_url": "https://puma.taipei/policies",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_index.html",
+      "text_path": "官方政策/policy_index.md"
+    },
+    {
+      "id": "policy_01_教育政策",
+      "title": "教育政策",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_01_教育政策.html",
+      "text_path": "官方政策/policy_01_教育政策.md"
+    },
+    {
+      "id": "policy_02_交通政策",
+      "title": "交通政策",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_02_交通政策.html",
+      "text_path": "官方政策/policy_02_交通政策.md"
+    },
+    {
+      "id": "policy_03_社福政策",
+      "title": "社福政策",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_03_社福政策.html",
+      "text_path": "官方政策/policy_03_社福政策.md"
+    },
+    {
+      "id": "policy_04_台北文化徑_山林徑",
+      "title": "台北文化徑×山林徑",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_04_台北文化徑_山林徑.html",
+      "text_path": "官方政策/policy_04_台北文化徑_山林徑.md"
+    },
+    {
+      "id": "policy_05_都市微森林",
+      "title": "都市微森林",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_05_都市微森林.html",
+      "text_path": "官方政策/policy_05_都市微森林.md"
+    },
+    {
+      "id": "policy_06_青年政策",
+      "title": "青年政策",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_06_青年政策.html",
+      "text_path": "官方政策/policy_06_青年政策.md"
+    },
+    {
+      "id": "policy_07_運動政策",
+      "title": "運動政策",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_07_運動政策.html",
+      "text_path": "官方政策/policy_07_運動政策.md"
+    },
+    {
+      "id": "policy_08_家庭一站通",
+      "title": "家庭一站通",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_08_家庭一站通.html",
+      "text_path": "官方政策/policy_08_家庭一站通.md"
+    },
+    {
+      "id": "policy_09_公務員政策",
+      "title": "公務員政策",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_09_公務員政策.html",
+      "text_path": "官方政策/policy_09_公務員政策.md"
+    },
+    {
+      "id": "policy_10_親子同行卡",
+      "title": "親子同行卡",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_10_親子同行卡.html",
+      "text_path": "官方政策/policy_10_親子同行卡.md"
+    },
+    {
+      "id": "policy_11_水域政策",
+      "title": "水域政策",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_11_水域政策.html",
+      "text_path": "官方政策/policy_11_水域政策.md"
+    },
+    {
+      "id": "policy_12_AI政策",
+      "title": "AI政策",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_12_AI政策.html",
+      "text_path": "官方政策/policy_12_AI政策.md"
+    },
+    {
+      "id": "policy_13_客家政策",
+      "title": "客家政策",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_13_客家政策.html",
+      "text_path": "官方政策/policy_13_客家政策.md"
+    },
+    {
+      "id": "policy_14_城市外交",
+      "title": "城市外交",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_14_城市外交.html",
+      "text_path": "官方政策/policy_14_城市外交.md"
+    },
+    {
+      "id": "policy_15_營養午餐",
+      "title": "營養午餐",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "status": "downloaded",
+      "raw_path": "官方政策/policy_15_營養午餐.html",
+      "text_path": "官方政策/policy_15_營養午餐.md"
+    },
+    {
+      "id": "heart_framework",
+      "title": "你是台北的哪一種人？",
+      "kind": "framework_page",
+      "source_url": "https://puma.taipei/heart",
+      "status": "downloaded",
+      "raw_path": "官方政策/heart_framework.html",
+      "text_path": "官方政策/heart_framework.md"
+    },
+    {
+      "id": "heart_island",
+      "title": "HEART 政策島｜沈伯洋・台北順起來",
+      "kind": "framework_page",
+      "source_url": "https://puma.taipei/heart-island",
+      "status": "downloaded",
+      "raw_path": "官方政策/heart_island.html",
+      "text_path": "官方政策/heart_island.md"
+    },
+    {
+      "id": "heart_quiz_1",
+      "title": "你是台北的哪一種人？",
+      "kind": "framework_page",
+      "source_url": "https://puma.taipei/heart/quiz/1",
+      "status": "downloaded",
+      "raw_path": "官方政策/heart_quiz_1.html",
+      "text_path": "官方政策/heart_quiz_1.md"
+    },
+    {
+      "id": "heart_axis_h",
+      "title": "政見主軸：空間 · Habitat",
+      "kind": "heart_axis",
+      "source_url": "https://puma.taipei/policy/heart/h",
+      "status": "downloaded",
+      "raw_path": "官方政策/heart_axis_h.html",
+      "text_path": "官方政策/heart_axis_h.md"
+    },
+    {
+      "id": "heart_axis_e",
+      "title": "政見主軸：培力與機會 · Empower",
+      "kind": "heart_axis",
+      "source_url": "https://puma.taipei/policy/heart/e",
+      "status": "downloaded",
+      "raw_path": "官方政策/heart_axis_e.html",
+      "text_path": "官方政策/heart_axis_e.md"
+    },
+    {
+      "id": "heart_axis_a",
+      "title": "政見主軸：陪伴 · Accompany",
+      "kind": "heart_axis",
+      "source_url": "https://puma.taipei/policy/heart/a",
+      "status": "downloaded",
+      "raw_path": "官方政策/heart_axis_a.html",
+      "text_path": "官方政策/heart_axis_a.md"
+    },
+    {
+      "id": "heart_axis_r",
+      "title": "政見主軸：韌性與安心 · Resilience",
+      "kind": "heart_axis",
+      "source_url": "https://puma.taipei/policy/heart/r",
+      "status": "downloaded",
+      "raw_path": "官方政策/heart_axis_r.html",
+      "text_path": "官方政策/heart_axis_r.md"
+    },
+    {
+      "id": "heart_axis_t",
+      "title": "政見主軸：時間 · Time",
+      "kind": "heart_axis",
+      "source_url": "https://puma.taipei/policy/heart/t",
+      "status": "downloaded",
+      "raw_path": "官方政策/heart_axis_t.html",
+      "text_path": "官方政策/heart_axis_t.md"
+    }
+  ],
+  "framework_pages_in_scope": [
+    {
+      "id": "heart_framework",
+      "title": "HEART 政策生態系",
+      "source_url": "https://puma.taipei/heart"
+    },
+    {
+      "id": "heart_island",
+      "title": "HEART 政策島",
+      "source_url": "https://puma.taipei/heart-island"
+    },
+    {
+      "id": "heart_quiz_1",
+      "title": "伯洋分類帽（HEART 政策分類測驗）",
+      "source_url": "https://puma.taipei/heart/quiz/1"
+    },
+    {
+      "id": "heart_axis_h",
+      "title": "HEART 主軸 H",
+      "source_url": "https://puma.taipei/policy/heart/h"
+    },
+    {
+      "id": "heart_axis_e",
+      "title": "HEART 主軸 E",
+      "source_url": "https://puma.taipei/policy/heart/e"
+    },
+    {
+      "id": "heart_axis_a",
+      "title": "HEART 主軸 A",
+      "source_url": "https://puma.taipei/policy/heart/a"
+    },
+    {
+      "id": "heart_axis_r",
+      "title": "HEART 主軸 R",
+      "source_url": "https://puma.taipei/policy/heart/r"
+    },
+    {
+      "id": "heart_axis_t",
+      "title": "HEART 主軸 T",
+      "source_url": "https://puma.taipei/policy/heart/t"
+    }
+  ],
+  "failed_or_missing": [],
+  "image_only_content": [
+    {
+      "status": "not_ocr",
+      "identified": [],
+      "notes": "未對政策圖片或圖片附件內文字進行 OCR；無法判定圖片是否含有未出現在 HTML 的政策內容。所有候選內容圖片均以 policy_images 或 policy_attachments 記錄並保留來源頁對應。"
+    }
+  ],
+  "policy_images": [
+    {
+      "id": "policy_01_教育政策__image_330ca18dae33",
+      "source_url": "https://media.puma.taipei/files/200/01M3X2SD9CX5B5H5JR6WB4FWGA.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_01_教育政策_330ca18dae33.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/e；另見頁面：https://puma.taipei/policy/heart/a"
+    },
+    {
+      "id": "policy_01_教育政策__image_c725cbd5ba3a",
+      "source_url": "https://media.puma.taipei/files/244/conversions/01M4DG0RC8N6XB26WX5BD1P0VT-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_01_教育政策_c725cbd5ba3a.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_01_教育政策__image_6750f10567f4",
+      "source_url": "https://media.puma.taipei/files/274/conversions/01M4NAK4G1FTBFY25PW28R75ZK-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_01_教育政策_6750f10567f4.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_01_教育政策__image_c8a7ef5cedfb",
+      "source_url": "https://media.puma.taipei/files/246/conversions/01M4DG13AJCWETJJ9D8MNXNRNC-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_01_教育政策_c8a7ef5cedfb.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_01_教育政策__image_d9d99eeeffce",
+      "source_url": "https://media.puma.taipei/files/247/conversions/01M4DG18H9CZRXRCZ6KVGHHXV5-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_01_教育政策_d9d99eeeffce.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_02_交通政策__image_c8b762911ea0",
+      "source_url": "https://media.puma.taipei/files/193/01M2KYP737B6KS45R03NPZZGV6.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_02_交通政策_c8b762911ea0.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/h；另見頁面：https://puma.taipei/policy/heart/t"
+    },
+    {
+      "id": "policy_02_交通政策__image_fa5eabb4b623",
+      "source_url": "https://media.puma.taipei/files/223/conversions/01M4DERB5AQ2HS73VSR55574TD-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_02_交通政策_fa5eabb4b623.webp",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_02_交通政策__image_a3f88c21a6b2",
+      "source_url": "https://media.puma.taipei/files/224/conversions/01M4DERGKVCZA7ZYY2WZ9SA87V-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_02_交通政策_a3f88c21a6b2.webp",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_02_交通政策__image_73e26897ce90",
+      "source_url": "https://media.puma.taipei/files/225/conversions/01M4DERP8RBJC94D4ZCA1Y700Y-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_02_交通政策_73e26897ce90.webp",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_02_交通政策__image_afae879a9357",
+      "source_url": "https://media.puma.taipei/files/226/conversions/01M4DERVM4FRK7ADMCFGXDBQW1-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_02_交通政策_afae879a9357.webp",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_02_交通政策__image_d377bb2d0e19",
+      "source_url": "https://media.puma.taipei/files/143/conversions/01M2MPZR4ZRXX0EJ7W2KG34BKG-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_02_交通政策_d377bb2d0e19.webp",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_03_社福政策__image_49b595a5b36d",
+      "source_url": "https://media.puma.taipei/files/192/01M27QHKA28GR3A2D42HY8K675.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_03_社福政策_49b595a5b36d.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/e；另見頁面：https://puma.taipei/policy/heart/a；另見頁面：https://puma.taipei/policy/heart/r"
+    },
+    {
+      "id": "policy_03_社福政策__image_44e1aefb72f9",
+      "source_url": "https://media.puma.taipei/files/227/conversions/01M4DEZWPQBNNKV8ERY529XXZR-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_03_社福政策_44e1aefb72f9.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_03_社福政策__image_eabc7a6e7c04",
+      "source_url": "https://media.puma.taipei/files/228/conversions/01M4DF022EDJ2GC6YJEFFVM4TG-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_03_社福政策_eabc7a6e7c04.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_03_社福政策__image_435a05fe3ab8",
+      "source_url": "https://media.puma.taipei/files/229/conversions/01M4DF07AJ3EX3M20C532PN7VF-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_03_社福政策_435a05fe3ab8.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_03_社福政策__image_91630bcf974d",
+      "source_url": "https://media.puma.taipei/files/230/conversions/01M4DF0CJB31N53AQ85CCZYPX7-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_03_社福政策_91630bcf974d.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_03_社福政策__image_b5e09c18a91c",
+      "source_url": "https://media.puma.taipei/files/273/conversions/01M4N9RR5BE37Z28XAGK8J94CP-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_03_社福政策_b5e09c18a91c.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_04_台北文化徑_山林徑__image_0c3e1a835b59",
+      "source_url": "https://media.puma.taipei/files/191/01M204R77HRB5EZ9GQ55DB1TBC.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_04_台北文化徑_山林徑_0c3e1a835b59.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/h；另見頁面：https://puma.taipei/policy/heart/a"
+    },
+    {
+      "id": "policy_04_台北文化徑_山林徑__image_6b2b8c93fc2b",
+      "source_url": "https://media.puma.taipei/files/128/conversions/01M20MBANF6ZAZ4HGBWQ9S21WK-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_04_台北文化徑_山林徑_6b2b8c93fc2b.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_04_台北文化徑_山林徑__image_dfd669d0e8c2",
+      "source_url": "https://media.puma.taipei/files/129/conversions/01M20MBD3SX0BPPW3SBB0ZGVF3-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_04_台北文化徑_山林徑_dfd669d0e8c2.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_04_台北文化徑_山林徑__image_424f909d7676",
+      "source_url": "https://media.puma.taipei/files/130/conversions/01M20MBFBFSYGX1281XTWN21WN-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_04_台北文化徑_山林徑_424f909d7676.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_04_台北文化徑_山林徑__image_a169a212ec31",
+      "source_url": "https://media.puma.taipei/files/131/conversions/01M20MBHNZWBR9MQZXFEFCCRP9-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_04_台北文化徑_山林徑_a169a212ec31.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_04_台北文化徑_山林徑__image_fc5f2398b16f",
+      "source_url": "https://media.puma.taipei/files/132/conversions/01M20MBKR7D771MMTK6V5HT7NW-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_04_台北文化徑_山林徑_fc5f2398b16f.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_04_台北文化徑_山林徑__image_0a7f3b7e7e8f",
+      "source_url": "https://media.puma.taipei/files/219/conversions/01M4DEJBTRH50NGFKK7XQWT73Y-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_04_台北文化徑_山林徑_0a7f3b7e7e8f.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_04_台北文化徑_山林徑__image_f91caaaf118b",
+      "source_url": "https://media.puma.taipei/files/220/conversions/01M4DEJH0P7QZYMK2ZMG70NW0W-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_04_台北文化徑_山林徑_f91caaaf118b.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_04_台北文化徑_山林徑__image_1bfcf0167531",
+      "source_url": "https://media.puma.taipei/files/221/conversions/01M4DEJP6KVY43RCRWXN91FJE7-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_04_台北文化徑_山林徑_1bfcf0167531.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_04_台北文化徑_山林徑__image_b51f53ced508",
+      "source_url": "https://media.puma.taipei/files/222/conversions/01M4DEJVKNS4P202P30CVTWVRB-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_04_台北文化徑_山林徑_b51f53ced508.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_05_都市微森林__image_f6eb0c8c4ccb",
+      "source_url": "https://media.puma.taipei/files/190/01M22BJFVPR3M9GMA3NME26KKJ.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_05_都市微森林_f6eb0c8c4ccb.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/h；另見頁面：https://puma.taipei/policy/heart/r"
+    },
+    {
+      "id": "policy_05_都市微森林__image_c5060d847060",
+      "source_url": "https://media.puma.taipei/files/248/conversions/01M4DG76DTZK8C0TY5Y1YKP0P5-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_05_都市微森林_c5060d847060.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_05_都市微森林__image_a4ec854ca20d",
+      "source_url": "https://media.puma.taipei/files/249/conversions/01M4DG7CD2JBX2MDE9R0NHJM97-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_05_都市微森林_a4ec854ca20d.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_05_都市微森林__image_57fa030229c7",
+      "source_url": "https://media.puma.taipei/files/250/conversions/01M4DG7JRNXK5NVK1KM6K1HG97-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_05_都市微森林_57fa030229c7.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_05_都市微森林__image_9d87640eea3f",
+      "source_url": "https://media.puma.taipei/files/251/conversions/01M4DG7TV1W1N6J43XCNXMV0D9-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_05_都市微森林_9d87640eea3f.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_05_都市微森林__image_262fe541cc7c",
+      "source_url": "https://media.puma.taipei/files/252/conversions/01M4DG816NABRG7J6NY57FHYFH-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_05_都市微森林_262fe541cc7c.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_06_青年政策__image_6d976dfb5d30",
+      "source_url": "https://media.puma.taipei/files/189/01M22F84RM3173Q1NDGXRYEHTD.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_06_青年政策_6d976dfb5d30.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/e；另見頁面：https://puma.taipei/policy/heart/t"
+    },
+    {
+      "id": "policy_06_青年政策__image_b14358a62817",
+      "source_url": "https://media.puma.taipei/files/232/conversions/01M4DF3HKJEMSXYEPM2KTJ6ME5-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_06_青年政策_b14358a62817.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_06_青年政策__image_6d9a8cb19481",
+      "source_url": "https://media.puma.taipei/files/233/conversions/01M4DF3Q4MM1WKQ33P8AS7J154-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_06_青年政策_6d9a8cb19481.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_06_青年政策__image_9200d578ed63",
+      "source_url": "https://media.puma.taipei/files/234/conversions/01M4DF3W6PNA5NDV46QK73QS20-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_06_青年政策_9200d578ed63.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_07_運動政策__image_0497293a18ae",
+      "source_url": "https://media.puma.taipei/files/187/01M277H9CVHEQMGE13CWFY51KW.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_07_運動政策_0497293a18ae.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/h；另見頁面：https://puma.taipei/policy/heart/e；另見頁面：https://puma.taipei/policy/heart/t"
+    },
+    {
+      "id": "policy_07_運動政策__image_4fb42607d878",
+      "source_url": "https://media.puma.taipei/files/253/conversions/01M4DGBYP35GAB0NMTYWAKKQ62-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_07_運動政策_4fb42607d878.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_07_運動政策__image_07f921010b7c",
+      "source_url": "https://media.puma.taipei/files/254/conversions/01M4DGC4HTHFWD9B6G7ZJNMZ95-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_07_運動政策_07f921010b7c.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_07_運動政策__image_763db9e99f1c",
+      "source_url": "https://media.puma.taipei/files/255/conversions/01M4DGC9H03JEKD54EKFVDBR3T-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_07_運動政策_763db9e99f1c.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_07_運動政策__image_522c66f05fe1",
+      "source_url": "https://media.puma.taipei/files/256/conversions/01M4DGCEE57YPV1W4JWK0PXFHM-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_07_運動政策_522c66f05fe1.webp",
+      "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_08_家庭一站通__image_1807c54a46a2",
+      "source_url": "https://media.puma.taipei/files/184/01M24TGF36PVV7NNT8WKCRRB53.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_08_家庭一站通_1807c54a46a2.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/a；另見頁面：https://puma.taipei/policy/heart/r；另見頁面：https://puma.taipei/policy/heart/t"
+    },
+    {
+      "id": "policy_08_家庭一站通__image_f65b3b56434e",
+      "source_url": "https://media.puma.taipei/files/240/conversions/01M4DFTG203ZNZJCG96NBVAV5C-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_08_家庭一站通_f65b3b56434e.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_08_家庭一站通__image_0b389d32f6d2",
+      "source_url": "https://media.puma.taipei/files/241/conversions/01M4DFTNQF89CG3NJ1WYJHAZPQ-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_08_家庭一站通_0b389d32f6d2.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_08_家庭一站通__image_3cee2afa2d22",
+      "source_url": "https://media.puma.taipei/files/242/conversions/01M4DFTTSC9X1SHFNQA31JRDSP-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_08_家庭一站通_3cee2afa2d22.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_08_家庭一站通__image_314fb490360f",
+      "source_url": "https://media.puma.taipei/files/243/conversions/01M4DFTZSRYC2S7PAPKFDXETQ2-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_08_家庭一站通_314fb490360f.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_09_公務員政策__image_cead629b6ea2",
+      "source_url": "https://media.puma.taipei/files/171/01M24R6Y5WK33KKXBQKQ8GS0P9.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_09_公務員政策_cead629b6ea2.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/t"
+    },
+    {
+      "id": "policy_09_公務員政策__image_81fc2aa74181",
+      "source_url": "https://media.puma.taipei/files/216/conversions/01M4DCRBEAX8ADQDMTN5C9HF8Z-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_09_公務員政策_81fc2aa74181.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_09_公務員政策__image_1d624bf8480e",
+      "source_url": "https://media.puma.taipei/files/217/conversions/01M4DCRJH1377KWH4WPDXWXHHX-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_09_公務員政策_1d624bf8480e.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_09_公務員政策__image_cf806fe27806",
+      "source_url": "https://media.puma.taipei/files/218/conversions/01M4DCRS0Y2JHBBTBSC4CM49YD-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_09_公務員政策_cf806fe27806.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_10_親子同行卡__image_4912ac9bbf08",
+      "source_url": "https://media.puma.taipei/files/169/01M24R99W8JSPB6WXMTHK15Y70.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_10_親子同行卡_4912ac9bbf08.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/a；另見頁面：https://puma.taipei/policy/heart/t"
+    },
+    {
+      "id": "policy_10_親子同行卡__image_ef8216779e3a",
+      "source_url": "https://media.puma.taipei/files/257/conversions/01M4DGJ68Q7BC5SQBB2F8M08P5-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_10_親子同行卡_ef8216779e3a.webp",
+      "discovered_from": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_10_親子同行卡__image_c6925dd916db",
+      "source_url": "https://media.puma.taipei/files/258/conversions/01M4DGJBZHVC3K6ERHKDXG04BV-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_10_親子同行卡_c6925dd916db.webp",
+      "discovered_from": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_10_親子同行卡__image_0e62c6be7383",
+      "source_url": "https://media.puma.taipei/files/259/conversions/01M4DGJH6B0B7YJKB72PKMPCDD-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_10_親子同行卡_0e62c6be7383.webp",
+      "discovered_from": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_10_親子同行卡__image_4dac68a5eb61",
+      "source_url": "https://media.puma.taipei/files/260/conversions/01M4DGJPCQBCFCCRC8B48AY8Q8-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_10_親子同行卡_4dac68a5eb61.webp",
+      "discovered_from": "https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_11_水域政策__image_21fa3026f9cf",
+      "source_url": "https://media.puma.taipei/files/381/RIv9vvP8qHzyasGNsvJtqD9TwZFrXHe02CGY00f6.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_11_水域政策_21fa3026f9cf.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/h；另見頁面：https://puma.taipei/policy/heart/a；另見頁面：https://puma.taipei/policy/heart/r"
+    },
+    {
+      "id": "policy_11_水域政策__image_b34b7bc2be2f",
+      "source_url": "https://media.puma.taipei/files/382/conversions/Fy774uBoyYq7ffUu3l5FSirQKNM5h35MClajAb0j-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_11_水域政策_b34b7bc2be2f.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_11_水域政策__image_829cff67d886",
+      "source_url": "https://media.puma.taipei/files/383/conversions/h1MoarbHTMvTFYaWoWHIW8BgRirBVzWVFz3XeN0V-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_11_水域政策_829cff67d886.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_11_水域政策__image_0ba67ad06297",
+      "source_url": "https://media.puma.taipei/files/384/conversions/qnbSjcCi45GBOOahLRVCc4ouZz4JTYBufggI1Lgp-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_11_水域政策_0ba67ad06297.webp",
+      "discovered_from": "https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_12_AI政策__image_b0f75ed389f9",
+      "source_url": "https://media.puma.taipei/files/372/bLSTt978OI2xU4B5Sg2vSjyryImR1uy8BTONLAu1.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_12_AI政策_b0f75ed389f9.jpg",
+      "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/e；另見頁面：https://puma.taipei/policy/heart/a"
+    },
+    {
+      "id": "policy_12_AI政策__image_6005659a7456",
+      "source_url": "https://media.puma.taipei/files/373/AguFfEEYwGSP7gZ748bpyNdSJB3H5xGK1VcvgeVo.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_12_AI政策_6005659a7456.jpg",
+      "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_12_AI政策__image_e79283e10788",
+      "source_url": "https://media.puma.taipei/files/374/ITRNLKwQaW75TNCyohc7WRbBvHtuApXgjoVCHI64.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_12_AI政策_e79283e10788.jpg",
+      "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_12_AI政策__image_d1cb96c37d4f",
+      "source_url": "https://media.puma.taipei/files/375/m0z2metP2MBwTY1DdbGlmEy04iF9ZLfGvTgB9RdJ.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_12_AI政策_d1cb96c37d4f.jpg",
+      "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_12_AI政策__image_a89bfd96b269",
+      "source_url": "https://media.puma.taipei/files/376/hqbH7jrK2XX3MGvL70kXlAQjDZ0xldfSOceCBiMB.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_12_AI政策_a89bfd96b269.jpg",
+      "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_12_AI政策__image_fcabcdd9bc0b",
+      "source_url": "https://media.puma.taipei/files/377/dsmUeDSWS9DKjxZyuqXbTEcnclngrCvAcpffULyO.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_12_AI政策_fcabcdd9bc0b.jpg",
+      "discovered_from": "https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_13_客家政策__image_0639ae8382bb",
+      "source_url": "https://media.puma.taipei/files/368/0WFBSPJRi20amugQmdLShtceF2EbgLvsH7MZt1uF.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_13_客家政策_0639ae8382bb.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/e；另見頁面：https://puma.taipei/policy/heart/a"
+    },
+    {
+      "id": "policy_13_客家政策__image_47a2e85f74fa",
+      "source_url": "https://media.puma.taipei/files/369/DO9Mhc28i0l0zUqITUvA42fDGWGlrTBSCmgfTIj2.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_13_客家政策_47a2e85f74fa.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_13_客家政策__image_77f8cef21ce2",
+      "source_url": "https://media.puma.taipei/files/370/XwVium56PsOoxwaB6pfqiH4v6BjJgrrmpGYzZTje.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_13_客家政策_77f8cef21ce2.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_13_客家政策__image_6c8b51e85c1f",
+      "source_url": "https://media.puma.taipei/files/371/ZtMuUInyIEkeCqxdvBtkLY0lWVqfsldfTlFmXUYh.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_13_客家政策_6c8b51e85c1f.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_14_城市外交__image_b73db0442d8f",
+      "source_url": "https://media.puma.taipei/files/302/lTdkkCOd5aERMwU3juBtwutgmPBfGOpdc594Qljz.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_14_城市外交_b73db0442d8f.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/e；另見頁面：https://puma.taipei/policy/heart/r"
+    },
+    {
+      "id": "policy_14_城市外交__image_9da641e043b4",
+      "source_url": "https://media.puma.taipei/files/235/conversions/01M4DFDE833X6RW2TPD065CGHP-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_14_城市外交_9da641e043b4.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_14_城市外交__image_16824b14aadd",
+      "source_url": "https://media.puma.taipei/files/236/conversions/01M4DFDKR63A28NTBE1G92NNDN-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_14_城市外交_16824b14aadd.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_14_城市外交__image_7ccedec35078",
+      "source_url": "https://media.puma.taipei/files/237/conversions/01M4DFDS5K9WCADATGPSB2ZN07-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_14_城市外交_7ccedec35078.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_14_城市外交__image_e80364407e62",
+      "source_url": "https://media.puma.taipei/files/238/conversions/01M4DFDYYEPAX1DQBTVHR7SS43-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_14_城市外交_e80364407e62.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_14_城市外交__image_0a31382bbc79",
+      "source_url": "https://media.puma.taipei/files/239/conversions/01M4DFE4HQG2PN3GEGZZDBNZAC-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_14_城市外交_0a31382bbc79.webp",
+      "discovered_from": "https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_15_營養午餐__image_be0cbaca8fc4",
+      "source_url": "https://media.puma.taipei/files/194/01M364EB4635040MB7QV41YB6D.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_15_營養午餐_be0cbaca8fc4.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/r"
+    },
+    {
+      "id": "policy_15_營養午餐__image_dfe00ac8dc8a",
+      "source_url": "https://media.puma.taipei/files/261/conversions/01M4DGNZ8HK85A9GSFQN3T59VD-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_15_營養午餐_dfe00ac8dc8a.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_15_營養午餐__image_f413d4e0d57c",
+      "source_url": "https://media.puma.taipei/files/262/conversions/01M4DGP40DRVJSG47M68E0KDM1-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_15_營養午餐_f413d4e0d57c.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_15_營養午餐__image_b72b4af88617",
+      "source_url": "https://media.puma.taipei/files/263/conversions/01M4DGP9E66HQ1QDTEXQQ4K8H0-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_15_營養午餐_b72b4af88617.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_15_營養午餐__image_96a2b52be78b",
+      "source_url": "https://media.puma.taipei/files/264/conversions/01M4DGPEZ6VZ55RNYXA3JNQQYP-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_15_營養午餐_96a2b52be78b.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_15_營養午餐__image_5450e2256ee2",
+      "source_url": "https://media.puma.taipei/files/265/conversions/01M4DGPN6J4VAN27TA8XNFT8M9-large.webp",
+      "status": "downloaded",
+      "image_path": "官方政策/images/policy_15_營養午餐_5450e2256ee2.webp",
+      "discovered_from": "https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_474fed54e053",
+      "source_url": "https://puma.taipei/images/heart/result-scholar.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_474fed54e053.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_ec3bcbd68b7c",
+      "source_url": "https://puma.taipei/images/heart/char-scholar.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_ec3bcbd68b7c.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_b5752b920e0c",
+      "source_url": "https://puma.taipei/images/heart/result-mom.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_b5752b920e0c.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_8314ce79a19f",
+      "source_url": "https://puma.taipei/images/heart/char-mom.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_8314ce79a19f.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_5bd802960b8c",
+      "source_url": "https://puma.taipei/images/heart/result-biz.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_5bd802960b8c.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_68f595cdede5",
+      "source_url": "https://puma.taipei/images/heart/char-biz.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_68f595cdede5.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_fb593489392b",
+      "source_url": "https://puma.taipei/images/heart/result-fresh.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_fb593489392b.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_199dd8ae41a2",
+      "source_url": "https://puma.taipei/images/heart/char-fresh.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_199dd8ae41a2.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_5d4e250d5b2e",
+      "source_url": "https://puma.taipei/images/heart/result-art.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_5d4e250d5b2e.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_c60a9215e251",
+      "source_url": "https://puma.taipei/images/heart/char-art.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_c60a9215e251.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_92f7a3be8392",
+      "source_url": "https://puma.taipei/images/heart/result-eng.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_92f7a3be8392.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_6bd8397bb512",
+      "source_url": "https://puma.taipei/images/heart/char-eng.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_6bd8397bb512.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_d136b3ceb58e",
+      "source_url": "https://puma.taipei/images/heart/result-mob.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_d136b3ceb58e.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_f82150fffd61",
+      "source_url": "https://puma.taipei/images/heart/char-mob.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_f82150fffd61.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_ef5c097ea0c8",
+      "source_url": "https://puma.taipei/images/heart/result-care.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_ef5c097ea0c8.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "heart_quiz_1__image_a3fe0c465b6c",
+      "source_url": "https://puma.taipei/images/heart/char-care.jpg",
+      "status": "downloaded",
+      "image_path": "官方政策/images/heart_quiz_1_a3fe0c465b6c.jpg",
+      "discovered_from": "https://puma.taipei/heart/quiz/1",
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    }
+  ],
+  "policy_attachments": [
+    {
+      "id": "policy_02_交通政策__attachment_1d3a6cb64944",
+      "title": "20260916-交通政策PDF.pdf",
+      "source_url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+      "status": "downloaded",
+      "attachment_path": "官方政策/attachments/policy_02_交通政策__20260916-交通政策PDF.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96",
+      "notes": "政策頁明確連結的附件；網站提供檔名：20260916-交通政策PDF.pdf；未進行 OCR 或內容驗證。"
+    },
+    {
+      "id": "policy_03_社福政策__attachment_94bb29415a78",
+      "title": "260910社福政策表格.jpg",
+      "source_url": "https://media.puma.taipei/files/135/01M27RZE0DG56XK89VJQVG7JEN.jpg",
+      "status": "downloaded",
+      "attachment_path": "官方政策/attachments/policy_03_社福政策__260910社福政策表格.jpg",
+      "discovered_from": "https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96",
+      "notes": "政策頁明確連結的附件；網站提供檔名：260910社福政策表格.jpg；未進行 OCR 或內容驗證。"
+    },
+    {
+      "id": "policy_04_台北文化徑_山林徑__attachment_7ae768c9b336",
+      "title": "20260908-文化徑山林徑記者會簡報.pdf",
+      "source_url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+      "status": "downloaded",
+      "attachment_path": "官方政策/attachments/policy_04_台北文化徑_山林徑__20260908-文化徑山林徑記者會簡報.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
+      "notes": "政策頁明確連結的附件；網站提供檔名：20260908-文化徑山林徑記者會簡報.pdf；未進行 OCR 或內容驗證。"
+    },
+    {
+      "id": "policy_05_都市微森林__attachment_19adb5514d42",
+      "title": "20260824-簡報N.pdf",
+      "source_url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+      "status": "downloaded",
+      "attachment_path": "官方政策/attachments/policy_05_都市微森林__20260824-簡報N.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97",
+      "notes": "政策頁明確連結的附件；網站提供檔名：20260824-簡報N.pdf；未進行 OCR 或內容驗證。"
+    },
+    {
+      "id": "policy_06_青年政策__attachment_ee958aad30fb",
+      "title": "20260818-簡報.new.pdf",
+      "source_url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+      "status": "downloaded",
+      "attachment_path": "官方政策/attachments/policy_06_青年政策__20260818-簡報.new.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
+      "notes": "政策頁明確連結的附件；網站提供檔名：20260818-簡報.new.pdf；未進行 OCR 或內容驗證。"
+    },
+    {
+      "id": "policy_07_運動政策__attachment_a2808bf4ced8",
+      "title": "沈伯洋_運動政策記者會0715.pdf",
+      "source_url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+      "status": "downloaded",
+      "attachment_path": "官方政策/attachments/policy_07_運動政策__沈伯洋_運動政策記者會0715.pdf",
+      "discovered_from": "https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96",
+      "notes": "政策頁明確連結的附件；網站提供檔名：沈伯洋_運動政策記者會0715.pdf；未進行 OCR 或內容驗證。"
+    }
+  ],
+  "omitted_or_not_expanded": [
+    {
+      "url": "https://puma.taipei/heart-island-assets/ and related JS modules",
+      "reason": "HEART 政策島的互動政策資料由 JavaScript 組合；本快照只保存入口 HTML 與靜態文字，未展開全部動態細項。"
+    },
+    {
+      "url": "https://puma.taipei/ (whole site)",
+      "reason": "未進行全站爬取；只抓取政策索引列出的政策頁與明確限定的 HEART 框架/軸頁。"
+    }
+  ],
+  "boundary": {
+    "included": [
+      "政策索引 /policies",
+      "索引列出的 15 個政策詳細頁（依當次索引內容）",
+      "HEART 政策生態系 /heart",
+      "HEART 政策島 /heart-island 的入口 HTML 與靜態文字",
+      "HEART 分類測驗 /heart/quiz/1",
+      "HEART 五個主軸 /policy/heart/{h,e,a,r,t}",
+      "政策內容圖片（hero、policy card/body、HEART quiz content images；排除 logo/footer 裝飾）"
+    ],
+    "excluded": [
+      "影音檔與影音平台內容",
+      "全站其他頁面",
+      "表單提交與任何寫入動作",
+      "未驗證 OCR"
+    ],
+    "notes": [
+      "快照保留網站回應的原始 HTML bytes；Markdown 是可讀轉寫，未摘要、翻譯、修錯或補政策。",
+      "網站內容可能在快照後變更；本交付只表示內容已下載，不表示政策已驗證。"
+    ]
+  }
+}

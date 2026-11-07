@@ -1,0 +1,185 @@
+{
+  "batch_id": "b27",
+  "read_units": [
+    {
+      "unit_id": "u0378",
+      "doc_id": "d0191",
+      "start": 59871,
+      "end": 65866,
+      "sha256": "a60839a629ccfb39724f788f581d4a10ffa121fe4f12aa5c2c13a4e1cfa73562",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0379",
+      "doc_id": "d0191",
+      "start": 65866,
+      "end": 71861,
+      "sha256": "a1c3ae452fe62bbfd6335da40853403ec05b1b8bec0b9bc1048479f25bbc77c5",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0380",
+      "doc_id": "d0191",
+      "start": 71861,
+      "end": 77849,
+      "sha256": "c0b617efa3a4babeb66450de8e71828176110f67d26203594cb38d41181352fa",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0381",
+      "doc_id": "d0191",
+      "start": 77849,
+      "end": 83843,
+      "sha256": "980272efe514621b5eb308ead468abe782b39f12dbae5a5595a91ec5114e134e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0382",
+      "doc_id": "d0191",
+      "start": 83843,
+      "end": 89842,
+      "sha256": "8841442de2c35ebde4d39cc85a81f46e293589a61181710c0699faadd1df622c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0383",
+      "doc_id": "d0191",
+      "start": 89842,
+      "end": 95837,
+      "sha256": "fd78e48b8e57e504787d340a0babea29a54b5bf9df8f8d83b5a56a62760625ad",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0384",
+      "doc_id": "d0191",
+      "start": 95837,
+      "end": 101831,
+      "sha256": "9d3b2fd1fe4fc6987f3b5671ed4eb570954d9cc446946a97e31162fbca987b28",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0385",
+      "doc_id": "d0191",
+      "start": 101831,
+      "end": 107820,
+      "sha256": "3504bdd4ad229ee10a2817965f811e1dd213d76a7167052d3066c13602a71108",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0386",
+      "doc_id": "d0191",
+      "start": 107820,
+      "end": 113817,
+      "sha256": "950e056b2c821b6bef2733f17894a3d1a4b8871fb1ea8a4dcbaaa7d8507e7cf3",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0387",
+      "doc_id": "d0191",
+      "start": 113817,
+      "end": 119795,
+      "sha256": "333b8d23c7be52fe9c8d9673083ecc209aeba5f12090a28ef8209293885083f9",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0191",
+      "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+      "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/captions.json",
+      "summary": "對談字幕片段談城市記憶、舊商圈與更新、地方文化創作、孤獨支持與社區連結。片段涵蓋約 15:41–30:38，文本沒有可靠逐句講者標籤。",
+      "attributable_claims": [],
+      "caveats": [
+        "來源明確警告字幕未提供可靠逐句講者標籤；僅可整理談話主題，不能將主張歸給沈伯洋、工頭堅或主持人。",
+        "本批只含全稿中段，時間範圍外的前後文與講者辨認均未納入。"
+      ],
+      "topic_keys": [
+        "城市更新與地方記憶",
+        "城市文化創作",
+        "孤獨及社區支持"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "城市更新與保留地方記憶的空間",
+      "question": "如何在城市持續更新時保留居民熟悉的地方記憶？",
+      "points": [
+        "對談舉光華商場、中華商場、萬年及赤峰街等記憶，談到商圈遷移、租金上升和老店難以存續。",
+        "字幕中有人提出市府長租或買下空間、以一般租金出租給原有店家或文化活動，以保存地方記憶；講者未標，不能作為候選人政見。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0382",
+          "doc_id": "d0191",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/captions.json",
+          "section_or_timestamp": "約 21:20–21:39",
+          "speaker": "對談未標示講者",
+          "support_excerpt": "直接就是把這邊買或長租下來"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "讓城市記憶進入地方故事與文化創作",
+      "question": "地方故事、舊空間與文化創作如何共同形成城市認同？",
+      "points": [
+        "對談談到舊空間可作為城市的基礎設施，並提出鼓勵小說、戲劇、電玩等創作，書寫台北故事。",
+        "這是無講者標籤的對談構想，未確認其為沈伯洋本人提出，也未形成具體市府方案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0384",
+          "doc_id": "d0191",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/captions.json",
+          "section_or_timestamp": "約 24:41–25:23",
+          "speaker": "對談未標示講者",
+          "support_excerpt": "大家一起來寫台北的故事"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以社區連結回應城市孤獨",
+      "question": "城市如何支持難以自行建立社交連結的居民？",
+      "points": [
+        "對談區分能自行出門建立關係者，與較少出門、感到孤獨又不知向誰求助者，並談到年長者、育兒或創業等不同孤獨情境。",
+        "字幕提及里鄰觀察者、受薪 Link Worker、訪視和社會處方箋等英國經驗，並談由相近背景者組成支持小組；未能辨認發言者，數字也未另行核查。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0387",
+          "doc_id": "d0191",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/captions.json",
+          "section_or_timestamp": "約 29:19–30:05",
+          "speaker": "對談未標示講者",
+          "support_excerpt": "並不是用監視的角度"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "城市活動場地與同伴支持的不同需求",
+      "question": "有活動空間是否足以回應人們參與和交友的需求？",
+      "points": [
+        "對談中提到台北登山場地、文化徑與登山中心，並指出部分人雖有活動場地，仍較難找到一起參與的同伴。",
+        "內容同時談到長者在公園聊天、打太極或逛市場等日常交往；因字幕無講者標記，只保留為訪談脈絡。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0385",
+          "doc_id": "d0191",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/captions.json",
+          "section_or_timestamp": "約 26:08–27:00",
+          "speaker": "對談未標示講者",
+          "support_excerpt": "可是缺同伴這件事情"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    }
+  ]
+}

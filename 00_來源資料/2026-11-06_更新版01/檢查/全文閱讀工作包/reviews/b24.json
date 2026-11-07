@@ -1,0 +1,334 @@
+{
+  "batch_id": "b24",
+  "read_units": [
+    {
+      "unit_id": "u0331",
+      "doc_id": "d0167",
+      "start": 5989,
+      "end": 11943,
+      "sha256": "fa7f36d8449196787ff4728d96825ce30ecbd1a0b0cc55cda1e3b69a8f7a6c61",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0332",
+      "doc_id": "d0167",
+      "start": 11943,
+      "end": 17714,
+      "sha256": "626f5b173a9c1970d9ef3d818223500632b143887b4d60180acb8f87d0279a11",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0333",
+      "doc_id": "d0167",
+      "start": 17714,
+      "end": 23510,
+      "sha256": "c3fa271a9a4e4321225dedd15c94bc5c2e0f2e97202e0b5d6884880ee0bdbaea",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0334",
+      "doc_id": "d0167",
+      "start": 23510,
+      "end": 29510,
+      "sha256": "839cab7b4f32739daf577b146b2cbec09113823395fef5c7ece847efc93a3286",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0335",
+      "doc_id": "d0167",
+      "start": 29510,
+      "end": 33966,
+      "sha256": "b76074d745b03736bf52749c207ac40d3a3b048dd4013df81644c57afe90948f",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0336",
+      "doc_id": "d0168",
+      "start": 0,
+      "end": 1035,
+      "sha256": "d731b55ce8e8fc4b10e79e5dff5697a8f9ea9f08ed69242e249c702b25a76249",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0337",
+      "doc_id": "d0169",
+      "start": 0,
+      "end": 5817,
+      "sha256": "2bcfb5b38242a48c7d4ceb3b140e2c1318ed6dd9f9606b9b27a212b0ef9ea858",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0338",
+      "doc_id": "d0169",
+      "start": 5817,
+      "end": 11611,
+      "sha256": "6998a0abee81ee9b177f44c112324d14d39c4d89042ddfb84c393c47374ae650",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0339",
+      "doc_id": "d0169",
+      "start": 11611,
+      "end": 17603,
+      "sha256": "1a36dbe487ee43aa2608da45b9e552602fe644038c9388dae906b32483567669",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0340",
+      "doc_id": "d0169",
+      "start": 17603,
+      "end": 23431,
+      "sha256": "77dd0b6b21c36ef19f9a0592f84e051c529b30f44914c5651b203e9bd77c7e47",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0341",
+      "doc_id": "d0169",
+      "start": 23431,
+      "end": 24110,
+      "sha256": "355223b9f05d949150c0afb9488beaa49baa4d2b054ffa7ae9516aa3da197a48",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0342",
+      "doc_id": "d0170",
+      "start": 0,
+      "end": 1294,
+      "sha256": "4cede2e6bcf65b25b4ea21e7b6726efd4ca87d11bb6b07b6fc8b1fff3bc6353e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0343",
+      "doc_id": "d0171",
+      "start": 0,
+      "end": 5977,
+      "sha256": "d61f82a27ab1c1599fb85b871bcb8b6e01c20894c17d1bc8b13340dbd744b357",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0167",
+      "title": "從讀書會魔人到差點出道的 VTuber：沈伯洋的非典型法律路",
+      "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep173/transcript.md",
+      "summary": "人間動物園 EP173 個人訪談逐字稿，本批涵蓋中段家庭背景、求學與個人經歷。沈伯洋回憶五分埔家族、與鄰里生活相連及高中帶同學做地方自然人文觀察；主要是個人故事。",
+      "attributable_claims": [
+        "沈伯洋說自己從小在五分埔成長，家族及鄰里生活彼此熟悉，從小感覺政治與處理生活事情有關。",
+        "他回憶高中帶同學走大稻埕、魚路古道等地做自然人文觀察。"
+      ],
+      "caveats": [
+        "來賓自述及家庭回憶，不能轉寫成市政政策或承諾。"
+      ],
+      "topic_keys": [
+        "地方生活經驗與鄰里感"
+      ]
+    },
+    {
+      "doc_id": "d0168",
+      "title": "「爸爸已經有我一票！」：守護社區與陪伴家人，沈伯洋怎麼選？",
+      "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/article.md",
+      "summary": "EP174 文章附件簡介頁，提供章節主題與逐字稿連結；本批讀到的文字是來源說明與摘要，政策細節以逐字稿為準。",
+      "attributable_claims": [],
+      "caveats": [
+        "屬文章附件的編輯摘要，不當作沈伯洋直接引言或獨立佐證。"
+      ],
+      "topic_keys": [
+        "社區韌性摘要"
+      ]
+    },
+    {
+      "doc_id": "d0169",
+      "title": "「爸爸已經有我一票！」：守護社區與陪伴家人，沈伯洋怎麼選？",
+      "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/transcript.md",
+      "summary": "人間動物園 EP174 訪談逐字稿，談黑熊學院、社區防衛與個人經驗。沈伯洋主張平時鄰里連結和地方組織協作有助社區防衛，並談里長、地方政府在防災體系中的角色。",
+      "attributable_claims": [
+        "沈伯洋主張社區平時建立人際連結、掌握居民狀況，能形成社區韌性，並稱單靠器材與技術不足。",
+        "他表示里長與地方政府對民防、防災體系整合重要，中央手冊、地方訓練及民間團體需相互連結。",
+        "他描述與里長、地方民代、消防局合辦親子活動，以消防衣、迷路回報及簡易包紮帶入民防概念。"
+      ],
+      "caveats": [
+        "主要談黑熊學院及民防倡議的經驗和觀點，非已核定的台北市政方案；活動成效數字只屬受訪者說法。"
+      ],
+      "topic_keys": [
+        "社區韌性與鄰里防災",
+        "里長與地方政府的防災協作",
+        "親子活動帶入民防"
+      ]
+    },
+    {
+      "doc_id": "d0170",
+      "title": "揪某聊 EP397：從蛋清事件、動漫到家庭與選戰中的支持",
+      "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/article.md",
+      "summary": "《揪某聊》EP397 文章附件目錄／來源說明，本批只見章節摘要及逐字稿說明。文章將後段標為心理諮商補助與孤獨、社區文化等城市支持，需以可見逐字稿段落核實具體內容。",
+      "attributable_claims": [],
+      "caveats": [
+        "本文自述後半部較濃縮且章節時間不一致；摘要不是沈伯洋逐字原話。",
+        "全文逐字稿另有 u0344，不在本批閱讀範圍。"
+      ],
+      "topic_keys": [
+        "城市心理支持摘要"
+      ]
+    },
+    {
+      "doc_id": "d0171",
+      "title": "揪某聊 EP397：從蛋清事件、動漫到家庭與選戰中的支持",
+      "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/transcript.md",
+      "summary": "《揪某聊》EP397 訪談逐字稿開頭片段，沈伯洋談車掃互動、市民在肥皂箱提出的生活問題，以及中央與地方政府職責差異；後續章節摘要不視為本段逐字稿證據。",
+      "attributable_claims": [
+        "沈伯洋表示車掃應放慢，讓市民有機會打招呼，並考慮用道具增進互動。",
+        "他說肥皂箱常收到騎樓停車、水溝、道路不平等生活問題，也會遇到啤酒釀造、自由潛水場地等需回去研究的提問。",
+        "他形容市政涉及衛生、交通、教育、社福、治安、都更等多領域，民眾往往先找地方政府；並以服務民眾的實例談政治工作的成就感。"
+      ],
+      "caveats": [
+        "單位只到訪談約 07:59，未包含同一逐字稿其後的諮商／社區政策章節。市民提問不等於候選人政策承諾。"
+      ],
+      "topic_keys": [
+        "車掃的市民互動",
+        "肥皂箱蒐集生活問題",
+        "地方政府的服務範圍"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "社區韌性從平時鄰里連結做起",
+      "question": "如何讓社區在災害或危機時能互相照應？",
+      "points": [
+        "沈伯洋主張平時建立鄰里關係、知道獨居者等居民狀況，社區人際連結與心理韌性和防災器材、技能同樣重要。",
+        "他以成立黑熊學院的想法說明，期待每個社區都有熟悉在地、能協助應變的人。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0338",
+          "doc_id": "d0169",
+          "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/transcript.md",
+          "section_or_timestamp": "00:02:45–00:03:37",
+          "speaker": "沈伯洋",
+          "support_excerpt": "他是對社區很有連結的人"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "里長、地方政府與民間團體協力防災",
+      "question": "地方防災如何把里鄰、政府與民間力量接起來？",
+      "points": [
+        "沈伯洋稱里長及縣市首長在民防中有重要角色，並指出訓練、防災體系、義警義消與民間團體的整合有賴地方政府態度。",
+        "他提及與地方里長、民代合作，並以地方系統傳遞中央全民國防手冊作為協作脈絡。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0338",
+          "doc_id": "d0169",
+          "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/transcript.md",
+          "section_or_timestamp": "00:03:49–00:04:31",
+          "speaker": "沈伯洋",
+          "support_excerpt": "這個東西要怎麼整合，其實有賴於地方政府的態度"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "用親子活動讓民防知識走進社區",
+      "question": "如何讓家庭與孩子容易接觸民防和基本應變？",
+      "points": [
+        "沈伯洋描述曾與地方里長、民代及消防局合作辦親子園遊會，安排試穿消防衣、迷路時回報位置及簡易包紮。",
+        "他說這類免費、生活化活動用來讓民防概念進入民間；這是其組織經驗，不是台北市已承諾的計畫。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0338",
+          "doc_id": "d0169",
+          "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/transcript.md",
+          "section_or_timestamp": "00:06:11 起",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們就辦「園遊會」！"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "車掃放慢腳步，增加和市民互動時間",
+      "question": "車掃怎麼讓沿途市民有時間回應和交流？",
+      "points": [
+        "沈伯洋回顧松山信義車掃開得太快，表示下次希望放慢，讓沿途民眾有機會揮手互動。",
+        "他提議可用牌子等道具增加可見度；屬競選活動互動方式。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0343",
+          "doc_id": "d0171",
+          "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/transcript.md",
+          "section_or_timestamp": "00:02:16–00:03:06",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們希望能夠慢一點"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "肥皂箱蒐集市民生活問題",
+      "question": "市民在街頭活動會向候選人反映哪些具體需求？",
+      "points": [
+        "沈伯洋描述市民會提出騎樓停機車、水溝未清、道路不平等日常問題。",
+        "他也舉啤酒釀造、自由潛水場地等問題，表示不熟悉時會回去研究；提問本身不代表他已提出解方。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0343",
+          "doc_id": "d0171",
+          "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/transcript.md",
+          "section_or_timestamp": "00:04:10–00:05:02",
+          "speaker": "沈伯洋",
+          "support_excerpt": "水溝為什麼沒清、路為什麼不平"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "地方政府是市民接觸公共服務的第一線",
+      "question": "地方政府的服務範圍為何讓民眾常先找市府？",
+      "points": [
+        "沈伯洋以市政涵蓋衛生、交通、教育、社會福利、治安、都更等範疇，說明地方政府要處理多類執行工作。",
+        "他將中央專業分工與地方綜合性服務作對照，並形容民眾遇事通常先找地方政府。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0343",
+          "doc_id": "d0171",
+          "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/transcript.md",
+          "section_or_timestamp": "00:05:05–00:06:18",
+          "speaker": "沈伯洋",
+          "support_excerpt": "什麼都要管：衛生、交通、教育、社會福利、治安、都更"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "五分埔鄰里生活是沈伯洋的個人經驗",
+      "question": "沈伯洋如何描述自己早年的社區生活經驗？",
+      "points": [
+        "他回憶自己在五分埔長大，親族與鄰里往來密切，周遭有人會互相幫忙。",
+        "他把童年觀察視為政治與生活相連的個人經驗；不應延伸為特定市政主張。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0332",
+          "doc_id": "d0167",
+          "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep173/transcript.md",
+          "section_or_timestamp": "00:16:48–00:17:29",
+          "speaker": "沈伯洋",
+          "support_excerpt": "你那個社區的鄰里感很重"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    }
+  ]
+}

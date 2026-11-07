@@ -1,0 +1,397 @@
+{
+  "batch_id": "b23",
+  "read_units": [
+    {
+      "unit_id": "u0319",
+      "doc_id": "d0163",
+      "start": 11447,
+      "end": 17409,
+      "sha256": "6c92f88994929a236d00c3f64bc5a02fe8265ae41fe9289b21e621063bec2e9b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0320",
+      "doc_id": "d0163",
+      "start": 17409,
+      "end": 23006,
+      "sha256": "22612c70b7ee63692c363322bead37a74b0ee97b3182862e2ece87d92be4c79f",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0321",
+      "doc_id": "d0163",
+      "start": 23006,
+      "end": 27808,
+      "sha256": "77c5484dab34f6c8e3aca03837ed672b59aa90c01e32e73b297b81a55c2a4308",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0322",
+      "doc_id": "d0164",
+      "start": 0,
+      "end": 3978,
+      "sha256": "ba5bc0ae1611cc23e537de44bcd24ff3e8f6b5e391c182db7f0e294f15970f01",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0323",
+      "doc_id": "d0165",
+      "start": 0,
+      "end": 5982,
+      "sha256": "9a524e752cefb491b9c7dcbab6dc930e90b580310926d227ffe841406ecafd39",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0324",
+      "doc_id": "d0165",
+      "start": 5982,
+      "end": 11786,
+      "sha256": "6712a52493dc6f3a7cb595e4a6a65c80fb7c4cf99ee43a175bc5676606388037",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0325",
+      "doc_id": "d0165",
+      "start": 11786,
+      "end": 17742,
+      "sha256": "224f49e118f38e330e8a2e4a8bd77ad795e307a4b2bebc2673cdbb6482dc2314",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0326",
+      "doc_id": "d0165",
+      "start": 17742,
+      "end": 23717,
+      "sha256": "f4e02f43586b2466958131f69c3e78724b57a7be51b6fae218a760a25a414f18",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0327",
+      "doc_id": "d0165",
+      "start": 23717,
+      "end": 29083,
+      "sha256": "e3b84c28f96b45125405c5e59194e6c989b4756d8b44a5e0afe505fa953c4d98",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0328",
+      "doc_id": "d0165",
+      "start": 29083,
+      "end": 33937,
+      "sha256": "4fc85aeb0aaee633d2eb42db3c5c48c668a116e5c61cd4ed73f018cc66a78e58",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0329",
+      "doc_id": "d0166",
+      "start": 0,
+      "end": 1022,
+      "sha256": "e642c92605ea9f53d822f11e02faecec57aeda6a4ab4bf3466c430a0cb8b1a2c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0330",
+      "doc_id": "d0167",
+      "start": 0,
+      "end": 5989,
+      "sha256": "935480868555a7d5df8eea769105afb5d777d73121a97fe8bed7d32185ed28db",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0163",
+      "title": "《雅琴看世界》英文專訪沈伯洋：洋流、城市交流與傾聽的力量",
+      "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+      "summary": "本批的後段英文訪談，沈伯洋談市政關懷、雙城論壇前提/風險管理、民調與市民提問平台。",
+      "attributable_claims": [
+        "沈伯洋談長輩下樓協助、托育名額、長程AI計畫",
+        "主張雙城交流需對等、無政治前提且有主權/資安風險管理。"
+      ],
+      "caveats": [
+        "本批只涵蓋u0319–u0321；同文件前段u0317–u0318由其他批次處理。訪談中的民調數字與北京干預判斷保留為當事人說法。"
+      ],
+      "topic_keys": [
+        "city-care-ai",
+        "cross-strait-city-exchange",
+        "civic-listening"
+      ]
+    },
+    {
+      "doc_id": "d0164",
+      "title": "沈伯洋《雅琴看世界》：走進台北街頭，從洋流談城市與家人",
+      "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/article.md",
+      "summary": "同集中文專訪的文章摘要，整理模擬辯論、洋流、家庭及當選後三項方向。",
+      "attributable_claims": [
+        "文章記載台北研究院、第一線人員減壓及都更/老宅延壽三項優先工作。"
+      ],
+      "caveats": [
+        "為摘要文章；逐字對照以d0165為主。"
+      ],
+      "topic_keys": [
+        "city-research-renewal"
+      ]
+    },
+    {
+      "doc_id": "d0165",
+      "title": "沈伯洋《雅琴看世界》：走進台北街頭，從洋流談城市與家人",
+      "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript.md",
+      "summary": "中文專訪逐字稿及整理，涵蓋松機/北士科辯論、洋流、市民提問、家庭故事和當選後三項方向。",
+      "attributable_claims": [
+        "沈伯洋談北士科人才生態、台北研究院、市政傾聽、第一線人員減壓及都市更新。"
+      ],
+      "caveats": [
+        "主片00:19–01:13一段原稿稱YouTube自動字幕中斷，改合官方精華/預告和媒體整理；引用該段時保留其來源層級。其他段亦為提供逐字稿，未影音逐句核對。"
+      ],
+      "topic_keys": [
+        "north-tech-ai",
+        "civic-listening",
+        "city-research-renewal",
+        "context-personal"
+      ]
+    },
+    {
+      "doc_id": "d0166",
+      "title": "從讀書會魔人到差點出道的 VTuber：沈伯洋的非典型法律路",
+      "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep173/article.md",
+      "summary": "專訪精華文章短摘，列出讀書會、閱讀、地方觀察、跨領域教學、城市外交等主題。",
+      "attributable_claims": [
+        "短摘提到沈伯洋把國會外交延伸至城市交流與韌性構想。"
+      ],
+      "caveats": [
+        "本批只抽取1022字的摘要片段，非完整文章或逐字內容；個人學習經歷屬訪談脈絡。"
+      ],
+      "topic_keys": [
+        "context-personal",
+        "urban-diplomacy"
+      ]
+    },
+    {
+      "doc_id": "d0167",
+      "title": "從讀書會魔人到差點出道的 VTuber：沈伯洋的非典型法律路",
+      "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep173/transcript.md",
+      "summary": "Podcast逐字稿開頭，介紹主持人及沈伯洋法律系讀書會與求學經歷，開始童年閱讀章節。",
+      "attributable_claims": [
+        "沈伯洋談曾帶刑法讀書會及為學弟妹提供考試協助。"
+      ],
+      "caveats": [
+        "本批只包含該逐字稿開頭u0330；後續章節在別批單元，不能由此段概括全訪談。"
+      ],
+      "topic_keys": [
+        "context-personal"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "長輩支持、托育與長程AI規劃",
+      "question": "市府如何回應高齡者日常協助、育兒支援與未來城市科技需求？",
+      "points": [
+        "沈伯洋表示希望改善長輩上下樓需要協助的處境，並增加托育名額。",
+        "他也提出為台北規劃未來20至30年的整體AI計畫；來源沒有列出執行架構或預算。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0319",
+          "doc_id": "d0163",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+          "section_or_timestamp": "英文專訪，00:06:22",
+          "speaker": "沈伯洋",
+          "support_excerpt": "they really need help"
+        },
+        {
+          "unit_id": "u0319",
+          "doc_id": "d0163",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+          "section_or_timestamp": "英文專訪，00:06:22",
+          "speaker": "沈伯洋",
+          "support_excerpt": "more childcare spots"
+        },
+        {
+          "unit_id": "u0319",
+          "doc_id": "d0163",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+          "section_or_timestamp": "英文專訪，00:06:22",
+          "speaker": "沈伯洋",
+          "support_excerpt": "AI plan for the city"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "與其他批的高齡支持、托育及AI政策主題可能重疊"
+      ]
+    },
+    {
+      "working_title": "雙城論壇的對等與風險管理條件",
+      "question": "台北與上海等城市交流應具備哪些前提和安全界線？",
+      "points": [
+        "沈伯洋表示可保留論壇架構，但內容須改變，並反對九二共識或一國兩制等政治前提。",
+        "他主張交流需平等並做好主權、資安風險管理；若交流後仍遭軍演，表示不可接受。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0319",
+          "doc_id": "d0163",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+          "section_or_timestamp": "英文專訪，00:08:13–00:08:50",
+          "speaker": "沈伯洋",
+          "support_excerpt": "絕對不能有任何政治前提"
+        },
+        {
+          "unit_id": "u0320",
+          "doc_id": "d0163",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+          "section_or_timestamp": "英文專訪，00:09:01–00:09:38",
+          "speaker": "沈伯洋",
+          "support_excerpt": "主權是最重要的事"
+        },
+        {
+          "unit_id": "u0320",
+          "doc_id": "d0163",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+          "section_or_timestamp": "英文專訪，00:10:05",
+          "speaker": "沈伯洋",
+          "support_excerpt": "not acceptable"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "與b20中台北城市外交方向可能相互關聯"
+      ]
+    },
+    {
+      "working_title": "用市民提問平台和街頭問答建立政策對話",
+      "question": "候選人如何把線上市民意見帶進面對面討論？",
+      "points": [
+        "沈伯洋說競選團隊推出「市長，你給我聽好了」，並將留言依主題、行政區與情緒分類。",
+        "他描述後續以街頭肥皂箱回應問題，再把麥克風交給市民追問；這是競選期間的參與方式。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0321",
+          "doc_id": "d0163",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+          "section_or_timestamp": "英文專訪，00:12:51",
+          "speaker": "沈伯洋",
+          "support_excerpt": "listen to our citizens"
+        },
+        {
+          "unit_id": "u0321",
+          "doc_id": "d0163",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+          "section_or_timestamp": "英文專訪，00:13:07",
+          "speaker": "沈伯洋",
+          "support_excerpt": "60,000 messages online"
+        },
+        {
+          "unit_id": "u0321",
+          "doc_id": "d0163",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+          "section_or_timestamp": "英文專訪，00:13:32",
+          "speaker": "沈伯洋",
+          "support_excerpt": "microphone to the citizens"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "與其他批市民參與、肥皂箱政策互動主題重疊"
+      ]
+    },
+    {
+      "working_title": "北士科AI人才培育與城市研究生態系",
+      "question": "北士科如何連結人才培育、在地生活與城市問題解決？",
+      "points": [
+        "沈伯洋主張先說清楚北士科AI聚落如何培育人才，並連結學校、城市專案、住宅與在地互動。",
+        "他提出以台北研究院承接城市專案及研究能量，並連結智慧醫療、無人產業等應用方向。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0324",
+          "doc_id": "d0165",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript.md",
+          "section_or_timestamp": "模擬辯論：北士科AI園區",
+          "speaker": "沈伯洋",
+          "support_excerpt": "北士科連招商也都還沒有招完"
+        },
+        {
+          "unit_id": "u0324",
+          "doc_id": "d0165",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript.md",
+          "section_or_timestamp": "模擬辯論：人才生態系",
+          "speaker": "沈伯洋",
+          "support_excerpt": "到「**台北研究院**」的一個設計"
+        },
+        {
+          "unit_id": "u0324",
+          "doc_id": "d0165",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript.md",
+          "section_or_timestamp": "模擬辯論：人才生態系",
+          "speaker": "沈伯洋",
+          "support_excerpt": "這就是一個**生態系**"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "與b20及其他批北士科、台北研究院主題可能重疊"
+      ]
+    },
+    {
+      "working_title": "台北研究院、第一線工作減壓與都市更新",
+      "question": "沈伯洋表示當選後最想優先推動哪些工作？",
+      "points": [
+        "沈伯洋列出成立台北研究院、替公務員教師社工減壓，以及推動都更、危老與老宅延壽。",
+        "訪談提供方向性清單，未交代組織設計、工時措施、法規及工程細節。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0327",
+          "doc_id": "d0165",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript.md",
+          "section_or_timestamp": "中文專訪結語，01:15:34–01:15:49",
+          "speaker": "沈伯洋",
+          "support_excerpt": "第一個，就是我講的「台北研究院」"
+        },
+        {
+          "unit_id": "u0327",
+          "doc_id": "d0165",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript.md",
+          "section_or_timestamp": "中文專訪結語，01:15:41",
+          "speaker": "沈伯洋",
+          "support_excerpt": "教師、還有我們的社工人員的「減壓」"
+        },
+        {
+          "unit_id": "u0327",
+          "doc_id": "d0165",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript.md",
+          "section_or_timestamp": "中文專訪結語，01:15:49",
+          "speaker": "沈伯洋",
+          "support_excerpt": "都市更新的、危老建築、老宅延壽"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "與b20/b14等批的台北研究院及老宅更新主題可能重疊"
+      ]
+    },
+    {
+      "working_title": "專訪中的家庭與個人經歷",
+      "question": "專訪如何呈現競選工作以外的家庭互動？",
+      "points": [
+        "中文專訪記錄沈伯洋談女兒凌晨與父母同睡、出門前挽留及麥當勞約定。",
+        "這是個人生活故事，不作為政策議題整理。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0326",
+          "doc_id": "d0165",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript.md",
+          "section_or_timestamp": "中文專訪，女兒與父親互動段",
+          "speaker": "沈伯洋",
+          "support_excerpt": "**我女兒真的是我的光**"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    }
+  ]
+}

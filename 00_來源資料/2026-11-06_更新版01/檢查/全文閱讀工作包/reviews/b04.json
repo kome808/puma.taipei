@@ -1,0 +1,570 @@
+{
+  "batch_id": "b04",
+  "read_units": [
+    {
+      "unit_id": "u0051",
+      "doc_id": "d0036",
+      "start": 11459,
+      "end": 17419,
+      "sha256": "30ab73c6fab5e4e4eb1916d2d3466de687cfd3309e4ba6e555c6c007bbdd9734",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0052",
+      "doc_id": "d0036",
+      "start": 17419,
+      "end": 18402,
+      "sha256": "7d05b36d9546ef65f2554d0a119ba4a4113319ef54e002e796b9af21865cb504",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0053",
+      "doc_id": "d0037",
+      "start": 0,
+      "end": 6000,
+      "sha256": "ccfa884431674aad638cd9fe77fdfc59cfb73bc44f06669e0e84e2dd3f8ac0d7",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0054",
+      "doc_id": "d0037",
+      "start": 6000,
+      "end": 10599,
+      "sha256": "4c5dfb6749ca5aa8bb90c6b997511f0a6857167bb21d35d27365bbcd97000c3c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0055",
+      "doc_id": "d0037",
+      "start": 10599,
+      "end": 15968,
+      "sha256": "7e0e6990a24931757b43bdb4af8b3017a7ffc660bb0815e4d0726b55d100d54c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0056",
+      "doc_id": "d0037",
+      "start": 15968,
+      "end": 16894,
+      "sha256": "15bdea3268f32fd38433ed91ccf6d761fffe4c19e0333674c6a443d038027d35",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0057",
+      "doc_id": "d0038",
+      "start": 0,
+      "end": 5976,
+      "sha256": "f1b8196811e146719274264c912ec08ed008136921361ca2d5471be1ddfd21df",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0058",
+      "doc_id": "d0038",
+      "start": 5976,
+      "end": 8861,
+      "sha256": "5c45698e89a9a6c8ed05a2b8e9153a23f691ed0cff361bc70c8251ae8764285f",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0059",
+      "doc_id": "d0039",
+      "start": 0,
+      "end": 5950,
+      "sha256": "e6b5a4bbaf11479d64b87898c019ee326d161ea696b86297748b3d379c1cedc6",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0060",
+      "doc_id": "d0039",
+      "start": 5950,
+      "end": 7630,
+      "sha256": "5df14ccfea4d9226391f2599749296d6a69bb30b970b4753ab57865ccd437962",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0061",
+      "doc_id": "d0040",
+      "start": 0,
+      "end": 5978,
+      "sha256": "4787c540f281b6c3930120fdd0a0b2db6f0a61a500bd543a3316800fa960de72",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0062",
+      "doc_id": "d0040",
+      "start": 5978,
+      "end": 10090,
+      "sha256": "a48d41af439002d0dec0648795ef5ad716675beade8d74f923bcc41794a50c48",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0063",
+      "doc_id": "d0041",
+      "start": 0,
+      "end": 5928,
+      "sha256": "4e0631ae4d660cf249ec25f06abc0e63ae8c10450cd2536b7ca299cbb4fe251c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0064",
+      "doc_id": "d0041",
+      "start": 5928,
+      "end": 9446,
+      "sha256": "ff68d96882f20db48c3a2ac2c002bc9390d599464faa9123a3d51452036cb984",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0036",
+      "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來",
+      "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+      "summary": "訪談整理預算優先順序、循環都更、城市智庫與 AI 應用、青年基金、親子同行卡及國際人才生活配套。文中混有主持人提問、編者摘要和受訪者說法。",
+      "attributable_claims": [
+        "受訪者主張以都更釋出托育、日照等公共空間，並提出循環換屋機制。",
+        "提出台北研究院／城市智庫與城市問題導向的 AI 應用構想。",
+        "提出青年發展基金與親子友善商圈誘因。"
+      ],
+      "caveats": [
+        "原稿未逐句核對影音；數字、時程及政策均為訪談說法或構想，不代表已核定。",
+        "單位 u0051–u0052 是本文後段，前段已由其他批次閱讀；本批閱讀範圍僅為該兩個區段。"
+      ],
+      "topic_keys": [
+        "circular_renewal",
+        "regional_ai",
+        "youth_fund",
+        "family_card",
+        "talent_livability"
+      ]
+    },
+    {
+      "doc_id": "d0037",
+      "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來",
+      "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+      "summary": "商周訪談逐字稿頁，包含循環都更細節、親子同行卡、人才生活配套、AI 產業應用、舉債界線及青年基金。與 d0036 為同一訪談的逐字稿／文章版本。",
+      "attributable_claims": [
+        "受訪者提出殭屍都更退場、政府興建新屋及官方換屋平台的循環構想。",
+        "受訪者主張產業發展宜跨縣市分工，台北聚焦 AI 應用。",
+        "受訪者主張不應舉債普發現金，公共住宅等市場不足項目可討論舉債。"
+      ],
+      "caveats": [
+        "逐字稿未逐句對照影音，存在辨識錯字或缺句；議題、數字與時程需以影音或正式方案確認。",
+        "與 d0036 同一訪談，不構成獨立佐證。"
+      ],
+      "topic_keys": [
+        "circular_renewal",
+        "regional_ai",
+        "debt_principle",
+        "youth_fund",
+        "family_card",
+        "talent_livability"
+      ]
+    },
+    {
+      "doc_id": "d0038",
+      "title": "沈伯洋《新聞面對面》專訪：從選戰、府會溝通到城市治理",
+      "url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/",
+      "summary": "節目文章整理包含府會溝通、競選財務與支持者議題，也載有 1999 陳情視覺化、兒少保護政治責任及松機遷建排序等市政治理說法。",
+      "attributable_claims": [
+        "受訪者提出以 AI 分類陳情並以 GIS 地圖呈現集中需求。",
+        "受訪者表示兒少保護系統失靈時相關首長應負政治責任並重組訪視監督。",
+        "受訪者表示現階段社子島安置與既有危老都更優先於松機遷建。"
+      ],
+      "caveats": [
+        "原稿明示未逐句對照影音，內容含編者整理，無法確認逐字完整性。",
+        "訪談主張及對個案的評論不是獨立調查結論；個案事實、程序及可行性待核。"
+      ],
+      "topic_keys": [
+        "1999_gis",
+        "child_protection",
+        "airport_priority",
+        "council_dialogue"
+      ]
+    },
+    {
+      "doc_id": "d0039",
+      "title": "沈伯洋《新聞面對面》專訪：從選戰、府會溝通到城市治理",
+      "url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/transcript/",
+      "summary": "《新聞面對面》逐字稿頁，含支持者議題及後段市政內容，與 d0038 同場訪談。",
+      "attributable_claims": [
+        "提出以語意分類和 GIS 呈現陳情類別、地點與資源需求。",
+        "提出系統性兒少保護失靈時更換主管並重組訪視監督體系。",
+        "將社子島解禁安置及危老都更列為松機遷建之前。"
+      ],
+      "caveats": [
+        "來源未逐句影音核對；d0038 與 d0039 是同一訪談，非獨立證據。",
+        "單位 u0059–u0060 分段保留原稿，不得視為第二次受訪確認。"
+      ],
+      "topic_keys": [
+        "1999_gis",
+        "child_protection",
+        "airport_priority"
+      ]
+    },
+    {
+      "doc_id": "d0040",
+      "title": "沈伯洋談性別與城市：從家庭分工到制度改變",
+      "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/",
+      "summary": "Podcast 文章以性別經驗串接城市安全、警察組織文化、育兒喘息、育嬰留停誘因和高風險勞動安全。",
+      "attributable_claims": [
+        "受訪者談以環境設計、友善店家與求助網絡改善夜間安全。",
+        "提出微型臨托、雙親育嬰留停誘因及高危勞工安全措施。",
+        "主張警界文化改善應涉及考評與升遷制度。"
+      ],
+      "caveats": [
+        "文章與逐字稿含整理或濃縮內容，尚未逐句核對影音；政策細節及外國制度類比待核。",
+        "生活經驗與主持人提問須和受訪者的市政主張分開。"
+      ],
+      "topic_keys": [
+        "gender_safe_space",
+        "police_accountability",
+        "care_support",
+        "parental_leave",
+        "labor_safety"
+      ]
+    },
+    {
+      "doc_id": "d0041",
+      "title": "沈伯洋談性別與城市：從家庭分工到制度改變",
+      "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/",
+      "summary": "Podcast 對話稿後段，收錄夜間性別安全空間、警察考評、伴侶生活、臨托與育嬰留停、高危勞工工安等。與 d0040 為同一集。",
+      "attributable_claims": [
+        "提出改善照明、通視、友善店家／求助網絡及巡邏配置的方向。",
+        "主張調整警察考評及升遷制度，而非只辦宣導課。",
+        "提出社區臨托、雙親育嬰留停誘因及高風險勞工裝備／檢查。"
+      ],
+      "caveats": [
+        "稿件標示整理或濃縮且未逐句影音校對；時間碼、逐字性、政策細節及人物故事都待核。",
+        "d0040 與 d0041 是同一集，不構成兩份獨立證據。"
+      ],
+      "topic_keys": [
+        "gender_safe_space",
+        "police_accountability",
+        "care_support",
+        "parental_leave",
+        "labor_safety"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "以循環都更釋出房源與公共空間",
+      "question": "老屋更新如何兼顧住戶換屋、公共設施和街道空間？",
+      "points": [
+        "先盤點國有地與停滯都更案，構想設退場機制及公部門介入。",
+        "在適當地點先興建新屋，再用官方平台安排住戶換屋，帶動後續更新。",
+        "示範生活圈需離原居地近；更新案也可串連托育、日照、人行道與自行車空間。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0051",
+          "doc_id": "d0036",
+          "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+          "section_or_timestamp": "00:25:42–00:33:33，〈無限都更〉",
+          "speaker": "沈伯洋",
+          "support_excerpt": "殭屍都更需要退場機制"
+        },
+        {
+          "unit_id": "u0055",
+          "doc_id": "d0037",
+          "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+          "section_or_timestamp": "00:25:42–00:33:33，〈無限都更〉",
+          "speaker": "沈伯洋",
+          "support_excerpt": "在多大的這個範圍之內可以來做換屋這件事"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "既有工作包其他批次的都更主題"
+      ]
+    },
+    {
+      "working_title": "台北城市智庫連結 AI 人才與市政應用",
+      "question": "台北如何把 AI 人才培育和城市問題解決連在一起？",
+      "points": [
+        "構想在北士科設城市智庫，透過專案研究提出可落地的市政方案。",
+        "以智慧醫療、無人載具、音樂與商圈等應用場域培養人才。",
+        "主張算力、資料中心、軟體及應用可與其他城市分工，避免只依賴單一大廠。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0053",
+          "doc_id": "d0037",
+          "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+          "section_or_timestamp": "00:06:47–00:14:29，北市科／城市智庫",
+          "speaker": "沈伯洋",
+          "support_excerpt": "城市之庫嘛就台北研究院"
+        },
+        {
+          "unit_id": "u0054",
+          "doc_id": "d0037",
+          "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+          "section_or_timestamp": "00:14:29 前，AI 應用方向",
+          "speaker": "沈伯洋",
+          "support_excerpt": "整個AI產業需要的是應用面"
+        },
+        {
+          "unit_id": "u0051",
+          "doc_id": "d0036",
+          "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+          "section_or_timestamp": "00:23:59，跨縣市分工",
+          "speaker": "沈伯洋",
+          "support_excerpt": "產業應該要分工合作"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "「吸引海外人才」相關主題"
+      ]
+    },
+    {
+      "working_title": "舉債優先支持市場難以提供的公共建設",
+      "question": "哪些市政支出適合舉債，哪些應避免？",
+      "points": [
+        "受訪者認為住宅等市場供給不足的公共需求可考慮舉債。",
+        "他反對為普發現金舉債，並主張先補足托育、長照與弱勢照顧。",
+        "經常支出和資本投資的取捨，應以可持續預算及既有服務為前提。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0054",
+          "doc_id": "d0037",
+          "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+          "section_or_timestamp": "00:14:44，舉債與普發現金",
+          "speaker": "沈伯洋",
+          "support_excerpt": "普發現金一定不適合舉債"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "18 至 22 歲青年基金與成年轉銜課程",
+      "question": "青年從求學進入職場時，城市可以提供哪些銜接支持？",
+      "points": [
+        "構想在 18 至 22 歲期間累積一筆發展基金，供求職準備或初期租屋使用。",
+        "領取條件構想包含理財、防詐及市政福利課程；金額與時數仍須核對。",
+        "課程也可作為把既有育兒、就業等公共資源送到民眾手上的管道。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0054",
+          "doc_id": "d0037",
+          "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+          "section_or_timestamp": "00:18:12–00:23:59，青年基金",
+          "speaker": "沈伯洋",
+          "support_excerpt": "讓他在22歲的時候再用這筆錢"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "親子同行卡串連社區商圈與文化活動",
+      "question": "如何讓家庭更容易參與社區活動，也支持地方店家？",
+      "points": [
+        "構想以親子友善認證整理書店走讀等活動，並由平台依地區推送資訊。",
+        "每月點數可折抵活動費用，鼓勵家庭參與並增加地方店家客源。",
+        "親子設施、敬老卡及商圈轉型可共同規劃；點數、經費規模屬構想。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0055",
+          "doc_id": "d0037",
+          "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+          "section_or_timestamp": "00:34:20–00:40:50，親子同行卡",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們600年是打算每個月歸零"
+        },
+        {
+          "unit_id": "u0055",
+          "doc_id": "d0037",
+          "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
+          "section_or_timestamp": "00:37:11，商圈空間設計",
+          "speaker": "沈伯洋",
+          "support_excerpt": "敬老卡一樣就可以在這邊可以用"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "吸引海外人才需同時處理工作與家庭生活",
+      "question": "吸引國際人才回流，除了工作機會還需要哪些條件？",
+      "points": [
+        "受訪者以半導體發展經驗說明，研發機會、就業銜接和子女教育會共同影響人才回流。",
+        "城市人才政策可把專案工作、企業職缺與家庭教育配套一起規劃。",
+        "文中歷史案例與因果關係屬受訪者回憶，仍需外部資料確認。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0052",
+          "doc_id": "d0036",
+          "url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+          "section_or_timestamp": "00:40:58，國際人才與半導體經驗",
+          "speaker": "沈伯洋",
+          "support_excerpt": "小孩有沒有地方唸書有關係"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "城市智庫與 AI 人才培育"
+      ]
+    },
+    {
+      "working_title": "用 1999 陳情分類與地圖協助配置市政資源",
+      "question": "市府如何從民眾陳情辨認問題熱點並減少跨局處推諉？",
+      "points": [
+        "構想以 AI 對陳情內容作語意分類，並按地點呈現在 GIS 地圖。",
+        "例子包括托育、行人安全及校園安全，讓市府看出問題集中區域。",
+        "此處屬訪談中的系統構想，資料治理與實際流程未在來源中交代。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0058",
+          "doc_id": "d0038",
+          "url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/",
+          "section_or_timestamp": "陳敏鳳提問後，1999 改革段",
+          "speaker": "沈伯洋",
+          "support_excerpt": "透過AI和大數據進行語意分析與分類"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "兒少保護失靈時應追究政治責任並重整監督",
+      "question": "重大兒少保護案件暴露制度漏洞時，市府如何負責？",
+      "points": [
+        "受訪者認為通報、訪視和跨局處聯繫出現系統性失靈時，首長須負政治責任。",
+        "他表示若由其執政會撤換相關首長並重組訪視監督體系。",
+        "這是對談中的政治主張，不是對案件責任的調查認定。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0060",
+          "doc_id": "d0039",
+          "url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/transcript/",
+          "section_or_timestamp": "兒虐事件回應段",
+          "speaker": "沈伯洋",
+          "support_excerpt": "徹底重組訪視監督體系"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "松機遷建順位應先處理社子島與危老都更",
+      "question": "松山機場遷建和眼前都市治理需求，優先順序如何安排？",
+      "points": [
+        "受訪者把社子島解禁與安置、既有危老都更列為松機遷建之前。",
+        "他指出松機涉及中央國防、桃機第三跑道及跨部會協商，市長不能單方面承諾短期完成。",
+        "程序與可行性需以主管機關資料核實。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0060",
+          "doc_id": "d0039",
+          "url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/transcript/",
+          "section_or_timestamp": "康仁俊提問後，松機遷建段",
+          "speaker": "沈伯洋",
+          "support_excerpt": "社子島的解禁與安置"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以環境設計與求助網絡改善夜間性別安全",
+      "question": "夜間街區如何讓感到受騷擾或跟蹤的人更容易求助？",
+      "points": [
+        "提出改善照明與視線、建立友善店家及即時求助網絡。",
+        "也提到依風險配置巡邏警力與科技防衛。",
+        "受訪者以中山區為例；來源未提供具體點位、執行流程或成效資料。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0064",
+          "doc_id": "d0041",
+          "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/",
+          "section_or_timestamp": "00:22:30–00:24:15，夜間安全空間",
+          "speaker": "沈伯洋",
+          "support_excerpt": "性別友善絕對不是每年辦辦路跑或宣導活動就交差"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "警界性平改革需連動考評與升遷制度",
+      "question": "警察組織要如何把性別尊重落實到日常管理？",
+      "points": [
+        "受訪者認為只辦年度性平講座不足以改變組織文化。",
+        "主張檢視績效指標、主管考核與內部申訴透明度。",
+        "稿件未交代指標內容、權責機關或具體實施方案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0064",
+          "doc_id": "d0041",
+          "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/",
+          "section_or_timestamp": "00:48:00–00:50:30，警界文化",
+          "speaker": "沈伯洋",
+          "support_excerpt": "考評指標」與「升遷考核制度"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "社區臨托與雙親育嬰留停支持家庭喘息",
+      "question": "城市如何減輕育兒家庭的孤立與照顧壓力？",
+      "points": [
+        "提出在社區設微型臨托據點及育兒喘息服務。",
+        "構想雙親都使用育嬰留停時由市府加碼補助，以鼓勵共同照顧。",
+        "補助月數與適用條件是舉例構想，來源未說明法律及財務安排。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0064",
+          "doc_id": "d0041",
+          "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/",
+          "section_or_timestamp": "01:04:30，育兒喘息；01:11:45，育嬰留停",
+          "speaker": "沈伯洋",
+          "support_excerpt": "在台北各社區建立微型臨托據點"
+        },
+        {
+          "unit_id": "u0064",
+          "doc_id": "d0041",
+          "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/",
+          "section_or_timestamp": "01:11:45，育嬰留停誘因",
+          "speaker": "沈伯洋",
+          "support_excerpt": "女方請滿 6 個月、男方也請滿 6 個月"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "高風險勞工安全需涵蓋裝備與檢查",
+      "question": "城市勞安措施如何照顧高危險職業中的基層勞工？",
+      "points": [
+        "受訪者關注建築、水電及高空冷氣安裝等高風險工作。",
+        "提出安全指引、裝備補助與勞安檢查等方向。",
+        "個人事故故事與政策成效均未由其他來源核實。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0064",
+          "doc_id": "d0041",
+          "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/",
+          "section_or_timestamp": "01:18:59–01:20:15，高危勞工安全",
+          "speaker": "沈伯洋",
+          "support_excerpt": "安全指引、裝備補助與勞安檢查"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    }
+  ]
+}

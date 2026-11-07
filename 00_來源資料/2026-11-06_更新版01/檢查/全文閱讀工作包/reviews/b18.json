@@ -1,0 +1,368 @@
+{
+  "batch_id": "b18",
+  "read_units": [
+    {
+      "unit_id": "u0235",
+      "doc_id": "d0113",
+      "start": 0,
+      "end": 5958,
+      "sha256": "1d9bdf6589c43ad6463da659017987fba1f0508543163ba457ebb75b48ada622",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0236",
+      "doc_id": "d0113",
+      "start": 5958,
+      "end": 11934,
+      "sha256": "4eba2bd5e58ed911c4d57f27902c9de7418fd0f2587030bc4c7eb7c76fb5fa9d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0237",
+      "doc_id": "d0113",
+      "start": 11934,
+      "end": 15037,
+      "sha256": "ec7e8ed6954ea4197dc101a88855ad69d3f7dd394eb24df4766a857f27cf6e66",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0238",
+      "doc_id": "d0114",
+      "start": 0,
+      "end": 5919,
+      "sha256": "262bf44c0426e8b8f0dc0ed260040c8087ec16874dd662220f72d6a4d3aa0f83",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0239",
+      "doc_id": "d0114",
+      "start": 5919,
+      "end": 11915,
+      "sha256": "70dd6519f44087fc92e36d0c350033b26a806d0d0be313dc3682b5e7bb92ca00",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0240",
+      "doc_id": "d0114",
+      "start": 11915,
+      "end": 13554,
+      "sha256": "fcd623ba39cdb65928fb093a5b548d96ae3959f3ad19269a03e21ca5fb4ae633",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0241",
+      "doc_id": "d0115",
+      "start": 0,
+      "end": 5948,
+      "sha256": "0db00121a065f02953757189891c10a5fed9e90b79f083e8a3f82863f030c228",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0242",
+      "doc_id": "d0115",
+      "start": 5948,
+      "end": 11923,
+      "sha256": "8d34db7ece6baee773a8b746e4e9fb046221e2d2f294f1ec46a13ef146ae330a",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0243",
+      "doc_id": "d0115",
+      "start": 11923,
+      "end": 15815,
+      "sha256": "a8b21a611391c3d178dc4f24a3a422e05cd95468dd5ae3aeda108f97536b3774",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0244",
+      "doc_id": "d0116",
+      "start": 0,
+      "end": 5873,
+      "sha256": "9f27cdb0d6d339faa1c0e0067e2b5675fa2f7bf33b0c369ac1f07b91efe0247e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0245",
+      "doc_id": "d0116",
+      "start": 5873,
+      "end": 11848,
+      "sha256": "f18547cb1790f96b052558bc625938c138cdcff217af45c3b2e148c4b88e71e3",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0246",
+      "doc_id": "d0116",
+      "start": 11848,
+      "end": 14417,
+      "sha256": "6a952a0623c99ab7052ce1b4df2d5881c0f507836d71b96f59601a52235e369e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0247",
+      "doc_id": "d0117",
+      "start": 0,
+      "end": 5969,
+      "sha256": "76c6cdcca52d7bfcd404cb4d69530dda8bbe95631d5f3d78f884ede9ffdf33c0",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0248",
+      "doc_id": "d0117",
+      "start": 5969,
+      "end": 6032,
+      "sha256": "032ff51494023b0cd437c560d2527689e7c721c526738d734967174450470c9f",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0113",
+      "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+      "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+      "summary": "提供的辯論原稿記錄候選人申論、交互詰問、媒體提問及結論，涵蓋育兒、都更、樹木、交通與城市照顧。",
+      "attributable_claims": [
+        "沈伯洋提出家長版1999、社區照護與安全步行構想",
+        "提出老屋耐震初篩與都更陪伴團隊",
+        "談第一百日工作及公務員支持"
+      ],
+      "caveats": [
+        "原稿與公視現場紀錄在輪次、議題、結論有差異，逐字內容未影音校對；候選人主張需照原稿表述。"
+      ],
+      "topic_keys": [
+        "family-support",
+        "urban-greenery",
+        "urban-renewal",
+        "municipal-governance"
+      ]
+    },
+    {
+      "doc_id": "d0114",
+      "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+      "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/transcript/",
+      "summary": "同場辯論的逐字稿延伸頁，記錄蔣萬安及沈伯洋結論；與d0113同源，不是另一份獨立佐證。",
+      "attributable_claims": [
+        "沈伯洋以市民參與、專業合作及避免孤單描述治理願景"
+      ],
+      "caveats": [
+        "原稿與公視現場紀錄不一致，且未逐句核對影音；蔣萬安的政績與主張須另行歸屬。"
+      ],
+      "topic_keys": [
+        "municipal-governance"
+      ]
+    },
+    {
+      "doc_id": "d0115",
+      "title": "沈伯洋質詢外交部：外館預算、國際傳播與無人機外交",
+      "url": "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/",
+      "summary": "提供的外交及國防委員會逐字整理和會後聯訪。可辨識市政內容主要是沈伯洋談市民大道空間縫合；外交質詢及國際議題屬不同脈絡。",
+      "attributable_claims": [
+        "沈伯洋稱正與建築師、工程師討論市民大道南北縫合的四個區域"
+      ],
+      "caveats": [
+        "時間碼及標示未逐句影音核對，原稿部分時間順序交錯；數字、國安指稱均非獨立核實。"
+      ],
+      "topic_keys": [
+        "citizen-avenue-stitching",
+        "context-foreign-affairs"
+      ]
+    },
+    {
+      "doc_id": "d0116",
+      "title": "沈伯洋質詢外交部：外館預算、國際傳播與無人機外交",
+      "url": "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/transcript/",
+      "summary": "與d0115同一場質詢及聯訪的逐字稿版本，含其他委員、外交部官員與記者發言。",
+      "attributable_claims": [
+        "沈伯洋在聯訪提及市民大道空間改善構想及工作進度"
+      ],
+      "caveats": [
+        "同源重複版本；未逐句影音校對，必須區分沈伯洋、其他委員與官員。"
+      ],
+      "topic_keys": [
+        "citizen-avenue-stitching",
+        "context-foreign-affairs"
+      ]
+    },
+    {
+      "doc_id": "d0117",
+      "title": "《洋流誌》政策彩皮書：六冊主題、創作者分享與市民之書",
+      "url": "https://puma-hub.pages.dev/articles/ocean-policy-colorbook-2026-10-27/",
+      "summary": "政策彩皮書發表紀錄，交代五大市政主題、創作者分享及市民書寫冊；創作者觀點與沈伯洋發言應分開。",
+      "attributable_claims": [
+        "沈伯洋稱第六冊留給市民寫畫城市願景，並主張政府容納多元創作與公共批評"
+      ],
+      "caveats": [
+        "摘要及提供原稿未影音校對，冊別、創作者及發行資訊依原稿待核；創作者的個人意見不可歸為候選人承諾。"
+      ],
+      "topic_keys": [
+        "citizen-policy-participation",
+        "culture-and-public-critique"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "家長服務窗口與社區照顧",
+      "question": "育兒、早療及長者外出服務如何更容易取得？",
+      "points": [
+        "沈伯洋在辯論媒體提問中提出「家長版1999」，整合托育、臨托與早療諮詢。",
+        "並提出企業彈性工時、社區微型照護，以及長者和行動不便者可預約的健身小巴與共乘接駁。",
+        "這是候選人所述的未來主張；原稿未提供服務規模、時程或執行細節。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0237",
+          "doc_id": "d0113",
+          "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+          "section_or_timestamp": "媒體提問一／沈伯洋四年後生活描述",
+          "speaker": "沈伯洋",
+          "support_excerpt": "家長版 1999」單一整合窗口"
+        },
+        {
+          "unit_id": "u0237",
+          "doc_id": "d0113",
+          "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+          "section_or_timestamp": "媒體提問一／沈伯洋四年後生活描述",
+          "speaker": "沈伯洋",
+          "support_excerpt": "健身小巴」與共乘接駁"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "都更陪伴與老屋耐震初篩",
+      "question": "老屋更新如何兼顧安全、資訊與住戶整合？",
+      "points": [
+        "沈伯洋提出由市府主動初篩建物耐震風險，以安全輔導為出發點。",
+        "他主張組成專業陪伴團隊，到社區面對面提供試算及法規諮詢。",
+        "辯論原稿另提到權利轉換與代管想法，但限定在法定程序完備且多數住戶有共識的情境；細節仍待確認。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0237",
+          "doc_id": "d0113",
+          "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+          "section_or_timestamp": "媒體提問二／沈伯洋老屋都更回答",
+          "speaker": "沈伯洋",
+          "support_excerpt": "建立建築物耐震風險的「初篩機制」"
+        },
+        {
+          "unit_id": "u0237",
+          "doc_id": "d0113",
+          "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+          "section_or_timestamp": "媒體提問二／沈伯洋老屋都更回答",
+          "speaker": "沈伯洋",
+          "support_excerpt": "組成專業的都更陪伴團"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "行人步行環境與都市綠蔭",
+      "question": "通勤步行路線如何增加安全與遮蔭？",
+      "points": [
+        "沈伯洋在辯論描述連貫安全的步行城市及綠蔭微森林遮蔽。",
+        "他也把都市微森林與生態多樣性、日常公共空間連結；原稿沒有列出路段或工程方案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0237",
+          "doc_id": "d0113",
+          "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+          "section_or_timestamp": "媒體提問一／沈伯洋四年後生活描述",
+          "speaker": "沈伯洋",
+          "support_excerpt": "連貫安全的步行城市與綠蔭微森林遮蔽"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "市民大道南北縫合與橋下空間",
+      "question": "市民大道沿線有哪些空間可串聯人流與商圈？",
+      "points": [
+        "沈伯洋表示市民大道有多處可討論南北縫合，不只建國高架橋一帶。",
+        "他稱團隊正與建築師、工程師繪圖討論，初步選了四個區域，考慮人流串聯、商圈活絡及橋下空間運用。",
+        "內容是媒體聯訪中所述的規劃討論，非已完成設計或核定工程。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0242",
+          "doc_id": "d0115",
+          "url": "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/",
+          "section_or_timestamp": "00:34:48 聯訪／市民大道南北縫合",
+          "speaker": "沈伯洋",
+          "support_excerpt": "選了四個不同的區域要做人流串聯"
+        },
+        {
+          "unit_id": "u0242",
+          "doc_id": "d0115",
+          "url": "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/",
+          "section_or_timestamp": "00:34:48 聯訪／市民大道南北縫合",
+          "speaker": "沈伯洋",
+          "support_excerpt": "跟建築師、工程師討論"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "市民參與與公共批評",
+      "question": "政策發表後如何讓市民參與並保留公共討論空間？",
+      "points": [
+        "《洋流誌》發表時，沈伯洋介紹第六冊留白，邀請市民寫下或畫下台北願景。",
+        "他主張政府應容納多元創作及公共批評；原稿沒有說明市民意見如何回收或納入政策。",
+        "主持人與創作者的說明各有立場，創作者談市場、個人經驗不可當成沈伯洋承諾。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0247",
+          "doc_id": "d0117",
+          "url": "https://puma-hub.pages.dev/articles/ocean-policy-colorbook-2026-10-27/",
+          "section_or_timestamp": "候選人致詞與政策發表",
+          "speaker": "沈伯洋",
+          "support_excerpt": "邀請大家寫下、畫下自己對台北未來的期待"
+        },
+        {
+          "unit_id": "u0247",
+          "doc_id": "d0117",
+          "url": "https://puma-hub.pages.dev/articles/ocean-policy-colorbook-2026-10-27/",
+          "section_or_timestamp": "候選人致詞與政策發表",
+          "speaker": "沈伯洋",
+          "support_excerpt": "勇於接受公共批評的胸襟"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以市民為中心的照顧治理",
+      "question": "城市治理如何回應不同生活處境並減少孤立？",
+      "points": [
+        "沈伯洋在辯論結論表示市民應是城市主角，並以單親家長、照顧者、身障長者及上班族等處境說明不應有人被落下。",
+        "這是治理價值與照顧願景，沒有提出具體服務項目或量化目標。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0240",
+          "doc_id": "d0114",
+          "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/transcript/",
+          "section_or_timestamp": "沈伯洋結論",
+          "speaker": "沈伯洋",
+          "support_excerpt": "每一個人都不應該被落下"
+        },
+        {
+          "unit_id": "u0240",
+          "doc_id": "d0114",
+          "url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/transcript/",
+          "section_or_timestamp": "沈伯洋結論",
+          "speaker": "沈伯洋",
+          "support_excerpt": "市民成為這座城市真正的主角"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    }
+  ]
+}

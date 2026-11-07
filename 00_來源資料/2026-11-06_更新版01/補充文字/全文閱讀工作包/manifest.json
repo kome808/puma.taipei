@@ -1,0 +1,34 @@
+{
+  "snapshot": "/Users/u2093030/Library/CloudStorage/GoogleDrive-kome808@gmail.com/我的雲端硬碟/市長選舉設計/沈伯洋政策/00_來源資料/2026-11-06_更新版01/補充文字/可讀資料",
+  "raw_readable_records": 5,
+  "documents": 5,
+  "original_chars": 9809,
+  "visible_chars": 9809,
+  "markup_handling": "All Markdown link labels retained; target URLs recorded per document. Timestamp URLs need not be reread as prose.",
+  "reading_chars": 9809,
+  "reading_units": 5,
+  "batches": [
+    {
+      "batch_id": "b01",
+      "chars": 9809,
+      "units": [
+        "u0001",
+        "u0002",
+        "u0003",
+        "u0004",
+        "u0005"
+      ],
+      "documents": [
+        "d0001",
+        "d0002",
+        "d0003",
+        "d0004",
+        "d0005"
+      ]
+    }
+  ],
+  "removed_verbatim_paragraphs": 0,
+  "navigation_indexes_separately_accounted": [],
+  "status": "reading_complete",
+  "reading_coverage_file": "reading-coverage.json"
+}

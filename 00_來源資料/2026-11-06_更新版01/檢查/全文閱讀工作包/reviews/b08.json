@@ -1,0 +1,383 @@
+{
+  "batch_id": "b08",
+  "read_units": [
+    {
+      "unit_id": "u0101",
+      "doc_id": "d0051",
+      "start": 0,
+      "end": 5960,
+      "sha256": "2fad9b0ca68526796bba840c1dcb630348137887c867bf56d04af70b8d016253",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0102",
+      "doc_id": "d0051",
+      "start": 5960,
+      "end": 11867,
+      "sha256": "a31f2de4be912524fda93012392cb5a24662012d89b3e0e7927d1bcb1a5a4b3c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0103",
+      "doc_id": "d0051",
+      "start": 11867,
+      "end": 12826,
+      "sha256": "987859cf7359c9e01f98bafe88e667dd48eb64dfa9b680f80d8adab545b03540",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0104",
+      "doc_id": "d0052",
+      "start": 0,
+      "end": 5983,
+      "sha256": "0a8e54f2d1ef297b7b677ab0ffb8347d0560eddc8744121f6748973106d45071",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0105",
+      "doc_id": "d0052",
+      "start": 5983,
+      "end": 11504,
+      "sha256": "3592b3a7e3210e0015e070abe0ade0b90c790aa00d1941050a173317e324ebb3",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0106",
+      "doc_id": "d0053",
+      "start": 0,
+      "end": 5992,
+      "sha256": "bfad79cd7e3211a5a44c0cfb381c1572248b102008226ca484182e666c349a81",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0107",
+      "doc_id": "d0053",
+      "start": 5992,
+      "end": 8206,
+      "sha256": "6954ffb2837cb77d3493257a59698989100291d3f7ca02abc24ad3a965e8f46f",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0108",
+      "doc_id": "d0054",
+      "start": 0,
+      "end": 5999,
+      "sha256": "57f20ed5abac812cb12bff1de5cb76cbaf003a16dea2c07195777a340e9cfa86",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0109",
+      "doc_id": "d0054",
+      "start": 5999,
+      "end": 10111,
+      "sha256": "6a0a454a4785eefcab63ebdbd1ebc7cad6c76ffeae474e0eb6b47b872762b340",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0110",
+      "doc_id": "d0055",
+      "start": 0,
+      "end": 5988,
+      "sha256": "5a3e57850e974553bcac38794e467e20bfdd1d4458ee057ae8973c744df19c14",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0111",
+      "doc_id": "d0055",
+      "start": 5988,
+      "end": 6826,
+      "sha256": "65a8e5e5748f2251fd7d0ff9f5c8633e7b0d8efac0a9149cd281684b7257a5d1",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0112",
+      "doc_id": "d0056",
+      "start": 0,
+      "end": 5925,
+      "sha256": "5bead0bebccf57bf852910997b154031fece7bf42ed45fd411dc45b6a0321a44",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0113",
+      "doc_id": "d0056",
+      "start": 5925,
+      "end": 11922,
+      "sha256": "35bd1654c16775bd5e207bf815222a48ea915c6fb4686adb62fb30bdb8b21a55",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0114",
+      "doc_id": "d0056",
+      "start": 11922,
+      "end": 13127,
+      "sha256": "176eec5eb6024499e54aa424f90d79767787bfc108cbe2af895369dc420a7ea5",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0051",
+      "title": "沈伯洋《雅琴看世界》：走進台北街頭，從洋流談城市與家人",
+      "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript/",
+      "summary": "張雅琴訪問沈伯洋，中文主片與英文附錄談市長辯論模擬、城市政策、國際交流與家庭。部分補錄及新聞紀要取自不同影音或新聞稿。",
+      "attributable_claims": [
+        "英文專訪中他談雙城交流的主權、政治前提與資安風險管理。",
+        "模擬辯論觸及松山機場遷建與北士科 AI 發展。"
+      ],
+      "caveats": [
+        "附錄含不同影片、新聞摘要和無效時間碼；不可把各段視為同一連續原音。"
+      ],
+      "topic_keys": [
+        "城市政策",
+        "辯論",
+        "國際交流"
+      ]
+    },
+    {
+      "doc_id": "d0052",
+      "title": "從讀書會魔人到差點出道的 VTuber：沈伯洋的非典型法律路",
+      "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep173/",
+      "summary": "《人間動物園》EP173 精華長文回顧沈伯洋讀書會、求學、家庭、法律及跨領域教學經驗，亦談國會外交與城市韌性。",
+      "attributable_claims": [
+        "個人敘述其以跨領域學習及帶讀書會作為公共工作的起點。",
+        "談到以多元學科理解法律及台北城市韌性。"
+      ],
+      "caveats": [
+        "原稿自述未重新聽打；日期、人物背景、時間碼可能有誤。"
+      ],
+      "topic_keys": [
+        "個人經歷",
+        "教育",
+        "韌性城市"
+      ]
+    },
+    {
+      "doc_id": "d0053",
+      "title": "人間動物園 S3 EP.173 完整逐字稿與深度紀要",
+      "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep173/transcript/",
+      "summary": "EP173 的獨立逐字稿頁，與 d0052 同集內容重複並延伸逐字稿分段。",
+      "attributable_claims": [
+        "提供同集較完整逐字內容，非獨立證據。"
+      ],
+      "caveats": [
+        "未重新聽打核對原音；與精華頁重複。"
+      ],
+      "topic_keys": [
+        "重複來源"
+      ]
+    },
+    {
+      "doc_id": "d0054",
+      "title": "「爸爸已經有我一票！」：守護社區與陪伴家人，沈伯洋怎麼選？",
+      "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/",
+      "summary": "《人間動物園》EP174 訪談精華，談社區民防、黑熊學院、跨領域研究、公共參與及家庭。",
+      "attributable_claims": [
+        "他主張社區韌性仰賴日常人際連結及里鄰、政府、民間協作。",
+        "舉辦親子活動作為推廣民防及實用技能的例子。"
+      ],
+      "caveats": [
+        "政策經驗與量化數字來自受訪者自述；原稿未重聽核對。"
+      ],
+      "topic_keys": [
+        "社區民防",
+        "公民參與",
+        "個人及家庭故事"
+      ]
+    },
+    {
+      "doc_id": "d0055",
+      "title": "人間動物園 S3 EP.174 完整逐字稿與深度紀要",
+      "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/transcript/",
+      "summary": "EP174 獨立逐字稿頁，承接精華頁並列完整章節及逐字稿。",
+      "attributable_claims": [
+        "逐字稿與 d0054 為同一訪談內容。"
+      ],
+      "caveats": [
+        "原稿說明日期、講者、數字及時間碼可能有誤。"
+      ],
+      "topic_keys": [
+        "重複來源"
+      ]
+    },
+    {
+      "doc_id": "d0056",
+      "title": "揪某聊 EP397：從蛋清事件、動漫到家庭與選戰中的支持",
+      "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/",
+      "summary": "奧迪訪問沈伯洋，主要談生活、夫妻、家庭及動漫，也延伸到市政服務、心理諮商、孤獨與選戰壓力。",
+      "attributable_claims": [
+        "他主張強化家庭教育中心、增加心理諮商支持，並以社區文化活動作為支持方向。",
+        "將市政描述為涵蓋多領域執行服務，並以地方協助經驗舉例。"
+      ],
+      "caveats": [
+        "原稿部分後段濃縮、時間碼與標記有差異；數字與健康細節未逐句核對。"
+      ],
+      "topic_keys": [
+        "市政服務",
+        "心理支持",
+        "家庭故事"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "雙城論壇交流以對等與無政治前提為界",
+      "question": "若延續城市交流，應如何設下政治前提與風險管理界線？",
+      "points": [
+        "沈伯洋表示交流架構可以保留，但內容需調整，不能附帶「九二共識」或「一國兩制」等政治前提。",
+        "他舉治水等城市治理經驗作為可交流內容，並說明須維持對等尊嚴及處理主權、資安風險。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0103",
+          "doc_id": "d0051",
+          "url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript/",
+          "section_or_timestamp": "附錄 A.1，約 00:08:01–00:10:42",
+          "speaker": "沈伯洋（受訪來賓；英文專訪之中文整理）",
+          "support_excerpt": "架構可以保留，但內容必須改變"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "社區民防以日常人際連結為基礎",
+      "question": "社區如何在平時建立災時互助能力？",
+      "points": [
+        "EP174 訪談中，他將社區防衛描述為不只備妥物資，也要平時認識獨居者、家庭狀況及誰需要支援。",
+        "主張里長、地方政府與民間團體串連，搭配防災訓練、義警義消等既有網絡；社區實際能力不一。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0108",
+          "doc_id": "d0054",
+          "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/",
+          "section_or_timestamp": "00:02:20–00:05:08",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "人跟人之間的連結"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "用親子活動推廣民防與實用技能",
+      "question": "怎樣讓不熟悉民防的家庭願意參與？",
+      "points": [
+        "他舉與地方及消防單位合作辦親子活動為例，讓孩子試穿消防衣、學簡單包紮與走失時回報位置。",
+        "受訪者提到民防認知比例變化，但原稿未交代調查來源、樣本或年份，不採用該數字作事實。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0108",
+          "doc_id": "d0054",
+          "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/",
+          "section_or_timestamp": "00:05:08–00:09:34",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "結合消防局辦親子園遊會"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "台北研究院與市民參與政策設計",
+      "question": "如何把市民生活困擾轉成可討論的市政方案？",
+      "points": [
+        "他談到線上蒐集市民意見、市政黑客松及成立台北研究院，讓不同專業者共同研究城市問題。",
+        "以交通、彈性工時等作為討論例子；平台成效數字及方案可行性依原稿，仍須核對和評估。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0075",
+          "doc_id": "d0044",
+          "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+          "section_or_timestamp": "00:24:44–00:31:43",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "政策能夠有趣而且有趣指的是說有趣的被傳遞"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "家庭教育與心理諮商支持",
+      "question": "他提出哪些減輕孤獨與心理壓力的公共支持？",
+      "points": [
+        "《揪某聊》EP397 中，他主張強化家庭教育中心及增加心理諮商補助，並談社區文化活動作為支持方向。",
+        "「一年至少六次」是其政策主張；原稿所稱一輪固定需要六次未見專業依據，不宜當作普遍療程標準。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0114",
+          "doc_id": "d0056",
+          "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/",
+          "section_or_timestamp": "00:46:05",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "我主張應爭取一年至少六次補助"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "市政涵蓋多元執行服務",
+      "question": "市政工作與中央立法工作有何不同？",
+      "points": [
+        "他形容市政像小型政府，涵蓋衛生、交通、教育、社福、治安與都更等多種執行事務。",
+        "他以協助地方學校爭取遊具經費及災後支援經驗，說明服務工作的成就感來自處理市民生活問題。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0113",
+          "doc_id": "d0056",
+          "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/",
+          "section_or_timestamp": "00:05:05–00:08:00",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "市政有點像小的政府"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "市民街頭提問與即時回應",
+      "question": "街頭接觸時如何面對具體但陌生的市政問題？",
+      "points": [
+        "他把肥皂箱收到的騎樓停車、水溝清理、路面等提問描述為市民期待政府解決的生活問題。",
+        "遇到啤酒釀造或自由潛水空間等陌生題目時，他表示會先記下再研究，而非即場承諾方案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0113",
+          "doc_id": "d0056",
+          "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/",
+          "section_or_timestamp": "00:04:10–00:05:02",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "我回去研究，因為我真的回答不出來"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "多元資訊來源與演算法判讀",
+      "question": "如何避免只接觸熟悉的資訊觀點？",
+      "points": [
+        "訪談精華整理把重點放在知識來源多元，以及主動接觸陌生觀點；並記錄沈伯洋對演算法造成資訊視野錯覺的擔心。",
+        "這一段是編者訪談摘要，不是逐字引言，不能當作經完整原音核對的逐句主張。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0104",
+          "doc_id": "d0052",
+          "url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep173/",
+          "section_or_timestamp": "第五章摘要，章節時間碼 00:18:11",
+          "speaker": "編者摘要（整理訪談內容，非直接引言）",
+          "support_excerpt": "知識來源是否多元"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    }
+  ]
+}

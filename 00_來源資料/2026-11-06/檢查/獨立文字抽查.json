@@ -1,0 +1,100 @@
+{
+  "scope": "downloaded interview text quality spot-check; no policy fact-check or audio comparison",
+  "manifest": {
+    "entries": 181,
+    "all_status_ok": true,
+    "kind_counts": {
+      "hub_index": 1,
+      "interview_article": 74,
+      "transcript_attachment": 71,
+      "transcript_page": 35
+    },
+    "count": 179,
+    "status": "Use 檢查/驗證報告.json as final aggregate; earlier 181-entry tally was from an intermediate download state.",
+    "final_counts_by_kind": {
+      "hub_index": 1,
+      "interview_article": 74,
+      "transcript_page": 33,
+      "article_attachment": 32,
+      "transcript_attachment": 38,
+      "source_notes_attachment": 1
+    },
+    "final_verification_report_status": "passed"
+  },
+  "html_with_long_details_over_1000_chars": 38,
+  "long_details_checked": 38,
+  "samples": [
+    {
+      "html": "interview_article-puma-hub-pages-dev-articles-business-week-taipei-2026-11-02-21229c32f0.html",
+      "markdown": "interview_article-puma-hub-pages-dev-articles-business-week-taipei-2026-11-02-21229c32f0.md",
+      "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來｜PUMA HUB",
+      "body_text_chars": 18557,
+      "detail_text_chars": [
+        106,
+        16636
+      ],
+      "markdown_chars": 19108,
+      "source_notice_or_uncertainty_preserved": true
+    },
+    {
+      "html": "interview_article-puma-hub-pages-dev-articles-today-world-2026-11-04-68b144cf28.html",
+      "markdown": "interview_article-puma-hub-pages-dev-articles-today-world-2026-11-04-68b144cf28.md",
+      "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更｜PUMA HUB",
+      "body_text_chars": 13724,
+      "detail_text_chars": [
+        59,
+        12678
+      ],
+      "markdown_chars": 14687,
+      "source_notice_or_uncertainty_preserved": true
+    },
+    {
+      "html": "interview_article-puma-shen-interview-pages-dev-puma-shen-2023-09-08-hybrid-warfare-center-2306f5d908.html",
+      "markdown": "interview_article-puma-shen-interview-pages-dev-puma-shen-2023-09-08-hybrid-warfare-center-2306f5d908.md",
+      "title": "台灣可以是第一個「反混合戰中心」｜PUMA 老師文章",
+      "body_text_chars": 6100,
+      "detail_text_chars": [
+        361
+      ],
+      "markdown_chars": 5196,
+      "source_notice_or_uncertainty_preserved": true
+    }
+  ],
+  "encoding_scan": {
+    "replacement_character_hits_in_text_md": 0,
+    "mojibake_marker_hits_in_text_md": 0
+  },
+  "findings": [],
+  "automated_suffix_check_note": "A strict exact 100-character suffix comparison across article HTML and same-stem Markdown is not a valid omission test: HTML includes rights/footer text, formatting differs, and transcript text often has separate transcript_page/transcript_attachment Markdown files. For the two current transcript samples, the spoken ending was confirmed in their dedicated transcript Markdown.",
+  "sample_transcript_endings": [
+    {
+      "source": "商周 2026-11-02",
+      "dedicated_markdown": "transcript_attachment-puma-hub-pages-dev-articles-business-week-taipei-2026-11-02-transcript-md-978c2f028d.md",
+      "evidence": "正文末段「整個機制要怎麼建立起來…成功的經驗」可見；HTML 後接 AI 校訂/權利聲明。"
+    },
+    {
+      "source": "范琪斐 TODAY 2026-11-04",
+      "dedicated_markdown": "transcript_attachment-puma-hub-pages-dev-articles-today-world-2026-11-04-transcript-md-c98be34d24.md",
+      "evidence": "最後一段 00:41:06 主持人收尾及 00:41:16 沈伯洋「謝謝！」均可見。"
+    }
+  ],
+  "flagged_review_items": [],
+  "docx_validation": {
+    "raw_path": "訪談逐字稿/raw/attachments/transcript_attachment-puma-hub-pages-dev-articles-shen-chunhua-s2ep6-2026-original-docx-a2be15494a.docx",
+    "text_path": "訪談逐字稿/text/transcript_attachment-puma-hub-pages-dev-articles-shen-chunhua-s2ep6-2026-original-docx-a2be15494a.md",
+    "valid_zip": true,
+    "zip_test": null,
+    "zip_members": 14,
+    "utf8_decode": "valid",
+    "text_bytes": 59622,
+    "text_chars": 22002,
+    "nonempty_paragraphs": 213,
+    "sample_paragraphs": [
+      "# 原始 Word 附件文字抽取",
+      "沈春華《發生沈麼事》S2EP6 — 沈春華犀利開問沈伯洋：認知作戰帶進北市府？！完整訪談逐字稿",
+      "節目基本資訊",
+      "節目名稱：沈春華《發生沈麼事!?》",
+      "本集主題：S2EP6 — 沈春華犀利開問#沈伯洋 認知作戰帶進北市府？！feat.沈伯洋"
+    ]
+  }
+}

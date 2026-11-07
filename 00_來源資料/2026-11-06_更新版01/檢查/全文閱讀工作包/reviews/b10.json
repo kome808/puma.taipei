@@ -1,0 +1,342 @@
+{
+  "batch_id": "b10",
+  "read_units": [
+    {
+      "unit_id": "u0128",
+      "doc_id": "d0062",
+      "start": 11848,
+      "end": 17382,
+      "sha256": "f3d4107e82c7b309ac177d440a863895e6dda4f9c0d1ee4e0daa2d234d46cc68",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0129",
+      "doc_id": "d0062",
+      "start": 17382,
+      "end": 23300,
+      "sha256": "5d4441411576c780d00d5d079d11c8b8a8f99f76ef5abdd9cbc57313a18bbdca",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0130",
+      "doc_id": "d0062",
+      "start": 23300,
+      "end": 29227,
+      "sha256": "eb1cfa5a2b1812a5cfbfb304df60d42ebdbf4fb7b877f10f061d64d9a2c7000d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0131",
+      "doc_id": "d0062",
+      "start": 29227,
+      "end": 30481,
+      "sha256": "a3814d8ece46d7bf3ffd2b9c897e2b16dc5592dfee592e0de4dd8be696566140",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0132",
+      "doc_id": "d0063",
+      "start": 0,
+      "end": 5445,
+      "sha256": "b7f3cf53d2b0ec3b4f7b4380f1ec96c1119055dc44a32bf2ea280e91e39b8368",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0133",
+      "doc_id": "d0063",
+      "start": 5445,
+      "end": 11410,
+      "sha256": "04c3fc9a8520720f1ba91e7aed882b71cf1be890beea140538d146669e553717",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0134",
+      "doc_id": "d0063",
+      "start": 11410,
+      "end": 17354,
+      "sha256": "8916c2b08cbb3b407c39f403d7a6cbf498900373acd2869bb07ecf9fa0fc68f9",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0135",
+      "doc_id": "d0063",
+      "start": 17354,
+      "end": 23097,
+      "sha256": "4885866ab3853e0ff2fc13eb3bfa8dc21f414927db487da326f640bbc4bfe491",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0136",
+      "doc_id": "d0063",
+      "start": 23097,
+      "end": 27363,
+      "sha256": "242f533b9d0aee9607fd0e789feec14f710c918e3ea478fb9215f7e84d607839",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0137",
+      "doc_id": "d0064",
+      "start": 0,
+      "end": 5976,
+      "sha256": "9edc74761c653b469d13ba3cf6ddb3e1f79aabb005def2e457fb99cea4e71a98",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0138",
+      "doc_id": "d0064",
+      "start": 5976,
+      "end": 7747,
+      "sha256": "2e276a20eb5afe317166d9b65bf84886ec5ac6873b577ff757976bde8b72fd6a",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0139",
+      "doc_id": "d0065",
+      "start": 0,
+      "end": 5996,
+      "sha256": "67b9a4ee7fda3031584f52c54b84941e5ae03a66b12094d773b572d775f6ecfd",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0140",
+      "doc_id": "d0065",
+      "start": 5996,
+      "end": 6066,
+      "sha256": "09dc89da1d77045668e1856030ac3db78c609a117a7cf2d1248618b88fd3c050",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0062",
+      "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+      "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+      "summary": "王淺秋訪談文章整理台北研究院、AI人才政策、都市熱島降溫、街道安全與市民安心等主張，並涉及雙城交流、毒品防制及個人爭議。",
+      "attributable_claims": [
+        "受訪者提出以城市智庫盤點問題並支援政策規劃，認為AI發展應建立人才鏈而非只設園區。",
+        "受訪者提到種樹改善熱島效應、街道照明及人行空間設計可提升安心感。",
+        "受訪者談以問卷篩檢、轉介及人際／拒毒課程等方式防制新興毒品。"
+      ],
+      "caveats": [
+        "文章含編者整理與訪談內容，非逐句影音校對；個人經歷、時事與數字未獨立核實。"
+      ],
+      "topic_keys": [
+        "city_institute",
+        "ai_talent",
+        "urban_heat",
+        "street_safety",
+        "school_safety",
+        "drug_prevention"
+      ]
+    },
+    {
+      "doc_id": "d0063",
+      "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+      "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+      "summary": "同一場王淺秋訪談的原稿逐字頁，涵蓋跨境城市交流、家庭經商爭議、毒品防制、立委工作及市政願景。",
+      "attributable_claims": [
+        "受訪者提出城市研究院支援市府規劃，並批評以地點命名AI廊帶不足以建立人才串聯。",
+        "受訪者提出熱島降溫植樹、條通照明與人行空間改善等方向。",
+        "受訪者說明其毒品防制理解包括周邊執法、問卷式篩檢轉介與拒毒能力課程。"
+      ],
+      "caveats": [
+        "原稿明示未逐句聽校，含語音辨識錯字、重複、廣告及講者交錯；跨境／個人爭議主張未獨立核實。",
+        "d0062與d0063是同一場訪談的文章與逐字稿，非獨立佐證。"
+      ],
+      "topic_keys": [
+        "city_institute",
+        "ai_talent",
+        "urban_heat",
+        "street_safety",
+        "school_safety",
+        "drug_prevention"
+      ]
+    },
+    {
+      "doc_id": "d0064",
+      "title": "沈伯洋《很懂內幕》：從車掃與科技動員，談台北文化與動漫廊帶",
+      "url": "https://puma-hub.pages.dev/articles/nexttv-inside-2026-10-19/",
+      "summary": "《很懂內幕》文章整理選戰車掃現場管理評論，後段摘錄沈伯洋談城市文化、動漫廊帶與文化產業。",
+      "attributable_claims": [
+        "文章轉述沈伯洋提出文化路徑及板南線動漫廊帶，期望支持本土動畫、漫畫創作者與產業。"
+      ],
+      "caveats": [
+        "原稿時間碼由00:24:29跳至01:33:40；前段多為主持人與評論來賓的選情評論，非受訪者政策主張。",
+        "城市文化與動漫內容在d0065逐字稿重現，兩者同一節目，非獨立佐證。"
+      ],
+      "topic_keys": [
+        "city_culture",
+        "anime_corridor"
+      ]
+    },
+    {
+      "doc_id": "d0065",
+      "title": "沈伯洋《很懂內幕》：從車掃與科技動員，談台北文化與動漫廊帶",
+      "url": "https://puma-hub.pages.dev/articles/nexttv-inside-2026-10-19/transcript/",
+      "summary": "d0064同一節目的逐字稿頁，收錄車掃管理評論及沈伯洋對城市文化類型、動漫產業和板南線動漫廊帶的說法。",
+      "attributable_claims": [
+        "受訪者主張將文化記憶、人權、多元族群等納入城市文化路徑。",
+        "受訪者提出串連板南線既有動漫據點、帶動動漫人口及美業Cosplay鏈結的構想。"
+      ],
+      "caveats": [
+        "稿件明示時間碼缺段且未逐句聽校；車掃人潮與評論不能當作選舉結果或市民偏好證據。",
+        "與d0064為同一節目，非獨立佐證。"
+      ],
+      "topic_keys": [
+        "city_culture",
+        "anime_corridor"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "以城市智庫支援市政規劃，建立AI人才鏈",
+      "question": "台北如何把城市需求、研究機構、人才培育與產業應用接起來？",
+      "points": [
+        "提出設立城市智庫，依城市問題提出規劃，再交由議會與市府形成規則和執行方案。",
+        "認為AI廊帶若只增加園區據點仍不足，應連結大學、TTA、研究院與產業的人才培育。",
+        "將台北定位為AI軟體與應用場域，並以城市問題作為應用需求。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0130",
+          "doc_id": "d0062",
+          "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+          "section_or_timestamp": "訪談後段，城市研究院與AI人才政策",
+          "speaker": "沈伯洋",
+          "support_excerpt": "大腦智庫我覺得這是第一件"
+        },
+        {
+          "unit_id": "u0135",
+          "doc_id": "d0063",
+          "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+          "section_or_timestamp": "約01:12:14，AI廊帶與人才鏈",
+          "speaker": "沈伯洋",
+          "support_excerpt": "研究院才是真正的人才養成機制"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b04城市智庫與AI人才主題",
+        "b07城市智庫與產官學合作"
+      ]
+    },
+    {
+      "working_title": "以植樹與綠蔭降低熱島感受",
+      "question": "如何讓步行與商圈之間的街道在炎熱天氣更舒適？",
+      "points": [
+        "受訪者把都市熱島列為迫切議題，主張現在開始種樹以累積長期降溫效果。",
+        "以步行連接不同商圈為例，指出水泥曝曬會降低民眾步行意願。",
+        "把綠蔭視為騎車、散步與日常移動的環境條件。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0135",
+          "doc_id": "d0063",
+          "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+          "section_or_timestamp": "約01:15:59，都市熱島與植樹",
+          "speaker": "沈伯洋",
+          "support_excerpt": "一定要現在就開始做種樹"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以照明與街道設計改善夜間安心感",
+      "question": "如何透過街道環境設計改善民眾對特定街區的不安感？",
+      "points": [
+        "受訪者提到照明、人行道與樹下空間的設計，以及沿街店家配合。",
+        "提出增加街道人流與可見度，藉更多人在場提升安全感的環境設計思路。",
+        "條通街區的主張需保留為受訪者提出的設計方向，並未提供工程規格或成效資料。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0136",
+          "doc_id": "d0063",
+          "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+          "section_or_timestamp": "約01:16:48–01:18:45，條通街道與環境設計",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我講了照明我 講了行道要"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b07夜間性別安全空間主題"
+      ]
+    },
+    {
+      "working_title": "以營養師與公車路網細節補足安心政策",
+      "question": "如何讓學校午餐品質與公車乘車體驗成為市民安心的一部分？",
+      "points": [
+        "受訪者以公車路網與班表調整為例，指出不應讓趕班或薪酬誘因促成危險駕駛。",
+        "針對免費學校午餐，提出品質管理並設置每校營養師的想法。",
+        "以上為訪談中的主張，未載明人力配置、成本與執行時程。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0135",
+          "doc_id": "d0063",
+          "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+          "section_or_timestamp": "約01:06:47–01:09:02，安心願景與生活政策",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我提出一個學校一個營養師"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以分層預防與轉介處理校園新興毒品風險",
+      "question": "受訪者如何描述從周邊執法到校園預防的分層做法？",
+      "points": [
+        "受訪者談到加強毒品來源周邊執法，再透過問卷式篩檢發現高風險者並轉介。",
+        "也提及以人際壓力與拒絕技巧為主的課程，協助尚未接觸毒品的學生。",
+        "這是受訪者對既有做法及政策方向的說明；逐字稿語音辨識錯漏多，名詞與效果應回聽核對。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0134",
+          "doc_id": "d0063",
+          "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/",
+          "section_or_timestamp": "約00:57:11–01:01:34，SBIRT與預防分層",
+          "speaker": "沈伯洋",
+          "support_excerpt": "警察先針對周邊 執法要加強"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以板南線串連動漫據點與本土創作者",
+      "question": "台北如何串連動漫據點、城市交通與相關創意服務業？",
+      "points": [
+        "受訪者提出將板南線沿線既有動漫據點串成動漫廊帶，形成台北ACG地圖。",
+        "他提及動漫人口、美髮美業與Cosplay的關聯，期望增加本土動畫、漫畫團隊曝光。",
+        "原稿未提供站點清單、預算與期程，仍屬政策構想。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0138",
+          "doc_id": "d0064",
+          "url": "https://puma-hub.pages.dev/articles/nexttv-inside-2026-10-19/",
+          "section_or_timestamp": "01:35:19，動漫廊帶",
+          "speaker": "沈伯洋",
+          "support_excerpt": "打算把捷運板南線打造成一條「動漫廊帶」"
+        },
+        {
+          "unit_id": "u0139",
+          "doc_id": "d0065",
+          "url": "https://puma-hub.pages.dev/articles/nexttv-inside-2026-10-19/transcript/",
+          "section_or_timestamp": "01:35:19，動漫廊帶",
+          "speaker": "沈伯洋",
+          "support_excerpt": "對台灣本土許多優秀的動畫、漫畫創作者"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b07城市文化路徑與文化政策"
+      ]
+    }
+  ]
+}

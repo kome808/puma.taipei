@@ -1,0 +1,121 @@
+type KonnyakuIllustrationProps = {
+  className?: string;
+};
+
+export default function KonnyakuIllustration({ className }: KonnyakuIllustrationProps) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 520 330"
+      role="img"
+      aria-label="拿著分享紙條的蒟蒻角色，身旁有小房子、葉子和聊天泡泡"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M61 270c71-13 146 5 214-5 65-10 130-4 190 8"
+        fill="none"
+        stroke="#719078"
+        strokeLinecap="round"
+        strokeWidth="4"
+      />
+      <path
+        d="M74 256c7-20 22-33 43-40v40m0-26 26-17v43"
+        fill="none"
+        stroke="#6c886f"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="5"
+      />
+      <path
+        d="m92 215 28-24 31 24"
+        fill="#e3b56b"
+        stroke="#6c886f"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="5"
+      />
+      <path
+        d="M401 252c-6-31 6-52 35-65 9 29-4 52-35 65Z"
+        fill="#9ab294"
+        stroke="#58745c"
+        strokeLinejoin="round"
+        strokeWidth="4"
+      />
+      <path
+        d="M401 252c-19-28-39-33-56-23 11 27 30 34 56 23Z"
+        fill="#b9c9a6"
+        stroke="#58745c"
+        strokeLinejoin="round"
+        strokeWidth="4"
+      />
+      <path
+        d="M366 112c-4-15 5-29 22-34 16-5 31 2 36 16 6 18-6 34-26 37-16 2-28-5-32-19Z"
+        fill="#fff4dd"
+        stroke="#d4764d"
+        strokeLinecap="round"
+        strokeWidth="4"
+      />
+      <path d="m383 118 8-5 8 7" fill="none" stroke="#2e2924" strokeLinecap="round" strokeWidth="3" />
+      <path d="M402 109h1" stroke="#2e2924" strokeLinecap="round" strokeWidth="5" />
+      <path d="M389 126c7 5 13 4 18-1" fill="none" stroke="#2e2924" strokeLinecap="round" strokeWidth="3" />
+      <path
+        d="M156 79c4-24 24-38 54-39 30 0 51 13 57 37 9 35 4 90-4 129-5 24-22 38-57 40-42 1-62-12-67-40-7-38-8-91 17-127Z"
+        fill="#d9764f"
+        stroke="#5a3328"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="5"
+      />
+      <path
+        d="M184 53c16-22 45-23 64-4"
+        fill="none"
+        stroke="#f1a16f"
+        strokeLinecap="round"
+        strokeWidth="6"
+      />
+      <path d="M181 105c4-4 9-4 13 0m35 0c4-4 9-4 13 0" fill="none" stroke="#2e2924" strokeLinecap="round" strokeWidth="4" />
+      <path d="M199 127c10 8 22 8 33 0" fill="none" stroke="#5a3328" strokeLinecap="round" strokeWidth="4" />
+      <path
+        d="M145 149c-20 9-31 22-34 40m157-39c19 8 32 22 36 40"
+        fill="none"
+        stroke="#5a3328"
+        strokeLinecap="round"
+        strokeWidth="7"
+      />
+      <path
+        d="M145 191c-10-2-19 1-25 9m184-9c10-2 18 1 24 9"
+        fill="none"
+        stroke="#5a3328"
+        strokeLinecap="round"
+        strokeWidth="7"
+      />
+      <path
+        d="M169 171c35-10 73-10 108 0l-7 62c-34 9-68 9-101 0Z"
+        fill="#fff7e6"
+        stroke="#5a3328"
+        strokeLinejoin="round"
+        strokeWidth="4"
+      />
+      <path d="M188 190c24-7 47-7 71 0" fill="none" stroke="#d4764d" strokeLinecap="round" strokeWidth="4" />
+      <path d="M188 207c16-4 32-4 49-1" fill="none" stroke="#d9b777" strokeLinecap="round" strokeWidth="3" />
+      <path d="M181 229c32 5 63 5 88-1" fill="none" stroke="#719078" strokeLinecap="round" strokeWidth="3" />
+      <path
+        d="M176 244c-7 17-8 28-2 36m93-35c8 15 9 26 3 35"
+        fill="none"
+        stroke="#5a3328"
+        strokeLinecap="round"
+        strokeWidth="7"
+      />
+      <path d="M164 282c8 7 17 8 27 3m68-3c8 6 17 6 26-1" fill="none" stroke="#5a3328" strokeLinecap="round" strokeWidth="6" />
+      <path
+        d="M302 65c18-16 40-15 54 2 8 10 8 24 1 33-10 15-30 17-45 8l-18 8 6-18c-8-11-7-23 2-33Z"
+        fill="#f4d49b"
+        stroke="#c27a49"
+        strokeLinejoin="round"
+        strokeWidth="4"
+      />
+      <path d="M319 83h23m-24 10h14" stroke="#76543c" strokeLinecap="round" strokeWidth="4" />
+      <path d="M332 270c14-13 21-23 22-36" fill="none" stroke="#719078" strokeLinecap="round" strokeWidth="3" />
+    </svg>
+  );
+}

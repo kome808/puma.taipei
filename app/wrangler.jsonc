@@ -1,0 +1,40 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "puma-policy-v1",
+  "main": "worker/index.ts",
+  "workers_dev": true,
+  "preview_urls": false,
+  "compatibility_date": "2026-11-06",
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "dist",
+    "run_worker_first": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "puma-policy-v1",
+      "database_id": "be2e70a9-032c-474d-9550-8e6b98cb5cd8"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "SOURCES",
+      "bucket_name": "puma-policy-v1-sources"
+    }
+  ],
+  "ai_search": [
+    {
+      "binding": "AI_SEARCH",
+      "instance_name": "puma-policy-v1",
+      "remote": true
+    }
+  ],
+  "vars": {
+    "ENVIRONMENT": "production",
+    "OPENAI_MODEL": "gpt-6-luna",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAF2BSfL33EfGtLi-",
+    "DAILY_GLOBAL_LIMIT": "1000",
+    "ALLOWED_ORIGIN": "https://puma-policy-v1.kome808.workers.dev"
+  }
+}

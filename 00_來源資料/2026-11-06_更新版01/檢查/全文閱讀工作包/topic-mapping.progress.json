@@ -1,0 +1,34 @@
+{
+  "status": "complete_root_reviewed",
+  "read_complete": true,
+  "guidance_read": true,
+  "input_candidate_count": 329,
+  "input_ids_processed": 329,
+  "source_summaries_read": 240,
+  "groups": 15,
+  "topics": 86,
+  "excluded_candidates": 29,
+  "unique_ids_covered": 329,
+  "topic_member_assignments": 416,
+  "multi_topic_candidates": 98,
+  "checks": {
+    "json_parseable": true,
+    "all_ids_covered_exactly_at_least_once": true,
+    "no_unknown_ids": true,
+    "no_topic_excluded_overlap": true,
+    "unique_topic_and_group_ids": true,
+    "all_topics_have_members_and_valid_scope": true
+  },
+  "notes": [
+    "官方政策完整性覆核追加3筆candidate後，已將candidate 001按5種客家服務機制拆題；candidate 002納入師資支持，candidate 003獨立納入大學USR研究合作。",
+    "依root覆核拆分循環都更房源/住戶換屋、教師工作/親師特教、身障/女性安全/警政流程、社區運動/專用足球場/大型運動中心、文化徑/登山中心、樹木治理/遮蔭/廢木料、水路水質/滯洪/親水、公車駕駛/路網資訊/警示音、北士科人才/設施，以及府會/用人/回報文化。",
+    "資訊作戰與民主制度清楚公共議題保留為public_issue；個人故事、索引導覽、笑談、無可靠講者或沒有具體政策機制的候選逐筆排除並說明原因。"
+  ],
+  "root_summary_review": true,
+  "additional_topics": [
+    "明治橋",
+    "疫苗支持",
+    "罕病/身障",
+    "單身女性專線"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "complete_batches": [
+    "b01",
+    "b02",
+    "b03",
+    "b04",
+    "b05",
+    "b06",
+    "b07",
+    "b08",
+    "b09",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32"
+  ],
+  "finishing": [],
+  "line_a": {
+    "agent": "/root/read_b04",
+    "model": "gpt-6-luna",
+    "batches": [
+      "b04",
+      "b07",
+      "b10",
+      "b13",
+      "b16",
+      "b19",
+      "b22",
+      "b25",
+      "b28",
+      "b31"
+    ],
+    "status": "complete"
+  },
+  "line_b": {
+    "status": "complete",
+    "batches": [
+      "b05",
+      "b08",
+      "b11",
+      "b14",
+      "b17",
+      "b20",
+      "b23",
+      "b26",
+      "b29"
+    ],
+    "agent": "/root/read_line_b",
+    "model": "gpt-6-luna"
+  },
+  "line_c": {
+    "status": "complete",
+    "batches": [
+      "b06",
+      "b09",
+      "b12",
+      "b15",
+      "b18",
+      "b21",
+      "b24",
+      "b27",
+      "b30"
+    ],
+    "agent": "/root/read_line_c",
+    "model": "gpt-6-luna"
+  },
+  "supplement_text": "complete, 5 units / 9809 chars; supplementary pack b01",
+  "visual": "complete visual inspection; 120 pages, not word-for-word verified; visual-coverage.json",
+  "topic_status": "complete_source_backed_topics_not_deployed",
+  "raw_candidates_before_official_audit": 326,
+  "topic_count": 86,
+  "group_count": 15
+}

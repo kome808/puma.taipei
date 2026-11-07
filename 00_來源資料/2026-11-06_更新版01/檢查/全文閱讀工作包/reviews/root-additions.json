@@ -1,0 +1,156 @@
+{
+  "basis": "root覆核已完整讀過的官方政策，補足b01主題表未展開的家庭一站通及公務員項目；不重複計入閱讀覆蓋。",
+  "topics": [
+    {
+      "working_title": "育兒單一窗口與到戶陪伴",
+      "question": "育兒資源分散，家長要從哪裡找到能接手協助的人？",
+      "points": [
+        "整合育兒專線，各區逐步設家庭支持站，讓家庭從同一入口取得協助。",
+        "個案管理師訪視了解需求，轉介政府資源，搭配家庭教育陪伴師。"
+      ],
+      "caveats": [],
+      "source_refs": [
+        {
+          "unit_id": "u0009",
+          "doc_id": "d0009",
+          "url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+          "section_or_timestamp": "04｜政策內容",
+          "speaker": "官方政策",
+          "support_excerpt": "整合育兒專線，建立單一入口"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "免費臨托與照顧者喘息",
+      "question": "照顧者想休息、社交或辦事，有什麼臨時後援？",
+      "points": [
+        "規劃滿6個月至6歲兒童每週固定時數免費臨托。",
+        "家庭教育中心及親子館擴充育兒、職涯、單親與隔代教養等支持。"
+      ],
+      "caveats": [
+        "官方未在此頁定出每週幾小時，不能自行補固定數字。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0009",
+          "doc_id": "d0009",
+          "url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+          "section_or_timestamp": "04｜政策內容",
+          "speaker": "官方政策",
+          "support_excerpt": "每週固定時數免費臨托"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "產後情緒支持與到宅育兒指導",
+      "question": "剛有孩子時，家長的情緒和照顧技巧誰來陪？",
+      "points": [
+        "提出產後一年內家長心理諮商加碼，並把未滿2歲兒童家庭免費到宅指導擴充至6次。",
+        "到宅指導包括餵奶、洗澡與居家安全。"
+      ],
+      "caveats": [
+        "同一官方頁第04節寫每胎再加碼6次心理諮商，第06節卻寫加碼3次。此為原文內部數字衝突，暫勿在分享稿斷言固定心理諮商次數。",
+        "中央3次仍依中央適用資格，市府產後加碼不可寫成人人固定中央加市府合計。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0009",
+          "doc_id": "d0009",
+          "url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+          "section_or_timestamp": "04、06｜政策內容與推動藍圖",
+          "speaker": "官方政策",
+          "support_excerpt": "加碼心理諮商與到宅育兒指導"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "夜間工作家庭的托育",
+      "question": "夜市或百貨工作的家長，晚上誰幫忙照顧孩子？",
+      "points": [
+        "規劃夜市、百貨等夜間工作場所附近的托育據點，依工作照顧需求評估時段。"
+      ],
+      "caveats": [],
+      "source_refs": [
+        {
+          "unit_id": "u0009",
+          "doc_id": "d0009",
+          "url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
+          "section_or_timestamp": "04｜政策內容",
+          "speaker": "官方政策",
+          "support_excerpt": "增設夜間托育據點"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "公務員彈性上下班與職場空間",
+      "question": "公務員接送、照顧與上班時間如何兼顧？",
+      "points": [
+        "每日總工時不變前提下，擴大彈性上下班範圍及時段。",
+        "盤點升級哺乳、紓壓、運動與淋浴空間。"
+      ],
+      "caveats": [],
+      "source_refs": [
+        {
+          "unit_id": "u0010",
+          "doc_id": "d0010",
+          "url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+          "section_or_timestamp": "04｜政策內容",
+          "speaker": "官方政策",
+          "support_excerpt": "在每日總工時不變前提下"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "公務員EAP自選與健檢",
+      "question": "照顧市民的人，自己的身心支持如何選？",
+      "points": [
+        "提出EAP點數自選制度，讓諮商、正念、運動、健康諮詢依需求組合。",
+        "健檢補助加碼並擴大適用。"
+      ],
+      "caveats": [],
+      "source_refs": [
+        {
+          "unit_id": "u0010",
+          "doc_id": "d0010",
+          "url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+          "section_or_timestamp": "04｜政策內容",
+          "speaker": "官方政策",
+          "support_excerpt": "點數自選制度"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "重大專案獎勵與AI行政減壓",
+      "question": "承擔重大任務和重複表單，能否得到實際支援？",
+      "points": [
+        "重大專案以實質獎金及行政獎勵回饋。",
+        "AI支援團隊進駐，自動化表單、資料及基礎流程，不額外增加研習負擔。"
+      ],
+      "caveats": [],
+      "source_refs": [
+        {
+          "unit_id": "u0010",
+          "doc_id": "d0010",
+          "url": "https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96",
+          "section_or_timestamp": "04｜政策內容",
+          "speaker": "官方政策",
+          "support_excerpt": "不增加同仁額外研習負擔"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    }
+  ]
+}

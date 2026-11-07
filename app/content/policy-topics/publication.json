@@ -1,0 +1,13 @@
+{
+  "url": "https://puma-note.pages.dev/topics/",
+  "origin_url": "https://puma-policy-v1.kome808.workers.dev/topics/",
+  "pages_project": "puma-note",
+  "pages_deployment": "848d4f40-6f6c-4f48-8f25-e92ea08ed913",
+  "worker_version": "90ec93aa-9cce-4b52-9861-907aa850ac5e",
+  "source_snapshot_date": "2026-11-07",
+  "topic_count": 86,
+  "groups": 15,
+  "delivery": "Cloudflare Pages Service Binding gateway → Workers Static Assets",
+  "public_data_sha256": "1614ad47c788cb2c9c1c13eacd9b275b12033ab9363b55c166393d32f56e9aaa",
+  "rag_migrated": false
+}

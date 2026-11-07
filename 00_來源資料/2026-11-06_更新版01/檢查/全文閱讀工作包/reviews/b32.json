@@ -1,0 +1,504 @@
+{
+  "batch_id": "b32",
+  "read_units": [
+    {
+      "unit_id": "u0449",
+      "doc_id": "d0217",
+      "start": 5882,
+      "end": 10911,
+      "sha256": "3e23c805c2582e87a72169df138c8d85e31955a1b8663d4c382b6d538310a048",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0450",
+      "doc_id": "d0218",
+      "start": 0,
+      "end": 5940,
+      "sha256": "418f9e2c8081f0cdc4cc7abc4df700298069a3a98e201b9729b524da4be5d321",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0451",
+      "doc_id": "d0218",
+      "start": 5940,
+      "end": 8473,
+      "sha256": "6c88841859e1d2f8973eb6457b80f7aa674b9ee2b2da78bb407016636fcd29a4",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0217",
+      "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+      "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+      "summary": "本批完整讀取09:38–22:13，前段由b31負責。提出中山大同北門戶、夜間協調、安全審計、文化騎行路網、URS2.0、圓山運動中心、老宅到戶服務與在宅醫療示範區。",
+      "attributable_claims": [
+        "夜市長為跨局處協調入口",
+        "文化路徑與自行車路網",
+        "長租留住店家",
+        "圓山超級市民運動中心",
+        "大同老宅服務及在宅醫療示範"
+      ],
+      "caveats": [
+        "部分數字為目標或口述比較；本批非整篇起點。"
+      ],
+      "topic_keys": [
+        "夜市長與商圈鄰里協調",
+        "中山大同安全審計",
+        "從碼頭到橋頭的文化自行車路網",
+        "URS 2.0與原有店家長租",
+        "圓山超級市民運動中心",
+        "老宅行動服務團",
+        "在宅醫療與社區照顧示範區"
+      ]
+    },
+    {
+      "doc_id": "d0218",
+      "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+      "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+      "summary": "完整讀取8473字元。對談涵蓋AI與北士科研究院、複合變電所、樹木治理、老宅換居都更、明治橋文化自行車連結、運動驛站與社區互動；大量主持人評論已分開。",
+      "attributable_claims": [
+        "北士科研院人才與市政生態系",
+        "變電所、公車充電及社區設施複合",
+        "樹木SOP、動態樹籍、樹蔭公平、保險認養",
+        "輔具換居與中繼宅回遷",
+        "文化通勤橋與運動驛站"
+      ],
+      "caveats": [
+        "附件題名為完整逐字稿但正文多條列式整理，未逐句影音核對。",
+        "主持人數字與評價不當成本人政策。",
+        "10月中繼宅和11月無限都更正式方案需分版本。",
+        "原住民、親子同心卡等用字疑義須留在校讀紀錄，不逕補成資格或新名稱。"
+      ],
+      "topic_keys": [
+        "台北研究院與北士科人才生態系",
+        "變電所與公車總站複合設施",
+        "透明的樹木維護與種植規範",
+        "動態樹籍與AI生長預測",
+        "樹蔭公平與熱點回報",
+        "樹木保險與認養",
+        "長輩爬梯輔具與高低樓層換居",
+        "都更搬遷與回遷價差",
+        "明治橋與首都文化徑",
+        "捷運與步道節點的運動驛站",
+        "卡片結合藝文參與與社區連結",
+        "節目評論與選戰評價"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "夜市長與商圈鄰里協調",
+      "question": "夜生活的噪音、衛生與居民抱怨，誰來一次協調？",
+      "points": [
+        "提出夜市長作為跨局處處理夜間紛爭的入口；不只以治安處理。",
+        "建立商圈、鄰里、不同年齡代表的討論機制，並引入扮演30年後自己的未來代表。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0449",
+          "doc_id": "d0217",
+          "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+          "section_or_timestamp": "00:10:20–00:12:03",
+          "speaker": "沈伯洋",
+          "support_excerpt": "跨局處的入口讓他一次性能夠解決"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "爭議減少50%是目標；阿姆斯特丹60%～70%是他引用的比較，非台北成效。"
+      ]
+    },
+    {
+      "working_title": "中山大同安全審計",
+      "question": "公共空間與政策如何把女性和使用者安全納入？",
+      "points": [
+        "提出以中山大同為示範區，在政策中進行女性及廣義安全審計。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0449",
+          "doc_id": "d0217",
+          "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+          "section_or_timestamp": "00:11:36",
+          "speaker": "沈伯洋",
+          "support_excerpt": "不只是女性的安全"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "從碼頭到橋頭的文化自行車路網",
+      "question": "大稻埕、赤峰街、圓山等景點怎麼串成一條可走可騎的路？",
+      "points": [
+        "重新設計大同作為西岸廊道北入口，讓分散景點能串聯。",
+        "文化路徑串接碼頭、大橋頭與明治橋等節點，連結自行車與山徑。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0449",
+          "doc_id": "d0217",
+          "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+          "section_or_timestamp": "00:09:38、00:13:57–00:15:51",
+          "speaker": "沈伯洋",
+          "support_excerpt": "從碼頭到橋頭"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "赤峰街到劍潭30分鐘是訪談的情境估算，並非已實測或承諾。"
+      ]
+    },
+    {
+      "working_title": "URS 2.0與原有店家長租",
+      "question": "街區變熱門後，原來的小店能不能留下來？",
+      "points": [
+        "提出URS 2.0，把活絡商圈從單次活動延伸到日常。",
+        "政府以長租方式協助原有店家持續經營。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0449",
+          "doc_id": "d0217",
+          "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+          "section_or_timestamp": "00:15:06–00:15:51",
+          "speaker": "沈伯洋",
+          "support_excerpt": "長租的方式讓原來的店家能夠繼續生存"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "圓山超級市民運動中心",
+      "question": "花博與圓山如何增加居民日常運動的空間？",
+      "points": [
+        "提出圓山超級市民運動中心，容納球類與新興運動。",
+        "保留原商圈與消費活動，與自行車路網和運動驛站功能串聯。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0449",
+          "doc_id": "d0217",
+          "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+          "section_or_timestamp": "00:16:16–00:17:34",
+          "speaker": "沈伯洋",
+          "support_excerpt": "圓山的超級市民運動中心"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "老宅行動服務團",
+      "question": "老房子要修水電、外牆或做危老，住戶從哪裡開始？",
+      "points": [
+        "以大同為首個示範區，提出老宅行動服務團主動到戶說明。",
+        "整理市府加碼、中央支援、外牆、水電、能源、綠化與危老等可選做法。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0449",
+          "doc_id": "d0217",
+          "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+          "section_or_timestamp": "00:17:59–00:18:59",
+          "speaker": "沈伯洋",
+          "support_excerpt": "直接把服務送到各位的門口"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "上下兩戶同意可做什麼是口述舉例，並非所有工程通用法定門檻。"
+      ]
+    },
+    {
+      "working_title": "在宅醫療與社區照顧示範區",
+      "question": "長輩反覆上下樓就醫，能否把照顧帶進社區？",
+      "points": [
+        "提出在宅醫療示範區，並提到與醫事團體討論。",
+        "搭配失智友善中心、社區共造據點與輔具，兼顧照護及人際連結。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0449",
+          "doc_id": "d0217",
+          "url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/content.md",
+          "section_or_timestamp": "00:19:24–00:20:11",
+          "speaker": "沈伯洋",
+          "support_excerpt": "在宅醫療的示範區"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "台北研究院與北士科人才生態系",
+      "question": "AI城市除了招商，還要怎樣培養人才並改善市政？",
+      "points": [
+        "提出北士科智庫研究院，串接政策規劃、人才養成與企業專案。",
+        "評估AI城市要有培育、研究密度與市政應用等具體指標。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0450",
+          "doc_id": "d0218",
+          "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+          "section_or_timestamp": "00:09:54–00:15:08",
+          "speaker": "沈伯洋",
+          "support_excerpt": "作為台北市政府的大腦"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "首爾研究院是引用的外國經驗，不是台北既有機構。"
+      ]
+    },
+    {
+      "working_title": "變電所與公車總站複合設施",
+      "question": "北士科的供電、電動公車充電與居民疑慮怎麼一起處理？",
+      "points": [
+        "提出半地下化、室內化變電所，與鄰近公車總站充電整合。",
+        "結合24小時數位圖書館、社區空間，並以科技試驗沙盒讓居民接觸應用。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0450",
+          "doc_id": "d0218",
+          "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+          "section_or_timestamp": "00:15:27–00:18:13",
+          "speaker": "沈伯洋",
+          "support_excerpt": "半地下化、室內化"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "全台供電足夠、市府跟進等是受訪者判斷，未以獨立資料核實；不能寫為已定案工程。"
+      ]
+    },
+    {
+      "working_title": "透明的樹木維護與種植規範",
+      "question": "路樹要修剪或移除時，市民如何知道依據？",
+      "points": [
+        "提出樹木自治條例與維護SOP。",
+        "規範綠覆率、樹穴根域及依路寬決定路樹配置等原則。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0450",
+          "doc_id": "d0218",
+          "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+          "section_or_timestamp": "00:21:02–00:22:45",
+          "speaker": "沈伯洋",
+          "support_excerpt": "完整的樹木自治條例"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "動態樹籍與AI生長預測",
+      "question": "能否提早知道樹木健康與未來生長狀況？",
+      "points": [
+        "提出動態樹籍資料庫，運用生理、傾角資料與數位孿生預測生長。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0450",
+          "doc_id": "d0218",
+          "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+          "section_or_timestamp": "00:22:52–00:25:51",
+          "speaker": "沈伯洋",
+          "support_excerpt": "動態樹籍資料庫"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "5年、10年是預測視距的提法，不等於預測已達成或保證準確。"
+      ]
+    },
+    {
+      "working_title": "樹蔭公平與熱點回報",
+      "question": "有些街區特別熱，補樹能否依居民走路的感受來規劃？",
+      "points": [
+        "提出結合Cool Map與市民熱點標記，作為補植規劃參考。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0450",
+          "doc_id": "d0218",
+          "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+          "section_or_timestamp": "00:22:52–00:25:51",
+          "speaker": "沈伯洋",
+          "support_excerpt": "樹蔭公平"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "樹木保險與認養",
+      "question": "保存老樹又擔心颱風倒伏，風險可以怎麼分擔？",
+      "points": [
+        "提出評估修剪移除時讓都市規劃師、樹醫、市府、保險公司及居民參與。",
+        "借鏡國外保險、企業與市民認養方式。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0450",
+          "doc_id": "d0218",
+          "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+          "section_or_timestamp": "00:22:52–00:25:51",
+          "speaker": "沈伯洋",
+          "support_excerpt": "保險分擔颱風倒伏風險"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "是借鏡與評估構想，未列出可購買的台北保單或保證承保。"
+      ]
+    },
+    {
+      "working_title": "長輩爬梯輔具與高低樓層換居",
+      "question": "公寓電梯還沒裝好，長輩怎麼下樓？",
+      "points": [
+        "提出爬梯機及無障礙輔具補助。",
+        "包租代管搭配租金補貼、官方履約保證，鼓勵高樓層長輩換租低樓層或社宅。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0451",
+          "doc_id": "d0218",
+          "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+          "section_or_timestamp": "00:27:58–00:31:37",
+          "speaker": "沈伯洋",
+          "support_excerpt": "高低樓層換居"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "地方彈性規範是主張，不表示地方政府可自行排除所有中央法規。"
+      ]
+    },
+    {
+      "working_title": "都更搬遷與回遷價差",
+      "question": "住戶擔心搬兩次、回不來或拖越久領越多，制度如何處理？",
+      "points": [
+        "提到盤點國有地興建中繼宅、透明統一估價，並在初期處理回遷價差。",
+        "建商評選重視居民需求與完工速度，都更後一樓可規劃長照、臨托。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0451",
+          "doc_id": "d0218",
+          "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+          "section_or_timestamp": "00:27:58–00:31:37",
+          "speaker": "沈伯洋",
+          "support_excerpt": "建立透明統一估價機制"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "本次為10月訪談中的中繼宅說法；不可直接等同11月正式無限都更換屋機制。原稿「保障原住民」疑為「原住戶」用字，不能衍生特定族群資格。"
+      ]
+    },
+    {
+      "working_title": "明治橋與首都文化徑",
+      "question": "重現明治橋除了景觀，還要提供什麼日常功能？",
+      "points": [
+        "提出歷史文化步道及親水廊道，呈現不同群體的城市歷史。",
+        "古典意象結合現代橋體，提供跨河自行車通勤，訪談提到新生公園西側落點構想。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0451",
+          "doc_id": "d0218",
+          "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+          "section_or_timestamp": "00:34:21–00:38:00",
+          "speaker": "沈伯洋",
+          "support_excerpt": "兼具現代通勤機能"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "可行性極高是本人評價，未驗證工程、用地與防洪等條件；主持人對防洪牆降低的主張不能當成本人的政策。"
+      ]
+    },
+    {
+      "working_title": "捷運與步道節點的運動驛站",
+      "question": "下班去跑步或爬山，衣物、置物與洗澡怎麼辦？",
+      "points": [
+        "在重要捷運站、步道節點設運動驛站，提出置物、更衣淋浴、刷鞋及補給。",
+        "訪談也把戶外工作者與外送員休整需求納入說明。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0451",
+          "doc_id": "d0218",
+          "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+          "section_or_timestamp": "00:39:43–00:42:02",
+          "speaker": "沈伯洋",
+          "support_excerpt": "更衣淋浴、刷鞋清理與補給空間"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "東京跑者驛站與個人使用經驗是借鏡，非台北已提供的服務。"
+      ]
+    },
+    {
+      "working_title": "卡片結合藝文參與與社區連結",
+      "question": "文化消費如何與日常陪伴連在一起？",
+      "points": [
+        "訪談提到親子卡、文化幣及敬老卡擴大藝文音樂消費，以活絡商圈和人際互動。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0451",
+          "doc_id": "d0218",
+          "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+          "section_or_timestamp": "00:43:38–00:45:43",
+          "speaker": "沈伯洋",
+          "support_excerpt": "擴大藝文與音樂消費"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "原稿寫「親子同心卡」，與官方名稱可能不同；權益與額度應對照正式政策，不由此推定。"
+      ]
+    },
+    {
+      "working_title": "節目評論與選戰評價",
+      "question": "哪些內容只是主持人評論與選戰脈絡？",
+      "points": [
+        "開場包含謝金河對選情、民調、經濟、候選人的評論與統計引用。",
+        "主持人對他市整治、首長拍板、防洪牆及候選人評價，不能改寫為沈伯洋市政承諾。",
+        "結語的正向競選態度屬本人自述，與具體服務政策分開。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0450",
+          "doc_id": "d0218",
+          "url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/content.md",
+          "section_or_timestamp": "開場、提問及結語",
+          "speaker": "謝金河／沈伯洋各自發言",
+          "support_excerpt": "用數字看台灣"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "batch_id": "b22",
+  "read_units": [
+    {
+      "unit_id": "u0300",
+      "doc_id": "d0151",
+      "start": 0,
+      "end": 1154,
+      "sha256": "5430f1abcf6532390dfb35d54bffbe1d12b8ce56fc0a0a499d604028ebd1eedf",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0301",
+      "doc_id": "d0152",
+      "start": 0,
+      "end": 646,
+      "sha256": "f156f6365da73471251ea3b38775a5eb31c10536c24852c3224b83ba35bc5da1",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0302",
+      "doc_id": "d0153",
+      "start": 0,
+      "end": 764,
+      "sha256": "8649589a06668cf2811fce7056f3cac80713bad0de778050072fffe4c3c66b0d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0303",
+      "doc_id": "d0154",
+      "start": 0,
+      "end": 5972,
+      "sha256": "65b073f518ad48f1b889407fdcb6e47edc949b0f45262043e493c8d51f45b1ae",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0304",
+      "doc_id": "d0154",
+      "start": 5972,
+      "end": 10437,
+      "sha256": "d0cdc6f09ff8d72d162ceccd396a3ec1fd81d85e0fc3b8de4e89ebf6fd3cab22",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0305",
+      "doc_id": "d0155",
+      "start": 0,
+      "end": 903,
+      "sha256": "dc4bfe43c695082e0368a3e13566e3a58b54924c29bd505ac1fe05c7b4392dd3",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0306",
+      "doc_id": "d0156",
+      "start": 0,
+      "end": 595,
+      "sha256": "e6a20fe2ccdde82cafa0f2a82aa08ccfa74cbd98070b33ab1fdb4966e5b9ce51",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0307",
+      "doc_id": "d0157",
+      "start": 0,
+      "end": 1166,
+      "sha256": "9cebd2b9b510fdf84620072d998da9aae9145c4b363f0b0e8d5d14a54e64f525",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0308",
+      "doc_id": "d0158",
+      "start": 0,
+      "end": 1074,
+      "sha256": "4729309d931dc9a11f42e4b2b68e5e49d62435b0daf11e68410004bab52c920e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0309",
+      "doc_id": "d0159",
+      "start": 0,
+      "end": 1452,
+      "sha256": "8c260cd2369baea46795e1fb3dff97b57a4907dc0aa9e09b21d37459a166648b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0310",
+      "doc_id": "d0160",
+      "start": 0,
+      "end": 1126,
+      "sha256": "58ac2a10e3cc126b465c1a73319c9884d3400ea4207c83efafb35ce634ef31d7",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0311",
+      "doc_id": "d0161",
+      "start": 0,
+      "end": 5855,
+      "sha256": "c0b35c626cfc4a5a071ab1bcf7f3bf46b69c3dc962405efd3f062cdc6ef98e3f",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0312",
+      "doc_id": "d0161",
+      "start": 5855,
+      "end": 11832,
+      "sha256": "8414d3293fd5573b472a311157cf156a0858fbee3e9234dfe5bcfc2508fdbcbc",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0313",
+      "doc_id": "d0161",
+      "start": 11832,
+      "end": 17711,
+      "sha256": "0edd72e10e1fba01ebc0fa089e07c308a6504abd31326fe0e510f0a02dee37d2",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0314",
+      "doc_id": "d0161",
+      "start": 17711,
+      "end": 23596,
+      "sha256": "05f4893890e61eaeac90ce8c29456ea280c46638921aab37f02f12b289215dc6",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0315",
+      "doc_id": "d0161",
+      "start": 23596,
+      "end": 26869,
+      "sha256": "c6e78a9a0d7ea75a72a19603ab25932d96df6cb849e1028a61f816a450af58a5",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0316",
+      "doc_id": "d0162",
+      "start": 0,
+      "end": 1941,
+      "sha256": "8b991c05b785beb8e8e5fc9254c73552104ad62ad43fa68e5f778bba1f798072",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0317",
+      "doc_id": "d0163",
+      "start": 0,
+      "end": 5827,
+      "sha256": "57cf3129f5a7238784b5d2953db7a704117d1442ae02ccc5c8dfcf755e4f6a16",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0318",
+      "doc_id": "d0163",
+      "start": 5827,
+      "end": 11447,
+      "sha256": "bf6d5c51c8d0aa82cb16c51a0d172e0ac1abdecaa888339f03ed814329b952e1",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0151",
+      "title": "沈伯洋《新聞面對面》專訪：從選戰、府會溝通到城市治理",
+      "url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/article.md",
+      "summary": "《新聞面對面》專訪整理頁，僅有活動資訊、主題小標與來源說明，未呈現主題細節。",
+      "attributable_claims": [
+        "受訪者回答有關競選與市政議題，這份分段頁本身未保存具體論述。"
+      ],
+      "caveats": [
+        "本頁內容以節目導覽為主，附帶的原稿見d0152，但該附件也僅有少量片段。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0152",
+      "title": "沈伯洋《新聞面對面》專訪：從選戰、府會溝通到城市治理",
+      "url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/transcript.md",
+      "summary": "《新聞面對面》原稿附件切片，列出節目人員、幾個段落標題與零星片段。",
+      "attributable_claims": [
+        "受訪者有提到若能帶給大家快樂，不介意戴假髮。"
+      ],
+      "caveats": [
+        "內容是稀疏片段，無法據此歸納完整政策內容。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0153",
+      "title": "沈伯洋談性別與城市：從家庭分工到制度改變",
+      "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/article.md",
+      "summary": "《新世紀直男戰士》訪談整理頁，以性別意識、家庭分工、城市安全、警政和育兒為主題。",
+      "attributable_claims": [
+        "受訪者談將平權從個人意識轉成制度實踐。",
+        "整理頁提及性別友善空間及育兒支持等市政方向。"
+      ],
+      "caveats": [
+        "本頁為整理摘要，完整問答見d0154；不把節目中個人經驗擴寫為正式政策承諾。"
+      ],
+      "topic_keys": [
+        "gender_safety",
+        "police_accountability",
+        "childcare",
+        "parental_leave",
+        "workplace_safety"
+      ]
+    },
+    {
+      "doc_id": "d0154",
+      "title": "沈伯洋談性別與城市：從家庭分工到制度改變",
+      "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript.md",
+      "summary": "訪談逐字稿記錄性別意識、性別友善夜間空間、警政考評、婚姻家務分工、社區臨托、育嬰留停誘因及職業安全。",
+      "attributable_claims": [
+        "受訪者提出照明、通視、友善店家求助及巡邏配置等夜間安全作法。",
+        "受訪者主張警察考評及升遷制度納入家暴、性騷擾、跟騷案件的專業處理與受害者關懷。",
+        "提出微型臨托與育兒喘息服務，並舉例以雙親育嬰假搭配市府額外補助鼓勵分擔。"
+      ],
+      "caveats": [
+        "逐字稿是依提供原稿，日期與時間碼尚未逐秒核對；「北歐」制度、案例與政策效果未在此獨立查證。"
+      ],
+      "topic_keys": [
+        "gender_safety",
+        "police_accountability",
+        "childcare",
+        "parental_leave",
+        "workplace_safety"
+      ]
+    },
+    {
+      "doc_id": "d0155",
+      "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+      "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/article.md",
+      "summary": "沈春華訪談文章整理頁，列資安、民防、教育、老屋、育兒等段落標題，未見具體內容。",
+      "attributable_claims": [
+        "文章題目涵蓋城市生活與民防等議題。"
+      ],
+      "caveats": [
+        "具體發言未出現在整理頁，附件全文切片見d0156–d0157；不推導政策主張。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0156",
+      "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+      "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/original.docx",
+      "summary": "「發生沈麼事」原始Word附件文字抽取，僅保留少量節目資訊和零星問答片段。",
+      "attributable_claims": [
+        "片段中主持人詢問托育場所、人力等問題；另有受訪者說出「24億」片段。"
+      ],
+      "caveats": [
+        "Word抽取非常不完整，缺乏上下文，無法判定數字對應項目或形成可靠政策主張。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0157",
+      "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+      "url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/transcript.md",
+      "summary": "為沈春華訪談的原稿全文附件切片，保留節目資訊與零星逐字片段。",
+      "attributable_claims": [
+        "與d0156相同，僅能確認原稿有零散問答，無完整政策敘述。"
+      ],
+      "caveats": [
+        "未提供完整訪談文本；不可用零星片段解讀預算、政策內容或講者意圖。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0158",
+      "title": "沈伯洋《大選鏡來講》專訪：從選民對話、城市智庫到育兒政策",
+      "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/article.md",
+      "summary": "《大選鏡來講》文章頁保存節目資訊和主題標題，未含核心段落細節。",
+      "attributable_claims": [
+        "節目主題涵蓋育兒、城市智庫、民防與市民提問。"
+      ],
+      "caveats": [
+        "具體主張主要見整理摘要d0159；其逐字稿欄位也未保存實際問答。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0159",
+      "title": "沈伯洋《大選鏡來講》專訪：從選民對話、城市智庫到育兒政策",
+      "url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/transcript.md",
+      "summary": "《大選鏡來講》訪談整理摘要，涵蓋選民對話、防災分工、黑客松、城市智庫、育兒、文化及選戰。",
+      "attributable_claims": [
+        "摘要記錄候選人提到市民建言平台、城市智庫與育兒支持方向。",
+        "摘要表示防災應依中央地方角色分工，以協調資源支援現場。"
+      ],
+      "caveats": [
+        "本文件雖含摘要性政策內容，但完整訪談逐字稿欄位只列段落標題，未能在此確認具體原話和條件；以情境筆記為主。"
+      ],
+      "topic_keys": [
+        "city_institute",
+        "childcare",
+        "disaster_coordination"
+      ]
+    },
+    {
+      "doc_id": "d0160",
+      "title": "沈伯洋《台灣 ON AIR》專訪：從領導責任、台北研究院到城市文化",
+      "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/article.md",
+      "summary": "《台灣ON AIR》訪談整理頁保留節目資訊、章節入口與主題標題，無詳述。",
+      "attributable_claims": [
+        "節目提問涉及領導責任、台北研究院、商圈保存與文化。"
+      ],
+      "caveats": [
+        "具體說法需見d0161；原稿正文為ASR轉錄，錯字與時間碼較多。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0161",
+      "title": "沈伯洋《台灣 ON AIR》專訪：從領導責任、台北研究院到城市文化",
+      "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript.md",
+      "summary": "《台灣ON AIR》原稿逐字稿記錄候選人對責任承擔、城市研究院、商圈文化和文化徑的回答。",
+      "attributable_claims": [
+        "受訪者說明城市研究院需由問題出發，連結研究、議會制定規則和公務員執行。",
+        "對赤峰街等商圈，提出盤點有文化意義的空間、政府長租或購置與居民參與，並保留市場機制。",
+        "提出以河岸文化路徑、故事、音樂、遊戲及漫畫保存和傳遞城市記憶。"
+      ],
+      "caveats": [
+        "附件為語音辨識文字，存在多處明顯同音誤字、句子黏連與切片中斷；僅採語義清楚並有講者標示段落，精確措辭須核對影音。"
+      ],
+      "topic_keys": [
+        "city_institute",
+        "commercial_culture",
+        "cultural_routes",
+        "leadership_accountability"
+      ]
+    },
+    {
+      "doc_id": "d0162",
+      "title": "《雅琴看世界》英文專訪沈伯洋：洋流、城市交流與傾聽的力量",
+      "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/article.md",
+      "summary": "英文專訪整理頁涵蓋洋流起源、城市交流與風險管理、市民平台及民調看法。",
+      "attributable_claims": [
+        "英文專訪談雙城交流需看實益與風險，並以市民提問作為參選者傾聽方式。"
+      ],
+      "caveats": [
+        "英文對照譯稿含解釋性增補，且部分時間碼及新聞來源未核對；採用政策主張需與原文/影音對照。"
+      ],
+      "topic_keys": [
+        "city_exchange",
+        "citizen_input"
+      ]
+    },
+    {
+      "doc_id": "d0163",
+      "title": "《雅琴看世界》英文專訪沈伯洋：洋流、城市交流與傾聽的力量",
+      "url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript.md",
+      "summary": "同集英文專訪中英對照附件，記錄洋流、兩岸風險管理及市民建言等訪談，分為英文和中文段落。",
+      "attributable_claims": [
+        "受訪者說明洋流由支持者發起，團隊取得原創者授權後納入選戰。",
+        "受訪者談城市交流時提出政治前提、主權與資安風險等考量。",
+        "訪談摘要提及市民留言平台及街頭回應作法。"
+      ],
+      "caveats": [
+        "附件自稱逐字稿，但整理者未將精確度視為已驗證；中文翻譯有解釋性增補，且中文段落主要是政策預告，不能認作已公布方案。"
+      ],
+      "topic_keys": [
+        "city_exchange",
+        "citizen_input"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "以照明、通視及求助網絡提升夜間安全",
+      "question": "夜間街區如何讓遭遇騷擾的人容易被看見並取得即時協助？",
+      "points": [
+        "受訪者提出盤點陰暗死角、改善照明和行人視線，並與超商、咖啡廳及小店合作建立安全求助點。",
+        "另提及依深夜騷擾陳情熱點配置巡邏警力。",
+        "這是訪談中的市政構想；地點、通報流程和店家合作方式未詳。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0304",
+          "doc_id": "d0154",
+          "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript.md",
+          "section_or_timestamp": "性別友善夜間空間",
+          "speaker": "沈伯洋",
+          "support_excerpt": "夜間安全友善店家"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "把受害者照顧納入警察考評與升遷制度",
+      "question": "如何讓警政組織的績效誘因支持家暴、性騷擾與跟蹤騷擾案件的妥善處理？",
+      "points": [
+        "受訪者認為僅靠年度性平宣導不足，應改變考評及升遷指標。",
+        "提出將案件處理的專業細緻度、對受害者的同理關懷及主管對申訴機制的責任納入評核。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0304",
+          "doc_id": "d0154",
+          "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript.md",
+          "section_or_timestamp": "警界考評段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "處理家暴、性騷擾、性侵害與跟蹤騷擾防制案件"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以社區臨托和喘息服務支持育兒家庭",
+      "question": "如何讓照顧者在社區內取得短時間托育和休息支持？",
+      "points": [
+        "受訪者以破解孤單育兒為由，提出在各社區設微型臨托據點及育兒喘息服務。",
+        "訪談未列出據點數、服務時數、資格及預算。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0303",
+          "doc_id": "d0154",
+          "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript.md",
+          "section_or_timestamp": "訪談核心摘要（非逐字）",
+          "speaker": "編者摘要",
+          "support_excerpt": "推動社區臨時托育與喘息服務"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以雙親育嬰假誘因促進照顧責任分擔",
+      "question": "市府如何鼓勵父母共同使用育嬰留停，而不只由單方承擔？",
+      "points": [
+        "受訪者舉例，若雙親各請滿六個月，市府可額外加碼三個月補助；只有單方請則不加碼。",
+        "這是訪談中的制度構想，補助法源、金額、適用對象及與中央制度的關係未交代。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0303",
+          "doc_id": "d0154",
+          "url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript.md",
+          "section_or_timestamp": "訪談核心摘要（非逐字）",
+          "speaker": "編者摘要",
+          "support_excerpt": "雙親皆請加碼 3 個月"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以政府長租與居民參與保存特色商圈空間",
+      "question": "如何讓有地方文化特色的小店留在商圈，同時避免排除居民與市場活動？",
+      "points": [
+        "受訪者提出盤點具文化意義的空間，討論政府長租或購置後提供特定業者使用。",
+        "主張需有審議機制及居民參與，也提醒不能完全忽略市場機制。",
+        "具體標準、租賃程序與資源配置仍未定。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0312",
+          "doc_id": "d0161",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript.md",
+          "section_or_timestamp": "赤峰街商圈與URS構想",
+          "speaker": "沈伯洋",
+          "support_excerpt": "雖然有好幾個都市在做了但是這個要非常小心"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以文化路徑與故事傳遞城市記憶",
+      "question": "如何把歷史地點從單一解說牌延伸成市民能理解的城市故事？",
+      "points": [
+        "受訪者提出沿河或沿山規劃文化路徑，將地方歷史串成可行走的敘事。",
+        "可運用音樂、小說、遊戲、動漫或漫畫等媒介保存與傳遞記憶。",
+        "受訪者說希望規劃多條路徑，但沒有完整路線和執行方案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0314",
+          "doc_id": "d0161",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript.md",
+          "section_or_timestamp": "城市文化徑段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "沿著河走一種是跟著我們的山走"
+        },
+        {
+          "unit_id": "u0314",
+          "doc_id": "d0161",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript.md",
+          "section_or_timestamp": "城市記憶保存方式",
+          "speaker": "沈伯洋",
+          "support_excerpt": "故事就有很多種呈現的方式"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以問題導向的城市智庫銜接規劃和執行",
+      "question": "如何讓外部研究能回答城市問題，並讓公務體系清楚接手？",
+      "points": [
+        "受訪者把城市智庫描述為從具體問題出發，協助研究和規劃，並由議會制定規則、公務員按規則執行。",
+        "訪談提到阿姆斯特丹及大學參與，也舉無菸城市說明可能的流程。",
+        "轉錄存在明顯語音辨識錯誤，機構模式與引用例子應回看原音核對。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0312",
+          "doc_id": "d0161",
+          "url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript.md",
+          "section_or_timestamp": "台北研究院提問",
+          "speaker": "沈伯洋",
+          "support_excerpt": "他叫做 problem oriented就是先有問題才有智庫"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "batch_id": "b11",
+  "read_units": [
+    {
+      "unit_id": "u0141",
+      "doc_id": "d0066",
+      "start": 0,
+      "end": 5898,
+      "sha256": "73ca2ca32bb7992118b1880f662de9e9f292ec8328e6a3ed77581ad54cef51e2",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0142",
+      "doc_id": "d0066",
+      "start": 5898,
+      "end": 11364,
+      "sha256": "781a5e796336eb8a8661bf9fb4d02a010920c9f05dbf5654814780025dc6cfd2",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0143",
+      "doc_id": "d0067",
+      "start": 0,
+      "end": 5939,
+      "sha256": "bec7919f950ea90f74aa96d27b953fcb98ece4cfd9713a07fc01a5f2d145d491",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0144",
+      "doc_id": "d0067",
+      "start": 5939,
+      "end": 9231,
+      "sha256": "bf3fda609a8c8696c3cc4788a9ae070c90190d5635e65949b8c9118d3d10a717",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0145",
+      "doc_id": "d0068",
+      "start": 0,
+      "end": 5697,
+      "sha256": "dfdaf95f0f4a21a3110a72fa8018882b8a431d87c1944d03dbf3fd25fe34c579",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0146",
+      "doc_id": "d0068",
+      "start": 5697,
+      "end": 7285,
+      "sha256": "1306410b402ed164e58a36eb4c24613a273272dd000fe66d1a4aa1415ea66ba1",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0147",
+      "doc_id": "d0069",
+      "start": 0,
+      "end": 5162,
+      "sha256": "6bbe52cf4eb9d5dae772be3b4e2b62b4886e3f86b2666d46f1623006b4c98376",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0148",
+      "doc_id": "d0070",
+      "start": 0,
+      "end": 5920,
+      "sha256": "75a98826e38ef8a079d1121947deb36935005ee956acab320fffda10d309df65",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0149",
+      "doc_id": "d0070",
+      "start": 5920,
+      "end": 7669,
+      "sha256": "7202b95bcf18869deaba71b8111f241203bfa11044be2bd249d6c9e7cc009649",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0150",
+      "doc_id": "d0071",
+      "start": 0,
+      "end": 5621,
+      "sha256": "c2764e6dc5fb7a6932ef06b247f2e6c3119eceb8c5343e3483d43282e188a518",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0151",
+      "doc_id": "d0072",
+      "start": 0,
+      "end": 5993,
+      "sha256": "2420ac5be35fce8a141a9a62831f842146af0857bc883c3a274b918c3435f885",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0152",
+      "doc_id": "d0072",
+      "start": 5993,
+      "end": 11957,
+      "sha256": "693b6285cc15aa9d961d982fc87477640af37219f801a26e6c74fac64f6fceeb",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0153",
+      "doc_id": "d0072",
+      "start": 11957,
+      "end": 17930,
+      "sha256": "6ab1e0aa828d68d917c7c2108691837ca796fb29799bcc2d3212fab97330a5e1",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0066",
+      "title": "沈伯洋與大耕老師對談：城市陪伴、產業規範與社區連結",
+      "url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/",
+      "summary": "ISZN 對談談城市陪伴、社區互助、服務業規範與產業發展。",
+      "attributable_claims": [
+        "沈伯洋談以低門檻互動、社區活動與修繕咖啡館促進人際連結，並提出陪伴相關服務認證、消費者教育及政府防詐/資安支持；另提議由 AI 專家短期進駐產業。"
+      ],
+      "caveats": [
+        "錄文未逐句影音核對；統計、法規權限及跨國制度未核實。來賓對玄學 AI 的請求是來賓發言，不作沈伯洋政見。"
+      ],
+      "topic_keys": [
+        "社區陪伴",
+        "產業規範",
+        "AI"
+      ]
+    },
+    {
+      "doc_id": "d0067",
+      "title": "沈伯洋與大耕老師對談：城市陪伴、產業規範與社區連結",
+      "url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/transcript/",
+      "summary": "同場 ISZN 對談的逐字稿頁，與 d0066 重複。",
+      "attributable_claims": [
+        "可供比對同一場對談用，非獨立佐證。"
+      ],
+      "caveats": [
+        "同場重複；未逐句影音核對。"
+      ],
+      "topic_keys": [
+        "重複來源"
+      ]
+    },
+    {
+      "doc_id": "d0068",
+      "title": "黃光芹專訪沈伯洋：突破同溫層，從生活需求談城市解方",
+      "url": "https://puma-hub.pages.dev/articles/huang-guangqin-2026-10-19/",
+      "summary": "黃光芹訪問摘錄及整理，談生活需求、AI產業、老人福利與松山機場等。",
+      "attributable_claims": [
+        "受訪者談把 1999 等生活反映轉為個人化政策入口；提出台北發展軟體/AI應用人才，並談松山機場遷移限制。"
+      ],
+      "caveats": [
+        "全文無逐句時間碼且含編者整理，統計、法律、個案和航空醫療敘述均未核實。"
+      ],
+      "topic_keys": [
+        "民意回饋",
+        "產業策略",
+        "交通"
+      ]
+    },
+    {
+      "doc_id": "d0069",
+      "title": "黃光芹專訪沈伯洋：突破同溫層，從生活需求談城市解方",
+      "url": "https://puma-hub.pages.dev/articles/huang-guangqin-2026-10-19/transcript/",
+      "summary": "黃光芹訪問逐字稿頁，與 d0068 同場內容重疊。",
+      "attributable_claims": [
+        "作為同一訪談補充文本，非獨立佐證。"
+      ],
+      "caveats": [
+        "無逐句影音核對；與 d0068 重複。"
+      ],
+      "topic_keys": [
+        "重複來源"
+      ]
+    },
+    {
+      "doc_id": "d0070",
+      "title": "吳淡如專訪沈伯洋：從少年夢想，到自己想成為的大人",
+      "url": "https://puma-hub.pages.dev/articles/wu-danru-2026-10-19/",
+      "summary": "吳淡如訪問，主要為個人故事，尾段談都市更新與地方歷史保存。",
+      "attributable_claims": [
+        "沈伯洋主張更新同時保留歷史脈絡，提及大安舊聚落及大稻埕以外的台北地方故事。"
+      ],
+      "caveats": [
+        "個人回憶未獨立核實；全文未逐句影音核對。"
+      ],
+      "topic_keys": [
+        "文化保存",
+        "個人故事"
+      ]
+    },
+    {
+      "doc_id": "d0071",
+      "title": "吳淡如專訪沈伯洋：從少年夢想，到自己想成為的大人",
+      "url": "https://puma-hub.pages.dev/articles/wu-danru-2026-10-19/transcript/",
+      "summary": "吳淡如訪問的逐字稿頁，與 d0070 同場內容重複。",
+      "attributable_claims": [
+        "可補充閱讀同一訪談，非獨立佐證。"
+      ],
+      "caveats": [
+        "未逐句影音核對；與 d0070 重複。"
+      ],
+      "topic_keys": [
+        "重複來源"
+      ]
+    },
+    {
+      "doc_id": "d0072",
+      "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+      "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+      "summary": "《台灣名人堂》專訪，從選戰與民意蒐集談兒少保護、行政執行及交通生活議題。",
+      "attributable_claims": [
+        "沈伯洋提出兒少保護系統檢視、北士科市府投資智庫/政策研究協助減輕公務員負荷；談線上/實體民意分區回應、自行車與行人分流並結合綠蔭，及以社區互動降低孤立。"
+      ],
+      "caveats": [
+        "全文逐字稿未逐句聽校；民意筆數、兒虐趨勢、YouBike路網比例、健康研究及選戰事件均待核實。主持人與街訪民眾的意見不歸為沈伯洋主張。"
+      ],
+      "topic_keys": [
+        "治理",
+        "兒少保護",
+        "交通",
+        "社區"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "以日常社區互動減少孤立感",
+      "question": "城市如何讓需要陪伴的人更容易連結社區？",
+      "points": [
+        "ISZN 訪談中，沈伯洋把低門檻對話與社區興趣活動視為建立人際連結的方式，提到修繕咖啡館等例子。",
+        "他提出由熟悉居民的地方店家協助發現需求、再由連結人員促成活動；這是構想，並非已運作的市府制度。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0141",
+          "doc_id": "d0066",
+          "url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/",
+          "section_or_timestamp": "00:00–約00:20，對談主題段",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "一個城市還是要照顧每一個人"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "d0066/d0067 為同場重複文本；只作一份來源。"
+      ]
+    },
+    {
+      "working_title": "消費者教育及服務業規範的提案",
+      "question": "如何回應身心靈服務的消費風險與資訊落差？",
+      "points": [
+        "沈伯洋提出提升消費者辨識能力、由政府協助防詐與資安規範，並討論建立服務認證或市場規範。",
+        "對談中的認證、工會及市府職權仍須依法規與主管機關核對；相關療效主張不可由訪談推論。來賓提到玄學 AI 的請求為來賓發言。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0144",
+          "doc_id": "d0067",
+          "url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/transcript/",
+          "section_or_timestamp": "對談後段問答",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "市府必須輔導資安與防詐規範"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": [
+        "d0066/d0067 為同場重複文本。"
+      ]
+    },
+    {
+      "working_title": "以 AI 專家短期進駐協助傳統產業",
+      "question": "他提出何種方式協助傳統產業採用 AI？",
+      "points": [
+        "沈伯洋提出安排 AI 專家進駐不同產業或商圈數月，協助業者理解並導入應用。",
+        "此為訪談中的構想，未提供執行方案、資源估算或成效證據。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0142",
+          "doc_id": "d0066",
+          "url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/",
+          "section_or_timestamp": "對談中段，產業發展討論",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "進駐不同產業與商圈 3 到 6 個月"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": [
+        "d0066/d0067 為同場重複文本。"
+      ]
+    },
+    {
+      "working_title": "用生活問題與分區回饋形成政策入口",
+      "question": "如何將市民反映轉成較貼近地方的政策回應？",
+      "points": [
+        "在黃光芹訪談中，沈伯洋談以生活情境作為政策入口，並提及團隊整理 1999 等資料；原文沒有說明資料處理方法或評估結果。",
+        "《台灣名人堂》中，他表示將線上及實體回饋依選區整理，並計畫以直播回答未能現場處理的細項。資料筆數是團隊估計，不能代表全體市民意見。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0145",
+          "doc_id": "d0068",
+          "url": "https://puma-hub.pages.dev/articles/huang-guangqin-2026-10-19/",
+          "section_or_timestamp": "生活政策入口段（無逐句時間碼）",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "從生活需求談城市解方"
+        },
+        {
+          "unit_id": "u0153",
+          "doc_id": "d0072",
+          "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+          "section_or_timestamp": "00:18:06–00:19:10",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "我現在就不講大政策，我講「分區政策」"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "d0068/d0069 同場重複；不同訪談間主題相近但不作相互驗證。"
+      ]
+    },
+    {
+      "working_title": "兒少保護與公務員減壓的治理構想",
+      "question": "他提出哪些優先處理的行政問題？",
+      "points": [
+        "沈伯洋把兒少保護列為急迫議題，主張檢視第一線壓力、通報、風險盤點、熱區與幼兒園處置。其趨勢與黑數判斷尚未核實。",
+        "他提出由市府投資、設於北士科的智庫先整理政策計畫與標準，再交議會討論規則，藉此減輕第一線執行負荷；組織、預算、監督與權責仍待說明。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0153",
+          "doc_id": "d0072",
+          "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+          "section_or_timestamp": "00:19:23–00:21:21",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "其實我還是覺得「公務人員的減壓」是現在最重要的"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "自行車路網與行人空間結合綠蔭設計",
+      "question": "如何回應自行車及行人爭道？",
+      "points": [
+        "沈伯洋提出重新設計自行車路網與人行道，按速度差異清楚分流，並將樹蔭/街道綠化納入整體設計。",
+        "他引用 YouBike 使用者與路網增幅作為理由，但未提供統計期間及指標，數字待核實。街訪民眾的夜間公車、大巨蛋、午餐和生技園區需求是受訪民眾意見，不能算作他的承諾。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0153",
+          "doc_id": "d0072",
+          "url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+          "section_or_timestamp": "00:23:25–00:24:16",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "腳踏車的路網要重新設計"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "都市更新中保留地方歷史紋理",
+      "question": "都市更新如何兼顧生活機能與地方記憶？",
+      "points": [
+        "吳淡如訪談尾段，沈伯洋主張都市更新不應無差別拆除，並提到保留大安一帶的歷史脈絡、將作家作品與巷弄空間串連。",
+        "他也提出保存大稻埕以外的地方故事，例如眷村與五分埔；這些是文化保存方向，未形成具體執行方案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0149",
+          "doc_id": "d0070",
+          "url": "https://puma-hub.pages.dev/articles/wu-danru-2026-10-19/",
+          "section_or_timestamp": "約38:00–40:15",
+          "speaker": "沈伯洋（受訪來賓）",
+          "support_excerpt": "但不應該是無差別地一直拆"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": [
+        "d0070/d0071 為同場重複文本。"
+      ]
+    }
+  ]
+}

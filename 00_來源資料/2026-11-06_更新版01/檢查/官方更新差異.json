@@ -1,0 +1,406 @@
+{
+  "generated_at": "2026-11-06T16:05:58+00:00",
+  "snapshot_date": "2026-11-07",
+  "old_manifest": "/Users/u2093030/Library/CloudStorage/GoogleDrive-kome808@gmail.com/我的雲端硬碟/市長選舉設計/沈伯洋政策/00_來源資料/2026-11-06/官方政策/manifest.json",
+  "new_manifest": "官方政策/manifest.json",
+  "counts": {
+    "old_records": 128,
+    "new_records": 140,
+    "by_kind_status": {
+      "policy_index": {
+        "downloaded": 1
+      },
+      "policy_detail": {
+        "downloaded": 16
+      },
+      "policy_image": {
+        "downloaded": 109
+      },
+      "policy_attachment": {
+        "downloaded": 6
+      },
+      "framework_page": {
+        "downloaded": 3
+      },
+      "heart_axis": {
+        "downloaded": 5
+      }
+    }
+  },
+  "added": [
+    {
+      "id": "policy_16_都更政策",
+      "title": "都更政策",
+      "kind": "policy_detail",
+      "source_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "final_url": "https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96",
+      "status": "downloaded",
+      "http_status": 200,
+      "content_type": "text/html",
+      "sha256": "f69f10a18e4f344109e4c2b8cc4b2b1a476eb88ee3bf4145718c4eb9169f5194",
+      "bytes": 52200,
+      "notes": "原始 HTML bytes 與可讀 Markdown 已保存；內容未驗證、未改寫。"
+    },
+    {
+      "id": "policy_16_都更政策__image_c076f8a53daf",
+      "title": "都更政策 圖片 c076f8a53daf",
+      "kind": "policy_image",
+      "source_url": "https://media.puma.taipei/files/414/G7JjRRk9q6eKy9tYh1JozSuun1a4c2XNEJGqaQvt.jpg",
+      "final_url": "https://media.puma.taipei/files/414/G7JjRRk9q6eKy9tYh1JozSuun1a4c2XNEJGqaQvt.jpg",
+      "status": "downloaded",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "sha256": "a89733d3ace10a73d6c5fc78861cd4d85ab473638341431f2c68581b9ff3b81b",
+      "bytes": 1863880,
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。；另見頁面：https://puma.taipei/policy/heart/h；另見頁面：https://puma.taipei/policy/heart/a；另見頁面：https://puma.taipei/policy/heart/r"
+    },
+    {
+      "id": "policy_16_都更政策__image_92d1d6cdf382",
+      "title": "都更政策 圖片 92d1d6cdf382",
+      "kind": "policy_image",
+      "source_url": "https://media.puma.taipei/files/415/BYAYGfemUWNAVLUfAJNaVrJqwBGAQqNkIU4HLtTi.jpg",
+      "final_url": "https://media.puma.taipei/files/415/BYAYGfemUWNAVLUfAJNaVrJqwBGAQqNkIU4HLtTi.jpg",
+      "status": "downloaded",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "sha256": "f8ceb7a5e6220769d3a5add126a818fbaa07be41b00943d75e0efc618a2c7c06",
+      "bytes": 869982,
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_16_都更政策__image_9d88baf94eb7",
+      "title": "都更政策 圖片 9d88baf94eb7",
+      "kind": "policy_image",
+      "source_url": "https://media.puma.taipei/files/416/y5IVpVGXL1lgfbgmAXo4GnMUBv25yzJZ2MX8XNi8.jpg",
+      "final_url": "https://media.puma.taipei/files/416/y5IVpVGXL1lgfbgmAXo4GnMUBv25yzJZ2MX8XNi8.jpg",
+      "status": "downloaded",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "sha256": "8c881903ee078b43a865dc2f41cf17a6ed62ee4954c0cc38597b6caf7341a428",
+      "bytes": 671057,
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_16_都更政策__image_bb0b86fc3f6d",
+      "title": "都更政策 圖片 bb0b86fc3f6d",
+      "kind": "policy_image",
+      "source_url": "https://media.puma.taipei/files/417/DE0PvIRyw0Qbq1bLzlOmfvzgWiMZZdtHUhV54WPP.jpg",
+      "final_url": "https://media.puma.taipei/files/417/DE0PvIRyw0Qbq1bLzlOmfvzgWiMZZdtHUhV54WPP.jpg",
+      "status": "downloaded",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "sha256": "ffd8bcad40bf7a4d27bd54e1333e64acebb8b62a00166756cbcd29d89adf8020",
+      "bytes": 765872,
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_16_都更政策__image_2a8c706f09f2",
+      "title": "都更政策 圖片 2a8c706f09f2",
+      "kind": "policy_image",
+      "source_url": "https://media.puma.taipei/files/418/iIxNPHgiDyI9FGQ8XuqOsycmqi7cuHZSLxTUVhE8.jpg",
+      "final_url": "https://media.puma.taipei/files/418/iIxNPHgiDyI9FGQ8XuqOsycmqi7cuHZSLxTUVhE8.jpg",
+      "status": "downloaded",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "sha256": "711d13897a56089bcc6ee2afb5ae1bb01958288ef98d65ee61d56b42b6c8d930",
+      "bytes": 713775,
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_16_都更政策__image_f8c206f577cd",
+      "title": "都更政策 圖片 f8c206f577cd",
+      "kind": "policy_image",
+      "source_url": "https://media.puma.taipei/files/419/4RUNBpSHGMxHd8YL8cjrSo4Xvv7GovzY8LcLKZiU.jpg",
+      "final_url": "https://media.puma.taipei/files/419/4RUNBpSHGMxHd8YL8cjrSo4Xvv7GovzY8LcLKZiU.jpg",
+      "status": "downloaded",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "sha256": "a702e4f53cee605a397d3106a80d0ce2f9e8ce7f7b2f880830fa537a6d3f1157",
+      "bytes": 651313,
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_16_都更政策__image_88b4e25adf40",
+      "title": "都更政策 圖片 88b4e25adf40",
+      "kind": "policy_image",
+      "source_url": "https://media.puma.taipei/files/420/mcSzuraYZwXCRRxwyMxwR51cbTr8zInVtP9k2nSZ.jpg",
+      "final_url": "https://media.puma.taipei/files/420/mcSzuraYZwXCRRxwyMxwR51cbTr8zInVtP9k2nSZ.jpg",
+      "status": "downloaded",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "sha256": "d27b324e14faf342499a4e0d0c8dce7367a8f15227b9dd6192ade677b55af650",
+      "bytes": 637776,
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_16_都更政策__image_ecc06f4e3b2a",
+      "title": "都更政策 圖片 ecc06f4e3b2a",
+      "kind": "policy_image",
+      "source_url": "https://media.puma.taipei/files/421/7AHwC07rOVIQxGFystToxFMbO7mrOkkThWk6T7vM.jpg",
+      "final_url": "https://media.puma.taipei/files/421/7AHwC07rOVIQxGFystToxFMbO7mrOkkThWk6T7vM.jpg",
+      "status": "downloaded",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "sha256": "f15088be7c4132472c7186686ac4860747135a66fcbf911af2733b7fdfeb6f72",
+      "bytes": 610341,
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_16_都更政策__image_d60879faec11",
+      "title": "都更政策 圖片 d60879faec11",
+      "kind": "policy_image",
+      "source_url": "https://media.puma.taipei/files/422/Ep2UMEv5qZx5MimPX5hV9phPo1Ib9IvFOhgoFNRt.jpg",
+      "final_url": "https://media.puma.taipei/files/422/Ep2UMEv5qZx5MimPX5hV9phPo1Ib9IvFOhgoFNRt.jpg",
+      "status": "downloaded",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "sha256": "19bcbc1ada99fac6f3c760abbde80fe8541106023c62b16e7d24f91ec4b2da5d",
+      "bytes": 561536,
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_16_都更政策__image_fd480b1e8c4c",
+      "title": "都更政策 圖片 fd480b1e8c4c",
+      "kind": "policy_image",
+      "source_url": "https://media.puma.taipei/files/423/irFsxchcklTXG4qAhmm8SsZNUPBEEy1FKIx708ky.jpg",
+      "final_url": "https://media.puma.taipei/files/423/irFsxchcklTXG4qAhmm8SsZNUPBEEy1FKIx708ky.jpg",
+      "status": "downloaded",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "sha256": "a18827c2afdb9999011790644be8c7afefc320147965bbb3d8927ff9c3f42df0",
+      "bytes": 662743,
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    },
+    {
+      "id": "policy_16_都更政策__image_04c9154d663e",
+      "title": "都更政策 圖片 04c9154d663e",
+      "kind": "policy_image",
+      "source_url": "https://media.puma.taipei/files/424/Bdr1ykl4xKJUFqt5xEw0ZrnnjQbzUppKSh5JZ7Bg.jpg",
+      "final_url": "https://media.puma.taipei/files/424/Bdr1ykl4xKJUFqt5xEw0ZrnnjQbzUppKSh5JZ7Bg.jpg",
+      "status": "downloaded",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "sha256": "10ed0bba457b0d1e7ce5eef3e2b44ea1914dc6b985bb159a5dda3556717ddfef",
+      "bytes": 715431,
+      "notes": "政策內容圖片；排除網站 logo/footer 裝飾，未進行 OCR。"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "key": {
+        "kind": "framework_page",
+        "source_url": "https://puma.taipei/heart/quiz/1"
+      },
+      "fields": {
+        "sha256": {
+          "before": "02c10a777fbd3f41983eb82b1f2c256b54c98d9cb10dad5c3e08baa1b6953fcf",
+          "after": "666fd8d58de908ed1564cf8544d624b8e37e8898e778c24b2c08f92d42a72a3d"
+        }
+      },
+      "before": {
+        "id": "heart_quiz_1",
+        "title": "你是台北的哪一種人？",
+        "kind": "framework_page",
+        "source_url": "https://puma.taipei/heart/quiz/1",
+        "final_url": "https://puma.taipei/heart/quiz/1",
+        "status": "downloaded",
+        "http_status": 200,
+        "content_type": "text/html",
+        "sha256": "02c10a777fbd3f41983eb82b1f2c256b54c98d9cb10dad5c3e08baa1b6953fcf",
+        "bytes": 208034,
+        "notes": "原始 HTML bytes 與可讀 Markdown 已保存；內容未驗證、未改寫。"
+      },
+      "after": {
+        "id": "heart_quiz_1",
+        "title": "你是台北的哪一種人？",
+        "kind": "framework_page",
+        "source_url": "https://puma.taipei/heart/quiz/1",
+        "final_url": "https://puma.taipei/heart/quiz/1",
+        "status": "downloaded",
+        "http_status": 200,
+        "content_type": "text/html",
+        "sha256": "666fd8d58de908ed1564cf8544d624b8e37e8898e778c24b2c08f92d42a72a3d",
+        "bytes": 208034,
+        "notes": "原始 HTML bytes 與可讀 Markdown 已保存；內容未驗證、未改寫。"
+      }
+    },
+    {
+      "key": {
+        "kind": "heart_axis",
+        "source_url": "https://puma.taipei/policy/heart/a"
+      },
+      "fields": {
+        "sha256": {
+          "before": "9e8301413b5077575ae55055a73b0b3cb816f56708ca3b6229a8082e5169973b",
+          "after": "ce20c9834549356db63d7b5dfd0f63d8e32c6a7881fba6aa6d6f96a933ae8015"
+        },
+        "bytes": {
+          "before": 56103,
+          "after": 58923
+        }
+      },
+      "before": {
+        "id": "heart_axis_a",
+        "title": "政見主軸：陪伴 · Accompany",
+        "kind": "heart_axis",
+        "source_url": "https://puma.taipei/policy/heart/a",
+        "final_url": "https://puma.taipei/policy/heart/a",
+        "status": "downloaded",
+        "http_status": 200,
+        "content_type": "text/html",
+        "sha256": "9e8301413b5077575ae55055a73b0b3cb816f56708ca3b6229a8082e5169973b",
+        "bytes": 56103,
+        "notes": "原始 HTML bytes 與可讀 Markdown 已保存；內容未驗證、未改寫。"
+      },
+      "after": {
+        "id": "heart_axis_a",
+        "title": "政見主軸：陪伴 · Accompany",
+        "kind": "heart_axis",
+        "source_url": "https://puma.taipei/policy/heart/a",
+        "final_url": "https://puma.taipei/policy/heart/a",
+        "status": "downloaded",
+        "http_status": 200,
+        "content_type": "text/html",
+        "sha256": "ce20c9834549356db63d7b5dfd0f63d8e32c6a7881fba6aa6d6f96a933ae8015",
+        "bytes": 58923,
+        "notes": "原始 HTML bytes 與可讀 Markdown 已保存；內容未驗證、未改寫。"
+      }
+    },
+    {
+      "key": {
+        "kind": "heart_axis",
+        "source_url": "https://puma.taipei/policy/heart/h"
+      },
+      "fields": {
+        "sha256": {
+          "before": "e3cd04e69a860792ebc29b2d2a33d2869ebf64a08486485e65bfd82bc3b57d22",
+          "after": "962e2fd8c3020a38d1afe52cf5f4bdca7329ef2ec074fa14f8a758040deac983"
+        },
+        "bytes": {
+          "before": 47800,
+          "after": 50620
+        }
+      },
+      "before": {
+        "id": "heart_axis_h",
+        "title": "政見主軸：空間 · Habitat",
+        "kind": "heart_axis",
+        "source_url": "https://puma.taipei/policy/heart/h",
+        "final_url": "https://puma.taipei/policy/heart/h",
+        "status": "downloaded",
+        "http_status": 200,
+        "content_type": "text/html",
+        "sha256": "e3cd04e69a860792ebc29b2d2a33d2869ebf64a08486485e65bfd82bc3b57d22",
+        "bytes": 47800,
+        "notes": "原始 HTML bytes 與可讀 Markdown 已保存；內容未驗證、未改寫。"
+      },
+      "after": {
+        "id": "heart_axis_h",
+        "title": "政見主軸：空間 · Habitat",
+        "kind": "heart_axis",
+        "source_url": "https://puma.taipei/policy/heart/h",
+        "final_url": "https://puma.taipei/policy/heart/h",
+        "status": "downloaded",
+        "http_status": 200,
+        "content_type": "text/html",
+        "sha256": "962e2fd8c3020a38d1afe52cf5f4bdca7329ef2ec074fa14f8a758040deac983",
+        "bytes": 50620,
+        "notes": "原始 HTML bytes 與可讀 Markdown 已保存；內容未驗證、未改寫。"
+      }
+    },
+    {
+      "key": {
+        "kind": "heart_axis",
+        "source_url": "https://puma.taipei/policy/heart/r"
+      },
+      "fields": {
+        "sha256": {
+          "before": "c92b7c3be56ba79607b8437ee65c8db977129ad57e5cc36fb43076c0731b6ca1",
+          "after": "c398cd198878905aff63f3b5ededd0cea83058ee8e22444ae4ceb20b511ce782"
+        },
+        "bytes": {
+          "before": 50278,
+          "after": 53098
+        }
+      },
+      "before": {
+        "id": "heart_axis_r",
+        "title": "政見主軸：韌性與安心 · Resilience",
+        "kind": "heart_axis",
+        "source_url": "https://puma.taipei/policy/heart/r",
+        "final_url": "https://puma.taipei/policy/heart/r",
+        "status": "downloaded",
+        "http_status": 200,
+        "content_type": "text/html",
+        "sha256": "c92b7c3be56ba79607b8437ee65c8db977129ad57e5cc36fb43076c0731b6ca1",
+        "bytes": 50278,
+        "notes": "原始 HTML bytes 與可讀 Markdown 已保存；內容未驗證、未改寫。"
+      },
+      "after": {
+        "id": "heart_axis_r",
+        "title": "政見主軸：韌性與安心 · Resilience",
+        "kind": "heart_axis",
+        "source_url": "https://puma.taipei/policy/heart/r",
+        "final_url": "https://puma.taipei/policy/heart/r",
+        "status": "downloaded",
+        "http_status": 200,
+        "content_type": "text/html",
+        "sha256": "c398cd198878905aff63f3b5ededd0cea83058ee8e22444ae4ceb20b511ce782",
+        "bytes": 53098,
+        "notes": "原始 HTML bytes 與可讀 Markdown 已保存；內容未驗證、未改寫。"
+      }
+    },
+    {
+      "key": {
+        "kind": "policy_index",
+        "source_url": "https://puma.taipei/policies"
+      },
+      "fields": {
+        "sha256": {
+          "before": "8973df4f69a3169e74d613d7b88713075d0340e0c17a831ed9b1cbf45926e2d4",
+          "after": "3c398ad1ffddc608913d91ae22c38ebfe5b18dc0a1777cd0f8d75cd4e8618d64"
+        },
+        "bytes": {
+          "before": 75937,
+          "after": 78740
+        }
+      },
+      "before": {
+        "id": "policy_index",
+        "title": "政見",
+        "kind": "policy_index",
+        "source_url": "https://puma.taipei/policies",
+        "final_url": "https://puma.taipei/policies",
+        "status": "downloaded",
+        "http_status": 200,
+        "content_type": "text/html",
+        "sha256": "8973df4f69a3169e74d613d7b88713075d0340e0c17a831ed9b1cbf45926e2d4",
+        "bytes": 75937,
+        "notes": "原始 HTML bytes 與可讀 Markdown 已保存；內容未驗證、未改寫。"
+      },
+      "after": {
+        "id": "policy_index",
+        "title": "政見",
+        "kind": "policy_index",
+        "source_url": "https://puma.taipei/policies",
+        "final_url": "https://puma.taipei/policies",
+        "status": "downloaded",
+        "http_status": 200,
+        "content_type": "text/html",
+        "sha256": "3c398ad1ffddc608913d91ae22c38ebfe5b18dc0a1777cd0f8d75cd4e8618d64",
+        "bytes": 78740,
+        "notes": "原始 HTML bytes 與可讀 Markdown 已保存；內容未驗證、未改寫。"
+      }
+    }
+  ],
+  "failures": [],
+  "missing_policy_pages": [],
+  "missing_framework_pages": [],
+  "missing_legacy_policy_ids": [],
+  "notes": [
+    "比較以 kind + source_url（無 URL 時以 id）為鍵；忽略快照內相對路徑與抓取時間。",
+    "changed 只表示來源 metadata、bytes 或 sha256 有差異，不代表內容已人工驗證。"
+  ],
+  "index_notes": []
+}

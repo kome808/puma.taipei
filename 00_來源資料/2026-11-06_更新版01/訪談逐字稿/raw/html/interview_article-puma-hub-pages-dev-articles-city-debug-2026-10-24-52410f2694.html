@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>市政 debug 松：從十組城市提案，到 AI 教練與公民協作｜PUMA HUB</title><meta name="description" content="整理市政 debug 松成果 Demo 與松後座談，涵蓋護樹、垃圾清運、鼠患、交通、都更與 AI 教練，附逐字稿與發言紀要全文、影音時間碼及下載。"><meta name="keywords" content="市政 debug 松, 沈伯洋, 黑客松, AI 教練, 台北程式工作組, 逐字稿">
+<link rel="canonical" href="https://puma-hub.pages.dev/articles/city-debug-2026-10-24/"><meta property="og:type" content="article"><meta property="og:title" content="市政 debug 松：從十組城市提案，到 AI 教練與公民協作"><meta property="og:description" content="整理市政 debug 松成果 Demo 與松後座談，涵蓋護樹、垃圾清運、鼠患、交通、都更與 AI 教練，附逐字稿與發言紀要全文、影音時間碼及下載。"><meta property="og:url" content="https://puma-hub.pages.dev/articles/city-debug-2026-10-24/"><meta property="og:locale" content="zh_TW">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="市政 debug 松：從十組城市提案，到 AI 教練與公民協作"><meta name="twitter:description" content="整理市政 debug 松成果 Demo 與松後座談，涵蓋護樹、垃圾清運、鼠患、交通、都更與 AI 教練，附逐字稿與發言紀要全文、影音時間碼及下載。">
+<link rel="icon" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&amp;family=Noto+Serif+TC:wght@600;800;900&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/article.css"><link rel="stylesheet" href="/articles/city-debug-2026-10-24/reading.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "市政 debug 松：從十組城市提案，到 AI 教練與公民協作", "description": "整理市政 debug 松成果 Demo 與松後座談，涵蓋護樹、垃圾清運、鼠患、交通、都更與 AI 教練，附逐字稿與發言紀要全文、影音時間碼及下載。", "inLanguage": "zh-Hant-TW", "datePublished": "2026-10-24", "dateModified": "2026-10-24", "mainEntityOfPage": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/", "isBasedOn": "https://www.youtube.com/watch?v=QP2w7IJNsuU"}</script></head>
+<body><a class="skip" href="#content">跳到正文</a><header class="topbar"><div class="topbar__inner"><a class="brand" href="/">PUMA HUB 文章索引</a><a href="/#sessions">活動與質詢</a></div></header>
+<section class="article-hero"><div><div class="article-meta">市政 debug 松｜2026-10-24｜成果 Demo 與松後座談</div><h1>市政 debug 松：從十組城市提案，到 AI 教練與公民協作</h1><p>整理市政 debug 松成果 Demo 與松後座談，涵蓋護樹、垃圾清運、鼠患、交通、都更與 AI 教練，附逐字稿與發言紀要全文、影音時間碼及下載。</p><div class="reading-actions"><a class="action-primary" href="transcript/">閱讀逐字稿與紀要</a><a href="#transcript">頁內展開全文</a><a href="https://www.youtube.com/watch?v=QP2w7IJNsuU">觀看原直播</a><a href="article.md" download>下載整理文章</a></div></div></section>
+<main class="article-layout"><aside class="article-toc"><details open><summary>頁面目錄</summary><a href="#section-1">活動資訊與閱讀方式</a><a href="#section-2">十組 Demo：先看問題，再看工具</a><a href="#section-3">沈伯洋講評：資訊易達、容易理解、能夠互動</a><a href="#section-4">松後座談：AI 寫得出程式，如何接住城市需求？</a><a href="#section-5">台北研究院：從原型到公務體系之間的工作</a><a href="#section-6">AI 教練：讓工具走進工作現場</a><a href="#section-7">台北程式工作組：活動之後繼續協作</a><a href="#section-8">來源、時間碼與逐字稿說明</a><a href="#section-9">延伸閱讀</a><a href="#transcript">逐字稿與紀要全文</a></details></aside><article class="article-content" id="content"><p>垃圾桶滿了，回報之後去了哪裡？老屋想改善，第一步該找誰？「市政 debug 松」把市民日常遇到的問題帶進開發現場，讓工程師、設計師與其他參與者試著做出能操作的工具。</p>
+<p>本文依提供的 <code>debug.md</code> 整理成果展示與松後座談。活動資訊已對照官網；Demo 功能依原稿呈現，屬團隊提案與原型展示。附件收錄原稿全文，包含逐字對話與依報導整理的發言紀要。</p>
+<h2 id="section-1">活動資訊與閱讀方式</h2>
+<ul>
+<li>活動：市政 debug 松，主題為 <code>$ git checkout taipei</code>。</li>
+<li>日期：2026 年 10 月 24 日；官網公告當日以線上方式進行開發、Demo 與座談。</li>
+<li>成果 Demo 由 Brian 主持。松後座談由黑貘主持，與談人為沈伯洋、蕭上農、杜奕瑾與侯宜秀。</li>
+<li>官網入選名單列出 36 支隊伍；本篇聚焦原稿收錄的十組 Demo 流程，其中《折返點》因連線狀況未完成展示。</li>
+</ul>
+<p><a href="https://puma.taipei/hackathon">活動官網</a>可核對活動流程與主題，<a href="https://puma.taipei/hackathon/finalists">入選名單</a>列出完整隊伍。<a href="https://puma.taipei/hackathon/vote">作品票選頁</a>可查看作品介紹；隊名、成員及作品名稱可能與直播時的口述不同。</p>
+<h2 id="section-2">十組 Demo：先看問題，再看工具</h2>
+<p>下表依提供原稿整理。時間碼連到原直播，供定位使用；尚未逐句聽校（needs verification）。</p>
+<table>
+<thead>
+<tr>
+<th>團隊／作品</th>
+<th>想處理的問題與展示構想</th>
+<th>影音定位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AI 方舟計畫《大樹神獸》</td>
+<td>以樹木圖鑑、掃碼、移樹通知與社區活動，讓居民持續關心身邊的樹。</td>
+<td><a href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1824s">00:30:24</a></td>
+</tr>
+<tr>
+<td>怎麼 Young 都 Soon《BinSoon》</td>
+<td>整合垃圾桶地圖、拍照回報、點數獎勵與預約清運小車。</td>
+<td><a href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1953s">00:32:33</a></td>
+</tr>
+<tr>
+<td>什麼意鼠《有鼠請回答！》</td>
+<td>結合風險圖資、店家自我檢測與回報，提出鼠患源頭治理工具。</td>
+<td><a href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2077s">00:34:37</a></td>
+</tr>
+<tr>
+<td>好麻煩《內湖島時間島》</td>
+<td>用即時車流、歷史回放與通勤模擬，協助討論彈性工時。</td>
+<td><a href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2227s">00:37:07</a></td>
+</tr>
+<tr>
+<td>菜市場阿龍《折返點 TurnAround》</td>
+<td>原稿記載分享畫面及音訊異常，未完成現場展示；不據此補寫功能。</td>
+<td><a href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2331s">00:38:51</a></td>
+</tr>
+<tr>
+<td>小水滴大浪潮《模擬市民－都更人生》</td>
+<td>從老屋資訊、都更試算到共同規劃與障礙模擬，降低理解門檻。</td>
+<td><a href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2379s">00:39:39</a></td>
+</tr>
+<tr>
+<td>健身隊《公車順順行》</td>
+<td>以手機感測與種花獎勵構想，讓乘客回饋行車平穩度。</td>
+<td><a href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2549s">00:42:29</a></td>
+</tr>
+<tr>
+<td>台北桶報局《台北桶報局》</td>
+<td>以垃圾桶 QR Code 通報、處理進度與派車儀表板，連結市民與清潔端。</td>
+<td><a href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2728s">00:45:28</a></td>
+</tr>
+<tr>
+<td>不敢蔣 English 怕鼠《市民 1999 通報地圖》</td>
+<td>將陳情轉成地圖與貼文，輔以分類、聯絡資訊與歷史探索。</td>
+<td><a href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2940s">00:49:00</a></td>
+</tr>
+<tr>
+<td>同流 One Flow／桶桶沒問題</td>
+<td>以滿桶監控、六角網格分析與市民掃碼，輔助垃圾桶配置與清運。</td>
+<td><a href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3150s">00:52:30</a></td>
+</tr>
+</tbody>
+</table>
+<p>這些展示的共同問題是：資訊如何從民眾手上進入處理流程，又如何讓民眾看到回應？有些團隊從回報介面切入，有些把資料做成地圖、圖鑑或遊戲，讓複雜問題更容易理解。</p>
+<p>原稿把《同流 One Flow》與《桶桶沒問題》合併記載，官網入選名單則分列「同流 One Flow」與「Sage」，票選頁的《桶桶沒問題》列於 Sage 名下。兩者在直播中的對應關係尚待核對（needs verification），本表保留原稿標示。</p>
+<h2 id="section-3">沈伯洋講評：資訊易達、容易理解、能夠互動</h2>
+<p>依原稿，沈伯洋將各組成果歸納為三個方向：資訊找得到、內容看得懂，以及市民與市府能形成雙向互動。</p>
+<p>護樹工具透過圖鑑與社區活動吸引居民參與；鼠患提案把回報結合自我檢查；老屋工具則先幫居民理解自己的情況，再銜接進一步協助。垃圾清運的多組提案，也把找桶子、回報滿溢、清運安排與處理進度放在同一條流程裡。</p>
+<p>本段原稿自 00:55:50 後混用報導與整理性發言，尚未完成影音逐句核對（needs verification）。原稿所述都更政策發布時間屬當時預告，不能視為政策已公布或實施。</p>
+<h2 id="section-4">松後座談：AI 寫得出程式，如何接住城市需求？</h2>
+<p>官網確認座談主題與來賓。原稿則將蕭上農的發言整理為問題定義與服務設計、杜奕瑾的發言整理為在地 AI 與數位韌性、侯宜秀的發言整理為公部門與民間協作的制度介面。</p>
+<p>這些段落是發言紀要，並非已核實的逐句引文（needs verification）。依原稿脈絡，座談關心的核心是：快速做出的原型，如何持續運作，並有人接手維護、確認資料與制度條件。</p>
+<h2 id="section-5">台北研究院：從原型到公務體系之間的工作</h2>
+<p>原稿記載，市民追問黑客松成果如何交給公務體系，而不增加基層負擔。沈伯洋提出以「台北研究院」承接跨領域研究、法規對接、資安與資料整合，選定場域試辦，再把成熟方案交付正式制度。</p>
+<p>本頁將它呈現為座談中的政策構想；組織設計、預算、法定權責與執行時程，仍須依後續正式文件確認。此段的具體發言與原稿引用報導目前未能完整核實（needs verification）。</p>
+<h2 id="section-6">AI 教練：讓工具走進工作現場</h2>
+<p>另一個提問是 AI 是否會拉大數位落差。依原稿，沈伯洋提出由熟悉 AI 的人才進入特定產業工作一段時間，了解業者流程，再回到研發端製作可直接使用的工具。</p>
+<p>他也談到中年轉職者的 AI 支持，以及符合兼職需求的職能培訓。這些內容是原稿記錄的主張，尚待影音與正式方案核對（needs verification）；其中駐點三至六個月、Token 支持對象等細節，並非本頁確認已實施的措施。</p>
+<h2 id="section-7">台北程式工作組：活動之後繼續協作</h2>
+<p>依原稿尾聲，黑貘與主持人談到降低民間參與者與公部門之間的協作摩擦，並宣布成立「台北程式工作組」。市民可以提出生活問題，PM、UX、法律及技術工作者協助整理需求與開發解法，團隊再協助銜接市政。</p>
+<p>活動官網流程也列有宣布成立程式工作組的安排。實際加入方式與後續運作，請以主辦單位最新公告為準。</p>
+<h2 id="section-8">來源、時間碼與逐字稿說明</h2>
+<ul>
+<li>本文依使用者提供的 <code>debug.md</code> 整理，原始檔完整提供下載，未改寫其中對話。</li>
+<li><a href="https://www.youtube.com/live/QP2w7IJNsuU">原直播</a>為原稿所附影音。片長、音軌切換及自動字幕恢復時間依原稿記載，未逐秒聽校（needs verification）。</li>
+<li>原稿第 12 章自 00:55:50 後、第 13 章為混合來源或核心發言整理，引用時須區分逐字轉錄與紀要（needs verification）。</li>
+<li>原稿時間表將第 14 章起點列為 02:05:20，正文則為 02:05:10，另有 00:45:17 發言早於該章時間區間；全文保留差異，時間碼供定位（needs verification）。</li>
+<li>官網可核對 36 組入選；原稿的 324 人報名、94 人錄取及 34 至 36 組說法未完整核實（needs verification）。颱風名稱與改線上原因亦依原稿保留待查證。</li>
+<li>原稿所引自由時報、太報、華視、鏡報、三立、ETtoday 與 PTT 部分連結目前無法取得完整內容；作者、日期與具體引文仍待核對（needs verification）。原稿提到的國際文獻未列作者、年份與 DOI（needs verification），本次未新增 DOI。</li>
+</ul>
+<h2 id="section-9">延伸閱讀</h2>
+<ul>
+<li><a href="/articles/in-between-spaces-2026-10-22/">看見縫隙：公共空間與城市治理</a></li>
+<li><a href="/articles/fang-yehan-2026-10-20/">房業涵專訪：市民提問、居住與城市智庫</a></li>
+<li><a href="/">回到 PUMA HUB 全部文章</a></li>
+</ul><h2 id="transcript">逐字稿與發言紀要全文</h2><p class="source-note">本頁完整收錄提供的逐字稿與發言紀要。原稿第 12 章 00:55:50 後及第 13 章包含依報導整理的內容，並非全部為逐句轉錄；發言、數字及部分時間碼尚待影音核對（needs verification）。</p><div class="reading-actions"><a href="transcript/">開啟全文獨立頁</a><a href="transcript.md" download>下載原始逐字稿</a></div><details id="transcript-full" class="transcript-box"><summary>展開提供原稿全文</summary><div class="transcript-text"><h2 id="transcript-section-1">【沈伯洋 Puma】市政debug松｜黑客松成果 Demo 與松後座談 完整逐字稿與深度紀要</h2>
+<h2 id="transcript-section-2">節目與活動基本資訊</h2>
+<ul>
+<li><strong>直播頻道</strong>：<a href="https://www.youtube.com/live/QP2w7IJNsuU">沈伯洋 Puma YouTube 頻道</a></li>
+<li><strong>活動名稱</strong>：市政 debug 松（<code>$ git checkout taipei</code>）— 黑客松成果 Demo 暨松後座談會</li>
+<li><strong>活動官網與線上票選</strong>：<a href="https://puma.taipei/hackathon">市政 debug 松官方網站</a>｜<a href="https://puma.taipei/hackathon/vote">參賽作品線上票選頁面</a>｜<a href="https://puma.taipei/hackathon/finalists">36 支入選隊伍名單</a></li>
+<li><strong>播出日期</strong>：2026 年 10 月 24 日（週六，因應薔琵颱風改為全程線上直播）</li>
+<li><strong>影片全長</strong>：2 小時 08 分 36 秒（<code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=0s" rel="noopener" target="_blank">00:00:00</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1787s" rel="noopener" target="_blank">00:29:47</a></code> 為直播待機倒數畫面；<code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1787s" rel="noopener" target="_blank">00:29:47</a></code> 正式開始）</li>
+<li><strong>登場講者與來賓陣容</strong>：</li>
+<li><strong>成果 Demo 主持人</strong>：<strong>Brian</strong>（活動主持人）</li>
+<li><strong>候選人講評與座談與談人</strong>：<strong>沈伯洋（Puma Shen）</strong>（立法委員、台北市長參選人；直播期間女兒「<strong>小麻糬</strong>」戴墨鏡驚喜入鏡撒嬌比 YA）</li>
+<li><strong>松後座談主持人</strong>：<strong>洪進吉（食夢黑貘）</strong>（資深全端工程師與數據分析師、沈伯洋競選辦公室資訊顧問暨官網統籌開發、「台北程式工作組」召集人）</li>
+<li><strong>松後座談與談來賓</strong>：<ul>
+<li><strong>蕭上農（fOx）</strong>（愛料理、INSIDE 共同創辦人｜主談：AI 時代工程師的價值）</li>
+<li><strong>杜奕瑾</strong>（PTT 創辦人、台灣人工智慧實驗室創辦人｜主談：台灣自己的 AI）</li>
+<li><strong>侯宜秀</strong>（台灣人工智慧學校基金會前秘書長｜主談：政府如何接住 AI 與公民科技）</li>
+</ul>
+</li>
+<li><strong>十組成果 Demo 發表團隊代表</strong>：<ol>
+<li><strong>AI 方舟計畫</strong>（成員：Qmoa、Saori）— 作品：《大樹神獸：讓台北每棵樹，都有一群守護祂的鄰居》</li>
+<li><strong>怎麼Young都Soon</strong>（成員：Janet、Champion、Amatsuki、Wen、Charles）— 作品：《BinSoon 讓台北丟垃圾變順》</li>
+<li><strong>什麼意鼠</strong>（成員：孟德、Jess）— 作品：《有鼠請回答！城市鼠患處方箋》</li>
+<li><strong>好麻煩</strong>（成員：WellHuang、gash）— 作品：《內湖島時間島：內湖園區搞清楚要走的路》</li>
+<li><strong>菜市場阿龍</strong>（成員：高見龍、高思）— 作品：《折返點 TurnAround》（因線上畫面與音訊連線狀況未完成現場展示）</li>
+<li><strong>小水滴大浪潮</strong>（成員：Abraham、麋稽阿姨、Derick、Jerry）— 作品：《模擬市民－都更人生（現正加映公務員篇 DLC）》</li>
+<li><strong>健身隊／公車順順行</strong>（成員：Kepler、Ryan、Frason）— 作品：《公車順順行》</li>
+<li><strong>台北桶報局</strong>（成員：Ian、Harry、Pamis、Vicky、Swimming、Kyra）— 作品：《台北桶報局》</li>
+<li><strong>不敢蔣English怕鼠</strong>（成員：徐瑞伯、Laban、Lemoni）— 作品：《台北市，你給我聽好了｜市民 1999 通報地圖》</li>
+<li><strong>同流 One Flow／桶桶沒問題</strong>（成員：Sage 等）— 作品：《同流 One Flow》</li>
+</ol>
+</li>
+</ul>
+<h2 id="transcript-section-3">活動核心摘要與政策重點</h2>
+<ol>
+<li><strong>從市民抱怨到 MVP 實作</strong>：「市政 debug 松」將「市長，你給我聽好了」平台蒐集的上千則台北市民抱怨與建議，整理為 <strong>7 大市政痛點</strong>（#1 把三千棵樹種回來、#2 找回消失的垃圾桶、#3 鼠患四處跑衛生安全怎麼辦、#4 內湖尖峰車流好比停車場、#5 公車路網如何即時反應需求、#6 危老耐震如何查風險評級怎麼找、#7 自由題：你看見的市政 bug）。活動共吸引 324 人報名、錄取 94 人組成 34 至 36 組團隊，在一天內運用開放資料與 AI 工具開發出最小可行性方案（MVP）（<a href="https://news.ltn.com.tw/news/politics/breakingnews/5617684">自由時報</a>、<a href="https://puma.taipei/hackathon">市政 debug 松官網</a>）。</li>
+<li><strong>十組團隊展現遊戲化與數據治理創意</strong>：
+   - <strong>樹木保護</strong>：結合路樹 QR Code 與神獸養成圖鑑，在政府公示移樹時發動社群「求援籤」與樹下社區活動。
+   - <strong>垃圾桶與清運調度</strong>：共有三組團隊不約而同聚焦垃圾桶痛點，提出 AI 拍照辨識滿溢、市民認領點數兌換咖啡、針對晚下班族加開早晚預約小車、六角網格熱區權重分析、垃圾桶專屬 QR Code 貼紙與類 Uber 垃圾車動態追蹤。
+   - <strong>鼠患治理</strong>：導入醫療「檢傷分類」概念疊加下水道與餐飲資料，並結合北市府 200 萬好友 LINE 官方帳號推播店家「處方箋」、核發類似米其林的安心標章與市民打地鼠集點換垃圾袋。
+   - <strong>內湖交通與公車安全</strong>：建立晨尖峰車流即時監控與歷史回放，提供企業彈性工時獎勵機制；另透過手機內建加速度計結合《皮克敏》種花概念，讓乘客化身小水滴獎勵平穩駕駛的公車司機。
+   - <strong>危老都更與 1999 視覺化</strong>：整合土壤液化與救災圖資提供老屋健檢、都更試算機與障礙情境模擬器；以及將 1999 陳情轉化為類 Threads 貼文地圖與 AI 自動九大分類（<a href="https://today.line.me/tw/v3/article/vXLrx80">太報</a>）。</li>
+<li><strong>沈伯洋講評與三大核心原則</strong>：沈伯洋盛讚這是他參加過「最有感的一次黑客松」，指出優秀市政工具的核心在於「<strong>資訊易達性</strong>」、「<strong>容易理解的程度</strong>」與「<strong>雙向互動性</strong>」（例如讓市民與店家在通報過程中自我檢測），並預告將於下週正式公布完整都更政策（<a href="https://today.line.me/tw/v3/article/vXLrx80">太報</a>、<a href="https://today.line.me/tw/v3/article/RBKvz1q">華視新聞</a>）。</li>
+<li><strong>成立「台北研究院」強化市政基礎設施</strong>：回應黑客松成果如何落地交接給公務體系時，沈伯洋指出台北市目前最大的問題是缺乏完善的基礎設施，不應由市長一拍腦袋就壓著基層公務員趕上架；未來應先成立智庫性質的「<strong>台北研究院</strong>」，負責法規對接、資訊安全維護、資料整合與選定場域試辦（Sandbox），成熟後再經由議會交付公務體系執行，並可開源分享給其他縣市（<a href="https://www.mirrordaily.news/story/93585">鏡報</a>、<a href="https://www.setn.com/news/1927882">三立新聞網</a>）。</li>
+<li><strong>拋出「AI 教練」駐點百工百業與中年轉職支持</strong>：針對民眾提問 AI 可能造成「強者越強、弱者越弱」擴大數位落差，沈伯洋借鏡日本記帳士公會經驗，主張單靠開課趕不上 AI 演化速度，應推動「<strong>AI 教練</strong>」模式——派熟悉 AI 的人才進入商圈與傳統產業實習 3 至 6 個月，摸熟流程後回智庫開發讓工作者「不必懂 AI 也能直接使用」的工具；個人端則將青年 AI Token 支持方案延伸至<strong>中年轉職者</strong>，並設計符合兼職需求的短期 AI 職能培訓（<a href="https://today.line.me/tw/v3/article/zNMxpzj">太報</a>）。</li>
+<li><strong>正式成立「台北程式工作組」</strong>：資訊顧問「食夢黑貘」洪進吉於會尾宣布成立常態性的「<strong>台北程式工作組</strong>」，以自由意願與主動參與為原則，降低民間高手與公部門之間的「摩擦力」，讓工程師、PM、UX 設計師、法律工作者與市民在選後仍能持續協作解決城市 bug（<a href="https://www.ettoday.net/news/20261024/3260243.htm">ETtoday 新聞雲</a>）。</li>
+</ol>
+<h2 id="transcript-section-4">章節時間軸一覽</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">章節</th>
+<th style="text-align: left;">時間區間</th>
+<th style="text-align: left;">階段主題</th>
+<th style="text-align: left;">登場講者</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">第 1 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=0s" rel="noopener" target="_blank">00:00:00</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1787s" rel="noopener" target="_blank">00:29:47</a></code></td>
+<td style="text-align: left;">直播待機與開場前倒數</td>
+<td style="text-align: left;">（待機音樂與背景音）</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 2 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1787s" rel="noopener" target="_blank">00:29:47</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1823s" rel="noopener" target="_blank">00:30:23</a></code></td>
+<td style="text-align: left;">黑客松成果 Demo 正式開場</td>
+<td style="text-align: left;">主持人 Brian</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 3 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1824s" rel="noopener" target="_blank">00:30:24</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1952s" rel="noopener" target="_blank">00:32:32</a></code></td>
+<td style="text-align: left;">第 1 組 Demo：《大樹神獸》（樹木保護與社區認養）</td>
+<td style="text-align: left;">AI 方舟計畫代表、主持人 Brian</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 4 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1953s" rel="noopener" target="_blank">00:32:33</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2076s" rel="noopener" target="_blank">00:34:36</a></code></td>
+<td style="text-align: left;">第 2 組 Demo：《BinSoon 讓台北丟垃圾變順》</td>
+<td style="text-align: left;">怎麼Young都Soon代表、主持人 Brian</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 5 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2077s" rel="noopener" target="_blank">00:34:37</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2226s" rel="noopener" target="_blank">00:37:06</a></code></td>
+<td style="text-align: left;">第 3 組 Demo：《有鼠請回答！城市鼠患處方箋》</td>
+<td style="text-align: left;">什麼意鼠代表、主持人 Brian</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 6 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2227s" rel="noopener" target="_blank">00:37:07</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2330s" rel="noopener" target="_blank">00:38:50</a></code></td>
+<td style="text-align: left;">第 4 組 Demo：《內湖島時間島》（車流監控與彈性工時）</td>
+<td style="text-align: left;">好麻煩代表、主持人 Brian</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 7 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2331s" rel="noopener" target="_blank">00:38:51</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2548s" rel="noopener" target="_blank">00:42:28</a></code></td>
+<td style="text-align: left;">第 5 組連線插曲與第 6 組 Demo：《模擬市民－都更人生》</td>
+<td style="text-align: left;">菜市場阿龍、小水滴大浪潮代表、主持人 Brian</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 8 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2549s" rel="noopener" target="_blank">00:42:29</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2727s" rel="noopener" target="_blank">00:45:27</a></code></td>
+<td style="text-align: left;">第 7 組 Demo：《公車順順行》（行車平穩度感測與皮克敏獎勵）</td>
+<td style="text-align: left;">健身隊代表、主持人 Brian</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 9 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2728s" rel="noopener" target="_blank">00:45:28</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2939s" rel="noopener" target="_blank">00:48:59</a></code></td>
+<td style="text-align: left;">第 8 組 Demo：《台北桶報局》（QR Code 掃碼與 3D 清運儀表板）</td>
+<td style="text-align: left;">台北桶報局代表、主持人 Brian</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 10 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2940s" rel="noopener" target="_blank">00:49:00</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3149s" rel="noopener" target="_blank">00:52:29</a></code></td>
+<td style="text-align: left;">第 9 組 Demo：《台北市，你給我聽好了｜市民 1999 通報地圖》</td>
+<td style="text-align: left;">不敢蔣English怕鼠代表、主持人 Brian</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 11 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3150s" rel="noopener" target="_blank">00:52:30</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3295s" rel="noopener" target="_blank">00:54:55</a></code></td>
+<td style="text-align: left;">第 10 組 Demo：《同流 One Flow／桶桶沒問題》</td>
+<td style="text-align: left;">同流 One Flow 代表、主持人 Brian</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 12 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3296s" rel="noopener" target="_blank">00:54:56</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3900s" rel="noopener" target="_blank">01:05:00</a></code></td>
+<td style="text-align: left;">候選人總講評：垃圾桶、護樹、鼠患與預告下週公布都更政策</td>
+<td style="text-align: left;">沈伯洋（Puma）、小麻糬（入鏡彩蛋）</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 13 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3900s" rel="noopener" target="_blank">01:05:00</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7519s" rel="noopener" target="_blank">02:05:19</a></code></td>
+<td style="text-align: left;">松後座談：《AI 寫得出程式，寫不出城市》暨市民 QA</td>
+<td style="text-align: left;">洪進吉（食夢黑貘）、沈伯洋、蕭上農、杜奕瑾、侯宜秀</td>
+</tr>
+<tr>
+<td style="text-align: left;">第 14 章</td>
+<td style="text-align: left;"><code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7520s" rel="noopener" target="_blank">02:05:20</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7716s" rel="noopener" target="_blank">02:08:36</a></code></td>
+<td style="text-align: left;">座談總結與宣布成立「台北程式工作組」、活動閉幕</td>
+<td style="text-align: left;">洪進吉（食夢黑貘）、主持人 Brian</td>
+</tr>
+</tbody>
+</table>
+<h2 id="transcript-section-5">完整逐字稿與分段紀錄（依講者與時間戳標註）</h2>
+<h3 id="transcript-section-6">第 1 章｜直播待機與開場前倒數（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=0s" rel="noopener" target="_blank">00:00:00</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1787s" rel="noopener" target="_blank">00:29:47</a>）</h3>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=0s" rel="noopener" target="_blank">00:00:00</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1786s" rel="noopener" target="_blank">00:29:46</a>]</code> <strong>【系統／現場環境音】</strong>：（線上直播待機畫面與背景音樂，期間偶有測試收音聲響）</li>
+</ul>
+<h3 id="transcript-section-7">第 2 章｜黑客松成果 Demo 正式開場（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1787s" rel="noopener" target="_blank">00:29:47</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1823s" rel="noopener" target="_blank">00:30:23</a>）</h3>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1787s" rel="noopener" target="_blank">00:29:47</a>]</code> <strong>主持人 Brian</strong>：觀眾朋友們大家好，我是今天的主持人 Brian。那經過一整天的密集的發想、開發以及測試，那我們現在正式進入成果 Demo 的環節。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1794s" rel="noopener" target="_blank">00:29:54</a>]</code> <strong>主持人 Brian</strong>：那接下來我們十組的團隊，將各自用短短的兩分鐘告訴大家，他們看見了城市的什麼問題、提出了什麼解法、又把這個想法變成了什麼。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1805s" rel="noopener" target="_blank">00:30:05</a>]</code> <strong>主持人 Brian</strong>：那我們今天的節奏非常非常緊湊，那我們馬上有請第一組！那第一組就是我們的「AI 方舟計畫」隊伍，主題作品的名稱是《大樹神獸》。</li>
+</ul>
+<h3 id="transcript-section-8">第 3 章｜第 1 組 Demo：《大樹神獸：讓台北每棵樹，都有一群守護祂的鄰居》（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1824s" rel="noopener" target="_blank">00:30:24</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1952s" rel="noopener" target="_blank">00:32:32</a>）</h3>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1824s" rel="noopener" target="_blank">00:30:24</a>]</code> <strong>第 1 組代表（AI 方舟計畫｜Qmoa、Saori）</strong>：哈囉，大家好，請問有看到我的畫面嗎？</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1827s" rel="noopener" target="_blank">00:30:27</a>]</code> <strong>主持人 Brian</strong>：有，可以！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1828s" rel="noopener" target="_blank">00:30:28</a>]</code> <strong>第 1 組代表（AI 方舟計畫）</strong>：好，那我們這一組的主題是《大樹神獸》，那就是「讓每一棵樹都有一群鄰居」。像我們本來有一些樹要移植的卻被誤砍，那樹不見了才有人發現。那我們願景是希望讓樹可以成為社區的一份子，我們就可以保護它。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1842s" rel="noopener" target="_blank">00:30:42</a>]</code> <strong>第 1 組代表（AI 方舟計畫）</strong>：那現在這個畫面是首頁，在首頁就可以看到目前所在地周邊的樹木資料。如果夠老、夠大的樹就會被認定為「神獸」。那在這個神獸的詳細頁面，就可以看到它樹木的基本資料，以及它的故事跟一些小知識。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1855s" rel="noopener" target="_blank">00:30:55</a>]</code> <strong>第 1 組代表（AI 方舟計畫）</strong>：那如果政府有預計要移除，就會在這個頁面看到有被「公示中」，那下面也可以看到政府發布的移動通告，那大家就可以一起關心這個要被移除的樹。所以你可以分享「求援籤」，請朋友一起關心，那這邊就會有求援籤。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1874s" rel="noopener" target="_blank">00:31:14</a>]</code> <strong>第 1 組代表（AI 方舟計畫）</strong>：那另外一個功能呢，是希望可以凝聚社區力，所以在下面也有一些社區的佈告欄。那在這邊我就可以發布一些活動，例如說「在樹下野餐」，那大家想參加的話就可以前往參加。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1887s" rel="noopener" target="_blank">00:31:27</a>]</code> <strong>第 1 組代表（AI 方舟計畫）</strong>：那第二個功能呢，是有「圖鑑」的功能，那我們這邊就可以看到我守護的樹跟一些樹種的圖鑑。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1894s" rel="noopener" target="_blank">00:31:34</a>]</code> <strong>第 1 組代表（AI 方舟計畫）</strong>：那再來中間這個是「掃描」功能，就像現在其實台北市政府路樹上面都有 QR Code，我們在這邊路上走的時候，如果看到樹想要守護它、或是想要回報狀況，這邊都可以直接打開相機掃描樹牌，就可以看到樹。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1907s" rel="noopener" target="_blank">00:31:47</a>]</code> <strong>第 1 組代表（AI 方舟計畫）</strong>：那這邊有「通知」，所以這邊的通知就會告訴大家說，如果我守護的樹有什麼狀況，或者是有什麼活動可以參加。那最後一個是「我的頁面」，那這邊可以看到守護的成果，那也可以是會有一些資料這樣子。那目前是 MVP，希望我們未來有機會可以再把這個功能更加完善，謝謝大家！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1929s" rel="noopener" target="_blank">00:32:09</a>]</code> <strong>主持人 Brian</strong>：謝謝，我們謝謝「AI 方舟計畫」隊伍的分享！那他們從《大樹神獸》以及從一個遊戲的角度來出發，然後去嘗試解決說我們砍樹之間的問題，以及樹木保護的問題。好，那因為我們時間非常非常緊，那我們最後才會請 Puma（沈伯洋）進行一個完整的講解這樣子。</li>
+</ul>
+<h3 id="transcript-section-9">第 4 章｜第 2 組 Demo：《BinSoon 讓台北丟垃圾變順》（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1953s" rel="noopener" target="_blank">00:32:33</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2076s" rel="noopener" target="_blank">00:34:36</a>）</h3>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1953s" rel="noopener" target="_blank">00:32:33</a>]</code> <strong>主持人 Brian</strong>：那我們馬上帶來我們第二組隊伍，是我們的「怎麼Young都Soon（怎麼樣都順）」，然後帶來《讓台北丟垃圾變順》的題目，謝謝！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1963s" rel="noopener" target="_blank">00:32:43</a>]</code> <strong>第 2 組代表（怎麼Young都Soon｜Janet、Champion、Amatsuki、Wen、Charles）</strong>：大家好，我們是「怎麼樣都順」。我們看了 2,600 多則台北市民對垃圾桶的意見，發現問題不只是桶太少：夜市、商圈人一多，垃圾就滿出來，家用垃圾又塞進公共桶，真正需要的路人反而找不到地方丟。所以我們做了《BinSoon（冰順）》，讓台北丟垃圾變順！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=1982s" rel="noopener" target="_blank">00:33:02</a>]</code> <strong>第 2 組代表（怎麼Young都Soon）</strong>：先看市民端，這是我們的「桶地圖」，點一下桶子就能看到它現在的狀況，還能導航到最近的桶。發現問題怎麼辦？拍張照回報就好！AI 會先判斷是桶髒了、滿了、還是桶旁邊有垃圾，再轉給清潔隊；確認之後你就能拿到點數。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2003s" rel="noopener" target="_blank">00:33:23</a>]</code> <strong>第 2 組代表（怎麼Young都Soon）</strong>：很多店家和居民擔心一個桶附近會不會變髒，所以我們讓市民一起顧：</li>
+<li>第一，認領每次回報都有兩倍點數；</li>
+<li>第二，市民投票哪裡要增設桶子，大家一起來決定，過程對政府和市民都更透明；</li>
+<li>第三，點數是可以換禮物，守護市容才能換杯咖啡！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2025s" rel="noopener" target="_blank">00:33:45</a>]</code> <strong>第 2 組代表（怎麼Young都Soon）</strong>：接下來是「預約小車」。桶子一直被撤，最大的原因就是有人丟家用垃圾；但我們發現很多人其實是下班太晚，趕不上垃圾車。所以我們加開早、晚兩班小車，先預約、前一晚公布路線；如果某個點預約的人不夠，系統會建議最近的併靠點。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2046s" rel="noopener" target="_blank">00:34:06</a>]</code> <strong>第 2 組代表（怎麼Young都Soon）</strong>：最後是清潔隊員這一端。系統會自動排出清運的優先順序，直接給出最佳清運路線，小車班表也是一鍵就能看路線。清潔隊員需要被鼓勵，所以我們做了「榮譽榜」，讓表現優良、拿到專案加給的隊員可以被大家看見。《BinSoon》上線之後，希望大家以後垃圾都能丟得順、清得順，謝謝大家！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2071s" rel="noopener" target="_blank">00:34:31</a>]</code> <strong>主持人 Brian</strong>：OK，謝謝，我們謝謝《BinSoon》！</li>
+</ul>
+<h3 id="transcript-section-10">第 5 章｜第 3 組 Demo：《有鼠請回答！城市鼠患處方箋》（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2077s" rel="noopener" target="_blank">00:34:37</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2226s" rel="noopener" target="_blank">00:37:06</a>）</h3>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2077s" rel="noopener" target="_blank">00:34:37</a>]</code> <strong>主持人 Brian</strong>：那我們馬上要接著歡迎下一組隊伍，是「什麼意鼠」，那作品的題目是《有鼠請回答！城市鼠患處方箋》。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2083s" rel="noopener" target="_blank">00:34:43</a>]</code> <strong>第 3 組代表（什麼意鼠｜孟德、Jess）</strong>：哈囉，這樣看得到嗎？好，大家好，我們的主題是《有鼠請回答！》。我們想要解決的是鼠患問題。「鼠患」嘛，「患」顧名思義就是生病，那今天當城市有一個老鼠的疾病的時候，我們可以怎麼解決？</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2096s" rel="noopener" target="_blank">00:34:56</a>]</code> <strong>第 3 組代表（什麼意鼠）</strong>：那我們希望可以透過市府現有的一個環境資料、民眾通報跟店家資訊等，來打造一個系統來進行「檢傷分流」，去找出哪裡是重症、哪裡是急症、哪裡是長期的慢性病，來對症下藥解決。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2108s" rel="noopener" target="_blank">00:35:08</a>]</code> <strong>第 3 組代表（什麼意鼠）</strong>：好，那我們的介面裡面呢，會有三個不同的身分別。第一個當然最重要就是市府端，那我們的市府裡面呢，我們的地圖會有不同的數據來疊加，可以快速地清楚一目了然去找到相對應的資訊，哪一邊是最大的一個熱區。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2122s" rel="noopener" target="_blank">00:35:22</a>]</code> <strong>第 3 組代表（什麼意鼠）</strong>：那我們裡面的檢傷呢，也會做一個比較細緻的處理。像我們的範例來講，我們的寧夏夜市點開，它現在是一級、可能很緊急需要處理，那我們就會透過這個系統來發派給相對應的局處，可能是地下、可能是地下水的污水處理等等這樣子的一個系統。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2137s" rel="noopener" target="_blank">00:35:37</a>]</code> <strong>第 3 組代表（什麼意鼠）</strong>：那我們希望透過這樣子的傷檢，也可以主動地來告訴我們附近的店家跟市民。那怎麼樣讓店家跟市民可以清楚地知道呢？我們希望可以結合目前現行已經有 200 萬左右好友的一個台北市府的 LINE App，那希望透過這個 LINE 的方式主動地推給我們附近的店家跟市民。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2155s" rel="noopener" target="_blank">00:35:55</a>]</code> <strong>第 3 組代表（什麼意鼠）</strong>：當我的店家今天收到「我的店附近可能有鼠患」怎麼辦？那我們就可以給你一張「處方箋」，來教你怎麼樣去改善你的店面。那我們希望可以透過這個方式，甚至可以在這個系統裡面直接進行一個複核，那你可以得到一個標章，可以得到像米其林之類的很好的一個推薦。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2169s" rel="noopener" target="_blank">00:36:09</a>]</code> <strong>第 3 組代表（什麼意鼠）</strong>：那我們的市民朋友，如果今天你收到了一個家裡附近有老鼠的一個狀況的話，你也可以透過這個系統來了解，並且來通報。我們有一個任務是可以讓你很清楚、簡單地來進行回報之後得到點數，那點數將來可以來換專用垃圾袋等等之類。希望透過這樣子的一個遊戲化的設計，來讓整體的參與度變高。那最終呢，所有的資訊都會再匯入我們的市府當中，來希望可以打造一個可以循環、並且持續改善的系統。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2211s" rel="noopener" target="_blank">00:36:51</a>]</code> <strong>主持人 Brian</strong>：（收音切換確認）對不起，那我重講一次喔。那我們謝謝「什麼意鼠」隊伍！那他們用了那個打地鼠的一個圖像的演示，以及台灣人最喜歡的諧音梗，那我覺得是非常有意思的一個提案。</li>
+</ul>
+<h3 id="transcript-section-11">第 6 章｜第 4 組 Demo：《內湖島時間島：內湖園區搞清楚要走的路》（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2227s" rel="noopener" target="_blank">00:37:07</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2330s" rel="noopener" target="_blank">00:38:50</a>）</h3>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2227s" rel="noopener" target="_blank">00:37:07</a>]</code> <strong>主持人 Brian</strong>：那我們馬上歡迎下一組，隊伍名稱是「好麻煩」，那作品名稱是《內湖島時間島》，謝謝！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2234s" rel="noopener" target="_blank">00:37:14</a>]</code> <strong>第 4 組代表（好麻煩｜WellHuang、gash）</strong>：你好，我們是「好麻煩」，我們這次的作品是《內湖時間島》。我們希望是讓駕駛看懂路況、讓企業有依據地去討論彈性工時的部分，那讓政府跟企業共同改善內湖交通狀況。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2250s" rel="noopener" target="_blank">00:37:30</a>]</code> <strong>第 4 組代表（好麻煩）</strong>：那目前所看到的是「即時監控」的畫面。那即時監控的話，我們可以看到目前壅塞情況、車速、車流與更新時間，那地圖也會用顏色呈現不同的時段跟狀況。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2260s" rel="noopener" target="_blank">00:37:40</a>]</code> <strong>第 4 組代表（好麻煩）</strong>：接著我們會看到的是「城市回放」。那城市回放的話，主要是在看我們歷史的過往，那辨識壅塞程度，那反覆出現的尖峰可以作為通勤與上班族時間的參考安排。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2277s" rel="noopener" target="_blank">00:37:57</a>]</code> <strong>第 4 組代表（好麻煩）</strong>：接著我們也有做的是「通勤時間跟彈性工時的獎勵」。那在這部分的話，我們可以選擇到我們上班的區域，那點選這個區域的時候，可以點選上班的時間，那來安排上下班打卡的狀況，那也可以模擬彈性往後 30 分鐘的狀況，或者是再由各企業與政府來去做配合。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2297s" rel="noopener" target="_blank">00:38:17</a>]</code> <strong>第 4 組代表（好麻煩）</strong>：這種我們還會運用到的是獎勵這些有達到政府合作企業彈性工時的時段門檻，那提供一些獎勵的服務機制，那讓這些人可以更有意願地去參與這個彈性工時的調整，那跟在做即時監控這邊可以更完善。那以上是我的報告，以上，謝謝！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2319s" rel="noopener" target="_blank">00:38:39</a>]</code> <strong>主持人 Brian</strong>：OK，謝謝！我覺得他尤其是有提到說我們「彈性工時的獎勵」這個部分，其實跟我們候選人（沈伯洋）的想法是非常契合的。</li>
+</ul>
+<h3 id="transcript-section-12">第 7 章｜第 5 組連線插曲與第 6 組 Demo：《模擬市民－都更人生（現正加映公務員篇 DLC）》（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2331s" rel="noopener" target="_blank">00:38:51</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2548s" rel="noopener" target="_blank">00:42:28</a>）</h3>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2331s" rel="noopener" target="_blank">00:38:51</a>]</code> <strong>主持人 Brian</strong>：那我們馬上歡迎下一組的隊伍「菜市場阿龍」，帶來《折返點》……</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2335s" rel="noopener" target="_blank">00:38:55</a>]</code> <strong>第 5 組代表（菜市場阿龍｜高見龍、高思）</strong>：我沒有辦法、我沒有辦法分享我的螢幕，是不是有人沒有退下去？我沒有辦法分享我的螢幕……</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2351s" rel="noopener" target="_blank">00:39:11</a>]</code> <strong>主持人 Brian</strong>：還是那個雨婷這邊要不要幫他協助？然後我們要不要……不然我們先往後順延一組好了。我們先歡迎到下一組的隊伍「小水滴大浪潮」，帶來我們《模擬市民－都更人生》！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2371s" rel="noopener" target="_blank">00:39:31</a>]</code> <strong>第 6 組代表（小水滴大浪潮｜Abraham、麋稽阿姨、Derick、Jerry）</strong>：好，大家聽得到我聲音嗎？</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2378s" rel="noopener" target="_blank">00:39:38</a>]</code> <strong>主持人 Brian</strong>：可以，可以！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2379s" rel="noopener" target="_blank">00:39:39</a>]</code> <strong>第 6 組代表（小水滴大浪潮）</strong>：好，大家好，我們是「小水滴大浪潮」，那我們的專案是《模擬市民－都更人生》，接下來是我們的 Demo！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2385s" rel="noopener" target="_blank">00:39:45</a>]</code> <strong>第 6 組代表（小水滴大浪潮｜Demo 旁白）</strong>：起床發現牆壁裂了一半，老爸又在抱怨房子太老，到底該怎麼辦？階段一：輸入地址，看你家符不符合危老重建的條件！我們用土壤液化潛勢、軟弱層、救災容易度等開放資料，產出一份健檢報告。風險分數越高，越需要盡快改建。報告列出房子的狀況和每一項風險的數字，最後給你後續行動建議：該找誰、有哪些補助。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2429s" rel="noopener" target="_blank">00:40:29</a>]</code> <strong>第 6 組代表（小水滴大浪潮｜Demo 旁白）</strong>：按下一步繼續，階段二：「都更試算機」。聽說都更很花錢？輸入舊屋坪數，算出重建前後的資產增值，也算出施工期間的生活成本；還有提問模組讓你問到飽，例如「我家是古蹟怎麼辦？」。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2453s" rel="noopener" target="_blank">00:40:53</a>]</code> <strong>第 6 組代表（小水滴大浪潮｜Demo 旁白）</strong>：階段三：「新家許願池」。勾選你想要的社區樣貌和設施，參與公設規劃，許願更好的台北！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2463s" rel="noopener" target="_blank">00:41:03</a>]</code> <strong>第 6 組代表（小水滴大浪潮｜Demo 旁白）</strong>：接下來最後：「障礙情境模擬器」。都更前要準備什麼、會遇到什麼困難、怎麼解決？這裡都幫你整理好，努力說服鄰居，讓格子一格一格亮起來吧！都更從來不是你一個人的事，你不用獨自承擔，鄰居、里長和市府都會跟你一起。11 月 28 日去投票解鎖完整功能！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2498s" rel="noopener" target="_blank">00:41:38</a>]</code> <strong>主持人 Brian</strong>：好，謝謝，我們謝謝「小水滴大浪潮」！那其實尤其在我們這次的黑客松裡面，我們發現有些人他們很厲害的點是說，他們不只完成了他們自己的 MVP，他們連 AI 的影片解說都幫你做好，那我覺得這是一件尤其在這個年代非常厲害的點。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2515s" rel="noopener" target="_blank">00:41:55</a>]</code> <strong>主持人 Brian</strong>：好，那我們馬上歡迎下一組，欸這個是菜市場阿龍嗎？還是……現在是哪一組在上面？哈囉，聽得到嗎？聽不到你的聲音喔。好，沒關係，那我們還是換下一組。</li>
+</ul>
+<h3 id="transcript-section-13">第 8 章｜第 7 組 Demo：《公車順順行》（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2549s" rel="noopener" target="_blank">00:42:29</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2727s" rel="noopener" target="_blank">00:45:27</a>）</h3>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2549s" rel="noopener" target="_blank">00:42:29</a>]</code> <strong>主持人 Brian</strong>：那下一組是「健身隊」，那我們的作品名稱是《公車順順行》。好，那我們歡迎《公車順順行》！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2558s" rel="noopener" target="_blank">00:42:38</a>]</code> <strong>第 7 組代表（健身隊｜Kepler、Ryan、Frason）</strong>：看得到我的畫面嗎？</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2563s" rel="noopener" target="_blank">00:42:43</a>]</code> <strong>主持人 Brian</strong>：好，可以，可以！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2564s" rel="noopener" target="_blank">00:42:44</a>]</code> <strong>第 7 組代表（健身隊）</strong>：我是《公車順順行》，然後希望提倡就是「開順不開快」。然後主要原因就是因為台北市公車司機被脫班罰款，加上排班密集被迫趕車，然後過去從來沒有「開得穩」的獎勵。那趕班準點的制度其實只能由市政府或議會去修正，但是實際司機的駕駛慣性穩當與否，其實一直都沒有辦法被量化管理。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2583s" rel="noopener" target="_blank">00:43:03</a>]</code> <strong>第 7 組代表（健身隊）</strong>：那我們的解決辦法很簡單，是每台手機其實都有內建加速度計。那我們依照國際的文獻，去把那個加速度平穩的演算法放在這個我們的 MVP 裡面，然後去測量每個站之間的平穩度，然後把開得順的數據轉換為獎勵資料。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2599s" rel="noopener" target="_blank">00:43:19</a>]</code> <strong>第 7 組代表（健身隊）</strong>：那靈感來源其實來自於《皮克敏》的種花。那我們現在先試著看一下，比如說就是乘客就會化身為「小水滴」，然後替整段路段澆水。然後上車的時候，你就把手機固定在某個支架上面，或者放在一旁的座位上，那系統的演算法會自動偵測你是不是拿在手上；那你拿在手上的話，它就會自動把那一段的異常數據篩掉，它只記錄安穩放在支架上的狀態。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2626s" rel="noopener" target="_blank">00:43:46</a>]</code> <strong>第 7 組代表（健身隊）</strong>：那如果司機開得順的話，澆水它就會順利地讓土壤開花。那像現在就是它慢慢在站點之間，像我們現在從大同大學開始上車，那它會慢慢地去偵測出現在 GPS 位置、他現在人在哪裡，然後只要種到花，它就會送給司機當獎勵，然後司機可能因此可以加薪；那如果司機開不穩的話，澆花就會失敗，然後就會顯示乾涸的土這樣。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2648s" rel="noopener" target="_blank">00:44:08</a>]</code> <strong>第 7 組代表（健身隊）</strong>：那只要整段過程中，乘客基本上就是小水滴。那如果你下車之後呢，就是比如說像我們現在已經到了兩個站點，那現在到了第三個站點之後，然後我們可能就下車，下車之後你就可以拿到結算——那像現在是小花，小花就可能是剛剛可能有點不太穩。那我們三個站點之後下車，我們就可以收集到一顆「果實」，然後我們可以看到剛剛這邊有一些路段是非常非常平穩的、或非常不平穩的這樣。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2679s" rel="noopener" target="_blank">00:44:39</a>]</code> <strong>第 7 組代表（健身隊）</strong>：然後我們甚至可以跟司機說聲「辛苦了」！然後我們如果收集到 20 顆果實的話，我們甚至可以換一趟乘車紀錄、換免費乘車的資格；或者甚至我們在路段可以放不同的水果，讓大家可以收集或者有一些回饋這樣。那這是我的報告！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2700s" rel="noopener" target="_blank">00:45:00</a>]</code> <strong>主持人 Brian</strong>：OK，非常完美！我覺得這跟台灣人的完整收集的這種生態其實非常的符合的。</li>
+</ul>
+<h3 id="transcript-section-14">第 9 章｜第 8 組 Demo：《台北桶報局》（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2728s" rel="noopener" target="_blank">00:45:28</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2939s" rel="noopener" target="_blank">00:48:59</a>）</h3>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2717s" rel="noopener" target="_blank">00:45:17</a>]</code> <strong>主持人 Brian</strong>：好，那我們馬上歡迎下一組，隊伍是《台北桶報局》！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2728s" rel="noopener" target="_blank">00:45:28</a>]</code> <strong>第 8 組代表（台北桶報局｜Ian、Harry、Pamis、Vicky、Swimming、Kyra）</strong>：嗯你好，我這邊播放。那我們這邊是《台北桶報局》，然後「讓每一個回報都可以成為城市變好的起點」，那台北市是大家的，希望大家也可以一起維持……</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2748s" rel="noopener" target="_blank">00:45:48</a>]</code> <strong>主持人 Brian</strong>：不好意思，你斷掉囉，這樣有聲音嗎？看不到你的螢幕……（等待畫面重新分享）現在是有了、有了、有了，好，謝謝！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2799s" rel="noopener" target="_blank">00:46:39</a>]</code> <strong>第 8 組代表（台北桶報局）</strong>：哦好，謝謝！我們是《台北桶報局》，然後讓每一個回報都可以成為城市變好的起點。那目前我們看這個市民的這些回覆，目前的痛點是：回報完以後，這些訊息就像丟到黑洞一樣。那我們要怎麼去處理呢？我們做了一個《台北桶報局》的一個系統。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2820s" rel="noopener" target="_blank">00:47:00</a>]</code> <strong>第 8 組代表（台北桶報局）</strong>：那我們的理念是希望可以讓大家透過「看見問題、掃碼來回報」，那可以在社群上做傳播，因為我們也為了台北做了這個小小的事，像小水滴一樣可以引起大浪潮。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2832s" rel="noopener" target="_blank">00:47:12</a>]</code> <strong>第 8 組代表（台北桶報局）</strong>：那這個是我們的介面以及我們系統，它是一個民眾回報系統。市府可以透過民眾在掃描 QR Code 後的回報，在後台串一個平台來走完。那民眾看見問題掃碼回報，四類問題都能夠回報，看得到也有參與感。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2855s" rel="noopener" target="_blank">00:47:35</a>]</code> <strong>第 8 組代表（台北桶報局）</strong>：那一個桶就有一個 QR Code 可以掃碼，我們在我們的介面以及後台都有列出這個 QR Code 的列印貼紙，可以讓市府印下來貼在垃圾桶上做回報。那我們民眾可以透過這個介面呢，來回報這個桶滿了，然後他也可以得知這個滿了可以通知環保局，那我們可以把這進度做可視化，民眾也可以在這邊呢做社群的分享，告訴大家「我這邊做了分享喔」！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2886s" rel="noopener" target="_blank">00:48:06</a>]</code> <strong>第 8 組代表（台北桶報局）</strong>：那市府這邊也可以透過這樣的流程，從這個「後台派車情報站」可以看到全局，然後來透過這些資料來增設新的垃圾桶。那我們也做了市府端的這個 Dashboard，然後可以看到這個 3D 的一個模擬以及路線，那我們可以在這邊看到清運的調度以及處理成績單，讓這個一目了然。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2916s" rel="noopener" target="_blank">00:48:36</a>]</code> <strong>第 8 組代表（台北桶報局）</strong>：那這是我們這一個解決方案，那民眾他也可以像使用 Uber 一樣的概念，去追那個垃圾車目前的進度，增加參與感，那也可以在社群上做傳播。那這就是我們可以用小小的力量來守護台北市，那這是我們的分享，謝謝！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2934s" rel="noopener" target="_blank">00:48:54</a>]</code> <strong>主持人 Brian</strong>：好，謝謝，我們非常感謝我們《台北桶報局》，它是一個非常完整、完整的企劃案！</li>
+</ul>
+<h3 id="transcript-section-15">第 10 章｜第 9 組 Demo：《台北市，你給我聽好了｜市民 1999 通報地圖》（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2940s" rel="noopener" target="_blank">00:49:00</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3149s" rel="noopener" target="_blank">00:52:29</a>）</h3>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2940s" rel="noopener" target="_blank">00:49:00</a>]</code> <strong>主持人 Brian</strong>：好，那我們馬上歡迎我們下一組的隊伍「不敢蔣English怕鼠」，然後帶來的主題是《台北市，你給我聽好了｜市民 1999 通報地圖》！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2950s" rel="noopener" target="_blank">00:49:10</a>]</code> <strong>第 9 組代表（不敢蔣English怕鼠｜徐瑞伯、Laban、Lemoni）</strong>：哈囉，大家好，我們是「不敢蔣English」，然後超緊張的，對，我要分享畫面……</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2959s" rel="noopener" target="_blank">00:49:19</a>]</code> <strong>主持人 Brian</strong>：沒關係，不要緊張，我也很緊張！好，那在我們這個隊伍在分享畫面的同時，我們稍微跟大家分享一下，我們這次的隊伍的名稱其實都非常的有看點，那包含比如說現在在直播的隊伍是我們的「不敢蔣English怕鼠」，那同時我們也有比如說像是「桶緝犯」啊、「鏟屎特攻隊」啊、「麵包小偷」等的隊伍名稱喔！好，那我們歡迎「不敢蔣English」開始！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=2995s" rel="noopener" target="_blank">00:49:55</a>]</code> <strong>第 9 組代表（不敢蔣English怕鼠）</strong>：喔好，那基本上我們想要解決問題，是因為之前其實我們團隊大家都有打 1999 反映的經驗，對，然後可是就是遇到問題就是：可能我們第一個不知道是到底這會轉交哪一個局處，或者說這件事到底有沒有進度，然後或者說這件事會不會其實很多人都已經有反映的，可是就是可能已經有好幾個重複通報。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3030s" rel="noopener" target="_blank">00:50:30</a>]</code> <strong>第 9 組代表（不敢蔣English怕鼠）</strong>：那所以在這點上，我們就是做了一個這個比較視覺化、然後比較讓使用者好操作的 UI，因為會覺得 1999 的一些分類上會比較困難一點。那基本上就是你可以選台北的各個行政區，然後點進去之後，這邊我們按照「食、衣、住、行、育、樂、醫」來做分類，然後各自都會有它對應各自的問題。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3055s" rel="noopener" target="_blank">00:50:55</a>]</code> <strong>第 9 組代表（不敢蔣English怕鼠）</strong>：然後如果再繼續點的話，就可以看到各里，然後我們這裡也提供了像是里長跟議員的這些電話、服務處的一些聯絡方式。然後假設里民想要去回報的話，可以點選這個「回報這個里的問題」，或者說這個地圖旁邊的「通報」也可以。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3076s" rel="noopener" target="_blank">00:51:16</a>]</code> <strong>第 9 組代表（不敢蔣English怕鼠）</strong>：那在這裡基本上我們做的就是你可以按照方向來做分類，或者說也可以直接填入文字，然後 AI 就會幫你去判斷說這大概是歸類在 1999 裡面九大類別的哪一個範疇，那當然也可以加入照片之類的。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3095s" rel="noopener" target="_blank">00:51:35</a>]</code> <strong>第 9 組代表（不敢蔣English怕鼠）</strong>：然後預覽通報之後，就可以在這個地圖上面顯示。然後例如說這裡可以看到各式各樣的這些事件，然後每一個事件可能就會有點類似這種 Threads（脆）的這種呈現方式，就是你可以看到說它的這個圖片，大家就可以看一下說是發生什麼事情。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3115s" rel="noopener" target="_blank">00:51:55</a>]</code> <strong>第 9 組代表（不敢蔣English怕鼠）</strong>：那最後我們也做一個這個歷史探索的時間軸，那基本上就是也可以看一下說過去——我們是拿了過去九個月 1 萬多筆的這些資料——那看一下說這些資料的進度啊或是情況，大概這樣子，謝謝！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3135s" rel="noopener" target="_blank">00:52:15</a>]</code> <strong>主持人 Brian</strong>：好，我們非常感謝「不敢蔣English怕鼠」，他這個專案其實是非常完整的，而且非常詳細的！</li>
+</ul>
+<h3 id="transcript-section-16">第 11 章｜第 10 組 Demo：《同流 One Flow／桶桶沒問題》（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3150s" rel="noopener" target="_blank">00:52:30</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3295s" rel="noopener" target="_blank">00:54:55</a>）</h3>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3150s" rel="noopener" target="_blank">00:52:30</a>]</code> <strong>主持人 Brian</strong>：那接著由我們的下一個隊伍帶來，我們《同流 One Flow（桶桶沒問題）》！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3155s" rel="noopener" target="_blank">00:52:35</a>]</code> <strong>第 10 組代表（同流 One Flow／桶桶沒問題｜Sage 等）</strong>：聽得到嗎？</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3157s" rel="noopener" target="_blank">00:52:37</a>]</code> <strong>主持人 Brian</strong>：聽得到，可以！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3168s" rel="noopener" target="_blank">00:52:48</a>]</code> <strong>第 10 組代表（同流 One Flow）</strong>：可以可以，大家好，我們專案是《同流 One Flow》，這是一個透過量化數據來輔助市政府做垃圾桶還有清潔調度平衡的系統，那今天展示的是第一個階段示範計畫。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3187s" rel="noopener" target="_blank">00:53:07</a>]</code> <strong>第 10 組代表（同流 One Flow）</strong>：我們的系統主要有三個功能：</li>
+<li>第一個就是「即時動態調度」：系統可以即時監控示範區的滿桶狀況，並且自動跳出通知到分隊的手機裝置，可以派機動小組出勤清運，提高清潔作業的效率。</li>
+<li>那第二個呢，是有「佈建分析」：是可以讓未來可以用來規劃未來垃圾桶位置。我們將台北市切成六角網格，以商圈、大眾交通和人流為因子去計算熱區，顏色越深的話，缺乏垃圾桶的程度就越高。那市府可以去參考，把不同的因子增加或減少權重；進階需求的話，他們也可以匯入歷史檔去改變這個計算的公式。</li>
+<li>第三個功能是最後，我們可以提供「市民通報的機制」：市民可以掃垃圾桶上的 QR Code，即時回報現在垃圾桶現況，補足感測器的盲區。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3265s" rel="noopener" target="_blank">00:54:25</a>]</code> <strong>第 10 組代表（同流 One Flow）</strong>：那希望我們可以用這三個功能，協助未來新政府達到「市政規劃有依據、清潔有效率、市民需求也可以被解決」，謝謝！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3278s" rel="noopener" target="_blank">00:54:38</a>]</code> <strong>主持人 Brian</strong>：好，我們謝謝我們的《同流 One Flow》！對於我們剛剛中間的「菜市場阿龍」龍哥非常不好意思，因為我們老闆（沈伯洋）馬上等一下要去我們的座談了，所以我們希望現在可以馬上給我們老闆一個時間，請我們老闆進行點評。</li>
+</ul>
+<h3 id="transcript-section-17">第 12 章｜候選人總講評：垃圾桶、護樹、鼠患與預告下週公布都更政策（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3296s" rel="noopener" target="_blank">00:54:56</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3900s" rel="noopener" target="_blank">01:05:00</a>）</h3>
+<blockquote>
+<p><strong>【轉錄說明】</strong>：本段自 <code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3296s" rel="noopener" target="_blank">00:54:56</a></code> 至 <code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3350s" rel="noopener" target="_blank">00:55:50</a></code> 為 YouTube 原始語音辨識逐字紀錄；<code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3350s" rel="noopener" target="_blank">00:55:50</a></code> 後因直播串流音軌切換，YouTube 自動字幕暫停，以下整合沈伯洋於該時段之完整逐字發言與媒體現場實錄（來源：<a href="https://today.line.me/tw/v3/article/vXLrx80">太報</a>、<a href="https://today.line.me/tw/v3/article/RBKvz1q">華視新聞</a>、<a href="https://news.ltn.com.tw/news/politics/breakingnews/5617684">自由時報</a>）。直播過程中，沈伯洋女兒「<strong>小麻糬</strong>」亦戴著墨鏡驚喜入鏡，緊貼爸爸手臂撒嬌並對鏡頭偷比 YA（<a href="https://www.mirrordaily.news/story/93585">鏡報</a>）。</p>
+</blockquote>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3296s" rel="noopener" target="_blank">00:54:56</a>]</code> <strong>主持人 Brian</strong>：好，那有請我們的候選人沈伯洋，對我們今天的黑客松進行一些講評以及分享，謝謝！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3308s" rel="noopener" target="_blank">00:55:08</a>]</code> <strong>沈伯洋（Puma）</strong>：好，謝謝喔，這樣大家聽得到嗎？</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3311s" rel="noopener" target="_blank">00:55:11</a>]</code> <strong>主持人 Brian</strong>：有，聽得到！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3314s" rel="noopener" target="_blank">00:55:14</a>]</code> <strong>沈伯洋（Puma）</strong>：好，這個我不敢說「講評」，因為這個說真的，大家都實在太有創意了！我真的覺得做得非常好，而且是在那麼短的時間之內。我參加了這種類似的黑客松那麼多次，但真的這一次是我覺得真的是「最有感的一次」，這當然也跟大家從真實市民痛點出發有關。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3336s" rel="noopener" target="_blank">00:55:36</a>]</code> <strong>沈伯洋（Puma）</strong>：一個一個講起來，就是我覺得大家基本上你看，有三組就是在講這個「垃圾清運與垃圾桶」的問題，那很明顯的也是跟現在大家的感受是完全一樣的。那以前呢，我們就一直在講說就是「智慧垃圾桶」這個問題，但是因為智慧垃圾桶它價格其實是高的，若優先運用在觀光客較多的熱門區域，會比較有可行性；至於其他地區，涉及民眾將家用垃圾投入公共垃圾桶等問題，就需要搭配像剛剛團隊提出的預約小車、動態調度與市民共同維護等不同做法來處理。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3420s" rel="noopener" target="_blank">00:57:00</a>]</code> <strong>沈伯洋（Puma）</strong>（談樹木守護《大樹神獸》）：對於樹木守護，我自己的政策原本就規劃推動樹木認領，但即使建立制度，平台仍須具備吸引力，讓民眾覺得有趣、願意參與。我原先還在思考平台該如何設計，現場團隊就已經將相關概念具體呈現，其中的「神獸／神木」設計讓我印象深刻，真的非常可愛！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3510s" rel="noopener" target="_blank">00:58:30</a>]</code> <strong>沈伯洋（Puma）</strong>（談鼠患治理《有鼠請回答！》）：「那這個是鼠類偵防師，但是是真正有意義的鼠類偵防，為什麼？因為你不是叫人直接去做，而是他在回報的過程當中，他自己可以先去做自我的檢測，這個其實在現在很多的公共政策的施行裡面，是非常重要的一種做法。」（<a href="https://today.line.me/tw/v3/article/RBKvz1q">華視新聞逐字引述</a>）</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3600s" rel="noopener" target="_blank">01:00:00</a>]</code> <strong>沈伯洋（Puma）</strong>（談危老與都市更新《模擬市民－都更人生》並預告都更政策）：至於都市更新，我預告將於下週正式公布都更政策！同時我也非常肯定團隊將危老、老宅與都更相關資訊整合的構想。目前最重要的課題，是如何讓民眾知道有哪些方案，以及如何理解這些方案與自身需求的關係。如果能先提供簡易檢測系統，讓民眾透過分數初步了解自身情況，就能在市府行動服務團到訪前，更清楚自己需要哪些協助，也會更期待進一步的說明與討論。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3750s" rel="noopener" target="_blank">01:02:30</a>]</code> <strong>沈伯洋（Puma）</strong>（總結十組團隊核心精神）：這些提案共同呈現的核心，就是「<strong>資訊的易達性</strong>」、「<strong>容易理解的程度</strong>」，以及「<strong>雙方的互動性</strong>」，讓民眾回報問題的系統能與市府派工平台串接。現場十組團隊帶來的成果，展現了十種理解台北、解決問題的方法。科技治理應從市民生活中的問題出發，由政府提出問題、開放資源，讓工程師、設計師、各領域工作者及市民共同參與，使工具接受使用者檢驗，並在實際使用中持續修正。而且我們已經把所有參賽作品放上官網（<code>https://puma.taipei/hackathon</code>），開放民眾票選前 3 名人氣獎，邀請大家共同參與！</li>
+</ul>
+<h3 id="transcript-section-18">第 13 章｜松後座談：《AI 寫得出程式，寫不出城市：資訊人如何改變城市》暨市民 QA（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3900s" rel="noopener" target="_blank">01:05:00</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7519s" rel="noopener" target="_blank">02:05:19</a>）</h3>
+<blockquote>
+<p><strong>【轉錄說明】</strong>：本段為 17:30–18:25 進行之「松後座談」，由資訊顧問 <strong>洪進吉（食夢黑貘）</strong> 主持，與談人包括 <strong>沈伯洋</strong>、<strong>蕭上農（fOx）</strong>、<strong>杜奕瑾</strong>、<strong>侯宜秀</strong>。因多方視訊連線音軌未觸發 YouTube 自動字幕直到 <code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7510s" rel="noopener" target="_blank">02:05:10</a></code>，以下根據現場直播實錄、新聞逐字引述與座談紀錄整理各講者核心發言與 QA 問答（來源：<a href="https://today.line.me/tw/v3/article/vXLrENQ">自由時報</a>、<a href="https://today.line.me/tw/v3/article/zNMxpzj">太報</a>、<a href="https://www.mirrordaily.news/story/93585">鏡報</a>、<a href="https://www.setn.com/news/1927882">三立新聞網</a>、<a href="https://www.ptt.cc/bbs/HatePolitics/M.1792833122.A.5FD.html">PTT 現場實況紀錄</a>）。</p>
+</blockquote>
+<h4>13.1 座談開場與來賓介紹（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=3900s" rel="noopener" target="_blank">01:05:00</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=4500s" rel="noopener" target="_blank">01:15:00</a>）</h4>
+<ul>
+<li><strong>洪進吉（食夢黑貘｜座談主持人）</strong>：歡迎大家來到「市政 debug 松」的松後座談，今天我們的主題是《AI 寫得出程式，寫不出城市：資訊人如何改變城市》。今天視訊鏡頭一開，我們邀請到的與談來賓包括台北市長候選人 <strong>沈伯洋（Puma）</strong>、愛料理及《INSIDE》共同創辦人 <strong>蕭上農（fOx）</strong>、PTT 創辦人暨台灣人工智慧實驗室創辦人 <strong>杜奕瑾</strong>，以及台灣人工智慧學校基金會前秘書長 <strong>侯宜秀</strong>。</li>
+</ul>
+<h4>13.2 跨界對談：AI 時代工程師的價值、台灣主權 AI 與政府公民科技協力（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=4500s" rel="noopener" target="_blank">01:15:00</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=6300s" rel="noopener" target="_blank">01:45:00</a>）</h4>
+<ul>
+<li><strong>蕭上農（愛料理、INSIDE 共同創辦人）</strong>：（談 AI 時代工程師的價值）在 AI 工具普及後，寫程式的門檻大幅降低，就像今天各組能在一天內把 MVP 跟介紹影片做出來；但工程師與資訊人真正的價值，在於定義問題、理解真實世界的使用者痛點，並把技術轉化為可持續運作的服務架構。</li>
+<li><strong>杜奕瑾（PTT 創辦人、台灣人工智慧實驗室創辦人）</strong>：（談台灣自己的 AI 與數位韌性）強調發展台灣在地語料與可信任 AI 的重要性，並指出在城市治理中導入 AI 與開放資料時，資安防護、去識別化與防止認知作戰或網軍干擾同樣是核心基礎工程。</li>
+<li><strong>侯宜秀（台灣人工智慧學校基金會前秘書長）</strong>：（談政府如何接住 AI 與公民科技）從過去推動台灣人工智慧學校與公民科技協作的經驗出發，探討公部門文官體系與民間敏捷開發社群之間的文化差異，強調需要建立制度化的中介機制（介面），讓民間黑客松的創新原型不會在活動結束後就斷線，而能被公部門安全、合規地接住。</li>
+</ul>
+<h4>13.3 關鍵提問一：黑客松的民間創意如何交給公務體系落地實現？「台北研究院」構想（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=6300s" rel="noopener" target="_blank">01:45:00</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=6900s" rel="noopener" target="_blank">01:55:00</a>）</h4>
+<ul>
+<li><strong>市民／主持人提問</strong>：黑客松做出了很多很棒的成果，但實務上要怎麼交給台北市政府的公務體系去實現，而不會增加基層公務員的負擔或卡在法規？</li>
+<li><strong>沈伯洋（Puma）</strong>：</li>
+<li>目前台北市面臨的最大問題，是缺乏完善的基礎設施，以及「議題對應到政策中間的過程」。</li>
+<li>舉例來說，像「無菸城市」概念本身很棒，但現在市府的做法往往是市長一拍腦袋覺得很棒，就壓著局處公務員趕著上架、生報告，結果缺乏配套就變成現在這樣；或者是平常負責執行的公務員被迫自己去發想不是他專業的系統。</li>
+<li>因此，我主張應該先參考首爾等國際城市經驗，成立專責智庫性質的「<strong>台北研究院</strong>」。由台北研究院負責前期的跨領域研究、推動<strong>法規對接</strong>、<strong>資訊安全保障</strong>及<strong>資料整合</strong>，並選定示範場域進行試辦（Sandbox）。</li>
+<li>當方案在台北研究院與民間協力下驗證成熟後，再經由議會與正式制度交付給公務體系實施，這樣反而能減輕基層公務員的負擔，讓公務員專心在本職執行上。未來若相關專案在台北成功落實，也能將成果開源分享給台灣其他城市使用，進一步提升台北的城市光榮感。</li>
+</ul>
+<h4>13.4 關鍵提問二：AI 時代「強者越強、弱者越弱」，如何避免擴大數位落差？「AI 教練」與中年轉職支持（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=6900s" rel="noopener" target="_blank">01:55:00</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7510s" rel="noopener" target="_blank">02:05:10</a>）</h4>
+<ul>
+<li><strong>市民提問</strong>：現在透過 AI，許多人都能開發程式、貢獻社會，但也可能出現「強者越強、弱者越弱」的情況。以我自己的年長父親為例，可能連 ChatGPT 是什麼都不清楚，AI 有沒有可能進一步擴大數位落差？</li>
+<li><strong>沈伯洋（Puma）</strong>：</li>
+<li>確實有許多人對 AI 不熟悉。目前政府常見的因應方式，就是替產業安排課程、教大家如何使用；不過我認為，單純「上課」完全趕不上現在 AI 發展的速度。這不代表不能上課，而是應該有人專門處理 AI 相關工作，協助把技術轉化成產業能夠直接使用的工具。</li>
+<li>我先前參加記帳士公會聚餐時，受邀出席的日本記帳士公會就分享，他們內部有一組人專門研究 AI——雖然並非每位記帳士都懂得使用 AI，但該團隊會研究 AI 未來如何應用於記帳士的工作，並開發相關工具，再提供其他人直接使用。就像網路、大數據及統計等知識與技術出現時，不是每個人都能掌握，但透過工具開發，就有機會讓更多人使用——「<strong>他不一定懂，但是他可以使用</strong>」，這是思考如何降低 AI 使用門檻的重要方向。</li>
+<li>除了運用科技解決市政問題，百工百業同樣有 AI 應用需求，例如商圈可能想知道 AI 能如何協助日常工作，但如果要求業者先學會 AI、再自行摸索如何應用，時間上可能來不及。因此可以參考「<strong>AI 教練</strong>」模式：讓一名非常熟悉 AI 的人，直接進入特定產業實習 3 至 6 個月，透過與業者一起工作，逐步掌握實際流程，辨識哪些事情有機會交由 AI 處理。經過反覆交流、確認需求後，AI 人才再回到智庫端開發工具，後續無論是商業化或產品化，都能把成果提供給相關產業使用。如此一來，產業中的工作者即使不熟悉 AI，仍能透過新工具受惠。</li>
+<li>至於個人層面的協助，因為<strong>中年轉職者</strong>也可能需要使用 AI，並在學習、轉換工作的過程中需要協助，所以我正在思考將原本提供給青年的 <strong>AI Token 支持方案</strong>，延伸適用於中年轉職者。</li>
+<li>同時，AI 導入職能訓練同樣值得重視。過去有不少產業反映現場需要更多兼職人力，希望台北市安排職能培訓時也能考量這類需求；由於部分民眾並沒有投入全職工作的打算，培訓可以朝時間較短、符合兼職工作需求的方向設計，並在其中導入 AI，協助民眾取得所需能力、縮小差距。</li>
+<li>最後，數位落差不能只看台北市內部，城鄉之間的差距也很重要。即使有人可能認為城鄉差距與台北無關，但我仍認為：「<strong>做為首都，我們有必要帶著全台灣一起飛！</strong>」所以城市與城市、以及城市和鄉鎮之間的合作相當重要，若相關技術與工具能夠應用到不同地方，就有機會讓大家共同受益。</li>
+</ul>
+<h3 id="transcript-section-19">第 14 章｜座談總結與宣布成立「台北程式工作組」、活動閉幕（<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7510s" rel="noopener" target="_blank">02:05:10</a> - <a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7716s" rel="noopener" target="_blank">02:08:36</a>）</h3>
+<blockquote>
+<p><strong>【轉錄說明】</strong>：自 <code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7510s" rel="noopener" target="_blank">02:05:10</a></code>（對應聯播流 <code><a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=8530s" rel="noopener" target="_blank">02:22:10</a></code>）起，YouTube 自動語音辨識恢復逐字紀錄，直到直播結束。</p>
+</blockquote>
+<ul>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7510s" rel="noopener" target="_blank">02:05:10</a>]</code> <strong>洪進吉（食夢黑貘｜座談主持人）</strong>：城市的未來是我們要一步一步、用很多個 Working Group（工作小組）的方式去參與出來的。所以說希望說大家不只在這一場黑客松（Hackathon）之外，能夠持續地把程式——讓大家知道我們會提供一個管道。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7523s" rel="noopener" target="_blank">02:05:23</a>]</code> <strong>洪進吉（食夢黑貘）</strong>：像大家應該很多人、我已經看到「城市留言牆」已經有很多個不錯的作品，包含今天的十個作品我都覺得都非常不錯。那接下來就是說怎麼樣子能夠跟公部門去對接，甚至說讓每一個人，無論是透過 AI、無論是透過人，相信這個城市真的是需要很多所謂的「知識工作者」或者是所謂的「高手」。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7546s" rel="noopener" target="_blank">02:05:46</a>]</code> <strong>洪進吉（食夢黑貘）</strong>：我相信在座有真的有很多很多的高手。有人問說：「哪裡找來這些高手？」我覺得這不是問題，重點是<strong>如何把這個所謂的「摩擦問題」解決，讓資訊能夠更流通、人力能夠更流通，把它給留下來</strong>，這才是真正問題！所以這是今天這個活動真正的價值，好，謝謝！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7574s" rel="noopener" target="_blank">02:06:14</a>]</code> <strong>主持人 Brian</strong>：好，我們謝謝黑貘！那其實剛剛黑貘所提出的，也是一套完整讓市民與跨領域專業者可以長期參與城市治理的一個工作方法。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7582s" rel="noopener" target="_blank">02:06:22</a>]</code> <strong>主持人 Brian</strong>：那其實市民他可以提出生活中的市政痛點，PM、UX 或者是市政法律工作者可以協助把問題整理得清清楚楚，那各個領域的專家也可以進一步地提出研究工具，甚至是解決方案；那 Puma（沈伯洋）與他的團隊所要扮演的，是把這些民間的成果接上市政的介面，讓成熟的方案有機會真正地進入政策與治理。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7608s" rel="noopener" target="_blank">02:06:48</a>]</code> <strong>主持人 Brian</strong>：那因此，我們在這裡會正式成立「<strong>台北程式工作組</strong>」！那所有想要加入都以自由意願與主動參與為原則，不論你是工程師、資料分析師，或者只是單純想解決生活某個痛點的台北市民，只要你願意一起找出生活的 bug、一起提出解法，那都歡迎加入！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7624s" rel="noopener" target="_blank">02:07:04</a>]</code> <strong>主持人 Brian</strong>：然後最後再次感謝今天所有參與黑客松的團隊、座談來賓、工作人員，以及在線上陪伴我們到最後的媒體與觀眾朋友們。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7631s" rel="noopener" target="_blank">02:07:11</a>]</code> <strong>主持人 Brian</strong>：那沈伯洋所提出的科技願景，不是把人替換掉的城市，而是一個願意開放資料、尊重專業、接受檢驗，也能夠持續修正的市政府。然後在這樣的城市裡，市民不只是在政策完成後被通知，而是能夠在問題被提出的時候第一刻參與，而且可以一起尋找答案。</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7654s" rel="noopener" target="_blank">02:07:34</a>]</code> <strong>主持人 Brian</strong>：但是其實最好的工具構想，都需要一個能真正打開市政府、讓公民參與的一個政治選擇。那如果你也認同我們，認為台北應該用證據來做決策、用協作來取代黑箱，讓市民不只是每四年只能被聽見一次，那希望你們在 11 月 28 號一起去投票，然後用選票支持伯洋，也讓今天的這份共同開發城市的量能，有機會能走進市政府！</li>
+<li><code>[<a class="transcript-time" href="https://www.youtube.com/watch?v=QP2w7IJNsuU&amp;t=7681s" rel="noopener" target="_blank">02:08:01</a>]</code> <strong>主持人 Brian</strong>：好，那我們今天的黑客松就會到此告一段落，但台北的下一個版本現在才要開始。謝謝大家，我們下次再見，謝謝！</li>
+</ul></div></details>
+<nav class="article-related" aria-label="延伸閱讀"><h2 id="related">延伸閱讀</h2><a href="/articles/city-debug-2026-10-24/">本篇文章整理</a><a href="/articles/city-debug-2026-10-24/transcript/">本場逐字稿與紀要</a><a href="/articles/qiang-news-2026-10-12/">黃暐瀚專訪沈伯洋：四場辯論與台北市政</a><a href="/articles/ep148/">沈伯洋談選戰與韌性台北</a><a href="/">回到 PUMA HUB 全部文章</a></nav></article></main>
+<footer class="wrap" style="padding:30px 24px">非官方訪談整理。內容依提供的逐字稿呈現，待查證標記保留；引用發言請對照原影音。</footer><!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "56a8fac31ada403db28b82d115642b34"}'></script><!-- Cloudflare Pages Analytics --></body></html>

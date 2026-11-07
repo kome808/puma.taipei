@@ -1,0 +1,68 @@
+{
+  "status": "complete",
+  "as_of": "2026-11-07",
+  "scope_counts": {
+    "raw_fulltext_records": 220,
+    "navigation_indexes": 2,
+    "content_versions": 218,
+    "documents": 218,
+    "reading_units": 451,
+    "read_units": 451,
+    "read_chars": 1932054,
+    "expected_chars": 1932054,
+    "reading_errors": 0,
+    "reading_warnings": 0,
+    "topic_candidates": 326,
+    "source_readings": 240,
+    "duplicate_paragraph_records": 2225
+  },
+  "logical_entry_coverage": {
+    "status": "complete",
+    "entry_ids_total": 77,
+    "entry_ids_unique": 77,
+    "entry_ids_linked_to_text_documents": 77,
+    "interview_article_pages_successful": 77,
+    "transcript_status_counts": {
+      "found_inline": 22,
+      "found_page": 36,
+      "未確認獨立逐字稿": 19
+    },
+    "latest_attachment_range": "d0194–d0210 全部已出現在 consolidation-sources.json，且由完成閱讀批次形成閱讀 notes；原先清收中標為缺的來源映射已補齊。",
+    "coverage_note": "19 筆僅能標為「未確認獨立逐字稿」；entry 本身仍有已收錄文章頁文字，不推論沒有逐字稿。"
+  },
+  "official_coverage": {
+    "status": "complete",
+    "policy_pages": {
+      "expected": 16,
+      "covered": 16
+    },
+    "architecture_pages": {
+      "expected": 8,
+      "covered": 8
+    },
+    "note": "16 策略頁與 8 架構頁均有全文文件、閱讀單位及 consolidation source。"
+  },
+  "pdf_visual_coverage": {
+    "status": "asset_and_ledger_coverage_complete",
+    "pdf_files": 5,
+    "pdf_pages_total": 80,
+    "pdf_pages_with_text_layer": 70,
+    "pdf_pages_without_text_layer": 10,
+    "pdf_page_records_accounted": 80,
+    "visual_pages_expected": 120,
+    "visual_pages_viewed": 120,
+    "asset_sha256_mismatches": 0,
+    "visual_reading_policy": "LUNA 視覺檢視只作定位和摘要；visual-reading.json 標示 use_for_generation=false，非逐字圖面校訂。root 已覆核一筆封面誤讀，不代表人工全面校對。"
+  },
+  "gaps": [],
+  "material_cautions": [
+    "duplicate-paragraphs.json 的標記是段落層級去重，不代表來源全文等同；文章頁、逐字頁、附件及同場活動整理須依版本和文字差異閱讀，不能把版本數當成獨立證據數。",
+    "保留 consolidation-guidance.json 的實質差異：青年基金年齡／中央階段／金額前提、通學區距離尺度、中繼宅與循環換屋、市民大道橋下選點數、文化徑主題表述、一般心理諮商與產後加碼次數。摘要需指出來源差異，不擇一寫成已定案。",
+    "來源角色需分清：其他講者、活動提案者、主持人及模擬辯論提問不自動歸為沈伯洋主張；國會／國安／國際議題與地方市政服務分層。城市孤獨原始字幕講者未可靠標記；有逐字稿或翻譯差異者依來源 caveat 表述。",
+    "PDF 文字來自可抽取文字層，70/80 頁有文字；其餘 10 頁沒有文字層紀錄，不等同已逐字校對圖面內容。120 頁視覺 ledger 的 SHA 覆蓋完整，但不能當成文字轉錄或人工校訂。"
+  ],
+  "recommendations": [
+    "以 451/451 units 及 240 source_readings 的完成版 notes 為主題整理範圍；維持來源版本、講者與不同機制的區別。",
+    "引用 PDF 圖面細節時回看原始 PDF 頁面；引用文字層可抽內容時保留其頁碼與未逐字圖面核驗的限制。"
+  ]
+}

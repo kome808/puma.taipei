@@ -1,0 +1,297 @@
+{
+  "batch_id":"b01",
+  "read_units":[
+    {"unit_id":"u0001","doc_id":"d0001","start":0,"end":3121,"sha256":"325fb55f0c33094fcc67df239e68d1eed7c75774b58af161e86abd9f93a876a3","read_fully":true},
+    {"unit_id":"u0002","doc_id":"d0002","start":0,"end":3491,"sha256":"4c78e24067e3b101ee239faa0fe4efc738c518b61f7c5b3cb1ba987ddd1769fa","read_fully":true},
+    {"unit_id":"u0003","doc_id":"d0003","start":0,"end":2922,"sha256":"8e5dfe98f28f55963baf5d995f5f82d9d06bfaab73e008d98979dab4f1e81ab3","read_fully":true},
+    {"unit_id":"u0004","doc_id":"d0004","start":0,"end":2644,"sha256":"31f40c1229784b4dfd4941d1e194bbfb033b1701549ef3b79177953a188fb494","read_fully":true},
+    {"unit_id":"u0005","doc_id":"d0005","start":0,"end":2981,"sha256":"5c495cff690266c0e8588cfb3af7ebb79116ff6cc30d09a8643c3b802ea85a73","read_fully":true},
+    {"unit_id":"u0006","doc_id":"d0006","start":0,"end":3060,"sha256":"ce4b1a7b4214ac5e0a3722fbcd3494b4b2743a07f2a56878eae74efeeeca16f7","read_fully":true},
+    {"unit_id":"u0007","doc_id":"d0007","start":0,"end":2820,"sha256":"180f6428f3cc0af77506469751b535f37ca6007527ede790b358734a7de30d2c","read_fully":true},
+    {"unit_id":"u0008","doc_id":"d0008","start":0,"end":3103,"sha256":"06ef95e32c68f8658bcfd5c216caf1ae35a4806182f970d83077da1e914d8b2e","read_fully":true},
+    {"unit_id":"u0009","doc_id":"d0009","start":0,"end":2644,"sha256":"7d37a8d3a4c1d153f4fa66e5144631ce49cf7dc16dc304a51451ed6b4b9b05c5","read_fully":true},
+    {"unit_id":"u0010","doc_id":"d0010","start":0,"end":2070,"sha256":"6e482ecc68a40ec8f901217956f7292038cd4abf56b3dddb07bb8362ed6f7f71","read_fully":true},
+    {"unit_id":"u0011","doc_id":"d0011","start":0,"end":2949,"sha256":"ca60255d62fc0749a98cffaa49b34f51e67a09a04d49710b09f8e880d5ec015d","read_fully":true},
+    {"unit_id":"u0012","doc_id":"d0012","start":0,"end":2291,"sha256":"44b413b22ae8a528497f938fc9a929d8782804b4e32490dae0135c99a9afe052","read_fully":true},
+    {"unit_id":"u0013","doc_id":"d0013","start":0,"end":3812,"sha256":"55ef530c77a10e880e8a275d9d8ade3d5fb7efaab202d2c35247a9ac9264690b","read_fully":true},
+    {"unit_id":"u0014","doc_id":"d0014","start":0,"end":2639,"sha256":"7039c76c735d812cf2d22cdac8ea00fa15832e6d3d49692ed985dff72c377de8","read_fully":true},
+    {"unit_id":"u0015","doc_id":"d0015","start":0,"end":2523,"sha256":"055e71c6c8787443602dfe509ffbca1abe931e1452660bbd0814f69a09f9e1f8","read_fully":true},
+    {"unit_id":"u0016","doc_id":"d0016","start":0,"end":2151,"sha256":"4da2a2e98896a72952c4340973511251e1219bb1d9e9f90589b42e672c52f69e","read_fully":true},
+    {"unit_id":"u0017","doc_id":"d0017","start":0,"end":4157,"sha256":"31ed0c160090e9345403e504a9f4fc41b708e5d2ff00a7919531b41dc76d3971","read_fully":true},
+    {"unit_id":"u0018","doc_id":"d0018","start":0,"end":568,"sha256":"c9148eca847d48e9888cb05e378ebd6b0f06a6f4085306602f1da68bbe6107c9","read_fully":true},
+    {"unit_id":"u0019","doc_id":"d0019","start":0,"end":5994,"sha256":"fb4c7685fb5a3cf7b104dac56f248e470c26a917111552b5946acd59b4e1accf","read_fully":true},
+    {"unit_id":"u0020","doc_id":"d0019","start":5994,"end":11864,"sha256":"db4fe9c5eab9053b471f69849382eb0ad929a57c47ab13ba47b4eae942694678","read_fully":true},
+    {"unit_id":"u0021","doc_id":"d0020","start":0,"end":1062,"sha256":"64d49c42b2045b6161c0770fdb349a8e4339cc62520d3a67497daf4352731e40","read_fully":true},
+    {"unit_id":"u0022","doc_id":"d0021","start":0,"end":1162,"sha256":"26067af961da77e4906e72fa5d51669bd2c027ffe54d1129a5e42a0ba29ba54f","read_fully":true}
+  ],
+  "source_readings":[
+    {"doc_id":"d0001","title":"都更政策","url":"https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96","summary":"提出「無限都更，無限陪伴」：紅黃牌分級、換手／退場、循環都更換屋換權，以及公會協審與 AI 支援。","attributable_claims":["頁面稱都更平均逾 6 年，並稱有 70 餘件停擺 5 年以上殭屍案。","主張依都更條例第 76 條修法，黃牌改善、紅牌落日，得換實施者或轉公辦／自主更新，拆屋退場啟動續建安全網。","主張以四類房源建立交換平台，公平估價後換屋或換地上權；初期房源不足、門檻嚴格且不強迫既有案加入。","主張提高都更人力待遇，導入聯合預審、公會協審、AI 知識與審議資料庫；短 1–2 年、中 3–4 年、長 5 年以上。"],"caveats":["官方政策主張；法規、房源、融資、財務自償、AI 效果與數據未在本批核實。"],"topic_keys":["都更卡關時，住戶如何換手、換屋或退場？","都更審議如何減少等待並補足人力？"]},
+    {"doc_id":"d0002","title":"教育政策","url":"https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96","summary":"從教師流失、班級與行政負擔、親師衝突、幼教特教、營養、反毒、通學和 AI 素養提出整體支持。","attributable_claims":["頁面以 2026 開學代理教師缺額 44 名及現行國小 29、國中 30 人原則作背景。","主張 117 學年度國小每班 24 人、國中 25 人，減生不減師、雙導師與行政助理。","主張親師第三方調和、教師 EAP，幼幼班 10 人、幼兒園 24 人，補足特教人力。","主張反毒四層策略、8 年改善 150 所通學區至零死亡；校管帳號、限定課堂與教師在場使用 AI。"],"caveats":["數字、目標、SBIRT、通學與 AI 配套未外部核實，預算和人力仍未詳列。"],"topic_keys":["教師如何減少班級與行政負擔？","校園反毒如何從宣導轉向預防與治療？","學生如何公平使用 AI 並兼顧校園安全？"]},
+    {"doc_id":"d0003","title":"交通政策","url":"https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96","summary":"以捷運為骨幹處理通學區、公車駕駛、自行車與共享電動機車四條綠色道路，提出共同工程規格、跨河自行車橋、YouBike 和 TPASS 試辦。","attributable_claims":["頁面稱 7–9 點交通死傷最高、公車有責肇事率一年近翻倍。","主張學校周邊 150 公尺統一工程，低成本試辦並以事故排序。","主張駕駛座人因、折返點休息、低運量 DRTS／小巴和按可靠度與勞動條件補貼。","主張跨基隆河自行車橋、尖峰 YouBike 前 30 分鐘免費、記名 TPASS 共享機車每日前 10 分鐘免費 3 個月，8 年改善 150 多校。"],"caveats":["事故數據、橋梁、補貼、TPASS、停車契約和 DRTS 可行性未核實。"],"topic_keys":["通學區如何在八年內走向零死亡？","公車駕駛如何在不趕時間下安全服務？","自行車通勤如何跨河、維護並接上生活圈？","共享電動機車如何納入 TPASS 又不占路邊車格？"]},
+    {"doc_id":"d0004","title":"社福政策","url":"https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96","summary":"以生命週期和跨局處共案取代單點補助，涵蓋長照、中壯年心理與疫苗、兒少安全、身障維生和女性安全。","attributable_claims":["頁面以 2024 台北長照 58.10%、全國 84.86%作背景。","主張敬老卡、臨時托老券、在宅醫療、都更／退校用地機構、鐘點移工。","主張 50+ 皮蛇疫苗、15–65 歲心理諮商、0–6 歲腸病毒疫苗與兒少安全治理中心。","主張罕病不斷電、爬梯機補助、女性安全審計與單身女性支持專線。"],"caveats":["涵蓋率與其他背景數字未核實；資格、容量、法規、財源和資料治理未具體化。"],"topic_keys":["長者與照顧者如何在熟悉生活圈得到長照？","中壯年和照顧者如何得到心理與健康支持？","兒少健康與高風險事故如何提前防護？","身障者與女性如何在公共空間獲得平權支持？"]},
+    {"doc_id":"d0005","title":"台北文化徑×山林徑","url":"https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91","summary":"以點線面串聯歷史、產業、族群與山林，規劃四大文化主題、三座登山觀光中心、導覽、裝備和接駁。","attributable_claims":["四大主題為城市歷史記憶、現代台北、產業文化遺跡、多元族群。","北劍潭、東象山、南貓空規劃裝備租借、置物更衣、洗鞋、四語導覽和步道資訊。","主張補最後一哩、統一標示與安全資訊，讓長者和不開車者也能親近山林。"],"caveats":["路線、中心、服務均屬規劃構想，未列完整期程、預算、土地與維運責任。"],"topic_keys":["文化遺跡與山林步道如何串成市民走得到的路線？"]},
+    {"doc_id":"d0006","title":"都市微森林","url":"https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97","summary":"以都市林自治條例、委員會與維運基金、樹木健康履歷、200 座口袋公園、涼感地圖和廢木料銀行把樹當基礎建設。","attributable_claims":["引用 2021 林試所資料稱綠覆率約 18%。","主張維運基金 10 億、年營運 5 億，200 座口袋公園，數位雙生及 3 年三級路樹整理。","長期朝 3-30-300，樹木覆蓋 20%、綠覆 30%、300 公尺內有綠蔭公園。","主張至少五方參與移除溝通，修剪木料進公共設施、新創、生物炭、土壤和建材。"],"caveats":["綠覆率、基金、200 座和目標未核實；樹木移除與循環成本責任未詳。"],"topic_keys":["台北的樹蔭由誰養、如何監測並讓修剪木料再利用？"]},
+    {"doc_id":"d0007","title":"青年政策","url":"https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96","summary":"以本金、工具、舞台支持青年：城市青年基金、AI 平台和海外／市政／創業圓夢計畫。","attributable_claims":["主張 18–22 歲每月市府 1,500 元、鼓勵自存 1,500 元，弱勢加碼 3,000 元；估算 23 歲近 50 萬。","主張 18–25 歲 AI 基本 300 元、課程 500–1,000 元、專案 2,000–10,000 元，第二期至 45 歲以下。","主張銜接中央海外基金、市政實習、創業諮詢、場地和基金。","頁面估算基金年 18–19 億、AI 兩期 9 億、圓夢 8 年 20 億。"],"caveats":["資格、設籍、自存、基金治理、中央銜接與預算估算未核實。"],"topic_keys":["青年第一筆起步本金如何累積、誰能領到？","青年如何免先墊款取得跨模型 AI 工具？","青年如何把海外學習與創業、市政實作接回台北？"]},
+    {"doc_id":"d0008","title":"運動政策","url":"https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96","summary":"以全齡運動生態系提出社區運動小巴、每區 3–5 處據點、河濱和運動驛站，以及關渡足球場、花博旗艦中心。","attributable_claims":["主張小巴主動服務不便者，每區新增 3–5 處據點，改善河濱照明、人車、休憩和急救。","主張捷運站、登山口設運動驛站；規劃關渡國際足球場和花博旗艦運動中心，檢討無障礙、性別友善。","主張海外實習、國際社區賽事和場地／人才／產業循環；第 1 年試辦、第 2–3 年改造 10 項、第 4 年起全面檢討。"],"caveats":["場館選址、產權、可行性、預算、小巴運能和海外實習未具體化。"],"topic_keys":["不去大型場館，長者與行動不便者如何在家附近運動？","關渡足球場與花博旗艦運動中心要解決什麼場館缺口？"]},
+    {"doc_id":"d0009","title":"家庭一站通","url":"https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A","summary":"整合育兒專線、各區家庭服務站和專人轉介，搭配臨托、心理、到宅指導和夜間托育，逐步支持 0–18 歲家庭。","attributable_claims":["主張每區家庭支持站、單一窗口、個案管理師訪視和育兒解憂。","主張 6 個月至 6 歲每週固定時數免費臨托；產後一年每胎加碼 6 次心理諮商；未滿 2 歲到宅指導 6 次。","主張夜市、百貨附近增設夜間托育，並擴充家庭教育中心、親子館與陪伴師。"],"caveats":["服務量、人力、時段、資格、據點、預算與上路時間未定。"],"topic_keys":["育兒家庭能否從一個入口取得臨托、到宅與心理支持？"]},
+    {"doc_id":"d0010","title":"公務員政策","url":"https://puma.taipei/policies/%E5%85%AC%E5%8B%99%E5%93%A1%E6%94%BF%E7%AD%96","summary":"以友善職場、彈性工時、EAP 點數、專案獎勵、健檢和 AI 派駐改善公務員缺額與重複行政。","attributable_claims":["主張擴大彈性上下班、升級哺乳室、休息、運動和淋浴空間。","主張 EAP 點數自選、健檢加碼和重大專案實質獎金。","主張 AI 團隊自動化表單、數據和基礎流程；四年規劃列 1–8、8–18、18–28 個月階段。"],"caveats":["缺額基準、獎金、AI 範圍、資安個資和效果未驗證。"],"topic_keys":["公務員如何在減少重複行政的同時獲得彈性與支持？"]},
+    {"doc_id":"d0011","title":"親子同行卡","url":"https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1","summary":"主張設籍台北 0–18 歲兒少每人每月 600 點，整合文化、運動、閱讀和家庭教育，納入書店、劇場、社區店家和祖孫同行。","attributable_claims":["主張 0–18 歲每人每月 600 點，支持與家人共同文化、運動、閱讀、家庭教育。","規劃 0 歲出生袋、2 歲語言袋、5 歲入學袋，搭配借閱證與共讀指南。","主張親子同行認證及敬老卡銜接祖孫活動。"],"caveats":["點數折抵、期限、配置、認證、經費與上路時間仍待設計試行。"],"topic_keys":["每月 600 點的親子同行卡要如何讓文化、運動與閱讀真的用得上？"]},
+    {"doc_id":"d0012","title":"水域政策","url":"https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96","summary":"以淡水河、基隆河和市內水路提出親水、美感、潔淨、滯洪、生態 ABCDE 五方向，結合自然工法、微型滯洪、水文化教育和河岸再造。","attributable_claims":["主張把水拉回城市規劃，處理水與生活疏離、工程主導、極端降雨和水文化缺乏整體視野。","主張清疏水圳、植生過濾／濕地／礫間接觸、排水回收再利用。","主張校園、公園和建物分散式滯洪，長期串聯水路、山徑、文化徑與風廊。"],"caveats":["工程清單、經費、權責、防洪指標和中央協作條件未列。"],"topic_keys":["台北如何讓水路兼顧防洪、降溫、生態與市民親水？"]},
+    {"doc_id":"d0013","title":"AI政策","url":"https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96","summary":"以市民接軌、產業聚落和市政應用提出青年 AI 錢包、中高齡轉職、北士科星群、台北研究院和局處 AI 團隊。","attributable_claims":["主張青年基本額度 300 元、弱勢 500 元，課程 500–1,000 元、專案 2,000–10,000 元，月底歸零且免先付款。","第一期 18–25 歲學生，第二期 18–45 歲市民，最長兩年並設排富。","主張 45+ 職涯健檢、職務再設計、帶薪轉職／實習和創業利息補貼。","北士科規劃雙站合一、綠色交通、六大實驗沙盒；研究院做四類研究，AI 團隊輪駐局處。"],"caveats":["資格、資安個資、模型採購、排富、期程、成本與實際效果未定或未驗證。"],"topic_keys":["青年如何免先墊款取得跨模型 AI 工具？","學生如何公平使用 AI 並兼顧校園安全？","45 歲以上市民如何把既有經驗接上 AI 轉職或創業？","北士科與台北研究院要如何把 AI 研究接到城市生活？"]},
+    {"doc_id":"d0014","title":"客家政策","url":"https://puma.taipei/policies/%E5%AE%A2%E5%AE%B6%E6%94%BF%E7%AD%96","summary":"從社區、校園、商圈、市府與國際交流五層次，提出伯公照護站、客庄互訪、台北通客語獎勵、約聘僱加分研議和無限城論壇。","attributable_claims":["引用調查稱台北約 45 萬客家人口、約 17%。","主張伯公照護站老幼共學、台北與客庄學校互訪、台北通客語學習／消費獎勵。","主張研議客語中級認證列約聘僱甄選加分，規劃臨櫃／1999 客語服務人才，帶進無限城論壇。"],"caveats":["人口估計未核實；加分仍是研議，點數、互訪和人才制度無期程預算。"],"topic_keys":["客語如何從被保存的文化回到台北的日常服務與商圈？"]},
+    {"doc_id":"d0015","title":"城市外交","url":"https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4","summary":"主張以無限城把城市外交延伸到基層公務員、研究團隊、企業和僑界，支援交通安全、降溫、住宅、人才和台北研究院。","attributable_claims":["主張國際合作聚焦可負擔住宅、都市降溫、交通安全和人才培育。","提出基層公務員半年互換，但未列對象、名額、辦法。","建議行政法人台北研究院，並借鏡霍博肯零死亡、更新納入可負擔住宅等經驗。","頁面自述訪美與紐澤西州長談人才互換、產業投資、可負擔住宅。"],"caveats":["研究院、互換、案例轉譯和長期規劃未列完整期程預算；訪美自述未另核實。"],"topic_keys":["國際城市交流如何轉成台北的交通、住宅與降溫服務？","訪美與海外合作的現況主張哪些可被核實？"]},
+    {"doc_id":"d0016","title":"營養午餐","url":"https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90","summary":"主張免費是底線，靠營養午餐專法、彈性餐費、弱勢價差補足、在地小農與食農／飲食素養教育提升品質。","attributable_claims":["主張專法規範餐費、營養、食安、食材和教育。","主張餐費回應原物料、天災、供需；全校加價提升品質時市府補弱勢價差。","主張借鏡東京與小農合作，將食農和飲食素養納入課程。"],"caveats":["餐費基準、公式、弱勢認定、營養師配置與期程未列。"],"topic_keys":["免費午餐如何同時守住餐桌平權與供餐品質？"]},
+    {"doc_id":"d0017","title":"你是台北的哪一種人？","url":"https://puma.taipei/heart","summary":"HEART 架構頁以空間、培力與機會、陪伴、韌性與安心、時間五軸組織政策，提出市政生態系；影音未下載。","attributable_claims":["H/E/A/R/T 分別是 Habitat、Empower、Accompany、Resilience、Time。","頁面以住宅、交通、育兒、教育、公務、AI、文化、運動和防災說明政策互牽。","主張整合交通、運動、照顧可讓市民每天多 30 分鐘。"],"caveats":["架構導覽非逐項政策，影音未下載，30 分鐘與成效未驗證。"],"topic_keys":["HEART 如何把分散政策連回市民的空間、時間與支持？"]},
+    {"doc_id":"d0018","title":"HEART 政策島｜沈伯洋・台北順起來","url":"https://puma.taipei/heart-island","summary":"互動索引稱 16 個政策主題、107 個細項、29 組協作關係，提供官網政見、受訪、城市日誌、任期軸和 HEART 導覽。","attributable_claims":["頁面標示 16 項主題、107 個細項和協作關係 29。","頁面把官網政見、受訪和 HEART 導覽放在同一互動介面，並註記研究院官網沒有 HEART 分類。"],"caveats":["互動索引的數量與分類不是政策成效或完整正文。"],"topic_keys":["政策島如何呈現 16 個主題與跨政策協作？"]},
+    {"doc_id":"d0019","title":"你是台北的哪一種人？","url":"https://puma.taipei/heart/quiz/1","summary":"七題測驗結果頁以「沈伯洋想這樣接住你」推薦政策，並穿插八位人物檔案與育兒、照顧、青年、商圈、創業、山林故事；u0019/u0020 為同一頁連續文字。","attributable_claims":["結果卡把不同人物情境連到 HEART 政策。","人物故事描述山徑／熱島、育兒／交通、商圈／小店、通勤／AI、創作者租金／場地、新創市場、高齡無障礙和三代照顧。"],"caveats":["人物、貼文和反應是網站敘事，不是民調或已驗證個案；推薦卡應回到官方政策頁核對。"],"topic_keys":["網站人物故事呈現的育兒與家庭時間壓力（context）","網站人物故事呈現的高齡行動與照顧負擔（context）","網站人物故事呈現的青年工作與 AI 進修壓力（context）","網站人物故事呈現的創作者、小店與城市空間壓力（context）","網站人物故事呈現的山林、熱島與文化使用經驗（context）"]},
+    {"doc_id":"d0020","title":"政見主軸：空間 · Habitat","url":"https://puma.taipei/policy/heart/h","summary":"空間軸索引列都更、交通、文化徑×山林徑、都市微森林、運動、水域，並以空間／時間／陪伴／韌性等標籤交叉呈現。","attributable_claims":["頁面列出六項空間軸政策及其交叉標籤。"],"caveats":["分類索引而非政策正文，具體主張以 policy_detail 為準。"],"topic_keys":["HEART 如何把空間軸政策互相連結？"]},
+    {"doc_id":"d0021","title":"政見主軸：培力與機會 · Empower","url":"https://puma.taipei/policy/heart/e","summary":"培力與機會軸索引列教育、社福、青年、運動、AI、客家和城市外交，交叉標示機會／陪伴／韌性／時間／空間。","attributable_claims":["頁面列出七項培力與機會軸政策及其交叉標籤。"],"caveats":["分類索引而非政策正文，具體主張以 policy_detail 為準。"],"topic_keys":["HEART 如何把培力與機會軸政策互相連結？"]}
+  ],
+  "topics":[
+    {
+      "working_title":"都更卡關時，住戶如何換手、換屋或退場？",
+      "question":"都更停滯、長者無力搬遷或補差額時，市府要提供哪些可選方案？",
+      "points":["頁面把所有權整合、估價不透明、安置不足、高齡承擔力低、融資和多軌審議列為痛點。","黃牌要求大體檢與限期改善，紅牌可落日、調查意向、換實施者或轉公辦／自主更新；拆屋退場啟動續建安全網。","循環都更以四類房源做跨區交換，公平估價後換屋或換地上權；初期房源不足、門檻嚴格且不強迫既有案加入。","藍圖為短 1–2 年修法清查、中 3–4 年平台運轉、長 5 年以上首批基地完成。"],
+      "source_refs":[{"unit_id":"u0001","doc_id":"d0001","url":"https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96","section_or_timestamp":"## 01｜政策摘要；## 04｜政策內容；## 06｜推動藍圖","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"透過紅黃牌機制，來化解殭屍都更"}],
+      "eligibility":"shareable","possible_duplicates":["都更審議如何減少等待並補足人力？"]
+    },
+    {
+      "working_title":"都更審議如何減少等待並補足人力？",
+      "question":"都更案件要如何縮短行政等待，同時讓審查更專業、留得住人？",
+      "points":["政策頁稱都更平均逾 6 年，並列各相關局處缺額背景數字。","主張提高待遇、技術內容交公會協審、審議會聚焦權利價值爭議，並設報核前聯合預審。","主張建立 AI 都更知識庫與數位審議資料庫，讓承辦轉為專案經理。"],
+      "source_refs":[{"unit_id":"u0001","doc_id":"d0001","url":"https://puma.taipei/policies/%E9%83%BD%E6%9B%B4%E6%94%BF%E7%AD%96","section_or_timestamp":"## 02｜政策背景；## 04｜政策內容","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"導入 AI 秘書協作"}],
+      "eligibility":"shareable","possible_duplicates":["都更卡關時，住戶如何換手、換屋或退場？","公務員如何在減少重複行政的同時獲得彈性與支持？"]
+    },
+    {
+      "working_title":"教師如何減少班級與行政負擔？",
+      "question":"教師缺額、親師衝突和行政工作增加時，學校要怎麼保留教學時間與支持？",
+      "points":["主張 117 學年度國小每班 24 人、國中 25 人，減生不減師，試辦雙導師與導師行政助理。","主張刪除重複流程再數位化，不把繁文縟節原封不動搬上線。","主張親師第三方調和、師生程序和擴大 EAP；幼幼班 10 人、幼兒園 24 人，並補特教人力。"],
+      "source_refs":[{"unit_id":"u0002","doc_id":"d0002","url":"https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容；## 05｜預期效益","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"117學年度達成國小每班24人"}],
+      "eligibility":"shareable","possible_duplicates":["公務員如何在減少重複行政的同時獲得彈性與支持？"]
+    },
+    {
+      "working_title":"校園反毒如何從宣導轉向預防與治療？",
+      "question":"面對毒品與電子煙風險，學校如何阻斷來源、教會拒絕並接上治療？",
+      "points":["主張「斷來源、教拒絕、轉治療、司法為輔」四層策略，查緝校園周邊販售熱點和電子煙載具。","宣導轉成生活技能教育，結合醫療與毒防做篩檢、簡短處遇和 SBIRT 轉介。","反毒與通學道路安全是不同政策問題，分開整理。"],
+      "source_refs":[{"unit_id":"u0002","doc_id":"d0002","url":"https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／六｜孩子的安全不能等","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"斷來源、教拒絕、轉治療、司法為輔"}],
+      "eligibility":"shareable","possible_duplicates":[]
+    },
+    {
+      "working_title":"通學區如何在八年內走向零死亡？",
+      "question":"孩子走到學校的 150 公尺範圍，哪些工程、速限和執行順序能先降低風險？",
+      "points":["主張學校四周 150 公尺統一車道縮減、抬升行穿線、減速丘、庇護島、縮小轉彎半徑和路口淨空。","先用油漆、塑膠桿、花台低成本試辦，依事故排序，可採上下學時段速限。","目標 8 年改善全市 150 多所國小通學區，中期先累計 50 所。"],
+      "source_refs":[{"unit_id":"u0003","doc_id":"d0003","url":"https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96","section_or_timestamp":"## 03｜政策目標；## 04｜政策內容／一、安全改善","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"學校四周 150 公尺為原則"}],
+      "eligibility":"shareable","possible_duplicates":["校園反毒如何從宣導轉向預防與治療？"]
+    },
+    {
+      "working_title":"公車駕駛如何在不趕時間下安全服務？",
+      "question":"公車肇事和投訴升高時，如何調整駕駛工作條件、車內設備和路網？",
+      "points":["頁面把班表過緊與設備疊加視為注意力和時間壓力來源。","主張重排告警和螢幕、盤點折返點休息並把休息排進班表。","主張低運量路段改 DRTS／小巴，薪資補貼按服務可靠度和勞動條件。"],
+      "source_refs":[{"unit_id":"u0003","doc_id":"d0003","url":"https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96","section_or_timestamp":"## 02｜政策背景；## 04｜政策內容／公車安全改革","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"將休息時間納入班表排定前提"}],
+      "eligibility":"shareable","possible_duplicates":[]
+    },
+    {
+      "working_title":"自行車通勤如何跨河、維護並接上生活圈？",
+      "question":"自行車要從休閒變成日常通勤，跨河連接、路面維護和盥洗配套如何做？",
+      "points":["主張迎風—港墘跨基隆河專用橋，串聯民生社區、內科和河濱。","以鋪面、標線、照明、指標、越堤動線五項指標每季評分，維護預算與評分連動。","主張尖峰時段 YouBike 2.0E 前 30 分鐘免費，設運動驛站提供盥洗、置物和租借。"],
+      "source_refs":[{"unit_id":"u0003","doc_id":"d0003","url":"https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96","section_or_timestamp":"## 03｜政策目標；## 04｜政策內容／二、便利提升","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"迎風—港墘跨基隆河自行車專用橋"}],
+      "eligibility":"shareable","possible_duplicates":["文化遺跡與山林步道如何串成市民走得到的路線？"]
+    },
+    {
+      "working_title":"共享電動機車如何納入 TPASS 又不占路邊車格？",
+      "question":"最後一哩需要共享機車時，票證優惠、停車場媒合和安全考核如何一起設計？",
+      "points":["主張記名 TPASS 每日前 10 分鐘免費，市府出資試辦 3 個月，再與中央協商常態化。","主張媒合公有、委外和私人路外停車場，以定型化契約引導離開路邊格位。","所有合法業者適用，事故與違規件數作持續考核。"],
+      "source_refs":[{"unit_id":"u0003","doc_id":"d0003","url":"https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／TPASS 納入共享電動機車","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"市府出資試辦 3 個月"}],
+      "eligibility":"shareable","possible_duplicates":[]
+    },
+    {
+      "working_title":"長者與照顧者如何在熟悉生活圈得到長照？",
+      "question":"長照涵蓋不足、長者不想離開熟悉社區時，住宅、醫療、人力和交通如何接起來？",
+      "points":["主張敬老卡擴大、臨時托老券和在宅醫療，讓支持在社區銜接。","主張用都更和退場學校用地增住宿型機構，引入鐘點移工補夜間照護。","長照背景數字是頁面自述，不等於本批已驗證統計。"],
+      "source_refs":[{"unit_id":"u0004","doc_id":"d0004","url":"https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／長者尊嚴安居與長照突破","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"推動在宅醫療以無縫接軌社區安全網"}],
+      "eligibility":"shareable","possible_duplicates":["網站人物故事呈現的高齡行動與照顧負擔（context）"]
+    },
+    {
+      "working_title":"中壯年和照顧者如何得到心理與健康支持？",
+      "question":"工作、育兒和照顧同時發生時，心理諮商、疫苗和職場支持如何降低家庭危機？",
+      "points":["主張 15–65 歲免費心理諮商，產後媽媽加碼，50 歲以上補助一劑皮蛇疫苗。","另主張職場友善 2.0、45 歲以上職務再設計、訓練媒合與創業利息補貼。","跨局處共案和追蹤要取代市民自行找窗口，但資格與服務量未列完整。"],
+      "source_refs":[{"unit_id":"u0004","doc_id":"d0004","url":"https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／中壯年身心與職場後盾","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"推行涵蓋15至65歲的免費心理諮商計畫"}],
+      "eligibility":"shareable","possible_duplicates":["育兒家庭能否從一個入口取得臨托、到宅與心理支持？"]
+    },
+    {
+      "working_title":"兒少健康與高風險事故如何提前防護？",
+      "question":"兒童疫苗、教育、社政和警政資料要如何一起降低可預防的重大事故？",
+      "points":["主張 0–6 歲免費腸病毒疫苗，成立跨教育、社政和警政資料的兒少安全治理中心。","希望透過重大事故回溯和高風險預防縮短通報與防護反應時間。","資料整合涉及個資、權責和流程，頁面未提供治理規範。"],
+      "source_refs":[{"unit_id":"u0004","doc_id":"d0004","url":"https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／兒少健康防線與安全治理","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"整合教育、社政與警政數據"}],
+      "eligibility":"shareable","possible_duplicates":["校園反毒如何從宣導轉向預防與治療？"]
+    },
+    {
+      "working_title":"身障者與女性如何在公共空間獲得平權支持？",
+      "question":"從居家維生、無障礙移動到夜間公共空間，哪些支持能讓身障者與女性保有選擇？",
+      "points":["主張為罕病補助家用不斷電、提高無障礙爬梯機補助、增加身障女性決策參與。","主張由下而上做女性安全審計，檢視公共空間，並設單身女性身心理支持專線。","補助上限、審計方法和服務容量未列。"],
+      "source_refs":[{"unit_id":"u0004","doc_id":"d0004","url":"https://puma.taipei/policies/%E7%A4%BE%E7%A6%8F%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／身障平權與性別包容城市","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"推動由下而上的「女性安全審計」"}],
+      "eligibility":"shareable","possible_duplicates":[]
+    },
+    {
+      "working_title":"文化遺跡與山林步道如何串成市民走得到的路線？",
+      "question":"古蹟、產業記憶、步道和公共服務如何成為外地人看得懂、台北人用得到的城市路網？",
+      "points":["四大主題為城市歷史記憶、現代台北、產業文化遺跡和多元族群。","北劍潭、東象山、南貓空規劃裝備、置物更衣、洗鞋、四語導覽和步道資訊。","主張補捷運到登山口最後一哩、統一標示與安全資訊，先盤點示範再擴大。"],
+      "source_refs":[{"unit_id":"u0005","doc_id":"d0005","url":"https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91","section_or_timestamp":"## 01｜政策摘要；## 04｜政策內容","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"四大主題作為推動主軸"}],
+      "eligibility":"shareable","possible_duplicates":["自行車通勤如何跨河、維護並接上生活圈？","台北的樹蔭由誰養、如何監測並讓修剪木料再利用？"]
+    },
+    {
+      "working_title":"台北的樹蔭由誰養、如何監測並讓修剪木料再利用？",
+      "question":"樹木從種下、長大、修剪到移除，如何都有可追蹤的責任和長期資源？",
+      "points":["主張都市林自治條例、跨局處委員會與 10 億維運基金（年營運 5 億）。","主張先有根域才准種樹、200 座口袋公園、數位雙生、健康履歷，以及三級分類分 3 年處理路樹。","主張涼感地圖、市民回報和至少五方移除前溝通；廢木料銀行再製公共設施、新創、生物炭、土壤或建材。"],
+      "source_refs":[{"unit_id":"u0006","doc_id":"d0006","url":"https://puma.taipei/policies/%E9%83%BD%E5%B8%82%E5%BE%AE%E6%A3%AE%E6%9E%97","section_or_timestamp":"## 01｜政策摘要；## 04｜政策內容","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"制定「台北都市林自治條例」"}],
+      "eligibility":"shareable","possible_duplicates":["文化遺跡與山林步道如何串成市民走得到的路線？","台北如何讓水路兼顧防洪、降溫、生態與市民親水？"]
+    },
+    {
+      "working_title":"台北如何讓水路兼顧防洪、降溫、生態與市民親水？",
+      "question":"淡水河、基隆河和市內水路如何不只防洪，也成為可使用的生活和生態空間？",
+      "points":["ABCDE 為 Active 親水、Beautiful 美感、Clean 潔淨、Detention 滯洪、Ecosystem 生態。","主張清疏水圳、植生過濾／濕地／礫間接觸、排水回收再利用。","主張校園、公園、建物分散式微型滯洪，長期串聯水路、山徑、文化徑和風廊。"],
+      "source_refs":[{"unit_id":"u0012","doc_id":"d0012","url":"https://puma.taipei/policies/%E6%B0%B4%E5%9F%9F%E6%94%BF%E7%AD%96","section_or_timestamp":"## 01｜政策摘要；## 04｜政策內容（ABCDE 五大治理方向）","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"提出「ABCDE 五大治理方向」"}],
+      "eligibility":"shareable","possible_duplicates":["台北的樹蔭由誰養、如何監測並讓修剪木料再利用？"]
+    },
+    {
+      "working_title":"青年第一筆起步本金如何累積、誰能領到？",
+      "question":"18–22 歲青年如何在升學、求職、出國或創業前累積可使用的第一筆本金？",
+      "points":["主張市府每月提撥 1,500 元、鼓勵自存 1,500 元，弱勢每月加碼 3,000 元。","頁面以四年自存與中央兒少政策 36 萬估算 23 歲近 50 萬，並提財商教育、仿勞退運營和退場機制。","頁面估算每年 18–19 億、約 10 萬青年，但設籍、存款、基金治理和財源待設計。"],
+      "source_refs":[{"unit_id":"u0007","doc_id":"d0007","url":"https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／第一項｜城市青年基金","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"鼓勵自存 1,500 元"}],
+      "eligibility":"shareable","possible_duplicates":["青年如何免先墊款取得跨模型 AI 工具？","青年如何把海外學習與創業、市政實作接回台北？"]
+    },
+    {
+      "working_title":"青年如何免先墊款取得跨模型 AI 工具？",
+      "question":"AI 訂閱和核銷門檻，如何讓學生、求職者和創業者公平使用？",
+      "points":["青年政策提出跨模型、跨平台平台和教育錢包，按量結算、免先付款、免紙本申請。","青年頁面列基本 300 元、課程 500–1,000 元、專案 2,000–10,000 元；AI 頁另列弱勢基本 500 元、月底歸零。","第一期 18–25 歲學生，第二期 18–45 歲職場市民，並納入台灣 AI 新創。"],
+      "source_refs":[{"unit_id":"u0007","doc_id":"d0007","url":"https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／第二項｜青年 AI 使用支持方案","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"建立AI教育錢包，免先墊款、免紙本申請"},{"unit_id":"u0013","doc_id":"d0013","url":"https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／第一項｜青年 AI 基本使用權","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"無須先付款再核銷"}],
+      "eligibility":"shareable","possible_duplicates":["學生如何公平使用 AI 並兼顧校園安全？"]
+    },
+    {
+      "working_title":"學生如何公平使用 AI 並兼顧校園安全？",
+      "question":"校園 AI 資源如何降低家庭差距，同時建立帳號、課堂和教師陪同的安全邊界？",
+      "points":["主張市府補助學校採購教育版 AI，使用機會不取決於家庭能否買付費工具。","限定校管帳號、課堂時段和教師在場，把理解、使用和判斷 AI 納入素養。","這是學校場域規則，與青年錢包及 AI 公共平台相互關聯但非同一方案。"],
+      "source_refs":[{"unit_id":"u0002","doc_id":"d0002","url":"https://puma.taipei/policies/%E6%95%99%E8%82%B2%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／七｜讓AI成為教育資源","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"透過校管帳號、限定課堂時段與教師在場"}],
+      "eligibility":"shareable","possible_duplicates":["青年如何免先墊款取得跨模型 AI 工具？"]
+    },
+    {
+      "working_title":"45 歲以上市民如何把既有經驗接上 AI 轉職或創業？",
+      "question":"中高齡工作者要如何盤點能力、重設職務，並取得帶薪轉職或創業支持？",
+      "points":["主張由專業人士提供職涯健檢，透過產業公約聯合企業、做職務再設計和帶薪轉職／實習補貼。","另主張就業媒合和社會服務、醫事照護等社會企業創業利息補貼。","頁面未列企業名單、補貼上限、資格和期程。"],
+      "source_refs":[{"unit_id":"u0013","doc_id":"d0013","url":"https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／第二項｜中高齡創業轉職支持","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"提供由專業人士協助的職涯健檢"}],
+      "eligibility":"shareable","possible_duplicates":["中壯年和照顧者如何得到心理與健康支持？"]
+    },
+    {
+      "working_title":"北士科與台北研究院要如何把 AI 研究接到城市生活？",
+      "question":"科技聚落的能源、交通、研究和生活機能，如何和城市治理而非只和園區招商連結？",
+      "points":["北士科星群主張變電站與公車充電站雙站合一，串接捷運、接駁、人行、自行車和彈性上下班。","規劃數位孿生、地底膠囊、智慧垃圾、人才科技宅、無人載具、數位圖書館六大沙盒。","台北研究院優先做 AI 數位政策、都市發展、交通運輸、教育與照護四類研究。"],
+      "source_refs":[{"unit_id":"u0013","doc_id":"d0013","url":"https://puma.taipei/policies/AI%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／第三項、第四項","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"推動變電站與公車充電站「雙站合一」"}],
+      "eligibility":"shareable","possible_duplicates":["國際城市交流如何轉成台北的交通、住宅與降溫服務？"]
+    },
+    {
+      "working_title":"青年如何把海外學習與創業、市政實作接回台北？",
+      "question":"青年走向國際後，哪些資金、實習、提案和創業支持能讓經驗回到城市？",
+      "points":["圓夢計畫主張銜接中央海外基金，支持海外提案、市政實習、公共參與和台北研究院合作。","提供創業諮詢、培訓、場地和基金，並以無限城與市民外交官擴大國際連結。","頁面估算 8 年 20 億，申請評選、名額、回饋和年度期程未列。"],
+      "source_refs":[{"unit_id":"u0007","doc_id":"d0007","url":"https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96","section_or_timestamp":"## 04｜政策內容／第三項｜台北青年圓夢計畫","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"串聯海外學習、市政參與與創業實作"}],
+      "eligibility":"shareable","possible_duplicates":["國際城市交流如何轉成台北的交通、住宅與降溫服務？"]
+    },
+    {
+      "working_title":"不去大型場館，長者與行動不便者如何在家附近運動？",
+      "question":"場館太遠、太擠或河濱不好到時，如何把運動送到社區和行程空檔？",
+      "points":["主張社區運動小巴主動服務因距離或移動不便而放棄運動者，提供指導和營養諮詢。","每區盤點閒置空間，新增 3–5 處特色據點，改造畸零地、口袋公園與河濱設施。","捷運站旁、登山口設運動驛站，把運動放進通勤和生活空檔。"],
+      "source_refs":[{"unit_id":"u0008","doc_id":"d0008","url":"https://puma.taipei/policies/%E9%81%8B%E5%8B%95%E6%94%BF%E7%AD%96","section_or_timestamp":"## 03｜政策目標；## 04｜政策內容／社區運動小巴","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"建立延伸到各地的「社區運動小巴」"}],
+      "eligibility":"shareable","possible_duplicates":["文化遺跡與山林步道如何串成市民走得到的路線？"]
+    },
+    {
+      "working_title":"每月 600 點的親子同行卡要如何讓文化、運動與閱讀真的用得上？",
+      "question":"家庭補助要變成一起看展、運動、共讀和學溝通的日常，點數和合作場域如何設計？",
+      "points":["主張設籍台北 0–18 歲兒少每人每月 600 點，透過文化幣、運動幣、閱讀禮袋和家庭教育點數支持共同參與。","規劃 0 歲出生袋、2 歲語言袋、5 歲入學袋，讓獨立書店、小劇場、社區小店和在地活動加入認證。","政策頁保留點數折抵、期限、配置、經費和上路時間待確認，並提與敬老卡銜接祖孫同行。"],
+      "source_refs":[{"unit_id":"u0011","doc_id":"d0011","url":"https://puma.taipei/policies/%E8%A6%AA%E5%AD%90%E5%90%8C%E8%A1%8C%E5%8D%A1","section_or_timestamp":"## 01｜政策摘要；## 04｜政策內容；## 06｜推動藍圖","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"每人每月提供 600 點"}],
+      "eligibility":"needs_verification","possible_duplicates":["育兒家庭能否從一個入口取得臨托、到宅與心理支持？"]
+    },
+    {
+      "working_title":"國際城市交流如何轉成台北的交通、住宅與降溫服務？",
+      "question":"城市外交如何從首長拜會變成基層公務員、研究團隊和市民看得到的政策改變？",
+      "points":["主張無限城拓展地方政府、議員、智庫、企業與僑界合作，聚焦可負擔住宅、都市降溫、交通安全和人才培育。","提出基層公務員長達半年的互換交流，但沒有確定對象、名額或辦法。","建議行政法人台北研究院承接都市、AI、交通、長照和兒少安全長期研究，借鏡國際案例做台北示範。"],
+      "source_refs":[{"unit_id":"u0015","doc_id":"d0015","url":"https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4","section_or_timestamp":"## 01｜政策摘要；## 04｜政策內容；## 06｜推動藍圖","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"國際交流，不能只是首長帶團出訪"}],
+      "eligibility":"shareable","possible_duplicates":["青年如何把海外學習與創業、市政實作接回台北？","北士科與台北研究院要如何把 AI 研究接到城市生活？"]
+    },
+    {
+      "working_title":"訪美與海外合作的現況主張哪些可被核實？",
+      "question":"政策頁提到的訪美交流、人才互換和產業投資，是完成的事、討論中的構想，還是未來政策？",
+      "points":["頁面自述沈伯洋訪美期間與紐澤西州長討論人才互換、產業投資和可負擔住宅。","同頁把海外人才與產業合作寫成後續建立管道的主張，未提供會議紀錄、承諾或執行結果。","這是國際公共議題／人物活動資訊，應與城市外交方案分開核對。"],
+      "source_refs":[{"unit_id":"u0015","doc_id":"d0015","url":"https://puma.taipei/policies/%E5%9F%8E%E5%B8%82%E5%A4%96%E4%BA%A4","section_or_timestamp":"## 04｜政策內容／串聯海外人才與產業合作；## 06｜推動藍圖","speaker":"官方政策頁自述／沈伯洋訪美活動","support_excerpt":"與紐澤西州長討論人才互換"}],
+      "eligibility":"context","possible_duplicates":["國際城市交流如何轉成台北的交通、住宅與降溫服務？"]
+    },
+    {
+      "working_title":"免費午餐如何同時守住餐桌平權與供餐品質？",
+      "question":"免費是共同底線時，餐費彈性、弱勢價差、食安和食農教育如何一起運作？",
+      "points":["主張營養午餐專法規範餐費、營養、食安、食材來源和教育內容。","餐費可依原物料、天災和供需調整；全校加價提升品質時，市府補弱勢價差。","主張和在地小農合作，把食農教育與飲食素養教材納入課程。"],
+      "source_refs":[{"unit_id":"u0016","doc_id":"d0016","url":"https://puma.taipei/policies/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90","section_or_timestamp":"## 01｜政策摘要；## 04｜政策內容","speaker":"官方政策頁／沈伯洋政策主張","support_excerpt":"免費，是讓每個孩子都能吃到午餐"}],
+      "eligibility":"shareable","possible_duplicates":["教師如何減少班級與行政負擔？"]
+    },
+    {
+      "working_title":"HEART 如何把分散政策連回市民的空間、時間與支持？",
+      "question":"五個軸線描述市政生態系時，各軸線的政策關係是什麼、哪些仍只是願景？",
+      "points":["H 是空間、E 是培力與機會、A 是陪伴、R 是韌性與安心、T 是時間。","頁面以住宅、交通、育兒、教育、公務、AI、文化、運動和防災說明政策互牽，不依局處單獨處理。","頁面提出每天多 30 分鐘的願景，沒有量化基準；影音內容在本批未下載。"],
+      "source_refs":[{"unit_id":"u0017","doc_id":"d0017","url":"https://puma.taipei/heart","section_or_timestamp":"H／E／A／R／T 主軸；市政生態系","speaker":"官方 HEART 架構頁／網站編排","support_excerpt":"這就是「市政生態系」"}],
+      "eligibility":"context","possible_duplicates":["政策島如何呈現 16 個主題與跨政策協作？","HEART 如何把空間軸政策互相連結？","HEART 如何把培力與機會軸政策互相連結？"]
+    },
+    {
+      "working_title":"政策島如何呈現 16 個主題與跨政策協作？",
+      "question":"互動政策島的主題數、細項數和協作關係，是政策清單還是導覽介面？",
+      "points":["頁面標示 16 項政策主題、107 個細項和 29 組協作關係，提供官網政見、候選人受訪、城市日誌、任期時間軸和 HEART 導覽。","它是政策導覽索引，不是各 policy_detail 的完整內容，應回到相應來源閱讀。","頁面註明研究院官網沒有 HEART 分類、保留原色，顯示分類可能是網站編排。"],
+      "source_refs":[{"unit_id":"u0018","doc_id":"d0018","url":"https://puma.taipei/heart-island","section_or_timestamp":"## 把改變，連起來；CITY LOG","speaker":"官方互動政策島／網站編排","support_excerpt":"16 項政策主題 ／ 107 個細項"}],
+      "eligibility":"context","possible_duplicates":["HEART 如何把分散政策連回市民的空間、時間與支持？"]
+    },
+    {
+      "working_title":"網站人物故事呈現的育兒與家庭時間壓力（context）",
+      "question":"測驗頁如何描述工作、托育、交通和親子活動成本交疊的家庭困境？",
+      "points":["林怡君故事寫到臨時加班、延托接送死線、通學路違停與危險駕駛，以及想帶孩子運動、學才藝、看展卻受費用與時間限制。","結果卡把情境連到親子同行卡、家庭一站通、臨托、人本交通和青年／熟齡支持，但推薦卡不是人物本人提出的政策。","故事不可推論發生比例或代表台北家庭整體。"],
+      "source_refs":[{"unit_id":"u0019","doc_id":"d0019","url":"https://puma.taipei/heart/quiz/1","section_or_timestamp":"林怡君人物故事／結果頁","speaker":"網站人物故事（林怡君）","support_excerpt":"生活根本沒有喘息餘地"}],
+      "eligibility":"context","possible_duplicates":["育兒家庭能否從一個入口取得臨托、到宅與心理支持？","每月 600 點的親子同行卡要如何讓文化、運動與閱讀真的用得上？"]
+    },
+    {
+      "working_title":"網站人物故事呈現的高齡行動與照顧負擔（context）",
+      "question":"測驗頁如何描述老宅、街道障礙、就醫陪伴和三代照顧的壓力？",
+      "points":["黃劉秀英故事寫到老宅無電梯、騎樓和人行道障礙、生活圈縮小，以及不想每件事都以求助開頭。","張淑芬故事寫到同時照顧父母、孫子、工作和家務，陪長輩就醫並擔心長輩孤單。","結果卡連到老宅延壽、社區共照、在宅醫療、敬老卡和疫苗，但故事不是政策成效或民調。"],
+      "source_refs":[{"unit_id":"u0020","doc_id":"d0019","url":"https://puma.taipei/heart/quiz/1","section_or_timestamp":"黃劉秀英人物故事／結果頁","speaker":"網站人物故事（黃劉秀英）","support_excerpt":"騎樓停滿機車、人行道被違停佔據"},{"unit_id":"u0020","doc_id":"d0019","url":"https://puma.taipei/heart/quiz/1","section_or_timestamp":"張淑芬人物故事／結果頁","speaker":"網站人物故事（張淑芬）","support_excerpt":"顧完老的顧小的，還要顧另一半"}],
+      "eligibility":"context","possible_duplicates":["長者與照顧者如何在熟悉生活圈得到長照？","身障者與女性如何在公共空間獲得平權支持？"]
+    },
+    {
+      "working_title":"網站人物故事呈現的青年工作與 AI 進修壓力（context）",
+      "question":"測驗頁如何描述青年通勤、職場耗損、學習成本和海外發展選擇？",
+      "points":["鄭翼樺故事寫到長通勤、加班、接近公車事故、想考證照和追上 AI 但課程昂貴，也缺少就近運動空間。","結果卡連到 AI 錢包、青年圓夢、TPASS、運動驛站、彈性工時和登山觀光城。","人物故事與互動反應沒有抽樣方法或身分驗證，只能作需求情境。"],
+      "source_refs":[{"unit_id":"u0020","doc_id":"d0019","url":"https://puma.taipei/heart/quiz/1","section_or_timestamp":"鄭翼樺人物故事／結果頁","speaker":"網站人物故事（鄭翼樺）","support_excerpt":"拿個證照比較能有好 offer"}],
+      "eligibility":"context","possible_duplicates":["青年如何免先墊款取得跨模型 AI 工具？","青年如何把海外學習與創業、市政實作接回台北？"]
+    },
+    {
+      "working_title":"網站人物故事呈現的創作者、小店與城市空間壓力（context）",
+      "question":"測驗頁如何描述商圈、租金、活動場地和創業市場對小型經營者的影響？",
+      "points":["汪建宏故事寫到小店人力、租金、商圈沒落、居民與商家衝突，以及希望兼顧居民、商家和年輕人的規劃。","佟冬雨故事寫到接案租金、獨立書店、藝術企劃場地和戶外藝文活動不足，也擔心小品牌離開台北。","邱爾瑜故事寫到 AI 新創找客戶、聘人、辦公室租金和國際市場壓力；這些不是產業統計。"],
+      "source_refs":[{"unit_id":"u0019","doc_id":"d0019","url":"https://puma.taipei/heart/quiz/1","section_or_timestamp":"汪建宏人物故事／結果頁","speaker":"網站人物故事（汪建宏）","support_excerpt":"租金一直漲，整間店加我也就兩個人"}],
+      "eligibility":"context","possible_duplicates":["青年如何把海外學習與創業、市政實作接回台北？","北士科與台北研究院要如何把 AI 研究接到城市生活？"]
+    },
+    {
+      "working_title":"網站人物故事呈現的山林、熱島與文化使用經驗（context）",
+      "question":"測驗頁如何描述樹蔭、步道質地、接駁和文化路線的日常使用？",
+      "points":["陳世昌故事寫到夏季缺樹蔭、缺休憩位置、步道水泥化、路線斷裂、接駁不便和指標不清。","同一人物把山徑視為認識台北歷史與產業的課本，期待捷運、公車、山徑和河濱互連。","這些文字不是步道調查、熱島測量或市民偏好統計。"],
+      "source_refs":[{"unit_id":"u0019","doc_id":"d0019","url":"https://puma.taipei/heart/quiz/1","section_or_timestamp":"陳世昌人物故事／結果頁","speaker":"網站人物故事（陳世昌）","support_excerpt":"大多數路段沒有樹蔭"}],
+      "eligibility":"context","possible_duplicates":["文化遺跡與山林步道如何串成市民走得到的路線？","台北的樹蔭由誰養、如何監測並讓修剪木料再利用？"]
+    },
+    {
+      "working_title":"HEART 如何把空間軸政策互相連結？",
+      "question":"空間軸索引把都更、交通、文化徑、微森林、運動和水域放在一起時，各自保留哪些問題？",
+      "points":["H 軸列都更、交通、文化徑×山林徑、都市微森林、運動和水域，不應視為一個政策。","索引另標示時間、陪伴、機會和韌性，顯示網站交叉編排。","實質主張應回到 u0001、u0003、u0005、u0006、u0008、u0012 正文。"],
+      "source_refs":[{"unit_id":"u0021","doc_id":"d0020","url":"https://puma.taipei/policy/heart/h","section_or_timestamp":"HEART 空間軸索引","speaker":"官方 HEART 分類頁／網站編排","support_excerpt":"空間，順起來 陪伴，不孤單"}],
+      "eligibility":"context","possible_duplicates":["HEART 如何把分散政策連回市民的空間、時間與支持？"]
+    },
+    {
+      "working_title":"HEART 如何把培力與機會軸政策互相連結？",
+      "question":"培力與機會軸索引把教育、社福、青年、運動、AI、客家和城市外交放在一起時，各自保留哪些問題？",
+      "points":["E 軸列教育、社福、青年、運動、AI、客家和城市外交，交叉標示陪伴、韌性、時間和空間。","索引可作導覽，但不能取代各政策的條件、數字與 caveats。","實質主張應回到 u0002、u0004、u0007、u0008、u0013、u0014、u0015 正文。"],
+      "source_refs":[{"unit_id":"u0022","doc_id":"d0021","url":"https://puma.taipei/policy/heart/e","section_or_timestamp":"HEART 培力與機會軸索引","speaker":"官方 HEART 分類頁／網站編排","support_excerpt":"機會，給出來 陪伴，不孤單"}],
+      "eligibility":"context","possible_duplicates":["HEART 如何把分散政策連回市民的空間、時間與支持？"]
+    }
+  ]
+}

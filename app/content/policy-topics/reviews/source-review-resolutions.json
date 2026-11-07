@@ -1,0 +1,46 @@
+{
+  "reviewed_batches": [
+    "b",
+    "c"
+  ],
+  "status": "applied",
+  "changes": [
+    {
+      "topic_id": "t031",
+      "action": "added u0086 proof and matching URL"
+    },
+    {
+      "topic_id": "t032",
+      "action": "added u0089 proof and matching URL"
+    },
+    {
+      "topic_id": "t034",
+      "action": "added u0166 proof and matching URL"
+    },
+    {
+      "topic_id": "t035",
+      "action": "added u0250 proof and matching URL"
+    },
+    {
+      "topic_id": "t035",
+      "action": "added u0012 proof and matching URL"
+    },
+    {
+      "topic_id": "t040",
+      "action": "added u0401 proof and matching URL"
+    },
+    {
+      "topic_id": "t048",
+      "action": "added u0108 proof and matching URL"
+    },
+    {
+      "topic_id": "t049",
+      "action": "added u0282 proof and matching URL"
+    }
+  ],
+  "notes": [
+    "學校場地開放實際引文在u0119，非審查報告建議的u0118。",
+    "不同訪談補充拆段引用；分享稿保留最多兩個真正支持正文的來源。",
+    "不增加資格、地點或時程待補套話。"
+  ]
+}

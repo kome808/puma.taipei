@@ -1,0 +1,407 @@
+{
+  "batch_id": "b19",
+  "read_units": [
+    {
+      "unit_id": "u0249",
+      "doc_id": "d0118",
+      "start": 0,
+      "end": 3731,
+      "sha256": "f157131acff9fc703e20f016065a694c601407cea01a16c4bddee89a4e2f294b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0250",
+      "doc_id": "d0119",
+      "start": 0,
+      "end": 5999,
+      "sha256": "7d41a0ecc4306ced6578796e6cfdc26a2bd35567838db10499b96c8b42365ad2",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0251",
+      "doc_id": "d0119",
+      "start": 5999,
+      "end": 10682,
+      "sha256": "b87426269985133642dfae08bb1c8fc0d6487725fcacecd012f16396c14c5bde",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0252",
+      "doc_id": "d0120",
+      "start": 0,
+      "end": 5996,
+      "sha256": "e7830785e84d1c4eab2fed441e80aa42300429328a0769ec83b2ad56910e54ff",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0253",
+      "doc_id": "d0120",
+      "start": 5996,
+      "end": 7447,
+      "sha256": "f23ae05e06b1986106dfbdad1b93a99c167d15c105d334cb4da0d5ec94ee5477",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0254",
+      "doc_id": "d0121",
+      "start": 0,
+      "end": 5997,
+      "sha256": "a1626192a917e011888007ec423dd1700504eb184d92ef522b6529ef734aa7e0",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0255",
+      "doc_id": "d0121",
+      "start": 5997,
+      "end": 7454,
+      "sha256": "e17352cb8f87b89efb8dc71ef66d5ee1af5721ddb04d87893d68b67d0611d32a",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0256",
+      "doc_id": "d0122",
+      "start": 0,
+      "end": 4191,
+      "sha256": "7cddd83367fba2926e4dacfeabe6429f3d8508c7bad9f1994d8dec2c774252ab",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0257",
+      "doc_id": "d0123",
+      "start": 0,
+      "end": 5986,
+      "sha256": "48c45eef6e39a6e21714bc43bbadc4675a1410c8d37d0463ea80492fc6d4a841",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0258",
+      "doc_id": "d0123",
+      "start": 5986,
+      "end": 11955,
+      "sha256": "79b3b433c732261dd9b305320d1e4f2dba085e85f66c69f6307d23847236a550",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0259",
+      "doc_id": "d0123",
+      "start": 11955,
+      "end": 12360,
+      "sha256": "5ff38ef4d0bb4799ef0890a4211abdfeaa90409e5b09af7cf4577ab2ab0defcb",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0260",
+      "doc_id": "d0124",
+      "start": 0,
+      "end": 5979,
+      "sha256": "6e6c5d1c483ff5f9685cd2fc9922e6128df3ad8725ca9e60e3159ef7939829f2",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0261",
+      "doc_id": "d0124",
+      "start": 5979,
+      "end": 9350,
+      "sha256": "23c50b4d6c1b9335da531e25e4896c93fc55b7822fb336c791d97f16cf96138d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0262",
+      "doc_id": "d0125",
+      "start": 0,
+      "end": 5691,
+      "sha256": "ad4be73bd67dcdfa8f52089783f55f3dc5fe80a4f7cb31b29027256cb6ce1cfa",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0118",
+      "title": "《洋流誌》政策彩皮書：六冊主題、創作者分享與市民之書",
+      "url": "https://puma-hub.pages.dev/articles/ocean-policy-colorbook-2026-10-27/transcript/",
+      "summary": "記者會發布《洋流誌》六冊政策彩皮書，沈伯洋說明政策以文庫本形式轉譯，並將第六冊留作市民書寫願景。稿件亦收錄多位創作者分享。",
+      "attributable_claims": [
+        "沈伯洋說明六冊中前五冊對應五大市政主軸，第六冊留白供市民參與。",
+        "創作者談創作與台灣原創漫畫市場，屬各講者的看法。"
+      ],
+      "caveats": [
+        "媒體問答節錄未逐句影音校對；創作者觀點不等於候選人政策承諾。"
+      ],
+      "topic_keys": [
+        "policy_communication",
+        "cultural_participation"
+      ]
+    },
+    {
+      "doc_id": "d0119",
+      "title": "沈伯洋台北水文化記者會：ABCDE 水治理、城市降溫與歷史水路",
+      "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+      "summary": "水文化記者會文章整理ABCDE五項水治理構想，涵蓋親水、美感、水質、滯洪與生態，並提出水路、文化與城市空間串接。",
+      "attributable_claims": [
+        "沈伯洋提出改善河濱親水入口與動線，串接山林徑、文化徑及都市林。",
+        "ABCDE為親水、美感、潔淨、滯洪、生態五項政策方向。",
+        "水質改善、跨局處/跨縣市協力、在地水路盤點是推動前提；未提出完整預算、期程或可行性資料。"
+      ],
+      "caveats": [
+        "記者會原稿未逐句影音校對；降溫數字、國際案例、地名與工程構想需依原文限制引用。500公尺親水是願景，不代表現有服務涵蓋率。"
+      ],
+      "topic_keys": [
+        "water_culture",
+        "water_quality",
+        "urban_flooding",
+        "public_space"
+      ]
+    },
+    {
+      "doc_id": "d0120",
+      "title": "沈伯洋台北水文化記者會：ABCDE 水治理、城市降溫與歷史水路",
+      "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript/",
+      "summary": "為同場水文化記者會的完整逐字稿附件切片，包含大部分逐字紀錄以及聯訪結尾。與d0119來源相同，不應當作第二筆獨立證據。",
+      "attributable_claims": [
+        "附件按原稿標示發言人與章節，含ABCDE政策說明和媒體提問。"
+      ],
+      "caveats": [
+        "原稿聲稱完整聽打但未逐句聽校；本附件按分段切片，並非獨立來源。"
+      ],
+      "topic_keys": [
+        "water_culture"
+      ]
+    },
+    {
+      "doc_id": "d0121",
+      "title": "「第一個站出來的人」：沈伯洋談國民黨的變化、國會監督與公民行動",
+      "url": "https://puma-hub.pages.dev/articles/zhiding-ep127/",
+      "summary": "2025年3月公民究責活動演講，談政黨變化、國會監督、資訊環境與志工行動。",
+      "attributable_claims": [
+        "沈伯洋以「第一個撿垃圾的人」比喻率先參與公民行動。",
+        "對政黨資源、政治人物動機及假設情境提出分析與警告。"
+      ],
+      "caveats": [
+        "這是特定時點政治演講；政治指控與資源來源未由此稿獨立核實。文中57席為假設情境，並非已發生事件或法律效果。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0122",
+      "title": "「第一個站出來的人」：沈伯洋談國民黨的變化、國會監督與公民行動",
+      "url": "https://puma-hub.pages.dev/articles/zhiding-ep127/transcript/",
+      "summary": "為d0121活動演講的逐字稿附件，保留活動背景、章節、講者及原稿的完整稿件。",
+      "attributable_claims": [
+        "附件記載演講對政黨監督、國會制衡及公民參與的主張。"
+      ],
+      "caveats": [
+        "逐字稿未重新聽校，個別背景、政治指控和數字依源稿保留，不另作查證。與d0121同源。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0123",
+      "title": "市政 debug 松：從十組城市提案，到 AI 教練與公民協作",
+      "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/",
+      "summary": "市政debug松文章整理十組黑客松作品與座談紀要，主題含樹木、垃圾清運、鼠患、交通、老屋、1999及AI工具。",
+      "attributable_claims": [
+        "各組展示的是原型方案，從市民回報到資訊整理和清運流程提出介面構想。",
+        "沈伯洋將資訊易達、內容易懂及市民與市府互動列為方向。",
+        "文章整理其提出台北研究院承接原型與AI教練協助產業轉化工具的構想。"
+      ],
+      "caveats": [
+        "作品是Demo/原型，不是市府採購或已部署服務；座談後段混合媒體整理與發言紀要，應避免將未核對引文與數字寫成逐字承諾。"
+      ],
+      "topic_keys": [
+        "civic_tech",
+        "public_service_reporting",
+        "ai_skills",
+        "research_institute"
+      ]
+    },
+    {
+      "doc_id": "d0124",
+      "title": "市政 debug 松：從十組城市提案，到 AI 教練與公民協作",
+      "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/transcript/",
+      "summary": "為市政debug松原稿全文附件，重載成果Demo並收錄候選人講評、座談及成立程式工作組部分。",
+      "attributable_claims": [
+        "逐字稿前段分別記錄團隊提出垃圾桶、鼠患、交通、都更及1999地圖原型。",
+        "座談紀要記載台北研究院、AI教練與程式工作組等構想。"
+      ],
+      "caveats": [
+        "逐字附件包含非逐句轉錄的報導整理；市民提案與候選人/主持人發言要區分，原型不能視為正式服務。與d0123同源。"
+      ],
+      "topic_keys": [
+        "civic_tech",
+        "public_service_reporting",
+        "ai_skills",
+        "research_institute"
+      ]
+    },
+    {
+      "doc_id": "d0125",
+      "title": "看見縫隙：從橋下空間、城市綠網到台北公共空間治理",
+      "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/",
+      "summary": "公共空間論壇紀錄整理橋下空間、水岸、街區綠網、跨局處協調與沈伯洋回應市民大道廊道、老宅延壽及空間沙盒。",
+      "attributable_claims": [
+        "沈伯洋回應提出市民大道文化廊道與老屋結構補強、屋頂綠化等方向。",
+        "論壇紀要提出跨局處單一窗口與限時小規模空間沙盒的治理呼籲。"
+      ],
+      "caveats": [
+        "全文混合逐字引文與發言摘要，部分講者段落未影音逐句核對；空間沙盒權限、工程安全與資源均無實施細節。"
+      ],
+      "topic_keys": [
+        "public_space",
+        "interagency_governance",
+        "urban_green_network"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "用文學與市民共創轉譯市政政策",
+      "question": "如何讓政策內容更容易閱讀，也留下市民補充城市願景的空間？",
+      "points": [
+        "沈伯洋介紹以六冊文庫本呈現政策，前五冊對應市政主軸，第六冊留白供市民書寫或繪製願景。",
+        "這是選舉團隊的政策溝通與參與方式；文化工作者的評價另屬個人發言。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0249",
+          "doc_id": "d0118",
+          "url": "https://puma-hub.pages.dev/articles/ocean-policy-colorbook-2026-10-27/transcript/",
+          "section_or_timestamp": "候選人致詞",
+          "speaker": "沈伯洋",
+          "support_excerpt": "第六本翻開來，整本是全空白的"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以ABCDE原則整合台北水路與公共空間",
+      "question": "水路治理如何同時回應親水、水質、滯洪、生態及地方文化？",
+      "points": [
+        "記者會提出親水、美感、潔淨、滯洪、生態五項方向，並希望串聯歷史水路、山林徑、文化徑與都市林。",
+        "500公尺內親水被說明為生活願景；沒有現況服務覆蓋率、完整預算或工程期程。",
+        "團隊表示不會全面開蓋，應先改善水質，再評估歷史紋理及適合段落。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0250",
+          "doc_id": "d0119",
+          "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+          "section_or_timestamp": "五項水治理原則",
+          "speaker": "沈伯洋",
+          "support_excerpt": "ABCDE 是選擇與設計水文化空間的五項原則"
+        },
+        {
+          "unit_id": "u0250",
+          "doc_id": "d0119",
+          "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+          "section_or_timestamp": "新生大排媒體提問",
+          "speaker": "沈伯洋",
+          "support_excerpt": "不會採取全線開蓋的做法"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以水質和場址評估決定親水及開蓋順序",
+      "question": "要開放親水活動或調整既有水路前，需先處理哪些條件？",
+      "points": [
+        "受訪者把水質改善列為優先，並表示需考慮高架設施、歷史紋理及文化徑。",
+        "對SUP等水上活動，他將水質、親水空間及台北、新北與中央合作放在推廣前提。",
+        "原稿未提供每一處水域的水質資料、場址評估或開放公告。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0250",
+          "doc_id": "d0119",
+          "url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+          "section_or_timestamp": "水路開蓋提問",
+          "speaker": "沈伯洋",
+          "support_excerpt": "水質改善是首要工作"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "b22水岸治理主題"
+      ]
+    },
+    {
+      "working_title": "將市民科技原型接上正式市政流程",
+      "question": "市民提出的數位原型，如何由展示走到有權責、有維護的公共服務？",
+      "points": [
+        "黑客松各隊展示垃圾桶通報、清運調度、鼠患回報、交通模擬、1999地圖等原型。",
+        "座談紀要記錄以台北研究院作研究、法規、資安與資料整合的承接構想，也提及AI教練協助產業直接使用工具。",
+        "這些是Demo和座談紀要，尚無證據顯示市府採納、部署或編列資源；座談後段未逐句影音校對。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0257",
+          "doc_id": "d0123",
+          "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/",
+          "section_or_timestamp": "候選人講評整理",
+          "speaker": "沈伯洋",
+          "support_excerpt": "資訊找得到、內容看得懂，以及市民與市府能形成雙向互動"
+        },
+        {
+          "unit_id": "u0258",
+          "doc_id": "d0123",
+          "url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/",
+          "section_or_timestamp": "座談台北研究院構想",
+          "speaker": "沈伯洋",
+          "support_excerpt": "當方案在台北研究院與民間協力下驗證成熟後"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以橋下空間和小型綠地補足公共空間網絡",
+      "question": "既有橋下空間、河岸邊緣和街區小綠地，如何成為可用的生活空間？",
+      "points": [
+        "論壇討論把橋下空間改造連到安全、工作與街道關係，也提及小型綠地、水岸和街區綠網。",
+        "沈伯洋回應市民大道藝文廊道、老屋結構補強及屋頂綠化等方向。",
+        "紀錄部分內容是發言摘要，未提供完整工程、用地、消防、維護或法規方案。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0262",
+          "doc_id": "d0125",
+          "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/",
+          "section_or_timestamp": "沈伯洋回應及方案限制",
+          "speaker": "論壇紀要／編者整理",
+          "support_excerpt": "這些在本頁均以論壇提出的政策方向呈現"
+        },
+        {
+          "unit_id": "u0262",
+          "doc_id": "d0125",
+          "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/",
+          "section_or_timestamp": "兩項治理呼籲",
+          "speaker": "論壇紀要／編者整理",
+          "support_excerpt": "以小規模、限時的「空間沙盒」試點"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "把公共參與視為持續監督代表的方式",
+      "question": "政治代表如何面對公民行動與選民對權力運用的追問？",
+      "points": [
+        "演講者以率先撿垃圾者比喻主動參與，並把公民行動連到持續監督政治代表。",
+        "演講中的政治人物評價、資源來源指控和國安情境均為其論述，不能當成市政政策或已核實事實。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0254",
+          "doc_id": "d0121",
+          "url": "https://puma-hub.pages.dev/articles/zhiding-ep127/",
+          "section_or_timestamp": "演講結語／引言",
+          "speaker": "沈伯洋",
+          "support_excerpt": "台灣就是需要一開始撿垃圾的那個"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "batch_id": "b28",
+  "read_units": [
+    {
+      "unit_id": "u0388",
+      "doc_id": "d0191",
+      "start": 119795,
+      "end": 125792,
+      "sha256": "4d603ce8beff39770b5acd17b0096656bfd87d01d7e4b3d17050cbf2778bb7ce",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0389",
+      "doc_id": "d0191",
+      "start": 125792,
+      "end": 131791,
+      "sha256": "68b9f74b07162a3d0d08652e45be457c6cef09ae8413a0ce95423303cea602dc",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0390",
+      "doc_id": "d0191",
+      "start": 131791,
+      "end": 137787,
+      "sha256": "e50920872a27e41e15074c262e7556808503b089e5c3ad159a04f83293e77696",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0391",
+      "doc_id": "d0191",
+      "start": 137787,
+      "end": 143774,
+      "sha256": "855e0ab4defde2fbf3987c29aeb3033589c93b4e6cf81efee309b34a24a5f6c3",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0392",
+      "doc_id": "d0191",
+      "start": 143774,
+      "end": 149760,
+      "sha256": "f9def289173bf0a2ca72a5196c5893c7c352c02433dc024156d02e22045ec07b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0393",
+      "doc_id": "d0191",
+      "start": 149760,
+      "end": 155759,
+      "sha256": "625a4e5558d587c9169534215927b9e8b1cdec0aba59d11146fdbd50a1d00734",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0394",
+      "doc_id": "d0191",
+      "start": 155759,
+      "end": 161743,
+      "sha256": "6177fe117f22b86c67b07406a05b644ed59558068892567eddb41c1d0ade0eb4",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0395",
+      "doc_id": "d0191",
+      "start": 161743,
+      "end": 167737,
+      "sha256": "ffc230767b3a43aad325ec1af29b24554812b8dd8b76ea80658f4b48aad9410b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0396",
+      "doc_id": "d0191",
+      "start": 167737,
+      "end": 172043,
+      "sha256": "8eb01ca8ff3aaa05eb8c7a096f0e357979c2b21bd06ce58ca40835023cdba0ff",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0397",
+      "doc_id": "d0192",
+      "start": 0,
+      "end": 1322,
+      "sha256": "52114d7cac478363a0b3e678bc7704625bddcf9c1663c26df3acd99e38abdaf4",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0398",
+      "doc_id": "d0193",
+      "start": 0,
+      "end": 5725,
+      "sha256": "f78e20a8de3f22f0ba7c19ee22f88f7faf6fbfa7c5a41d547d3d8b10168348b6",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0191",
+      "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+      "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/captions.json",
+      "summary": "工頭堅與沈伯洋對談的原始中文字幕事件，涵蓋光華商場、城市記憶、孤獨、社區連結和多元生活方式。",
+      "attributable_claims": [
+        "字幕事件呈現對談中提及孤獨、Link Worker、Repair Café、敬老卡和文化記憶等內容。"
+      ],
+      "caveats": [
+        "原始字幕事件沒有講者標記，隨附警語要求不得單靠字幕推定發言人；僅能保留對談脈絡，不能當沈伯洋的政策承諾。"
+      ],
+      "topic_keys": [
+        "social_connection",
+        "cultural_memory",
+        "pluralism"
+      ]
+    },
+    {
+      "doc_id": "d0192",
+      "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+      "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/article.md",
+      "summary": "趙少康節目訪談整理頁列出兒少保護、老宅改善、路樹、機場遷建、智慧交通等段落標題。",
+      "attributable_claims": [
+        "文章題目與段落標題概述本集市政提問範圍。"
+      ],
+      "caveats": [
+        "本單元主要是導覽與段落標題，政策細節須以同集逐字稿核對；影音與稿件對應仍待查證。"
+      ],
+      "topic_keys": [
+        "child_protection",
+        "housing",
+        "trees",
+        "airport",
+        "smart_mobility"
+      ]
+    },
+    {
+      "doc_id": "d0193",
+      "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+      "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript.md",
+      "summary": "趙少康訪談的整理摘要及逐字稿開頭片段，涵蓋兒少通報、老宅、路樹、松山機場、智慧交通、運動驛站與毒駕。",
+      "attributable_claims": [
+        "整理摘要記載受訪者提議台北市制定兒虐防制條例並改善通報及社安網。",
+        "提出智慧交通號誌及計程車上客燈號調整方向。",
+        "提出運動驛站以會員實名和定期反針孔掃描降低使用疑慮，並提及校園周邊毒駕臨檢。"
+      ],
+      "caveats": [
+        "政策項目多來自整理者的訪談摘要，逐字稿正文在此批只涵蓋訪談前段；節目原影音與稿件對應及第三方數字均待核。"
+      ],
+      "topic_keys": [
+        "child_protection",
+        "housing",
+        "trees",
+        "airport",
+        "smart_mobility",
+        "fitness",
+        "drug_driving"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "建立兒少受虐通報與防制制度",
+      "question": "台北市如何更早辨識兒少受虐風險並串接保護資源？",
+      "points": [
+        "訪談整理摘要記錄受訪者主張市府不要只等待中央修法，可先制定兒虐防制條例。",
+        "所述方向包括社工扶助、通報安全網、居家托育及校園通報監視器SOP；細節與法規權限尚待檢視。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0398",
+          "doc_id": "d0193",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript.md",
+          "section_or_timestamp": "摘要：兒少保護段落",
+          "speaker": "編者整理的受訪摘要",
+          "support_excerpt": "由台北市率先制定《兒虐防制條例》"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以都市微森林回應路樹移除爭議",
+      "question": "路樹調整時如何同時照顧居民意見與城市綠意？",
+      "points": [
+        "訪談摘要將路樹移除爭議與「都市微森林」列為受訪者市政主題。",
+        "本批未包含此段完整問答，具體規劃和居民參與方式需查逐字稿後再整理。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0398",
+          "doc_id": "d0193",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript.md",
+          "section_or_timestamp": "摘要段落標題",
+          "speaker": "編者整理",
+          "support_excerpt": "台北市路樹移除爭議與「都市微森林」政見"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以會員實名和定期檢查維護運動驛站使用安全",
+      "question": "如何讓運動驛站的淋浴空間兼顧便利與使用者對偷拍的安全疑慮？",
+      "points": [
+        "摘要記載運動驛站可設於捷運站外附屬空間、公園或登山口，借鏡東京及首爾的民營模式。",
+        "提出會員實名綁定及專人定期進行反針孔掃描；營運範圍和查核流程未詳。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0398",
+          "doc_id": "d0193",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript.md",
+          "section_or_timestamp": "摘要：運動驛站段落",
+          "speaker": "編者整理的受訪摘要",
+          "support_excerpt": "採會員實名綁定與專人定期反針孔掃描"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以校園周邊熱點臨檢防制毒駕",
+      "question": "如何運用交通執法降低校園周邊毒駕造成的安全風險？",
+      "points": [
+        "訪談摘要記載受訪者主張在校園周邊熱點加強毒駕臨檢，並配合中央打擊毒品來源。",
+        "熱點辨識、執法方式及成效資料未在本單元完整呈現。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0398",
+          "doc_id": "d0193",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/transcript.md",
+          "section_or_timestamp": "摘要：毒駕防制段落",
+          "speaker": "編者整理的受訪摘要",
+          "support_excerpt": "優先於「校園周邊熱點」加強毒駕臨檢"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "以條件檢視松山機場遷建構想",
+      "question": "若討論松山機場遷建，需先處理哪些公共服務替代需求？",
+      "points": [
+        "訪談整理以「有條件支持」並先處理替代需求概述受訪者立場。",
+        "此批僅見議題標題，未讀到國防、救災及離島後送方案細節，不足以推導可行性結論。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0397",
+          "doc_id": "d0192",
+          "url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/article.md",
+          "section_or_timestamp": "段落標題",
+          "speaker": "編者整理",
+          "support_excerpt": "松山機場遷建：有條件支持，先處理替代需求"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "保留孤獨與城市記憶對談的脈絡",
+      "question": "在尚未有逐句講者標記時，如何記錄對談中的城市孤獨與社區連結想法？",
+      "points": [
+        "字幕連續提到Link Worker、Repair Café、長者社群、敬老卡與世代記憶等議題。",
+        "原始字幕沒有可靠逐句講者標籤；只記為對談內容，不能將其中政策想法歸屬沈伯洋。來源筆記雖有姓名標註，屬編者整理而非字幕自身標註。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0388",
+          "doc_id": "d0191",
+          "url": "https://puma-hub.pages.dev/articles/loneliness-city-government/captions.json",
+          "section_or_timestamp": "字幕事件／約31:30",
+          "speaker": "對談未辨識講者",
+          "support_excerpt": "他們叫Repair Café"
+        }
+      ],
+      "eligibility": "context",
+      "possible_duplicates": []
+    }
+  ]
+}

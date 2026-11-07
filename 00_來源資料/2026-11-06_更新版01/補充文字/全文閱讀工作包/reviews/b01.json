@@ -1,0 +1,592 @@
+{
+  "batch_id": "b01",
+  "read_units": [
+    {
+      "unit_id": "u0001",
+      "doc_id": "d0001",
+      "start": 0,
+      "end": 2494,
+      "sha256": "2d1432089cb60aac1b3c6f6a22831dcf46c82d80c6199a689bc2becca679ed67",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0002",
+      "doc_id": "d0002",
+      "start": 0,
+      "end": 1157,
+      "sha256": "debb004719c44dc4098abf54b0ea3d3387b8400381b859cd5bd12985949b0e7b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0003",
+      "doc_id": "d0003",
+      "start": 0,
+      "end": 1183,
+      "sha256": "cea026037c4347eee15de1f10c548360d2f5a8296e0970e53db2d8c13ece6785",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0004",
+      "doc_id": "d0004",
+      "start": 0,
+      "end": 2028,
+      "sha256": "a9396f6037a87a542ad89850d4467ffba9dccd44c73635315859cceb8f28346d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0005",
+      "doc_id": "d0005",
+      "start": 0,
+      "end": 2947,
+      "sha256": "257eaa20d0e2f71c3258846afea271dc57e2c8c1f79655274925249d6931795d",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0001",
+      "title": "20260916-交通政策PDF.pdf",
+      "url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+      "summary": "完整閱讀本附件所有抽出的文字層；內容依PDF頁碼逐頁保留。",
+      "attributable_claims": [
+        "通學區與上下學安全",
+        "公車駕駛工作條件與安全",
+        "迎風港墘跨河自行車橋",
+        "自行車通勤路網與YouBike調度",
+        "TPASS串接共享電動機車"
+      ],
+      "caveats": [
+        "文字層抽取未涵蓋的圖面由獨立視覺閱讀記錄補足。"
+      ],
+      "topic_keys": [
+        "通學區與上下學安全",
+        "公車駕駛工作條件與安全",
+        "迎風港墘跨河自行車橋",
+        "自行車通勤路網與YouBike調度",
+        "TPASS串接共享電動機車"
+      ]
+    },
+    {
+      "doc_id": "d0002",
+      "title": "20260908-文化徑山林徑記者會簡報.pdf",
+      "url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+      "summary": "完整閱讀本附件所有抽出的文字層；內容依PDF頁碼逐頁保留。",
+      "attributable_claims": [
+        "首都文化徑四種城市故事",
+        "三座登山觀光中心與步道接駁"
+      ],
+      "caveats": [
+        "文字層抽取未涵蓋的圖面由獨立視覺閱讀記錄補足。"
+      ],
+      "topic_keys": [
+        "首都文化徑四種城市故事",
+        "三座登山觀光中心與步道接駁"
+      ]
+    },
+    {
+      "doc_id": "d0003",
+      "title": "20260824-簡報N.pdf",
+      "url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+      "summary": "完整閱讀本附件所有抽出的文字層；內容依PDF頁碼逐頁保留。",
+      "attributable_claims": [
+        "都市林的專責治理與人才",
+        "都市微森林與3-30-300目標",
+        "廢木料銀行與循環利用"
+      ],
+      "caveats": [
+        "文字層抽取未涵蓋的圖面由獨立視覺閱讀記錄補足。"
+      ],
+      "topic_keys": [
+        "都市林的專責治理與人才",
+        "都市微森林與3-30-300目標",
+        "廢木料銀行與循環利用"
+      ]
+    },
+    {
+      "doc_id": "d0004",
+      "title": "20260818-簡報.new.pdf",
+      "url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+      "summary": "完整閱讀本附件所有抽出的文字層；內容依PDF頁碼逐頁保留。",
+      "attributable_claims": [
+        "城市青年基金的組成與條件",
+        "青年AI平台與學習錢包",
+        "台北青年圓夢與市民外交"
+      ],
+      "caveats": [
+        "文字層抽取未涵蓋的圖面由獨立視覺閱讀記錄補足。"
+      ],
+      "topic_keys": [
+        "城市青年基金的組成與條件",
+        "青年AI平台與學習錢包",
+        "台北青年圓夢與市民外交"
+      ]
+    },
+    {
+      "doc_id": "d0005",
+      "title": "沈伯洋_運動政策記者會0715.pdf",
+      "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+      "summary": "完整閱讀本附件所有抽出的文字層；內容依PDF頁碼逐頁保留。",
+      "attributable_claims": [
+        "行動健身小巴與營養支持",
+        "巷口運動據點與口袋公園",
+        "河濱運動空間的安全與舒適",
+        "關渡國際足球場",
+        "花博超級運動中心與適應運動",
+        "無限城運動聯盟與交流"
+      ],
+      "caveats": [
+        "文字層抽取未涵蓋的圖面由獨立視覺閱讀記錄補足。"
+      ],
+      "topic_keys": [
+        "行動健身小巴與營養支持",
+        "巷口運動據點與口袋公園",
+        "河濱運動空間的安全與舒適",
+        "關渡國際足球場",
+        "花博超級運動中心與適應運動",
+        "無限城運動聯盟與交流"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "通學區與上下學安全",
+      "question": "孩子走路上學，校園周邊怎麼改善？",
+      "points": [
+        "提出八年完成150所通學區建置、以通學區零死亡為目標。",
+        "減速設施、圍牆退縮與路口設施是簡報列出的做法。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0001",
+          "doc_id": "d0001",
+          "url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+          "section_or_timestamp": "PDF第6–7頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "八年完成150所建置"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "是規劃目標；2024死傷統計與現況比較是簡報所引用資料，未另核實。"
+      ]
+    },
+    {
+      "working_title": "公車駕駛工作條件與安全",
+      "question": "公車安全除了加裝設備，還可以改什麼？",
+      "points": [
+        "薪資補貼與勞動條件掛勾。",
+        "以人因工程整合駕駛座告警；折返點設休息站；重新盤點分區路網。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0001",
+          "doc_id": "d0001",
+          "url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+          "section_or_timestamp": "PDF第9–10頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "導入人因工程，整合告警、減少干擾"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "2.15與4.02為簡報比較的肇事率，不能推成改善後成效。"
+      ]
+    },
+    {
+      "working_title": "迎風港墘跨河自行車橋",
+      "question": "河岸自行車通勤的跨河斷點要怎麼補？",
+      "points": [
+        "提出迎風–港墘自行車專用橋，跨基隆河及堤頂大道。",
+        "簡報列總長340公尺、寬8公尺、經費9.57億元、工期1年10個月，並示意上下橋設備與複合服務空間。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0001",
+          "doc_id": "d0001",
+          "url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+          "section_or_timestamp": "PDF第14–16頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "迎風–港墘跨基隆河自行車專用橋"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "工程數字為方案簡報所列估計，非招標核定或完工保證；不能和明治橋混為同一座。"
+      ]
+    },
+    {
+      "working_title": "自行車通勤路網與YouBike調度",
+      "question": "不是假日騎車的人，平常上班能獲得哪些支援？",
+      "points": [
+        "改善河岸鋪面、標線、照明、指標及越堤動線。",
+        "補公共自行車站點、車輛與調度，提出通勤時段YouBike 2.0E前30分鐘免費，搭配置物盥洗租借的驛站。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0001",
+          "doc_id": "d0001",
+          "url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+          "section_or_timestamp": "PDF第17頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "通勤時段 YouBike 2.0E 前 30 分鐘免費"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "時段與對象不能擴大成全時段所有車種免費。"
+      ]
+    },
+    {
+      "working_title": "TPASS串接共享電動機車",
+      "question": "大眾運輸最後一段能不能多一種選擇？",
+      "points": [
+        "提出TPASS持有者每日一定次數、共享電動機車前10分鐘免費。",
+        "公有、委外與民間停車場媒合，合格業者均適用。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0001",
+          "doc_id": "d0001",
+          "url": "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf",
+          "section_or_timestamp": "PDF第18–20頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "持 TPASS 者每日一定次數，前 10 分鐘免費"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "每日次數尚未在此頁寫死，不能編造；屬共享電動機車並非全部機車。"
+      ]
+    },
+    {
+      "working_title": "首都文化徑四種城市故事",
+      "question": "一條路可以怎樣讓人認識不同的台北？",
+      "points": [
+        "文化徑以產業文化遺跡、城市歷史記憶、多元族群敘事、人權民主記憶四主題串聯。",
+        "結合數位服務、跨局處協作與居民說故事。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0002",
+          "doc_id": "d0002",
+          "url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+          "section_or_timestamp": "PDF第5、13–14頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "人權與民主記憶"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "為路徑主題與治理方向，不表示已建成完整導覽產品。"
+      ]
+    },
+    {
+      "working_title": "三座登山觀光中心與步道接駁",
+      "question": "搭捷運去爬山，裝備、洗鞋、導覽和接駁能一起安排嗎？",
+      "points": [
+        "首批提出象山、劍潭山、貓空三處登山觀光中心。",
+        "裝備租借、置物、更衣、洗刷鞋、中英日韓導覽、即時步道及生態導覽資訊。",
+        "以修復取代新建，增接駁連結交通、中心與步道口。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0002",
+          "doc_id": "d0002",
+          "url": "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+          "section_or_timestamp": "PDF第6–7頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "修復代替新建"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "是規劃位置，不能寫成現已開放；未列費用不可自行假設免費。"
+      ]
+    },
+    {
+      "working_title": "都市林的專責治理與人才",
+      "question": "種完樹之後，誰負責長期照顧？",
+      "points": [
+        "副市長層級都市森林委員會、都市林自治條例、維運基金與人才培育。",
+        "與職訓及公協會培養樹醫、園藝工程和管理人才，改革最低標。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0003",
+          "doc_id": "d0003",
+          "url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+          "section_or_timestamp": "PDF第6頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "都市森林維運基金"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "專責、專法、專款、專業為政策設計，不是既存新機關。"
+      ]
+    },
+    {
+      "working_title": "都市微森林與3-30-300目標",
+      "question": "住家看得到樹、走得到公園，規劃如何衡量？",
+      "points": [
+        "簡報寫3棵可見樹木、20%樹覆率加30%綠覆率、300公尺內綠蔭公園。",
+        "圍牆退縮從大學開始、保留根域、動態健康履歷與傾斜監測。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0003",
+          "doc_id": "d0003",
+          "url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+          "section_or_timestamp": "PDF第5、7頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "3棵可見樹木、20%樹覆率+30%綠覆率"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "不要將樹覆率、綠覆率混同，也不要將此地方版本直接寫成國際定義。"
+      ]
+    },
+    {
+      "working_title": "廢木料銀行與循環利用",
+      "question": "修剪或移除的木材，能否留下來再利用？",
+      "points": [
+        "成立廢木料銀行，公共設施先用再製木，串接新創學術研發。",
+        "可研發土壤、建材，高階商品；生質能是最後選項。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0003",
+          "doc_id": "d0003",
+          "url": "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+          "section_or_timestamp": "PDF第9頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "成立廢木料銀行"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "不能把生質能發電說成首要做法。"
+      ]
+    },
+    {
+      "working_title": "城市青年基金的組成與條件",
+      "question": "22歲約50萬元的起步金，是怎麼算出來的？",
+      "points": [
+        "18至22歲台北青年市府每月1500元，四年7.2萬，鼓勵同步自存。",
+        "簡報以中央36萬、市府7.2萬、個人7.2萬合計約50萬加投資收益；弱勢月提撥3000元。",
+        "領取有居住年限與財商教育；重大犯罪退個人本金的退場設計。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0004",
+          "doc_id": "d0004",
+          "url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+          "section_or_timestamp": "PDF第4–9頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "中央累積   36萬"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "50萬包含中央階段與個人自存且不保證投資收益；中央部分是構想引用，未在本次驗證是否已施行。"
+      ]
+    },
+    {
+      "working_title": "青年AI平台與學習錢包",
+      "question": "想學AI但不想先墊款或只能選兩個工具，提了什麼做法？",
+      "points": [
+        "統一入口跨平台跨模型，可用算力、按量結算並每月儲值。",
+        "三級支持：基本學習月300元、課程月500至1000元、專題創業2000至10000元。",
+        "市府管理token、集中議價與資安，可納入台灣AI新創。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0004",
+          "doc_id": "d0004",
+          "url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+          "section_or_timestamp": "PDF第10–15頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "跨模型×跨平台×有算力"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "第三級原頁未標月字，不能與前兩級一律推成每月；現行補助比較是發表當時的說法。"
+      ]
+    },
+    {
+      "working_title": "台北青年圓夢與市民外交",
+      "question": "青年出國的經驗怎麼回到城市生活？",
+      "points": [
+        "提出八年20億圓夢計畫，承接中央成果、支持自主海外提案。",
+        "結合市政參與與市民外交官，把海外經驗和城市網絡帶回台北。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0004",
+          "doc_id": "d0004",
+          "url": "https://media.puma.taipei/files/81/01M0H20QPRY7WW4KDG0AAS85V6.pdf",
+          "section_or_timestamp": "PDF第16–18頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "八年20億，挺夢成真"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "八年為整體計畫期間，非每年20億元。"
+      ]
+    },
+    {
+      "working_title": "行動健身小巴與營養支持",
+      "question": "運動場館比較遠的人，能不能在社區動一動？",
+      "points": [
+        "行動健身小巴巡迴日照、長照、里民活動中心、公園與廟埕。",
+        "結合低衝擊器材、專業運動指導、營養諮詢與健康追蹤。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0005",
+          "doc_id": "d0005",
+          "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+          "section_or_timestamp": "PDF第5–6頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "運動結合營"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "是服務政策，未證實能治療或逆轉肌少症，不能衍生醫療療效。"
+      ]
+    },
+    {
+      "working_title": "巷口運動據點與口袋公園",
+      "question": "家附近能不能多一些小型運動場地？",
+      "points": [
+        "提出每區新增3至5處特色運動據點，盤點公有閒置空間。",
+        "畸零地口袋公園與既有公園改善，專業和使用者共同規劃。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0005",
+          "doc_id": "d0005",
+          "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+          "section_or_timestamp": "PDF第7頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "每區新增 3–5 處特色運動據點"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "是每區目標，並非已公告各點位置。"
+      ]
+    },
+    {
+      "working_title": "河濱運動空間的安全與舒適",
+      "question": "晚上去河濱運動，照明、廁所與回程怎麼辦？",
+      "points": [
+        "夜間照明、人車分流、巡查與AED；遮陽休息、寄物換衣及固定廁所維護。",
+        "改善公共運輸到水門的可近性。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0005",
+          "doc_id": "d0005",
+          "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+          "section_or_timestamp": "PDF第8頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "行人跑者與自行車"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "安全改善提案不等於各處已達標或保證無風險。"
+      ]
+    },
+    {
+      "working_title": "關渡國際足球場",
+      "question": "台北的足球訓練與賽事，是否需要專用場地？",
+      "points": [
+        "優先關渡選址國際足球場，兼顧國際、職業、訓練與全民運動。",
+        "保留未來擴充其他運動場地的可能。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0005",
+          "doc_id": "d0005",
+          "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+          "section_or_timestamp": "PDF第9頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "優先選址關渡"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "優先選址不等於已取得用地或環評工程許可。"
+      ]
+    },
+    {
+      "working_title": "花博超級運動中心與適應運動",
+      "question": "熱門球場難訂、新興與適應運動缺場地，怎麼補？",
+      "points": [
+        "增加羽球、籃排球、游泳、健身、攀岩與教室。",
+        "兼顧匹克球、兒童體適能、射擊及適應運動；保留原新創基地。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0005",
+          "doc_id": "d0005",
+          "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+          "section_or_timestamp": "PDF第5、10頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "新場館保留原新創基地"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "與既有市民或新創功能共存，不可說成全面清空原場域。"
+      ]
+    },
+    {
+      "working_title": "無限城運動聯盟與交流",
+      "question": "城市運動交流除了辦比賽，能如何持續？",
+      "points": [
+        "建立聯盟城市常態賽事、邀球隊來台熱身與移訓。",
+        "結合青年海外實習交流與不同性別、年齡族群的運動參與。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0005",
+          "doc_id": "d0005",
+          "url": "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+          "section_or_timestamp": "PDF第11頁",
+          "speaker": "官方政策簡報",
+          "support_excerpt": "建立無限城運動聯盟"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [],
+      "caveats": [
+        "聯盟為主張，未在本次確認哪些城市已正式加入。"
+      ]
+    }
+  ]
+}

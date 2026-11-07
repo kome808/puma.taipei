@@ -1,0 +1,547 @@
+{
+  "batch_id": "b20",
+  "read_units": [
+    {
+      "unit_id": "u0263",
+      "doc_id": "d0125",
+      "start": 5691,
+      "end": 11104,
+      "sha256": "64847a76bf9e0d3538da322e90e41fedae6505054ced9dcf9edecbe946ad6961",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0264",
+      "doc_id": "d0126",
+      "start": 0,
+      "end": 5788,
+      "sha256": "9143f8b2ec405b31a0f5a66e5c7721f5319a6fde098b1498ae4e96aa94ff5eb0",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0265",
+      "doc_id": "d0126",
+      "start": 5788,
+      "end": 8831,
+      "sha256": "586b30b25b0486f18a8c665e124466b01afe5e22d7b7d7d9008cbaae82153e6e",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0266",
+      "doc_id": "d0127",
+      "start": 0,
+      "end": 1896,
+      "sha256": "24b67d3bceccd20cd3f7f8de6a996b961d3facee2e892b8969b28bf46404b192",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0267",
+      "doc_id": "d0128",
+      "start": 0,
+      "end": 6000,
+      "sha256": "3ec3b4c60a09745b12faf17b8eb73c42f9757a947c4d8a12620a1cb7dec9528c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0268",
+      "doc_id": "d0128",
+      "start": 6000,
+      "end": 9433,
+      "sha256": "d1e422c50b894bdcc46bd81ad4b88055fcbe8bd64d41ca243248a8505ba6f6e9",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0269",
+      "doc_id": "d0129",
+      "start": 0,
+      "end": 4644,
+      "sha256": "37babe621d8921d1143961120c6306ab5787e22b9b80caf133b4cc0c415f43fb",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0270",
+      "doc_id": "d0130",
+      "start": 0,
+      "end": 6000,
+      "sha256": "8f5ceaafd6fef00aed2624a280f1687928ad30246ccf1abda867adbfbf089bfe",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0271",
+      "doc_id": "d0130",
+      "start": 6000,
+      "end": 6520,
+      "sha256": "b245cbf217a6f94f9d35e7255601377a16d9b24dc9307b6fad2070f7e139bc77",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0272",
+      "doc_id": "d0131",
+      "start": 0,
+      "end": 6000,
+      "sha256": "96dc6a5e3bf4ca0ab3f507e347d812df230b563b34086bf563db9424980a7604",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0273",
+      "doc_id": "d0131",
+      "start": 6000,
+      "end": 7129,
+      "sha256": "cf6c24d6d0b3758f3a729b00f17e7b6053cbf9fa44a373cb249b37aacbf868f7",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0274",
+      "doc_id": "d0132",
+      "start": 0,
+      "end": 5506,
+      "sha256": "5c688a7a5aacbacd99e5b8790a1d0905f6378aa2374e0c0dc975210bd93af1a5",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0275",
+      "doc_id": "d0133",
+      "start": 0,
+      "end": 5718,
+      "sha256": "b7e6d9dca9d2dc0f7de680436739360c48affd173352f0b97d866f9a7bfa341b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0276",
+      "doc_id": "d0134",
+      "start": 0,
+      "end": 6000,
+      "sha256": "94175a9409080d7c4af4ad74821e1fe8a91863afe63569397941fe594a68ed72",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0277",
+      "doc_id": "d0134",
+      "start": 6000,
+      "end": 6472,
+      "sha256": "a79c404c5ae2f68d7e3bb9ab2758ef6a0926bf918f7de08c0e046b5311075d9a",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0125",
+      "title": "看見縫隙：從橋下空間、城市綠網到台北公共空間治理",
+      "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/",
+      "summary": "論壇整理涵蓋建築師提案、沈伯洋回應及主辦方倡議。沈的市民大道文化廊道、老宅延壽等有可辨識段落。",
+      "attributable_claims": [
+        "沈伯洋談市民大道橋下音樂/動漫廊道與老宅延壽",
+        "林洲民等來賓提出各自專業建議。"
+      ],
+      "caveats": [
+        "論壇紀要含重點整理，非逐句轉錄；行政單一窗口等部分是共同/來賓倡議。"
+      ],
+      "topic_keys": [
+        "public-space-culture"
+      ]
+    },
+    {
+      "doc_id": "d0126",
+      "title": "看見縫隙：從橋下空間、城市綠網到台北公共空間治理",
+      "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/transcript/",
+      "summary": "與d0125同場論壇的逐字紀錄及摘要，包含會前媒體問答、五位建築師短講、沈伯洋政策回應與共同呼籲。",
+      "attributable_claims": [
+        "沈伯洋提出市民大道音樂、動漫廊道及老宅延壽方向",
+        "蔡漢霖及建築師另有各自發言。"
+      ],
+      "caveats": [
+        "與d0125同源；論壇多段為整理，且「兩大呼籲」標為主辦方與沈共同提出。"
+      ],
+      "topic_keys": [
+        "public-space-culture"
+      ]
+    },
+    {
+      "doc_id": "d0127",
+      "title": "台北大洋流：競選總部開箱，「洋流號」正式啟航",
+      "url": "https://puma-taipei-ocean-current.pages.dev/",
+      "summary": "競選總部和「台北大洋流」活動說明，介紹競選總部作為市民客廳、車掃、市政開講、LINE船員證等。",
+      "attributable_claims": [
+        "沈伯洋將洋流描述為結合政策與市民參與的競選活動。"
+      ],
+      "caveats": [
+        "頁面多為記者會整理及功能說明，不是逐字稿或具體市政承諾。"
+      ],
+      "topic_keys": [
+        "campaign-context"
+      ]
+    },
+    {
+      "doc_id": "d0128",
+      "title": "兒少環境聯合倡議：請求書當面遞給市長候選人",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-27",
+      "summary": "兒少環境團體遞交菸蒂及衣物永續請求，並記錄沈伯洋致詞、簽署及淨園行動。",
+      "attributable_claims": [
+        "沈伯洋主張建立市民溝通平台、讓公民成為環境利害關係人，並簽署團體請求書。"
+      ],
+      "caveats": [
+        "請求書各項政策由兒少團體提出，不能歸為沈伯洋自行提出或視為已採納。"
+      ],
+      "topic_keys": [
+        "environmental-co-governance",
+        "youth-proposals"
+      ]
+    },
+    {
+      "doc_id": "d0129",
+      "title": "影視音產業對談：打造一座內容城市",
+      "url": "https://puma-transcript.pages.dev/article/",
+      "summary": "影視音產業座談整理，含八位業者建言與沈伯洋回應。",
+      "attributable_claims": [
+        "沈伯洋談內容主權、利用既有空間播映、文化消費誘因、北流及Livehouse等。"
+      ],
+      "caveats": [
+        "來賓提出的產業建議與沈伯洋回應需分開；原稿對現況與產業數據未另驗。"
+      ],
+      "topic_keys": [
+        "content-industry",
+        "music-spaces"
+      ]
+    },
+    {
+      "doc_id": "d0130",
+      "title": "一場沒有下課鐘的口試：八位學者問我台北",
+      "url": "https://puma-scholars-2026.u8901006.workers.dev/",
+      "summary": "八位學者即席提問的第一人稱改寫整理，從文化歷史、AI、市政公平、官僚治理談到生技、語言、步道與城市外交。",
+      "attributable_claims": [
+        "整理稿記載沈伯洋提出歷史廊道、局處AI教練、台北研究院、世代公平審查、青年參與與手作步道等方向。"
+      ],
+      "caveats": [
+        "編者明示依口述重編為第一人稱、節錄潤飾，非本人親筆或逐字稿；政策細節應回原影音確認。"
+      ],
+      "topic_keys": [
+        "city-research",
+        "youth-fairness",
+        "culture-trails"
+      ]
+    },
+    {
+      "doc_id": "d0131",
+      "title": "市長你給我聽好了：西門町街頭，市民直接問",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23",
+      "summary": "西門町街講逐字整理，兩位市民分別問候選人信任與道路標線/交通規劃。",
+      "attributable_claims": [
+        "沈伯洋以制度防弊回應信任問題，並承諾重整標線、完成國小學區交通改善。"
+      ],
+      "caveats": [
+        "民眾提出的交通批評屬提問者；承諾與數字屬沈伯洋於街講的說法。"
+      ],
+      "topic_keys": [
+        "street-markings",
+        "school-safety"
+      ]
+    },
+    {
+      "doc_id": "d0132",
+      "title": "從個案到一般民眾：中國長臂管轄與跨國鎮壓風險",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2025-10-30",
+      "summary": "外交國防委員會質詢整理中國跨境鎮壓及長臂管轄，並分開呈現沈伯洋主張與官員說明。",
+      "attributable_claims": [
+        "沈伯洋談個人案件可能擴及一般人的風險",
+        "官員補充機關資源、外交保護及引渡原則。"
+      ],
+      "caveats": [
+        "國會外交國防議題，不是台北市政方案；法律判斷保持發言歸屬。"
+      ],
+      "topic_keys": [
+        "context-national-security"
+      ]
+    },
+    {
+      "doc_id": "d0133",
+      "title": "地圖不只導航，也記錄位置：高德地圖與中資 APP 資安風險",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2025-12-03",
+      "summary": "外交國防委員會質詢整理地圖APP位置資料風險、台美交往及外交論述。",
+      "attributable_claims": [
+        "沈伯洋提出地圖服務長期累積定位/街景資料的國安疑慮，並談外交論述",
+        "國安局長及外交部長另作說明。"
+      ],
+      "caveats": [
+        "國安和外交質詢屬中央層級，不能當作市府政策；官員說明與委員疑慮分列。"
+      ],
+      "topic_keys": [
+        "context-national-security"
+      ]
+    },
+    {
+      "doc_id": "d0134",
+      "title": "輝達進駐北士科：五大公民訴求與四項倡議",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23-nvidia-beitou",
+      "summary": "北士科公民意見發表會整理，呈現居民訴求、中央/市府答覆與沈伯洋四項倡議。",
+      "attributable_claims": [
+        "沈伯洋提出台北研究院/TTA、未來市民、制度化審議及企業在地配套方向。"
+      ],
+      "caveats": [
+        "居民五大訴求及機關既有規劃不可歸沈；他的倡議仍是會議提案，非核定計畫。"
+      ],
+      "topic_keys": [
+        "north-tech-park",
+        "public-participation"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "高架橋下公共空間的文化廊道與老宅改善",
+      "question": "如何把橋下空間與老舊公寓轉為可步行、展演及綠化的生活空間？",
+      "points": [
+        "沈伯洋提出市民大道高架下規劃音樂廊道，並提及動漫與藝文軸線。",
+        "他也主張老宅延壽、結構補強與屋頂綠化；論壇未提供基地、經費及工程細節。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0265",
+          "doc_id": "d0126",
+          "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/transcript/",
+          "section_or_timestamp": "論壇政策回應",
+          "speaker": "沈伯洋",
+          "support_excerpt": "打造成為長條形的『**音樂廊道**』"
+        },
+        {
+          "unit_id": "u0265",
+          "doc_id": "d0126",
+          "url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/transcript/",
+          "section_or_timestamp": "論壇政策回應",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我們應該推動老宅延壽計畫"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "d0125為同場論壇的整理頁；與其他批公共空間主題可能重疊"
+      ]
+    },
+    {
+      "working_title": "讓兒少與居民參與環境治理",
+      "question": "市府如何讓環境議題中的居民與兒少持續表達、參與決策？",
+      "points": [
+        "沈伯洋稱市府應建立暢通溝通平台，使受環境影響者成為利害關係人。",
+        "菸蒂減量、負壓吸菸室及衣物永續等具體請求由兒少團體提出；沈在活動中簽署請求書，不代表各項方案已採納。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0267",
+          "doc_id": "d0128",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-27",
+          "section_or_timestamp": "沈伯洋致詞，00:17:43",
+          "speaker": "沈伯洋",
+          "support_excerpt": "建立暢通的溝通平台"
+        },
+        {
+          "unit_id": "u0268",
+          "doc_id": "d0128",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-27",
+          "section_or_timestamp": "兒少團體請求書簽署與後續",
+          "speaker": "沈伯洋",
+          "support_excerpt": "市政府必須主動擔起責任"
+        },
+        {
+          "unit_id": "u0268",
+          "doc_id": "d0128",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-27",
+          "section_or_timestamp": "衣衣不捨小隊倡議，00:23:41",
+          "speaker": "衣衣不捨小隊隊長",
+          "support_excerpt": "訂定「台北市衣服永續自治條例」"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "d0128的兩個團體請求均為同一場活動內容"
+      ]
+    },
+    {
+      "working_title": "文化內容產業與創作者支持",
+      "question": "市府如何透過內容需求、通路與制度支持本地影視音創作？",
+      "points": [
+        "沈伯洋主張文化內容是發展主權AI的前提，市府可委託創作者製作內容並提供既有通路。",
+        "他提出利用捷運廊道與既有場館作常態放映，並以敬老卡、愛心卡及親子通行卡點數增加藝文消費誘因。",
+        "他主張北流發揮產業樞紐功能，扶持獨立音樂與中小型Livehouse。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0269",
+          "doc_id": "d0129",
+          "url": "https://puma-transcript.pages.dev/article/",
+          "section_or_timestamp": "內容政策回應",
+          "speaker": "沈伯洋",
+          "support_excerpt": "主權 AI 的前提正是「內容主權」"
+        },
+        {
+          "unit_id": "u0269",
+          "doc_id": "d0129",
+          "url": "https://puma-transcript.pages.dev/article/",
+          "section_or_timestamp": "音樂政策回應",
+          "speaker": "沈伯洋",
+          "support_excerpt": "在都市計畫中為音樂空間劃定容許標準"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "與其他批文化/藝文主題可能重疊"
+      ]
+    },
+    {
+      "working_title": "局處AI教練與市政研究能量",
+      "question": "如何在風險可控下把AI應用落到市府實際工作？",
+      "points": [
+        "整理稿記載沈伯洋反對每位公務員各自使用AI Agent，改提每局處配置AI教練，和基層一起找流程需求。",
+        "他主張設台北研究院承接研究與工具開發，兼顧資安、隱私及法規。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0270",
+          "doc_id": "d0130",
+          "url": "https://puma-scholars-2026.u8901006.workers.dev/",
+          "section_or_timestamp": "學者提問整理：AI政策",
+          "speaker": "沈伯洋（第一人稱整理稿）",
+          "support_excerpt": "每個局處配一位 AI 教練"
+        },
+        {
+          "unit_id": "u0270",
+          "doc_id": "d0130",
+          "url": "https://puma-scholars-2026.u8901006.workers.dev/",
+          "section_or_timestamp": "學者提問整理：市政智庫",
+          "speaker": "沈伯洋（第一人稱整理稿）",
+          "support_excerpt": "台北要有自己的市政智庫"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "與b14等批的台北研究院/智庫主題可能重疊"
+      ]
+    },
+    {
+      "working_title": "世代公平與青年參與市政",
+      "question": "沒有台北戶籍的青年如何參與影響長期生活的城市決策？",
+      "points": [
+        "整理稿主張重大市政納入世代公平審查，檢視政策是否擴大世代剝奪或階級不平等。",
+        "他提出讓15至25歲青年以未來世代身分參與審議，也談大專生宿舍戶籍登記。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0270",
+          "doc_id": "d0130",
+          "url": "https://puma-scholars-2026.u8901006.workers.dev/",
+          "section_or_timestamp": "學者提問整理：世代公平",
+          "speaker": "沈伯洋（第一人稱整理稿）",
+          "support_excerpt": "所有市政政策，都應該是世代公平政策"
+        },
+        {
+          "unit_id": "u0270",
+          "doc_id": "d0130",
+          "url": "https://puma-scholars-2026.u8901006.workers.dev/",
+          "section_or_timestamp": "學者提問整理：青年參與",
+          "speaker": "沈伯洋（第一人稱整理稿）",
+          "support_excerpt": "扮演**四十年後的自己**"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "與b14等批的青年參與/世代公平內容可能重疊"
+      ]
+    },
+    {
+      "working_title": "市區標線重整與學區交通改善",
+      "question": "如何兼顧道路安全、卸貨接送與交通順暢，減少被迫違規？",
+      "points": [
+        "沈伯洋承諾上任後重新檢討並重整台北市混亂標線。",
+        "他表示將完成約150所國小學區交通改善，並以安居街改造舉例說明停車、卸貨與行人空間可一併規劃。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0272",
+          "doc_id": "d0131",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23",
+          "section_or_timestamp": "西門町街講，標線提問",
+          "speaker": "沈伯洋",
+          "support_excerpt": "這個標線一定會重來！這一定會重整"
+        },
+        {
+          "unit_id": "u0272",
+          "doc_id": "d0131",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23",
+          "section_or_timestamp": "西門町街講，學區交通改善段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "把這 150 所全部都改完"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "可能與其他批的交通/通學安全主題重複"
+      ]
+    },
+    {
+      "working_title": "北士科發展的青年、公民審議與企業責任",
+      "question": "科技園區發展如何同時回應居民、環境與長期公共利益？",
+      "points": [
+        "沈伯洋提出台北研究院/TTA資源、未來市民參與、獨立專家與民間納入審議等方向。",
+        "他也倡議進駐企業提出生態、綠蔭、地方店家與文史保存配套。",
+        "居民提出的交通、生態、居住及企業回饋訴求屬公民代表意見，機關說明則是另類來源。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0276",
+          "doc_id": "d0134",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23-nvidia-beitou",
+          "section_or_timestamp": "北士科公民發表會，沈伯洋四項倡議",
+          "speaker": "沈伯洋",
+          "support_excerpt": "邀請 15 至 25 歲青年以未來世代視角參與討論"
+        },
+        {
+          "unit_id": "u0276",
+          "doc_id": "d0134",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23-nvidia-beitou",
+          "section_or_timestamp": "北士科公民發表會，沈伯洋四項倡議",
+          "speaker": "沈伯洋",
+          "support_excerpt": "審議委員會應納入民間與獨立專家"
+        },
+        {
+          "unit_id": "u0276",
+          "doc_id": "d0134",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23-nvidia-beitou",
+          "section_or_timestamp": "北士科公民發表會，沈伯洋四項倡議",
+          "speaker": "沈伯洋",
+          "support_excerpt": "要求進駐企業提出生態、綠蔭"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": [
+        "與b14等批的北士科/青年參與主題可能重疊"
+      ]
+    },
+    {
+      "working_title": "學者座談的歷史廊道與山林步道構想",
+      "question": "如何以文化記憶與社區參與改善城市歷史敘事和步道維護？",
+      "points": [
+        "整理稿記載沈伯洋提出串連茶煤、人權、族群遷移與移民記憶的歷史廊道。",
+        "步道維護部分主張以觀光收益支持手作步道、NGO與社區志工，採小型即時修補。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0270",
+          "doc_id": "d0130",
+          "url": "https://puma-scholars-2026.u8901006.workers.dev/",
+          "section_or_timestamp": "學者提問整理：歷史廊道",
+          "speaker": "沈伯洋（第一人稱整理稿）",
+          "support_excerpt": "我最後的規劃是四條歷史廊道"
+        },
+        {
+          "unit_id": "u0271",
+          "doc_id": "d0130",
+          "url": "https://puma-scholars-2026.u8901006.workers.dev/",
+          "section_or_timestamp": "學者提問整理：手作步道",
+          "speaker": "沈伯洋（第一人稱整理稿）",
+          "support_excerpt": "支持手作步道、NGO 和社區志工"
+        }
+      ],
+      "eligibility": "needs_verification",
+      "possible_duplicates": [
+        "與b14等批的歷史文化/步道主題可能重疊"
+      ]
+    }
+  ]
+}

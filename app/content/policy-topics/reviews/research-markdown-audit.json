@@ -1,0 +1,51 @@
+{
+  "audit_date": "2026-11-07",
+  "scope": "read_only_acceptance_of_local_markdown_research_export",
+  "result": "pass",
+  "checks": {
+    "topic_files_count": 86,
+    "canonical_topic_count": 86,
+    "canonical_texts_verbatim_all_fields": true,
+    "source_urls_all_present": true,
+    "topic_scope_counts": {
+      "municipal_policy": 81,
+      "public_issue": 5,
+      "public_issue_ids": [
+        "t050",
+        "t051",
+        "t061",
+        "t063",
+        "t082"
+      ]
+    },
+    "source_types_valid": true,
+    "main_markdown_copy_count": 218,
+    "main_markdown_byte_identical_to_snapshot": true,
+    "main_copy_issues": [],
+    "pdf_text_document_count": 5,
+    "official_pdf_manifest_candidates": 5,
+    "share_field_or_social_body_exported": false,
+    "internal_links_checked": 889,
+    "broken_internal_link_count": 0,
+    "manifest_count_matches_disk": true,
+    "validation_status_reported": "passed",
+    "official_pdf_text_documents_ancestry_confirmed": true,
+    "share_body_exclusion_checked_in_topic_documents": true,
+    "differences_section_policy": "Canonical difference text is present verbatim where non-empty; empty differences are stated as unrecorded.",
+    "url_comparison_rule": "Compared rendered links with sources[].url and paragraph.source_urls/evidence.source_url. Excluded sources[].logical_url, which is a grouping identifier rather than a cited URL.",
+    "source_url_findings": []
+  },
+  "findings": [],
+  "limitations": [
+    "No political content was independently re-researched.",
+    "Topic content and source URL fidelity were checked against expanded-topics.json; source-copy hashes were checked against snapshot files.",
+    "PDF text ancestry was cross-checked against five official PDF entries in the source manifest; extracted text is not a byte-copy of PDF binaries."
+  ],
+  "validation_crosscheck": {
+    "reported_status": "passed",
+    "reported_topics": 86,
+    "reported_main_exact_copies": 218,
+    "reported_pdf_texts": 5,
+    "reported_internal_links_checked": 889
+  }
+}

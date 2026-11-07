@@ -1,0 +1,431 @@
+{
+  "batch_id": "b09",
+  "read_units": [
+    {
+      "unit_id": "u0115",
+      "doc_id": "d0057",
+      "start": 0,
+      "end": 5966,
+      "sha256": "5b9dc78c2326a8fa1d8dfdf6521f8350e95d8d6894368881573bbe782b845e63",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0116",
+      "doc_id": "d0057",
+      "start": 5966,
+      "end": 11065,
+      "sha256": "74a7ef9527f47bb73a8f433dc34a6296fc1e91b9b79e0c96b5584ed9a4107e61",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0117",
+      "doc_id": "d0058",
+      "start": 0,
+      "end": 5969,
+      "sha256": "7e6f7fad8a5491897f3a0f707cf0d8ad6114a0812dc50333967d5f8b878647dd",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0118",
+      "doc_id": "d0058",
+      "start": 5969,
+      "end": 8119,
+      "sha256": "80f3bc6f67832eedaebd417b45bad39fce13300117dce3258d4398f54f37d611",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0119",
+      "doc_id": "d0059",
+      "start": 0,
+      "end": 5918,
+      "sha256": "79a55186e888a8b39483e16295c37ac6fd48152580b6b39196d40f3fb48fe5c7",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0120",
+      "doc_id": "d0059",
+      "start": 5918,
+      "end": 6276,
+      "sha256": "a6a66adbeecf91b11c41df89d065c4dca75180a56b2ebc65f73d0f189a0d0a71",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0121",
+      "doc_id": "d0060",
+      "start": 0,
+      "end": 5874,
+      "sha256": "4522148f35c414ca0aa9298734f541f209d7b7389e9589372eb82686d0747047",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0122",
+      "doc_id": "d0060",
+      "start": 5874,
+      "end": 11838,
+      "sha256": "4716c1fecfadf44beb5371e95d2e871654dc2e5c72569c1b1d801db414c0fad3",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0123",
+      "doc_id": "d0060",
+      "start": 11838,
+      "end": 13917,
+      "sha256": "41b68530d064962d6dddd184d73acb27fdedcfbf31eb88b59ec6838f7f1b705d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0124",
+      "doc_id": "d0061",
+      "start": 0,
+      "end": 5992,
+      "sha256": "6bbde911fb5136085fb1f130b0313342b03ea1b1b5c77a3227ef95116aa50d34",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0125",
+      "doc_id": "d0061",
+      "start": 5992,
+      "end": 11659,
+      "sha256": "b4243bd0f4a66fc53c2b1d17bf522de57c36a8cc0dac9a04afa7493f1d5e0997",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0126",
+      "doc_id": "d0062",
+      "start": 0,
+      "end": 5999,
+      "sha256": "e21af1717c0cb25a2b1dc8382b3c23f50698329f8b61715080509de0eb9cffce",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0127",
+      "doc_id": "d0062",
+      "start": 5999,
+      "end": 11848,
+      "sha256": "9a0bcf369030f9eb71615547b1823cef7603155b532de9c050abb7d2b551340c",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0057",
+      "title": "揪某聊 EP397：從蛋清事件、動漫到家庭與選戰中的支持",
+      "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/transcript/",
+      "summary": "生活訪談主要是沈伯洋的家庭與個人故事；後段延伸孤獨、心理諮商補助及社區文化想法。",
+      "attributable_claims": [
+        "沈主張家庭教育中心可提供支持，並提議每年至少六次公費心理諮商補助。",
+        "沈引英日「孤獨大臣」作法，提出社區音樂活動、獨立書店及在地動漫等方向。",
+        "沈以選戰期間家庭陪伴及孤獨感分享個人經驗。"
+      ],
+      "caveats": [
+        "原稿標明時間及講者未逐句聽校；一般生活對話不是市政承諾。"
+      ],
+      "topic_keys": [
+        "mental_health",
+        "loneliness",
+        "personal_story"
+      ]
+    },
+    {
+      "doc_id": "d0058",
+      "title": "沈伯洋與何立安談運動城市：運動驛站、肌力訓練與體育產業",
+      "url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/",
+      "summary": "沈伯洋與運動專家何立安、主持人邱個談運動設施、高齡訓練、俱樂部與體育產業；需明確區分沈的政策主張與何的專業判斷。",
+      "attributable_claims": [
+        "沈提出運動驛站，降低跑步與騎乘的寄物、盥洗等前後成本。",
+        "沈提出社區運動指導及學校場地開放、社區俱樂部構想。",
+        "沈支持體育社團化與退役運動員專業就業。"
+      ],
+      "caveats": [
+        "原稿未逐句影音聽校；「散步無效」「唯一解方」等為何立安說法且過於絕對，不能歸給沈或當健康事實。"
+      ],
+      "topic_keys": [
+        "sports_access",
+        "older_adult_fitness",
+        "sports_clubs",
+        "sports_industry"
+      ]
+    },
+    {
+      "doc_id": "d0059",
+      "title": "沈伯洋與何立安談運動城市：運動驛站、肌力訓練與體育產業（逐字稿）",
+      "url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/transcript/",
+      "summary": "同一運動專題的逐字稿；與 d0058 是同一訪談，非獨立證據，且以深度整理及對話混合呈現。",
+      "attributable_claims": [
+        "沈提出在交通節點與運動熱點提供寄物、淋浴、更衣等服務。",
+        "沈提出社區俱樂部和較易使用的學校運動場地。",
+        "沈提出運動產業從全民參與延伸到專業工作機會。"
+      ],
+      "caveats": [
+        "僅部分章節有時間範圍，未完整逐句校對；何立安部分運動醫療主張需分講者。"
+      ],
+      "topic_keys": [
+        "sports_access",
+        "older_adult_fitness",
+        "sports_clubs",
+        "sports_industry"
+      ]
+    },
+    {
+      "doc_id": "d0060",
+      "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+      "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+      "summary": "沈伯洋談兒少保護跨局處預防、雙城論壇、社宅及都更制度和台北研究院；主持人引用的民調和房市數字未核。",
+      "attributable_claims": [
+        "沈主張兒少保護需串聯資訊判讀、高風險預防、社工與托育現場。",
+        "沈提出按婚育、青年、科技人才需求細分社宅，並配合市有/國有地盤點及包租代管。",
+        "沈提出原住戶回遷、中繼宅、換房以及殭屍都更退場構想。"
+      ],
+      "caveats": [
+        "原稿未影音聽校；都更法規與案件數量未核，不能把主持人追問當政策內容。"
+      ],
+      "topic_keys": [
+        "child_safety",
+        "housing",
+        "urban_renewal",
+        "city_institute"
+      ]
+    },
+    {
+      "doc_id": "d0061",
+      "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫（逐字稿）",
+      "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/transcript/",
+      "summary": "同一房業涵專訪的逐字稿，與 d0060 為同源轉錄；具體呈現社宅分類、都更誘因、中繼宅與換房討論。",
+      "attributable_claims": [
+        "沈提出保障原住戶回遷並在都更案加入社宅的構想。",
+        "沈提出含托育、長照服務的中繼宅及不用再搬回的換房方式。",
+        "沈稱需研議停滯都更退場、公辦都更接手及台北研究院。"
+      ],
+      "caveats": [
+        "原稿未影音校訂；訪談中「都更全戶同意」是受訪者說法，不能視為通用法定門檻。"
+      ],
+      "topic_keys": [
+        "housing",
+        "urban_renewal",
+        "city_institute"
+      ]
+    },
+    {
+      "doc_id": "d0062",
+      "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+      "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+      "summary": "王淺秋與沈伯洋討論兩岸交流風險、中央立法爭議、毒品防制、市府智庫與街道安全等；逐字稿含交錯講者及廣告段落。",
+      "attributable_claims": [
+        "沈主張跨城交流應辨別市政可交流內容與資料、資安、政治前提風險。",
+        "沈提出市政智庫串聯大學研究並支援公務執行的構想。",
+        "沈談街道遮蔭、照明與人行空間改善，並主張整體環境設計影響安全感。"
+      ],
+      "caveats": [
+        "法律、毒品公衛、民調、犯罪及議員紀錄皆未核；明顯語音辨識與角色錯置，需回影音定位。"
+      ],
+      "topic_keys": [
+        "city_institute",
+        "street_safety",
+        "urban_climate",
+        "city_exchange"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "運動驛站降低運動前後的生活阻礙",
+      "question": "跑步或騎乘後缺少寄物、盥洗空間，如何讓運動更容易融入通勤？",
+      "points": [
+        "沈提出在捷運站、河濱出入口及步道口等運動熱點設驛站，提供寄物、更衣、淋浴及補給。",
+        "構想還包括政府提供場地、公私合作與社區微型運動空間；未提供選址、預算與期程。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0117",
+          "doc_id": "d0058",
+          "url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/",
+          "section_or_timestamp": "第三章 06:38–09:15",
+          "speaker": "沈伯洋",
+          "support_excerpt": "運動的前後成本太高——我們稱之為「摩擦力」"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "把專業肌力訓練支持帶進社區長者服務",
+      "question": "社區如何提供長者可持續且有專業指導的體能訓練？",
+      "points": [
+        "沈提議建立合格體能教練與社區指導補貼，讓訓練服務進入社區。",
+        "「散步無效」「大重量唯一解方」是何立安的說法且原稿標明待核；整理時只保留沈提出的服務支持方向。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0117",
+          "doc_id": "d0058",
+          "url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/",
+          "section_or_timestamp": "第四章 09:15–17:30",
+          "speaker": "沈伯洋",
+          "support_excerpt": "建立「專業合格體能教練制度」與「社區指導補貼機制」"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "學校場地開放與社區俱樂部延續運動習慣",
+      "question": "市民離開學校後，如何繼續找到固定隊伍與可用場地？",
+      "points": [
+        "沈以跨世代固定球友經驗說明團體支持有助延續運動習慣。",
+        "他提出體育局改善學校場地開放，並建立社區俱樂部、組隊與認養場地機制。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0118",
+          "doc_id": "d0058",
+          "url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/",
+          "section_or_timestamp": "第五章 17:30–23:00",
+          "speaker": "沈伯洋",
+          "support_excerpt": "建立更順暢的學校場地開放與「社區俱樂部制度」"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "讓市民意見和政策研究支援市政規劃",
+      "question": "如何把市民提出的生活問題轉為可研究及執行的政策？",
+      "points": [
+        "沈稱先整理1999與議員質詢，再透過線上線下「市長你給我聽好」補充問題。",
+        "他提出台北研究院作為研究規劃支援；六萬多題是自述問題數，沒有資料集、去重或期間資訊。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0121",
+          "doc_id": "d0060",
+          "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+          "section_or_timestamp": "00:00:37–00:01:46",
+          "speaker": "沈伯洋",
+          "support_excerpt": "又收集到好幾萬題——光是線上就 6 萬多個問題"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "兒少保護的跨局處資訊與高風險預防",
+      "question": "兒少受虐風險如何跨社會局、社工、托育與教育現場辨識及預防？",
+      "points": [
+        "沈認為裁罰或受理個案不足以處理問題，應看資訊蒐集、風險判讀與預防措施。",
+        "他提出社工壓力、幼兒及公托空間、教育現場減壓等相互連結的層面。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0121",
+          "doc_id": "d0060",
+          "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+          "section_or_timestamp": "00:04:18",
+          "speaker": "沈伯洋",
+          "support_excerpt": "這些資訊的收集狀況，你怎麼去判讀？"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "依不同需求設計社宅與都更居住安排",
+      "question": "青年、婚育家庭與科技工作者的居住需求，如何納入社宅及都更？",
+      "points": [
+        "沈提出婚育宅、青年宅、科技宅和只租不賣住宅，並盤點市有與國有地、使用包租代管。",
+        "都更構想包含原住戶回遷、案內社宅、高品質中繼宅及換房；資格、財源與法定程序尚未具體化。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0122",
+          "doc_id": "d0060",
+          "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+          "section_or_timestamp": "00:17:04–00:20:25",
+          "speaker": "沈伯洋",
+          "support_excerpt": "新的都更案裡面「一定要有讓本來的人住得回來的方案」"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "停滯都更退場後由公辦機制接手",
+      "question": "長期停滯的都更案如何退出原程序並重新推動？",
+      "points": [
+        "沈提出研擬殭屍都更退場條例，並讓市府公辦都更接手。",
+        "他提及五、六百件案件數字，但原稿未附統計或草案，數字不可當已核實資料。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0122",
+          "doc_id": "d0060",
+          "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+          "section_or_timestamp": "00:22:22–00:23:40",
+          "speaker": "沈伯洋",
+          "support_excerpt": "第一步我們要先讓「殭屍都更退場」"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "跨城市交流先界定資料與資安範圍",
+      "question": "城市交流如何在分享市政經驗時管理政治條件和資料風險？",
+      "points": [
+        "沈表示願意討論一般市政與經濟交流，但反對政治前提及涉及國家安全或資料風險的作法。",
+        "他舉人流、交通與運動設施交流作例子，並提到 AI 主權和重要技術不應外流。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0122",
+          "doc_id": "d0060",
+          "url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+          "section_or_timestamp": "00:07:07–00:09:29",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我一直的主張都很簡單，就是「不能有政治前提」"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "城市街道安全與遮蔭應一起設計",
+      "question": "照明、行人空間與綠帶如何影響街道使用及安全感？",
+      "points": [
+        "沈主張將照明、人行空間、樹下視線與店家互動放在整體街道設計中討論。",
+        "訪談沒有工程設計或成效資料，不應推論單一植樹措施能降低犯罪。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0126",
+          "doc_id": "d0062",
+          "url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+          "section_or_timestamp": "文章整理：種樹、照明與人行道",
+          "speaker": "沈伯洋",
+          "support_excerpt": "希望減少不安感，而不只是單一植樹措施"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "公費心理支持與社區文化回應孤獨",
+      "question": "社區有哪些公共服務與文化活動，可以支持心理健康及降低孤獨？",
+      "points": [
+        "沈提出每年至少六次公費心理諮商補助的主張，並談家庭教育中心的支持角色。",
+        "他以英日孤獨政策為參考，提到社區音樂、獨立書店及本土動漫 IP；補助制度及政策成效未核。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0116",
+          "doc_id": "d0057",
+          "url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/transcript/",
+          "section_or_timestamp": "00:46:05–00:50:15",
+          "speaker": "沈伯洋",
+          "support_excerpt": "我主張應爭取一年至少六次補助"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    }
+  ]
+}

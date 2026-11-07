@@ -1,0 +1,1282 @@
+{
+  "generated_at": "2026-11-07T00:03:28+08:00",
+  "timezone": "Asia/Taipei",
+  "old_snapshot": {
+    "root": "00_來源資料/2026-11-06/訪談逐字稿",
+    "snapshot_date": "2026-11-06",
+    "retrieved_at": "2026-11-06T14:39:46+08:00",
+    "entries": 74,
+    "resource_counts": {
+      "article_attachment": 32,
+      "hub_index": 1,
+      "interview_article": 74,
+      "source_notes_attachment": 1,
+      "transcript_attachment": 38,
+      "transcript_page": 33
+    },
+    "status_counts": {
+      "article_attachment:ok": 32,
+      "hub_index:ok": 1,
+      "interview_article:ok": 74,
+      "source_notes_attachment:ok": 1,
+      "transcript_attachment:ok": 38,
+      "transcript_page:ok": 33
+    }
+  },
+  "new_snapshot": {
+    "root": "00_來源資料/2026-11-06_更新版01/訪談逐字稿",
+    "snapshot_date": "2026-11-07",
+    "retrieved_at": "2026-11-07T00:03:28+08:00",
+    "index_url": "https://puma-hub.pages.dev/",
+    "claimed_entries": 77,
+    "section_counts": {
+      "featured": 2,
+      "talks": 54,
+      "sessions": 21
+    },
+    "entries": 77,
+    "resource_counts": {
+      "article_attachment": 36,
+      "hub_index": 1,
+      "interview_article": 77,
+      "source_notes_attachment": 1,
+      "transcript_attachment": 42,
+      "transcript_page": 38
+    },
+    "status_counts": {
+      "article_attachment:ok": 36,
+      "hub_index:ok": 1,
+      "interview_article:ok": 77,
+      "source_notes_attachment:ok": 1,
+      "transcript_attachment:ok": 42,
+      "transcript_page:ok": 38
+    }
+  },
+  "entry_diff": {
+    "common_article_urls": 74,
+    "true_new_entries": 3,
+    "removed_entries": 0,
+    "true_new_entry_urls": [
+      "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/",
+      "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+      "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/"
+    ],
+    "new_entries": [
+      {
+        "id": "entry-sessions-ac1166e713",
+        "title": "「戒慎恐懼之夜」活動整理：沈伯洋、蘇巧慧與北台灣候選人同台",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/",
+        "transcript_urls": [
+          "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/transcript/"
+        ],
+        "download_urls": [
+          "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/article.md",
+          "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/transcript.md"
+        ],
+        "video_urls": [
+          "https://www.youtube.com/watch?v=H-uziOFi3Ug"
+        ],
+        "transcript_status": "found_page",
+        "warning_count": 7
+      },
+      {
+        "id": "entry-talks-23614711da",
+        "title": "沈伯洋路透英文專訪與模擬辯論：民主、城市交流與市政問答",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+        "transcript_urls": [
+          "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/transcript/"
+        ],
+        "download_urls": [
+          "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/article.md",
+          "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/transcript.md"
+        ],
+        "video_urls": [
+          "https://www.youtube.com/watch?v=U0N4WZl0_Gk"
+        ],
+        "transcript_status": "found_page",
+        "warning_count": 8
+      },
+      {
+        "id": "entry-talks-7b5d008c49",
+        "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+        "transcript_urls": [
+          "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/transcript/",
+          "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/",
+          "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript/"
+        ],
+        "download_urls": [
+          "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/article.md",
+          "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/transcript.md",
+          "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/article.md",
+          "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript.md"
+        ],
+        "video_urls": [
+          "https://www.youtube.com/live/OMC6uFZ8C2c"
+        ],
+        "transcript_status": "found_page",
+        "warning_count": 16
+      }
+    ],
+    "removed_article_urls": [],
+    "id_changes_for_common_articles": [],
+    "transcript_status_changes": [],
+    "coverage": [
+      {
+        "id": "entry-featured-01-58ee1f909d",
+        "title": "做了，就要想辦法贏 — 跟著 PUMA 老師走一天",
+        "section": "featured",
+        "article_url": "https://puma-shen-interview.pages.dev/",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-featured-02-e936fd8b2d",
+        "title": "三戰已經全部鋪設完畢，只差最後點燃引信",
+        "section": "featured",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-04-12",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-23614711da",
+        "title": "沈伯洋路透英文專訪與模擬辯論：民主、城市交流與市政問答",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-7b5d008c49",
+        "title": "沈伯洋《台灣最前線》專訪：府會協調、市府用人與市政優先順序",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "3/3",
+        "attachments": "4/4",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-01-522ef2c258",
+        "title": "沈伯洋上《11點熱吵店》：選戰生活、家人與紓壓時刻",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/eleven-oclock-hot-2026-11-03/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-02-c3b98eaaa1",
+        "title": "沈伯洋《TODAY 看世界》：城市外交、文化故事與無限都更",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-03-62a8162928",
+        "title": "商周專訪沈伯洋：市長的 100 元、無限都更與台北的 AI 未來",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-04-29488253db",
+        "title": "沈伯洋《新聞面對面》專訪：從選戰、府會溝通到城市治理",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-05-75ccf3ceec",
+        "title": "沈伯洋談性別與城市：從家庭分工到制度改變",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 2,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-06-32c718a88c",
+        "title": "沈春華專訪沈伯洋：從民防、教育到台北的生活難題",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "3/3",
+        "video_url_count": 2,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-07-84e0b1ef50",
+        "title": "沈伯洋《大選鏡來講》專訪：從選民對話、城市智庫到育兒政策",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/mirror-election-2026-10-26/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-08-8bb72c9e56",
+        "title": "沈伯洋《台灣 ON AIR》專訪：從領導責任、台北研究院到城市文化",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-09-c29eed54ee",
+        "title": "《雅琴看世界》英文專訪沈伯洋：洋流、城市交流與傾聽的力量",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 2,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-10-234ec63e18",
+        "title": "沈伯洋《雅琴看世界》：走進台北街頭，從洋流談城市與家人",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 10,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-11-38d497a9d2",
+        "title": "從讀書會魔人到差點出道的 VTuber：沈伯洋的非典型法律路",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep173/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 3,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-12-ec81659dbc",
+        "title": "「爸爸已經有我一票！」：守護社區與陪伴家人，沈伯洋怎麼選？",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 3,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-13-2d3866fb6f",
+        "title": "揪某聊 EP397：從蛋清事件、動漫到家庭與選戰中的支持",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/jomotalk-ep397/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 2,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-14-a0a02cc752",
+        "title": "沈伯洋與何立安談運動城市：運動驛站、肌力訓練與體育產業",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-15-e614b7e322",
+        "title": "房業涵專訪沈伯洋：從市民提問，談兒少保護、居住與城市智庫",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-16-78a7ab226c",
+        "title": "王淺秋專訪沈伯洋：從尖銳問答，談城市智庫、毒品防制與台北願景",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-17-865c83dcce",
+        "title": "沈伯洋《很懂內幕》：從車掃與科技動員，談台北文化與動漫廊帶",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/nexttv-inside-2026-10-19/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-18-fb24752610",
+        "title": "沈伯洋與大耕老師對談：城市陪伴、產業規範與社區連結",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 2,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-19-36ea3bd2f0",
+        "title": "黃光芹專訪沈伯洋：突破同溫層，從生活需求談城市解方",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/huang-guangqin-2026-10-19/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-20-f4863fd352",
+        "title": "吳淡如專訪沈伯洋：從少年夢想，到自己想成為的大人",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/wu-danru-2026-10-19/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-21-654e32af20",
+        "title": "沈伯洋《台灣名人堂》專訪：市民心聲、台北願景與家人的支持",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/ttv-hall-of-fame-2026-10-15/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 2,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-22-487896b0bc",
+        "title": "孤獨，市政府管得了嗎？沈伯洋與工頭堅談城市裡的同伴",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/loneliness-city-government/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "4/4",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-23-80b363aa9e",
+        "title": "沈伯洋談台北市政：從兒少保護、老宅改善到松山機場遷建",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 2,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-24-af6058b812",
+        "title": "黃暐瀚專訪沈伯洋：四場辯論、交叉詰問與台北市政",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "1/1",
+        "video_url_count": 2,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-25-e8c7e83bdc",
+        "title": "那個被國民黨訓練出來的男人：沈伯洋談選戰與韌性台北",
+        "section": "talks",
+        "article_url": "https://puma-hub.pages.dev/articles/ep148/",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "1/1",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-26-931c983e6c",
+        "title": "把爭議帶回制度：公共安全、程序正義與台北治理",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-10-07",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-27-14584ee253",
+        "title": "陰謀論相信最多的年齡，是 20 到 29 歲",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2021-03-05",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-28-5ae847fa23",
+        "title": "先把問題爆出來，才有改進的空間",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-29-bf638b326e",
+        "title": "政治一定是吞一口髒水，吐一口清水",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2025-05-27",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-30-0518ca60ee",
+        "title": "我想要的台北，先從讓公務員喘口氣開始",
+        "section": "talks",
+        "article_url": "https://shenboyang-interview.pages.dev/",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-31-83f0bf3526",
+        "title": "我在面試一份工作，面試官是全體市民",
+        "section": "talks",
+        "article_url": "https://puma-interview-2026.pages.dev/",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-32-426fc30837",
+        "title": "自由不能建立在他人受害之上：通緝風險、小紅書治理與青少年社群",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2025-12-11",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-33-6b83124410",
+        "title": "「洋流來了」之後，台北市政要怎麼談？",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-23",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-34-121b072ac5",
+        "title": "從基層行程到城市願景：沈伯洋談台北市政與育兒支持",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-07",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-35-7149c058f4",
+        "title": "「台北市需要做夢」：首都願景、治理細節與青年基金",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-13",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-36-79ee723b35",
+        "title": "認知作戰不是要你親中，而是要你放棄",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2022-12-26",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-37-270f31cb20",
+        "title": "闖紅燈要「舉手表決」嗎？國會改革與法律明確性",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2024-06-08",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-38-93d9e9dd93",
+        "title": "知識份子就應該承擔砲火：從補教、國會到收養家庭",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2025-08-31",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-39-e988e9712f",
+        "title": "We Will Never Back Down：通緝、國會失能與台灣心防",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2025-11-22-we-will-never-back-down",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-40-eca16a2f3f",
+        "title": "「我們絕不退縮」：面對中共通緝，台灣的心防與第一島鏈韌性",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2025-11-22-huashi-san-guo-yi",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-41-7bfbfa169a",
+        "title": "他們要的，是讓示警的烏鴉沒人相信",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2025-12-13",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-42-3635aa9447",
+        "title": "不是不發，是有條件地發：普發現金與青年投資",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-43-c59de87b56",
+        "title": "在台北種下一片森林：都市微森林與洋流",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-44-9ea7ddfca0",
+        "title": "開船，不能遇到礁石才轉彎：讓預算有方向",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-45-47f5a07b52",
+        "title": "有金流，才有資訊流：中共網軍手法與陰謀論的長線鋪陳",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2023-04-11",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-46-8ba2d708af",
+        "title": "沒有血緣，一樣可以愛：收養女兒與台灣的收出養制度",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2023-08-29",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-47-7051ed7b2c",
+        "title": "駭客與假消息，是同一條線：解放軍跳板 IP 與政治冷感青年",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2023-09-08-pla-hackers",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-48-80dcaa254e",
+        "title": "台灣可以是第一個「反混合戰中心」",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2023-09-08-hybrid-warfare-center",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-49-f70a9b4798",
+        "title": "我們缺的，是一個「克里米亞時刻」",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2023-10-07",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-50-b14be9bb7d",
+        "title": "防衛不是挑釁，法律要讓反制自動發生",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2023-12-16",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-51-22e7b8fcb5",
+        "title": "不像介選，才是介選：王滬寧新指示與兩岸買辦",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2023-12-23",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-talks-52-2a660f8151",
+        "title": "一顆飛彈的錢，可以養一千個網紅",
+        "section": "talks",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2023-12-27",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-ac1166e713",
+        "title": "「戒慎恐懼之夜」活動整理：沈伯洋、蘇巧慧與北台灣候選人同台",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-01-5a75dd1802",
+        "title": "沈伯洋拜會前議長陳健治：從府會溝通談跨黨派合作",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/chen-chien-chih-visit-2026-11-05/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-02-4896b0f578",
+        "title": "台北市長辯論後記者會：沈伯洋回應辯論與選戰",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/taipei-debate-press-2026-10-31/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 2,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-03-c0e0f32ca9",
+        "title": "2026 台北市長首場電視辯論：沈伯洋、蔣萬安市政交鋒",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/taipei-mayoral-debate-2026-10-31/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 3,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-04-c2feea41a4",
+        "title": "沈伯洋質詢外交部：外館預算、國際傳播與無人機外交",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-05-990f11b77f",
+        "title": "《洋流誌》政策彩皮書：六冊主題、創作者分享與市民之書",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/ocean-policy-colorbook-2026-10-27/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-06-ae29568054",
+        "title": "沈伯洋台北水文化記者會：ABCDE 水治理、城市降溫與歷史水路",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 7,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-07-56c6c405e8",
+        "title": "「第一個站出來的人」：沈伯洋談國民黨的變化、國會監督與公民行動",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/zhiding-ep127/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-08-814460fb18",
+        "title": "市政 debug 松：從十組城市提案，到 AI 教練與公民協作",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 2,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-09-5b556e6c11",
+        "title": "看見縫隙：從橋下空間、城市綠網到台北公共空間治理",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/in-between-spaces-2026-10-22/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "2/2",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-10-7b1bb91095",
+        "title": "台北大洋流：競選總部開箱，「洋流號」正式啟航",
+        "section": "sessions",
+        "article_url": "https://puma-taipei-ocean-current.pages.dev/",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-11-af962151ab",
+        "title": "兒少環境聯合倡議：請求書當面遞給市長候選人",
+        "section": "sessions",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-27",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-12-13efe635fa",
+        "title": "影視音產業對談：打造一座內容城市",
+        "section": "sessions",
+        "article_url": "https://puma-transcript.pages.dev/article/",
+        "transcript_status": "found_page",
+        "article": "1/1",
+        "transcript_pages": "1/1",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-13-92a1486849",
+        "title": "一場沒有下課鐘的口試：八位學者問我台北",
+        "section": "sessions",
+        "article_url": "https://puma-scholars-2026.u8901006.workers.dev/",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-14-d3d0c4ef60",
+        "title": "市長你給我聽好了：西門町街頭，市民直接問",
+        "section": "sessions",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-15-5e94179b77",
+        "title": "從個案到一般民眾：中國長臂管轄與跨國鎮壓風險",
+        "section": "sessions",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2025-10-30",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-16-9faf600c73",
+        "title": "地圖不只導航，也記錄位置：高德地圖與中資 APP 資安風險",
+        "section": "sessions",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2025-12-03",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-17-c2f98600fc",
+        "title": "輝達進駐北士科：五大公民訴求與四項倡議",
+        "section": "sessions",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23-nvidia-beitou",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 1,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-18-d7d2a2f66b",
+        "title": "和而不同：讓海外的朋友，成為台北的眼睛",
+        "section": "sessions",
+        "article_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-12",
+        "transcript_status": "not_found",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "0/0",
+        "video_url_count": 0,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-19-939fa0c09e",
+        "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "1/1",
+        "video_url_count": 2,
+        "failed_resource_ids": []
+      },
+      {
+        "id": "entry-sessions-20-e6334eba79",
+        "title": "《數字台灣》第636集：洋流破萬安防線，沈伯洋談台北治理與完整逐字稿",
+        "section": "sessions",
+        "article_url": "https://puma-hub.pages.dev/articles/digitaiwan-hd636/",
+        "transcript_status": "found_inline",
+        "article": "1/1",
+        "transcript_pages": "0/0",
+        "attachments": "1/1",
+        "video_url_count": 2,
+        "failed_resource_ids": []
+      }
+    ]
+  },
+  "resource_diff_by_kind": {
+    "article_attachment": {
+      "old": 32,
+      "new": 36,
+      "common": 32,
+      "added_urls": [
+        "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/article.md",
+        "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/article.md",
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/article.md",
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/article.md"
+      ],
+      "removed_urls": []
+    },
+    "hub_index": {
+      "old": 1,
+      "new": 1,
+      "common": 1,
+      "added_urls": [],
+      "removed_urls": []
+    },
+    "interview_article": {
+      "old": 74,
+      "new": 77,
+      "common": 74,
+      "added_urls": [
+        "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/",
+        "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/",
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/"
+      ],
+      "removed_urls": []
+    },
+    "source_notes_attachment": {
+      "old": 1,
+      "new": 1,
+      "common": 1,
+      "added_urls": [],
+      "removed_urls": []
+    },
+    "transcript_attachment": {
+      "old": 38,
+      "new": 42,
+      "common": 38,
+      "added_urls": [
+        "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/transcript.md",
+        "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/transcript.md",
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/transcript.md",
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript.md"
+      ],
+      "removed_urls": []
+    },
+    "transcript_page": {
+      "old": 33,
+      "new": 38,
+      "common": 33,
+      "added_urls": [
+        "https://puma-hub.pages.dev/articles/cautious-night-2026-11-06/transcript/",
+        "https://puma-hub.pages.dev/articles/reuters-debate-preparation-2026-11-06/transcript/",
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/transcript/",
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/",
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript/"
+      ],
+      "removed_urls": []
+    }
+  },
+  "failures_and_integrity": {
+    "failed_resources": [],
+    "raw_or_text_missing_or_hash_mismatch": [],
+    "new_missing_or_failed_transcripts": [
+      {
+        "id": "entry-talks-31-83f0bf3526",
+        "title": "我在面試一份工作，面試官是全體市民",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-interview-2026.pages.dev/"
+        ]
+      },
+      {
+        "id": "entry-talks-36-79ee723b35",
+        "title": "認知作戰不是要你親中，而是要你放棄",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2022-12-26"
+        ]
+      },
+      {
+        "id": "entry-talks-37-270f31cb20",
+        "title": "闖紅燈要「舉手表決」嗎？國會改革與法律明確性",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2024-06-08"
+        ]
+      },
+      {
+        "id": "entry-talks-39-e988e9712f",
+        "title": "We Will Never Back Down：通緝、國會失能與台灣心防",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2025-11-22-we-will-never-back-down"
+        ]
+      },
+      {
+        "id": "entry-talks-41-7bfbfa169a",
+        "title": "他們要的，是讓示警的烏鴉沒人相信",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2025-12-13"
+        ]
+      },
+      {
+        "id": "entry-talks-42-3635aa9447",
+        "title": "不是不發，是有條件地發：普發現金與青年投資",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18"
+        ]
+      },
+      {
+        "id": "entry-talks-43-c59de87b56",
+        "title": "在台北種下一片森林：都市微森林與洋流",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26"
+        ]
+      },
+      {
+        "id": "entry-talks-44-9ea7ddfca0",
+        "title": "開船，不能遇到礁石才轉彎：讓預算有方向",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03"
+        ]
+      },
+      {
+        "id": "entry-talks-45-47f5a07b52",
+        "title": "有金流，才有資訊流：中共網軍手法與陰謀論的長線鋪陳",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2023-04-11"
+        ]
+      },
+      {
+        "id": "entry-talks-46-8ba2d708af",
+        "title": "沒有血緣，一樣可以愛：收養女兒與台灣的收出養制度",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2023-08-29"
+        ]
+      },
+      {
+        "id": "entry-talks-47-7051ed7b2c",
+        "title": "駭客與假消息，是同一條線：解放軍跳板 IP 與政治冷感青年",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2023-09-08-pla-hackers"
+        ]
+      },
+      {
+        "id": "entry-talks-48-80dcaa254e",
+        "title": "台灣可以是第一個「反混合戰中心」",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2023-09-08-hybrid-warfare-center"
+        ]
+      },
+      {
+        "id": "entry-talks-49-f70a9b4798",
+        "title": "我們缺的，是一個「克里米亞時刻」",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2023-10-07"
+        ]
+      },
+      {
+        "id": "entry-talks-50-b14be9bb7d",
+        "title": "防衛不是挑釁，法律要讓反制自動發生",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2023-12-16"
+        ]
+      },
+      {
+        "id": "entry-talks-51-22e7b8fcb5",
+        "title": "不像介選，才是介選：王滬寧新指示與兩岸買辦",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2023-12-23"
+        ]
+      },
+      {
+        "id": "entry-talks-52-2a660f8151",
+        "title": "一顆飛彈的錢，可以養一千個網紅",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2023-12-27"
+        ]
+      },
+      {
+        "id": "entry-sessions-10-7b1bb91095",
+        "title": "台北大洋流：競選總部開箱，「洋流號」正式啟航",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-taipei-ocean-current.pages.dev/"
+        ]
+      },
+      {
+        "id": "entry-sessions-13-92a1486849",
+        "title": "一場沒有下課鐘的口試：八位學者問我台北",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-scholars-2026.u8901006.workers.dev/"
+        ]
+      },
+      {
+        "id": "entry-sessions-18-d7d2a2f66b",
+        "title": "和而不同：讓海外的朋友，成為台北的眼睛",
+        "status": "not_found",
+        "article_urls": [
+          "https://puma-shen-interview.pages.dev/puma-shen-2026-09-12"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Canonical article URL preserved all 74 existing entry IDs; 3 new URLs received new IDs.",
+    "Raw bytes and readable full text are stored in the new snapshot; the 2026-11-06 snapshot was not modified.",
+    "Video/audio/social URLs are recorded but not downloaded.",
+    "not_found means no independent full transcript was confirmed, not that the article fetch failed."
+  ]
+}

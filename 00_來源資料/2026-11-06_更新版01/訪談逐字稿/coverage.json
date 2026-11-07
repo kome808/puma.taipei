@@ -1,0 +1,516 @@
+{
+  "snapshot_date": "2026-11-07",
+  "timezone": "Asia/Taipei",
+  "retrieved_at": "2026-11-07T00:03:28+08:00",
+  "index_url": "https://puma-hub.pages.dev/",
+  "previous_entries_path": "/Users/u2093030/Library/CloudStorage/GoogleDrive-kome808@gmail.com/我的雲端硬碟/市長選舉設計/沈伯洋政策/00_來源資料/2026-11-06/訪談逐字稿/entries.json",
+  "entry_id_migration": {
+    "previous_entries_path": "/Users/u2093030/Library/CloudStorage/GoogleDrive-kome808@gmail.com/我的雲端硬碟/市長選舉設計/沈伯洋政策/00_來源資料/2026-11-06/訪談逐字稿/entries.json",
+    "previous_entry_count": 74,
+    "matched_entry_ids": [
+      "entry-featured-01-58ee1f909d",
+      "entry-featured-02-e936fd8b2d",
+      "entry-talks-01-522ef2c258",
+      "entry-talks-02-c3b98eaaa1",
+      "entry-talks-03-62a8162928",
+      "entry-talks-04-29488253db",
+      "entry-talks-05-75ccf3ceec",
+      "entry-talks-06-32c718a88c",
+      "entry-talks-07-84e0b1ef50",
+      "entry-talks-08-8bb72c9e56",
+      "entry-talks-09-c29eed54ee",
+      "entry-talks-10-234ec63e18",
+      "entry-talks-11-38d497a9d2",
+      "entry-talks-12-ec81659dbc",
+      "entry-talks-13-2d3866fb6f",
+      "entry-talks-14-a0a02cc752",
+      "entry-talks-15-e614b7e322",
+      "entry-talks-16-78a7ab226c",
+      "entry-talks-17-865c83dcce",
+      "entry-talks-18-fb24752610",
+      "entry-talks-19-36ea3bd2f0",
+      "entry-talks-20-f4863fd352",
+      "entry-talks-21-654e32af20",
+      "entry-talks-22-487896b0bc",
+      "entry-talks-23-80b363aa9e",
+      "entry-talks-24-af6058b812",
+      "entry-talks-25-e8c7e83bdc",
+      "entry-talks-26-931c983e6c",
+      "entry-talks-27-14584ee253",
+      "entry-talks-28-5ae847fa23",
+      "entry-talks-29-bf638b326e",
+      "entry-talks-30-0518ca60ee",
+      "entry-talks-31-83f0bf3526",
+      "entry-talks-32-426fc30837",
+      "entry-talks-33-6b83124410",
+      "entry-talks-34-121b072ac5",
+      "entry-talks-35-7149c058f4",
+      "entry-talks-36-79ee723b35",
+      "entry-talks-37-270f31cb20",
+      "entry-talks-38-93d9e9dd93",
+      "entry-talks-39-e988e9712f",
+      "entry-talks-40-eca16a2f3f",
+      "entry-talks-41-7bfbfa169a",
+      "entry-talks-42-3635aa9447",
+      "entry-talks-43-c59de87b56",
+      "entry-talks-44-9ea7ddfca0",
+      "entry-talks-45-47f5a07b52",
+      "entry-talks-46-8ba2d708af",
+      "entry-talks-47-7051ed7b2c",
+      "entry-talks-48-80dcaa254e",
+      "entry-talks-49-f70a9b4798",
+      "entry-talks-50-b14be9bb7d",
+      "entry-talks-51-22e7b8fcb5",
+      "entry-talks-52-2a660f8151",
+      "entry-sessions-01-5a75dd1802",
+      "entry-sessions-02-4896b0f578",
+      "entry-sessions-03-c0e0f32ca9",
+      "entry-sessions-04-c2feea41a4",
+      "entry-sessions-05-990f11b77f",
+      "entry-sessions-06-ae29568054",
+      "entry-sessions-07-56c6c405e8",
+      "entry-sessions-08-814460fb18",
+      "entry-sessions-09-5b556e6c11",
+      "entry-sessions-10-7b1bb91095",
+      "entry-sessions-11-af962151ab",
+      "entry-sessions-12-13efe635fa",
+      "entry-sessions-13-92a1486849",
+      "entry-sessions-14-d3d0c4ef60",
+      "entry-sessions-15-5e94179b77",
+      "entry-sessions-16-9faf600c73",
+      "entry-sessions-17-c2f98600fc",
+      "entry-sessions-18-d7d2a2f66b",
+      "entry-sessions-19-939fa0c09e",
+      "entry-sessions-20-e6334eba79"
+    ],
+    "new_entry_ids": [
+      "entry-talks-23614711da",
+      "entry-talks-7b5d008c49",
+      "entry-sessions-ac1166e713"
+    ],
+    "ambiguous_matches": []
+  },
+  "claimed_entries": 77,
+  "claimed_section_counts": {
+    "featured": 2,
+    "talks": 54,
+    "sessions": 21
+  },
+  "actual_entries": 77,
+  "actual_unique_article_urls": 77,
+  "actual_unique_transcript_urls": 38,
+  "actual_unique_download_urls": 79,
+  "actual_unique_video_urls": 92,
+  "resources_by_kind": {
+    "hub_index": 1,
+    "interview_article": 77,
+    "transcript_page": 38,
+    "article_attachment": 36,
+    "transcript_attachment": 42,
+    "source_notes_attachment": 1
+  },
+  "resource_status_counts": {
+    "article_attachment:ok": 36,
+    "hub_index:ok": 1,
+    "interview_article:ok": 77,
+    "source_notes_attachment:ok": 1,
+    "transcript_attachment:ok": 42,
+    "transcript_page:ok": 38
+  },
+  "article_pages": {
+    "total": 77,
+    "success": 77,
+    "failed": 0
+  },
+  "transcript_pages": {
+    "total": 38,
+    "success": 38,
+    "failed": 0
+  },
+  "transcript_attachments": {
+    "total": 42,
+    "success": 42,
+    "failed": 0
+  },
+  "article_attachments": {
+    "total": 36,
+    "success": 36,
+    "failed": 0
+  },
+  "source_notes_attachments": {
+    "total": 1,
+    "success": 1,
+    "failed": 0
+  },
+  "other_text_attachments": {
+    "total": 0,
+    "success": 0,
+    "failed": 0
+  },
+  "entries_with_transcript": 58,
+  "transcript_status_counts": {
+    "found_inline": 22,
+    "found_page": 36,
+    "not_found": 19
+  },
+  "missing_or_failed_transcripts": [
+    {
+      "id": "entry-talks-31-83f0bf3526",
+      "title": "我在面試一份工作，面試官是全體市民",
+      "article_urls": [
+        "https://puma-interview-2026.pages.dev/"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "走進「異溫層」之前先看天花板；補習班怎麼把他練出來、黑熊學院不是民兵、為什麼根本不打算辦雙城論壇，還有他希望台北人活成什麼樣子——安心、悠閒、不孤獨、有未來，然後美。",
+        "card_meta": [
+          "中廣《欸！我說到哪裡了？》",
+          "主持 王偉忠",
+          "2026-09-10"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-36-79ee723b35",
+      "title": "認知作戰不是要你親中，而是要你放棄",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2022-12-26"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "沈伯洋回顧資訊戰手法的演變，並談疑美論、資訊過載與政治冷感，以及如何重建社會信任。",
+        "card_meta": [
+          "《斐姨所思【阿姨想知道】EP46》",
+          "主持 范琪斐、路易莎莎",
+          "2022-12-26"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-37-270f31cb20",
+      "title": "闖紅燈要「舉手表決」嗎？國會改革與法律明確性",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2024-06-08"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "沈伯洋以闖紅燈比喻法律明確性，說明調查權、質詢權及國會改革法案涉及的憲政疑慮。",
+        "card_meta": [
+          "《斐姨所思【阿姨想知道】EP169》",
+          "主持 范琪斐、梅樂蒂",
+          "2024-06-08"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-39-e988e9712f",
+      "title": "We Will Never Back Down：通緝、國會失能與台灣心防",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2025-11-22-we-will-never-back-down"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "沈伯洋談赴德國國會作證、跨境威脅、第一島鏈互助與台灣的心理韌性。",
+        "card_meta": [
+          "華視《三國演議》主題文章",
+          "依沈伯洋發言整理",
+          "2025-11-22"
+        ],
+        "transcript_note": "來源頁為分章訪談整理（多為第三人稱摘要）；未確認獨立完整逐字稿，來源長文已保存。"
+      }
+    },
+    {
+      "id": "entry-talks-41-7bfbfa169a",
+      "title": "他們要的，是讓示警的烏鴉沒人相信",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2025-12-13"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "從兩廳院外的衝突談起，沈伯洋延伸討論未經查證的指控、資訊戰與社會信任。",
+        "card_meta": [
+          "《筱君台灣PLUS》",
+          "主持 廖筱君",
+          "2025-12-13"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-42-3635aa9447",
+      "title": "不是不發，是有條件地發：普發現金與青年投資",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "沈伯洋談有條件普發、青年第一桶金、AI 工具補助、夜間治理及城市韌性。",
+        "card_meta": [
+          "POP Radio《POP大國民》",
+          "代班主持 林穎佑",
+          "2026-08-18"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-43-c59de87b56",
+      "title": "在台北種下一片森林：都市微森林與洋流",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "從民間支持者發起的「洋流」談起，沈伯洋說明都市微森林、樹冠覆蓋與市府組織構想。",
+        "card_meta": [
+          "POP Radio《POP大國民》",
+          "主持 平秀琳",
+          "2026-08-26"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-44-9ea7ddfca0",
+      "title": "開船，不能遇到礁石才轉彎：讓預算有方向",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "以城市方向為主軸，沈伯洋談預算用途、青年支持、家庭安全網與市政治理。",
+        "card_meta": [
+          "POP Radio《POP搶先爆》",
+          "主持 周楷",
+          "2026-09-03"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-45-47f5a07b52",
+      "title": "有金流，才有資訊流：中共網軍手法與陰謀論的長線鋪陳",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2023-04-11"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "七百個帳號、真人不到十個的「母雞帶小雞」，協力者、共鳴者與搬運工的區分，陰謀論要在萌芽期扼殺，以及黑熊學院「不焦慮就不會投降」的民防邏輯。",
+        "card_meta": [
+          "百靈果News《The KK Show 187》",
+          "主持 Ken、凱莉",
+          "2023-04-11",
+          "1:01:28"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-46-8ba2d708af",
+      "title": "沒有血緣，一樣可以愛：收養女兒與台灣的收出養制度",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2023-08-29"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "從少年矯正機構的經驗走向收養，十二支跳舞影片、黏在媽媽身上七小時的第一天、笑著入睡的破冰夜，以及身世告知與六個月共同生活期。",
+        "card_meta": [
+          "百靈果News《The KK Show 212》",
+          "主持 Ken、凱莉",
+          "2023-08-29",
+          "58:53"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-47-7051ed7b2c",
+      "title": "駭客與假消息，是同一條線：解放軍跳板 IP 與政治冷感青年",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2023-09-08-pla-hackers"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "解放軍駭客攻下的 VPN、NAS 跳板分享給放假消息的單位；巴拉圭案例的冷門論壇→截圖→PTT→媒體套路，與 TikTok 對中間選民的顯著影響。",
+        "card_meta": [
+          "《REAL TALK 真實對話》Ep17 上",
+          "主持 廖筱君",
+          "2023-09-08",
+          "45:55"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-48-80dcaa254e",
+      "title": "台灣可以是第一個「反混合戰中心」",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2023-09-08-hybrid-warfare-center"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "年輕人不是容易被影響，而是一開始就被針對；借鏡北約卓越中心整合政府與民間情報，並談代理人法的行政調查門檻與烏克蘭給人民的七件事。",
+        "card_meta": [
+          "《REAL TALK 真實對話》Ep17 下",
+          "主持 廖筱君",
+          "2023-09-08",
+          "51:04"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-49-f70a9b4798",
+      "title": "我們缺的，是一個「克里米亞時刻」",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2023-10-07"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "從烏克蘭、立陶宛歸來，談敵我意識、現代戰爭的電子戰與公開情報社群、有用的笨蛋，以及 TikTok 這個「沒有敵人的戰場」。",
+        "card_meta": [
+          "華視《三國演議》",
+          "主持 汪浩、矢板明夫",
+          "2023-10-07"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-50-b14be9bb7d",
+      "title": "防衛不是挑釁，法律要讓反制自動發生",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2023-12-16"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "接下不分區提名的理由、直營／金流／代理者三道立法防線、里長低價團綁住的是微信，以及事前賽局 playbook 與兩小時回應的卓越中心。",
+        "card_meta": [
+          "華視《三國演議》",
+          "主持 汪浩、矢板明夫",
+          "2023-12-16"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-51-22e7b8fcb5",
+      "title": "不像介選，才是介選：王滬寧新指示與兩岸買辦",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2023-12-23"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "共諜案的反向宣傳、提前九個月鋪陳的治安與言論自由陰謀論、黨國遺緒裡的黑道與商人買辦，以及第五縱隊的風險高低判斷。",
+        "card_meta": [
+          "《政經最前線》",
+          "主持 張宏林",
+          "2023-12-23",
+          "40:22"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-talks-52-2a660f8151",
+      "title": "一顆飛彈的錢，可以養一千個網紅",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2023-12-27"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "雙黨國、每天兩百個網軍頻道、疑美論從海外華人圈到華府、受刑人作息的情報溯源，以及接下不分區與李茂生老師的社會安全網。",
+        "card_meta": [
+          "寶島聯播網《寶島全世界》",
+          "主持 鄭弘儀",
+          "2023-12-27",
+          "56:18"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-sessions-10-7b1bb91095",
+      "title": "台北大洋流：競選總部開箱，「洋流號」正式啟航",
+      "article_urls": [
+        "https://puma-taipei-ocean-current.pages.dev/"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "競選總部化身「市民客廳」，許願牆、HEART 政策區與親子互動區一次開箱；十萬份洋流海報、六場「洋流大車掃」與官方 LINE「船員證」，最後在倒數聲中揭幕「洋流號」。",
+        "card_meta": [
+          "沈伯洋競選總部記者會",
+          "出席 賴清德、沈伯洋",
+          "2026-09-30",
+          "中正區北平東路"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-sessions-13-92a1486849",
+      "title": "一場沒有下課鐘的口試：八位學者問我台北",
+      "article_urls": [
+        "https://puma-scholars-2026.u8901006.workers.dev/"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "城門要不要復舊、每個公務員配一個 AI Agent 風險多高、沒有戶籍的年輕人、文官阻力、北士科與南港生技，到台語復振、手作步道與城市外交——當晚評分：沒有人舉手說不及格。",
+        "card_meta": [
+          "市長，你給我聽好了・學者篇",
+          "主持 陳弱水",
+          "2026-09-23",
+          "濟南教會"
+        ],
+        "transcript_note": "未確認獨立完整逐字稿；索引所列文章頁與可見長文已保存，未將影音轉錄。"
+      }
+    },
+    {
+      "id": "entry-sessions-18-d7d2a2f66b",
+      "title": "和而不同：讓海外的朋友，成為台北的眼睛",
+      "article_urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-09-12"
+      ],
+      "transcript_urls": [],
+      "status": "not_found",
+      "notes": {
+        "card_description": "東京後援會成立大會演說：施政配套與閉環、上野車站與台北後火車站的城市記憶、早稻田面試挫敗、士林慈諴宮的「對場作」，以及警惕威權國家從城市下手。",
+        "card_meta": [
+          "鏡新聞《一刀未剪》日本後援會演說",
+          "演說 沈伯洋",
+          "2026-09-12",
+          "31:06"
+        ],
+        "transcript_note": "來源頁為 14 章第一人稱長篇演說文章，頁尾標示依指定 Markdown 文章製作；未確認獨立完整逐字稿，來源長文已保存。"
+      }
+    }
+  ],
+  "failed_resources": [],
+  "limitations": [
+    "Only the cards discovered in the hub's featured/talks/sessions sections were treated as entries; related-reading links were not recursively crawled.",
+    "Video/audio/social URLs were recorded in entries.json and not downloaded.",
+    "The hub's source warnings are retained verbatim in entries.json/manifest.json; no transcript was corrected against audiovisual media.",
+    "Raw HTML and text attachments are authoritative; generated Markdown is a readability derivative."
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "batch_id": "b15",
+  "read_units": [
+    {
+      "unit_id": "u0190",
+      "doc_id": "d0084",
+      "start": 0,
+      "end": 6000,
+      "sha256": "99a3e5146d0033073ba12eb75ebf5a325d79e03af0878776047378374264c78c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0191",
+      "doc_id": "d0084",
+      "start": 6000,
+      "end": 6499,
+      "sha256": "6e7763635c05898e8c107dd39b83e115aa9927c1ffd30cbedcae894dd46fd73b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0192",
+      "doc_id": "d0085",
+      "start": 0,
+      "end": 6000,
+      "sha256": "ca6fa844ca17807908fabb698ed708f8fd098e66e6e9f6d4a97130fc187a6b68",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0193",
+      "doc_id": "d0085",
+      "start": 6000,
+      "end": 6442,
+      "sha256": "35b6eb7097f3ab21f608b24a0dcaa4e8687431e1cc9b29623cded7176ed59f14",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0194",
+      "doc_id": "d0086",
+      "start": 0,
+      "end": 6000,
+      "sha256": "77e17e7f993b0b1044d285d2e18e358dbaf9f49c804c2e493d1c209c1c5b7380",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0195",
+      "doc_id": "d0086",
+      "start": 6000,
+      "end": 6390,
+      "sha256": "38bff5ac072e3741cece620ab837c38c3ba097066e17b61af89074180ffdc19c",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0196",
+      "doc_id": "d0087",
+      "start": 0,
+      "end": 6000,
+      "sha256": "883202d5c7a7e165c8c7b7eb01f4982a0799cbfcfcc2f19b9fee7db121db5d60",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0197",
+      "doc_id": "d0087",
+      "start": 6000,
+      "end": 6798,
+      "sha256": "ae79e2d882e814d1d94877f157c5caeb53d10dbf4d64a3ac08f1f042cb8509aa",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0198",
+      "doc_id": "d0088",
+      "start": 0,
+      "end": 4705,
+      "sha256": "a7fd17bdd0e54002ddd62d60709966f1e4e8bc9e49ab9c78bb478390a517de6d",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0199",
+      "doc_id": "d0089",
+      "start": 0,
+      "end": 6000,
+      "sha256": "9b9d203f71bc5fe005e4f8b79b61b39e461d6d5790472f1d8e83c53d32d22a16",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0200",
+      "doc_id": "d0089",
+      "start": 6000,
+      "end": 6679,
+      "sha256": "905994855af3406cf319ad92ce1defb44404cff68427ca76bab353cc9807fb48",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0201",
+      "doc_id": "d0090",
+      "start": 0,
+      "end": 5441,
+      "sha256": "91ea19f3964290be4984ed99d32ba0ab9369345cad5564419fee061025b5790b",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0202",
+      "doc_id": "d0091",
+      "start": 0,
+      "end": 2696,
+      "sha256": "1f706e8b5e7702777845e2924f37fecf66766be8e8ba58453dad8a7150873797",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0203",
+      "doc_id": "d0092",
+      "start": 0,
+      "end": 5988,
+      "sha256": "5d491d26f29031c81bc61a9c5c497fddcb1252796926742e84015ee6d0b4ea88",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0204",
+      "doc_id": "d0092",
+      "start": 5988,
+      "end": 6450,
+      "sha256": "99f957be6e3867ca451c4f7a4092421c1660a73b1e2765e72193b78af9cc8595",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0205",
+      "doc_id": "d0093",
+      "start": 0,
+      "end": 4576,
+      "sha256": "c94cb6ffc575e3e30203b08e4f3f9664c4597f700069b0ba5720f47591b728f8",
+      "read_fully": true
+    },
+    {
+      "unit_id": "u0206",
+      "doc_id": "d0094",
+      "start": 0,
+      "end": 5584,
+      "sha256": "90bcf6f12a671be76e47d30685dd160c2ec9667d04c059944134b67fe32d93c2",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0084",
+      "title": "我想要的台北，先從讓公務員喘口氣開始",
+      "url": "https://shenboyang-interview.pages.dev/",
+      "summary": "訪談文章整理沈伯洋與李四端對談，涵蓋市政管理、1999、行政減壓、都更、教育及家庭。市政說法是受訪者主張；李四端在訪談中提出追問。",
+      "attributable_claims": [
+        "沈伯洋提出市府減壓、權責清楚與專業規劃方向。",
+        "他提出兒少防治、都更和營養午餐自治條例等構想。"
+      ],
+      "caveats": [
+        "文章將訪談口述編排成文，數字和對現任市府的評價未獨立核實。"
+      ],
+      "topic_keys": [
+        "用市民回報辨識1999與兒少安全問題",
+        "市府如何協助公務體系減壓"
+      ]
+    },
+    {
+      "doc_id": "d0085",
+      "title": "我在面試一份工作，面試官是全體市民",
+      "url": "https://puma-interview-2026.pages.dev/",
+      "summary": "王偉忠專訪文章以沈伯洋第一人稱重組，內容含城市願景、運動、音樂、夜間治理與家庭。主持人問題以文中摘要帶過。",
+      "attributable_claims": [
+        "沈伯洋提出夜間治理、文化與音樂場館生態及城市生活願景。"
+      ],
+      "caveats": [
+        "編者明示改寫、節錄與潤飾；政策構想非已核定。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0086",
+      "title": "自由不能建立在他人受害之上：通緝風險、小紅書治理與青少年社群",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2025-12-11",
+      "summary": "范琪斐與Melody專訪文章，主要談平台治理、打詐、資訊戰與青少年社群；非市政政策來源。",
+      "attributable_claims": [
+        "沈伯洋談小紅書治理比例原則及青少年社群限制的疑慮。"
+      ],
+      "caveats": [
+        "事件、法律與安全主張為受訪者陳述，不能當成獨立查證。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0087",
+      "title": "「洋流來了」之後，台北市政要怎麼談？",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-23",
+      "summary": "黃暐瀚訪談文章涵蓋運動驛站、登山交通、夜間市長及家庭教育等市政構想，也有選戰內容。",
+      "attributable_claims": [
+        "沈伯洋提出登山觀光中心及接駁、夜間代表窗口、家庭教育支援。"
+      ],
+      "caveats": [
+        "民調、步道數及政策細節未獨立核實。"
+      ],
+      "topic_keys": [
+        "台北淺山步道與周邊生活圈"
+      ]
+    },
+    {
+      "doc_id": "d0088",
+      "title": "從基層行程到城市願景：沈伯洋談台北市政與育兒支持",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-07",
+      "summary": "POP Radio林書煒訪談文章談選戰、城市願景、淺山觀光、育兒與家庭支持。",
+      "attributable_claims": [
+        "沈伯洋提出三處登山觀光中心及育兒社區支持方向。"
+      ],
+      "caveats": [
+        "部分統計與生育政策效果為受訪者引用，未獨立查證。"
+      ],
+      "topic_keys": [
+        "育兒支持與社區家庭服務"
+      ]
+    },
+    {
+      "doc_id": "d0089",
+      "title": "「台北市需要做夢」：首都願景、治理細節與青年基金",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-13",
+      "summary": "鄭弘儀專訪文章談長期城市願景、鼠患治理、市場、能源、交通、社子島及青年基金。",
+      "attributable_claims": [
+        "沈伯洋提出社子島聚落／生態平衡與青年配對儲蓄構想。",
+        "沈伯洋討論公務人力、鼠患源頭治理及大龍市場動線。"
+      ],
+      "caveats": [
+        "基金金額、財源及各項統計均需另核；主持人發言不歸為受訪者主張。"
+      ],
+      "topic_keys": [
+        "社子島與城市更新的多元路徑"
+      ]
+    },
+    {
+      "doc_id": "d0090",
+      "title": "認知作戰不是要你親中，而是要你放棄",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2022-12-26",
+      "summary": "范琪斐與路易莎莎專訪的2022年文章，主要為認知作戰和平台資訊環境分析。",
+      "attributable_claims": [
+        "沈伯洋提出資訊戰透過不信任、資訊過載及政治冷感影響公眾的觀點。"
+      ],
+      "caveats": [
+        "大量研究數字、境外行動歸因與平台判讀均為受訪者說法，非市政來源。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0091",
+      "title": "闖紅燈要「舉手表決」嗎？國會改革與法律明確性",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2024-06-08",
+      "summary": "范琪斐與梅樂蒂訪談文章，聚焦國會職權與法律明確性。",
+      "attributable_claims": [
+        "沈伯洋以法律明確性和調查權制度批評國會改革法案。"
+      ],
+      "caveats": [
+        "逐字稿為節錄且涉及憲政法律爭議；不納入市政主題。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0092",
+      "title": "知識份子就應該承擔砲火：從補教、國會到收養家庭",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2025-08-31",
+      "summary": "鄭弘儀訪問沈伯洋與曾心慧，涵蓋個人、政治及收養家庭。曾心慧是獨立受訪者；部分內容為節目旁白。",
+      "attributable_claims": [
+        "沈伯洋談其公共服務觀、收養及收養告知。",
+        "曾心慧描述家庭經驗和她的觀點。"
+      ],
+      "caveats": [
+        "避免把配偶或旁白內容歸給沈伯洋；本批無可直接整理為市政提案的內容。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0093",
+      "title": "We Will Never Back Down：通緝、國會失能與台灣心防",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2025-11-22-we-will-never-back-down",
+      "summary": "華視《三國演議》訪談文章，以沈伯洋說法整理通緝、國會、台日與台北韌性議題。",
+      "attributable_claims": [
+        "沈伯洋提出首都防災、里長民防、基礎設施與社區韌性觀點。",
+        "汪浩與矢板明夫的評論在原文另有標示，不能歸給沈伯洋。"
+      ],
+      "caveats": [
+        "政治與安全事件大多為訪談中的主張或主持人轉述，未獨立核實。"
+      ],
+      "topic_keys": []
+    },
+    {
+      "doc_id": "d0094",
+      "title": "「我們絕不退縮」：面對中共通緝，台灣的心防與第一島鏈韌性",
+      "url": "https://puma-shen-interview.pages.dev/puma-shen-2025-11-22-huashi-san-guo-yi",
+      "summary": "同一華視《三國演議》訪談的整理文章，集中呈現沈伯洋對台北市政、兒少安全、老宅、道路及機場的說法。",
+      "attributable_claims": [
+        "沈伯洋談兒童安全、老宅與交通等市政方向。"
+      ],
+      "caveats": [
+        "同訪談的文章與逐字稿不構成兩份獨立證據；數字和技術可行性未核。"
+      ],
+      "topic_keys": []
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "用市民回報辨識1999與兒少安全問題",
+      "question": "市府如何看見沒有被解決、或被大量一般陳情淹沒的問題？",
+      "points": [
+        "沈伯洋說團隊透過民眾自行填寫意見，補上只見分類而看不到內容的困難。",
+        "他提出將兒少相關通報獨立分流，並在其他訪談提出家長專線、家庭教育中心等前端支持構想。",
+        "問卷筆數、通報案例及現行流程均為受訪說法，需另核原始資料與執行權責。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0190",
+          "doc_id": "d0084",
+          "url": "https://shenboyang-interview.pages.dev/",
+          "section_or_timestamp": "1999 段落",
+          "speaker": "沈伯洋",
+          "support_excerpt": "才真正看清楚問題在哪"
+        },
+        {
+          "unit_id": "u0190",
+          "doc_id": "d0084",
+          "url": "https://shenboyang-interview.pages.dev/",
+          "section_or_timestamp": "柯文哲與蔣萬安施政差異／兒少安全議題",
+          "speaker": "沈伯洋",
+          "support_excerpt": "校園霸凌、幼兒園兒虐"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "市府如何協助公務體系減壓",
+      "question": "如何讓公務人員保有專業判斷與處理服務問題的能力？",
+      "points": [
+        "沈伯洋提出專案獎金、心理諮商、托育媒合及彈性工時等減壓方向。",
+        "他主張由專業團隊先把大型政策計畫定好、釐清權責與時程，降低基層承受不清楚指示的情形。",
+        "政策成本、人力安排、法規限制與所引公務體系問題尚未驗證。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0190",
+          "doc_id": "d0084",
+          "url": "https://shenboyang-interview.pages.dev/",
+          "section_or_timestamp": "上任半年內：公務員減壓",
+          "speaker": "沈伯洋",
+          "support_excerpt": "不先想辦法減壓，後面什麼事都做不了"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "夜間工作者與居民的協調窗口",
+      "question": "如何在夜間經濟、工作安全與居民生活之間建立常設協調？",
+      "points": [
+        "沈伯洋提出由夜間產業代表推選民間夜間市長，並與市府副市長或指定窗口協作。",
+        "討論範圍包括夜間交通安全、噪音、垃圾、夜市及表演活動。",
+        "阿姆斯特丹等城市的成效數字屬受訪者轉述，不應當成本地實施效果。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0192",
+          "doc_id": "d0085",
+          "url": "https://puma-interview-2026.pages.dev/",
+          "section_or_timestamp": "夜間市長：讓夜晚也有秩序",
+          "speaker": "沈伯洋",
+          "support_excerpt": "夜間的重點是秩序"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "台北淺山步道與周邊生活圈",
+      "question": "如何把登山交通、步道服務、文化路徑與周邊商圈串在一起？",
+      "points": [
+        "沈伯洋提出三處登山觀光中心、登山口公車、指標與廁所維護等構想。",
+        "他希望遊程能接上市場、商圈、信仰與歷史路徑，形成在地觀光動線。",
+        "步道數、運動統計及接駁規劃仍需核實和交通單位評估。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0196",
+          "doc_id": "d0087",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-23",
+          "section_or_timestamp": "把台北的山徑連起來",
+          "speaker": "沈伯洋",
+          "support_excerpt": "配合登山口公車、清楚指標"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "育兒支持與社區家庭服務",
+      "question": "市府可如何把育兒求助、喘息與學校家庭溝通資源放到日常生活周遭？",
+      "points": [
+        "沈伯洋提出每區家庭教育中心、家長專線及到宅育兒指導等支持方向。",
+        "他也談到臨時托育、親子活動和社區連結，並主張把社工專業集中在較高風險個案。",
+        "機構數、服務次數、個案量分級及預算需求仍是提案內容，非既有服務承諾。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0198",
+          "doc_id": "d0088",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-07",
+          "section_or_timestamp": "少子化與不孤單育兒",
+          "speaker": "沈伯洋",
+          "support_excerpt": "讓育兒家庭更容易取得支持"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "青年基金與AI工具入口",
+      "question": "如何讓青年取得初期資金與轉職所需的工具？",
+      "points": [
+        "沈伯洋提出青年發展基金構想，討論市府配對青年儲蓄及未來提領方式。",
+        "他以青年創業或初入社會的第一筆資金為政策目標，並提到希望累積約40至50萬元。",
+        "基金本金、配對比例、用途與法規未定；金額屬待精算提案，不是已核定給付。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0199",
+          "doc_id": "d0089",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-13",
+          "section_or_timestamp": "青年發展基金：以配對儲蓄支持創業與轉職",
+          "speaker": "沈伯洋",
+          "support_excerpt": "設立台北市青年發展基金的構想"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    },
+    {
+      "working_title": "社子島與城市更新的多元路徑",
+      "question": "如何改善居住條件，同時回應既有聚落與生態保留訴求？",
+      "points": [
+        "沈伯洋反對單一全區剷平、填土及整體遷移路徑，主張重新討論兼顧聚落與生態的方案。",
+        "他提出改善公共設施、下水道與衛生條件，並討論補償與開發利益回饋。",
+        "訪談未呈現居民完整意見、權益協商結果、土地資料或成本評估。"
+      ],
+      "source_refs": [
+        {
+          "unit_id": "u0199",
+          "doc_id": "d0089",
+          "url": "https://puma-shen-interview.pages.dev/puma-shen-2026-09-13",
+          "section_or_timestamp": "社子島開發",
+          "speaker": "沈伯洋",
+          "support_excerpt": "主張重新討論較重視聚落保存與生態平衡的方案"
+        }
+      ],
+      "eligibility": "shareable",
+      "possible_duplicates": []
+    }
+  ]
+}

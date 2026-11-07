@@ -1,0 +1,16 @@
+[
+  {
+    "id": "官方政策:policy_index",
+    "kind": "policy_index",
+    "url": "https://puma.taipei/policies",
+    "reason": "navigation_index",
+    "text_sha256": "60a8a264ec3a6053cde03bc0c8d80c72ce65480cac0837d968c130529576e534"
+  },
+  {
+    "id": "訪談逐字稿:hub_index-puma-hub-pages-dev-root-5d331c26ee",
+    "kind": "hub_index",
+    "url": "https://puma-hub.pages.dev/",
+    "reason": "navigation_index",
+    "text_sha256": "bc3e95885af50712d75a88f3d6067d27f9338432f63491ea4bb8a768004769d5"
+  }
+]
