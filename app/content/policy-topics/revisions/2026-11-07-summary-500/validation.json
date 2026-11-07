@@ -4,8 +4,8 @@
   "errors": [],
   "min": 260,
   "max": 471,
-  "mean": 381,
-  "at_least_400": 38,
+  "mean": 379,
+  "at_least_400": 36,
   "rows": [
     {
       "id": "t001",
@@ -293,8 +293,8 @@
       "id": "t014",
       "group": "育兒與家庭支持",
       "title": "產後家長如何取得情緒支持與到宅育兒指導？",
-      "utf16": 362,
-      "body_chars": 322,
+      "utf16": 316,
+      "body_chars": 276,
       "official": true,
       "interview": false,
       "urls": [
@@ -485,8 +485,8 @@
       "id": "t021",
       "group": "青年與就業",
       "title": "青年起步基金如何累積並銜接成年轉銜？",
-      "utf16": 445,
-      "body_chars": 326,
+      "utf16": 386,
+      "body_chars": 267,
       "official": true,
       "interview": true,
       "urls": [
@@ -497,14 +497,14 @@
       "has_official_topic": true,
       "has_interview_topic": true,
       "scope": "municipal_policy",
-      "below_target_reason": ""
+      "below_target_reason": "官方頁與訪談對本題的相關說明已寫入主要內容；短摘要以官網說法為主，其餘段落與本題無關或內容重複，不為湊字數補造。"
     },
     {
       "id": "t022",
       "group": "青年與就業",
       "title": "青年如何取得免先墊款的 AI 工具與轉職支持？",
-      "utf16": 428,
-      "body_chars": 330,
+      "utf16": 410,
+      "body_chars": 312,
       "official": true,
       "interview": true,
       "urls": [
@@ -768,8 +768,8 @@
       "id": "t031",
       "group": "文化、步道與地方記憶",
       "title": "文化徑如何串連台北的地方歷史與族群記憶？",
-      "utf16": 417,
-      "body_chars": 311,
+      "utf16": 412,
+      "body_chars": 306,
       "official": true,
       "interview": true,
       "urls": [
@@ -839,8 +839,8 @@
       "id": "t064",
       "group": "文化、步道與地方記憶",
       "title": "登山觀光中心與接駁如何改善淺山步道體驗？",
-      "utf16": 405,
-      "body_chars": 274,
+      "utf16": 350,
+      "body_chars": 219,
       "official": true,
       "interview": true,
       "urls": [
@@ -851,7 +851,7 @@
       "has_official_topic": true,
       "has_interview_topic": true,
       "scope": "municipal_policy",
-      "below_target_reason": ""
+      "below_target_reason": "官方頁與訪談對本題的相關說明已寫入主要內容；短摘要以官網說法為主，其餘段落與本題無關或內容重複，不為湊字數補造。"
     },
     {
       "id": "t083",
@@ -1072,8 +1072,8 @@
       "id": "t041",
       "group": "交通與街道",
       "title": "市民大道橋下如何縫合街區並帶動人流？",
-      "utf16": 420,
-      "body_chars": 281,
+      "utf16": 417,
+      "body_chars": 278,
       "official": false,
       "interview": true,
       "urls": [
@@ -1124,8 +1124,8 @@
       "id": "t042",
       "group": "城市生活與治理",
       "title": "夜間商圈的噪音、安全與居民衝突由誰協調？",
-      "utf16": 433,
-      "body_chars": 308,
+      "utf16": 436,
+      "body_chars": 311,
       "official": false,
       "interview": true,
       "urls": [

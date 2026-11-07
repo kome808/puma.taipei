@@ -60,7 +60,7 @@ test('public-issue topics are framed as views, not municipal services', () => {
 });
 
 test('summaries avoid generic boilerplate endings and slogan-like phrases', () => {
-  const banned = ['具體資格、地點與服務安排仍待方案說明', '先看一版', '值得打開看看', '投票給', '支持沈伯洋', '請支持'];
+  const banned = ['兩種說法', '說法不一', '分開呈現', '不選定', '具體資格、地點與服務安排仍待方案說明', '先看一版', '值得打開看看', '投票給', '支持沈伯洋', '請支持'];
   for (const topic of data.topics) {
     for (const phrase of banned) assert.ok(!topic.share.body.includes(phrase), `${topic.id} contains "${phrase}"`);
   }

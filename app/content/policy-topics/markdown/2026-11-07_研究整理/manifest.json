@@ -1,11 +1,11 @@
 {
   "type": "internal_research_markdown",
-  "generated_at": "2026-11-07T15:24:11+08:00",
+  "generated_at": "2026-11-07T15:26:47+08:00",
   "source_snapshot_date": "2026-11-07",
   "publication_status": "not_published",
   "input": {
     "path": "app/content/policy-topics/expanded-topics.json",
-    "sha256": "becfabb74b2fc7dcdcb6b90da6d0d7152d3b5ca45a8dbfb715835cde5b76ca09"
+    "sha256": "d05752c01fca6e7734449f3bd1f565c9b6654bda2f3ca33bf1f4e19ac3615025"
   },
   "files": [
     {
@@ -1570,12 +1570,12 @@
     },
     {
       "path": "摘要與字數說明.md",
-      "sha256": "790d9f71b5811a0c7f87820d6c6ae69b5eb716510ae01f66ca539c0413c464b4",
+      "sha256": "c36b253116b0a6709c7bd03908afbe6b247df4eaeb6324d9ce1794e12a9fbf8e",
       "bytes": 32048
     },
     {
       "path": "版本與校讀說明.md",
-      "sha256": "08544225eb1076cebb8d132d7727cf511caf6deb618307f3d0c36c293e350185",
+      "sha256": "43d89edf71f25549823f930adfea127e368bd4968a26eb9a08096b888db0e01d",
       "bytes": 2303
     }
   ],
