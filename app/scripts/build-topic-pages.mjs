@@ -61,7 +61,7 @@ export function renderTopicPage(topic, data) {
 </head>
 <body class="standalone-topic">
   <a class="skip" href="#topic-page">跳到主題摘要</a>
-  <header class="site-header wrap"><a class="brand" href="/" aria-label="Puma政策筆記首頁"><span class="brand-mark" aria-hidden="true">P</span><span><strong>Puma政策筆記</strong><small>政策與訪談的獨立整理</small></span></a><nav aria-label="主要導覽"><a href="/topics/">回主題館 <span aria-hidden="true">↗</span></a></nav></header>
+  <header class="site-header wrap"><a class="brand" href="/" aria-label="Puma政策筆記首頁"><span class="brand-mark" aria-hidden="true">P</span><span><strong>Puma政策筆記</strong></span></a><nav aria-label="主要導覽"><a href="/topics/">回主題館 <span aria-hidden="true">↗</span></a></nav></header>
   <main id="topic-page" class="wrap topic-page" data-topic-id="${escape(topic.id)}" data-source-snapshot-date="${escape(snapshot)}" data-content-updated="${escape(updated)}">
     <article class="topic-paper">
       <p class="eyebrow">${escape(topic.group_title)}</p><div class="badges">${badges}</div>
