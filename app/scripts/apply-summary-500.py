@@ -66,6 +66,8 @@ def load_rows():
         for row in json.loads(path.read_text()):
             base = rows[row['id']]
             adds = row.pop('supports_add', [])
+            if 'body_append' in row:
+                base['body'] = base['body'].rstrip() + row.pop('body_append')
             base.update({k: v for k, v in row.items() if k != 'id'})
             base['supports'] = base.get('supports', []) + adds
             if base.get('below_target_reason') == '':

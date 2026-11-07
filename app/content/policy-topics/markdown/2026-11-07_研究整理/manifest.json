@@ -1,11 +1,11 @@
 {
   "type": "internal_research_markdown",
-  "generated_at": "2026-11-07T16:22:09+08:00",
+  "generated_at": "2026-11-07T16:28:42+08:00",
   "source_snapshot_date": "2026-11-07",
   "publication_status": "not_published",
   "input": {
     "path": "app/content/policy-topics/expanded-topics.json",
-    "sha256": "79f4a544a90f2dc186d22b7c61f3138c9d272c0fe834fe6235291d10106e8229"
+    "sha256": "cfa588a66f606f2b0bf8601d05e3c86646672bbd48b396635fe2baad059fc196"
   },
   "files": [
     {
@@ -1415,8 +1415,8 @@
     },
     {
       "path": "主題/g10_交通與街道/t039_共享電動機車如何接上 TPASS 並離開路邊車格？.md",
-      "sha256": "2ebe5eccb92a40e801e1ce53f251c8e31913ea55989a825501a5aeb3d2064135",
-      "bytes": 2149
+      "sha256": "3c3b6bd1540eea47325b0b7ea3627cb6d085fc0ec20a64de4aa3c685ff33d559",
+      "bytes": 2787
     },
     {
       "path": "主題/g10_交通與街道/t040_交通資料如何用於號誌、計程車停靠與事故熱點？.md",
@@ -1495,8 +1495,8 @@
     },
     {
       "path": "主題/g12_城市交流與公共議題/t071_城市運動聯盟如何促進常態交流？.md",
-      "sha256": "87c0356b44eef6336f58e1469b2bdf2f73c39190b45815ba8c9634debeba9c99",
-      "bytes": 1898
+      "sha256": "afbc54290dc372917936534d919adea48d8a9fe32e3c288523fe404396efdadb",
+      "bytes": 2572
     },
     {
       "path": "主題/g13_公共安全與權益/t048_地方民防如何把避難設施與鄰里互助接起來？.md",
@@ -1560,22 +1560,22 @@
     },
     {
       "path": "政策與訪談_完整整理.md",
-      "sha256": "540e1a74791171384ba29fb29d28af65b2a748ffd9119137aca41d840cd2a654",
-      "bytes": 180445
+      "sha256": "b0df6cddda1c64b21f68c5fa0676dd2a537d0abd7a91194965a870cc8cb735a6",
+      "bytes": 181745
     },
     {
       "path": "來源索引.md",
-      "sha256": "f3eb7b35c87b9c904b2c956eb6fa99c5f0c7a041a176eef2e8ef743f5daf6e8e",
-      "bytes": 111976
+      "sha256": "a909d1c51b62100215bc1b250ad9f0b6b7fd79ed91f548ac8d72bb549a0809d2",
+      "bytes": 112496
     },
     {
       "path": "摘要與字數說明.md",
-      "sha256": "2490bfcd42c90d40d73270ab497173f356f2511831895e78d3ab5766a7050d09",
+      "sha256": "3ff1c85fdc16cf005c0009a3e4e1aeef1f7a88dcff60b28f1255e295c5f16652",
       "bytes": 32048
     },
     {
       "path": "版本與校讀說明.md",
-      "sha256": "0029e052892c34d53dd721f626365a7a09b0e75b32613bea69d3a5bec1deb551",
+      "sha256": "2160b95f3d91fa79cbad27271e8484934b3e133bb80359311b04b416ba179e40",
       "bytes": 2303
     }
   ],

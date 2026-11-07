@@ -7,7 +7,7 @@ source_snapshot_date: "2026-11-07"
 prepared_date: "2026-11-07"
 document_type: "internal_research"
 publication_status: "not_published"
-research_body_characters: 181
+research_body_characters: 304
 ---
 
 # t039｜共享電動機車如何接上 TPASS 並離開路邊車格？
@@ -16,7 +16,7 @@ research_body_characters: 181
 範圍：市政政策構想  
 來源快照日期：2026-11-07  
 整理日期：2026-11-07  
-研究正文：181字元（不含標題、來源連結及校讀備註）
+研究正文：304字元（不含標題、來源連結及校讀備註）
 
 對應問題：最後一哩需要共享機車時，如何安排票證優惠、停車與安全考核？
 
@@ -34,6 +34,12 @@ research_body_characters: 181
 
 保存文字：[20260916-交通政策PDF.pdf｜PDF第18–20頁](../../%E4%BE%86%E6%BA%90%E6%96%87%E5%AD%97/official-pdf/d0001.md)
 
+交通政策頁寫明：持記名TPASS市民享每日前10分鐘免費，由市府出資試辦3個月，後續與中央協商常態化；媒合公有（含委外）及私人路外停車場，透過定型化契約引導共享機車離開路邊格位；所有合法業者一律適用，並把事故與違規件數列為持續辦理的考核指標。
+
+資料來源：[交通政策](https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96)
+
+保存文字：[交通政策｜原文內定位](../../%E4%BE%86%E6%BA%90%E6%96%87%E5%AD%97/main/d0003.md)
+
 ## 訪談／活動補充
 
 本題目前整理引用的是官方政策或官方附件，未在本題列入訪談段落。
@@ -47,5 +53,6 @@ research_body_characters: 181
 ### 官方政策／附件
 
 - [20260916-交通政策PDF.pdf](https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf)
+- [交通政策](https://puma.taipei/policies/%E4%BA%A4%E9%80%9A%E6%94%BF%E7%AD%96)
 
 [回分類與主題索引](../../README.md) · [查看來源索引](../../%E4%BE%86%E6%BA%90%E7%B4%A2%E5%BC%95.md)
