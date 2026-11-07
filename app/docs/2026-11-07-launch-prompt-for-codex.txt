@@ -1,0 +1,11 @@
+你在我的電腦上，已登入 wrangler（帳號 kome808@gmail.com）。請先 git fetch 並 checkout 分支 claude/kind-cerf-xyiajt、git pull，然後讀 app/docs/2026-11-07-launch-checklist.md，照裡面的步驟 0 到 5 執行。
+
+規則：
+1. 在 app/ 目錄操作。步驟 1（verify、npm test、npm run build）失敗就停下回報，不要往下。
+2. 步驟 3 設定 Secret 時，停下來請我自己在終端輸入 wrangler secret put，你不要產生、讀取、顯示或保存任何 token，也不要碰 OPENAI_API_KEY、TURNSTILE_SECRET_KEY、RATE_LIMIT_SALT。
+3. 執行步驟 4（wrangler deploy）之前，先把步驟 2 的 D1 檢查結果和 git status 給我看，等我回覆「可以部署」再部署。
+4. 不要修改程式碼、Turnstile widget、Workers 子網域、模型設定；不要執行 smoke-live.mjs 或任何會呼叫 OpenAI 的查詢；不要部署 Pages。
+5. 步驟 5 的 curl 檢查請全部跑完，用表格回報每項實際結果。瀏覽器、手機、分享預覽那幾項請列給我自己確認，不要說已驗證。
+6. 出問題時不要自行回退或刪除資源，先回報錯誤原文與建議，由我決定。
+
+最後回報：實際執行的指令、每步成功或失敗、部署後的 Worker 版本 ID，以及哪些項目你沒做或沒驗證。
