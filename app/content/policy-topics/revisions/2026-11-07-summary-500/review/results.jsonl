@@ -1,0 +1,86 @@
+{"id": "t001", "verdict": "ok", "issues": []}
+{"id": "t002", "verdict": "ok", "issues": []}
+{"id": "t003", "verdict": "ok", "issues": []}
+{"id": "t004", "verdict": "ok", "issues": []}
+{"id": "t005", "verdict": "ok", "issues": []}
+{"id": "t006", "verdict": "ok", "issues": []}
+{"id": "t065", "verdict": "ok", "issues": []}
+{"id": "t007", "verdict": "ok", "issues": []}
+{"id": "t008", "verdict": "ok", "issues": []}
+{"id": "t009", "verdict": "ok", "issues": []}
+{"id": "t010", "verdict": "needs_fix", "issues": [{"claim": "頁面沒有列出補助金額、採購名單或實施學校", "problem": "規則3／證據邊界（packet u0002）：official_paragraphs與摘錄只說明採購規劃和使用機制，沒有明確說整個政策頁未列這些資訊；節錄不足以證明全頁未列，原文未支持。", "suggested_fix": "改為「本packet摘錄未提供補助金額、採購名單或實施學校」。"}]}
+{"id": "t011", "verdict": "ok", "issues": []}
+{"id": "t053", "verdict": "needs_fix", "issues": [{"claim": "頁面沒有列出合作學校、名額或推動期程。", "problem": "規則3／證據邊界（packet u0014）：官方摘錄交代跨校互訪方向和寒暑假體驗，但packet節錄不足以證明整份政策頁未列合作學校、名額或期程；原文未支持此全頁否定。", "suggested_fix": "限縮為「本packet未提供合作學校、名額或推動期程」。"}]}
+{"id": "t066", "verdict": "ok", "issues": []}
+{"id": "t012", "verdict": "ok", "issues": []}
+{"id": "t013", "verdict": "needs_fix", "issues": [{"claim": "官方頁面沒有列出具體時數。", "problem": "規則3／證據邊界（packet u0009, u0064）：摘錄只記載每週固定時數，未明確說完整政策頁沒有列出具體時數；節錄不足以證明全頁未列，原文未支持。", "suggested_fix": "改為「本packet摘錄未提供具體時數」。"}]}
+{"id": "t014", "verdict": "ok", "issues": []}
+{"id": "t015", "verdict": "ok", "issues": []}
+{"id": "t016", "verdict": "ok", "issues": []}
+{"id": "t017", "verdict": "ok", "issues": []}
+{"id": "t018", "verdict": "ok", "issues": []}
+{"id": "t019", "verdict": "ok", "issues": []}
+{"id": "t020", "verdict": "ok", "issues": []}
+{"id": "t052", "verdict": "needs_fix", "issues": [{"claim": "服務設計與合作方式尚未列明", "problem": "規則3／證據邊界（packet u0014）：官方摘錄已說明結合客家社團據點與社區照顧資源及老幼共學；packet節錄不足以斷言完整政策沒有更多服務或合作細節。 原文未支持此額外判斷。", "suggested_fix": "限縮為「本packet未提供更具體的服務設計與合作方式」。"}]}
+{"id": "t084", "verdict": "needs_fix", "issues": [{"claim": "官方頁面沒有列出補助金額、接種條件或實施時間", "problem": "規則3：official_paragraphs及u0004已載0至6歲、50歲以上與一劑等適用對象／次數，不能概括說接種條件均未列；至於其他資格、金額及時間，packet節錄也不足以證明整頁沒有，原文未支持此全頁缺漏斷言。", "suggested_fix": "刪除這句缺漏斷言，保留已載的年齡、補助項目與政策規劃定位。"}]}
+{"id": "t085", "verdict": "needs_fix", "issues": [{"claim": "官方頁面沒有列出補助資格、額度或申請方式", "problem": "規則3／證據邊界：u0004與official_paragraphs支持補助項目與對象，但沒有明確聲明完整頁面未列資格、額度或申請方式；不能由節錄未出現推斷全頁沒有，原文未支持。", "suggested_fix": "刪除這句全頁缺漏斷言，或限縮為「本packet未提供詳細補助資格、額度或申請方式」。"}]}
+{"id": "t086", "verdict": "needs_fix", "issues": [{"claim": "頁面沒有列出專線號碼、服務時段或合作單位", "problem": "規則3／證據邊界：u0004與official_paragraphs支持專線規劃，但未明確聲明完整頁面未列號碼、時段或合作單位；摘錄未出現不代表整頁沒有，原文未支持。", "suggested_fix": "刪除這句全頁缺漏斷言，保留專線的政策規劃內容。"}]}
+{"id": "t021", "verdict": "needs_fix", "issues": [{"claim": "也沒有保證收益", "problem": "規則3／證據邊界（packet u0007, u0054）：packet說明近50萬元的組成、自存條件及基金運作，但沒有明確說收益不受保證；原文未支持這項保證條件。", "suggested_fix": "刪除「也沒有保證收益」。"}]}
+{"id": "t022", "verdict": "ok", "issues": []}
+{"id": "t023", "verdict": "ok", "issues": []}
+{"id": "t024", "verdict": "needs_fix", "issues": [{"claim": "具體名額與資格尚待規劃", "problem": "規則3／證據邊界（packet u0007）：packet支持計畫及8年20億元的政策估算，但未明確說名額與資格尚待規劃；節錄不足以證明這些項目全頁未列，原文未支持。", "suggested_fix": "改為「本packet摘錄未提供具體名額與資格」，或刪除此句。"}]}
+{"id": "t025", "verdict": "needs_fix", "issues": [{"claim": "具體編制與預算尚未公布", "problem": "規則3／證據邊界（packet u0013, u0135）：packet摘錄提出成立研究院及研究任務，未明確說具體編制與預算尚未公布；節錄不足以證明政策頁全頁未列，原文未支持。", "suggested_fix": "改為「本packet摘錄未提供具體編制與預算」，或刪除此句。"}]}
+{"id": "t026", "verdict": "ok", "issues": []}
+{"id": "t027", "verdict": "ok", "issues": []}
+{"id": "t049", "verdict": "needs_fix", "issues": [{"claim": "供電判斷、基地、工程與居民協調均未定案", "problem": "規則3／證據邊界（packet u0282）：訪談摘錄支持這是提出的整合方案，並稱市府表態願意依方向辦理，但沒有說明各項是否均未定案；packet未提供該結論依據，原文未支持。", "suggested_fix": "限縮為「這是訪談提出的構想；本packet未提供供電、基地、工程及居民協調的定案資訊」。"}]}
+{"id": "t057", "verdict": "needs_fix", "issues": [{"claim": "這個做法與同一份政策中提到的台北研究院是不同機制，前者靠大學以計畫形式承接，後者是候選人另提的市政智庫構想。", "problem": "規則3／證據邊界（packet u0002）：教育政策摘錄支持USR由大學以計畫模式研究市政議題，但沒有提到「台北研究院」或兩者的關係；packet未提供此比較依據，原文未支持。", "suggested_fix": "刪除此句。"}, {"claim": "政策頁沒有列出合作學校、議題清單、申請程序或預算", "problem": "規則3／證據邊界（packet u0002）：USR政策摘錄說明市府列市政痛點、大學以計畫模式研究，但packet節錄不足以證明整份政策頁未列其他細節；原文未支持此全頁否定。", "suggested_fix": "限縮為「本packet未提供合作學校、議題清單、申請程序或預算細節」。"}]}
+{"id": "t078", "verdict": "needs_fix", "issues": [{"claim": "具體時程與預算尚未公布。", "problem": "規則3／證據邊界：u0013、u0287及政策／訪談段落支持政策與商談構想，但沒有明確交代時程、預算的公布狀態；節錄未載不等於尚未公布，原文未支持。", "suggested_fix": "刪除「具體時程與預算尚未公布」。"}]}
+{"id": "t081", "verdict": "needs_fix", "issues": [{"claim": "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/", "problem": "規則8：摘要列出的網址沒有對應摘錄；packet 的 excerpts的unit u0441 對應的是 https://puma-hub.pages.dev/articles/city-debug-2026-10-24/transcript.md。兩者路徑不同，不是網址編碼等價。", "suggested_fix": "summary_urls 與來源欄改為摘錄對應的 /transcript.md 網址，或移除未有摘錄支持的網址。"}]}
+{"id": "t028", "verdict": "ok", "issues": []}
+{"id": "t029", "verdict": "needs_fix", "issues": [{"claim": "東京經驗是借鏡，台北站點與營運方式尚未明確。", "problem": "規則3／證據邊界（packet u0003, u0283）：訪談摘錄提出重要捷運站及步道節點，但packet僅含部分政策與訪談內容，不能由節錄未提營運細節推斷整個來源均未明確；原文未支持此完整否定。", "suggested_fix": "限縮為「packet未提供站點及營運方式細節」。"}]}
+{"id": "t030", "verdict": "needs_fix", "issues": [{"claim": "各點位置與維運方式仍待規劃。", "problem": "規則3／證據邊界（packet pdf:u0005, u0119）：簡報摘錄提每區新增據點並盤點空間，但packet節錄不足以證明整份簡報沒有地點或維運安排；原文未支持此全來源否定。", "suggested_fix": "限縮為「packet未提供各點位置與維運方式細節」。"}]}
+{"id": "t069", "verdict": "ok", "issues": []}
+{"id": "t070", "verdict": "needs_fix", "issues": [{"claim": "簡報沒有列出規模或預算", "problem": "規則3／證據邊界（packet pdf:u0005, u0281）：pdf:u0005 的摘錄呈現運動中心用途與場地種類，沒有明確說明簡報未列規模或預算；由摘錄未提到推斷整份簡報沒有，原文未支持。", "suggested_fix": "刪除「簡報沒有列出規模或預算」。"}]}
+{"id": "t031", "verdict": "ok", "issues": []}
+{"id": "t032", "verdict": "needs_fix", "issues": [{"claim": "市府是否長租或購置、資格、預算與程序都尚未定。", "problem": "規則3／證據邊界（packet u0089, u0365）：訪談摘錄呈現構想，並指出資格需要審慎討論，但packet節錄不能證明市府是否已有長租/購置方案及其預算、程序均未定；原文未支持此完整否定。", "suggested_fix": "限縮為「packet未提供長租或購置的資格、預算與程序細節」。"}]}
+{"id": "t033", "verdict": "needs_fix", "issues": [{"claim": "點數規則細節尚待規劃。", "problem": "訪談摘錄提出敬老卡、愛心卡點數兌換藝文消費，但packet節錄未顯示規則，不能據此斷言尚待規劃；原文未支持。", "suggested_fix": "限縮為「packet未提供點數規則細節」。"}]}
+{"id": "t054", "verdict": "needs_fix", "issues": [{"claim": "獎勵規則、特約商圈名單與點數額度，頁面尚未公布。", "problem": "政策摘錄說明獎勵機制與特約商圈方向，但packet只提供節錄，無法證明完整頁面沒有規則、名單、額度；原文未支持此全頁否定。", "suggested_fix": "限縮為「本packet未提供獎勵規則、特約商圈名單與點數額度」。"}]}
+{"id": "t064", "verdict": "needs_fix", "issues": [{"claim": "這些中心尚在規劃，尚未開放", "problem": "規則3／證據邊界（packet pdf:u0002, u0196）：官方簡報 unit pdf:u0002 描述中心位置和規劃服務，但沒有說明目前是否已開放；「尚未開放」是摘錄未支持的現況斷言。 原文未支持此額外判斷。", "suggested_fix": "刪除「尚未開放」，保留「簡報提出這些中心的規劃」。"}]}
+{"id": "t083", "verdict": "needs_fix", "issues": [{"claim": "這些是構想，工程、經費與審查程序尚未定案", "problem": "規則3／證據邊界（packet u0432, u0050）：u0432 與 u0050 支持受訪者提出自行車橋、明治橋構想，但 packet 未明確交代工程、經費或審查程序是否已定案；「尚未定案」是摘錄未支持的狀態判斷。 原文未支持此額外判斷。", "suggested_fix": "刪除「工程、經費與審查程序尚未定案」，或只保留「這些是受訪者提出的構想」。"}]}
+{"id": "t034", "verdict": "needs_fix", "issues": [{"claim": "保險尚無保單。", "problem": "規則3／證據邊界（packet u0006, u0166）：兩段摘要來源僅支持官方提出保險業者參與移除溝通、訪談提出保險機制參與風險討論；摘錄沒有交代是否已有保單，不能據此斷言沒有。 原文未支持此額外判斷。", "suggested_fix": "刪除「保險尚無保單」。"}]}
+{"id": "t035", "verdict": "ok", "issues": []}
+{"id": "t072", "verdict": "ok", "issues": []}
+{"id": "t073", "verdict": "needs_fix", "issues": [{"claim": "這些是規劃，沒有設置地點、規模或預算", "problem": "規則3／證據邊界（packet pdf:u0003, u0006, u0209）：pdf:u0003、u0006 與 u0209 支持廢木料銀行及木材再利用構想，但 packet 未明確聲明沒有設置地點、規模或預算；以摘錄未提及作整份政策的缺漏判斷，原文未支持。", "suggested_fix": "刪除「沒有設置地點、規模或預算」。"}]}
+{"id": "t074", "verdict": "ok", "issues": []}
+{"id": "t075", "verdict": "needs_fix", "issues": [{"claim": "具體入口與場址仍待規劃", "problem": "規則3／證據邊界（packet u0012, u0430）：u0012 與 u0430 說明親水空間與若干水路示例，但沒有明確交代這些具體入口與場址仍待規劃；從摘錄未提及推斷待規劃狀態，原文未支持。", "suggested_fix": "刪除「具體入口與場址仍待規劃」，或只說明packet所載的親水空間構想。"}]}
+{"id": "t036", "verdict": "needs_fix", "issues": [{"claim": "迎風—港墘橋與明治橋是不同構想。", "problem": "規則3／證據邊界（packet u0003, u0211）：官方交通政策摘錄僅支持迎風—港墘專用橋，訪談摘錄僅談該橋細節仍在討論；packet沒有明治橋或兩構想關係的證據，原文未支持。", "suggested_fix": "刪除此句。"}, {"claim": "橋型與經費頁面未列。", "problem": "規則3／證據邊界（packet u0003, u0211）：官方政策摘錄節錄到交通建設及推動期程，訪談摘錄說細節仍討論；packet未提供整個頁面的完整內容，不能斷言來源頁面未列橋型與經費。 原文未支持此額外判斷。", "suggested_fix": "限縮為「本packet未提供橋型與經費資訊」。"}]}
+{"id": "t037", "verdict": "needs_fix", "issues": [{"claim": "頁面未列折返點名單、預算或實施時程", "problem": "規則3：u0003 context「06｜推動藍圖」已列短期1–2年完成駕駛座人因工程與薪資補貼修訂，中期3–4年執行公車分區路網重整，不能概括稱未列實施時程。至於折返點名單與預算，packet節錄不足以證明整頁未列，原文未支持該全頁缺漏斷言。", "suggested_fix": "刪除這句缺漏斷言，保留前段已有的短、中期規劃。"}]}
+{"id": "t038", "verdict": "ok", "issues": []}
+{"id": "t039", "verdict": "needs_fix", "issues": [{"claim": "每日次數、契約方式與經費簡報未列", "problem": "PDF摘錄支持「每日一定次數」、媒合停車場及業者一律適用，但節錄不足以證明整份簡報沒有更具體規則或經費資料。 原文未支持此額外判斷。", "suggested_fix": "限縮為「本packet未提供每日次數、契約方式與經費細節」。"}]}
+{"id": "t040", "verdict": "ok", "issues": []}
+{"id": "t041", "verdict": "ok", "issues": []}
+{"id": "t076", "verdict": "needs_fix", "issues": [{"claim": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/", "problem": "規則8：摘要列出的網址沒有對應摘錄；packet 的 excerpts的unit u0406 對應的是 https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/content.md。兩者路徑不同，不是網址編碼等價。", "suggested_fix": "summary_urls 與來源欄改為摘錄對應的 /content.md 網址，或移除未有摘錄支持的網址。"}, {"claim": "站牌數量、位置與路線調整都尚未公布，並非已實施", "problem": "規則3／證據邊界（packet u0406）：u0406 記錄受訪者提出站點標識與路線盤點方向，但未明確交代目前公布或實施狀態；「尚未公布／並非已實施」是 packet 原文未支持的缺漏與現況判斷。", "suggested_fix": "刪除「站牌數量、位置與路線調整都尚未公布，並非已實施」。"}]}
+{"id": "t077", "verdict": "needs_fix", "issues": [{"claim": "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/", "problem": "規則8：摘要列出的網址沒有對應摘錄；packet 的 excerpts的unit u0406 對應的是 https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/content.md。兩者路徑不同，不是網址編碼等價。", "suggested_fix": "summary_urls 與來源欄改為摘錄對應的 /content.md 網址，或移除未有摘錄支持的網址。"}]}
+{"id": "t042", "verdict": "ok", "issues": []}
+{"id": "t043", "verdict": "needs_fix", "issues": [{"claim": "留言人數與代表性沒有抽樣方法", "problem": "規則3／證據邊界（packet u0097, u0406）：訪談摘錄支持超過六萬則留言，但沒有提供抽樣方法；packet不足以據此斷言完整來源沒有抽樣方法或代表性資料，原文未支持此否定。", "suggested_fix": "限縮為「本packet未提供留言的抽樣方法或代表性資料」。"}]}
+{"id": "t044", "verdict": "needs_fix", "issues": [{"claim": "閉門會談的具體內容，公開來源沒有記錄。", "problem": "規則3／證據邊界（packet u0034）：來源摘錄記錄了一個多小時會談的議題和前議長回應，但packet節錄不足以證明公開來源沒有其他會談細節；原文未支持此全來源否定。", "suggested_fix": "限縮為「本packet未提供其他閉門會談細節」。"}]}
+{"id": "t045", "verdict": "ok", "issues": []}
+{"id": "t055", "verdict": "needs_fix", "issues": [{"claim": "人才運用與獎勵的細節頁面尚未訂出。", "problem": "規則3／證據邊界（packet u0014）：政策摘錄明載研議加分、規劃人才運用與獎勵，但packet未提供整頁的完整內容，不能斷言細節尚未訂出；原文未支持。", "suggested_fix": "限縮為「本packet未提供人才運用與獎勵細節」。"}]}
+{"id": "t062", "verdict": "ok", "issues": []}
+{"id": "t079", "verdict": "needs_fix", "issues": [{"claim": "這是用人原則的說明，尚未公布具體人選", "problem": "規則3／證據邊界（packet u0035）：u0035 支持受訪者說明用人原則，但 packet 沒有明確說具體人選尚未公布；摘錄未列人選不等於原文支持尚未公布，原文未支持。", "suggested_fix": "刪除「尚未公布具體人選」。"}]}
+{"id": "t080", "verdict": "needs_fix", "issues": [{"claim": "這是管理主張，尚無制度條文", "problem": "規則3／證據邊界（packet u0187）：u0187 支持受訪者提出管理主張，但未明確交代是否已有制度條文；從摘錄未出現條文推斷尚無條文，原文未支持。", "suggested_fix": "刪除「尚無制度條文」。"}]}
+{"id": "t046", "verdict": "ok", "issues": []}
+{"id": "t047", "verdict": "ok", "issues": []}
+{"id": "t056", "verdict": "needs_fix", "issues": [{"claim": "頁面沒有列出合作城市、論壇時間或活動內容。", "problem": "規則3／證據邊界（packet u0014）：政策摘錄提出納入無限城論壇及交流內容，但packet節錄不足以證明整頁沒有城市、時間或活動細節；原文未支持此全頁否定。", "suggested_fix": "限縮為「本packet未提供合作城市、論壇時間或活動內容」。"}]}
+{"id": "t071", "verdict": "needs_fix", "issues": [{"claim": "結合城市聯盟賽事，提供青年赴海外交流的機會，也就是青年海外實習機會", "problem": "規則3／證據邊界（packet pdf:u0005）：pdf:u0005 同時出現「青年海外實習機會」與「結合城市聯盟賽事，提供青年赴海外交流機會」，但 packet 未明確定義兩者等同；「也就是」的等同關係原文未支持。", "suggested_fix": "刪除「也就是青年海外實習機會」。"}, {"claim": "簡報沒有列出聯盟成員城市、賽事、名額或預算", "problem": "規則3／證據邊界（packet pdf:u0005）：pdf:u0005 提及聯盟與賽事方向，但 packet 未明確聲明簡報沒有列成員、賽事、名額或預算；摘錄未出現不代表整份簡報沒有，原文未支持。", "suggested_fix": "刪除「簡報沒有列出聯盟成員城市、賽事、名額或預算」。"}]}
+{"id": "t048", "verdict": "ok", "issues": []}
+{"id": "t058", "verdict": "ok", "issues": []}
+{"id": "t059", "verdict": "needs_fix", "issues": [{"claim": "裝備補助的金額、對象與檢查機制都尚未說明", "problem": "規則3／證據邊界：u0064及interview_paragraphs已談高風險藍領工作的安全指引、裝備補助與勞安檢查，但未明示各細節的公布狀態；不能因節錄未載細節就斷言均尚未說明，原文未支持。", "suggested_fix": "刪除這段缺漏斷言，或限縮為「本packet未提供補助金額與申請、檢查細節」。"}]}
+{"id": "t067", "verdict": "needs_fix", "issues": [{"claim": "女性安全審計與環境改善都是主張，尚未見到實施地點或時程", "problem": "規則3／證據邊界（packet u0004, u0064）：u0004 與 u0064 支持兩項政策主張及環境改善方向，但沒有明確說明實施地點或時程尚未確定；「尚未見到」是依摘錄未提及而作的缺漏判斷，原文未支持。", "suggested_fix": "刪除「尚未見到實施地點或時程」，保留前句對主張的描述。"}]}
+{"id": "t068", "verdict": "ok", "issues": []}
+{"id": "t050", "verdict": "ok", "issues": []}
+{"id": "t051", "verdict": "ok", "issues": []}
+{"id": "t061", "verdict": "ok", "issues": []}
+{"id": "t063", "verdict": "ok", "issues": []}
+{"id": "t082", "verdict": "ok", "issues": []}
+{"id": "t060", "verdict": "needs_fix", "issues": [{"claim": "這些是座談中的構想，尚未公布預算", "problem": "規則3／證據邊界（packet u0441）：unit u0441 記錄座談發言，但摘錄沒有明確說預算尚未公布；以摘錄未提及預算推斷未公布，原文未支持。", "suggested_fix": "刪除「尚未公布預算」。"}]}

@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-11-07T16:09:27.085156+08:00",
+  "input_commit": "62e885429f0e851df539070b94df36b52a97afaf",
+  "packets_sha256": "14a221ebf240bed5b14b68ef906996b98a3f55d925d0dbff5eebd023ae82f7f0",
+  "results_sha256": "d7d0ff840ebb13920d4e32b8bb73bef18eb7930e5b9b6e8869ba6e2e9131c9ca",
+  "method": "3 Luna agents directly read assigned packets; root reviewed candidate findings and selected ok cases. No Codex CLI batch.",
+  "scope": "Packet-only internal research and factual consistency check; human review pending; no automatic changes to summaries or publication.",
+  "cli_smoke_attempt": "Cancelled at user request; no CLI results accepted.",
+  "evidence_view": "Duplicate/overlapping contexts grouped by identical unit and URL; every original context verified as an exact substring and every quote retained.",
+  "topics": 86,
+  "verdict_counts": {
+    "ok": 46,
+    "needs_fix": 40
+  },
+  "issue_count": 44,
+  "missing_ids": [],
+  "duplicate_ids": [],
+  "schema_and_exact_claim_substring_check": "passed",
+  "root_adjudications": [
+    {
+      "id": "t004",
+      "action": "remove_false_positive",
+      "reason": "u0166 context明文註記統計年份與計算口徑仍待核實。"
+    },
+    {
+      "id": "t008",
+      "action": "remove_false_positive",
+      "reason": "interview_paragraphs明文註記課程效果與適用對象尚待核實。"
+    },
+    {
+      "id": "t016",
+      "action": "remove_false_positive",
+      "reason": "u0011 context明文指出具體上路期程應配合資源盤點與執行準備確認。"
+    },
+    {
+      "id": "t045",
+      "action": "remove_false_positive",
+      "reason": "未給具體金額限於packet所附的普發／舉債主張，不能擴大解讀為所有預算；另提60萬元舊研究案不是本主張金額。"
+    },
+    {
+      "id": "t068",
+      "action": "remove_false_positive",
+      "reason": "主張與已實施制度的區分是對packet提案性質的限定，不是外部現況調查。"
+    },
+    {
+      "id": "t037",
+      "action": "strengthen_evidence",
+      "reason": "不是只有缺漏證據不足；同一packet實際已提供短中期年限。"
+    },
+    {
+      "id": "t081",
+      "action": "remove_false_positive_keep_url_issue",
+      "reason": "Demo不等於部署及機構屬構想是證據層級限定；保留未對應摘錄的網址問題。"
+    },
+    {
+      "id": "t077",
+      "action": "remove_overbroad_status_issue_keep_url_issue",
+      "reason": "該段以討論中的可能措施表述，避免把提案性質提醒誤當獨立現況斷言；網址對應問題保留。"
+    }
+  ],
+  "interpretation": "needs_fix includes insufficient packet support; it does not establish that the original policy statement is false. ok means consistency with supplied packet only, not independent verification or platform approval."
+}
