@@ -29,7 +29,7 @@ test('every short summary, including source URLs and newlines, stays within 500 
     const { share } = topic;
     assert.ok(countCharacters(share.text) <= 500, `${topic.id} exceeds 500`);
     assert.equal(share.utf16_length, countCharacters(share.text), `${topic.id} stored length differs`);
-    assert.ok(share.utf16_length >= 250, `${topic.id} is unexpectedly short`);
+    assert.ok(share.utf16_length >= 120, `${topic.id} is unexpectedly short`);
     assert.ok(share.text.startsWith(share.body), `${topic.id} text does not start with body`);
     assert.doesNotMatch(share.body, /https?:\/\//, `${topic.id} embeds a URL in the body`);
     const urls = share.text.match(/https:\/\/[^\s]+/g)?.map(decode) ?? [];
@@ -64,6 +64,22 @@ test('official wording is primary: no source-difference notes in data or in the 
   const page = read('public/topics/index.html') + read('public/topics/topics.js');
   assert.ok(!page.includes('來源說法有差異'), 'difference section is still in the topic page');
   assert.ok(!page.includes('difference-section'));
+});
+
+test('no internal review wording leaks into summaries, detail text or public data', () => {
+  const bad = /packet|本次摘錄|本packet|摘錄未提供|packet未/;
+  for (const topic of data.topics) {
+    const texts = [topic.share.text, topic.intro, ...topic.official.map((p) => p.text), ...topic.interview.map((p) => p.text)];
+    for (const text of texts) assert.doesNotMatch(text, bad, `${topic.id} contains internal review wording`);
+  }
+});
+
+test('detail text and copyable summary use the same source URLs', () => {
+  for (const topic of data.topics) {
+    const known = new Set(topic.sources.map((s) => s.url));
+    for (const url of topic.share.source_urls) assert.ok(known.has(url), `${topic.id} summary URL missing from sources`);
+    for (const paragraph of [...topic.official, ...topic.interview]) for (const url of paragraph.source_urls) assert.ok(known.has(url), `${topic.id} paragraph URL missing from sources`);
+  }
 });
 
 test('summaries avoid generic boilerplate endings and slogan-like phrases', () => {

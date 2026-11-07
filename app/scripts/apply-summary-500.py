@@ -98,7 +98,11 @@ def main():
                 if u not in src:
                     if u not in known: errors.append(f'{tid}: extra source not in corpus: {u}')
                     else: src[u] = known[u]
-        all_sources = list(topic['sources']) + [v for u, v in src.items() if u not in {s['url'] for s in topic['sources']}]
+        url_map = row.get('url_replace', {})
+        for old, new in url_map.items():
+            if old in src:
+                moved = dict(src.pop(old)); moved['url'] = new; src[new] = moved
+        all_sources = [s for s in topic['sources'] if s['url'] in src] + [v for u, v in src.items() if u not in {s['url'] for s in topic['sources']}]
         all_sources.sort(key=lambda s: s['type'] != 'official')
         urls = [all_sources[int(u[1:])]['url'] if re.fullmatch(r's\d+', u) else u for u in row['source_urls']]
         if not 1 <= len(urls) <= 3 or len(set(urls)) != len(urls): errors.append(f'{tid}: needs 1-3 unique source URLs')
@@ -160,7 +164,14 @@ def main():
                                 'section_or_timestamp': ev.get('section_or_timestamp', f"閱讀單位{ev['unit_id']}，原文摘錄定位")})
                 if e['text'] not in [x['text'] for x in topic[e['section']]]:
                     topic[e['section']].append({'text': e['text'], 'source_urls': e['source_urls'], 'evidence': evs})
-            topic['sources'] = all_sources
+            def swap(url):
+                return url_map.get(url, url)
+            for sec in ('official', 'interview', 'differences'):
+                for para in topic[sec]:
+                    para['source_urls'] = [swap(u) for u in para['source_urls']]
+                    for ev in para.get('evidence', []):
+                        if 'source_url' in ev: ev['source_url'] = swap(ev['source_url'])
+            topic['sources'] = [dict(s, url=swap(s['url'])) if s['url'] in url_map else s for s in all_sources]
             topic['differences'] = []  # official wording is primary; no source-difference notes (2026-11-07 editorial decision)
             topic['share'] = {'body': body, 'source_urls': urls, 'text': text, 'utf16_length': n}
     report = {'status': 'failed' if errors else 'passed', 'topics_checked': len(table), 'errors': errors,

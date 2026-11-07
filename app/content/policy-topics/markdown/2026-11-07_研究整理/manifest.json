@@ -1,11 +1,11 @@
 {
   "type": "internal_research_markdown",
-  "generated_at": "2026-11-07T15:31:00+08:00",
+  "generated_at": "2026-11-07T16:22:09+08:00",
   "source_snapshot_date": "2026-11-07",
   "publication_status": "not_published",
   "input": {
     "path": "app/content/policy-topics/expanded-topics.json",
-    "sha256": "eb47688599ba6d6695b597cd70e308794e4ca919dfd3c7f17905c9b1abe0bc60"
+    "sha256": "79f4a544a90f2dc186d22b7c61f3138c9d272c0fe834fe6235291d10106e8229"
   },
   "files": [
     {
@@ -1310,8 +1310,8 @@
     },
     {
       "path": "主題/g06_AI與市府治理/t081_市民科技原型如何經過法規與資安評估再交給市府？.md",
-      "sha256": "e20370d283cac09f4cac06eaa938fe1bfd9e2c0fbbc52b6eadfdf555b58e672e",
-      "bytes": 2132
+      "sha256": "0051fc9fec2cab950442a64d91e36deb1edad7cf98ade585e2ce9d35d76cf2e2",
+      "bytes": 2158
     },
     {
       "path": "主題/g07_運動與休閒/t028_健身小巴與專業教練如何把肌力訓練帶進社區？.md",
@@ -1330,8 +1330,8 @@
     },
     {
       "path": "主題/g07_運動與休閒/t069_關渡足球場要提供什麼運動空間？.md",
-      "sha256": "9d8346755a54cc461259b344aab78808efb0f5406790faa773b467f0ab006759",
-      "bytes": 2401
+      "sha256": "38af36ecc6fde845230c5e9f88f1a3931730d73cb79cf79e9400a8be5f9f1174",
+      "bytes": 2344
     },
     {
       "path": "主題/g07_運動與休閒/t070_花博與圓山的大型運動中心如何補場地？.md",
@@ -1360,8 +1360,8 @@
     },
     {
       "path": "主題/g08_文化、步道與地方記憶/t064_登山觀光中心與接駁如何改善淺山步道體驗？.md",
-      "sha256": "f0bda9769e8569e3630926cd4c7c7f49ed13073ae8539c019b41175815413b91",
-      "bytes": 2357
+      "sha256": "1ec7dd77cf0486831ee24fbc18607610f13c386de4af21d58073e31406aa6b44",
+      "bytes": 2303
     },
     {
       "path": "主題/g08_文化、步道與地方記憶/t083_明治橋的歷史景觀如何結合自行車通勤？.md",
@@ -1430,13 +1430,13 @@
     },
     {
       "path": "主題/g10_交通與街道/t076_台北車站公車站牌與路線如何更好找？.md",
-      "sha256": "9830f390230fbc2870ce65ddd24fad8096fbac4b7cad8d2542010d827c761637",
-      "bytes": 1961
+      "sha256": "063fa4ae9e638206462ace61743a39d0a00654cbe8bb18c2dc0f69dd7ba2aaf7",
+      "bytes": 1981
     },
     {
       "path": "主題/g10_交通與街道/t077_公車轉彎警示聲與捷運寧靜車廂如何試辦？.md",
-      "sha256": "765169ab5d13fbdf20ddb212ac9e75e14834a7666c592029acdd49671265367e",
-      "bytes": 1958
+      "sha256": "fbd47c2077d574c71df1e726357e989ea96e747ab852b9c6dc01b3222b797439",
+      "bytes": 1978
     },
     {
       "path": "主題/g11_城市生活與治理/t042_夜間商圈的噪音、安全與居民衝突由誰協調？.md",
@@ -1560,22 +1560,22 @@
     },
     {
       "path": "政策與訪談_完整整理.md",
-      "sha256": "ae4374745b234d409ea883112ec20caa1bd897f3fae60b64699e03f11f9b6757",
-      "bytes": 180490
+      "sha256": "540e1a74791171384ba29fb29d28af65b2a748ffd9119137aca41d840cd2a654",
+      "bytes": 180445
     },
     {
       "path": "來源索引.md",
-      "sha256": "75837ab07c590360615f4f4eb842d29c50663937fe555688318d81e050ef78b0",
-      "bytes": 112286
+      "sha256": "f3eb7b35c87b9c904b2c956eb6fa99c5f0c7a041a176eef2e8ef743f5daf6e8e",
+      "bytes": 111976
     },
     {
       "path": "摘要與字數說明.md",
-      "sha256": "5f3d582d4be5a715f4034cd278a17866c519f0d2970d4048328bbf07bfd999a8",
+      "sha256": "2490bfcd42c90d40d73270ab497173f356f2511831895e78d3ab5766a7050d09",
       "bytes": 32048
     },
     {
       "path": "版本與校讀說明.md",
-      "sha256": "fc1f204b45f4d5e87632e6c93342e4852e42383838fa337230719efb9663c43e",
+      "sha256": "0029e052892c34d53dd721f626365a7a09b0e75b32613bea69d3a5bec1deb551",
       "bytes": 2303
     }
   ],
