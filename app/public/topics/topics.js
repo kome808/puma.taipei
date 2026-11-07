@@ -69,7 +69,7 @@ function topicCard(topic) {
   card.href = `/topics/?topic=${topic.id}`; card.dataset.topic = topic.id;
   card.style.setProperty('--category-color', CATEGORY_ART[topic.group_id].color);
   const title = element('h4', 'topic-title', topic.title);
-  const open = element('span', 'topic-open'); open.append('看說明與摘要 ', element('b', '', '↗'));
+  const open = element('span', 'topic-open'); open.append('看摘要與來源 ', element('b', '', '↗'));
   card.append(sourceBadges(topic), title, element('p', 'topic-intro', topic.intro), open);
   card.addEventListener('click', (event) => {
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.button === 1) return;
@@ -179,70 +179,38 @@ async function submitSearch() {
   }
 }
 
-function sourceLink(url, title) {
-  const link = element('a', '', title); link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; return link;
-}
-// Display only: break a long paragraph at sentence ends into chunks of about 90 characters.
-function readableChunks(text) {
-  const sentences = text.split(/(?<=。)/).filter(Boolean);
-  const chunks = []; let current = '';
-  for (const sentence of sentences) {
-    if (current && current.length + sentence.length > 90) { chunks.push(current); current = ''; }
-    current += sentence;
-  }
-  if (current) chunks.push(current);
-  return chunks.length ? chunks : [text];
-}
-function renderParagraphs(selector, paragraphs, empty, topic) {
-  const host = $(selector); host.replaceChildren();
-  if (!paragraphs.length) { host.append(element('p', 'no-source', empty)); return; }
-  for (const paragraph of paragraphs) {
-    const block = element('div', 'content-paragraph');
-    for (const chunk of readableChunks(paragraph.text)) block.append(element('p', '', chunk));
-    const links = element('div', 'paragraph-sources');
-    for (const url of paragraph.source_urls) {
-      const source = topic.sources.find((s) => s.url === url); links.append(sourceLink(url, `${source?.title || '原文'} ↗`));
-    }
-    block.append(links); host.append(block);
-  }
-}
-
 function decodeUrl(url) { try { return decodeURI(url); } catch { return url; } }
-function updatePostState() {
-  const value = $('#share-post').value;
-  const expected = state.topic.share.source_urls.map(decodeUrl);
+function renderSummary(topic) {
+  const host = $('#share-post'); host.replaceChildren();
+  const sourceUrls = new Set(topic.share.source_urls.map(decodeUrl));
+  for (const part of topic.share.text.split(/(https:\/\/[^\s]+)/g)) {
+    if (sourceUrls.has(decodeUrl(part))) {
+      const link = element('a', 'summary-source', part);
+      link.href = part; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      host.append(link);
+    } else host.append(document.createTextNode(part));
+  }
+  const value = topic.share.text;
   const found = (value.match(/https:\/\/[^\s]+/g) || []).map(decodeUrl);
-  const sourcesPresent = found.length === expected.length && expected.every((url) => found.includes(url));
-  const withinLimit = value.length <= 500;
+  const sourcesPresent = found.length === sourceUrls.size && found.every((url) => sourceUrls.has(url));
+  const valid = value.length <= 500 && sourcesPresent;
   $('#character-count').textContent = `${value.length} / 500 字元（含來源網址）`;
-  $('#share-issue').textContent = !withinLimit ? '這段超過500字元，刪短一點再複製。' : !sourcesPresent ? '原文出處要一起帶走，請保留來源連結。' : '';
-  $('#copy-post').disabled = !withinLimit || !sourcesPresent;
+  $('#share-issue').textContent = valid ? '' : '摘要資料暫時無法複製，請用下方回報功能通知維護者。';
+  $('#copy-post').disabled = !valid;
   $('#copy-status').textContent = '';
-  if (dialog.open) fitPost();
-}
-function fitPost() {
-  const field = $('#share-post'); field.style.height = 'auto';
-  field.style.height = `${Math.min(900, Math.max(240, field.scrollHeight + 2))}px`;
 }
 
 function openTopic(id, updateAddress = true) {
   const topic = state.data.topics.find((t) => t.id === id); if (!topic) return;
   state.topic = topic; clearTimeout(state.copyTimer);
-  $('#detail-group').textContent = `${CATEGORY_ART[topic.group_id].label} / ${topic.group_title}`;
-  $('#detail-title').textContent = topic.title; $('#detail-intro').textContent = topic.intro;
+  $('#detail-group').textContent = topic.group_title;
+  $('#detail-title').textContent = topic.title;
   $('#detail-scope').hidden = true;
   const badges = $('#detail-badges'); badges.replaceChildren(...sourceBadges(topic).childNodes);
-  renderParagraphs('#official-content', topic.official, '這一題目前沒有對應的官方政策內容，以下整理來自訪談／活動。', topic);
-  renderParagraphs('#interview-content', topic.interview, '這一題目前沒有對應的訪談補充，內容來自官方政策頁。', topic);
-  $('#share-post').value = topic.share.text; updatePostState();
+  renderSummary(topic);
   $('#copy-post span').textContent = '複製摘要與來源';
-  const list = $('#detail-source-list'); list.replaceChildren();
-  const sources = [...topic.sources].sort((a, b) => (a.type !== 'official') - (b.type !== 'official'));
-  for (const source of sources) {
-    const li = element('li'); li.append(element('span', 'detail-source-type', source.type === 'official' ? '官方政策' : '訪談／活動'), sourceLink(source.url, `${source.title} ↗`)); list.append(li);
-  }
   resetReport();
-  if (!dialog.open) dialog.showModal(); dialog.scrollTop = 0; fitPost();
+  if (!dialog.open) dialog.showModal(); dialog.scrollTop = 0;
   $('#close-topic').focus({ preventScroll: true });
   if (updateAddress) setAddress(id, true);
 }
@@ -250,7 +218,7 @@ function reportText() {
   const topic = state.topic; const note = $('#report-note').value.trim();
   const lines = ['【Puma政策筆記 錯誤回報】', `題目：${topic.title}（${topic.id}）`, `頁面：${location.origin}/topics/?topic=${topic.id}`,
     `問題類型：${$('#report-type').value}`, `說明：${note || '（未填）'}`, `資料版本：來源擷取 ${state.data.source_snapshot_date}／內容更新 ${state.data.content_updated || state.data.source_snapshot_date}`,
-    `短摘要字元數（含網址）：${$('#share-post').value.length}／500`, '本題來源：', ...topic.sources.map((s) => `- ${s.title}\n  ${s.url}`)];
+    `短摘要字元數（含網址）：${topic.share.text.length}／500`, '本題來源：', ...topic.sources.map((s) => `- ${s.title}\n  ${s.url}`)];
   return lines.join('\n');
 }
 function resetReport() {
@@ -322,11 +290,14 @@ function closeTopic() { dialog.close(); }
 
 async function copyPost() {
   if ($('#copy-post').disabled) return;
-  const value = $('#share-post').value; let timer;
+  const value = state.topic.share.text; let timer;
   try {
     await Promise.race([navigator.clipboard.writeText(value), new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('clipboard deadline')), 1600); })]);
   } catch {
-    $('#share-post').focus(); $('#share-post').select();
+    const selection = window.getSelection();
+    if (!selection) { $('#copy-status').textContent = '請選取上方文字，使用瀏覽器的複製功能。'; return; }
+    const range = document.createRange(); range.selectNodeContents($('#share-post'));
+    selection.removeAllRanges(); selection.addRange(range);
     if (!document.execCommand('copy')) { $('#copy-status').textContent = '請選取上方文字，使用瀏覽器的複製功能。'; return; }
   } finally { clearTimeout(timer); }
   $('#copy-post span').textContent = '摘要已複製'; $('#copy-status').textContent = '摘要與來源已複製。';
@@ -376,7 +347,6 @@ dialog.addEventListener('close', () => {
   if (!previous) return;
   if (history.state?.pumaTopicId === previous.id) history.back(); else setAddress('');
 });
-$('#share-post').addEventListener('input', updatePostState); $('#restore-post').addEventListener('click', () => { $('#share-post').value = state.topic.share.text; updatePostState(); });
 $('#copy-post').addEventListener('click', copyPost);
 $('#open-report').addEventListener('click', () => { const form = $('#report-form'); form.hidden = !form.hidden; $('#open-report').setAttribute('aria-expanded', String(!form.hidden)); prepareMail(); if (!form.hidden) { prepareSend(); $('#report-type').focus(); } });
 $('#report-send').addEventListener('click', sendReport);

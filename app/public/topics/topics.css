@@ -130,3 +130,12 @@ dialog{padding:0;border:1px solid #d9c2a3;border-radius:20px;background:var(--wh
 .browse-stack>.semantic-mode-status{order:2}
 .browse-stack>.filter-status{order:3}
 @media(max-width:540px){.search-options{gap:5px}.search-options span{font-size:10px;padding:7px 10px}.search-form{align-items:center}}
+/* 內容頁只呈現同一份唯讀摘要；來源連結直接保留在摘要內。 */
+dialog.summary-dialog{width:min(720px,calc(100% - 32px))}
+.summary-dialog .dialog-intro{margin-bottom:20px}
+.summary-dialog .summary-panel{width:100%;grid-area:auto}
+#share-post.summary-content{min-height:0;border:0;padding:0;background:transparent;resize:none;font-size:16px;line-height:1.95;user-select:text}
+.summary-content .summary-source{color:var(--orange);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.summary-panel .share-tools{margin-top:14px}
+.summary-panel .source-date{margin-top:18px}
+@media(max-width:540px){dialog.summary-dialog{width:calc(100% - 18px)}}
