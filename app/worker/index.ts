@@ -1,8 +1,5 @@
 import type { Env } from './types';
 import { AppError } from './errors';
-import { checkOrigin, readInput, reserveRequest, verifyTurnstile } from './guards';
-import { corpusStats, generationContext, searchEvidence } from './search';
-import { generatePost } from './openai';
 import { cleanupReports, listReports, reportsOpen, submitReport, updateReport } from './reports';
 
 function secureResponse(response: Response, development = false): Response {
@@ -19,61 +16,61 @@ function json(value: unknown, status = 200) {
   return Response.json(value, { status, headers: { 'Cache-Control': 'no-store' } });
 }
 
+function retired() {
+  return json({ error: { code: 'FEATURE_RETIRED', message: '即時查詢與文字生成已停止，請前往政策主題館閱讀既有整理內容。', href: '/topics/' } }, 410);
+}
+
+function topicsRedirect(request: Request): Response {
+  const incoming = new URL(request.url);
+  const target = new URL('/topics/', incoming);
+  const query = incoming.searchParams.get('q')?.trim().slice(0, 150);
+  const group = incoming.searchParams.get('group');
+  const topic = incoming.searchParams.get('topic');
+  if (query) target.searchParams.set('q', query);
+  if (group && /^g\d{1,2}$/.test(group)) target.searchParams.set('group', group);
+  if (topic && /^t\d{1,3}$/.test(topic)) target.searchParams.set('topic', topic);
+  return new Response(null, { status: 302, headers: { Location: `${target.pathname}${target.search}`, 'Cache-Control': 'no-store' } });
+}
+
 export default {
-  async fetch(request: Request, env: Env, ctx?: ExecutionContext): Promise<Response> {
-    const requestId = crypto.randomUUID();
-    const path = new URL(request.url).pathname;
+  async fetch(request: Request, env: Env, ctx?: { waitUntil(promise: Promise<unknown>): void }): Promise<Response> {
+    const url = new URL(request.url);
+    const path = url.pathname;
     let response: Response;
-    try {
-      if (path === '/api/config' && request.method === 'GET') {
-        const stats = await corpusStats(env);
-        const ready = stats.sources > 0 && stats.passages > 0 && Boolean(stats.version);
-        response = json({ turnstileSiteKey: env.TURNSTILE_SITE_KEY || null, stats, reportsOpen: reportsOpen(env), live: ready && Boolean(env.OPENAI_API_KEY) && (env.ENVIRONMENT === 'development' || Boolean(env.TURNSTILE_SITE_KEY && env.TURNSTILE_SECRET_KEY && env.RATE_LIMIT_SALT)) });
-      } else if (path === '/api/health' && request.method === 'GET') {
-        const stats = await corpusStats(env);
-        const ready = stats.sources > 0 && stats.passages > 0 && Boolean(stats.version);
-        response = json({ ok: ready, stats }, ready ? 200 : 503);
-      } else if (['/api/search', '/api/generate'].includes(path) && request.method === 'POST') {
-        checkOrigin(request, env);
-        const input = await readInput(request);
-        const action = path === '/api/generate' ? 'generate' : 'search';
-        if (action === 'generate') {
-          if (!env.OPENAI_API_KEY) throw new AppError('AI_UNAVAILABLE', '文字整理服務尚未啟用，仍可先查閱來源資料。', 503);
-          await verifyTurnstile(request, env, input.turnstileToken);
+    if (path === '/api/config' && request.method === 'GET') {
+      const open = Boolean(env.DB) && reportsOpen(env);
+      response = json({ mode: 'static-topic-search', generationEnabled: false, live: false, reportsOpen: open, ...(open && env.TURNSTILE_SITE_KEY ? { turnstileSiteKey: env.TURNSTILE_SITE_KEY } : {}) });
+    } else if (path === '/api/health' && request.method === 'GET') {
+      response = json({ ok: true, mode: 'static-topic-search', generationEnabled: false });
+    } else if (path === '/api/search' || path === '/api/generate') {
+      response = retired();
+    } else if (path === '/api/reports' || path.startsWith('/api/admin/reports')) {
+      try {
+        if (!env.DB) throw new AppError('NOT_FOUND', '查詢路徑不存在。', 404);
+        if (path === '/api/reports' && request.method === 'POST') {
+          response = json(await submitReport(request, env), 201);
+          if (ctx) ctx.waitUntil(cleanupReports(env).catch(() => undefined));
+        } else if (path === '/api/admin/reports' && request.method === 'GET') {
+          response = json(await listReports(request, env));
+        } else if (/^\/api\/admin\/reports\/[^/]+$/.test(path) && request.method === 'PATCH') {
+          response = json(await updateReport(request, env, decodeURIComponent(path.split('/').pop() ?? '')));
+        } else {
+          response = json({ error: { code: 'NOT_FOUND', message: '查詢路徑不存在。' } }, 404);
         }
-        // Failed verification cannot consume the site's finite generation budget.
-        await reserveRequest(request, env, action);
-        const found = await searchEvidence(env, input.query);
-        const stats = await corpusStats(env);
-        const search = { query: input.query, results: found.evidence, searchMethod: found.method, corpusVersion: stats.version };
-        if (action === 'search') response = json(search);
-        else {
-          const context = generationContext(found.evidence, input.query);
-          const generated = await generatePost(env, input.query, input.mode, context, async (usage) => {
-            await env.DB.prepare('INSERT INTO generation_usage(request_id,created_at,mode,input_tokens,output_tokens,estimated_usd) VALUES(?,?,?,?,?,?)')
-              .bind(requestId, new Date().toISOString(), input.mode, usage.inputTokens, usage.outputTokens, usage.estimatedCostUsd).run();
-          });
-          response = json({ ...search, ...generated, requestId });
-        }
-        if (ctx) ctx.waitUntil(Promise.all([
-          env.DB.prepare('DELETE FROM request_limits WHERE bucket IN (SELECT bucket FROM request_limits WHERE expires_at < ? LIMIT 100)').bind(Date.now()).run(),
-          env.DB.prepare('DELETE FROM generation_usage WHERE created_at < ?').bind(new Date(Date.now() - 30 * 86400_000).toISOString()).run(),
-        ]).catch(() => undefined));
-      } else if (path === '/api/reports' && request.method === 'POST') {
-        response = json(await submitReport(request, env), 201);
-        if (ctx) ctx.waitUntil(cleanupReports(env).catch(() => undefined));
-      } else if (path === '/api/admin/reports' && request.method === 'GET') {
-        response = json(await listReports(request, env));
-      } else if (/^\/api\/admin\/reports\/[^/]+$/.test(path) && request.method === 'PATCH') {
-        response = json(await updateReport(request, env, decodeURIComponent(path.split('/').pop() ?? '')));
-      } else if (path.startsWith('/api/')) {
-        response = json({ error: { code: 'NOT_FOUND', message: '查詢路徑不存在。', requestId } }, 404);
-      } else {
-        response = await env.ASSETS.fetch(request);
+      } catch (error) {
+        const known = error instanceof AppError;
+        response = json({ error: { code: known ? error.code : 'SERVICE_ERROR', message: known ? error.message : '服務暫時無法完成這個操作，請稍後再試。' } }, known ? error.status : 503);
       }
-    } catch (error) {
-      const safe = error instanceof AppError ? error : new AppError('SERVICE_ERROR', '服務暫時無法完成這個操作，請稍後再試。', 503);
-      response = json({ error: { code: safe.code, message: safe.message, requestId } }, safe.status);
+    } else if (path.startsWith('/api/')) {
+      response = json({ error: { code: 'NOT_FOUND', message: '查詢路徑不存在。' } }, 404);
+    } else if ((path === '/' || path === '/index.html') && (request.method === 'GET' || request.method === 'HEAD')) {
+      response = topicsRedirect(request);
+    } else {
+      try {
+        response = await env.ASSETS.fetch(request);
+      } catch {
+        response = json({ error: { code: 'SERVICE_ERROR', message: '服務暫時無法完成這個操作，請稍後再試。' } }, 503);
+      }
     }
     return secureResponse(response, env.ENVIRONMENT === 'development');
   },

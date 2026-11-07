@@ -4,12 +4,16 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/dev.mjs",
+    "predev": "npm run build:static",
+    "dev": "node scripts/preview-static-pages.mjs",
     "prebuild": "node scripts/export-public-topics.mjs",
     "build": "tsc --noEmit && vite build",
+    "build:static": "tsc --noEmit && node scripts/export-public-topics.mjs && node scripts/build-static-pages.mjs",
     "test": "node --import tsx --test tests/*.test.ts",
     "corpus": "node scripts/build-corpus.mjs",
-    "preview": "wrangler dev --port 8787",
+    "prepreview": "npm run build:static",
+    "preview": "node scripts/preview-static-pages.mjs",
+    "dev:worker": "wrangler dev --local --port 8787",
     "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
@@ -24,6 +28,7 @@
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "@vitejs/plugin-react": "6.2.1",
+    "esbuild": "0.28.2",
     "tsx": "4.23.15",
     "typescript": "7.0.2",
     "vite": "8.3.6",

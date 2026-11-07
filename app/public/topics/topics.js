@@ -1,5 +1,6 @@
 import { CATEGORY_ART } from './categories.js';
 import { REPORT_EMAIL } from './site-config.js';
+import { searchTopics } from './topic-search.mjs';
 
 const $ = (selector) => document.querySelector(selector);
 const state = { data: null, group: '', query: '', topic: null, copyTimer: null };
@@ -14,18 +15,6 @@ function element(tag, className, text) {
 }
 
 function dateLabel(date) { return String(date).replaceAll('-', '.'); }
-function normalized(value) { return value.normalize('NFKC').replaceAll('臺', '台').toLowerCase(); }
-
-function topicText(topic) {
-  return normalized([topic.title, topic.question, topic.intro, topic.group_title, ...topic.keywords,
-    ...topic.official.map((p) => p.text), ...topic.interview.map((p) => p.text), topic.share.body].join(' '));
-}
-function queryMatches(topic) {
-  const words = normalized(state.query).split(/\s+/).filter(Boolean);
-  if (!words.length) return true;
-  const text = topic._text ?? (topic._text = topicText(topic));
-  return words.every((word) => text.includes(word));
-}
 function sourceKinds(topic) {
   return { official: topic.official.length > 0, interview: topic.interview.length > 0 };
 }
@@ -93,15 +82,28 @@ function render() {
   if (!state.data) return;
   const searching = Boolean(state.query.trim());
   stack.classList.toggle('is-searching', searching);
+  const ranked = searchTopics(state.data.topics, state.query);
   const matchesByGroup = new Map();
   for (const group of state.data.groups) {
-    matchesByGroup.set(group.id, state.data.topics.filter((t) => t.group_id === group.id && queryMatches(t)));
+    matchesByGroup.set(group.id, ranked.filter((t) => t.group_id === group.id));
   }
   renderCategories(matchesByGroup);
 
   const host = $('#topic-sections'); host.replaceChildren();
   let shown = 0;
-  for (const group of state.data.groups) {
+  if (searching) {
+    const matches = ranked.filter((topic) => !state.group || topic.group_id === state.group);
+    shown = matches.length;
+    if (shown) {
+      const section = element('section', 'topic-group');
+      const title = element('h3', '', '與問題相關的主題');
+      title.id = 'search-results-heading';
+      section.setAttribute('aria-labelledby', title.id);
+      const grid = element('div', 'topic-grid');
+      for (const topic of matches) grid.append(topicCard(topic));
+      section.append(title, grid); host.append(section);
+    }
+  } else for (const group of state.data.groups) {
     if (state.group && state.group !== group.id) continue;
     const list = matchesByGroup.get(group.id);
     if (!list.length) continue;
@@ -124,7 +126,7 @@ function render() {
   const groupName = state.group ? state.data.groups.find((g) => g.id === state.group)?.title : '';
   const parts = [];
   if (groupName) parts.push(`分類：${groupName}`);
-  if (searching) parts.push(`關鍵字：「${state.query.trim()}」`);
+  if (searching) parts.push(`查詢：「${state.query.trim()}」`);
   $('#result-count').textContent = parts.length ? `${shown} 個主題符合（${parts.join('、')}）` : `全部 ${total} 個主題，分成 ${state.data.groups.length} 類`;
   $('#clear-filters').hidden = !parts.length;
   $('#all-topics').classList.toggle('active', !state.group && !searching);

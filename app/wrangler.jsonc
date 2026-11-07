@@ -23,18 +23,7 @@
       "bucket_name": "puma-policy-v1-sources"
     }
   ],
-  "ai_search": [
-    {
-      "binding": "AI_SEARCH",
-      "instance_name": "puma-policy-v1",
-      "remote": true
-    }
-  ],
   "vars": {
-    "ENVIRONMENT": "production",
-    "OPENAI_MODEL": "gpt-6-luna",
-    "TURNSTILE_SITE_KEY": "0x4AAAAAAF2BSfL33EfGtLi-",
-    "DAILY_GLOBAL_LIMIT": "1000",
-    "ALLOWED_ORIGIN": "https://puma-policy-v1.kome808.workers.dev"
+    "ENVIRONMENT": "production"
   }
 }

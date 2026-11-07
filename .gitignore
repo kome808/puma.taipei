@@ -6,6 +6,7 @@ node_modules/
 .local/
 dist/
 pages-dist/
+static-dist/
 artifacts/
 output/
 __pycache__/

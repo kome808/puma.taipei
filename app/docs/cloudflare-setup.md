@@ -1,5 +1,11 @@
 # Cloudflare v1 設定與匯入
 
+## 本機待發布：靜態主題搜尋
+
+2026-11-07使用者選擇公開端不接OpenAI API，使用Cloudflare免費功能。已準備瀏覽器端的86題詞彙搜尋及純靜態Pages包；詳見 [靜態搜尋紀錄](2026-11-07-static-topic-search.md)。新設定在專案根目錄 `pages-static/wrangler.jsonc`，原 `app/pages-gateway/` 僅保留既有線上版本，不應再當成新版本發行入口。
+
+**尚未部署。** 下方gateway／D1／AI Search敘述保留為既有線上資源與歷史紀錄；不能據本機退役程式就認定原公開API已停用。正式切換需發布新Pages靜態包及原Worker退役路由，並逐一核對新舊網址。
+
 此檔記錄 `puma-policy-v1` 的隔離 Cloudflare 資源與可重複執行的匯入方式。2026-11-06 經使用者同意保存既有金鑰並公開部署，測試網址為 [puma-policy-v1.kome808.workers.dev](https://puma-policy-v1.kome808.workers.dev)。
 
 ## 目前公開入口：puma-note.pages.dev

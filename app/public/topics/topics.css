@@ -22,6 +22,7 @@ dialog{padding:0;border:1px solid #d9c2a3;border-radius:20px;background:var(--wh
 
 /* ===== 2026-11-07 主題館：分類導覽 + 全部主題直接展開 ===== */
 .browse-stack{display:flex;flex-direction:column}
+.browse-stack>.search-help{order:1;margin:0 0 12px;color:#756754;font-size:13px;line-height:1.7}
 .browse-stack>.search-form{order:1;margin-bottom:12px}
 .browse-stack>.filter-status{order:2}
 .browse-stack>.load-error{order:3}
