@@ -88,3 +88,4 @@ dialog{padding:0;border:1px solid #d9c2a3;border-radius:20px;background:var(--wh
   .category-card .category-title{font-size:12px}
   .category-card .category-number{font-size:10px}
 }
+@media(max-width:540px){.explanation-panel{order:1}.share-panel{order:2}}
