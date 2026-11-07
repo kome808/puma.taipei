@@ -1,0 +1,1515 @@
+{
+  "status": "passed",
+  "topics_checked": 86,
+  "errors": [],
+  "min": 257,
+  "max": 465,
+  "mean": 355,
+  "at_least_400": 28,
+  "rows": [
+    {
+      "id": "t001",
+      "group": "居住與城市更新",
+      "title": "停滯都更案如何退場或重新啟動？",
+      "utf16": 465,
+      "body_chars": 366,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/都更政策",
+        "https://puma-hub.pages.dev/articles/today-world-2026-11-04/"
+      ],
+      "supports": 11,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t002",
+      "group": "居住與城市更新",
+      "title": "換屋估價與搬遷安排如何保障住戶選擇？",
+      "utf16": 459,
+      "body_chars": 361,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/都更政策",
+        "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/"
+      ],
+      "supports": 12,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t003",
+      "group": "居住與城市更新",
+      "title": "都更審議如何縮短等待、增加專業人力？",
+      "utf16": 443,
+      "body_chars": 404,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/都更政策"
+      ],
+      "supports": 11,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t004",
+      "group": "居住與城市更新",
+      "title": "老宅安全與無障礙改善如何取得協助？",
+      "utf16": 389,
+      "body_chars": 322,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/"
+      ],
+      "supports": 9,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "單一訪談文章；未提供補助金額、預算或施行時程，不另補造內容。"
+    },
+    {
+      "id": "t005",
+      "group": "居住與城市更新",
+      "title": "不同家庭如何取得合適住宅或換居安排？",
+      "utf16": 398,
+      "body_chars": 334,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/"
+      ],
+      "supports": 10,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一訪談來源且無官方政策頁；不另補造補助或建設內容。"
+    },
+    {
+      "id": "t006",
+      "group": "居住與城市更新",
+      "title": "社子島如何兼顧居住改善、聚落與生態？",
+      "utf16": 318,
+      "body_chars": 188,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-09-13",
+        "https://puma-hub.pages.dev/articles/news-face-to-face-2026-11-02/"
+      ],
+      "supports": 4,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "沒有官方政策頁談社子島；現有訪談來源對社子島只有簡短說明，不另補造方案內容。"
+    },
+    {
+      "id": "t065",
+      "group": "居住與城市更新",
+      "title": "第一批循環都更房源從哪裡來？",
+      "utf16": 372,
+      "body_chars": 274,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/都更政策",
+        "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/"
+      ],
+      "supports": 6,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "訪談只說明第一個想法與估價仍在討論，官方頁未列房源地點、戶數；不補造。"
+    },
+    {
+      "id": "t007",
+      "group": "教育與校園",
+      "title": "教師人力、班級規模與行政工作如何改善？",
+      "utf16": 440,
+      "body_chars": 341,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/教育政策",
+        "https://puma-hub.pages.dev/articles/today-world-2026-11-04/"
+      ],
+      "supports": 10,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t008",
+      "group": "教育與校園",
+      "title": "校園毒品與毒駕風險如何預防、辨識和轉介？",
+      "utf16": 393,
+      "body_chars": 282,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/教育政策",
+        "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/"
+      ],
+      "supports": 8,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "訪談段落是編者整理的摘要，課程成效與適用對象原稿標示待核實；不補造執行細節。"
+    },
+    {
+      "id": "t009",
+      "group": "教育與校園",
+      "title": "孩子上下學的路口與通學巷如何更安全？",
+      "utf16": 389,
+      "body_chars": 311,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/交通政策",
+        "https://puma-shen-interview.pages.dev/"
+      ],
+      "supports": 10,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "交通政策頁未列個別學校與完成年限；訪談為節目內談話，不補造預算或時程。"
+    },
+    {
+      "id": "t010",
+      "group": "教育與校園",
+      "title": "學校如何讓學生公平、安全地使用 AI？",
+      "utf16": 305,
+      "body_chars": 266,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/教育政策"
+      ],
+      "supports": 6,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "來源只有教育政策頁一段，未列金額、採購名單或學校；無訪談補充，不補造。"
+    },
+    {
+      "id": "t011",
+      "group": "教育與校園",
+      "title": "免費營養午餐如何兼顧品質、食安與弱勢平權？",
+      "utf16": 447,
+      "body_chars": 336,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/營養午餐",
+        "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/"
+      ],
+      "supports": 9,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t053",
+      "group": "教育與校園",
+      "title": "台北學童如何透過客庄互訪認識客家文化？",
+      "utf16": 280,
+      "body_chars": 241,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/客家政策"
+      ],
+      "supports": 5,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "官方頁只有一段互訪描述，未列合作學校、名額或期程；無訪談來源，不補造。"
+    },
+    {
+      "id": "t066",
+      "group": "教育與校園",
+      "title": "親師衝突、幼教與特教支持如何補位？",
+      "utf16": 365,
+      "body_chars": 326,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/教育政策"
+      ],
+      "supports": 10,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有教育政策頁一個官方來源，無訪談；未列人數、預算，不補造。"
+    },
+    {
+      "id": "t012",
+      "group": "育兒與家庭支持",
+      "title": "育兒求助與服務轉介如何找到同一個入口？",
+      "utf16": 431,
+      "body_chars": 332,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/家庭一站通",
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03"
+      ],
+      "supports": 10,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t013",
+      "group": "育兒與家庭支持",
+      "title": "照顧者如何取得臨時托育與喘息時間？",
+      "utf16": 422,
+      "body_chars": 305,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/家庭一站通",
+        "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/"
+      ],
+      "supports": 8,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t014",
+      "group": "育兒與家庭支持",
+      "title": "產後家長如何取得情緒支持與到宅育兒指導？",
+      "utf16": 359,
+      "body_chars": 319,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/家庭一站通"
+      ],
+      "supports": 7,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有同一份官方政策頁，無訪談補充；諮商次數兩種寫法並存，不另補造。"
+    },
+    {
+      "id": "t015",
+      "group": "育兒與家庭支持",
+      "title": "兒少安全通報如何脫離一般1999並接上專業保護？",
+      "utf16": 426,
+      "body_chars": 306,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/社福政策",
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript/"
+      ],
+      "supports": 6,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "官方頁只有一句兒少安全治理的規劃，1999分流只見於訪談；未列人力、預算與上路時程，不補造。"
+    },
+    {
+      "id": "t016",
+      "group": "育兒與家庭支持",
+      "title": "親子同行卡如何支持家庭共同參與文化、閱讀與運動？",
+      "utf16": 436,
+      "body_chars": 316,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/親子同行卡",
+        "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/"
+      ],
+      "supports": 10,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t017",
+      "group": "高齡、身障與心理健康",
+      "title": "長者如何在熟悉生活圈取得長照、在宅醫療與行動支持？",
+      "utf16": 436,
+      "body_chars": 336,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/社福政策",
+        "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/"
+      ],
+      "supports": 9,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t018",
+      "group": "高齡、身障與心理健康",
+      "title": "一般市民如何取得公費心理諮商與家庭心理支持？",
+      "utf16": 424,
+      "body_chars": 322,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/社福政策",
+        "https://puma-hub.pages.dev/articles/jomotalk-ep397/transcript/"
+      ],
+      "supports": 8,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t019",
+      "group": "高齡、身障與心理健康",
+      "title": "無家者如何先取得住所並接上生活支持？",
+      "utf16": 372,
+      "body_chars": 314,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/ep148/content.md"
+      ],
+      "supports": 7,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一訪談來源，無官方政策頁；不補造安置地點、戶數或預算。"
+    },
+    {
+      "id": "t020",
+      "group": "高齡、身障與心理健康",
+      "title": "如何支援超量社工與第一線兒少服務人力？",
+      "utf16": 380,
+      "body_chars": 314,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/"
+      ],
+      "supports": 7,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一訪談來源，無官方政策頁；案量數字為受訪者說法，不補造人力編制或預算。"
+    },
+    {
+      "id": "t052",
+      "group": "高齡、身障與心理健康",
+      "title": "客家文化與照護如何在社區據點相遇？",
+      "utf16": 360,
+      "body_chars": 321,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/客家政策"
+      ],
+      "supports": 5,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有客家政策頁一段官方說明，無訪談來源；服務設計與合作方式頁面未列明，不補造。"
+    },
+    {
+      "id": "t084",
+      "group": "高齡、身障與心理健康",
+      "title": "兒童與中高齡有哪些疫苗支持構想？",
+      "utf16": 317,
+      "body_chars": 278,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/社福政策"
+      ],
+      "supports": 6,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有社福政策頁一個官方來源，未列金額、接種條件或時程；無訪談，不補造。"
+    },
+    {
+      "id": "t085",
+      "group": "高齡、身障與心理健康",
+      "title": "罕病維生與身障行動需求如何獲得支持？",
+      "utf16": 317,
+      "body_chars": 278,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/社福政策"
+      ],
+      "supports": 6,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有社福政策頁一個官方來源，未列資格、額度或申請方式；無訪談，不補造。"
+    },
+    {
+      "id": "t086",
+      "group": "高齡、身障與心理健康",
+      "title": "單身女性如何透過專線找到身心與社福支持？",
+      "utf16": 298,
+      "body_chars": 259,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/社福政策"
+      ],
+      "supports": 5,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有社福政策頁一個官方來源，未列專線號碼、服務時段或合作單位；無訪談，不補造。"
+    },
+    {
+      "id": "t021",
+      "group": "青年與就業",
+      "title": "青年起步基金如何累積並銜接成年轉銜？",
+      "utf16": 440,
+      "body_chars": 321,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/青年政策",
+        "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/"
+      ],
+      "supports": 9,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t022",
+      "group": "青年與就業",
+      "title": "青年如何取得免先墊款的 AI 工具與轉職支持？",
+      "utf16": 421,
+      "body_chars": 323,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/AI政策",
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18"
+      ],
+      "supports": 10,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t023",
+      "group": "青年與就業",
+      "title": "中高齡工作者如何接上 AI 轉職、職務再設計或創業？",
+      "utf16": 333,
+      "body_chars": 294,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/AI政策"
+      ],
+      "supports": 6,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有AI政策頁一個官方來源，無可對應的訪談來源；上路時間與資格頁面未列，不補造。"
+    },
+    {
+      "id": "t024",
+      "group": "青年與就業",
+      "title": "青年海外學習、創業和市政實作如何回到台北？",
+      "utf16": 345,
+      "body_chars": 306,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/青年政策"
+      ],
+      "supports": 8,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有青年政策頁一個官方來源，無訪談；名額、資格與時程頁面未列，不補造。"
+    },
+    {
+      "id": "t025",
+      "group": "AI與市府治理",
+      "title": "台北研究院如何把城市問題轉成研究與政策方案？",
+      "utf16": 426,
+      "body_chars": 315,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/AI政策",
+        "https://puma-hub.pages.dev/articles/wang-qianqiu-2026-10-20/transcript/"
+      ],
+      "supports": 7,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t026",
+      "group": "AI與市府治理",
+      "title": "AI如何減少公務流程負擔並保留專業判斷？",
+      "utf16": 437,
+      "body_chars": 327,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/公務員政策",
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/"
+      ],
+      "supports": 9,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t027",
+      "group": "AI與市府治理",
+      "title": "公務員的工時、職場支持與專案回饋如何改善？",
+      "utf16": 436,
+      "body_chars": 356,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/公務員政策",
+        "https://shenboyang-interview.pages.dev/"
+      ],
+      "supports": 11,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t049",
+      "group": "AI與市府治理",
+      "title": "北士科變電所與公車總站如何結合周邊服務？",
+      "utf16": 357,
+      "body_chars": 298,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/digitaiwan-hd636/"
+      ],
+      "supports": 7,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一訪談來源，無官方政策頁；基地、工程與供電評估均未定案，不補造。"
+    },
+    {
+      "id": "t057",
+      "group": "AI與市府治理",
+      "title": "大學如何以 USR 計畫研究市政痛點？",
+      "utf16": 270,
+      "body_chars": 231,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/教育政策"
+      ],
+      "supports": 2,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "教育政策頁對USR只有一句，無訪談來源；合作學校、議題、程序與預算頁面均未列，不補造。"
+    },
+    {
+      "id": "t078",
+      "group": "AI與市府治理",
+      "title": "北士科如何培養AI人才並把技術用於城市問題？",
+      "utf16": 428,
+      "body_chars": 308,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/AI政策",
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-full-2026-11-06/transcript/"
+      ],
+      "supports": 7,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t081",
+      "group": "AI與市府治理",
+      "title": "市民科技原型如何經過法規與資安評估再交給市府？",
+      "utf16": 314,
+      "body_chars": 250,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/"
+      ],
+      "supports": 6,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有座談一個訪談來源，無官方政策頁；人員、預算與時程座談未說明，不補造。"
+    },
+    {
+      "id": "t028",
+      "group": "運動與休閒",
+      "title": "健身小巴與專業教練如何把肌力訓練帶進社區？",
+      "utf16": 404,
+      "body_chars": 308,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/運動政策",
+        "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/"
+      ],
+      "supports": 8,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t029",
+      "group": "運動與休閒",
+      "title": "運動驛站如何解決戶外運動者的寄物與盥洗需求？",
+      "utf16": 388,
+      "body_chars": 295,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/交通政策",
+        "https://puma-hub.pages.dev/articles/digitaiwan-hd636/"
+      ],
+      "supports": 5,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "另有趙少康訪談提到驛站的人員管理與定期反針孔掃描，但本摘要上限只放兩個來源；站點與營運方式尚未明確。"
+    },
+    {
+      "id": "t030",
+      "group": "運動與休閒",
+      "title": "社區小型運動據點與學校場地如何開放？",
+      "utf16": 411,
+      "body_chars": 271,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+        "https://puma-hub.pages.dev/articles/chiou-podcast-ep137/transcript/"
+      ],
+      "supports": 8,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t069",
+      "group": "運動與休閒",
+      "title": "關渡足球場要提供什麼運動空間？",
+      "utf16": 306,
+      "body_chars": 234,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf"
+      ],
+      "supports": 5,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有官方運動政策簡報，無訪談來源；簡報未列工程期程、預算或規模，不補造。"
+    },
+    {
+      "id": "t070",
+      "group": "運動與休閒",
+      "title": "花博與圓山的大型運動中心如何補場地？",
+      "utf16": 415,
+      "body_chars": 282,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf",
+        "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/"
+      ],
+      "supports": 7,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t031",
+      "group": "文化、步道與地方記憶",
+      "title": "文化徑如何串連台北的地方歷史與族群記憶？",
+      "utf16": 414,
+      "body_chars": 308,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/台北文化徑×山林徑",
+        "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/"
+      ],
+      "supports": 9,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t032",
+      "group": "文化、步道與地方記憶",
+      "title": "商圈老店與文化空間如何不因租金上漲而消失？",
+      "utf16": 319,
+      "body_chars": 241,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/taiwan-on-air-2026-10-28/transcript/"
+      ],
+      "supports": 5,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一訪談來源（逐字稿未標點），無官方政策頁；租賃或購置的資格、程序與預算訪談未說明，不補造。"
+    },
+    {
+      "id": "t033",
+      "group": "文化、步道與地方記憶",
+      "title": "本土影視、音樂與動漫創作者如何取得場地和觀眾？",
+      "utf16": 409,
+      "body_chars": 307,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/nexttv-inside-2026-10-19/",
+        "https://puma-transcript.pages.dev/"
+      ],
+      "supports": 9,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t054",
+      "group": "文化、步道與地方記憶",
+      "title": "學客語或在商圈講客語如何取得數位獎勵？",
+      "utf16": 355,
+      "body_chars": 316,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/客家政策"
+      ],
+      "supports": 6,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有客家政策頁一個官方來源，無訪談；獎勵規則、名單與額度頁面未公布，不補造。"
+    },
+    {
+      "id": "t064",
+      "group": "文化、步道與地方記憶",
+      "title": "登山觀光中心與接駁如何改善淺山步道體驗？",
+      "utf16": 401,
+      "body_chars": 270,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://media.puma.taipei/files/140/01M2FGHWYGFEMTVYJCGKD70D2F.pdf",
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-08-23"
+      ],
+      "supports": 9,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t083",
+      "group": "文化、步道與地方記憶",
+      "title": "明治橋的歷史景觀如何結合自行車通勤？",
+      "utf16": 312,
+      "body_chars": 225,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md"
+      ],
+      "supports": 4,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有記者會一個訪談來源，無官方政策頁；工程、經費與審查程序未說明，不補造。"
+    },
+    {
+      "id": "t034",
+      "group": "公園、樹木與水路",
+      "title": "樹木維護資料與移除評估如何透明？",
+      "utf16": 415,
+      "body_chars": 313,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/都市微森林",
+        "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/"
+      ],
+      "supports": 9,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t035",
+      "group": "公園、樹木與水路",
+      "title": "水路如何先改善水質並選擇適合親水的河段？",
+      "utf16": 417,
+      "body_chars": 309,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/水域政策",
+        "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/"
+      ],
+      "supports": 8,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t072",
+      "group": "公園、樹木與水路",
+      "title": "樹蔭公平與熱點植樹如何規劃？",
+      "utf16": 414,
+      "body_chars": 283,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf",
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26"
+      ],
+      "supports": 6,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t073",
+      "group": "公園、樹木與水路",
+      "title": "修剪木料如何再利用？",
+      "utf16": 268,
+      "body_chars": 196,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://media.puma.taipei/files/139/01M2FGEFNRJ6PM6TTQFC1Q2TRN.pdf"
+      ],
+      "supports": 5,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有一頁簡報的四點說明，無訪談來源；地點、規模、預算簡報未列，不補造。"
+    },
+    {
+      "id": "t074",
+      "group": "公園、樹木與水路",
+      "title": "分散滯洪與水岸生態如何納入城市設計？",
+      "utf16": 409,
+      "body_chars": 301,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/水域政策",
+        "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/"
+      ],
+      "supports": 8,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t075",
+      "group": "公園、樹木與水路",
+      "title": "河岸入口與巷弄親水空間如何接進生活圈？",
+      "utf16": 413,
+      "body_chars": 292,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/水域政策",
+        "https://puma-hub.pages.dev/articles/taipei-water-culture-2026-10-26/transcript.md"
+      ],
+      "supports": 6,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t036",
+      "group": "交通與街道",
+      "title": "自行車通勤路網如何連續、安全並接上跨河橋梁？",
+      "utf16": 383,
+      "body_chars": 285,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/交通政策",
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-09-03"
+      ],
+      "supports": 7,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "官方頁對迎風—港墘橋只有一句；訪談只說明仍在與工程團隊討論，橋型、經費、期程均未公布，不補造。"
+    },
+    {
+      "id": "t037",
+      "group": "交通與街道",
+      "title": "公車駕駛工時與駕駛座安全如何改善？",
+      "utf16": 275,
+      "body_chars": 236,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/交通政策"
+      ],
+      "supports": 5,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有交通政策頁一個官方來源，無訪談；折返點名單、預算與時程未列，不補造。"
+    },
+    {
+      "id": "t038",
+      "group": "交通與街道",
+      "title": "如何修正標線、路口及行人空間的日常危險？",
+      "utf16": 315,
+      "body_chars": 217,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/交通政策",
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-09-23"
+      ],
+      "supports": 5,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "官方頁談通學區與標線規格，訪談僅一句標線表態；實際路段與時程未列，不補造。"
+    },
+    {
+      "id": "t039",
+      "group": "交通與街道",
+      "title": "共享電動機車如何接上 TPASS 並離開路邊車格？",
+      "utf16": 310,
+      "body_chars": 238,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://media.puma.taipei/files/141/01M2KZHJ2GFQPFYZ5XXPGNS7XG.pdf"
+      ],
+      "supports": 5,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有交通政策簡報三頁，無訪談；每日次數、契約與經費未列，不補造。"
+    },
+    {
+      "id": "t040",
+      "group": "交通與街道",
+      "title": "交通資料如何用於號誌、計程車停靠與事故熱點？",
+      "utf16": 306,
+      "body_chars": 239,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/"
+      ],
+      "supports": 4,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一訪談來源，無官方政策頁；資料整合方式、個資治理與指示燈規格訪談未說明，不補造。"
+    },
+    {
+      "id": "t041",
+      "group": "交通與街道",
+      "title": "市民大道橋下如何縫合街區並帶動人流？",
+      "utf16": 285,
+      "body_chars": 206,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/"
+      ],
+      "supports": 3,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一聯訪來源，無官方政策頁；選點、設計與預算訪談未公布，不補造。"
+    },
+    {
+      "id": "t076",
+      "group": "交通與街道",
+      "title": "台北車站公車站牌與路線如何更好找？",
+      "utf16": 257,
+      "body_chars": 193,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/"
+      ],
+      "supports": 3,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一訪談來源（逐字稿未標點），無官方政策頁；站牌位置、數量與路線調整未說明，不補造。"
+    },
+    {
+      "id": "t077",
+      "group": "交通與街道",
+      "title": "公車轉彎警示聲與捷運寧靜車廂如何試辦？",
+      "utf16": 310,
+      "body_chars": 246,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/"
+      ],
+      "supports": 5,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一訪談來源（逐字稿未標點），無官方政策頁；試辦路線、時段與成效未說明，不補造。"
+    },
+    {
+      "id": "t042",
+      "group": "城市生活與治理",
+      "title": "夜間商圈的噪音、安全與居民衝突由誰協調？",
+      "utf16": 372,
+      "body_chars": 306,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/"
+      ],
+      "supports": 7,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一演講來源，無官方政策頁；夜市長人選、權責與經費未說明，不補造。"
+    },
+    {
+      "id": "t043",
+      "group": "城市生活與治理",
+      "title": "市民提問、陳情與黑客松如何進入政策討論？",
+      "utf16": 375,
+      "body_chars": 228,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/yaqin-english-2026-10-25/transcript/",
+        "https://puma-hub.pages.dev/articles/qiang-news-2026-10-12/content.md"
+      ],
+      "supports": 5,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t044",
+      "group": "城市生活與治理",
+      "title": "市長如何與不同黨派議會協商推動市政？",
+      "utf16": 286,
+      "body_chars": 216,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/"
+      ],
+      "supports": 4,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一訪談來源，無官方政策頁；協商制度與具體方案訪談未說明，不補造。"
+    },
+    {
+      "id": "t045",
+      "group": "城市生活與治理",
+      "title": "有限預算下哪些公共需求優先於普發現金？",
+      "utf16": 299,
+      "body_chars": 225,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/"
+      ],
+      "supports": 6,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一訪談來源（逐字稿未標點），無官方政策頁；訪談未給金額，不補造。"
+    },
+    {
+      "id": "t055",
+      "group": "城市生活與治理",
+      "title": "市府如何增加臨櫃與1999客語服務人才？",
+      "utf16": 283,
+      "body_chars": 244,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/客家政策"
+      ],
+      "supports": 4,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有客家政策頁一個官方來源，無訪談；人才運用與獎勵細節頁面未列，不補造。"
+    },
+    {
+      "id": "t062",
+      "group": "城市生活與治理",
+      "title": "地方加碼現金發放須符合哪些財政條件？",
+      "utf16": 291,
+      "body_chars": 227,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-08-18"
+      ],
+      "supports": 5,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t079",
+      "group": "城市生活與治理",
+      "title": "市府小內閣如何選任兼具執行與溝通的人才？",
+      "utf16": 308,
+      "body_chars": 227,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/taiwan-frontline-2026-11-06/transcript/"
+      ],
+      "supports": 5,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t080",
+      "group": "城市生活與治理",
+      "title": "第一線如何回報錯誤並促成市府修正？",
+      "utf16": 297,
+      "body_chars": 233,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-07-17"
+      ],
+      "supports": 5,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t046",
+      "group": "城市交流與公共議題",
+      "title": "城市交流要先滿足哪些政治對等與資安條件？",
+      "utf16": 288,
+      "body_chars": 212,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/yaqin-world-2026-10-25/transcript/"
+      ],
+      "supports": 4,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一訪談來源，無官方政策頁；論壇是否舉辦、形式與時程訪談未說明，不補造。"
+    },
+    {
+      "id": "t047",
+      "group": "城市交流與公共議題",
+      "title": "台北如何透過城市外交合作解決交通、住宅與降溫問題？",
+      "utf16": 323,
+      "body_chars": 224,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/城市外交",
+        "https://puma-hub.pages.dev/articles/today-world-2026-11-04/"
+      ],
+      "supports": 6,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t056",
+      "group": "城市交流與公共議題",
+      "title": "客家文化如何進入無限城國際城市交流？",
+      "utf16": 274,
+      "body_chars": 235,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://puma.taipei/policies/客家政策"
+      ],
+      "supports": 4,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有客家政策頁一個官方來源，無訪談；合作城市與活動內容頁面未列，不補造。"
+    },
+    {
+      "id": "t071",
+      "group": "城市交流與公共議題",
+      "title": "城市運動聯盟如何促進常態交流？",
+      "utf16": 290,
+      "body_chars": 218,
+      "official": true,
+      "interview": false,
+      "urls": [
+        "https://media.puma.taipei/files/104/01M10TBKY2S2C10VAT4C8MTXKA.pdf"
+      ],
+      "supports": 5,
+      "has_official_topic": true,
+      "has_interview_topic": false,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有運動政策簡報一頁，無訪談；成員城市、賽事、名額與預算未列，不補造。"
+    },
+    {
+      "id": "t048",
+      "group": "公共安全與權益",
+      "title": "地方民防如何把避難設施與鄰里互助接起來？",
+      "utf16": 364,
+      "body_chars": 244,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/shen-chunhua-s2ep6-2026/",
+        "https://puma-hub.pages.dev/articles/humanzoo-s3ep174/"
+      ],
+      "supports": 6,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t058",
+      "group": "公共安全與權益",
+      "title": "網路霸凌報案如何減少被害人二度傷害？",
+      "utf16": 291,
+      "body_chars": 220,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/eleven-oclock-hot-2026-11-03/"
+      ],
+      "supports": 4,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一節目來源，無官方政策頁；員警編制、受理規範與時程訪談未說明，不補造。"
+    },
+    {
+      "id": "t059",
+      "group": "公共安全與權益",
+      "title": "高風險勞工如何取得安全裝備與現場檢查？",
+      "utf16": 273,
+      "body_chars": 191,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/"
+      ],
+      "supports": 3,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一訪談來源，無官方政策頁；補助金額、對象與檢查機制訪談未說明，不補造。"
+    },
+    {
+      "id": "t067",
+      "group": "公共安全與權益",
+      "title": "女性夜間步行如何更容易求助？",
+      "utf16": 319,
+      "body_chars": 203,
+      "official": true,
+      "interview": true,
+      "urls": [
+        "https://puma.taipei/policies/社福政策",
+        "https://puma-hub.pages.dev/articles/new-era-boys-ep69-2026-10-31/transcript/"
+      ],
+      "supports": 7,
+      "has_official_topic": true,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": ""
+    },
+    {
+      "id": "t068",
+      "group": "公共安全與權益",
+      "title": "警察如何讓性騷擾與霸凌報案少受二度傷害？",
+      "utf16": 279,
+      "body_chars": 208,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/eleven-oclock-hot-2026-11-03/"
+      ],
+      "supports": 4,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "與t058為同一段訪談；僅有單一節目來源，警察考評、受理規範訪談未提，不補造。"
+    },
+    {
+      "id": "t050",
+      "group": "民主制度與國安公共議題",
+      "title": "公民動員與體制內程序如何分擔民主防線責任？",
+      "utf16": 283,
+      "body_chars": 219,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-04-12"
+      ],
+      "supports": 4,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "public_issue",
+      "below_target_reason": "屬公共議題，僅有單一訪談來源，無官方政策頁；不補造制度細節，也不改寫成市政服務。"
+    },
+    {
+      "id": "t051",
+      "group": "民主制度與國安公共議題",
+      "title": "國防採購如何涵蓋後勤、訓練與維修？",
+      "utf16": 282,
+      "body_chars": 218,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2026-04-12"
+      ],
+      "supports": 5,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "public_issue",
+      "below_target_reason": "屬公共議題，僅有單一訪談來源，無官方政策頁；採購預算與例子需另核對，不補造。"
+    },
+    {
+      "id": "t061",
+      "group": "民主制度與國安公共議題",
+      "title": "身心靈服務的消費資訊與市場規範如何改善？",
+      "utf16": 307,
+      "body_chars": 231,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/transcript/"
+      ],
+      "supports": 3,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "public_issue",
+      "below_target_reason": "屬公共議題，僅有單一對談來源，無官方政策頁；消費資訊規範與專業認證對談未展開，不補造。"
+    },
+    {
+      "id": "t063",
+      "group": "民主制度與國安公共議題",
+      "title": "公民如何在選舉之外持續監督政治代表？",
+      "utf16": 268,
+      "body_chars": 212,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/zhiding-ep127/"
+      ],
+      "supports": 4,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "public_issue",
+      "below_target_reason": "屬公共議題，僅有單一演講來源，無官方政策頁；演講稿多數說法標示待核實，不補造。"
+    },
+    {
+      "id": "t082",
+      "group": "民主制度與國安公共議題",
+      "title": "資訊作戰如何影響公共安全與社會信任？",
+      "utf16": 316,
+      "body_chars": 252,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-shen-interview.pages.dev/puma-shen-2023-12-27"
+      ],
+      "supports": 4,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "public_issue",
+      "below_target_reason": "屬公共議題，僅有單一訪談來源，無官方政策頁；數字為受訪者引述，需原始報告核對，不補造。"
+    },
+    {
+      "id": "t060",
+      "group": "城市產業與創新",
+      "title": "AI 專家如何協助傳統產業把工具接進工作流程？",
+      "utf16": 340,
+      "body_chars": 263,
+      "official": false,
+      "interview": true,
+      "urls": [
+        "https://puma-hub.pages.dev/articles/city-debug-2026-10-24/transcript.md"
+      ],
+      "supports": 4,
+      "has_official_topic": false,
+      "has_interview_topic": true,
+      "scope": "municipal_policy",
+      "below_target_reason": "僅有單一座談來源，無官方政策頁；預算、產業名單與名額座談未說明，不補造。"
+    }
+  ],
+  "limitations": [
+    "Quote and number checks prove provenance, not sentence-level semantic correctness.",
+    "Transcripts were not checked against recordings."
+  ]
+}
