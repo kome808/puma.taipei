@@ -933,21 +933,14 @@
       ],
       "official": [
         {
-          "text": "沈伯洋的家庭一站通提出，為產後一年內家長增加心理諮商支持，並將未滿2歲兒童家庭的免費到宅育兒指導擴充至6次，協助餵奶、洗澡與居家安全等日常照顧。心理諮商提供情緒支持，到宅指導提供實作協助，家長可從同一入口了解需要的服務，再由專人銜接資源。",
+          "text": "沈伯洋的家庭一站通提出，為產後一年內家長增加心理諮商支持（除中央方案的3次服務外，市府每胎再加碼6次），並將未滿2歲兒童家庭的免費到宅育兒指導擴充至6次，協助餵奶、洗澡與居家安全等日常照顧。心理諮商提供情緒支持，到宅指導提供實作協助，家長可從同一入口了解需要的服務，再由專人銜接資源。",
           "source_urls": [
             "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A"
           ]
         }
       ],
       "interview": [],
-      "differences": [
-        {
-          "text": "同頁不同章節的心理諮商加碼次數不一致：第04節「政策內容」寫每胎加碼6次；第06節「推動藍圖」寫產後家長加碼3次。兩處都在講產後心理諮商支持，不能把其中一個數字當成已釐清版本。",
-          "source_urls": [
-            "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A"
-          ]
-        }
-      ],
+      "differences": [],
       "sources": [
         {
           "title": "家庭一站通",
@@ -1477,21 +1470,13 @@
       ],
       "interview": [
         {
-          "text": "商周訪談以求職、初期租屋及進入社會作為基金用途，並主張領取搭配理財、防詐與市政資源課程，提到上課及考試的條件；訪談說22歲使用，與官網23歲的寫法不同。",
+          "text": "商周訪談以求職、初期租屋及進入社會作為基金用途，並主張領取時搭配理財、防詐與市政資源課程，讓政策宣導有機會送到青年手上。",
           "source_urls": [
             "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/"
           ]
         }
       ],
-      "differences": [
-        {
-          "text": "官網列18至22歲青年適用、23歲可領近50萬元；商周稿則說22歲使用。官網列財商教育配套，訪談另外談到上課及考試條件，這些說法應分別呈現。",
-          "source_urls": [
-            "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
-            "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/"
-          ]
-        }
-      ],
+      "differences": [],
       "sources": [
         {
           "title": "青年政策",
@@ -2341,14 +2326,7 @@
           ]
         }
       ],
-      "differences": [
-        {
-          "text": "官方政策摘要以「歷史、產業、多元族群與人權記憶」概括文化徑；同一政策頁的內容段落則具體列出「城市歷史記憶、現代台北、產業文化遺跡、多元族群」。兩處寫法不同，本文保留其各自表述。",
-          "source_urls": [
-            "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91"
-          ]
-        }
-      ],
+      "differences": [],
       "sources": [
         {
           "title": "台北文化徑×山林徑",
@@ -2571,7 +2549,7 @@
       ],
       "interview": [
         {
-          "text": "在 8 月訪談中，沈伯洋談到北、東、南登山節點，並提出配合登山口公車、清楚指標與廁所維護，串連步道和周邊市場商圈。",
+          "text": "在 8 月訪談中，沈伯洋談到台北有152條步道，並提出配合登山口公車、清楚指標與廁所維護，串連步道和周邊市場商圈。",
           "source_urls": [
             "https://puma-shen-interview.pages.dev/puma-shen-2026-08-23"
           ]
@@ -3304,15 +3282,7 @@
           ]
         }
       ],
-      "differences": [
-        {
-          "text": "選點數有兩種說法：聯訪稱大致選了四個不同的區域；《TODAY 看世界》稱選了三個地方。兩場訪談都說圖面仍在繪製、尚未公布，本文不把數字當成定案。",
-          "source_urls": [
-            "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/",
-            "https://puma-hub.pages.dev/articles/today-world-2026-11-04/"
-          ]
-        }
-      ],
+      "differences": [],
       "sources": [
         {
           "title": "沈伯洋質詢外交部：外館預算、國際傳播與無人機外交",
@@ -3450,15 +3420,7 @@
           ]
         }
       ],
-      "differences": [
-        {
-          "text": "保安宮演講稱「夜市長」，重點是讓抱怨有跨局處的單一入口；另一場訪談稱「夜間市長」，描述為半官半民、由各夜間產業推代表選出的NGO。兩者是否為同一職位或不同機制，來源沒有說明，也不是新增的法定市長職位。",
-          "source_urls": [
-            "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
-            "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26"
-          ]
-        }
-      ],
+      "differences": [],
       "sources": [
         {
           "title": "沈伯洋保安宮演講：中山大同五大政見與完整逐字稿",

@@ -46,24 +46,6 @@
       "quote": "所謂的縫合，最主要是「消除空間跟心理的障礙」"
      }
     ]
-   },
-   {
-    "section": "differences",
-    "text": "選點數有兩種說法：聯訪稱大致選了四個不同的區域；《TODAY 看世界》稱選了三個地方。兩場訪談都說圖面仍在繪製、尚未公布，本文不把數字當成定案。",
-    "source_urls": [
-     "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/",
-     "https://puma-hub.pages.dev/articles/today-world-2026-11-04/"
-    ],
-    "evidence": [
-     {
-      "unit_id": "u0242",
-      "quote": "我們大概選了四個不同的區域要做人流串聯、讓商圈活絡、橋下空間的活用等等措施"
-     },
-     {
-      "unit_id": "u0044",
-      "quote": "我選了三個地方，我們在下個禮拜的記者會就會公布"
-     }
-    ]
    }
   ]
  },
@@ -116,24 +98,6 @@
      {
       "unit_id": "u0209",
       "quote": "夜間噪音投訴下降了 40%，暴力犯罪下降 20%"
-     }
-    ]
-   },
-   {
-    "section": "differences",
-    "text": "保安宮演講稱「夜市長」，重點是讓抱怨有跨局處的單一入口；另一場訪談稱「夜間市長」，描述為半官半民、由各夜間產業推代表選出的NGO。兩者是否為同一職位或不同機制，來源沒有說明，也不是新增的法定市長職位。",
-    "source_urls": [
-     "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
-     "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26"
-    ],
-    "evidence": [
-     {
-      "unit_id": "u0280",
-      "quote": "他指的是每一次不同的抱怨"
-     },
-     {
-      "unit_id": "u0209",
-      "quote": "它是一個半官半民的 NGO，經費主要來自民間基金"
      }
     ]
    }

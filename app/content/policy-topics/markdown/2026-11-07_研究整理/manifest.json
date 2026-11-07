@@ -1,11 +1,11 @@
 {
   "type": "internal_research_markdown",
-  "generated_at": "2026-11-07T15:26:47+08:00",
+  "generated_at": "2026-11-07T15:31:00+08:00",
   "source_snapshot_date": "2026-11-07",
   "publication_status": "not_published",
   "input": {
     "path": "app/content/policy-topics/expanded-topics.json",
-    "sha256": "d05752c01fca6e7734449f3bd1f565c9b6654bda2f3ca33bf1f4e19ac3615025"
+    "sha256": "eb47688599ba6d6695b597cd70e308794e4ca919dfd3c7f17905c9b1abe0bc60"
   },
   "files": [
     {
@@ -1205,8 +1205,8 @@
     },
     {
       "path": "主題/g03_育兒與家庭支持/t014_產後家長如何取得情緒支持與到宅育兒指導？.md",
-      "sha256": "88ca5c47228f7a5cc7a3e2b737bebb93a77792ddedd92804bfc35c515e6bc0e0",
-      "bytes": 2608
+      "sha256": "c6e3446e9da4cac8c8e3c1bb46e7dcdd45e8c4c5ad3f1ef1b9d2d585bd5800e7",
+      "bytes": 2151
     },
     {
       "path": "主題/g03_育兒與家庭支持/t015_兒少安全通報如何脫離一般1999並接上專業保護？.md",
@@ -1260,8 +1260,8 @@
     },
     {
       "path": "主題/g05_青年與就業/t021_青年起步基金如何累積並銜接成年轉銜？.md",
-      "sha256": "1677532c4737233cdf23c8d7d650ab6212eba757d8393d9b5de3d08eab872e91",
-      "bytes": 3572
+      "sha256": "1e8f3f14a5358e988cae7792401b56ec2ad0e0b43c79e4a9608dc6e47e12cc81",
+      "bytes": 2729
     },
     {
       "path": "主題/g05_青年與就業/t022_青年如何取得免先墊款的 AI 工具與轉職支持？.md",
@@ -1340,8 +1340,8 @@
     },
     {
       "path": "主題/g08_文化、步道與地方記憶/t031_文化徑如何串連台北的地方歷史與族群記憶？.md",
-      "sha256": "a525ae65d9d98b4f8c38f5ab9f741bb8ed03ebe2583e3709466f28dd158b90e4",
-      "bytes": 4104
+      "sha256": "05868a138221105912a24717c33b11dcc876645803ff34ed1ccd2f011b0767f1",
+      "bytes": 3509
     },
     {
       "path": "主題/g08_文化、步道與地方記憶/t032_商圈老店與文化空間如何不因租金上漲而消失？.md",
@@ -1360,8 +1360,8 @@
     },
     {
       "path": "主題/g08_文化、步道與地方記憶/t064_登山觀光中心與接駁如何改善淺山步道體驗？.md",
-      "sha256": "5805ae1b35a0b29f012d55e5f0aa555567334f0fbfa31fab5b1cb1112623c5a8",
-      "bytes": 2363
+      "sha256": "f0bda9769e8569e3630926cd4c7c7f49ed13073ae8539c019b41175815413b91",
+      "bytes": 2357
     },
     {
       "path": "主題/g08_文化、步道與地方記憶/t083_明治橋的歷史景觀如何結合自行車通勤？.md",
@@ -1425,8 +1425,8 @@
     },
     {
       "path": "主題/g10_交通與街道/t041_市民大道橋下如何縫合街區並帶動人流？.md",
-      "sha256": "75a4ad8a66faf1badb027b3a0dff9d3b68eb446df82966e7915f2c160237268c",
-      "bytes": 4039
+      "sha256": "58a58e901628b41c6aac6db9504eecd1c1dbf8e4ac157c6faaf028d42db8a824",
+      "bytes": 3177
     },
     {
       "path": "主題/g10_交通與街道/t076_台北車站公車站牌與路線如何更好找？.md",
@@ -1440,8 +1440,8 @@
     },
     {
       "path": "主題/g11_城市生活與治理/t042_夜間商圈的噪音、安全與居民衝突由誰協調？.md",
-      "sha256": "2d69e19a04aeda7e0c7606f73506aa2f302ff106d3756623a6e22a8482e76cbc",
-      "bytes": 4248
+      "sha256": "a821c0633dad0838b812dcb3605a9fe756bca453c2c45d5f2b47feb471a2652e",
+      "bytes": 3358
     },
     {
       "path": "主題/g11_城市生活與治理/t043_市民提問、陳情與黑客松如何進入政策討論？.md",
@@ -1560,8 +1560,8 @@
     },
     {
       "path": "政策與訪談_完整整理.md",
-      "sha256": "8c89ca196d56117c4be0f0fe8afb957486058ce31255647534862eee8cf49b5c",
-      "bytes": 184100
+      "sha256": "ae4374745b234d409ea883112ec20caa1bd897f3fae60b64699e03f11f9b6757",
+      "bytes": 180490
     },
     {
       "path": "來源索引.md",
@@ -1570,12 +1570,12 @@
     },
     {
       "path": "摘要與字數說明.md",
-      "sha256": "c36b253116b0a6709c7bd03908afbe6b247df4eaeb6324d9ce1794e12a9fbf8e",
+      "sha256": "5f3d582d4be5a715f4034cd278a17866c519f0d2970d4048328bbf07bfd999a8",
       "bytes": 32048
     },
     {
       "path": "版本與校讀說明.md",
-      "sha256": "43d89edf71f25549823f930adfea127e368bd4968a26eb9a08096b888db0e01d",
+      "sha256": "fc1f204b45f4d5e87632e6c93342e4852e42383838fa337230719efb9663c43e",
       "bytes": 2303
     }
   ],

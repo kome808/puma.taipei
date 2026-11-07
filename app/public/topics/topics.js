@@ -185,8 +185,6 @@ function openTopic(id, updateAddress = true) {
   const badges = $('#detail-badges'); badges.replaceChildren(...sourceBadges(topic).childNodes);
   renderParagraphs('#official-content', topic.official, '這一題目前沒有對應的官方政策內容，以下整理來自訪談／活動。', topic);
   renderParagraphs('#interview-content', topic.interview, '這一題目前沒有對應的訪談補充，內容來自官方政策頁。', topic);
-  renderParagraphs('#difference-content', topic.differences, '', topic);
-  $('#difference-section').hidden = !topic.differences.length; $('#difference-section').open = false;
   $('#share-post').value = topic.share.text; updatePostState();
   $('#copy-post span').textContent = '複製摘要與來源';
   const list = $('#detail-source-list'); list.replaceChildren();

@@ -161,6 +161,7 @@ def main():
                 if e['text'] not in [x['text'] for x in topic[e['section']]]:
                     topic[e['section']].append({'text': e['text'], 'source_urls': e['source_urls'], 'evidence': evs})
             topic['sources'] = all_sources
+            topic['differences'] = []  # official wording is primary; no source-difference notes (2026-11-07 editorial decision)
             topic['share'] = {'body': body, 'source_urls': urls, 'text': text, 'utf16_length': n}
     report = {'status': 'failed' if errors else 'passed', 'topics_checked': len(table), 'errors': errors,
               'min': min((r['utf16'] for r in table), default=0), 'max': max((r['utf16'] for r in table), default=0),

@@ -1245,7 +1245,7 @@
       "intro": "產後家長可能需要情緒支持，新生兒家庭也可能需要實作型育兒協助。家庭一站通提出心理諮商與到宅指導加碼。",
       "official": [
         {
-          "text": "沈伯洋的家庭一站通提出，為產後一年內家長增加心理諮商支持，並將未滿2歲兒童家庭的免費到宅育兒指導擴充至6次，協助餵奶、洗澡與居家安全等日常照顧。心理諮商提供情緒支持，到宅指導提供實作協助，家長可從同一入口了解需要的服務，再由專人銜接資源。",
+          "text": "沈伯洋的家庭一站通提出，為產後一年內家長增加心理諮商支持（除中央方案的3次服務外，市府每胎再加碼6次），並將未滿2歲兒童家庭的免費到宅育兒指導擴充至6次，協助餵奶、洗澡與居家安全等日常照顧。心理諮商提供情緒支持，到宅指導提供實作協助，家長可從同一入口了解需要的服務，再由專人銜接資源。",
           "source_urls": [
             "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A"
           ],
@@ -1268,30 +1268,7 @@
         }
       ],
       "interview": [],
-      "differences": [
-        {
-          "text": "同頁不同章節的心理諮商加碼次數不一致：第04節「政策內容」寫每胎加碼6次；第06節「推動藍圖」寫產後家長加碼3次。兩處都在講產後心理諮商支持，不能把其中一個數字當成已釐清版本。",
-          "source_urls": [
-            "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A"
-          ],
-          "evidence": [
-            {
-              "pack_id": "main",
-              "unit_id": "u0009",
-              "quote": "由市府為產後一年內的家長，無條件每胎再加碼 6次",
-              "source_url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
-              "section_or_timestamp": "04、06｜政策內容與推動藍圖"
-            },
-            {
-              "pack_id": "main",
-              "unit_id": "u0009",
-              "quote": "產後家長加碼 3 次心理諮商",
-              "source_url": "https://puma.taipei/policies/%E5%AE%B6%E5%BA%AD%E4%B8%80%E7%AB%99%E9%80%9A",
-              "section_or_timestamp": "04、06｜政策內容與推動藍圖"
-            }
-          ]
-        }
-      ],
+      "differences": [],
       "keywords": [
         "產後心理諮商",
         "到宅育兒指導",
@@ -2015,7 +1992,7 @@
       ],
       "interview": [
         {
-          "text": "商周訪談以求職、初期租屋及進入社會作為基金用途，並主張領取搭配理財、防詐與市政資源課程，提到上課及考試的條件；訪談說22歲使用，與官網23歲的寫法不同。",
+          "text": "商周訪談以求職、初期租屋及進入社會作為基金用途，並主張領取時搭配理財、防詐與市政資源課程，讓政策宣導有機會送到青年手上。",
           "source_urls": [
             "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/"
           ],
@@ -2030,31 +2007,7 @@
           ]
         }
       ],
-      "differences": [
-        {
-          "text": "官網列18至22歲青年適用、23歲可領近50萬元；商周稿則說22歲使用。官網列財商教育配套，訪談另外談到上課及考試條件，這些說法應分別呈現。",
-          "source_urls": [
-            "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
-            "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/"
-          ],
-          "evidence": [
-            {
-              "pack_id": "main",
-              "unit_id": "u0007",
-              "quote": "23歲可領近 50 萬元",
-              "source_url": "https://puma.taipei/policies/%E9%9D%92%E5%B9%B4%E6%94%BF%E7%AD%96",
-              "section_or_timestamp": "## 04｜政策內容／第一項｜城市青年基金"
-            },
-            {
-              "pack_id": "main",
-              "unit_id": "u0054",
-              "quote": "讓他在22歲的時候再用這筆錢",
-              "source_url": "https://puma-hub.pages.dev/articles/business-week-taipei-2026-11-02/transcript/",
-              "section_or_timestamp": "00:18:12–00:23:59，青年基金"
-            }
-          ]
-        }
-      ],
+      "differences": [],
       "keywords": [
         "青年起步基金",
         "18至22歲",
@@ -3268,23 +3221,7 @@
           ]
         }
       ],
-      "differences": [
-        {
-          "text": "官方政策摘要以「歷史、產業、多元族群與人權記憶」概括文化徑；同一政策頁的內容段落則具體列出「城市歷史記憶、現代台北、產業文化遺跡、多元族群」。兩處寫法不同，本文保留其各自表述。",
-          "source_urls": [
-            "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91"
-          ],
-          "evidence": [
-            {
-              "pack_id": "main",
-              "unit_id": "u0005",
-              "quote": "四大主題包含城市歷史記憶、現代台北、產業文化遺跡與多元族群",
-              "source_url": "https://puma.taipei/policies/%E5%8F%B0%E5%8C%97%E6%96%87%E5%8C%96%E5%BE%91%C3%97%E5%B1%B1%E6%9E%97%E5%BE%91",
-              "section_or_timestamp": "## 01｜政策摘要；## 04｜政策內容"
-            }
-          ]
-        }
-      ],
+      "differences": [],
       "keywords": [
         "台北文化徑",
         "四大主題",
@@ -3606,7 +3543,7 @@
       ],
       "interview": [
         {
-          "text": "在 8 月訪談中，沈伯洋談到北、東、南登山節點，並提出配合登山口公車、清楚指標與廁所維護，串連步道和周邊市場商圈。",
+          "text": "在 8 月訪談中，沈伯洋談到台北有152條步道，並提出配合登山口公車、清楚指標與廁所維護，串連步道和周邊市場商圈。",
           "source_urls": [
             "https://puma-shen-interview.pages.dev/puma-shen-2026-08-23"
           ],
@@ -4675,31 +4612,7 @@
           ]
         }
       ],
-      "differences": [
-        {
-          "text": "選點數有兩種說法：聯訪稱大致選了四個不同的區域；《TODAY 看世界》稱選了三個地方。兩場訪談都說圖面仍在繪製、尚未公布，本文不把數字當成定案。",
-          "source_urls": [
-            "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/",
-            "https://puma-hub.pages.dev/articles/today-world-2026-11-04/"
-          ],
-          "evidence": [
-            {
-              "pack_id": "main",
-              "unit_id": "u0242",
-              "quote": "我們大概選了四個不同的區域要做人流串聯、讓商圈活絡、橋下空間的活用等等措施",
-              "source_url": "https://puma-hub.pages.dev/articles/foreign-defense-committee-2026-10-28/",
-              "section_or_timestamp": "閱讀單位u0242，原文摘錄定位"
-            },
-            {
-              "pack_id": "main",
-              "unit_id": "u0044",
-              "quote": "我選了三個地方，我們在下個禮拜的記者會就會公布",
-              "source_url": "https://puma-hub.pages.dev/articles/today-world-2026-11-04/",
-              "section_or_timestamp": "閱讀單位u0044，原文摘錄定位"
-            }
-          ]
-        }
-      ],
+      "differences": [],
       "keywords": [
         "市民大道縫合",
         "高架道路橋下",
@@ -4889,31 +4802,7 @@
           ]
         }
       ],
-      "differences": [
-        {
-          "text": "保安宮演講稱「夜市長」，重點是讓抱怨有跨局處的單一入口；另一場訪談稱「夜間市長」，描述為半官半民、由各夜間產業推代表選出的NGO。兩者是否為同一職位或不同機制，來源沒有說明，也不是新增的法定市長職位。",
-          "source_urls": [
-            "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
-            "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26"
-          ],
-          "evidence": [
-            {
-              "pack_id": "main",
-              "unit_id": "u0280",
-              "quote": "他指的是每一次不同的抱怨",
-              "source_url": "https://puma-hub.pages.dev/articles/zhongshan-datong-policy/",
-              "section_or_timestamp": "閱讀單位u0280，原文摘錄定位"
-            },
-            {
-              "pack_id": "main",
-              "unit_id": "u0209",
-              "quote": "它是一個半官半民的 NGO，經費主要來自民間基金",
-              "source_url": "https://puma-shen-interview.pages.dev/puma-shen-2026-08-26",
-              "section_or_timestamp": "閱讀單位u0209，原文摘錄定位"
-            }
-          ]
-        }
-      ],
+      "differences": [],
       "keywords": [
         "夜間商圈",
         "夜間經濟",

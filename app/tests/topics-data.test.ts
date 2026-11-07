@@ -59,6 +59,13 @@ test('public-issue topics are framed as views, not municipal services', () => {
   for (const topic of issues) assert.match(topic.share.body, /公共議題|不是台北市政|不是市長/, `${topic.id} must flag its public-issue nature`);
 });
 
+test('official wording is primary: no source-difference notes in data or in the topic page', () => {
+  for (const topic of data.topics) assert.equal(topic.differences.length, 0, `${topic.id} still has a difference note`);
+  const page = read('public/topics/index.html') + read('public/topics/topics.js');
+  assert.ok(!page.includes('來源說法有差異'), 'difference section is still in the topic page');
+  assert.ok(!page.includes('difference-section'));
+});
+
 test('summaries avoid generic boilerplate endings and slogan-like phrases', () => {
   const banned = ['兩種說法', '說法不一', '分開呈現', '不選定', '具體資格、地點與服務安排仍待方案說明', '先看一版', '值得打開看看', '投票給', '支持沈伯洋', '請支持'];
   for (const topic of data.topics) {
