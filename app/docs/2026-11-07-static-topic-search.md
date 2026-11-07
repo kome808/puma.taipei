@@ -54,4 +54,14 @@ cd pages-static
 
 AI Search目前每月包含1,000次語意及1,000次全文查詢，並列出2026-12-01起計費，不能宣稱無限制免費，因此未放進這版公開查詢。遠端既有AI Search/R2資料未刪除，是否保留由後續資源管理另行處理。
 
-官方來源：[靜態資產計費](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/)、[Workers方案](https://developers.cloudflare.com/workers/platform/pricing/)、[AI Search額度與價格](https://developers.cloudflare.com/ai-search/platform/limits-pricing/)。
+官方來源：[Pages靜態資產與Functions計費](https://developers.cloudflare.com/pages/functions/pricing/)、[Workers靜態資產計費](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/)、[Workers方案](https://developers.cloudflare.com/workers/platform/pricing/)、[AI Search額度與價格](https://developers.cloudflare.com/ai-search/platform/limits-pricing/)。
+
+## 整合驗證（2026-11-07，尚未部署）
+
+已整合Claude同日新增的分享預覽圖與逐題錯誤回報入口（`0a0f09f`），保留其原始資料及摘要。`npm run build`、`npm run build:static`成功；`npm test`共94項通過、0失敗。可機讀紀錄見[驗證結果](../content/policy-topics/revisions/2026-11-07-static-search/verification.json)。
+
+本機Pages預覽從`pages-static/`啟動，只載入平台的CF_PAGES資訊，沒有原Worker的DB、R2或模型binding。根目錄直接呈現主題館，預設顯示15類與86張卡片。都更起始房源、銀髮肌力、教師行政負擔、臨時托育、AI教練等五個問題均找到預期主題；查詢、開啟內容及回報表單的操作期間沒有新增網路請求。搜尋只回傳既有內容，不代表涵蓋所有問法。
+
+短摘要實測與資料中的`share.text`逐字相同，來源網址解碼後相符；可複製，超過500字元會停用複製，還原可恢復原文。回報表單可展開，尚未設定收件信箱時沒有寄信連結，操作不傳送資料。原搜尋／生成API均回410，健康與設定端點顯示靜態模式。
+
+1440px桌面及390px手機版瀏覽器預覽已檢查，手機沒有橫向溢出；[桌面截圖](screenshots/2026-11-07/free-static-desktop.png)、[手機截圖](screenshots/2026-11-07/free-static-mobile.png)已更新。未在實體iPhone Safari或正式站驗證。這些結果僅證明本機版本；`publication.json`及遠端服務均未更動。

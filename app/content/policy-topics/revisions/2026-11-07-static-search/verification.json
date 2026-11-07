@@ -1,0 +1,101 @@
+{
+  "checked_on": "2026-11-07",
+  "status": "validated_locally_not_deployed",
+  "implementation_commit": "552dd8c5a0c264a8dcd2dfa763bf320ad353684c",
+  "base_with_claude_changes": "0a0f09f",
+  "builds": [
+    "npm run build",
+    "npm run build:static"
+  ],
+  "tests": {
+    "pass": 94,
+    "fail": 0,
+    "log_summary": "npm test: 94 tests passed"
+  },
+  "data_integrity": [
+    {
+      "path": "app/content/policy-topics/expanded-topics.json",
+      "sha256": "cfa588a66f606f2b0bf8601d05e3c86646672bbd48b396635fe2baad059fc196",
+      "unchanged_from_0a0f09f": true
+    },
+    {
+      "path": "app/public/topics/data.json",
+      "sha256": "5af0dc4d3bf0a569e5253894260aeff75e1771ed32d1ee38b10e2bb131f4feb9",
+      "unchanged_from_0a0f09f": true
+    }
+  ],
+  "browser": {
+    "preview": "local Cloudflare Pages",
+    "root_redirected": false,
+    "topic_cards": 86,
+    "categories": 15,
+    "queries": [
+      {
+        "query": "無限都更一開始的房子要怎樣來",
+        "ids": [
+          "t065"
+        ]
+      },
+      {
+        "query": "銀髮族肌肉流失可以做什麼",
+        "ids": [
+          "t028"
+        ]
+      },
+      {
+        "query": "老師行政工作太多怎麼辦",
+        "ids": [
+          "t007"
+        ]
+      },
+      {
+        "query": "臨時沒人幫忙帶小孩",
+        "ids": [
+          "t013"
+        ]
+      },
+      {
+        "query": "AI教練如何協助傳統產業",
+        "ids": [
+          "t060"
+        ]
+      }
+    ],
+    "network_requests_during_query_and_ui": 0,
+    "t028_summary_matches_share_text": true,
+    "t028_summary_utf16_characters": 401,
+    "t028_all_source_urls_match_after_decode": true,
+    "copy_success": true,
+    "copy_disabled_when_over_500": true,
+    "restore_summary": true,
+    "report_form_opens": true,
+    "report_email_link_hidden_when_unconfigured": true,
+    "mobile_viewport_width": 390,
+    "mobile_document_scroll_width": 390,
+    "mobile_dialog_width": 352,
+    "physical_iphone_safari_tested": false
+  },
+  "api": {
+    "/api/health": {
+      "status": 200,
+      "generationEnabled": false
+    },
+    "/api/config": {
+      "status": 200,
+      "generationEnabled": false
+    },
+    "/api/search": {
+      "status": 410,
+      "code": "FEATURE_RETIRED"
+    },
+    "/api/generate": {
+      "status": 410,
+      "code": "FEATURE_RETIRED"
+    }
+  },
+  "limitations": [
+    "Lexical and curated-synonym search; natural-language coverage is not exhaustive.",
+    "No deployment performed; live site and old Worker are unchanged.",
+    "Old archive tools and remote resources remain; they are not invoked by this public entry point."
+  ]
+}
