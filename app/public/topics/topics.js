@@ -133,11 +133,23 @@ function render() {
 function sourceLink(url, title) {
   const link = element('a', '', title); link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer'; return link;
 }
+// Display only: break a long paragraph at sentence ends into chunks of about 90 characters.
+function readableChunks(text) {
+  const sentences = text.split(/(?<=。)/).filter(Boolean);
+  const chunks = []; let current = '';
+  for (const sentence of sentences) {
+    if (current && current.length + sentence.length > 90) { chunks.push(current); current = ''; }
+    current += sentence;
+  }
+  if (current) chunks.push(current);
+  return chunks.length ? chunks : [text];
+}
 function renderParagraphs(selector, paragraphs, empty, topic) {
   const host = $(selector); host.replaceChildren();
   if (!paragraphs.length) { host.append(element('p', 'no-source', empty)); return; }
   for (const paragraph of paragraphs) {
-    const block = element('div', 'content-paragraph'); block.append(element('p', '', paragraph.text));
+    const block = element('div', 'content-paragraph');
+    for (const chunk of readableChunks(paragraph.text)) block.append(element('p', '', chunk));
     const links = element('div', 'paragraph-sources');
     for (const url of paragraph.source_urls) {
       const source = topic.sources.find((s) => s.url === url); links.append(sourceLink(url, `${source?.title || '原文'} ↗`));

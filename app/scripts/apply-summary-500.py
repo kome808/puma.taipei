@@ -20,6 +20,40 @@ B = importlib.util.module_from_spec(spec); spec.loader.exec_module(B)
 LIMIT, TARGET_MIN = 500, 250
 
 
+INTERVIEW = re.compile(r'^(?:《|在《|在.{0,12}(?:訪談|專訪|座談|演講|對談|聯訪|記者會|專訪|街講)|.{0,14}(?:訪談|專訪|座談|演講|對談|聯訪|記者會)中|受訪|訪談|商周|房業涵|王淺秋|趙少康|黃暐瀚)')
+CAVEAT = re.compile(r'(?:尚未|未列|並非|不是|不代表|仍待|待核實|屬受訪者|沒有列出|沒有說明|沒有金額|不補造|未另行|無法|尚無|需以|需另|須以|頁面沒有|簡報沒有|訪談沒有|並未|不等於)')
+
+
+def paragraphize(body, sep='\n\n'):
+    """Split one dense paragraph into readable paragraphs without changing any wording."""
+    sentences = [x for x in re.split(r'(?<=。)', body.replace('\n', '').strip()) if x]
+    if len(sentences) < 3:
+        return body.strip()
+    # Keep reader notes ("這些屬…主張", "頁面沒有列出…") together at the end; wording is unchanged.
+    note = re.compile(r'^(?:這些|以上|這是|頁面|簡報|官方頁|本摘要|本文)')
+    notes = [x for x in sentences[:-1] if note.match(x) and (CAVEAT.search(x) or re.match(r'^(?:這些|以上)(?:屬|是)', x)) and len(x) <= 70]
+    if notes:
+        sentences = [x for x in sentences if x not in notes] + notes
+    groups, current = [], []
+    for i, sent in enumerate(sentences):
+        starts_interview = bool(INTERVIEW.match(sent)) and current and not INTERVIEW.match(current[0])
+        is_last_caveat = i == len(sentences) - 1 and CAVEAT.search(sent) and current
+        too_long = sum(len(x) for x in current) >= 110 and current
+        if starts_interview or is_last_caveat or too_long:
+            groups.append(''.join(current)); current = []
+        current.append(sent)
+    groups.append(''.join(current))
+    out = []
+    for g in groups:
+        # a very long single paragraph: break after the semicolon nearest its middle (wording unchanged)
+        if len(g) > 130 and '；' in g:
+            cuts = [m.end() for m in re.finditer('；', g)]
+            mid = min(cuts, key=lambda c: abs(c - len(g) / 2))
+            g = g[:mid] + '\n' + g[mid:]
+        out.append(g)
+    return sep.join(out)
+
+
 def load_rows():
     rows = {}
     for path in sorted(REV.glob('proposed-*.json')):
@@ -63,7 +97,9 @@ def main():
             if u not in src: errors.append(f'{tid}: URL not among topic sources: {u}')
         types = [src[u]['type'] for u in urls if u in src]
         if types != sorted(types, key=lambda t: t != 'official'): errors.append(f'{tid}: official source must come first')
-        body = row['body'].strip()
+        body = paragraphize(row['body'])
+        if B.utf16(body + '\n\n來源：\n' + '\n'.join(B.readable_url(u) for u in urls)) > LIMIT:
+            body = paragraphize(row['body'], '\n')
         if re.search(r'https?://', body): errors.append(f'{tid}: URL inside body')
         text = body + '\n\n來源：\n' + '\n'.join(B.readable_url(u) for u in urls)
         n = B.utf16(text)
