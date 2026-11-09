@@ -1,0 +1,11 @@
+你在我的電腦上，已登入 wrangler（kome808@gmail.com）。我同意更新 Puma政策筆記網站（基本搜尋版，語意搜尋與匿名回報都不啟用）。
+
+請 git fetch 並 checkout 分支 claude/kind-cerf-xyiajt、git pull，讀 app/docs/2026-11-09-deploy.md，依步驟 0 到 5 執行。
+
+規則：
+1. 任何一步失敗就停下，貼出錯誤原文與你的建議，等我回覆；不要自行修改程式、重跑匯入、回退或刪除任何資源。
+2. 步驟 2 匯入主題索引只執行一次；若遇到 BEGIN TRANSACTION 不支援，照文件產生去掉首尾兩行的副本再匯入一次。匯入後兩個查詢的結果給我看（筆數必須是 86）。
+3. 執行步驟 3（wrangler deploy）前，先給我看 npm test 摘要、apply-summary-500 的 status、兩個 corpus_version 是否相同，等我回覆「可以部署」。
+4. 不要讀取、顯示、新增或刪除任何 Secret；不要把 SEMANTIC_SEARCH_ENABLED 改成 true；不要用 pages-search/ 或 pages-gateway 發布；不要執行 sync-topic-search.mjs --apply、smoke-live.mjs 或任何會呼叫 OpenAI 的指令。
+5. 步驟 5 的 curl 檢查全部跑完，用表格列出實際結果。瀏覽器、手機、iPhone Safari、分享預覽的項目列給我自己確認，不要說已驗證。
+6. 全部通過後，告訴我新的 Worker 版本 ID 與 Pages 部署 ID；等我確認後才更新 publication.json 與 cloudflare-setup.md 並提交。
