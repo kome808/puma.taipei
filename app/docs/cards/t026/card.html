@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>t026 分享圖卡</title>
+<style>
+:root{
+  --paper:#fff8ed;--ink:#372d25;--muted:#6f604f;--orange:#b75d37;--orange-soft:#f4dfc9;
+  --line:#e5d5bf;--white:#fffdf8;--brown:#8a4a28;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px}
+body{
+  position:relative;overflow:hidden;background:var(--paper);color:var(--ink);
+  background-image:radial-gradient(#bca88b33 1.4px,transparent 1.4px);background-size:28px 28px;
+  font-family:"Noto Sans CJK TC","Noto Sans TC",sans-serif;font-synthesis:none;
+}
+.band{position:absolute;left:0;top:0;bottom:0;width:18px;background:#c9703f}
+.page{position:absolute;left:66px;right:56px;top:52px;bottom:40px;display:flex;flex-direction:column}
+
+/* 頂部 */
+.top{display:flex;align-items:center;justify-content:space-between}
+.chip{display:inline-block;font-size:28px;font-weight:700;letter-spacing:.06em;color:var(--brown);
+  background:var(--orange-soft);border:2px solid #d8a985;border-radius:30px 26px 32px 24px;padding:6px 24px 8px}
+.boat{width:118px;height:70px;margin-right:6px}
+h1{margin-top:14px;font-family:"Noto Serif CJK TC","Noto Serif TC",serif;font-weight:700;
+  font-size:60px;line-height:1.36;letter-spacing:.02em}
+h1 .hl{background:linear-gradient(transparent 66%,#ecc498 66%)}
+.wave{display:block;width:300px;height:22px;margin-top:4px}
+
+/* 筆記紙 */
+.note{position:relative;margin-top:22px;background:var(--white);border:2px solid #dcc6aa;
+  border-radius:18px 14px 20px 13px;padding:24px 30px 22px;box-shadow:4px 5px 0 #e3d1b8}
+.note .tape{position:absolute;top:-15px;left:50%;width:120px;height:28px;margin-left:-60px;
+  background:#efcaa4cc;transform:rotate(-3deg);border-radius:3px}
+.label{display:inline-flex;align-items:center;gap:10px;font-size:26px;font-weight:700;letter-spacing:.08em;
+  color:#fffaf0;background:var(--orange);border-radius:8px 10px 7px 9px;padding:4px 16px 6px}
+.label.iv{background:transparent;color:var(--ink);border:2px dashed #8b7560;padding:2px 14px 4px}
+ul{list-style:none;margin-top:14px}
+li{position:relative;font-size:34px;line-height:1.5;padding-left:42px;letter-spacing:.01em}
+li+li{margin-top:10px}
+li:before{content:"";position:absolute;left:6px;top:18px;width:16px;height:16px;background:var(--orange);
+  border-radius:6px 3px 7px 3px;transform:rotate(-12deg)}
+.nw{white-space:nowrap}
+.note p{font-size:34px;line-height:1.5;margin-top:14px;letter-spacing:.01em}
+b.k{font-weight:700;color:var(--brown)}
+
+/* 時間軸 */
+.tl{margin-top:22px}
+.tl h2{font-size:30px;font-weight:700;letter-spacing:.04em;display:flex;align-items:center;gap:12px}
+.tl h2 small{font-size:26px;font-weight:400;color:var(--muted);letter-spacing:.02em}
+.track{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:16px}
+.track svg.line{position:absolute;left:0;top:14px;width:100%;height:20px}
+.stage{position:relative;padding-top:44px}
+.dot{position:absolute;left:10px;top:8px;width:30px;height:30px;border-radius:50%;background:var(--orange);
+  border:4px solid #fffaf0;box-shadow:0 0 0 2px var(--orange)}
+.stage:nth-child(3) .dot{background:#e3a06f;box-shadow:0 0 0 2px #c9703f}
+.when{font-size:26px;font-weight:700;color:var(--brown);letter-spacing:.03em}
+.what{margin-top:6px;font-size:32px;line-height:1.45}
+
+/* 底部 */
+.foot{margin-top:auto;border-top:2px dashed #d6c1a4;padding-top:18px;display:flex;flex-direction:column;gap:8px}
+.brandrow{display:flex;align-items:center;gap:16px}
+.mark{width:52px;height:54px;border:2.5px solid #934a30;border-radius:17px 13px 16px 12px;background:#cd754d;
+  color:#fff9eb;font-size:32px;font-weight:700;display:grid;place-items:center;transform:rotate(-4deg)}
+.brand{font-size:32px;font-weight:700;letter-spacing:.04em}
+.url{font-size:28px;color:var(--brown);letter-spacing:.01em;margin-left:auto}
+.meta{font-size:26px;line-height:1.5;color:var(--muted)}
+.meta .ind{display:inline-block;border:2px solid #d8bea3;border-radius:6px;padding:0 10px;margin-right:12px;color:#7a5b40;font-weight:700}
+</style>
+</head>
+<body>
+<div class="band"></div>
+<div class="page">
+
+  <div class="top">
+    <span class="chip">AI與市府治理</span>
+    <!-- 手繪紙船（裝飾） -->
+    <svg class="boat" viewBox="0 0 120 70" aria-hidden="true">
+      <path d="M8 40c22 4 78 4 104 0-8 14-20 20-50 20S16 54 8 40Z" fill="#f4dfc9" stroke="#b75d37" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M58 40V8l26 30" fill="#fffdf8" stroke="#b75d37" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M54 40V18L32 38" fill="#fffdf8" stroke="#b75d37" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M4 66c10-6 18-6 28 0s18 6 28 0 18-6 28 0 18 6 28 0" fill="none" stroke="#c9a37f" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+  </div>
+
+  <h1>AI如何減少<span class="hl">公務流程負擔</span>？</h1>
+  <svg class="wave" viewBox="0 0 300 22" aria-hidden="true"><path d="M3 12c18-12 30-12 48 0s30 12 48 0 30-12 48 0 30 12 48 0 30-12 48 0 30 12 48 0" fill="none" stroke="#c9703f" stroke-width="4" stroke-linecap="round"/></svg>
+
+  <section class="note">
+    <span class="tape"></span>
+    <span class="label">沈伯洋〈公務員政策〉提出</span>
+    <ul>
+      <li>成立專業<b class="k">AI技術支援團隊</b>，進駐工作現場</li>
+      <li>把重複性高的<b class="k">表單填寫、數據整理</b><br>與基礎行政流程自動化</li>
+      <li>不增加同仁額外研習負擔，讓專業回歸服務市民</li>
+    </ul>
+  </section>
+
+  <section class="note" style="margin-top:22px">
+    <span class="label iv">訪談｜《台灣最前線》</span>
+    <p>當選後第一個要走訪<b class="k">資訊局</b>；規劃組成「<b class="k">AI教練團</b>」<span class="nw">進駐各局處</span>，花約半年做田野調查與業務盤點，再打造<span class="nw">行政減壓工具</span>與<span class="nw">資料整理平台</span>。</p>
+  </section>
+
+  <section class="tl">
+    <h2>政策推動藍圖<small>四年規劃，節錄 AI 相關項目</small></h2>
+    <div class="track">
+      <svg class="line" viewBox="0 0 900 20" preserveAspectRatio="none" aria-hidden="true"><path d="M20 10c80-5 160 5 240-1s160-4 240 1 160 3 230-1" fill="none" stroke="#d8a985" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 12"/></svg>
+      <div class="stage"><span class="dot"></span>
+        <div class="when">第一階段｜第1–8個月</div>
+        <div class="what">組建專責AI派駐團隊</div>
+      </div>
+      <div class="stage"><span class="dot"></span>
+        <div class="when">第二階段｜第8–18個月</div>
+        <div class="what">首波「高重複業務」啟動AI協作</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="brandrow">
+      <span class="mark">P</span><span class="brand">Puma政策筆記</span>
+      <span class="url">puma-note.pages.dev/topics/t026/</span>
+    </div>
+    <div class="meta"><span class="ind">民間獨立整理，非官方圖卡</span>來源擷取 2026.11.07</div>
+    <div class="meta">來源｜沈伯洋政策網站 puma.taipei〈公務員政策〉；《台灣最前線》專訪</div>
+  </footer>
+</div>
+</body>
+</html>
