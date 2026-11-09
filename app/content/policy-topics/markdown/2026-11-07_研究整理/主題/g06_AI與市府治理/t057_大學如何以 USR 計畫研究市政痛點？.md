@@ -4,7 +4,7 @@ title: "大學如何以 USR 計畫研究市政痛點？"
 group_id: "g06"
 scope: "municipal_policy"
 source_snapshot_date: "2026-11-07"
-prepared_date: "2026-11-07"
+prepared_date: "2026-11-09"
 document_type: "internal_research"
 publication_status: "not_published"
 research_body_characters: 151
@@ -15,7 +15,7 @@ research_body_characters: 151
 分類：AI與市府治理  
 範圍：市政政策構想  
 來源快照日期：2026-11-07  
-整理日期：2026-11-07  
+整理日期：2026-11-09  
 研究正文：151字元（不含標題、來源連結及校讀備註）
 
 對應問題：市府如何與大學合作，把市政問題與社會需求轉成研究建議？

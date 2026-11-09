@@ -1,11 +1,11 @@
 {
   "type": "internal_research_markdown",
-  "generated_at": "2026-11-07T16:28:42+08:00",
+  "generated_at": "2026-11-09T20:35:04+08:00",
   "source_snapshot_date": "2026-11-07",
   "publication_status": "not_published",
   "input": {
     "path": "app/content/policy-topics/expanded-topics.json",
-    "sha256": "cfa588a66f606f2b0bf8601d05e3c86646672bbd48b396635fe2baad059fc196"
+    "sha256": "cd5157ca9fa914f95ed24500be04a9a2291ad4ba9710e491a9920e9c232a4be5"
   },
   "files": [
     {
@@ -1125,457 +1125,457 @@
     },
     {
       "path": "主題/g01_居住與城市更新/t001_停滯都更案如何退場或重新啟動？.md",
-      "sha256": "016aac9ff6f375e07d76de2490647ecdaf238ebf7495cb9c82091868d7ca0350",
+      "sha256": "eb01baa9cbebb78b8bb26838f9ba584d04a9167026c848021316185316112fe1",
       "bytes": 2540
     },
     {
       "path": "主題/g01_居住與城市更新/t002_換屋估價與搬遷安排如何保障住戶選擇？.md",
-      "sha256": "8055af3036d040256dc7be17ea4e924bcb5badee203dfd610b4c4805eecb221b",
+      "sha256": "1aa7da340813b14c4afc5907aa60a3e9b17b31e88b78fa4558236c295132f602",
       "bytes": 3238
     },
     {
       "path": "主題/g01_居住與城市更新/t003_都更審議如何縮短等待、增加專業人力？.md",
-      "sha256": "4b7d07f558579608a428bc06e5a7b0da0deb26c4ffce0f2b597c658ef357d563",
+      "sha256": "8fd96ef42ca4544e8b434b43b2408eb1c3eac8f4b4ef281f6385296f4039c72c",
       "bytes": 1995
     },
     {
       "path": "主題/g01_居住與城市更新/t004_老宅安全與無障礙改善如何取得協助？.md",
-      "sha256": "d185226dfde50c645c2d5b154c909656dec6c8d28ba6bad2f3a97e07fe7d28a7",
+      "sha256": "9aab1e01304627f4738942a458845987d0d8e20394571bd607fc6631869e2ee6",
       "bytes": 2208
     },
     {
       "path": "主題/g01_居住與城市更新/t005_不同家庭如何取得合適住宅或換居安排？.md",
-      "sha256": "6be91ef1cbedb5844f84e16f066fb1b6b85e17f84d1b3ab57b4f35e75f5dc570",
+      "sha256": "b498242668ddc5b6db8de85bbd483580dcc77a4503b5b2c953eac209db91ed7e",
       "bytes": 2263
     },
     {
       "path": "主題/g01_居住與城市更新/t006_社子島如何兼顧居住改善、聚落與生態？.md",
-      "sha256": "bfaedcb863f14c5e1b7d8ffb24b3fc1cd86b5fc82a8d1584d93424039ef40a50",
+      "sha256": "b599dee1e97104d9e345ba10bfd96a2bb5fbd7c60c68e160fb4af6f582bd64c6",
       "bytes": 2958
     },
     {
       "path": "主題/g01_居住與城市更新/t065_第一批循環都更房源從哪裡來？.md",
-      "sha256": "ae40f658bd5b9c286431c0ff53cc4330c19988c3b5c9a397f605fe9bf48b0d01",
+      "sha256": "30a3d2f77faa1d5a46d6ce1774341c19972f03bbac059b9ee7997149220c1647",
       "bytes": 2492
     },
     {
       "path": "主題/g02_教育與校園/t007_教師人力、班級規模與行政工作如何改善？.md",
-      "sha256": "2e7edb7d0aa4af4d58b4631d61dde682ff8d7a18297e2bba2f5d2c32f8e2b9f8",
+      "sha256": "7210ecc41baf37b713a102685e56da78dd031e3577f7de3fbd918b775e80c34d",
       "bytes": 2527
     },
     {
       "path": "主題/g02_教育與校園/t008_校園毒品與毒駕風險如何預防、辨識和轉介？.md",
-      "sha256": "fee29a2aa17c034852d600861088b639eca954011f344d99d9049ad4baa5c1ed",
+      "sha256": "337ee853f1e77dec6b96f6d91c254288ce016da54ff35e218d44fd7ba757731e",
       "bytes": 3423
     },
     {
       "path": "主題/g02_教育與校園/t009_孩子上下學的路口與通學巷如何更安全？.md",
-      "sha256": "d2635c4fbff8f06563dd2db4c04444314b55bd47e55abd2d50c3ee73b91409d1",
+      "sha256": "0d28daea775ca85122bfcc74c13003502aa587c022003ccc9f39ea929d6762b4",
       "bytes": 2510
     },
     {
       "path": "主題/g02_教育與校園/t010_學校如何讓學生公平、安全地使用 AI？.md",
-      "sha256": "911b3b658fde1412790d4859088bfdc9abe7f217aeb16e326c484cca6759965d",
+      "sha256": "c0000781c05315c3f1ffe2f895c472a8d88836521c424d964f0114d2fa598606",
       "bytes": 2060
     },
     {
       "path": "主題/g02_教育與校園/t011_免費營養午餐如何兼顧品質、食安與弱勢平權？.md",
-      "sha256": "a4cacea862ba5db15fda2832385e02dea9ffe9db7dd13c8df578ac2aea23650e",
+      "sha256": "d719f7c6ed7767227cf041458d1083250607bf0750bbcd4fcbfb7d61669f3487",
       "bytes": 2652
     },
     {
       "path": "主題/g02_教育與校園/t053_台北學童如何透過客庄互訪認識客家文化？.md",
-      "sha256": "e1da62e24b83181fb18d0de6f8fbb8a5ddba949fd4879a66511960df3d3038d6",
+      "sha256": "10457ea911958d1f4a01a8ed6fe9661540d32511290a3d85e6f820e5bd683c1b",
       "bytes": 2008
     },
     {
       "path": "主題/g02_教育與校園/t066_親師衝突、幼教與特教支持如何補位？.md",
-      "sha256": "8888352eb3890a0a13ab0183c455d71e9653d822dc7f18f89d8665344e8e9fe8",
+      "sha256": "c060d5d2ae849a59867b3ef5d8c61f5620af802d413bf5d1ab55efd347facf87",
       "bytes": 1874
     },
     {
       "path": "主題/g03_育兒與家庭支持/t012_育兒求助與服務轉介如何找到同一個入口？.md",
-      "sha256": "aa7e9d9f7da69cd0de9bac832f81ca42fc3cc8c2ce484fe38094978b12e7a0a9",
+      "sha256": "c9917361b22452ab45652c94dc1273d1260bb5e66ccbfdd993210ab4d56a78e2",
       "bytes": 2449
     },
     {
       "path": "主題/g03_育兒與家庭支持/t013_照顧者如何取得臨時托育與喘息時間？.md",
-      "sha256": "746e7ec3c95ada35c5266a50b2a46d5a6ad72eaa2a70ad7530b12bc3af6c5c14",
+      "sha256": "dfa6dd8aaeb77b9ea82f232644206a9566b80b8ede0254acffeffed946196cce",
       "bytes": 2479
     },
     {
       "path": "主題/g03_育兒與家庭支持/t014_產後家長如何取得情緒支持與到宅育兒指導？.md",
-      "sha256": "c6e3446e9da4cac8c8e3c1bb46e7dcdd45e8c4c5ad3f1ef1b9d2d585bd5800e7",
+      "sha256": "bec6bb6e0460d03143b295f5c9163bf45ee47714310a926737bcddd421d27a9a",
       "bytes": 2151
     },
     {
       "path": "主題/g03_育兒與家庭支持/t015_兒少安全通報如何脫離一般1999並接上專業保護？.md",
-      "sha256": "c69de12f874cf1af6e450bfb60165447a38da124b79445bd8996c18de5260e72",
+      "sha256": "09668562a76187aa2f36c56b47eafd8452fe385e65bd1e09521e7edc60bfe3e6",
       "bytes": 2609
     },
     {
       "path": "主題/g03_育兒與家庭支持/t016_親子同行卡如何支持家庭共同參與文化、閱讀與運動？.md",
-      "sha256": "39ca095a217e5b71d625c6ea64f1d6076a5cf2dcc99b0afbbeee84576518e9e3",
+      "sha256": "73d06e51e2c76da16524d350e5d7e4f055ab77fd9a7841041d691cfdb8f084af",
       "bytes": 2604
     },
     {
       "path": "主題/g04_高齡、身障與心理健康/t017_長者如何在熟悉生活圈取得長照、在宅醫療與行動支持？.md",
-      "sha256": "e1bd02fa7b0942dcf07a2b7a0e696ed4e0ee16b754284cb1bd2c957075620fb8",
+      "sha256": "364d25b4609462e977796048a18f798e0d11b0906165da76c9bfe3e1a064d54e",
       "bytes": 2521
     },
     {
       "path": "主題/g04_高齡、身障與心理健康/t018_一般市民如何取得公費心理諮商與家庭心理支持？.md",
-      "sha256": "676b943f56ae3de8ab862b50bb389ffcc2a83029b4a41c80b25ada2b9917b7f4",
+      "sha256": "8f8d948b1bd3e6b9130c9674f4073c58b6d0456f3909112ac7e0e7b2e6fabd6c",
       "bytes": 2451
     },
     {
       "path": "主題/g04_高齡、身障與心理健康/t019_無家者如何先取得住所並接上生活支持？.md",
-      "sha256": "a37203c34cd0157a4a5b1d1a32c9a1a0bd56490994bfa6e61188538e28a3e6f9",
+      "sha256": "a1194beb5c141de5bf98105b971dff747d53b8ac197cb5dd3efdbe30055aeca0",
       "bytes": 2176
     },
     {
       "path": "主題/g04_高齡、身障與心理健康/t020_如何支援超量社工與第一線兒少服務人力？.md",
-      "sha256": "78cb4ceb822689a186fa5de44a5528fef724696ee446cb804a96acaedad8a47c",
+      "sha256": "8e1b22f8079241ea70aed41d94e9b1eebaf45483d750d4029a202452f0a86805",
       "bytes": 3108
     },
     {
       "path": "主題/g04_高齡、身障與心理健康/t052_客家文化與照護如何在社區據點相遇？.md",
-      "sha256": "a370023b23111ef6c0af47b95b0fe6d10dcbaa8ad53c8e5c81eb8e1a2505d67b",
+      "sha256": "2dd14a84cd592c1ba44a12dc1313272de5440a8fdf4588d5082efd6ef849fc1f",
       "bytes": 2008
     },
     {
       "path": "主題/g04_高齡、身障與心理健康/t084_兒童與中高齡有哪些疫苗支持構想？.md",
-      "sha256": "1ef674e3e78e5bf2856620391b149c9413ae132efdd8bbe0c8c7020b0c343bdd",
+      "sha256": "4f053efe0611b43f00935a5585df7161f91969d4c34048760361c6a8c1bf32a4",
       "bytes": 1847
     },
     {
       "path": "主題/g04_高齡、身障與心理健康/t085_罕病維生與身障行動需求如何獲得支持？.md",
-      "sha256": "ba48025e2bd11c8452b023ec5f2b0a138175fe58a2c6f0986a03c75323b2c378",
+      "sha256": "5e83b5f547d2b478c4efddb90207e51c0ce2a00d13c147dd6b9742695be896bc",
       "bytes": 1918
     },
     {
       "path": "主題/g04_高齡、身障與心理健康/t086_單身女性如何透過專線找到身心與社福支持？.md",
-      "sha256": "a1eb77769b34e3c29296495fa8f6436172e9bb8e50be275e95623403587d9445",
+      "sha256": "572223363537edd41d96f3c6e1aa5fd6d81d7a1a6f3afd264aae4aa125052eb2",
       "bytes": 1945
     },
     {
       "path": "主題/g05_青年與就業/t021_青年起步基金如何累積並銜接成年轉銜？.md",
-      "sha256": "1e8f3f14a5358e988cae7792401b56ec2ad0e0b43c79e4a9608dc6e47e12cc81",
+      "sha256": "58da9fa4fcc24895e05a9af683aa827b963d3e82967af70780d9f669cb6c294a",
       "bytes": 2729
     },
     {
       "path": "主題/g05_青年與就業/t022_青年如何取得免先墊款的 AI 工具與轉職支持？.md",
-      "sha256": "55bcec4b1a93e41db5664ef80fc028f6cdcad707d692dfde4bf7acc607a17f02",
+      "sha256": "5c510c24131fc71aabc891679dd107d1e4d92bf41f07307adf30eaab2acd3d78",
       "bytes": 2635
     },
     {
       "path": "主題/g05_青年與就業/t023_中高齡工作者如何接上 AI 轉職、職務再設計或創業？.md",
-      "sha256": "95ff82b23f1a265ec15a816694813a0215e96ef7bdfb1cd78bf50b37c3d25319",
+      "sha256": "d3544579bd7b0c79f336f95a6b50cf7686ba426a620c88d379fc5d4258b050b6",
       "bytes": 2144
     },
     {
       "path": "主題/g05_青年與就業/t024_青年海外學習、創業和市政實作如何回到台北？.md",
-      "sha256": "972325571bed7fe711c4cb399823e6175f9ebae0c2e465945bdea3b34bc13a5a",
+      "sha256": "af0aed3666c62982b519bd35445016327c72cbcfa934eb97c0b6f8c746581a88",
       "bytes": 2089
     },
     {
       "path": "主題/g06_AI與市府治理/t025_台北研究院如何把城市問題轉成研究與政策方案？.md",
-      "sha256": "34745828f7873fa1d664c7dfeff4c98d8a5d5e9670e167e802a86f1e734c6d3b",
+      "sha256": "640f8d38ed1f05f675c84d8a88a43a0893f6d59547456afb93ffadbc542aefc6",
       "bytes": 3269
     },
     {
-      "path": "主題/g06_AI與市府治理/t026_AI如何減少公務流程負擔並保留專業判斷？.md",
-      "sha256": "69537640831c6643d7522726790eeeafa5e77da95bd810fde07691668e78cd38",
-      "bytes": 2619
+      "path": "主題/g06_AI與市府治理/t026_AI如何減少公務流程負擔？.md",
+      "sha256": "4367bc6ae18e1f15d9193364c4329a12c7762a73d8d8d7d30f3df90fc6930c75",
+      "bytes": 2636
     },
     {
       "path": "主題/g06_AI與市府治理/t027_公務員的工時、職場支持與專案回饋如何改善？.md",
-      "sha256": "846036c7e141d677cccf0db7fceb3e316b1fe92f3bae2b50942b6109708a82f8",
+      "sha256": "90e3e667d85354e62ddf9c1ecde9176c95d94d5941f98c8aff6c2f8fb53c3a9c",
       "bytes": 2380
     },
     {
       "path": "主題/g06_AI與市府治理/t049_北士科變電所與公車總站如何結合周邊服務？.md",
-      "sha256": "1726022f805ce34237c5be4eea7dd9de9e2f051662f27fc0bd143eae84d1de0d",
+      "sha256": "1795dfd9bb87615fc5c62deeb8443d82571699d26ced05f979f67eaf2bcafcbb",
       "bytes": 2295
     },
     {
       "path": "主題/g06_AI與市府治理/t057_大學如何以 USR 計畫研究市政痛點？.md",
-      "sha256": "cf22bb92727dccee240cedd54d476eeed8df6aa2f64b39ffdb09160e975a2a39",
+      "sha256": "82a0efe2b98d49777156c2d17bec7df89d8f3e63afdbf24be352664c9549e0a6",
       "bytes": 1954
     },
     {
       "path": "主題/g06_AI與市府治理/t078_北士科如何培養AI人才並把技術用於城市問題？.md",
-      "sha256": "1a29b3ddfa9ca3976e5cb7b4f1fcef1f3ed050368dddb053958c2b9750ef5b06",
+      "sha256": "3ea44347a057db0d445c4eeede3107b90e100a746a1d7d07192ee5dbf13f1210",
       "bytes": 2386
     },
     {
       "path": "主題/g06_AI與市府治理/t081_市民科技原型如何經過法規與資安評估再交給市府？.md",
-      "sha256": "0051fc9fec2cab950442a64d91e36deb1edad7cf98ade585e2ce9d35d76cf2e2",
+      "sha256": "c6c434cc05ebfa5216a7279a60adda1046f13e797876808fa57849c43e4651a3",
       "bytes": 2158
     },
     {
       "path": "主題/g07_運動與休閒/t028_健身小巴與專業教練如何把肌力訓練帶進社區？.md",
-      "sha256": "c3062f00ac0a9bd3e94704caf2cde2592dad01171009f45b496a787bc5c9848f",
+      "sha256": "572788abefc0092b3d63ab0ef6f950ce0bce09d5d4930c5f8fd6af1d1a287028",
       "bytes": 2504
     },
     {
       "path": "主題/g07_運動與休閒/t029_運動驛站如何解決戶外運動者的寄物與盥洗需求？.md",
-      "sha256": "3f1b7e6382404a43a4134d720b3f1f91aef957265aaab6520020f52476fa647c",
+      "sha256": "520871bb9227c9c8695a66d1e2ee40896bec4cf53ee5e3b95091f7224a44dd86",
       "bytes": 3253
     },
     {
       "path": "主題/g07_運動與休閒/t030_社區小型運動據點與學校場地如何開放？.md",
-      "sha256": "0d3f1f5cdd01d63039c2b0100e928a53a1bfc1e2d4f467cd205b759004e0b110",
+      "sha256": "cbab78a9c09fa7743bf5ac4d2482654fda26755dc5c1233fc5c37ffd6c37904e",
       "bytes": 2710
     },
     {
       "path": "主題/g07_運動與休閒/t069_關渡足球場要提供什麼運動空間？.md",
-      "sha256": "38af36ecc6fde845230c5e9f88f1a3931730d73cb79cf79e9400a8be5f9f1174",
+      "sha256": "dc1114a9ec230bf28f32da9e0e4e5e0541f38e1791d5f08675d26da4b5a2be52",
       "bytes": 2344
     },
     {
       "path": "主題/g07_運動與休閒/t070_花博與圓山的大型運動中心如何補場地？.md",
-      "sha256": "d09ddcbcf5ed15d87c14d21294183ab310ac63b48d3e72589c2fee395f3f057c",
+      "sha256": "c137a52cb6197943d48cd15db24a0ea3889f9d4304e4a091e4fa20f043ca5a83",
       "bytes": 2325
     },
     {
       "path": "主題/g08_文化、步道與地方記憶/t031_文化徑如何串連台北的地方歷史與族群記憶？.md",
-      "sha256": "05868a138221105912a24717c33b11dcc876645803ff34ed1ccd2f011b0767f1",
+      "sha256": "255ba832d11ff22292b964c2aee55c5455e3947f945066b8c14874291ef36b92",
       "bytes": 3509
     },
     {
       "path": "主題/g08_文化、步道與地方記憶/t032_商圈老店與文化空間如何不因租金上漲而消失？.md",
-      "sha256": "b4c878c9fa0c253bb8034ea749e4bb383a71b7fb8fb4b5063dd828596b7184c0",
+      "sha256": "f0630d299e649bc4b0966e19f6ef1ad36c8a2e5b4bb5b383a97ad22ee99d3321",
       "bytes": 3406
     },
     {
       "path": "主題/g08_文化、步道與地方記憶/t033_本土影視、音樂與動漫創作者如何取得場地和觀眾？.md",
-      "sha256": "8d132186276b1b70521b53fc2c16dd746b39ca8fc092402a96d89f9052c2840e",
+      "sha256": "d1460012f8d7dca2e1c63a14f705f15bc8ca964f7efb8cd55e65ff04d2b040c5",
       "bytes": 3388
     },
     {
       "path": "主題/g08_文化、步道與地方記憶/t054_學客語或在商圈講客語如何取得數位獎勵？.md",
-      "sha256": "038c382e89bb1132165f374e64b431ca0567567584d09e35e636a1ef57955b1a",
+      "sha256": "bdc79b500be11ce25921116c3c96e26951475a92c54ceebe938fce9603ef167d",
       "bytes": 2071
     },
     {
       "path": "主題/g08_文化、步道與地方記憶/t064_登山觀光中心與接駁如何改善淺山步道體驗？.md",
-      "sha256": "1ec7dd77cf0486831ee24fbc18607610f13c386de4af21d58073e31406aa6b44",
+      "sha256": "c7b1f4e91d49b506629eaf73fd2cbd01b10eff776cbdb8791533b6782e667f55",
       "bytes": 2303
     },
     {
       "path": "主題/g08_文化、步道與地方記憶/t083_明治橋的歷史景觀如何結合自行車通勤？.md",
-      "sha256": "93a7968e1e6edbad9031fe5a46e3ad7c512884fe76560b3969987dd2c038258a",
+      "sha256": "3dc0de0ee458a4d508e0379fb882671a50609d72566ac1266db9bc7b55dfd92f",
       "bytes": 2789
     },
     {
       "path": "主題/g09_公園、樹木與水路/t034_樹木維護資料與移除評估如何透明？.md",
-      "sha256": "f3a6f4e000293139a81aac5c85d4af49bd8c23674d055e3aef68ceef96eb5558",
+      "sha256": "f0a3bd9e54726b596614d0cfd3754c49a41210339fe439cc350fbe23318b45a9",
       "bytes": 3329
     },
     {
       "path": "主題/g09_公園、樹木與水路/t035_水路如何先改善水質並選擇適合親水的河段？.md",
-      "sha256": "cb65a3f7218a09431a2e6b1b39dedb44c9efefd4ee1577d788dd532c6e8b98b6",
+      "sha256": "dd69b46b683ce0fe78949e42466c84280b84f19603ddf68380290861004821cf",
       "bytes": 2474
     },
     {
       "path": "主題/g09_公園、樹木與水路/t072_樹蔭公平與熱點植樹如何規劃？.md",
-      "sha256": "9d2d0ec3dadc156042fc13c48d73785e2b39d30ccd3abd70cb115d248d255390",
+      "sha256": "ff898be901b49768a8e75c4ed858afb9112e2c141c487a8d25f9b46186c4e5a9",
       "bytes": 2130
     },
     {
       "path": "主題/g09_公園、樹木與水路/t073_修剪木料如何再利用？.md",
-      "sha256": "71bbb9d5cb095d29f28d1c2bfde7ec726647f18cd282a704ea05acf25866b310",
+      "sha256": "d7a7739040b3763a43a6180974189541eb0c3f6551fe44971518383ef410e2c1",
       "bytes": 3193
     },
     {
       "path": "主題/g09_公園、樹木與水路/t074_分散滯洪與水岸生態如何納入城市設計？.md",
-      "sha256": "30c916595c8150189f8d1d5f0ee42b1809aaf261161f934a8d4c81e41a0b681b",
+      "sha256": "84d0f6f7ac38627c549625e55df2d5cb8965027ad1421cf02ccb8520919f0ac0",
       "bytes": 2229
     },
     {
       "path": "主題/g09_公園、樹木與水路/t075_河岸入口與巷弄親水空間如何接進生活圈？.md",
-      "sha256": "60a1589d9a27a5faa288e7f9fd41808d2e6962917c49ec1365fdd79059af70c3",
+      "sha256": "70589c5e23a52f51e0bad44d43388afdf73410a29d8ddb716f1b8964f0a26baa",
       "bytes": 2283
     },
     {
       "path": "主題/g10_交通與街道/t036_自行車通勤路網如何連續、安全並接上跨河橋梁？.md",
-      "sha256": "8d8d97e447fbd8bb9d5a82a5829a595b011459e28da46e94d79abfc81b15219b",
+      "sha256": "ad71771e0f527059cd1be3dbffe7a0d9901d8528a904ec584024a8bbea9f1421",
       "bytes": 2626
     },
     {
       "path": "主題/g10_交通與街道/t037_公車駕駛工時與駕駛座安全如何改善？.md",
-      "sha256": "858d89101d44361b84eb9e4418891efa3006ed9d1184817a2146588280c9023d",
+      "sha256": "ad5e7903e46e9ba1ec0c84ce11e87eaee38ed279a14bfdb62b533b2f83123154",
       "bytes": 2340
     },
     {
       "path": "主題/g10_交通與街道/t038_如何修正標線、路口及行人空間的日常危險？.md",
-      "sha256": "063bf3e953ffe46e192a17a79e9f99f8f5e4ab4d85480dc7acfa74479a19b6c9",
+      "sha256": "14d40dc389ba7aa19c8a780d0458287d6f9998308433308c7f63270924ea4869",
       "bytes": 2568
     },
     {
       "path": "主題/g10_交通與街道/t039_共享電動機車如何接上 TPASS 並離開路邊車格？.md",
-      "sha256": "3c3b6bd1540eea47325b0b7ea3627cb6d085fc0ec20a64de4aa3c685ff33d559",
+      "sha256": "fe33b1a0d771a28d10dca79a32fad470393e76572f3160c9f3bcd7e4b013164a",
       "bytes": 2787
     },
     {
       "path": "主題/g10_交通與街道/t040_交通資料如何用於號誌、計程車停靠與事故熱點？.md",
-      "sha256": "84225ec9b117e51d2e041408466ca143724539d6c017999b5d861783e365e80f",
+      "sha256": "28e51d52ce7f51ffce733dead7eea43cbe138b2344bce70e0eaba1f217f0a55b",
       "bytes": 3672
     },
     {
       "path": "主題/g10_交通與街道/t041_市民大道橋下如何縫合街區並帶動人流？.md",
-      "sha256": "58a58e901628b41c6aac6db9504eecd1c1dbf8e4ac157c6faaf028d42db8a824",
+      "sha256": "566a829d0a43db5398df5a69e98285ad6f4dce7d4cf4888e9b3a5dea5d0f78cc",
       "bytes": 3177
     },
     {
       "path": "主題/g10_交通與街道/t076_台北車站公車站牌與路線如何更好找？.md",
-      "sha256": "063fa4ae9e638206462ace61743a39d0a00654cbe8bb18c2dc0f69dd7ba2aaf7",
+      "sha256": "fe95dbdeffea2ccf24f3232b43eb5a3f906003d8243e54bea4cb3ba6de3e4435",
       "bytes": 1981
     },
     {
       "path": "主題/g10_交通與街道/t077_公車轉彎警示聲與捷運寧靜車廂如何試辦？.md",
-      "sha256": "fbd47c2077d574c71df1e726357e989ea96e747ab852b9c6dc01b3222b797439",
+      "sha256": "7f8ab9381ae5a2e2ec1ec3c7f6c3cbf6341d598501cda988a93fb719cfec0321",
       "bytes": 1978
     },
     {
       "path": "主題/g11_城市生活與治理/t042_夜間商圈的噪音、安全與居民衝突由誰協調？.md",
-      "sha256": "a821c0633dad0838b812dcb3605a9fe756bca453c2c45d5f2b47feb471a2652e",
+      "sha256": "367a800b782263553dea592cb85ffc97992d6ecf07a571fc3ee72d65bb8e4a15",
       "bytes": 3358
     },
     {
       "path": "主題/g11_城市生活與治理/t043_市民提問、陳情與黑客松如何進入政策討論？.md",
-      "sha256": "8a9965f89d188230f3ac79a3263390278db1a01de547ab7df03bf3688c34f7ac",
+      "sha256": "8f29a2e330e1707c6d4f2fb72b1793bd2a6990eb240e4f1c17c9f549e31afeac",
       "bytes": 3734
     },
     {
       "path": "主題/g11_城市生活與治理/t044_市長如何與不同黨派議會協商推動市政？.md",
-      "sha256": "3d759bc6e32cb67b5b6fc1e1bf517d890a2937c034d2db11f5c9787b5cf3db45",
+      "sha256": "dfcdffd6fd8294c364301925890fd52b282b9f425cf42e9fab7c9f8839dc20c2",
       "bytes": 2385
     },
     {
       "path": "主題/g11_城市生活與治理/t045_有限預算下哪些公共需求優先於普發現金？.md",
-      "sha256": "e56ab474bb1123096445c8eb3c3d75c474ca9de525cee967db854829f45016ff",
+      "sha256": "a83c5573049860c6c1ef2dc4f2b95a6125ec858804f23394d8cff96af0284077",
       "bytes": 2448
     },
     {
       "path": "主題/g11_城市生活與治理/t055_市府如何增加臨櫃與1999客語服務人才？.md",
-      "sha256": "7d8e6df33166ef7b62726fd7c5c9c7b0590cb8eca6bde31da6a3967ca25a7bef",
+      "sha256": "b8dbd546b6a0687cc23e5b80cd578802a645220b34b7cced0e3327d8174860a1",
       "bytes": 1998
     },
     {
       "path": "主題/g11_城市生活與治理/t062_地方加碼現金發放須符合哪些財政條件？.md",
-      "sha256": "374e16e6ccc8cad9c7d34d6e07a250eba0629ed26e7459fbcb5657527bb0412c",
+      "sha256": "d95eda00d6bee66cfaeb4c811540a09d97ae818699b8a23f9c2ae874f1c045b5",
       "bytes": 2695
     },
     {
       "path": "主題/g11_城市生活與治理/t079_市府小內閣如何選任兼具執行與溝通的人才？.md",
-      "sha256": "adbffeebce70652b4131a7a37402101a7d40de3bf7b7d5ff4a00b7cb0c0d782e",
+      "sha256": "2c5eb8979056e49e0581d0b6c9e31e458c2c18e7bb3d23a61fc0f319d4ed5636",
       "bytes": 2098
     },
     {
       "path": "主題/g11_城市生活與治理/t080_第一線如何回報錯誤並促成市府修正？.md",
-      "sha256": "6f8c9a27b59b8d2bb9308d1ab84e7b66adbb3d4a823a6f65837500ed9f70d961",
+      "sha256": "78c3168018baca82f6d5e8870f0ca78789c21e3ac8c59fb09b536f93416e66fe",
       "bytes": 1882
     },
     {
       "path": "主題/g12_城市交流與公共議題/t046_城市交流要先滿足哪些政治對等與資安條件？.md",
-      "sha256": "6a0a075e92d91070e1874cbf80972e3a63c5dcd1f398960f6b3f05aea961a182",
+      "sha256": "c7ccffdb7eefe7e2aea594c70c45d161414ffb6fec5988088f3bbaa70e31ebf5",
       "bytes": 3244
     },
     {
       "path": "主題/g12_城市交流與公共議題/t047_台北如何透過城市外交合作解決交通、住宅與降溫問題？.md",
-      "sha256": "c0e3d3fbe7ce1b32029abaaa9f9918df63d0b1a83e2790602d50d5c74e44c695",
+      "sha256": "33459a9e2fa2df8a3bd52b7f4a409c79ef86d9715a040e568d204337d2b36c72",
       "bytes": 2822
     },
     {
       "path": "主題/g12_城市交流與公共議題/t056_客家文化如何進入無限城國際城市交流？.md",
-      "sha256": "b2b88464650939d41d6ee0a45f13bd0fdd1748c5465cb1dbf1d9ee7d9185bf1b",
+      "sha256": "a2c1f3dae1a230edd7af7f6809d2fe777705b56dadd7d5a275a5b20e8237e847",
       "bytes": 2005
     },
     {
       "path": "主題/g12_城市交流與公共議題/t071_城市運動聯盟如何促進常態交流？.md",
-      "sha256": "afbc54290dc372917936534d919adea48d8a9fe32e3c288523fe404396efdadb",
+      "sha256": "7d662dadf4f009ebf6a2799544ee877e5aba7f3cef6585e543fa3bc8d5f76422",
       "bytes": 2572
     },
     {
       "path": "主題/g13_公共安全與權益/t048_地方民防如何把避難設施與鄰里互助接起來？.md",
-      "sha256": "2da18c9e6d3b2caee4dcd639d4e0c3d908e9c5def6f113fb5b3c13e784fc62a0",
+      "sha256": "033c6d4d0bf33f9d816be3c3374aa5ceecce181e0a5b6faa25db902839802aae",
       "bytes": 2850
     },
     {
       "path": "主題/g13_公共安全與權益/t058_網路霸凌報案如何減少被害人二度傷害？.md",
-      "sha256": "a8f81e2e52541ce40a9f5ac8eeda8a18f76bbcab6891440ec4a0bb6616658b65",
+      "sha256": "70fa8a3fb3b4b9c76e90e880b515def87e07e149612f49e850292e9d3382d257",
       "bytes": 2393
     },
     {
       "path": "主題/g13_公共安全與權益/t059_高風險勞工如何取得安全裝備與現場檢查？.md",
-      "sha256": "d72dd84f06b0df30c606496e2c65bddab8898a6b3e8aef5977b306305efa9199",
+      "sha256": "56e50ba5b25228014b34eea7a061802e9f5dd73acf816eefa68a9b9ddcee2539",
       "bytes": 2068
     },
     {
       "path": "主題/g13_公共安全與權益/t067_女性夜間步行如何更容易求助？.md",
-      "sha256": "9f482145082fb407fc95e236b4f048111a1bd891aa897188929f833fecc4f690",
+      "sha256": "f8e6f97414416f4829e8561578edf39002042b2094933c82d27aaafdd3697528",
       "bytes": 2403
     },
     {
       "path": "主題/g13_公共安全與權益/t068_警察如何讓性騷擾與霸凌報案少受二度傷害？.md",
-      "sha256": "af88a7ab14ebb9e99ae07364831afe3e4e778a10be9a4a7cfe9a13fd53b42dd0",
+      "sha256": "7e3ed6ebe5fea0b7e8eb1b7a90a7451875c2341bc78598d9d59d364daab7176d",
       "bytes": 3008
     },
     {
       "path": "主題/g14_民主制度與國安公共議題/t050_公民動員與體制內程序如何分擔民主防線責任？.md",
-      "sha256": "b685cffe27e6b74eeb9892560570c6cce888829562e7da50c8e1c651db1fba24",
+      "sha256": "f244af8e22256981ac1c699870a62c2af24698df170d431c9df2530087a85dd5",
       "bytes": 3384
     },
     {
       "path": "主題/g14_民主制度與國安公共議題/t051_國防採購如何涵蓋後勤、訓練與維修？.md",
-      "sha256": "287a3eff8cde0e06b80c93d523f66f3cfa3b4676e1cd855cb27e7551feb33c62",
+      "sha256": "267941c7761bb1a2c3fc0fe08a4c4dfdd3253aa64ac60f18924ef3128177714b",
       "bytes": 2452
     },
     {
       "path": "主題/g14_民主制度與國安公共議題/t061_身心靈服務的消費資訊與市場規範如何改善？.md",
-      "sha256": "9667fa873d19360e1b5dd01dada8e198567449e7b04ebd1563ed54eea1e8c546",
-      "bytes": 2063
+      "sha256": "932e25b1b7bb933b8090a770193e5d25b187be6d14526083db96a74e812ea6d7",
+      "bytes": 2089
     },
     {
       "path": "主題/g14_民主制度與國安公共議題/t063_公民如何在選舉之外持續監督政治代表？.md",
-      "sha256": "88945785952109aff8c03902b1344b97ff5732573adfd4daf4837592a3ed67ca",
+      "sha256": "becde2a44c576761a116ed99ea657ee98170fa8aa80cff0f95d8c1c6365032ee",
       "bytes": 2017
     },
     {
       "path": "主題/g14_民主制度與國安公共議題/t082_資訊作戰如何影響公共安全與社會信任？.md",
-      "sha256": "35cdc57669dcfc08f8bb7d74f31b6aef384265960a5b09169b7b5a09a133a745",
+      "sha256": "f904ffd6b5e90f6c704efb85cb864805b4d8202e01d78cdaf21ef8d96a8fd555",
       "bytes": 1863
     },
     {
       "path": "主題/g15_城市產業與創新/t060_AI 專家如何協助傳統產業把工具接進工作流程？.md",
-      "sha256": "05f417ca67fb68f67ff5490825ac4c36affd595f4d4f9ad53fba42b830e2fcf6",
+      "sha256": "57eb5b5b812b01d9a4387a4ff2b83f434df96686f5ddcbb8260cfa2e8bc002a3",
       "bytes": 2030
     },
     {
       "path": "README.md",
-      "sha256": "4c4db9bad7c3e7879d0450296e29843e2352793d3b9d1be06e78e7ac47709140",
-      "bytes": 33091
+      "sha256": "777a193cfe4fcae8ffe28412004f22344f42c0c7ea9f7b3f6b3029cc1babe935",
+      "bytes": 33007
     },
     {
       "path": "政策與訪談_完整整理.md",
-      "sha256": "b0df6cddda1c64b21f68c5fa0676dd2a537d0abd7a91194965a870cc8cb735a6",
-      "bytes": 181745
+      "sha256": "4ad2321a127c5978ff3e1f5377686335babc2eda2ca3ad7050d7e5ffb454f428",
+      "bytes": 181809
     },
     {
       "path": "來源索引.md",
-      "sha256": "a909d1c51b62100215bc1b250ad9f0b6b7fd79ed91f548ac8d72bb549a0809d2",
-      "bytes": 112496
+      "sha256": "f9aca9dae760db8c57cb80ac8f793b62026d45853f40b5b277962d9901df514c",
+      "bytes": 112370
     },
     {
       "path": "摘要與字數說明.md",
-      "sha256": "3ff1c85fdc16cf005c0009a3e4e1aeef1f7a88dcff60b28f1255e295c5f16652",
-      "bytes": 32048
+      "sha256": "51a7b8d52bfdcd8c8860b218c264b58a5f83b5a9537d7d754895ccdc5bf885fa",
+      "bytes": 31964
     },
     {
       "path": "版本與校讀說明.md",
-      "sha256": "2160b95f3d91fa79cbad27271e8484934b3e133bb80359311b04b416ba179e40",
+      "sha256": "981b9f3ba6c84287e86eaa83fe2544f86849895bae763fe811d1d38edf18b641",
       "bytes": 2303
     }
   ],

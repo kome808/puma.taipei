@@ -2,10 +2,10 @@
   "status": "passed",
   "topics_checked": 86,
   "errors": [],
-  "min": 254,
+  "min": 223,
   "max": 471,
-  "mean": 390,
-  "at_least_400": 38,
+  "mean": 388,
+  "at_least_400": 37,
   "rows": [
     {
       "id": "t001",
@@ -293,8 +293,8 @@
       "id": "t014",
       "group": "育兒與家庭支持",
       "title": "產後家長如何取得情緒支持與到宅育兒指導？",
-      "utf16": 356,
-      "body_chars": 316,
+      "utf16": 331,
+      "body_chars": 291,
       "official": true,
       "interview": false,
       "urls": [
@@ -364,8 +364,8 @@
       "id": "t018",
       "group": "高齡、身障與心理健康",
       "title": "一般市民如何取得公費心理諮商與家庭心理支持？",
-      "utf16": 430,
-      "body_chars": 328,
+      "utf16": 398,
+      "body_chars": 296,
       "official": true,
       "interview": true,
       "urls": [
@@ -376,7 +376,7 @@
       "has_official_topic": true,
       "has_interview_topic": true,
       "scope": "municipal_policy",
-      "below_target_reason": ""
+      "below_target_reason": "刪除無原文依據的提醒句後略低於400，不為湊字另補內容。"
     },
     {
       "id": "t019",
@@ -572,9 +572,9 @@
     {
       "id": "t026",
       "group": "AI與市府治理",
-      "title": "AI如何減少公務流程負擔並保留專業判斷？",
-      "utf16": 441,
-      "body_chars": 331,
+      "title": "AI如何減少公務流程負擔？",
+      "utf16": 409,
+      "body_chars": 299,
       "official": true,
       "interview": true,
       "urls": [
@@ -626,8 +626,8 @@
       "id": "t057",
       "group": "AI與市府治理",
       "title": "大學如何以 USR 計畫研究市政痛點？",
-      "utf16": 267,
-      "body_chars": 228,
+      "utf16": 223,
+      "body_chars": 184,
       "official": true,
       "interview": false,
       "urls": [
@@ -696,8 +696,8 @@
       "id": "t029",
       "group": "運動與休閒",
       "title": "運動驛站如何解決戶外運動者的寄物與盥洗需求？",
-      "utf16": 379,
-      "body_chars": 286,
+      "utf16": 371,
+      "body_chars": 278,
       "official": true,
       "interview": true,
       "urls": [
@@ -1037,8 +1037,8 @@
       "id": "t039",
       "group": "交通與街道",
       "title": "共享電動機車如何接上 TPASS 並離開路邊車格？",
-      "utf16": 452,
-      "body_chars": 346,
+      "utf16": 441,
+      "body_chars": 335,
       "official": true,
       "interview": false,
       "urls": [
@@ -1143,8 +1143,8 @@
       "id": "t043",
       "group": "城市生活與治理",
       "title": "市民提問、陳情與黑客松如何進入政策討論？",
-      "utf16": 364,
-      "body_chars": 217,
+      "utf16": 345,
+      "body_chars": 198,
       "official": false,
       "interview": true,
       "urls": [
@@ -1353,8 +1353,8 @@
       "id": "t058",
       "group": "公共安全與權益",
       "title": "網路霸凌報案如何減少被害人二度傷害？",
-      "utf16": 294,
-      "body_chars": 223,
+      "utf16": 276,
+      "body_chars": 205,
       "official": false,
       "interview": true,
       "urls": [
@@ -1441,8 +1441,8 @@
       "id": "t051",
       "group": "民主制度與國安公共議題",
       "title": "國防採購如何涵蓋後勤、訓練與維修？",
-      "utf16": 349,
-      "body_chars": 285,
+      "utf16": 332,
+      "body_chars": 268,
       "official": false,
       "interview": true,
       "urls": [
@@ -1458,18 +1458,18 @@
       "id": "t061",
       "group": "民主制度與國安公共議題",
       "title": "身心靈服務的消費資訊與市場規範如何改善？",
-      "utf16": 347,
-      "body_chars": 271,
+      "utf16": 391,
+      "body_chars": 315,
       "official": false,
       "interview": true,
       "urls": [
         "https://puma-hub.pages.dev/articles/iszn-dageng-2026-10-19/transcript/"
       ],
-      "supports": 4,
+      "supports": 12,
       "has_official_topic": false,
       "has_interview_topic": true,
       "scope": "public_issue",
-      "below_target_reason": "屬公共議題，僅有單一對談來源，無官方政策頁；消費資訊規範與專業認證對談未展開，不補造。"
+      "below_target_reason": "屬公共議題，僅有單一對談來源，無官方政策頁；對談中與本題相關的消費者保障、第三方認證與AI教練回答已寫入，不補造。"
     },
     {
       "id": "t063",
@@ -1492,8 +1492,8 @@
       "id": "t082",
       "group": "民主制度與國安公共議題",
       "title": "資訊作戰如何影響公共安全與社會信任？",
-      "utf16": 399,
-      "body_chars": 335,
+      "utf16": 384,
+      "body_chars": 320,
       "official": false,
       "interview": true,
       "urls": [

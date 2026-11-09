@@ -4,7 +4,7 @@ title: "共享電動機車如何接上 TPASS 並離開路邊車格？"
 group_id: "g10"
 scope: "municipal_policy"
 source_snapshot_date: "2026-11-07"
-prepared_date: "2026-11-07"
+prepared_date: "2026-11-09"
 document_type: "internal_research"
 publication_status: "not_published"
 research_body_characters: 304
@@ -15,7 +15,7 @@ research_body_characters: 304
 分類：交通與街道  
 範圍：市政政策構想  
 來源快照日期：2026-11-07  
-整理日期：2026-11-07  
+整理日期：2026-11-09  
 研究正文：304字元（不含標題、來源連結及校讀備註）
 
 對應問題：最後一哩需要共享機車時，如何安排票證優惠、停車與安全考核？
