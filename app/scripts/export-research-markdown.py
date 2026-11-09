@@ -19,8 +19,12 @@ SNAPSHOT = ROOT / '00_來源資料/2026-11-06_更新版01'
 PACKS = {
     'main': SNAPSHOT / '檢查/全文閱讀工作包',
     'official-pdf': SNAPSHOT / '補充文字/全文閱讀工作包',
+    'source-update-20261109': ROOT / '00_來源資料/2026-11-09_更新檢查/檢查/新增內容閱讀工作包',
 }
-OUT = CONTENT / 'markdown/2026-11-07_研究整理'
+TEXT_SNAPSHOTS = {
+    'main': SNAPSHOT,
+    'source-update-20261109': ROOT / '00_來源資料/2026-11-09_更新檢查',
+}
 SCOPE = {'municipal_policy': '市政政策構想', 'public_issue': '公共議題觀點'}
 KIND = {
     'policy_detail': '官方政策詳細頁', 'policy_axis': '官方政策主軸',
@@ -67,6 +71,7 @@ def main():
     source_path = CONTENT / 'expanded-topics.json'
     original_json = source_path.read_bytes()
     data = json.loads(original_json)
+    OUT = CONTENT / 'markdown' / f'{data["source_snapshot_date"]}_研究整理'
     topics = data['topics']
     groups = data['groups']
     now = datetime.now(ZoneInfo('Asia/Taipei')).isoformat(timespec='seconds')
@@ -92,15 +97,15 @@ def main():
             pack_units[unit['unit_id']] = unit
         for doc in json.loads((directory / 'documents.json').read_text()):
             target = OUT / '來源文字' / pack / f'{doc["doc_id"]}.md'
-            if pack == 'main':
-                original = SNAPSHOT / doc['text_path']
+            if pack in TEXT_SNAPSHOTS:
+                original = TEXT_SNAPSHOTS[pack] / doc['text_path']
                 payload = original.read_bytes()
                 text = payload.decode('utf-8')
                 checks.append({'source_path': str(original.relative_to(ROOT)), 'sha256': sha(payload), 'copy_path': str(target.relative_to(OUT)), 'exact_copy': True})
             else:
                 ordered = [pack_units[uid] for uid in doc['units']]
                 content = '\n\n'.join(unit['text'] for unit in ordered)
-                text = f'# {doc["title"]}\n\n來源：{remote_link(doc["title"], doc["url"])}\n\n來源快照：{data["source_snapshot_date"]}\n\n以下為已保存PDF的文字層抽取結果；頁碼標記沿用抽取資料，圖面內容請回看原PDF。\n\n---\n\n{content}\n'
+                text = f'# {doc["title"]}\n\n來源：{remote_link(doc["title"], doc["url"])}\n\nPDF文字層原始快照：2026-11-07；本資料包版本：{data["source_snapshot_date"]}\n\n以下為已保存PDF的文字層抽取結果；頁碼標記沿用抽取資料，圖面內容請回看原PDF。\n\n---\n\n{content}\n'
             write(target, text)
             documents[(pack, doc['doc_id'])] = {**doc, 'pack_id': pack, 'file': target}
             by_url[doc['url']].append(documents[(pack, doc['doc_id'])])
@@ -187,9 +192,9 @@ def main():
              '本資料包依既有下載文字與已校讀的主題內容彙整，供研究、查核與後續人工編輯。原始快照、網站程式及既有檢索文件維持原狀。', '',
              '共15類、86題，其中81題為市政政策構想、5題為公共議題觀點。每題分列官方做法、訪談補充、來源差異及原文連結；沒有某類引用時，僅說明本題整理範圍，不推論來源從未談過。', '',
              f'來源組成：官方與訪談都有{coverage["both"]}題、只引用官方{coverage["official_only"]}題、只引用訪談{coverage["interview_only"]}題。', '',
-             f'另附{len(documents)}份來源文字：218份既有Markdown原樣保存、5份官方PDF文字層轉為Markdown。同一場訪談的文章、逐字稿與附件仍各自保留，不代表有{len(documents)}場獨立訪談。', '',
+             f'另附{len(documents)}份來源文字：{len(checks)}份來源Markdown原樣保存、{len(documents) - len(checks)}份官方PDF文字層轉為Markdown。同一場訪談的文章、逐字稿與附件仍各自保留，不代表有{len(documents)}場獨立訪談。', '',
              '本包涵蓋已建立閱讀工作包的文字資料；圖片、影音及未取得可讀文字的附件保留在原始下載快照，不列入這批Markdown。', '',
-             '這批研究文件不匯出社群分享稿，不執行模型API、網站部署或搜尋索引更新。後續發布方式另行處理。', '',
+             '本匯出工具不匯出社群分享稿，不執行模型API、網站部署或搜尋索引更新。網站發布狀態另見專案發布紀錄。', '',
              '## 閱讀入口', '',
              '- ' + local_link('86題完整合訂本', OUT / '政策與訪談_完整整理.md', index),
              '- ' + local_link('來源索引與保存文字', OUT / '來源索引.md', index),
@@ -216,7 +221,7 @@ def main():
     write(combined, '\n'.join(lines))
 
     source_index = OUT / '來源索引.md'
-    lines = ['# 來源索引', '', '先列本次主題引用的原文，再列全部保存文字。來源網站、資料類型與原始擷取時間沿用下載記錄；未重新抓取網站。', '',
+    lines = ['# 來源索引', '', '先列本次主題引用的原文，再列全部保存文字。來源網站、資料類型與原始擷取時間沿用各次下載記錄；本匯出工具不重新抓取網站。', '',
              '## 本次主題引用的原文', '', '| 來源 | 類型 | 對應主題 |', '| --- | --- | --- |']
     sources = {s['url']: s for t in topics for s in t['sources']}
     for url, source in sorted(sources.items(), key=lambda item: (item[1]['type'] != 'official', item[1]['title'])):
@@ -226,7 +231,7 @@ def main():
     lines += ['', '## 全部保存文字', '', '以下保留同源不同版本，供回查；不把逐字稿、整理文及附件合併成同一份原文。', '',
               '| 編號 | 保存文字 | 來源網站 | 類型 | 原始擷取時間（UTC） |', '| --- | --- | --- | --- | --- |']
     for (pack, doc_id), doc in documents.items():
-        lines.append(f'| {pack}/{doc_id} | {local_link(doc["title"], doc["file"], source_index)} | {remote_link("原文", doc["url"])} | {clean_label(KIND.get(doc["kind"], doc["kind"]))} | {doc.get("retrieved_at") or "未逐檔記錄，沿用來源快照"} |')
+        lines.append(f'| {pack}/{doc_id} | {local_link(doc["title"], doc["file"], source_index)} | {remote_link("原文", doc["url"])} | {clean_label(KIND.get(doc["kind"], doc["kind"]))} | {doc.get("retrieved_at") or "未逐檔記錄；文字層來自2026-11-07快照"} |')
     write(source_index, '\n'.join(lines) + '\n')
 
     length_page = OUT / '摘要與字數說明.md'
@@ -251,12 +256,12 @@ def main():
 
     notes = OUT / '版本與校讀說明.md'
     lines = ['# 版本與校讀說明', '', f'- 文件整理時間：{now}', f'- 來源快照日期：{data["source_snapshot_date"]}',
-             '- 原下載資料夾：`00_來源資料/2026-11-06_更新版01/`。資料夾名與實際台灣擷取日期不同，勿將檔名當成另一批新來源。',
+             '- 原下載資料夾：`00_來源資料/2026-11-06_更新版01/`（實際2026-11-07擷取）；增量來源與比對：`00_來源資料/2026-11-09_更新檢查/`。未變內容沿用既有已讀證據，新住宅政策另存閱讀單位。',
              '- 主題內容依既有 `expanded-topics.json` 的主題說明、官方、訪談及差異欄位匯出，未把社群分享稿轉作研究正文。',
-             '- 本包為內部研究整理，未發布、未更新線上RAG，也未停用或修改既有公開網站/API。後續網站發布須另行確認內容及用途。', '',
+             '- 本包為內部研究文件；匯出工具本身不發布網站或更新線上RAG。網站是否發布，請查看專案當次發布紀錄。', '',
              '## 證據與限制', '',
              '- 每段保留實際引用的來源連結與保存文字入口。官方政策／附件先列，訪談／活動後列。',
-             '- 原文摘錄已以既有證據資料比對保存文字單位；本次僅轉換文件格式，未重新逐句聽校影音。',
+             '- 原文摘錄已比對各次保存文字單位；新增或修改內容的全文閱讀與覆核另見當次檢查報告。未重新逐句聽校影音。',
              '- 訪談稿可能混合逐字對話與整理紀要，原來源的警語及未核對標示留在保存文字。',
              '- 官方PDF另存文字層；文字抽取不等於完整保存全部圖面資訊，請配合原PDF查閱。',
              '- 內容是來源中的主張與政策構想，不代表服務已實施、數字已獨立核實或效果已獲驗證。',
@@ -264,8 +269,9 @@ def main():
              '- 網站、模型或資料庫狀態未在本次做遠端驗證，不以本地文件驗證代替線上驗收。', '',
              '## 文件結構', '',
              '- `README.md`：15類、86題索引。', '- `政策與訪談_完整整理.md`：同一批86題的完整合訂本。',
-             '- `主題/`：每題一份Markdown，附內部校讀備註。', '- `來源索引.md`：本次引用原文與223份保存文字入口。',
+             '- `主題/`：每題一份Markdown，附內部校讀備註。', f'- `來源索引.md`：本次引用原文與{len(documents)}份保存文字入口。',
              '- `來源文字/main/`：218份既有Markdown逐位元組複製。', '- `來源文字/official-pdf/`：5份官方PDF文字層Markdown。',
+             '- `來源文字/source-update-20261109/`：2026-11-09檢查新增的住宅政策原文。',
              '- `摘要與字數說明.md`：分開計算研究正文、既有短摘要正文及含來源的字元數。',
              '- `manifest.json`：輸入及輸出檔案雜湊，供版本比對。', '- `validation.json`：題數、證據摘錄及本包導覽連結檢查。', '',
              '## 重建', '', '在專案根目錄執行：', '', '```sh', 'python3 app/scripts/export-research-markdown.py', '```', '',

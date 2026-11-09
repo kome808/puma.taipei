@@ -74,6 +74,7 @@ const topics = source.topics.map((topic) => {
     title: topic.title,
     question: topic.question,
     scope: topic.scope,
+    content_updated: topic.content_updated ?? source.generated_at.slice(0, 10),
     intro: topic.intro,
     keywords: topic.keywords,
     ...content,

@@ -4,13 +4,47 @@ import { tmpdir } from 'node:os';
 import { resolve } from 'node:path';
 import test from 'node:test';
 import { fileURLToPath } from 'node:url';
-import { buildTopicPages, renderSummaryHtml, renderTopicPage, topicPath } from '../scripts/build-topic-pages.mjs';
+import { buildTopicPages, renderLibraryPage, renderSummaryHtml, renderTopicPage, topicPath } from '../scripts/build-topic-pages.mjs';
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const data = JSON.parse(await readFile(resolve(root, 'public/topics/data.json'), 'utf8'));
 const decodeHtml = (value: string) => value
   .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
   .replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+
+test('all topic footers match the homepage while keeping each topic content date',async()=>{
+  const template=await readFile(resolve(root,'public/topics/index.html'),'utf8');
+  const footer=(html:string)=>html.match(/<footer\b[\s\S]*?<\/footer>/)![0];
+  const normalize=(html:string)=>html.replace(/data-content-version="[^"]*"/,'data-content-version="DATE"').replace(/(<span class="content-date">)[^<]*(<\/span>)/,'$1DATE$2');
+  const home=footer(renderLibraryPage(template,data));
+  assert.ok(home.includes('本站以 AI 輔助整理政策重點，'));
+  for(const topic of data.topics){
+    const actual=footer(renderTopicPage(topic,data));
+    assert.equal(normalize(actual),normalize(home),`${topic.id} has a different footer`);
+    const date=topic.content_updated||data.content_updated||data.source_snapshot_date;
+    assert.ok(actual.includes(`data-content-version="${date}"`));
+    assert.ok(actual.includes(`<span class="content-date">${date.replaceAll('-','.')}</span>`));
+    assert.equal((actual.match(/id="site-report-form"/g)||[]).length,1);
+  }
+});
+
+test('t005 uses its policy text card while every other topic uses the current three-step social preview',()=>{
+  const topic=data.topics.find((t:{id:string})=>t.id==='t005');
+  const html=renderTopicPage(topic,data);
+  const image='https://puma-note.pages.dev/social/t005-housing-20261109-v4.png';
+  assert.ok(html.includes(`<meta property="og:image" content="${image}">`));
+  assert.ok(html.includes(`<meta name="twitter:image" content="${image}">`));
+  assert.match(html,/<meta property="og:image:width" content="1200">/);
+  assert.match(html,/<meta property="og:image:height" content="630">/);
+  for (const otherTopic of data.topics.filter((t:{id:string})=>t.id!=='t005')) {
+    const other=renderTopicPage(otherTopic,data);
+    const fallback='https://puma-note.pages.dev/og-image-steps-20261109.png';
+    assert.ok(other.includes(`<meta property="og:image" content="${fallback}">`),otherTopic.id);
+    assert.ok(other.includes(`<meta name="twitter:image" content="${fallback}">`),otherTopic.id);
+    assert.ok(!other.includes('og-image-ocean-20261108.png'),otherTopic.id);
+    assert.ok(!other.includes(image),otherTopic.id);
+  }
+});
 
 test('build emits 86 standalone, readable topic pages with stable canonical metadata', async () => {
   const output = await mkdtemp(resolve(tmpdir(), 'topic-pages-test-'));
@@ -29,7 +63,7 @@ test('build emits 86 standalone, readable topic pages with stable canonical meta
       assert.match(html, /<h1 id="detail-title">[^<]+<\/h1>/);
       assert.match(html, new RegExp(`<main id="topic-page" class="wrap topic-page" data-topic-id="${topic.id}"`));
       assert.ok(html.includes(`data-source-snapshot-date="${data.source_snapshot_date}"`));
-      assert.ok(html.includes(`data-content-updated="${data.content_updated}"`));
+      assert.ok(html.includes(`data-content-updated="${topic.content_updated || data.content_updated}"`));
       assert.ok(html.includes(`<link rel="canonical" href="${canonical}">`));
       assert.ok(html.includes(`<meta property="og:url" content="${canonical}">`));
       assert.ok(html.includes(`<meta property="og:title" content="${topic.title}｜Puma政策筆記">`));

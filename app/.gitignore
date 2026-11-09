@@ -9,3 +9,5 @@ artifacts/
 output/
 
 reports/
+
+worker/generated-admin-assets.ts

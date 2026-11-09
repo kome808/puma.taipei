@@ -25,15 +25,15 @@ export function parseSemanticSearchResponse(payload) {
   return payload;
 }
 
-export async function requestSemanticSearch(query, corpusVersion, { fetchImpl = fetch, signal, timeoutMs = 20_000 } = {}) {
-  return requestSearch('/api/semantic-search', query, corpusVersion, 'semantic-topic-search', { fetchImpl, signal, timeoutMs });
+export async function requestSemanticSearch(query, corpusVersion, { fetchImpl = fetch, signal, timeoutMs = 20_000, queryOrigin } = {}) {
+  return requestSearch('/api/semantic-search', query, corpusVersion, 'semantic-topic-search', { fetchImpl, signal, timeoutMs, queryOrigin });
 }
 
-export async function requestBasicSearch(query, corpusVersion, { fetchImpl = fetch, signal, timeoutMs = 20_000 } = {}) {
-  return requestSearch('/api/topic-search', query, corpusVersion, 'fulltext-topic-search', { fetchImpl, signal, timeoutMs });
+export async function requestBasicSearch(query, corpusVersion, { fetchImpl = fetch, signal, timeoutMs = 20_000, queryOrigin } = {}) {
+  return requestSearch('/api/topic-search', query, corpusVersion, 'fulltext-topic-search', { fetchImpl, signal, timeoutMs, queryOrigin });
 }
 
-async function requestSearch(endpoint, query, corpusVersion, expectedMode, { fetchImpl, signal, timeoutMs }) {
+async function requestSearch(endpoint, query, corpusVersion, expectedMode, { fetchImpl, signal, timeoutMs, queryOrigin }) {
   const controller = new AbortController();
   const abortFromCaller = () => controller.abort(signal?.reason);
   if (signal?.aborted) abortFromCaller();
@@ -42,7 +42,7 @@ async function requestSearch(endpoint, query, corpusVersion, expectedMode, { fet
   try {
     const response = await fetchImpl(endpoint, {
       method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ query, corpusVersion }), signal: controller.signal,
+      body: JSON.stringify({ query, corpusVersion, ...(queryOrigin === 'popular' || queryOrigin === 'typed' ? { queryOrigin } : {}) }), signal: controller.signal,
     });
     let payload;
     try { payload = await response.json(); } catch { payload = null; }

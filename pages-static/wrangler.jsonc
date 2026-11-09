@@ -4,10 +4,30 @@
   "pages_build_output_dir": "../app/static-dist",
   "compatibility_date": "2026-11-06",
   "services": [],
-  "d1_databases": [{
-    "binding": "DB",
-    "database_name": "puma-policy-v1",
-    "database_id": "be2e70a9-032c-474d-9550-8e6b98cb5cd8"
-  }],
-  "vars": { "ENVIRONMENT": "production", "SEMANTIC_SEARCH_ENABLED": "false", "SEMANTIC_QUOTA_RESET_DAY": "1" }
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "puma-policy-v1",
+      "database_id": "be2e70a9-032c-474d-9550-8e6b98cb5cd8"
+    },
+    {
+      "binding": "ANALYTICS_DB",
+      "database_name": "puma-note-analytics",
+      "database_id": "b2b9d4d9-bb10-43a0-a6c0-3f6e2f07c4e2"
+    }
+  ],
+  "vars": {
+    "ENVIRONMENT": "production",
+    "SEMANTIC_SEARCH_ENABLED": "false",
+    "SEMANTIC_QUOTA_RESET_DAY": "1",
+    "REPORTS_ENABLED": "true",
+    "REPORTS_TURNSTILE_SITE_KEY": "0x4AAAAAAF3snzBxa5da9dTH",
+    "ANALYTICS_ENABLED": "true",
+    "ANALYTICS_HOST": "puma-note.pages.dev",
+    "ANALYTICS_ACCESS_TEAM_DOMAIN": "rough-cherry-9af6.cloudflareaccess.com",
+    "ANALYTICS_ACCESS_AUD": "2aee4e1854e674737c86aabba7af3cf613b5a4b0c26b19a42984b783d8d54b46",
+    "ANALYTICS_ADMIN_EMAIL": "kome808@gmail.com",
+    "WEB_ANALYTICS_SITE_TAG": "7f70fd20cd6843ac8478611734a1569d",
+    "WEB_ANALYTICS_SITE_TOKEN": "e7ebed084a11476b8c8bdadb94c4bcce"
+  }
 }

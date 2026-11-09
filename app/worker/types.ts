@@ -20,6 +20,14 @@ export interface SearchChunk {
 
 export interface Env {
   DB: Database;
+  ANALYTICS_DB?: Database;
+  ANALYTICS_ENABLED?: string;
+  ANALYTICS_HOST?: string;
+  ANALYTICS_ACCESS_TEAM_DOMAIN?: string;
+  ANALYTICS_ACCESS_AUD?: string;
+  ANALYTICS_ADMIN_EMAIL?: string;
+  WEB_ANALYTICS_SITE_TAG?: string;
+  WEB_ANALYTICS_SITE_TOKEN?: string;
   ASSETS: { fetch(request: Request): Promise<Response> };
   SOURCES?: R2Bucket;
   AI_SEARCH?: {
@@ -40,6 +48,10 @@ export interface Env {
   RATE_LIMIT_SALT?: string;
   REPORTS_READ_TOKEN?: string;
   REPORTS_WRITE_TOKEN?: string;
+  REPORTS_ENABLED?: string;
+  REPORTS_TURNSTILE_SITE_KEY?: string;
+  REPORTS_TURNSTILE_SECRET_KEY?: string;
+  REPORTS_RATE_LIMIT_SALT?: string;
 }
 
 export interface SearchProvider {

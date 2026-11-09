@@ -11,19 +11,23 @@
   <meta property="og:description" content="15類生活議題、86個主題，每題都附短摘要與原始來源。民間獨立整理，非官方網站。">
   <meta property="og:locale" content="zh_TW">
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:url" content="https://puma-note.pages.dev/topics/">
-  <meta property="og:image" content="https://puma-note.pages.dev/og-image.png">
+  <meta property="og:url" content="https://puma-note.pages.dev/">
+  <link rel="canonical" href="https://puma-note.pages.dev/">
+  <!-- policy-structured-data -->
+  <meta property="og:image" content="https://puma-note.pages.dev/og-image-steps-20261109.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Puma政策筆記：15類議題、86個主題，民間獨立整理的政策與訪談筆記">
-  <meta name="twitter:image" content="https://puma-note.pages.dev/og-image.png">
+  <meta property="og:image:alt" content="Puma政策筆記：政策分享，3 步驟就上手，找到主題、一鍵複製、分享到社群平台">
+  <meta name="twitter:image" content="https://puma-note.pages.dev/og-image-steps-20261109.png">
+  <meta name="twitter:image:alt" content="Puma政策筆記：政策分享，3 步驟就上手，找到主題、一鍵複製、分享到社群平台">
   <meta name="twitter:title" content="政策主題館｜Puma政策筆記">
   <meta name="twitter:description" content="15類生活議題、86個主題，每題都附短摘要與原始來源。民間獨立整理，非官方網站。">
   <title>政策主題館｜Puma政策筆記</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/topics/topics.css">
   <script type="module" src="/topics/topics.js"></script>
+  <script type="module" src="/topics/site-report.mjs"></script>
 </head>
 <body>
   <a class="skip" href="#topic-sections">跳到主題清單</a>
@@ -32,34 +36,63 @@
     <nav aria-label="主要導覽"><a class="nav-active" href="/topics/" aria-current="page">政策主題館</a><a href="#browse">依問題查資料 <span aria-hidden="true">↓</span></a></nav>
   </header>
   <main class="wrap">
-    <section class="hero" aria-labelledby="page-title">
+    <section class="hero hero--howto" aria-labelledby="page-title">
       <div class="hero-copy">
-        <h1 id="page-title">分享洋流小物，<br><span class="marker">更要分享洋流政策</span></h1>
-        <p class="hero-description">沈伯洋講政策，小水滴們用力分享政策</p>
-        <p class="hero-note">民間獨立整理，供理解、核對與研究，並非官方網站。</p>
-        <div class="hero-facts"><span><b id="group-count">15</b> 類議題</span><i aria-hidden="true"></i><span><b id="topic-count">86</b> 個主題</span><i aria-hidden="true"></i><span><b id="source-count">—</b> 題含官方政策</span></div>
+        <h1 id="page-title">分享洋流小物，<br><span class="marker">更要分享洋流政策。</span></h1>
+        <p class="hero-description">整理沈伯洋的官網政策與節目專訪，讓小水滴輕鬆找到、一鍵複製、分享出去。</p>
       </div>
-      <div class="hero-picture" aria-hidden="true"><span class="paper-note">先挑一件關心的事<svg viewBox="0 0 100 40"><path d="M8 9c18 26 54 28 78 7m-9-6 12 4-5 13"/></svg></span><img src="/topics/konnyaku.svg" alt="" width="520" height="330"><span class="tiny-star star-one">✦</span><span class="tiny-star star-two">✧</span></div>
+      <figure class="hero-guide" aria-labelledby="hero-guide-title">
+        <figcaption id="hero-guide-title" class="hero-guide-title">政策分享，3 步驟就上手</figcaption>
+        <img class="hero-guide-art" src="/topics/policy-sharing-steps-20261109.webp" alt="" width="1536" height="640" decoding="async" fetchpriority="high">
+        <ol class="hero-guide-steps">
+          <li><span class="hero-step-number" aria-hidden="true">1</span><strong>找到主題</strong><span class="hero-step-note">挑選你關心的議題</span></li>
+          <li><span class="hero-step-number" aria-hidden="true">2</span><strong>一鍵複製</strong><span class="hero-step-note">摘要與來源一起帶走</span></li>
+          <li><span class="hero-step-number" aria-hidden="true">3</span><strong>分享到社群平台</strong><span class="hero-step-note">貼到社群貼文或群組</span></li>
+        </ol>
+      </figure>
     </section>
 
     <section class="browse-section" id="browse" aria-labelledby="browse-heading">
       <div class="section-heading"><div><p class="eyebrow">查詢與分類</p><h2 id="browse-heading">從你在意的事開始找。</h2></div><div class="snapshot-stamp"><span class="stamp-dot" aria-hidden="true"></span><span>來源擷取 <b class="snapshot-date">2026.11.07</b></span></div></div>
       <div class="browse-stack" id="browse-stack">
-        <form class="search-form" role="search" id="search-form"><div class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="topic-query" type="search" aria-label="輸入問題或關鍵字搜尋政策主題" aria-describedby="search-help" placeholder="輸入問題或關鍵字：都更、育兒、肌力…" autocomplete="off" maxlength="150"><button type="submit" class="search-go">搜尋 <span aria-hidden="true">↘</span></button></div><div class="search-options" role="group" aria-label="搜尋方式"><label><input type="radio" name="search-mode" value="basic" checked><span>基本搜尋（關鍵字）</span></label><label><input type="radio" name="search-mode" value="semantic" disabled><span>語意搜尋（找相近意思）</span></label></div><button class="all-button active" id="all-topics" type="button">全部主題 <span id="all-count">86</span></button></form>
-        <p class="search-help" id="search-help">搜尋只在按下按鈕後送出。結果使用既有主題與固定摘要，不會生成答案或代為發文。</p>
+        <form class="search-form" role="search" id="search-form"><div class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="topic-query" type="search" aria-label="輸入問題或關鍵字搜尋政策主題" placeholder="輸入問題或關鍵字：都更、育兒、肌力…" autocomplete="off" maxlength="150"><button type="submit" class="search-go">搜尋 <span aria-hidden="true">↘</span></button></div><div class="search-options" role="group" aria-label="搜尋方式"><label><input type="radio" name="search-mode" value="basic" checked><span>基本搜尋（關鍵字）</span></label><label><input type="radio" name="search-mode" value="semantic" disabled><span>語意搜尋（找相近意思）</span></label></div><button class="all-button active" id="all-topics" type="button">全部主題 <span id="all-count">86</span></button></form>
+        <p class="analytics-search-notice" id="analytics-search-notice" hidden>送出查詢後，會記錄查詢內容與結果，用於改善搜尋；請勿輸入個人資料。</p>
         <p class="semantic-mode-status" id="semantic-mode-status" role="status" aria-live="polite">語意搜尋尚未啟用，基本搜尋可照常使用。</p>
         <p class="semantic-status" id="semantic-status" role="status" aria-live="polite" hidden></p>
         <div class="filter-status" id="filter-status" role="status" aria-live="polite"><p id="result-count" class="result-count">正在整理主題…</p><button type="button" id="clear-filters" class="clear-filters" hidden>清除篩選</button></div>
         <nav id="categories" class="category-grid" aria-label="15類政策主題分類" aria-busy="true"></nav>
         <div id="load-error" class="load-error" hidden><p>主題資料這次沒有載入，請重新載入。</p><button type="button" id="retry-load">再載入一次</button></div>
-        <div id="topic-sections" class="topic-sections" tabindex="-1"></div>
+        <div class="topic-layout has-sidebar" id="topic-layout">
+          <div id="topic-sections" class="topic-sections" tabindex="-1"></div>
+          <aside id="popular-sidebar" class="popular-sidebar" aria-label="熱門查詢與主題">
+            <section class="popular-panel" aria-labelledby="popular-queries-heading"><h3 id="popular-queries-heading">大家在找</h3><ol id="popular-queries" class="popular-list"><li class="popular-empty">正在讀取使用資料…</li></ol></section>
+            <section class="popular-panel" aria-labelledby="popular-topics-heading"><h3 id="popular-topics-heading">熱門主題</h3><ol id="popular-topics" class="popular-list"><li class="popular-empty">正在讀取使用資料…</li></ol></section>
+          </aside>
+        </div>
         <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">⌕</span><h3>沒有符合的主題。</h3><p>換個說法試試，例如「都更」「托育」「樹木」，或清除條件看全部主題。</p><button id="clear-search" class="secondary-button" type="button">清除篩選</button></div>
       </div>
     </section>
   </main>
-  <footer class="site-footer wrap">
-    <div><a class="footer-name" href="/">Puma政策筆記</a><p>民間獨立整理的政策與訪談筆記，非官方網站，也不代表任何候選人或團隊發言。訪談稿尚未逐句對照影音。<br>按下搜尋後，基本搜尋會將查詢送至本站全文搜尋服務；語意搜尋會將查詢送至 Cloudflare AI Search。結果只使用既有主題與固定摘要，不會生成答案或替你發文、傳送社群訊息。本功能不使用 OpenAI。<br>發現錯誤？打開該題，按「回報這一題」。</p></div>
+  <footer class="site-footer wrap" data-site-report data-content-version="2026-11-07">
+    <div><a class="footer-name" href="/">Puma政策筆記</a><p>本站以 AI 輔助整理政策重點，<br>完整政策與最新資訊，請以沈伯洋官網為準。</p><p class="footer-thanks"><strong>特別感謝 <a href="https://puma-hub.pages.dev/" target="_blank" rel="noopener noreferrer">PUMA HUB</a></strong><span>提供專訪逐字稿。</span></p></div>
     <div class="footer-sources"><p>資料來源</p><a href="https://puma.taipei/policies" target="_blank" rel="noopener noreferrer">官方政策頁 ↗</a><a href="https://puma-hub.pages.dev/#all" target="_blank" rel="noopener noreferrer">PUMA HUB 訪談／活動整理 ↗</a><small>來源擷取：<span class="snapshot-date">2026.11.07</span>　內容更新：<span class="content-date">2026.11.07</span><br>網站部署日期另計，不代表資料更新日期。</small></div>
+    <div class="footer-feedback" data-site-report-form aria-label="全站網站問題回報">
+      <p class="footer-feedback-title">網站哪裡卡住了？</p>
+      <button type="button" id="site-report-toggle" class="site-report-toggle" aria-expanded="false" aria-controls="site-report-form">回報網站問題</button>
+      <form id="site-report-form" class="site-report-form" hidden novalidate>
+        <label for="site-report-type">問題類型</label>
+        <select id="site-report-type" name="type"><option>搜尋找不到或結果不正確</option><option>版面顯示異常</option><option>按鈕或操作問題</option><option>網站連結打不開</option><option>其他</option></select>
+        <label for="site-report-note">請簡單說明（4–300字，請勿填個人資料）</label>
+        <textarea id="site-report-note" name="note" minlength="4" maxlength="300" rows="4" placeholder="例如：按下搜尋後，結果區沒有更新"></textarea>
+        <input type="text" name="website" id="site-report-website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div id="site-report-turnstile" class="site-report-turnstile"></div>
+        <p id="site-report-turnstile-status" class="copy-status" role="status" aria-live="polite"></p>
+        <div class="site-report-actions"><button type="submit" id="site-report-send" class="report-send" hidden disabled>送出問題回報</button><button type="button" id="site-report-copy" class="report-copy">複製回報內容</button></div>
+        <textarea id="site-report-copy-fallback" class="site-report-copy-fallback" hidden readonly rows="5" aria-label="網站問題回報備援文字"></textarea>
+        <p id="site-report-status" class="copy-status" role="status" aria-live="polite"></p>
+        <p class="site-report-privacy">這是全網站問題回報，內容只供維護者私下核對，保存180天；不記錄姓名、聯絡方式或IP。政策內容有疑問，請在該題內回報。</p>
+      </form>
+    </div>
   </footer>
 
   <dialog id="topic-dialog" class="summary-dialog" aria-labelledby="detail-title">
@@ -70,9 +103,9 @@
         <div id="share-post" class="summary-content" tabindex="0" aria-label="短摘要與來源連結"></div>
         <div class="share-tools"><span id="character-count" class="character-count"></span></div>
         <p id="share-issue" class="share-issue" role="status" aria-live="polite"></p>
-        <button type="button" id="copy-post" class="copy-button"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="7" width="12" height="14" rx="2"/><path d="M16 7V3H4v14h4"/></svg><span>複製摘要與來源</span></button>
+        <button type="button" id="copy-post" class="copy-button"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="7" width="12" height="14" rx="2"/><path d="M16 7V3H4v14h4"/></svg><span>複製標題、摘要與來源</span></button>
         <p id="copy-status" class="copy-status" role="status" aria-live="polite"></p>
-        <div class="report-box" id="report-box"><button type="button" id="open-report" class="report-toggle" aria-expanded="false" aria-controls="report-form">發現錯誤？回報這一題</button><div id="report-form" class="report-form" hidden><label for="report-type">問題類型</label><select id="report-type"><option>數字或金額與原文不符</option><option>來源連結打不開</option><option>與原文意思不符</option><option>官方政策已更新</option><option>其他</option></select><label for="report-note">哪裡有問題（選填，請勿填個人資料）</label><textarea id="report-note" maxlength="300" rows="3" placeholder="例如：第二段的次數與官網不同"></textarea><input type="text" name="website" id="report-website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true"><div id="report-turnstile" class="report-turnstile"></div><div class="report-actions"><button type="button" id="report-send" class="report-send" hidden>匿名送出回報</button><a id="report-mail" class="report-mail" hidden>用郵件寄出</a><button type="button" id="report-copy" class="report-copy">複製回報內容</button></div><p id="report-status" class="copy-status" role="status" aria-live="polite"></p><p class="report-privacy">按「匿名送出回報」會把題號、問題類型與你填的說明存進網站的資料庫（只供維護者核對，不記錄姓名、聯絡方式或IP，保存180天）；請勿填個人資料。「複製回報內容」則完全不傳送任何資料。</p></div></div>
+        <div class="report-box" id="report-box"><button type="button" id="open-report" class="report-toggle" aria-expanded="false" aria-controls="report-form">發現錯誤？回報這一題</button><div id="report-form" class="report-form" hidden><label for="report-type">問題類型</label><select id="report-type"><option>數字或金額與原文不符</option><option>來源連結打不開</option><option>與原文意思不符</option><option>官方政策已更新</option><option>其他</option></select><label for="report-note">哪裡有問題（選填，請勿填個人資料）</label><textarea id="report-note" maxlength="300" rows="3" placeholder="例如：第二段的次數與官網不同"></textarea><input type="text" name="website" id="report-website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true"><div id="report-turnstile" class="report-turnstile"></div><p id="report-turnstile-status" class="copy-status" role="status" aria-live="polite"></p><div class="report-actions"><button type="button" id="report-send" class="report-send" hidden>送出問題回報</button><button type="button" id="report-copy" class="report-copy">複製回報內容</button></div><p id="report-status" class="copy-status" role="status" aria-live="polite"></p><p class="report-privacy">按「送出問題回報」會把題號、問題類型與你填的說明存進網站的資料庫（只供維護者核對，不記錄姓名、聯絡方式或IP，保存180天）；請勿填個人資料。「複製回報內容」則完全不傳送任何資料。</p></div></div>
         <p class="source-date">來源擷取 <span class="snapshot-date">2026.11.07</span>　內容更新 <span class="content-date">2026.11.07</span></p>
       </section>
     </div>

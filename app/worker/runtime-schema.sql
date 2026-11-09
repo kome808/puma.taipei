@@ -21,12 +21,15 @@ CREATE TABLE IF NOT EXISTS reports (
   type TEXT NOT NULL,
   note TEXT NOT NULL,
   content_version TEXT,
+  dedupe_key TEXT,
   status TEXT NOT NULL DEFAULT 'new',
   resolution TEXT,
   updated_at TEXT
 );
 CREATE INDEX IF NOT EXISTS reports_status ON reports(status, created_at);
 CREATE INDEX IF NOT EXISTS reports_topic ON reports(topic_id);
+CREATE UNIQUE INDEX IF NOT EXISTS reports_dedupe_pending ON reports(dedupe_key)
+  WHERE status IN ('new', 'triaged', 'quarantined');
 
 -- Independent of the source corpus and report data; never reset on deployment.
 CREATE TABLE IF NOT EXISTS semantic_search_usage (

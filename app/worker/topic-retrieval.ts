@@ -9,6 +9,8 @@ export const SEMANTIC_MONTHLY_LIMIT = 1000;
 const allowedIds = new Set<string>(manifest.topicIds);
 const UNAVAILABLE = '語意搜尋目前無法提供服務，請改用基本搜尋。';
 const EXHAUSTED = '語意搜尋本月額度已用完，目前無法提供服務。你仍可使用基本搜尋。';
+export type ValidatedSearch = { query: string; corpusVersion: string; queryOrigin: 'typed' | 'popular' };
+type SearchObserver = (input: ValidatedSearch) => void;
 
 export function semanticSearchConfigured(env: Env) {
   return env.SEMANTIC_SEARCH_ENABLED === 'true' && Boolean(env.DB && env.SEMANTIC_SEARCH?.search && env.RATE_LIMIT_SALT && env.RATE_LIMIT_SALT.length >= 24);
@@ -58,7 +60,7 @@ async function readQuery(request: Request, env: Env) {
   if (query.length < 2) throw new AppError('INVALID_INPUT', '請輸入至少兩個字的問題或關鍵字。');
   if (query.length > 150) throw new AppError('INPUT_TOO_LONG', '問題請在150字以內。', 413);
   if (body.corpusVersion !== manifest.corpusVersion) throw new AppError('SEMANTIC_CORPUS_MISMATCH', '主題資料已更新，請重新整理頁面後再試。', 409);
-  return query;
+  return { query, corpusVersion: manifest.corpusVersion, queryOrigin: body.queryOrigin === 'popular' ? 'popular' as const : 'typed' as const };
 }
 
 async function requireCurrentIndex(env: Env, semantic: boolean) {
@@ -72,8 +74,10 @@ async function requireCurrentIndex(env: Env, semantic: boolean) {
   } catch { throw new AppError(code, message, 503); }
 }
 
-export async function fulltextTopicSearch(request: Request, env: Env) {
-  const query = await readQuery(request, env);
+export async function fulltextTopicSearch(request: Request, env: Env, observe?: SearchObserver) {
+  const input = await readQuery(request, env);
+  try { observe?.(input); } catch { /* Observability must not affect retrieval. */ }
+  const { query } = input;
   await requireCurrentIndex(env, false);
   const match = ftsQuery(query);
   if (!match) return { mode: 'fulltext-topic-search', corpusVersion: manifest.corpusVersion, topicIds: [] as string[] };
@@ -125,8 +129,10 @@ export async function reserveSemanticSearch(env: Env, now = new Date()) {
   return { limit: SEMANTIC_MONTHLY_LIMIT, used: row.count, remaining: SEMANTIC_MONTHLY_LIMIT - row.count, resetsAt };
 }
 
-export async function semanticTopicSearch(request: Request, env: Env, now = new Date()) {
-  const query = await readQuery(request, env);
+export async function semanticTopicSearch(request: Request, env: Env, now = new Date(), observe?: SearchObserver) {
+  const input = await readQuery(request, env);
+  try { observe?.(input); } catch { /* Observability must not affect retrieval. */ }
+  const { query } = input;
   if (!semanticSearchConfigured(env)) throw new AppError('SEMANTIC_UNAVAILABLE', UNAVAILABLE, 503);
   await requireCurrentIndex(env, true);
   await reserveClientAttempt(request, env, now);

@@ -1,11 +1,16 @@
 import { CATEGORY_ART } from './categories.js';
-import { REPORT_EMAIL } from './site-config.js';
 import { requestBasicSearch, requestSemanticSearch } from './semantic-search-client.mjs';
+import { startAnalytics } from './analytics-client.mjs';
+import { loadPopular, renderPopularSidebar } from './popular-sidebar.mjs';
+import { loadTurnstileScript } from './turnstile-loader.mjs';
+import { buildSummaryCopy, copyTextFallback } from './summary-copy.mjs';
 
 const $ = (selector) => document.querySelector(selector);
-const state = { data: null, group: '', query: '', topic: null, copyTimer: null, searchMode: 'basic', resultIds: null, searchSubmitted: false, searchBusy: false, searchMessage: '', searchController: null, semanticSearchEnabled: false };
+const state = { data: null, group: '', query: '', queryOrigin: 'browse', topic: null, copyTimer: null, searchMode: 'basic', resultIds: null, searchSubmitted: false, searchBusy: false, searchMessage: '', searchController: null, semanticSearchEnabled: false };
 const dialog = $('#topic-dialog');
 const stack = $('#browse-stack');
+let analytics = { enabled: false, send: () => false };
+let pendingTopicView = null;
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -15,12 +20,21 @@ function element(tag, className, text) {
 }
 
 function dateLabel(date) { return String(date).replaceAll('-', '.'); }
+function sourceTypeForUrl(value) {
+  try {
+    const host = new URL(value).hostname.toLowerCase();
+    if (host === 'puma.taipei' || host.endsWith('.puma.taipei')) return 'official';
+    if (host === 'puma-hub.pages.dev' || host.endsWith('.puma-hub.pages.dev')) return 'interview';
+  } catch { /* ignore invalid or relative URLs */ }
+  return 'other';
+}
 function sourceKinds(topic) {
   return { official: topic.official.length > 0, interview: topic.interview.length > 0 };
 }
 function setAddress(topicId = state.topic?.id, push = false) {
   const url = new URL(location.href);
-  for (const [key, value] of [['group', state.group], ['q', state.query.trim()], ['topic', topicId || '']]) {
+  url.searchParams.delete('q');
+  for (const [key, value] of [['group', state.group], ['topic', topicId || '']]) {
     if (value) url.searchParams.set(key, value); else url.searchParams.delete(key);
   }
   if (push) history.pushState({ pumaTopicId: topicId }, '', url);
@@ -71,6 +85,7 @@ function topicCard(topic) {
   const title = element('h4', 'topic-title', topic.title);
   const open = element('span', 'topic-open'); open.append('看摘要與來源 ', element('b', '', '↗'));
   card.append(sourceBadges(topic), title, element('p', 'topic-intro', topic.intro), open);
+  card.addEventListener('click', () => analytics.send('topic_click', { page: 'library', topicId: topic.id, origin: state.searchSubmitted ? 'search' : 'browse' }));
   return card;
 }
 
@@ -162,7 +177,7 @@ async function submitSearch() {
   state.searchBusy = true; state.searchMessage = '正在搜尋既有主題…'; render();
   try {
     const request = state.searchMode === 'semantic' ? requestSemanticSearch : requestBasicSearch;
-    const result = await request(query, state.data.semantic_corpus_version, { signal: controller.signal });
+    const result = await request(query, state.data.semantic_corpus_version, { signal: controller.signal, queryOrigin: state.queryOrigin === 'popular' ? 'popular' : state.queryOrigin === 'typed' ? 'typed' : undefined });
     if (state.searchController !== controller) return;
     state.resultIds = [...new Set(result.topicIds)].filter((id) => state.data.topics.some((topic) => topic.id === id));
     state.searchSubmitted = true;
@@ -183,14 +198,15 @@ function renderSummary(topic) {
     if (sourceUrls.has(decodeUrl(part))) {
       const link = element('a', 'summary-source', part);
       link.href = part; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      link.addEventListener('click', () => analytics.send('source_click', { page: 'library', topicId: topic.id, sourceType: sourceTypeForUrl(part) }));
       host.append(link);
     } else host.append(document.createTextNode(part));
   }
-  const value = topic.share.text;
+  const value = buildSummaryCopy(topic.title, topic.share.text);
   const found = (value.match(/https:\/\/[^\s]+/g) || []).map(decodeUrl);
   const sourcesPresent = found.length === sourceUrls.size && found.every((url) => sourceUrls.has(url));
   const valid = value.length <= 500 && sourcesPresent;
-  $('#character-count').textContent = `${value.length} / 500 字元（含來源網址）`;
+  $('#character-count').textContent = `${value.length} / 500 字元（含標題與來源網址）`;
   $('#share-issue').textContent = valid ? '' : '摘要資料暫時無法複製，請用下方回報功能通知維護者。';
   $('#copy-post').disabled = !valid;
   $('#copy-status').textContent = '';
@@ -204,7 +220,9 @@ function openTopic(id, updateAddress = true) {
   $('#detail-scope').hidden = true;
   const badges = $('#detail-badges'); badges.replaceChildren(...sourceBadges(topic).childNodes);
   renderSummary(topic);
-  $('#copy-post span').textContent = '複製摘要與來源';
+  const recorded = analytics.send('topic_view', { page: 'library', topicId: topic.id });
+  pendingTopicView = recorded ? null : topic.id;
+  $('#copy-post span').textContent = '複製標題、摘要與來源';
   resetReport();
   if (!dialog.open) dialog.showModal(); dialog.scrollTop = 0;
   $('#close-topic').focus({ preventScroll: true });
@@ -218,14 +236,11 @@ function reportText() {
   return lines.join('\n');
 }
 function resetReport() {
-  $('#report-form').hidden = true; $('#open-report').setAttribute('aria-expanded', 'false'); $('#report-note').value = ''; $('#report-status').textContent = '';
+  $('#report-form').hidden = true; $('#open-report').setAttribute('aria-expanded', 'false'); $('#report-note').value = ''; $('#report-status').textContent = ''; $('#report-turnstile-status').textContent = '';
   $('#report-type').selectedIndex = 0;
-}
-function prepareMail() {
-  const mail = $('#report-mail');
-  if (!REPORT_EMAIL) { mail.hidden = true; return; }
-  mail.hidden = false;
-  mail.href = `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(`回報：${state.topic.title}（${state.topic.id}）`)}&body=${encodeURIComponent(reportText())}`;
+  turnstileToken = '';
+  $('#report-send').disabled = true;
+  if (window.turnstile && turnstileWidget !== null) { try { window.turnstile.reset(turnstileWidget); } catch { /* ignore */ } }
 }
 let reportConfig = null; let reportConfigPromise = null; let turnstileToken = ''; let turnstileWidget = null;
 async function loadReportConfig() {
@@ -234,8 +249,15 @@ async function loadReportConfig() {
     try {
       const response = await fetch('/api/config', { headers: { Accept: 'application/json' } });
       const config = response.ok ? await response.json() : {};
-      reportConfig = { open: Boolean(config.reportsOpen), siteKey: config.turnstileSiteKey || null, semanticSearchEnabled: config.semanticSearchEnabled === true };
-    } catch { reportConfig = { open: false, siteKey: null, semanticSearchEnabled: false }; }
+      reportConfig = { open: Boolean(config.reportsOpen), siteKey: config.turnstileSiteKey || null, semanticSearchEnabled: config.semanticSearchEnabled === true, analyticsEnabled: config.analyticsEnabled === true, webAnalyticsToken: config.webAnalyticsToken, analyticsHost: config.analyticsHost || 'puma-note.pages.dev' };
+    } catch { reportConfig = { open: false, siteKey: null, semanticSearchEnabled: false, analyticsEnabled: false }; }
+    if (reportConfig.analyticsEnabled) {
+      analytics = startAnalytics(reportConfig, { page: 'library', topicIds: state.data?.topics.map((topic) => topic.id) || [] });
+      $('#analytics-search-notice').hidden = !analytics.enabled;
+      if (pendingTopicView && dialog.open) {
+        analytics.send('topic_view', { page: 'library', topicId: pendingTopicView }); pendingTopicView = null;
+      }
+    }
     return reportConfig;
   })();
   return reportConfigPromise;
@@ -246,39 +268,44 @@ function updateSemanticSearchAvailability(enabled) {
   option.disabled = !state.semanticSearchEnabled;
   $('#semantic-mode-status').hidden = state.semanticSearchEnabled;
 }
-function loadTurnstileScript() {
-  if (window.turnstile) return Promise.resolve();
-  return new Promise((resolve, reject) => {
-    const script = document.createElement('script');
-    script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'; script.async = true;
-    script.onload = resolve; script.onerror = reject; document.head.append(script);
-  });
-}
 async function prepareSend() {
   const config = await loadReportConfig();
-  $('#report-send').hidden = !config.open;
-  if (!config.open || !config.siteKey || turnstileWidget !== null) return;
+  const send = $('#report-send'); const status = $('#report-turnstile-status');
+  if (!config.open) { send.hidden = true; status.textContent = '問題回報目前未開放；你可以改按「複製回報內容」。'; return; }
+  if (!config.siteKey) { send.hidden = true; status.textContent = '網頁驗證尚未設定，暫時無法直接送出；你可以改按「複製回報內容」。'; return; }
+  send.hidden = false;
+  if (turnstileWidget !== null) { send.disabled = !turnstileToken; return; }
+  send.disabled = true; status.textContent = '正在載入網頁驗證…';
   try {
     await loadTurnstileScript();
-    turnstileWidget = window.turnstile.render('#report-turnstile', { sitekey: config.siteKey, action: 'report', callback: (token) => { turnstileToken = token; }, 'expired-callback': () => { turnstileToken = ''; }, 'error-callback': () => { turnstileToken = ''; } });
-  } catch { $('#report-send').hidden = true; }
+    const compact = $('#report-turnstile').getBoundingClientRect().width < 320;
+    const widget = window.turnstile.render('#report-turnstile', { sitekey: config.siteKey, action: 'report', size: compact ? 'compact' : 'normal', callback: (token) => { turnstileToken = token; send.disabled = false; status.textContent = ''; }, 'expired-callback': () => { turnstileToken = ''; send.disabled = true; status.textContent = '網頁驗證已逾時，請重新完成驗證。'; }, 'error-callback': () => { turnstileToken = ''; send.disabled = true; status.textContent = '網頁驗證失敗，請重新載入後再試；也可以改按「複製回報內容」。'; } });
+    if (widget == null) throw new Error('Turnstile render failed');
+    turnstileWidget = widget;
+  } catch { send.hidden = true; send.disabled = false; status.textContent = '網頁驗證載入失敗或逾時，請稍後重試；也可以改按「複製回報內容」。'; }
 }
 async function sendReport() {
   const config = await loadReportConfig();
   const status = $('#report-status');
+  if (!config.open || !state.topic || $('#report-form').hidden || $('#report-send').disabled) return;
   if (config.siteKey && !turnstileToken) { status.textContent = '請先完成上方的網頁驗證。'; return; }
   $('#report-send').disabled = true; status.textContent = '送出中…';
+  let failureMessage = '回報暫時無法送出。你也可以改按「複製回報內容」。';
   try {
     const response = await fetch('/api/reports', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({
       topicId: state.topic.id, type: $('#report-type').value, note: $('#report-note').value, contentVersion: state.data.content_updated || state.data.source_snapshot_date,
       website: $('#report-website').value, turnstileToken }) });
     const data = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(data?.error?.message || '送出失敗');
-    status.textContent = `已收到回報，編號 ${data.id}。謝謝你協助核對。`; $('#report-note').value = '';
-  } catch (error) {
-    status.textContent = `${error.message || '送出失敗'}。你也可以改按「複製回報內容」。`;
+    if (!response.ok) {
+      const messages = { RATE_LIMITED: '送出得有點密集，請稍後再試。', VERIFICATION_REQUIRED: '請重新完成網頁驗證再送出。', VERIFICATION_FAILED: '網頁驗證已失效，請重新完成驗證。', INVALID_INPUT: '請確認問題類型與說明，或重新開啟這一題。', INPUT_TOO_LONG: '說明太長，請縮短至300字以內。' };
+      failureMessage = messages[data?.error?.code] || failureMessage;
+      throw new Error('send failed');
+    }
+    status.textContent = data.duplicate ? '相同內容的回報已收到，會合併核對，不必重複送出。' : `已收到回報，編號 ${data.id}。謝謝你協助核對。`; $('#report-note').value = '';
+  } catch {
+    status.textContent = failureMessage;
   } finally {
-    $('#report-send').disabled = false; turnstileToken = '';
+    $('#report-send').disabled = true; turnstileToken = '';
     if (window.turnstile && turnstileWidget !== null) { try { window.turnstile.reset(turnstileWidget); } catch { /* ignore */ } }
   }
 }
@@ -286,18 +313,15 @@ function closeTopic() { dialog.close(); }
 
 async function copyPost() {
   if ($('#copy-post').disabled) return;
-  const value = state.topic.share.text; let timer;
+  const value = buildSummaryCopy(state.topic.title, state.topic.share.text); let timer;
   try {
     await Promise.race([navigator.clipboard.writeText(value), new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('clipboard deadline')), 1600); })]);
   } catch {
-    const selection = window.getSelection();
-    if (!selection) { $('#copy-status').textContent = '請選取上方文字，使用瀏覽器的複製功能。'; return; }
-    const range = document.createRange(); range.selectNodeContents($('#share-post'));
-    selection.removeAllRanges(); selection.addRange(range);
-    if (!document.execCommand('copy')) { $('#copy-status').textContent = '請選取上方文字，使用瀏覽器的複製功能。'; return; }
+    if (!copyTextFallback(value)) { $('#copy-status').textContent = '請選取標題與上方摘要，使用瀏覽器的複製功能。'; return; }
   } finally { clearTimeout(timer); }
-  $('#copy-post span').textContent = '摘要已複製'; $('#copy-status').textContent = '摘要與來源已複製。';
-  state.copyTimer = setTimeout(() => { $('#copy-post span').textContent = '複製摘要與來源'; }, 2500);
+  $('#copy-post span').textContent = '內容已複製'; $('#copy-status').textContent = '標題、摘要與來源已複製。';
+  analytics.send('summary_copy', { page: 'library', topicId: state.topic.id });
+  state.copyTimer = setTimeout(() => { $('#copy-post span').textContent = '複製標題、摘要與來源'; }, 2500);
 }
 
 async function loadData() {
@@ -310,13 +334,21 @@ async function loadData() {
     if (!Array.isArray(data.topics) || !Array.isArray(data.groups) || !data.topics.length) throw new Error('Invalid topic data');
     state.data = data;
     loadReportConfig().then((config) => updateSemanticSearchAvailability(config.semanticSearchEnabled));
+    loadPopular().then((payload) => renderPopularSidebar($('#popular-sidebar'), payload, state.data.topics, {
+      onSearch: (term) => {
+        cancelSearch(); state.query = term.slice(0, 150); state.queryOrigin = 'popular'; state.group = ''; $('#topic-query').value = state.query;
+        setAddress(''); submitSearch();
+      },
+      onTopicClick: (topicId) => analytics.send('topic_click', { page: 'library', topicId, origin: 'popular' }),
+    }));
     const params = new URLSearchParams(location.search); const group = params.get('group');
-    state.group = data.groups.some((g) => g.id === group) ? group : ''; state.query = (params.get('q') || '').slice(0, 150);
+    state.group = data.groups.some((g) => g.id === group) ? group : ''; state.query = (params.get('q') || '').slice(0, 150); state.queryOrigin = state.query ? 'typed' : 'browse';
     $('#topic-query').value = state.query;
-    $('#topic-count').textContent = data.topics.length; $('#all-count').textContent = data.topics.length; $('#group-count').textContent = data.groups.length;
-    $('#source-count').textContent = data.topics.filter((t) => t.official.length).length;
+    if (params.has('q')) setAddress(params.get('topic') || '');
+    $('#all-count').textContent = data.topics.length;
     document.querySelectorAll('.snapshot-date').forEach((node) => { node.textContent = dateLabel(data.source_snapshot_date); });
     document.querySelectorAll('.content-date').forEach((node) => { node.textContent = dateLabel(data.content_updated || data.source_snapshot_date); });
+    document.querySelector('[data-site-report]')?.setAttribute('data-content-version', data.content_updated || data.source_snapshot_date);
     render(); if (params.has('topic')) openTopic(params.get('topic'), false);
   } catch {
     $('#categories').replaceChildren(); $('#categories').setAttribute('aria-busy', 'false');
@@ -324,13 +356,13 @@ async function loadData() {
   } finally { clearTimeout(timeout); }
 }
 
-function clearFilters() { cancelSearch(); state.resultIds = null; state.searchSubmitted = false; state.searchMessage = ''; state.query = ''; state.group = ''; $('#topic-query').value = ''; render(); setAddress(''); }
+function clearFilters() { cancelSearch(); state.resultIds = null; state.searchSubmitted = false; state.searchMessage = ''; state.query = ''; state.queryOrigin = 'browse'; state.group = ''; $('#topic-query').value = ''; render(); setAddress(''); }
 $('#search-form').addEventListener('submit', (event) => {
   event.preventDefault(); $('#topic-query').blur();
   submitSearch();
   $('#filter-status').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
 });
-$('#topic-query').addEventListener('input', (event) => { cancelSearch(); state.resultIds = null; state.searchSubmitted = false; state.searchMessage = ''; state.query = event.target.value; render(); setAddress(''); });
+$('#topic-query').addEventListener('input', (event) => { cancelSearch(); state.resultIds = null; state.searchSubmitted = false; state.searchMessage = ''; state.query = event.target.value; state.queryOrigin = 'typed'; render(); setAddress(''); });
 document.querySelectorAll('input[name="search-mode"]').forEach((input) => input.addEventListener('change', (event) => {
   cancelSearch(); state.resultIds = null; state.searchSubmitted = false; state.searchMessage = '';
   state.searchMode = event.target.value; render();
@@ -344,9 +376,8 @@ dialog.addEventListener('close', () => {
   if (history.state?.pumaTopicId === previous.id) history.back(); else setAddress('');
 });
 $('#copy-post').addEventListener('click', copyPost);
-$('#open-report').addEventListener('click', () => { const form = $('#report-form'); form.hidden = !form.hidden; $('#open-report').setAttribute('aria-expanded', String(!form.hidden)); prepareMail(); if (!form.hidden) { prepareSend(); $('#report-type').focus(); } });
+$('#open-report').addEventListener('click', () => { const form = $('#report-form'); form.hidden = !form.hidden; $('#open-report').setAttribute('aria-expanded', String(!form.hidden)); if (!form.hidden) { prepareSend(); $('#report-type').focus(); } });
 $('#report-send').addEventListener('click', sendReport);
-for (const id of ['#report-type', '#report-note']) $(id).addEventListener('input', prepareMail);
 $('#report-copy').addEventListener('click', async () => {
   const text = reportText();
   try { await navigator.clipboard.writeText(text); $('#report-status').textContent = '回報內容已複製。'; }

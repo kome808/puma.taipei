@@ -1,0 +1,26 @@
+{
+  "created": "2026-11-09",
+  "tool": "image_gen.imagegen",
+  "purpose": "在圖卡網址前明確標示 Puma政策筆記，避免誤認為沈伯洋官網",
+  "referenceVersion": "v3",
+  "outputVersion": "v4",
+  "prompts": [
+    "Make ONE precise edit to this finished Traditional Chinese text card: in the LAST URL row replace the generic label 「網址：」 with the explicit label 「Puma政策筆記網址：」. The full URL must remain EXACTLY https://puma-note.pages.dev/topics/t005/ . It must be obvious that this URL belongs to Puma政策筆記, distinct from the candidate official website mentioned above. Keep ALL other wording, including the AI attribution, source citation, policy headline, all three numbered policy sections, brand, category, punctuation and all source details unchanged. Keep exactly the current color palette, paper texture, typography, illustration and aspect ratio. If the longer label needs more width, gently reposition the tiny bottom-right mascot or wrap the label and full URL onto two clean lines; do not truncate or omit either. Do not reintroduce 「完整摘要與來源」 or 「民間獨立整理・非官方網站」. Preserve this exact existing attribution: 「本圖卡由Puma政策筆記網站以 AI 輔助整理政策重點，完整政策與最新資訊，請以沈伯洋官網為準。」. No other changes. Output the entire final card. Keep the 4:5 portrait format for 1080x1350 delivery.",
+    "Make ONE precise edit to this finished Traditional Chinese text card: in the LAST URL row replace the generic label 「網址：」 with the explicit label 「Puma政策筆記網址：」. The full URL must remain EXACTLY https://puma-note.pages.dev/topics/t005/ . It must be obvious that this URL belongs to Puma政策筆記, distinct from the candidate official website mentioned above. Keep ALL other wording, including the AI attribution, source citation, policy headline, all three numbered policy sections, brand, category, punctuation and all source details unchanged. Keep exactly the current color palette, paper texture, typography, illustration and aspect ratio. If the longer label needs more width, gently reposition the tiny bottom-right mascot or wrap the label and full URL onto two clean lines; do not truncate or omit either. Do not reintroduce 「完整摘要與來源」 or 「民間獨立整理・非官方網站」. Preserve this exact existing attribution: 「本圖卡由Puma政策筆記網站以 AI 輔助整理政策重點，完整政策與最新資訊，請以沈伯洋官網為準。」. No other changes. Output the entire final card. Keep the 1200x630 wide landscape social-preview format."
+  ],
+  "sourceOutputs": [
+    "exec-2a0cad7d-a539-4bae-bc93-f3eedb61acbf.png",
+    "exec-4791606b-963b-4732-811e-195e74860fcc.png"
+  ],
+  "export": {
+    "portrait": [
+      1080,
+      1350
+    ],
+    "landscape": [
+      1200,
+      630
+    ],
+    "method": "sips resample; cwebp q90 preview"
+  }
+}

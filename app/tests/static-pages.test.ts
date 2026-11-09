@@ -33,11 +33,12 @@ test("static Pages build is clean, repeatable, and contains the public topic lib
   ]);
   assert.deepEqual(rootHtml, topicHtml);
   assert.match(searchJs, /export function searchTopics\(/);
-  assert.deepEqual(JSON.parse(routesText), { version: 1, include: ["/api/*"], exclude: [] });
+  assert.deepEqual(JSON.parse(routesText), { version: 1, include: ["/api/*", "/admin", "/admin/*"], exclude: [] });
   assert.match(headers, /X-Content-Type-Options: nosniff/);
   assert.match(headers, /Strict-Transport-Security: max-age=31536000/);
-  assert.match(headers, /script-src 'self';/);
-  assert.match(headers, /connect-src 'self';/);
+  assert.match(headers, /script-src 'self' https:\/\/challenges\.cloudflare\.com https:\/\/static\.cloudflareinsights\.com;/);
+  assert.match(headers, /connect-src 'self' https:\/\/challenges\.cloudflare\.com https:\/\/cloudflareinsights\.com;/);
+  assert.match(headers, /frame-src https:\/\/challenges\.cloudflare\.com;/);
 
   const files = await readdir(output, { recursive: true });
   const paths = files.map(String);
@@ -45,6 +46,7 @@ test("static Pages build is clean, repeatable, and contains the public topic lib
   assert.ok(paths.includes("topics/data.json"));
   assert.ok(paths.includes("topics/topics.css"));
   assert.ok(paths.includes("topics/topics.js"));
+  assert.ok(!paths.some((path) => path === "admin" || path.startsWith("admin/")), "private dashboard assets must be embedded behind authorization");
   assert.ok(!paths.some((path) => /assets\/index-.*\.js$/.test(path)));
   assert.ok(!paths.some((path) => /react|legacy-form/i.test(path)));
   assert.doesNotMatch(worker.toString(), /api\.openai\.com|openai/i);
