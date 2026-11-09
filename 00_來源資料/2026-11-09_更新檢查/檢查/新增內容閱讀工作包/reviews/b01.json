@@ -1,0 +1,44 @@
+{
+  "batch_id": "b01",
+  "read_units": [
+    {
+      "unit_id": "u0001",
+      "doc_id": "d0001",
+      "start": 0,
+      "end": 2761,
+      "sha256": "6500e510f040cf0c66a802fc1111c5f00471b12a080079dea954682b0f6cfdf8",
+      "read_fully": true
+    }
+  ],
+  "source_readings": [
+    {
+      "doc_id": "d0001",
+      "summary": "完整閱讀住宅政策七節正文，含老宅行動服務團、研擬加碼、專有修繕、空屋包租代管與分型社宅；四張圖由官方來源Agent全部視讀。數字屬來源主張／目標，未作成效或法律適用背書。"
+    }
+  ],
+  "topics": [
+    {
+      "working_title": "老宅安全與無障礙",
+      "source_refs": [
+        {
+          "unit_id": "u0001",
+          "doc_id": "d0001",
+          "url": "https://puma.taipei/policies/%E4%BD%8F%E5%AE%85%E6%94%BF%E7%AD%96",
+          "support_excerpt": "建立單一窗口並導入AI系統媒合最佳方案"
+        }
+      ]
+    },
+    {
+      "working_title": "不同家庭住宅與社宅",
+      "source_refs": [
+        {
+          "unit_id": "u0001",
+          "doc_id": "d0001",
+          "url": "https://puma.taipei/policies/%E4%BD%8F%E5%AE%85%E6%94%BF%E7%AD%96",
+          "support_excerpt": "目標引導 10%（約 4,000 戶）轉入包租代管體系"
+        }
+      ]
+    }
+  ],
+  "review_scope": "父Agent及官方來源Agent讀全文；另一Agent獨立對照t004/t005與相關舊訪談。未聽校影音。"
+}

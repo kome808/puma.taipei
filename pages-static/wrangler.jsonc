@@ -9,5 +9,5 @@
     "database_name": "puma-policy-v1",
     "database_id": "be2e70a9-032c-474d-9550-8e6b98cb5cd8"
   }],
-  "vars": { "ENVIRONMENT": "production", "SEMANTIC_SEARCH_ENABLED": "false", "SEMANTIC_QUOTA_RESET_DAY": "1" }
+  "vars": { "ENVIRONMENT": "production", "SEMANTIC_SEARCH_ENABLED": "false", "REPORTS_ENABLED": "false", "SEMANTIC_QUOTA_RESET_DAY": "1" }
 }

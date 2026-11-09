@@ -29,6 +29,7 @@ export interface Env {
     search(input: Record<string, unknown>): Promise<{ chunks: SearchChunk[] }>;
   };
   SEMANTIC_SEARCH_ENABLED?: string;
+  REPORTS_ENABLED?: string;
   SEMANTIC_QUOTA_RESET_DAY?: string;
   OPENAI_API_KEY?: string;
   OPENAI_MODEL?: string;

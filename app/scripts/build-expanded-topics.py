@@ -15,7 +15,7 @@ APP = Path(__file__).resolve().parents[1]
 ROOT = APP.parent
 BASE = ROOT / '00_來源資料/2026-11-06_更新版01/檢查/全文閱讀工作包'
 CONTENT = APP / 'content/policy-topics'
-PACKS = {'main': BASE / 'units', 'official-pdf': ROOT / '00_來源資料/2026-11-06_更新版01/補充文字/全文閱讀工作包/units'}
+PACKS = {'main': BASE / 'units', 'official-pdf': ROOT / '00_來源資料/2026-11-06_更新版01/補充文字/全文閱讀工作包/units', 'source-update-20261109': ROOT / '00_來源資料/2026-11-09_更新檢查/檢查/新增內容閱讀工作包/units'}
 OUT = APP / 'output/policy-topics'
 
 

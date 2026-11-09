@@ -1,4 +1,5 @@
 import { REPORT_EMAIL } from './site-config.js';
+import { buildSummaryCopy, copyTextFallback } from './summary-copy.mjs';
 
 const $ = (selector) => document.querySelector(selector);
 const main = $('#topic-page');
@@ -8,6 +9,8 @@ if (main) {
   const canonical = document.querySelector('link[rel="canonical"]')?.href || '';
   const summary = $('#share-post');
   const summaryText = summary?.textContent || '';
+  const summaryCopy = buildSummaryCopy(title, summaryText);
+  if ($('#character-count')) $('#character-count').textContent = `${summaryCopy.length} / 500 字元（含標題與來源網址）`;
   const reportForm = $('#report-form');
   let configPromise = null;
   let turnstileToken = '';
@@ -83,11 +86,7 @@ if (main) {
     } finally { clearTimeout(timer); }
   }
   function selectSummary() {
-    const selection = window.getSelection();
-    if (!selection || !summary) return false;
-    const range = document.createRange(); range.selectNodeContents(summary);
-    selection.removeAllRanges(); selection.addRange(range);
-    return document.execCommand('copy');
+    return copyTextFallback(summaryCopy);
   }
   function selectLink() {
     const field = document.createElement('textarea');
@@ -99,12 +98,12 @@ if (main) {
   }
   $('#copy-post')?.addEventListener('click', async () => {
     const button = $('#copy-post'); const status = $('#copy-status');
-    if (summaryText.length > 500 || !summary) { safeStatus(status, '摘要超過 500 字元，無法複製。'); return; }
-    const ok = await copyText(summaryText, status, '無法自動複製，請選取上方摘要後使用瀏覽器複製功能。', selectSummary);
+    if (summaryCopy.length > 500 || !summary) { safeStatus(status, '標題與摘要超過 500 字元，無法複製。'); return; }
+    const ok = await copyText(summaryCopy, status, '無法自動複製，請選取標題與上方摘要後使用瀏覽器複製功能。', selectSummary);
     if (!ok) return;
-    const label = button.querySelector('span'); if (label) label.textContent = '摘要已複製';
-    safeStatus(status, '摘要與來源已複製。'); clearTimeout(copyTimer);
-    copyTimer = setTimeout(() => { if (label) label.textContent = '複製摘要與來源'; }, 1600);
+    const label = button.querySelector('span'); if (label) label.textContent = '內容已複製';
+    safeStatus(status, '標題、摘要與來源已複製。'); clearTimeout(copyTimer);
+    copyTimer = setTimeout(() => { if (label) label.textContent = '複製標題、摘要與來源'; }, 1600);
   });
   $('#copy-link')?.addEventListener('click', async () => {
     const button = $('#copy-link'); const status = $('#link-copy-status');

@@ -127,12 +127,18 @@ test('the exported public data mirrors the source data when it has been built', 
 });
 
 test('share preview image and error-report entry exist', () => {
-  assert.ok(existsSync(new URL('../public/og-image.png', import.meta.url)));
-  const png = readFileSync(new URL('../public/og-image.png', import.meta.url));
-  assert.equal(png.readUInt32BE(16), 1200); assert.equal(png.readUInt32BE(20), 630); assert.ok(png.length < 1_000_000);
+  let sharedImage = '';
   for (const file of ['index.html', 'public/topics/index.html']) {
     const html = read(file);
-    assert.match(html, /og:image" content="https:\/\/puma-note\.pages\.dev\/og-image\.png/);
+    const image = html.match(/property="og:image" content="([^"]+)"/)?.[1];
+    assert.ok(image, `${file} needs a preview image`);
+    const url = new URL(image);
+    assert.equal(url.origin, 'https://puma-note.pages.dev');
+    assert.match(url.pathname, /^\/og-image-[a-z0-9-]+\.png$/, 'use a versioned image path for social cache refresh');
+    if (sharedImage) assert.equal(image, sharedImage); else sharedImage = image;
+    assert.ok(html.includes(`name="twitter:image" content="${image}"`));
+    const png = readFileSync(new URL(`../public${url.pathname}`, import.meta.url));
+    assert.equal(png.readUInt32BE(16), 1200); assert.equal(png.readUInt32BE(20), 630); assert.ok(png.length < 1_000_000);
     assert.match(html, /summary_large_image/);
     assert.match(html, /og:image:alt/);
   }

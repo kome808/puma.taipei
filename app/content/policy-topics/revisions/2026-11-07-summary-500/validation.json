@@ -4,8 +4,8 @@
   "errors": [],
   "min": 223,
   "max": 471,
-  "mean": 388,
-  "at_least_400": 37,
+  "mean": 389,
+  "at_least_400": 38,
   "rows": [
     {
       "id": "t001",
@@ -64,35 +64,37 @@
       "id": "t004",
       "group": "居住與城市更新",
       "title": "老宅安全與無障礙改善如何取得協助？",
-      "utf16": 398,
-      "body_chars": 331,
-      "official": false,
+      "utf16": 404,
+      "body_chars": 303,
+      "official": true,
       "interview": true,
       "urls": [
+        "https://puma.taipei/policies/住宅政策",
         "https://puma-hub.pages.dev/articles/zhao-shaokang-2026-10-14/"
       ],
-      "supports": 9,
-      "has_official_topic": false,
+      "supports": 16,
+      "has_official_topic": true,
       "has_interview_topic": true,
       "scope": "municipal_policy",
-      "below_target_reason": "單一訪談文章；未提供補助金額、預算或施行時程，不另補造內容。"
+      "below_target_reason": ""
     },
     {
       "id": "t005",
       "group": "居住與城市更新",
       "title": "不同家庭如何取得合適住宅或換居安排？",
-      "utf16": 402,
-      "body_chars": 338,
-      "official": false,
+      "utf16": 423,
+      "body_chars": 325,
+      "official": true,
       "interview": true,
       "urls": [
+        "https://puma.taipei/policies/住宅政策",
         "https://puma-hub.pages.dev/articles/fang-yehan-2026-10-20/"
       ],
-      "supports": 10,
-      "has_official_topic": false,
+      "supports": 14,
+      "has_official_topic": true,
       "has_interview_topic": true,
       "scope": "municipal_policy",
-      "below_target_reason": "僅有單一訪談來源且無官方政策頁；不另補造補助或建設內容。"
+      "below_target_reason": ""
     },
     {
       "id": "t006",

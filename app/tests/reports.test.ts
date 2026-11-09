@@ -8,7 +8,7 @@ const READ = 'r'.repeat(32);
 const WRITE = 'w'.repeat(32);
 function setup(extra: Partial<Env> = {}) {
   const { db } = openLocalDatabase();
-  const env = { DB: db, ENVIRONMENT: 'development', ASSETS: { fetch: async () => new Response('asset') }, REPORTS_READ_TOKEN: READ, REPORTS_WRITE_TOKEN: WRITE, ...extra } as unknown as Env;
+  const env = { DB: db, ENVIRONMENT: 'development', ASSETS: { fetch: async () => new Response('asset') }, REPORTS_ENABLED: 'true', REPORTS_READ_TOKEN: READ, REPORTS_WRITE_TOKEN: WRITE, ...extra } as unknown as Env;
   const call = (path: string, init: RequestInit = {}, headers: Record<string, string> = {}) =>
     worker.fetch(new Request(`https://policy.example${path}`, { ...init, headers: { 'Content-Type': 'application/json', ...headers } }), env);
   return { env, call };
@@ -84,4 +84,24 @@ test('config tells the page whether reporting is open', async () => {
   assert.equal(config.reportsOpen, true);
   const { call: prod } = setup({ ENVIRONMENT: 'production' });
   assert.equal(((await (await prod('/api/config')).json()) as { reportsOpen: boolean }).reportsOpen, false);
+});
+
+test('reports stay closed unless REPORTS_ENABLED is exactly "true", even with keys and development mode', async () => {
+  for (const flag of [undefined, 'false', 'TRUE', '1']) {
+    const { call } = setup({ REPORTS_ENABLED: flag, TURNSTILE_SITE_KEY: 'site', TURNSTILE_SECRET_KEY: 'secret', RATE_LIMIT_SALT: 'x'.repeat(32) });
+    const config = await (await call('/api/config')).json() as { reportsOpen: boolean };
+    assert.equal(config.reportsOpen, false, `flag ${flag}`);
+    const sent = await call('/api/reports', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(good) });
+    assert.equal(sent.status, 503, `flag ${flag}`);
+  }
+});
+
+test('deploy configs keep reports and semantic search off', async () => {
+  const { readFileSync } = await import('node:fs');
+  for (const file of ['../wrangler.jsonc', '../../pages-static/wrangler.jsonc', '../../pages-search/wrangler.jsonc']) {
+    const text = readFileSync(new URL(file, import.meta.url), 'utf8');
+    if (text.includes('REPORTS_ENABLED')) assert.match(text, /"REPORTS_ENABLED":\s*"false"/, file);
+    else assert.fail(`${file} must state REPORTS_ENABLED explicitly`);
+    if (text.includes('SEMANTIC_SEARCH_ENABLED')) assert.match(text, /"SEMANTIC_SEARCH_ENABLED":\s*"false"/, file);
+  }
 });

@@ -1,6 +1,7 @@
 import { CATEGORY_ART } from './categories.js';
 import { REPORT_EMAIL } from './site-config.js';
 import { requestBasicSearch, requestSemanticSearch } from './semantic-search-client.mjs';
+import { buildSummaryCopy, copyTextFallback } from './summary-copy.mjs';
 
 const $ = (selector) => document.querySelector(selector);
 const state = { data: null, group: '', query: '', topic: null, copyTimer: null, searchMode: 'basic', resultIds: null, searchSubmitted: false, searchBusy: false, searchMessage: '', searchController: null, semanticSearchEnabled: false };
@@ -186,11 +187,11 @@ function renderSummary(topic) {
       host.append(link);
     } else host.append(document.createTextNode(part));
   }
-  const value = topic.share.text;
+  const value = buildSummaryCopy(topic.title, topic.share.text);
   const found = (value.match(/https:\/\/[^\s]+/g) || []).map(decodeUrl);
   const sourcesPresent = found.length === sourceUrls.size && found.every((url) => sourceUrls.has(url));
   const valid = value.length <= 500 && sourcesPresent;
-  $('#character-count').textContent = `${value.length} / 500 字元（含來源網址）`;
+  $('#character-count').textContent = `${value.length} / 500 字元（含標題與來源網址）`;
   $('#share-issue').textContent = valid ? '' : '摘要資料暫時無法複製，請用下方回報功能通知維護者。';
   $('#copy-post').disabled = !valid;
   $('#copy-status').textContent = '';
@@ -204,7 +205,7 @@ function openTopic(id, updateAddress = true) {
   $('#detail-scope').hidden = true;
   const badges = $('#detail-badges'); badges.replaceChildren(...sourceBadges(topic).childNodes);
   renderSummary(topic);
-  $('#copy-post span').textContent = '複製摘要與來源';
+  $('#copy-post span').textContent = '複製標題、摘要與來源';
   resetReport();
   if (!dialog.open) dialog.showModal(); dialog.scrollTop = 0;
   $('#close-topic').focus({ preventScroll: true });
@@ -286,18 +287,14 @@ function closeTopic() { dialog.close(); }
 
 async function copyPost() {
   if ($('#copy-post').disabled) return;
-  const value = state.topic.share.text; let timer;
+  const value = buildSummaryCopy(state.topic.title, state.topic.share.text); let timer;
   try {
     await Promise.race([navigator.clipboard.writeText(value), new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('clipboard deadline')), 1600); })]);
   } catch {
-    const selection = window.getSelection();
-    if (!selection) { $('#copy-status').textContent = '請選取上方文字，使用瀏覽器的複製功能。'; return; }
-    const range = document.createRange(); range.selectNodeContents($('#share-post'));
-    selection.removeAllRanges(); selection.addRange(range);
-    if (!document.execCommand('copy')) { $('#copy-status').textContent = '請選取上方文字，使用瀏覽器的複製功能。'; return; }
+    if (!copyTextFallback(value)) { $('#copy-status').textContent = '請選取標題與上方摘要，使用瀏覽器的複製功能。'; return; }
   } finally { clearTimeout(timer); }
-  $('#copy-post span').textContent = '摘要已複製'; $('#copy-status').textContent = '摘要與來源已複製。';
-  state.copyTimer = setTimeout(() => { $('#copy-post span').textContent = '複製摘要與來源'; }, 2500);
+  $('#copy-post span').textContent = '內容已複製'; $('#copy-status').textContent = '標題、摘要與來源已複製。';
+  state.copyTimer = setTimeout(() => { $('#copy-post span').textContent = '複製標題、摘要與來源'; }, 2500);
 }
 
 async function loadData() {
@@ -313,8 +310,7 @@ async function loadData() {
     const params = new URLSearchParams(location.search); const group = params.get('group');
     state.group = data.groups.some((g) => g.id === group) ? group : ''; state.query = (params.get('q') || '').slice(0, 150);
     $('#topic-query').value = state.query;
-    $('#topic-count').textContent = data.topics.length; $('#all-count').textContent = data.topics.length; $('#group-count').textContent = data.groups.length;
-    $('#source-count').textContent = data.topics.filter((t) => t.official.length).length;
+    $('#all-count').textContent = data.topics.length;
     document.querySelectorAll('.snapshot-date').forEach((node) => { node.textContent = dateLabel(data.source_snapshot_date); });
     document.querySelectorAll('.content-date').forEach((node) => { node.textContent = dateLabel(data.content_updated || data.source_snapshot_date); });
     render(); if (params.has('topic')) openTopic(params.get('topic'), false);

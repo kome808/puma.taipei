@@ -1,0 +1,49 @@
+[
+  {
+    "doc_id": "d0001",
+    "resource_id": "官方政策:policy_17_住宅政策",
+    "entry_ids": [],
+    "title": "住宅政策",
+    "url": "https://puma.taipei/policies/%E4%BD%8F%E5%AE%85%E6%94%BF%E7%AD%96",
+    "kind": "policy_detail",
+    "source_group": "官方政策",
+    "text_path": "官方政策/policy_17_住宅政策.md",
+    "retrieved_at": "2026-11-09T06:15:18+00:00",
+    "source_warnings": [],
+    "notes": "原始 HTML bytes 與可讀 Markdown 已保存；內容未驗證、未改寫。",
+    "text_sha256": "a02762dc8bdf4c714a042f2af9b1ba451edc3b91776380aa55b400935d5cd955",
+    "original_chars": 3220,
+    "visible_chars": 2763,
+    "links": [
+      {
+        "label": "住宅政策 代表圖",
+        "url": "https://media.puma.taipei/files/425/PJq0URAuTlLpcUdja3wQobuZyk2320G8Ez3w65ae.jpg",
+        "image": true
+      },
+      {
+        "label": "",
+        "url": "https://media.puma.taipei/files/426/conversions/zmcphb8F1prmMgKBCIVPz03xNI1DJnptBdynNQau-large.webp",
+        "image": true
+      },
+      {
+        "label": "",
+        "url": "https://media.puma.taipei/files/427/conversions/ggU8ROVDy0AfWb25kTkJ7Toy7y0fx9SGW5w6TbXQ-large.webp",
+        "image": true
+      },
+      {
+        "label": "",
+        "url": "https://media.puma.taipei/files/428/conversions/250fdgouurJZF529SZayHugmobF0fXfoCZtp1QLH-large.webp",
+        "image": true
+      },
+      {
+        "label": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/deed.zh-hant",
+        "image": false
+      }
+    ],
+    "reading_chars": 2761,
+    "units": [
+      "u0001"
+    ]
+  }
+]

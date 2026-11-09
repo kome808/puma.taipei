@@ -12,8 +12,8 @@ const publicDir = resolve(root, "public");
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 await cp(publicDir, output, { recursive: true });
-await cp(resolve(publicDir, "topics/index.html"), resolve(output, "index.html"));
 await buildTopicPages(output);
+await cp(resolve(output, "topics/index.html"), resolve(output, "index.html"));
 await writeFile(resolve(output, "_headers"), `/*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin

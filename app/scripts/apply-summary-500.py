@@ -185,7 +185,8 @@ def main():
     print(json.dumps({k: v for k, v in report.items() if k != 'rows'}, ensure_ascii=False, indent=2)[:6000])
     if errors: raise SystemExit(1)
     if args.apply:
-        data['content_revision'] = {'date': '2026-11-07', 'note': '短摘要（含來源網址）以500 UTF-16字元為上限，逐題對照原文摘錄。'}
+        # keep a later, hand-recorded revision (e.g. 2026-11-09 source update); only set the baseline when missing
+        data.setdefault('content_revision', {'date': '2026-11-07', 'note': '短摘要（含來源網址）以500 UTF-16字元為上限，逐題對照原文摘錄。'})
         TOPICS.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
         print('applied')
 

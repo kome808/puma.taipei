@@ -1,0 +1,20 @@
+{
+  "deployment_id": "f1d7c433-d408-4d86-9419-ecc69e1831e8",
+  "previous_deployment_id": "c16f8265-90d1-4b21-9565-99b9ceaed90d",
+  "url": "https://puma-note.pages.dev/",
+  "image": {
+    "path": "og-image-steps-20261109.png",
+    "width": 1200,
+    "height": 630,
+    "bytes": 279382,
+    "sha256": "f9fc1bbae571e9971e723739b574db5d4c3e3e9e49878c436b635c7a75d3007d"
+  },
+  "changed_files": [
+    "index.html",
+    "og-image-steps-20261109.png",
+    "topics/index.html"
+  ],
+  "tests_passed": 12,
+  "public_files_verified": 113,
+  "threads_actual_preview_verified": false
+}

@@ -25,6 +25,8 @@ function cleanNote(value: unknown) {
 }
 
 export function reportsOpen(env: Env) {
+  // Master switch: reports stay closed unless REPORTS_ENABLED is exactly "true", whatever keys exist.
+  if (env.REPORTS_ENABLED !== 'true') return false;
   return env.ENVIRONMENT === 'development' || Boolean(env.TURNSTILE_SITE_KEY && env.TURNSTILE_SECRET_KEY && env.RATE_LIMIT_SALT);
 }
 
